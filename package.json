@@ -1,0 +1,17 @@
+{
+  "name": "letakovy-porovnavac",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -c-1",
+    "import:penny": "node scripts/import-penny.mjs",
+    "validate": "node scripts/validate-offers.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

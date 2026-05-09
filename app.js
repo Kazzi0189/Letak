@@ -103,13 +103,13 @@ function addToCart(offerId) {
   if (!offer) return;
   state.cart.push({ ...offer, cartId: `${Date.now()}-${Math.random().toString(16).slice(2)}` });
   saveState();
-  render();
+  renderDynamic();
 }
 
 function removeFromCart(cartId) {
   state.cart = state.cart.filter((item) => item.cartId !== cartId);
   saveState();
-  render();
+  renderDynamic();
 }
 
 function toggleStore(storeId) {
@@ -133,7 +133,7 @@ function addCheapestVisible() {
     state.cart.push({ ...offer, cartId: `${Date.now()}-${Math.random().toString(16).slice(2)}` });
   }
   saveState();
-  render();
+  renderDynamic();
 }
 
 function renderStores() {
@@ -263,15 +263,15 @@ function render() {
               <button class="btn secondary" data-action="clear-cart">Vyprázdnit košík</button>
             </div>
           </div>
-          ${renderOffers()}
+          <div id="offers-list">${renderOffers()}</div>
         </div>
 
         <aside class="card cart">
           <div>
             <h2>3. Košíky</h2>
-            <p>Celkem: <strong>${formatPrice(cartTotal())}</strong></p>
+            <p>Celkem: <strong id="cart-total-inline">${formatPrice(cartTotal())}</strong></p>
           </div>
-          ${renderCart()}
+          <div id="cart-list">${renderCart()}</div>
         </aside>
       </section>
     </main>
@@ -279,7 +279,7 @@ function render() {
     <div class="bottom-bar">
       <div>
         <div class="small">Košík celkem</div>
-        <div class="bottom-total">${formatPrice(cartTotal())}</div>
+        <div id="bottom-total" class="bottom-total">${formatPrice(cartTotal())}</div>
       </div>
       <button class="btn" data-action="add-cheapest">Přidat nejlevnější</button>
     </div>
@@ -292,13 +292,28 @@ function render() {
 
   document.querySelector('#query')?.addEventListener('input', (event) => {
     state.query = event.target.value;
-    render();
+    renderDynamic();
   });
 
   document.querySelector('#sort')?.addEventListener('change', (event) => {
     state.sortBy = event.target.value;
-    render();
+    renderDynamic();
   });
+}
+
+function renderDynamic() {
+  const offersList = document.querySelector('#offers-list');
+  if (offersList) offersList.innerHTML = renderOffers();
+
+  const cartList = document.querySelector('#cart-list');
+  if (cartList) cartList.innerHTML = renderCart();
+
+  const total = formatPrice(cartTotal());
+  const inlineTotal = document.querySelector('#cart-total-inline');
+  if (inlineTotal) inlineTotal.textContent = total;
+
+  const bottomTotal = document.querySelector('#bottom-total');
+  if (bottomTotal) bottomTotal.textContent = total;
 }
 
 app.addEventListener('click', (event) => {
@@ -312,7 +327,7 @@ app.addEventListener('click', (event) => {
   if (action === 'clear-cart') {
     state.cart = [];
     saveState();
-    render();
+    renderDynamic();
   }
 });
 

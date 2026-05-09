@@ -25,7 +25,7 @@ function htmlToLines(html) {
     .replace(/<li[^>]*>/gi, "\n* ")
     .replace(/<\/li>/gi, "\n")
     .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/<\/(p|div|section|article|ul|ol|a|span|strong|em|s|del)>/gi, "\n")
+    .replace(/<\/(p|div|section|article|ul|ol|a)>/gi, "\n")
     .replace(/<[^>]+>/g, " ");
 
   return decodeHtml(cleaned)
@@ -51,18 +51,18 @@ function toNumber(value) {
   return Number.isFinite(number) ? number : null;
 }
 
+function isMainPriceLine(line) {
+  return /^\d{1,4}(?:\s?\d{3})*,\d{2}\s*Kč$/i.test(line.trim());
+}
+
 function parseMainPrice(line) {
-  const match = line.trim().match(/^(\d{1,4}(?:\s?\d{3})*,\d{2})\s*Kč\b/i);
+  const match = line.match(/^(\d{1,4}(?:\s?\d{3})*,\d{2})\s*Kč$/i);
   return match ? toNumber(match[1]) : null;
 }
 
-function isMainPriceLine(line) {
-  return parseMainPrice(line) !== null;
-}
-
 function parseUnitPrice(line) {
-  const match = line.trim().match(
-    /^((?:\d+(?:[ ,.]\d+)?)\s*(?:kg|g|l|ml|ks))\s+(\d{1,4}(?:\s?\d{3})*,\d{2})\s*Kč\b/i
+  const match = line.match(
+    /^((?:\d+(?:[ ,]\d+)?)\s*(?:kg|g|l|ml|ks))\s+(\d{1,4}(?:\s?\d{3})*,\d{2})\s*Kč$/i
   );
 
   if (!match) return null;
@@ -74,7 +74,7 @@ function parseUnitPrice(line) {
 }
 
 function isPackageSize(line) {
-  return /^(\d+(?:[ ,.]\d+)?\s*(g|kg|ml|l|ks)|\d+\s?pack)$/i.test(line.trim());
+  return /^(\d+(?:[ ,]\d+)?\s*(g|kg|ml|l|ks)|\d+\s?pack)$/i.test(line.trim());
 }
 
 function cleanTitle(title) {
@@ -99,11 +99,10 @@ function pickPrice(block) {
 
   if (cardIndex >= 0) {
     for (let i = cardIndex + 1; i < block.length; i++) {
-      const price = parseMainPrice(block[i]);
-      if (price !== null) {
+      if (isMainPriceLine(block[i])) {
         return {
           index: i,
-          price,
+          price: parseMainPrice(block[i]),
           priceType: "s PENNY kartou",
         };
       }
@@ -111,25 +110,16 @@ function pickPrice(block) {
   }
 
   for (let i = 0; i < block.length; i++) {
-    const price = parseMainPrice(block[i]);
-    if (price !== null) {
+    if (isMainPriceLine(block[i])) {
       return {
         index: i,
-        price,
+        price: parseMainPrice(block[i]),
         priceType: "akční cena",
       };
     }
   }
 
   return null;
-}
-
-function isBadProductName(product) {
-  return (
-    !product ||
-    product.length < 3 ||
-    /akční nabídka|chcete nás poznat|penny market|kontaktujte nás|sledujte penny/i.test(product)
-  );
 }
 
 function parseOffers(lines) {
@@ -150,7 +140,8 @@ function parseOffers(lines) {
     const product = cleanTitle(lines[start]);
     const block = lines.slice(start + 1, end);
 
-    if (isBadProductName(product)) continue;
+    if (!product || product.length < 3) continue;
+    if (/akční nabídka|chcete nás poznat/i.test(product)) continue;
 
     const priceInfo = pickPrice(block);
     if (!priceInfo || priceInfo.price == null) continue;
@@ -160,7 +151,6 @@ function parseOffers(lines) {
     const validTo = block.find((line) => /^do\s/i.test(line)) ?? "";
 
     let unitInfo = null;
-
     for (let j = priceInfo.index + 1; j < block.length; j++) {
       unitInfo = parseUnitPrice(block[j]);
       if (unitInfo) break;
@@ -191,9 +181,7 @@ function parseOffers(lines) {
     unique.set(key, offer);
   }
 
-  return Array.from(unique.values()).sort((a, b) =>
-    a.product.localeCompare(b.product, "cs")
-  );
+  return Array.from(unique.values());
 }
 
 async function main() {

@@ -1,160 +1,234 @@
-import { load } from 'cheerio';
-import { writeFile, mkdir } from 'node:fs/promises';
-import crypto from 'node:crypto';
+import { createHash } from "node:crypto";
+import { mkdir, writeFile } from "node:fs/promises";
 
-const SOURCE_URL = 'https://www.penny.cz/nabidky';
-const OUT_FILE = new URL('../data/offers.json', import.meta.url);
+const SOURCE_URL = "https://www.penny.cz/nabidky";
+const OUTPUT_FILE = "data/offers.json";
 
-function text(value) {
-  return String(value || '').replace(/\s+/g, ' ').trim();
+function decodeHtml(value) {
+  return value
+    .replace(/&nbsp;/g, " ")
+    .replace(/&#160;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/&#([0-9]+);/g, (_, num) => String.fromCharCode(parseInt(num, 10)));
+}
+
+function htmlToLines(html) {
+  const cleaned = html
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/gi, "\n### $1\n")
+    .replace(/<li[^>]*>/gi, "\n* ")
+    .replace(/<\/li>/gi, "\n")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/(p|div|section|article|ul|ol|a)>/gi, "\n")
+    .replace(/<[^>]+>/g, " ");
+
+  return decodeHtml(cleaned)
+    .split(/\n+/)
+    .map((line) =>
+      line
+        .replace(/\s+/g, " ")
+        .replace(/^[-*]\s*/, "")
+        .trim()
+    )
+    .filter(Boolean);
 }
 
 function toNumber(value) {
-  if (value === null || value === undefined) return null;
-  const clean = String(value)
-    .replace(/Kč|CZK|,/gi, (match) => (match === ',' ? '.' : ''))
-    .replace(/[^0-9.]/g, '');
-  const number = Number(clean);
+  if (!value) return null;
+
+  const normalized = value
+    .replace(/\s/g, "")
+    .replace(",", ".")
+    .replace(/[^\d.]/g, "");
+
+  const number = Number(normalized);
   return Number.isFinite(number) ? number : null;
 }
 
-function idFrom(...parts) {
-  return crypto.createHash('sha1').update(parts.map((part) => String(part || '')).join('|')).digest('hex').slice(0, 16);
+function isMainPriceLine(line) {
+  return /^\d{1,4}(?:\s?\d{3})*,\d{2}\s*Kč$/i.test(line.trim());
 }
 
-function parsePriceFromText(raw) {
-  const value = text(raw);
-  const match = value.match(/(\d{1,4})\s*[,.]\s*(\d{1,2})\s*K[cč]/i) || value.match(/(\d{1,4})\s*K[cč]/i);
+function parseMainPrice(line) {
+  const match = line.match(/^(\d{1,4}(?:\s?\d{3})*,\d{2})\s*Kč$/i);
+  return match ? toNumber(match[1]) : null;
+}
+
+function parseUnitPrice(line) {
+  const match = line.match(
+    /^((?:\d+(?:[ ,]\d+)?)\s*(?:kg|g|l|ml|ks))\s+(\d{1,4}(?:\s?\d{3})*,\d{2})\s*Kč$/i
+  );
+
   if (!match) return null;
-  if (match[2]) return Number(`${match[1]}.${match[2].padEnd(2, '0')}`);
-  return Number(match[1]);
+
+  return {
+    unitPrice: toNumber(match[2]),
+    unit: `Kč/${match[1].replace(/\s+/g, " ")}`,
+  };
 }
 
-function parseUnitPrice(raw) {
-  const value = text(raw);
-  const match = value.match(/(?:1\s*)?(kg|g|l|ml|ks)\s*[/ ]?\s*(\d{1,5}[,.]\d{1,2}|\d{1,5})\s*K[cč]/i)
-    || value.match(/(\d{1,5}[,.]\d{1,2}|\d{1,5})\s*K[cč]\s*\/\s*(kg|g|l|ml|ks)/i);
-  if (!match) return { unitPrice: null, unit: '' };
-  if (Number.isNaN(Number(match[1].replace?.(',', '.')))) {
-    return { unitPrice: toNumber(match[2]), unit: `Kč/${match[1].toLowerCase()}` };
-  }
-  return { unitPrice: toNumber(match[1]), unit: `Kč/${match[2].toLowerCase()}` };
+function isPackageSize(line) {
+  return /^(\d+(?:[ ,]\d+)?\s*(g|kg|ml|l|ks)|\d+\s?pack)$/i.test(line.trim());
 }
 
-function parsePackageSize(raw) {
-  const value = text(raw);
-  const match = value.match(/(?:^|\s)(\d+(?:[,.]\d+)?)\s*(kg|g|l|ml|ks|balení|bal\.)\b/i);
-  return match ? `${match[1].replace('.', ',')} ${match[2]}` : '';
-}
-
-function parseValidTo(raw) {
-  const value = text(raw);
-  const range = value.match(/(\d{1,2}\.\s*\d{1,2}\.\s*\d{4})\s*[–\-]\s*(\d{1,2}\.\s*\d{1,2}\.\s*\d{4})/);
-  if (range) return text(range[2]);
-  const until = value.match(/(?:do|platí do)\s*(\d{1,2}\.\s*\d{1,2}\.?\s*(?:\d{4})?)/i);
-  return until ? text(until[1]) : '';
-}
-
-function cleanProductName(candidate) {
-  return text(candidate)
-    .replace(/\b\d{1,4}\s*[,.]\s*\d{1,2}\s*K[cč]\b/gi, '')
-    .replace(/\b\d{1,4}\s*K[cč]\b/gi, '')
-    .replace(/\b\d+(?:[,.]\d+)?\s*(kg|g|l|ml|ks)\b/gi, '')
-    .replace(/Platí.*$/i, '')
+function cleanTitle(title) {
+  return title
+    .replace(/^#+\s*/, "")
+    .replace(/\s+/g, " ")
     .trim();
 }
 
-function parseOffersFromHtml(html) {
-  const $ = load(html);
-  const candidates = [];
-
-  const selectors = [
-    '[data-testid*=product]',
-    '[class*=product]',
-    '[class*=Product]',
-    '[class*=offer]',
-    '[class*=Offer]',
-    'article',
-    'li'
-  ];
-
-  for (const selector of selectors) {
-    $(selector).each((_, element) => {
-      const block = text($(element).text());
-      if (!/K[cč]/i.test(block)) return;
-      if (block.length < 15 || block.length > 900) return;
-      candidates.push({ block, html: $.html(element) });
-    });
-  }
-
-  const uniqueBlocks = [...new Map(candidates.map((item) => [item.block, item])).values()];
-
-  const offers = uniqueBlocks.map((candidate) => {
-    const $$ = load(candidate.html);
-    const heading = text($$('h1,h2,h3,h4,[class*=title],[class*=Title],[class*=name],[class*=Name]').first().text());
-    const price = parsePriceFromText(candidate.block);
-    const packageSize = parsePackageSize(candidate.block);
-    const { unitPrice, unit } = parseUnitPrice(candidate.block);
-    const validTo = parseValidTo(candidate.block);
-    let product = cleanProductName(heading) || cleanProductName(candidate.block.split(/\d{1,4}\s*[,.]?\s*\d{0,2}\s*K[cč]/i)[0]);
-
-    if (!product || product.length < 2 || price === null) return null;
-    if (product.length > 90) product = product.slice(0, 90).trim();
-
-    return {
-      id: `penny-${idFrom(product, packageSize, price, validTo)}`,
-      storeId: 'penny-default',
-      chain: 'Penny',
-      storeName: 'Penny – aktuální nabídky',
-      product,
-      brand: '',
-      packageSize,
-      price,
-      unitPrice: unitPrice || null,
-      unit: unit || '',
-      validTo,
-      priceType: /kart|app|aplikac/i.test(candidate.block) ? 'kartová / aplikační cena' : 'akční cena',
-      sourceUrl: SOURCE_URL
-    };
-  }).filter(Boolean);
-
-  return [...new Map(offers.map((offer) => [offer.id, offer])).values()];
+function makeId(product, price, priceType) {
+  return (
+    "penny-" +
+    createHash("sha1")
+      .update(`${product}|${price}|${priceType}`)
+      .digest("hex")
+      .slice(0, 16)
+  );
 }
 
-async function main() {
-  console.log(`Stahuji ${SOURCE_URL}`);
-  const response = await fetch(SOURCE_URL, {
-    headers: {
-      'user-agent': 'Mozilla/5.0 letakovy-porovnavac/0.1',
-      'accept-language': 'cs-CZ,cs;q=0.9,en;q=0.8'
+function pickPrice(block) {
+  const cardIndex = block.findIndex((line) => /^s PENNY kartou$/i.test(line));
+
+  if (cardIndex >= 0) {
+    for (let i = cardIndex + 1; i < block.length; i++) {
+      if (isMainPriceLine(block[i])) {
+        return {
+          index: i,
+          price: parseMainPrice(block[i]),
+          priceType: "s PENNY kartou",
+        };
+      }
+    }
+  }
+
+  for (let i = 0; i < block.length; i++) {
+    if (isMainPriceLine(block[i])) {
+      return {
+        index: i,
+        price: parseMainPrice(block[i]),
+        priceType: "akční cena",
+      };
+    }
+  }
+
+  return null;
+}
+
+function parseOffers(lines) {
+  const titleIndexes = [];
+
+  lines.forEach((line, index) => {
+    if (line.startsWith("### ")) {
+      titleIndexes.push(index);
     }
   });
 
-  if (!response.ok) throw new Error(`Penny odpovědělo HTTP ${response.status}`);
+  const offers = [];
 
-  const html = await response.text();
-  const offers = parseOffersFromHtml(html);
+  for (let i = 0; i < titleIndexes.length; i++) {
+    const start = titleIndexes[i];
+    const end = titleIndexes[i + 1] ?? lines.length;
 
-  if (offers.length === 0) {
-    throw new Error('Nepodařilo se najít žádné nabídky. Web Penny pravděpodobně změnil HTML strukturu nebo blokuje import.');
+    const product = cleanTitle(lines[start]);
+    const block = lines.slice(start + 1, end);
+
+    if (!product || product.length < 3) continue;
+    if (/akční nabídka|chcete nás poznat/i.test(product)) continue;
+
+    const priceInfo = pickPrice(block);
+    if (!priceInfo || priceInfo.price == null) continue;
+
+    const packageSize = block.find(isPackageSize) ?? "";
+    const validFrom = block.find((line) => /^od\s/i.test(line)) ?? "";
+    const validTo = block.find((line) => /^do\s/i.test(line)) ?? "";
+
+    let unitInfo = null;
+    for (let j = priceInfo.index + 1; j < block.length; j++) {
+      unitInfo = parseUnitPrice(block[j]);
+      if (unitInfo) break;
+    }
+
+    offers.push({
+      id: makeId(product, priceInfo.price, priceInfo.priceType),
+      storeId: "penny-default",
+      chain: "Penny",
+      storeName: "Penny – aktuální nabídky",
+      product,
+      brand: "",
+      packageSize,
+      price: priceInfo.price,
+      unitPrice: unitInfo?.unitPrice ?? priceInfo.price,
+      unit: unitInfo?.unit ?? "Kč/ks",
+      validFrom,
+      validTo,
+      priceType: priceInfo.priceType,
+      sourceUrl: SOURCE_URL,
+    });
   }
 
-  const payload = {
-    meta: {
-      source: SOURCE_URL,
-      updatedAt: new Date().toISOString(),
-      count: offers.length,
-      parser: 'scripts/import-penny.mjs'
-    },
-    offers
-  };
+  const unique = new Map();
 
-  await mkdir(new URL('../data', import.meta.url), { recursive: true });
-  await writeFile(OUT_FILE, JSON.stringify(payload, null, 2) + '\n', 'utf8');
-  console.log(`Uloženo ${offers.length} nabídek do data/offers.json`);
+  for (const offer of offers) {
+    const key = `${offer.product}|${offer.price}|${offer.priceType}`;
+    unique.set(key, offer);
+  }
+
+  return Array.from(unique.values());
+}
+
+async function main() {
+  const response = await fetch(SOURCE_URL, {
+    headers: {
+      "user-agent":
+        "Mozilla/5.0 (compatible; LetakovyPorovnavac/0.1; +https://github.com/)",
+      accept: "text/html,application/xhtml+xml",
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error(`Penny import failed: HTTP ${response.status}`);
+  }
+
+  const html = await response.text();
+  const lines = htmlToLines(html);
+  const offers = parseOffers(lines);
+
+  if (offers.length === 0) {
+    throw new Error("Penny import failed: no offers parsed");
+  }
+
+  await mkdir("data", { recursive: true });
+
+  await writeFile(
+    OUTPUT_FILE,
+    JSON.stringify(
+      {
+        meta: {
+          source: SOURCE_URL,
+          updatedAt: new Date().toISOString(),
+          count: offers.length,
+          parser: "scripts/import-penny.mjs",
+        },
+        offers,
+      },
+      null,
+      2
+    ) + "\n",
+    "utf8"
+  );
+
+  console.log(`Imported ${offers.length} Penny offers to ${OUTPUT_FILE}`);
 }
 
 main().catch((error) => {
-  console.error(error.message);
+  console.error(error);
   process.exit(1);
 });

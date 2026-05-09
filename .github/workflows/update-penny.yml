@@ -28,7 +28,7 @@ jobs:
         run: npm run import:penny
 
       - name: Validate offers
-        run: npm run validate:offers
+        run: npm run validate
 
       - name: Commit updated offers
         run: |

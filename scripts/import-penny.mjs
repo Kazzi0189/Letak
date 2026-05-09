@@ -200,13 +200,35 @@ async function main() {
 
   const html = await response.text();
   const lines = htmlToLines(html);
+
+  await mkdir("data", { recursive: true });
+
+  await writeFile(
+    DEBUG_FILE,
+    JSON.stringify(
+      {
+        meta: {
+          source: SOURCE_URL,
+          updatedAt: new Date().toISOString(),
+          totalLines: lines.length,
+          parser: "scripts/import-penny.mjs",
+        },
+        lines: lines.map((line, index) => ({
+          index,
+          line,
+        })),
+      },
+      null,
+      2
+    ) + "\n",
+    "utf8"
+  );
+
   const offers = parseOffers(lines);
 
   if (offers.length === 0) {
     throw new Error("Penny import failed: no offers parsed");
   }
-
-  await mkdir("data", { recursive: true });
 
   await writeFile(
     OUTPUT_FILE,
@@ -227,6 +249,7 @@ async function main() {
   );
 
   console.log(`Imported ${offers.length} Penny offers to ${OUTPUT_FILE}`);
+  console.log(`Wrote debug lines to ${DEBUG_FILE}`);
 }
 
 main().catch((error) => {

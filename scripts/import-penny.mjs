@@ -3,6 +3,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const SOURCE_URL = "https://www.penny.cz/nabidky";
 const OUTPUT_FILE = "data/offers.json";
+const DEBUG_FILE = "data/penny-debug-lines.json";
 
 function decodeHtml(value) {
   return value

@@ -1,1 +1,37 @@
-
+{
+  "meta": {
+    "source": "demo",
+    "updatedAt": "2026-05-08T00:00:00.000Z",
+    "note": "Ukázková data. Spusť npm run import:penny nebo GitHub Action pro aktualizaci z Penny."
+  },
+  "offers": [
+    {
+      "id": "demo-penny-maslo",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – aktuální nabídky",
+      "product": "Máslo 82 %",
+      "brand": "Jihočeské",
+      "packageSize": "250 g",
+      "price": 44.9,
+      "unitPrice": 179.6,
+      "unit": "Kč/kg",
+      "validTo": "ukázka",
+      "priceType": "demo"
+    },
+    {
+      "id": "demo-penny-mleko",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – aktuální nabídky",
+      "product": "Mléko polotučné",
+      "brand": "Boni",
+      "packageSize": "1 l",
+      "price": 17.9,
+      "unitPrice": 17.9,
+      "unit": "Kč/l",
+      "validTo": "ukázka",
+      "priceType": "demo"
+    }
+  ]
+}

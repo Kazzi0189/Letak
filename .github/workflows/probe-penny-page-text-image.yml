@@ -1,0 +1,37 @@
+name: Probe Penny page text and images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Probe Penny page text and images
+        run: node scripts/probe-penny-page-text-image.mjs
+
+      - name: Commit Penny page text image probe results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/penny-page-text-image-probe
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Probe Penny page text and images"
+            git push
+          fi

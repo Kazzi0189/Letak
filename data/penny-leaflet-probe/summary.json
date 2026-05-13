@@ -1,0 +1,351 @@
+{
+  "checkedAt": "2026-05-13T17:07:24.118Z",
+  "sources": {
+    "offersPage": "https://www.penny.cz/nabidky",
+    "leafletsPage": "https://www.penny.cz/nabidky/letaky",
+    "knownViewerCandidate": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me"
+  },
+  "viewerCandidates": [
+    "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me",
+    "https://www.penny.cz/nabidky?tab=nabidky/letaky",
+    "https://www.penny.cz/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg",
+    "https://www.penny.cz/u002F/u002Fassets-eu-01.kc-usercontent.com:443/u002Fb490fe50-3436-01c5-6cd3-1e0fc2fff5ea/u002Ff138d978-f644-487e-9e95-5fad35be1b55/u002F20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg",
+    "https://www.penny.cz/nabidky/letaky#main",
+    "https://www.penny.cz/nabidky/letaky#menu-item-1",
+    "https://www.penny.cz/nabidky/letaky#search",
+    "https://www.penny.cz/nabidky/letaky#mobile-search",
+    "https://www.penny.cz/nabidky/letaky#footer",
+    "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+    "https://www.penny.cz/nabidky/letaky",
+    "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&fm=webp&lossless=0&q=80",
+    "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=600&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=600&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+    "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+    "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&amp;fm=webp&amp;lossless=0&amp;q=80",
+    "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=600&fm=webp&lossless=0&q=80&dpr=1%201x,%20https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=600&fm=webp&lossless=0&q=80&dpr=2%202x",
+    "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&fm=webp&lossless=0&q=80&dpr=1%201x,%20https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&fm=webp&lossless=0&q=80&dpr=2%202x",
+    "https://www.penny.cz/nabidky/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg"
+  ],
+  "summary": {
+    "recommendedPath": "structured-data-first",
+    "counts": {
+      "viewerLinks": 26,
+      "pdfs": 8,
+      "images": 202,
+      "jsons": 3,
+      "endpointHints": 342,
+      "viewerWorkingData": 0,
+      "viewerWorkingImages": 0
+    },
+    "notes": [
+      "Existují náznaky JSON/datových zdrojů. Priorita: analyzovat workingDataCandidates/jsons/endpointHints.",
+      "Nalezen PDF odkaz. Priorita: ověřit, zda PDF obsahuje text, nebo jen obrázky.",
+      "Nalezeny obrázky stránek letáku. Pokud nejsou datové zdroje, bude potřeba OCR nebo jiná extrakce.",
+      "Nalezeny viewer odkazy. Priorita: otevřít konkrétní viewer a najít manifest/data/obrázky."
+    ]
+  },
+  "pages": [
+    {
+      "name": "offersPage",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.penny.cz/nabidky",
+      "contentType": "text/html;charset=utf-8",
+      "length": 425393,
+      "viewerLinksCount": 4,
+      "pdfsCount": 4,
+      "imagesCount": 114,
+      "jsonsCount": 2,
+      "endpointHintsCount": 200,
+      "productLikeLinesCount": 100,
+      "firstViewerLinks": [
+        {
+          "href": "https://www.penny.cz/nabidky?tab=nabidky/letaky",
+          "text": "Letáky"
+        },
+        {
+          "href": "https://www.penny.cz/nabidky?tab=nabidky/letaky",
+          "text": ""
+        },
+        {
+          "href": "https://www.penny.cz/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg",
+          "text": ""
+        },
+        {
+          "href": "https://www.penny.cz/u002F/u002Fassets-eu-01.kc-usercontent.com:443/u002Fb490fe50-3436-01c5-6cd3-1e0fc2fff5ea/u002Ff138d978-f644-487e-9e95-5fad35be1b55/u002F20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg",
+          "text": ""
+        }
+      ],
+      "firstPdfs": [
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/8fd348ae-e367-4f1a-99d5-34a867abb7e2/Zpra%CC%81va%20o%20udrz%CC%8Citelnosti%202023.pdf",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/8fd348ae-e367-4f1a-99d5-34a867abb7e2/Zpra%CC%81va%20o%20udrz%CC%8Citelnosti%202023.pdf",
+        "https://www.penny.cz/u002Fdownloads/u002FPDF/u002FDisclaimer%20-%20Z%EF%BF%BDsady%20pro%20uzav%EF%BF%BDr%EF%BF%BDn%EF%BF%BD%20smluv%20-%20Penny%20Market%20s%20r%20o.pdf",
+        "https://www.penny.cz/u002Fdownloads/u002FPDF/u002FDisclaimer%20-%20Eng%20-%20Penny%20Market%20s%20r%20o.pdf"
+      ],
+      "firstImages": [
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f00fef44-6678-4f7b-9dc1-c377d12179ce/favicon-16x16.png",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/0c73db56-b86c-46e0-8520-652f06fea25e/Facebook.png?w=35&fm=webp&lossless=0&q=80",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/2aab8d9f-7666-4fb4-a54c-0cbb89c0177b/YouTube.png?w=35&fm=webp&lossless=0&q=80",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/385c1d4e-3ccb-4b39-b0f6-7dbab1aeeffe/Instagram.png?w=35&fm=webp&lossless=0&q=80",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/bbfc93d5-5d08-41d9-b329-9869b2da47c1/Google-Play.png?w=120&fm=webp&lossless=0&q=80",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f00fef44-6678-4f7b-9dc1-c377d12179ce/favicon-16x16.png",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/c95ab711-a623-4a2e-8130-926a2beb16bb/Z231875_PENNY_30_11_2023_Titulka_538x842ob.jpg",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/0c73db56-b86c-46e0-8520-652f06fea25e/Facebook.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/0c73db56-b86c-46e0-8520-652f06fea25e/Facebook.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/0c73db56-b86c-46e0-8520-652f06fea25e/Facebook.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/2aab8d9f-7666-4fb4-a54c-0cbb89c0177b/YouTube.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/2aab8d9f-7666-4fb4-a54c-0cbb89c0177b/YouTube.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/2aab8d9f-7666-4fb4-a54c-0cbb89c0177b/YouTube.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/385c1d4e-3ccb-4b39-b0f6-7dbab1aeeffe/Instagram.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/385c1d4e-3ccb-4b39-b0f6-7dbab1aeeffe/Instagram.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/385c1d4e-3ccb-4b39-b0f6-7dbab1aeeffe/Instagram.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/bbfc93d5-5d08-41d9-b329-9869b2da47c1/Google-Play.png?w=120&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/bbfc93d5-5d08-41d9-b329-9869b2da47c1/Google-Play.png?w=120&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/bbfc93d5-5d08-41d9-b329-9869b2da47c1/Google-Play.png?w=120&amp;fm=webp&amp;lossless=0&amp;q=80",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/c95ab711-a623-4a2e-8130-926a2beb16bb/Z231875_PENNY_30_11_2023_Titulka_538x842ob.jpg",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/0c73db56-b86c-46e0-8520-652f06fea25e/Facebook.png?w=35&fm=webp&lossless=0&q=80&dpr=1%201x,%20https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/0c73db56-b86c-46e0-8520-652f06fea25e/Facebook.png?w=35&fm=webp&lossless=0&q=80&dpr=2%202x",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/2aab8d9f-7666-4fb4-a54c-0cbb89c0177b/YouTube.png?w=35&fm=webp&lossless=0&q=80&dpr=1%201x,%20https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/2aab8d9f-7666-4fb4-a54c-0cbb89c0177b/YouTube.png?w=35&fm=webp&lossless=0&q=80&dpr=2%202x",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/385c1d4e-3ccb-4b39-b0f6-7dbab1aeeffe/Instagram.png?w=35&fm=webp&lossless=0&q=80&dpr=1%201x,%20https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/385c1d4e-3ccb-4b39-b0f6-7dbab1aeeffe/Instagram.png?w=35&fm=webp&lossless=0&q=80&dpr=2%202x",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/bbfc93d5-5d08-41d9-b329-9869b2da47c1/Google-Play.png?w=120&fm=webp&lossless=0&q=80&dpr=1%201x,%20https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/bbfc93d5-5d08-41d9-b329-9869b2da47c1/Google-Play.png?w=120&fm=webp&lossless=0&q=80&dpr=2%202x"
+      ],
+      "firstJsons": [
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20396.19%20400'%20preserveAspectRatio='xMaxYMin%20meet'%3E%3Cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20fill='%23cd1316'%20d='M28.69%2031h338.52v338.52H28.69z'/%3E%3Cpath%20d='M339.83%20216.91a11.69%2011.69%200%201%201-23.37%200%2011.69%2011.69%200%200%201%2023.37%200z'%20fill='%23ffd400'/%3E%3Cpath%20d='M80.64%20199.23h4.39c4.94%200%207.94-3.05%208.47-6.86.46-3.29-1.83-6.86-6.48-6.86h-4.17l-2.21%2013.72zm219.74-7.93%209.89-18.56h22.75l-34.34%2054.35h-23.15l11.01-15.51-12.56-37.69-8.57%2053.2H247.2l-11.18-25.11-4.04%2025.11h-18.21l8.75-54.35h18.68l10.83%2024.32%203.92-24.32h39.79l4.64%2018.56zm-85.09-18.56-8.75%2054.35h-18.21l-11.18-25.11-4.04%2025.11H154.9l8.75-54.35h18.68l10.83%2024.32%203.92-24.32h18.21zm-123.09-.83c12.58%200%2021.11%206.8%2021.19%2017.78l2.73-16.95h41.23l-2.21%2013.75h-21.76L132.3%20193H152l-2.19%2013.59h-19.77l-1.12%206.75h22.17l-2.21%2013.75h-41.5l4.74-29.43c-3.19%209.53-11.89%2015.15-23.27%2015.15h-10.4l-2.3%2014.28H56.36l8.89-55.18H92.2z'%20fill-rule='evenodd'%20clip-rule='evenodd'%20fill='%23fff'/%3E%3C/svg%3E%0A",
+        "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAC+UlEQVR42u3UwQ0AAAQAMfZfWTAHaUe4x2VXTQAckIYFGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhGRZgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhAYZlWIBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFGJZhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBZgWDIAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBRiWYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWYFiGBRgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYwGcL1p2khVGBgOsAAAAASUVORK5CYII="
+      ],
+      "firstEndpointHints": [
+        ">.ws-product-tile{border-top-left-radius:var(--ws-border-radius);border-top-right-radius:var(--ws-border-radius);display:grid;grid-template-areas:",
+        ";grid-template-columns:minmax(0,1fr);grid-template-rows:auto 1fr auto auto;position:relative;z-index:0}.ws-product-tile--without-actions{grid-template-areas:",
+        ">.ws-product-image{height:100%;margin:0 auto;max-height:100%;max-width:100%;object-fit:contain;opacity:0;width:100%}.ws-product-image--loaded{opacity:1}</style><style nonce=",
+        ">.ws-product-information-wrapper{display:flex;flex-direction:column;flex-grow:inherit}.ws-product-information-wrapper .ws-favorite-button{float:right;margin-left:8px}.ws-product-information-wrapper__title-wrapper{text-decoration:none}</style><style nonce=",
+        ">.ws-product-price-wrapper__container{display:grid;grid-template-areas:",
+        ">.ws-product-badge-text{border-radius:var(--ws-border-radius)!important;width:max-content;word-break:normal!important}</style><style nonce=",
+        ">.ws-product-price-validity{font-family:var(--body-font-family);font-size:.875rem;font-weight:400;letter-spacing:normal;line-height:1.5}</style><style nonce=",
+        "https://www.penny.cz/_nuxt/product-image.DfdXSJVC.css",
+        "https://www.penny.cz/_nuxt/product-price-wrapper.DWw2cQ5b.css",
+        "sha384-AqKTZXYioehEPLAgsm2djjPbPRPaHAdgP42BpeXFjRewEr84WswlpJw/C5hSD7t8",
+        "sha384-xX4W6H/2Sjj1ahAzS4apIP4hdNn7mccommBl4+4ivYu60zyW5JQCShGPGR7Mms7Y",
+        "ws-cms-page",
+        "dynamic-page",
+        "page",
+        "https://www.penny.cz/nabidky?tab=nabidky/letaky",
+        "nabidky/letaky",
+        "Letáky",
+        "ws-product-group col-12",
+        "ws-product-grid",
+        "product-grid-list",
+        "ws-product-grid__list",
+        "ws-product-item-base ws-product-tile ws-card ws-product-tile--without-actions",
+        "product",
+        "product-tile",
+        "https://www.penny.cz/products/aperol-bitter-11-88100953",
+        "ws-product-tile__link",
+        "product-tile-link",
+        "ws-product-tile__image-wrapper",
+        "product-tile-image",
+        "ws-product-image mx-auto"
+      ],
+      "firstProductLikeLines": [
+        "Vyhledávejte produkty, recepty či články",
+        "249,90 Kč",
+        "399,90 Kč",
+        "1 l 357,00 Kč",
+        "Listové těsto chlazené Penny To G",
+        "Listové těsto chlazené Penny To G",
+        "17,90 Kč",
+        "29,90 Kč",
+        "100 g 6,51 Kč",
+        "24,90 Kč",
+        "100 g 71,14 Kč",
+        "19,90 Kč",
+        "100 g 56,86 Kč",
+        "24,90 Kč",
+        "100 g 71,14 Kč",
+        "19,90 Kč",
+        "100 g 56,86 Kč",
+        "99,90 Kč",
+        "1 l 33,30 Kč",
+        "99,90 Kč",
+        "1 l 33,30 Kč",
+        "74,90 Kč",
+        "1 m 0,30 Kč",
+        "28,90 Kč",
+        "39,90 Kč",
+        "1 l 11,56 Kč",
+        "9,90 Kč",
+        "15,90 Kč",
+        "100 g 4,95 Kč",
+        "39,90 Kč"
+      ]
+    },
+    {
+      "name": "leafletsPage",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.penny.cz/nabidky/letaky",
+      "contentType": "text/html;charset=utf-8",
+      "length": 232287,
+      "viewerLinksCount": 22,
+      "pdfsCount": 4,
+      "imagesCount": 88,
+      "jsonsCount": 1,
+      "endpointHintsCount": 142,
+      "productLikeLinesCount": 2,
+      "firstViewerLinks": [
+        {
+          "href": "https://www.penny.cz/nabidky/letaky#main",
+          "text": "Na úvod"
+        },
+        {
+          "href": "https://www.penny.cz/nabidky/letaky#menu-item-1",
+          "text": "K navigaci"
+        },
+        {
+          "href": "https://www.penny.cz/nabidky/letaky#search",
+          "text": "K vyhledávání"
+        },
+        {
+          "href": "https://www.penny.cz/nabidky/letaky#mobile-search",
+          "text": "K vyhledávání"
+        },
+        {
+          "href": "https://www.penny.cz/nabidky/letaky#footer",
+          "text": "K patičce"
+        },
+        {
+          "href": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+          "text": ""
+        },
+        {
+          "href": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me",
+          "text": "Prohlédnout"
+        },
+        {
+          "href": "https://www.penny.cz/nabidky/letaky",
+          "text": ""
+        },
+        {
+          "href": "https://www.penny.cz/nabidky/letaky#main",
+          "text": ""
+        },
+        {
+          "href": "https://www.penny.cz/nabidky/letaky#menu-item-1",
+          "text": ""
+        },
+        {
+          "href": "https://www.penny.cz/nabidky/letaky#search",
+          "text": ""
+        },
+        {
+          "href": "https://www.penny.cz/nabidky/letaky#mobile-search",
+          "text": ""
+        },
+        {
+          "href": "https://www.penny.cz/nabidky/letaky#footer",
+          "text": ""
+        },
+        {
+          "href": "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&fm=webp&lossless=0&q=80",
+          "text": ""
+        },
+        {
+          "href": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me",
+          "text": ""
+        },
+        {
+          "href": "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=600&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=600&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+          "text": ""
+        },
+        {
+          "href": "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+          "text": ""
+        },
+        {
+          "href": "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&amp;fm=webp&amp;lossless=0&amp;q=80",
+          "text": ""
+        },
+        {
+          "href": "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=600&fm=webp&lossless=0&q=80&dpr=1%201x,%20https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=600&fm=webp&lossless=0&q=80&dpr=2%202x",
+          "text": ""
+        },
+        {
+          "href": "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&fm=webp&lossless=0&q=80&dpr=1%201x,%20https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&fm=webp&lossless=0&q=80&dpr=2%202x",
+          "text": ""
+        }
+      ],
+      "firstPdfs": [
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/8fd348ae-e367-4f1a-99d5-34a867abb7e2/Zpra%CC%81va%20o%20udrz%CC%8Citelnosti%202023.pdf",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/8fd348ae-e367-4f1a-99d5-34a867abb7e2/Zpra%CC%81va%20o%20udrz%CC%8Citelnosti%202023.pdf",
+        "https://www.penny.cz/u002Fdownloads/u002FPDF/u002FDisclaimer%20-%20Z%EF%BF%BDsady%20pro%20uzav%EF%BF%BDr%EF%BF%BDn%EF%BF%BD%20smluv%20-%20Penny%20Market%20s%20r%20o.pdf",
+        "https://www.penny.cz/u002Fdownloads/u002FPDF/u002FDisclaimer%20-%20Eng%20-%20Penny%20Market%20s%20r%20o.pdf"
+      ],
+      "firstImages": [
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f00fef44-6678-4f7b-9dc1-c377d12179ce/favicon-16x16.png",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&fm=webp&lossless=0&q=80",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/0c73db56-b86c-46e0-8520-652f06fea25e/Facebook.png?w=35&fm=webp&lossless=0&q=80",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/2aab8d9f-7666-4fb4-a54c-0cbb89c0177b/YouTube.png?w=35&fm=webp&lossless=0&q=80",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/385c1d4e-3ccb-4b39-b0f6-7dbab1aeeffe/Instagram.png?w=35&fm=webp&lossless=0&q=80",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/bbfc93d5-5d08-41d9-b329-9869b2da47c1/Google-Play.png?w=120&fm=webp&lossless=0&q=80",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f00fef44-6678-4f7b-9dc1-c377d12179ce/favicon-16x16.png",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/e287029c-d471-4fbb-a821-34fceeb7ba09/titulka%200102.jpg",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=600&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=600&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&amp;fm=webp&amp;lossless=0&amp;q=80",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/0c73db56-b86c-46e0-8520-652f06fea25e/Facebook.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/0c73db56-b86c-46e0-8520-652f06fea25e/Facebook.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/0c73db56-b86c-46e0-8520-652f06fea25e/Facebook.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/2aab8d9f-7666-4fb4-a54c-0cbb89c0177b/YouTube.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/2aab8d9f-7666-4fb4-a54c-0cbb89c0177b/YouTube.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/2aab8d9f-7666-4fb4-a54c-0cbb89c0177b/YouTube.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/385c1d4e-3ccb-4b39-b0f6-7dbab1aeeffe/Instagram.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/385c1d4e-3ccb-4b39-b0f6-7dbab1aeeffe/Instagram.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/385c1d4e-3ccb-4b39-b0f6-7dbab1aeeffe/Instagram.png?w=35&amp;fm=webp&amp;lossless=0&amp;q=80",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/bbfc93d5-5d08-41d9-b329-9869b2da47c1/Google-Play.png?w=120&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=1 1x, https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/bbfc93d5-5d08-41d9-b329-9869b2da47c1/Google-Play.png?w=120&amp;fm=webp&amp;lossless=0&amp;q=80&amp;dpr=2 2x",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/bbfc93d5-5d08-41d9-b329-9869b2da47c1/Google-Play.png?w=120&amp;fm=webp&amp;lossless=0&amp;q=80",
+        "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/e287029c-d471-4fbb-a821-34fceeb7ba09/titulka%200102.jpg"
+      ],
+      "firstJsons": [
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20396.19%20400'%20preserveAspectRatio='xMaxYMin%20meet'%3E%3Cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20fill='%23cd1316'%20d='M28.69%2031h338.52v338.52H28.69z'/%3E%3Cpath%20d='M339.83%20216.91a11.69%2011.69%200%201%201-23.37%200%2011.69%2011.69%200%200%201%2023.37%200z'%20fill='%23ffd400'/%3E%3Cpath%20d='M80.64%20199.23h4.39c4.94%200%207.94-3.05%208.47-6.86.46-3.29-1.83-6.86-6.48-6.86h-4.17l-2.21%2013.72zm219.74-7.93%209.89-18.56h22.75l-34.34%2054.35h-23.15l11.01-15.51-12.56-37.69-8.57%2053.2H247.2l-11.18-25.11-4.04%2025.11h-18.21l8.75-54.35h18.68l10.83%2024.32%203.92-24.32h39.79l4.64%2018.56zm-85.09-18.56-8.75%2054.35h-18.21l-11.18-25.11-4.04%2025.11H154.9l8.75-54.35h18.68l10.83%2024.32%203.92-24.32h18.21zm-123.09-.83c12.58%200%2021.11%206.8%2021.19%2017.78l2.73-16.95h41.23l-2.21%2013.75h-21.76L132.3%20193H152l-2.19%2013.59h-19.77l-1.12%206.75h22.17l-2.21%2013.75h-41.5l4.74-29.43c-3.19%209.53-11.89%2015.15-23.27%2015.15h-10.4l-2.3%2014.28H56.36l8.89-55.18H92.2z'%20fill-rule='evenodd'%20clip-rule='evenodd'%20fill='%23fff'/%3E%3C/svg%3E%0A"
+      ],
+      "firstEndpointHints": [
+        "><title>Letáky | penny.cz</title><script nonce=",
+        "sha384-AqKTZXYioehEPLAgsm2djjPbPRPaHAdgP42BpeXFjRewEr84WswlpJw/C5hSD7t8",
+        "https://www.penny.cz/nabidky/letaky",
+        "Letáky PENNY",
+        "Letáky",
+        "ws-cms-page",
+        "dynamic-page",
+        "><span>Letáky</span></li><!--]--></ol></nav><!--[--><!----><!--[--><section style=",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+        "otevřít leták od 13. 5.",
+        "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&amp;fm=webp&amp;lossless=0&amp;q=80",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me",
+        ">Napište nám na info@penny.cz</a></div></div></div><div style=",
+        "product-discovery-dialog-area",
+        "production",
+        "CMS_PAGE-nabidky\\u002Fletaky",
+        "featureProductInStoreListing",
+        "featureProductInStoreAvailability",
+        "featureProductDiscovery",
+        "featureProductDiscoveryAlgolia",
+        "featureProductDiscoveryShopForward",
+        "page",
+        "product",
+        "products",
+        "startpage",
+        "product_configuration",
+        "product_overview_configuration",
+        "penny-homepage",
+        "mapsApiKey",
+        "pagination.nextpage"
+      ],
+      "firstProductLikeLines": [
+        "Vyhledávejte produkty, recepty či články",
+        "Od pondělí do neděle"
+      ]
+    }
+  ],
+  "viewerProbe": {
+    "viewerUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me",
+    "pageOk": true,
+    "pageStatus": 200,
+    "pageContentType": "text/html",
+    "pageLength": 66036,
+    "workingDataCandidates": [],
+    "workingImageCandidates": [],
+    "dataCandidatesTestedCount": 11,
+    "workingDataCandidatesCount": 0,
+    "workingImageCandidatesCount": 0
+  }
+}

@@ -45,6 +45,15 @@ function round2(value) {
   return Math.round(value * 100) / 100;
 }
 
+function normalizeMainPrice(value) {
+  if (value === null || value === undefined || !Number.isFinite(value)) return null;
+
+  const oneDecimal = Math.round(value * 10) / 10;
+  if (Math.abs(value - oneDecimal) <= 0.025) return oneDecimal;
+
+  return round2(value);
+}
+
 function formatDateFromText(text, prefix) {
   const escapedPrefix = prefix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const match = text.match(new RegExp(`${escapedPrefix}\\s+[^\\d]*(\\d{1,2})\\.\\s*(\\d{1,2})\\.\\s*(\\d{4})`, "i"));
@@ -189,54 +198,73 @@ function parseExplicitMainPrice(segmentAfterUnit) {
 }
 
 function parseUnitInfo(unitText) {
-  const match = unitText.match(/^(.+?)\s+(\d{1,4}(?:\s?\d{3})*,\d{1,2})\s*Kč$/i);
+  const match = unitText.match(/^(.+?)\s+(\d{1,4}(?:\s?\d{3})*,\d{1,2}(?:\s*[\/–-]\s*\d{1,4}(?:\s?\d{3})*,\d{1,2})?)\s*Kč$/i);
   if (!match) return null;
 
+  const unitBase = match[1].replace(/\s+/g, " ").trim();
+  const rawPrices = match[2]
+    .split(/[\/–-]/)
+    .map((part) => toNumber(part))
+    .filter((value) => value !== null);
+
+  const unitPrice = rawPrices[0] ?? null;
+
   return {
-    unitBase: match[1].replace(/\s+/g, " ").trim(),
-    unitPrice: toNumber(match[2]),
-    unit: `Kč/${match[1].replace(/\s+/g, " ").trim()}`,
+    unitBase,
+    unitPrice,
+    unitPrices: rawPrices,
+    unit: `Kč/${unitBase}`,
   };
 }
 
 function parsePackageAmount(packageSize) {
   const value = packageSize.replace(/\s+/g, " ").trim().toLowerCase();
 
-  if (/cena za 1 kg/.test(value)) return { amount: 1, unit: "kg" };
+  if (/cena za 1 kg/.test(value)) return { variants: [{ amount: 1, unit: "kg" }] };
 
   const multi = value.match(/^(\d+)\s*x\s*(\d+(?:[,.]\d+)?)\s*(g|kg|ml|l|ks)$/i);
   if (multi) {
     return {
-      amount: Number(multi[1]) * toNumber(multi[2]),
-      unit: multi[3].toLowerCase(),
+      variants: [{
+        amount: Number(multi[1]) * toNumber(multi[2]),
+        unit: multi[3].toLowerCase(),
+      }],
     };
   }
 
   const slash = value.match(/^(\d+(?:[,.]\d+)?)\s*\/\s*(\d+(?:[,.]\d+)?)\s*(g|kg|ml|l|ks)$/i);
   if (slash) {
-    return { amount: toNumber(slash[2]), unit: slash[3].toLowerCase() };
+    return {
+      variants: [
+        { amount: toNumber(slash[1]), unit: slash[3].toLowerCase() },
+        { amount: toNumber(slash[2]), unit: slash[3].toLowerCase() },
+      ],
+    };
   }
 
   const range = value.match(/^(\d+(?:[,.]\d+)?)\s*[–-]\s*(\d+(?:[,.]\d+)?)\s*(g|kg|ml|l|ks)$/i);
   if (range) {
-    return { amount: toNumber(range[1]), unit: range[3].toLowerCase(), range: true };
+    return {
+      variants: [
+        { amount: toNumber(range[1]), unit: range[3].toLowerCase() },
+        { amount: toNumber(range[2]), unit: range[3].toLowerCase() },
+      ],
+    };
   }
 
   const simple = value.match(/^(\d+(?:[,.]\d+)?)\s*(g|kg|ml|l|ks|m)$/i);
   if (simple) {
-    return { amount: toNumber(simple[1]), unit: simple[2].toLowerCase() };
+    return { variants: [{ amount: toNumber(simple[1]), unit: simple[2].toLowerCase() }] };
   }
 
   return null;
 }
 
-function computeMainPriceFromUnit(packageSize, unitBase, unitPrice) {
+function computeCandidatePrice(packageVariant, unitBase, unitPrice) {
   if (unitPrice === null) return null;
 
-  const pkg = parsePackageAmount(packageSize);
-  if (!pkg) return null;
-
   const base = unitBase.replace(/\s+/g, " ").trim().toLowerCase();
+  const pkg = packageVariant;
 
   let factor = null;
 
@@ -247,17 +275,81 @@ function computeMainPriceFromUnit(packageSize, unitBase, unitPrice) {
   if (base === "1 l" && pkg.unit === "ml") factor = pkg.amount / 1000;
   if (base === "1 l" && pkg.unit === "l") factor = pkg.amount;
   if (base === "1 ks" && pkg.unit === "ks") factor = pkg.amount;
+  if (base === "100 ks" && pkg.unit === "ks") factor = pkg.amount / 100;
   if (base === "1 m" && pkg.unit === "m") factor = pkg.amount;
 
   if (factor === null || !Number.isFinite(factor)) return null;
-  return round2(unitPrice * factor);
+  return normalizeMainPrice(unitPrice * factor);
 }
 
-function choosePrice({ explicitPrice, leadPrice, computedPrice }) {
-  if (explicitPrice !== null) return { price: explicitPrice, source: "explicit" };
-  if (computedPrice !== null) return { price: computedPrice, source: "computed" };
-  if (leadPrice !== undefined && leadPrice !== null) return { price: leadPrice, source: "lead" };
-  return { price: null, source: "missing" };
+function nearestLeadPrice(price, leadPrices) {
+  if (price === null || !leadPrices?.length) return null;
+
+  let best = null;
+  for (const leadPrice of leadPrices) {
+    const diff = Math.abs(price - leadPrice);
+    if (!best || diff < best.diff) best = { price: leadPrice, diff };
+  }
+
+  return best;
+}
+
+function computeMainPriceFromUnit(packageSize, unitBase, unitPrices, leadPrices) {
+  const pkg = parsePackageAmount(packageSize);
+  if (!pkg) return null;
+
+  const candidates = [];
+  const prices = unitPrices?.length ? unitPrices : [];
+
+  for (const variant of pkg.variants) {
+    for (const unitPrice of prices) {
+      const price = computeCandidatePrice(variant, unitBase, unitPrice);
+      if (price !== null) {
+        const nearest = nearestLeadPrice(price, leadPrices);
+        candidates.push({
+          price,
+          nearestLeadPrice: nearest?.price ?? null,
+          leadDiff: nearest?.diff ?? null,
+        });
+      }
+    }
+  }
+
+  if (!candidates.length) return null;
+
+  candidates.sort((a, b) => {
+    const aDiff = a.leadDiff ?? Number.POSITIVE_INFINITY;
+    const bDiff = b.leadDiff ?? Number.POSITIVE_INFINITY;
+    return aDiff - bDiff || a.price - b.price;
+  });
+
+  return candidates[0];
+}
+
+function choosePrice({ leadPrice, computed }) {
+  if (computed?.price !== null && computed?.price !== undefined) {
+    return {
+      price: computed.price,
+      source: "computed",
+      nearestLeadPrice: computed.nearestLeadPrice,
+      leadDiff: computed.leadDiff,
+    };
+  }
+
+  if (leadPrice !== undefined && leadPrice !== null) {
+    return {
+      price: leadPrice,
+      source: "lead",
+      nearestLeadPrice: leadPrice,
+      leadDiff: 0,
+    };
+  }
+
+  return { price: null, source: "missing", nearestLeadPrice: null, leadDiff: null };
+}
+
+function hasUnparsedPriceBeforePackage(productPrefix) {
+  return /(?:100\s*g|1\s*kg|1\s*l|100\s*ml|1\s*ks|100\s*ks|1\s*m)\s+\d{1,4}(?:\s?\d{3})*,\d{1,2}(?:\s*[\/–-]\s*\d{1,4}(?:\s?\d{3})*,\d{1,2})?\s*Kč/i.test(productPrefix);
 }
 
 function parsePageProductLine(productLine, pageNumber, sourceUrl) {
@@ -277,7 +369,7 @@ function parsePageProductLine(productLine, pageNumber, sourceUrl) {
   const leadPrices = extractLeadPrices(cleaned);
 
   const unitPriceRegex =
-    /(?:100\s*g|1\s*kg|1\s*l|100\s*ml|1\s*ks|100\s*ks|1\s*m)\s+\d{1,4}(?:\s?\d{3})*,\d{1,2}\s*Kč/gi;
+    /(?:100\s*g|1\s*kg|1\s*l|100\s*ml|1\s*ks|100\s*ks|1\s*m)\s+\d{1,4}(?:\s?\d{3})*,\d{1,2}(?:\s*[\/–-]\s*\d{1,4}(?:\s?\d{3})*,\d{1,2})?\s*Kč/gi;
 
   const unitMatches = Array.from(body.matchAll(unitPriceRegex));
   const offers = [];
@@ -313,25 +405,28 @@ function parsePageProductLine(productLine, pageNumber, sourceUrl) {
 
     if (isBadProductName(product)) continue;
 
+    if (hasUnparsedPriceBeforePackage(productPrefix)) {
+      previousEnd = unitEnd;
+      leadPriceIndex += 1;
+      continue;
+    }
+
     const unitInfo = parseUnitInfo(unitText);
     if (!unitInfo) continue;
 
-    const computedPrice = computeMainPriceFromUnit(packageSize, unitInfo.unitBase, unitInfo.unitPrice);
     const leadPrice = leadPrices[leadPriceIndex] ?? null;
-    const chosen = choosePrice({ explicitPrice, leadPrice, computedPrice });
+    const computed = computeMainPriceFromUnit(packageSize, unitInfo.unitBase, unitInfo.unitPrices, leadPrices);
+    const chosen = choosePrice({ leadPrice, computed });
 
-    // Lead cenu posouváme pro každou nalezenou položku; hlavní cenu ale přednostně dopočítáme z jednotkové ceny.
+    // Lead cenu posouváme pro každou nalezenou položku, ale nepovažujeme ji za spolehlivý zdroj hlavní ceny.
     leadPriceIndex += 1;
-
-    const priceDiff =
-      chosen.price !== null && leadPrice !== null ? Math.abs(chosen.price - leadPrice) : null;
 
     const confidence =
       chosen.price !== null &&
       product.length > 8 &&
       !/^v nabídce/i.test(product) &&
-      priceDiff !== null &&
-      priceDiff <= 0.15
+      chosen.leadDiff !== null &&
+      chosen.leadDiff <= 0.15
         ? "high"
         : chosen.price !== null && product.length > 8 && !/^v nabídce/i.test(product)
           ? "medium"
@@ -357,7 +452,10 @@ function parsePageProductLine(productLine, pageNumber, sourceUrl) {
       debug: {
         priceSource: chosen.source,
         leadPrice,
-        computedPrice,
+        computedPrice: computed?.price ?? null,
+        nearestLeadPrice: chosen.nearestLeadPrice ?? null,
+        leadDiff: chosen.leadDiff ?? null,
+        ignoredExplicitAfterUnitPrice: explicitPrice,
       },
     });
   }
@@ -369,7 +467,7 @@ async function fetchPage(pageNumber) {
   const url = `${VIEWER_BASE_URL}${pageNumber}/index.html`;
   const response = await fetch(url, {
     headers: {
-      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacPennyLeafletHtmlImport/0.3; +https://github.com/)",
+      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacPennyLeafletHtmlImport/0.4; +https://github.com/)",
       accept: "text/html,application/xhtml+xml",
       "accept-language": "cs-CZ,cs;q=0.9,en;q=0.8",
     },
@@ -432,9 +530,9 @@ async function main() {
     updatedAt: new Date().toISOString(),
     count: publicOffers.length,
     parser: "scripts/import-penny-leaflet-html.mjs",
-    parserVersion: "0.3",
+    parserVersion: "0.4",
     note:
-      "V3: cena se přednostně dopočítává z jednotkové ceny a balení, explicitní cena za položkou se bere jen bezprostředně za jednotkovou cenou. Debug obsahuje priceSource.",
+      "V4: hlavní cena se bere primárně z přepočtu balení × jednotková cena. Hodnota za znakem < se nebere jako akční cena, protože často znamená nejnižší cenu za posledních 30 dní. Přidána podpora variant 28/30 g a 21,07/19,67 Kč.",
   };
 
   await writeFile(OUTPUT_FILE, JSON.stringify({ meta, offers: publicOffers }, null, 2) + "\n", "utf8");

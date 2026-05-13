@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 
 const STORE = {
@@ -33,6 +33,7 @@ function decodeHtml(value = "") {
 
 function cleanText(value = "") {
   return decodeHtml(value)
+    .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
@@ -50,6 +51,7 @@ function uniqueBy(items, getKey) {
   const map = new Map();
   for (const item of items) {
     const key = getKey(item);
+    if (!key) continue;
     if (!map.has(key)) map.set(key, item);
   }
   return Array.from(map.values());
@@ -57,12 +59,15 @@ function uniqueBy(items, getKey) {
 
 function toNumber(value) {
   if (value == null) return null;
-  const text = String(value)
+
+  const normalized = String(value)
     .replace(/\s/g, "")
     .replace(",", ".")
     .replace(/[^\d.]/g, "");
 
-  const number = Number(text);
+  if (!/\d/.test(normalized)) return null;
+
+  const number = Number(normalized);
   return Number.isFinite(number) ? number : null;
 }
 
@@ -80,7 +85,7 @@ async function fetchText(url) {
   const response = await fetch(url, {
     redirect: "follow",
     headers: {
-      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacKauflandHtmlImport/0.1; +https://github.com/)",
+      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacKauflandHtmlImport/0.2; +https://github.com/)",
       accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
       "accept-language": "cs-CZ,cs;q=0.9,en;q=0.8",
     },
@@ -105,7 +110,7 @@ async function fetchJson(url) {
   const response = await fetch(url, {
     redirect: "follow",
     headers: {
-      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacKauflandHtmlImport/0.1; +https://github.com/)",
+      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacKauflandHtmlImport/0.2; +https://github.com/)",
       accept: "application/json,*/*",
       "accept-language": "cs-CZ,cs;q=0.9,en;q=0.8",
     },
@@ -127,17 +132,28 @@ function extractCategoryLinks(html, baseUrl) {
 
   while ((match = regex.exec(html))) {
     const url = absoluteUrl(match[1], baseUrl).replace(/&amp;/g, "&");
-    const parsed = new URL(url);
-    parsed.searchParams.set("kloffer-week", parsed.searchParams.get("kloffer-week") || "current");
-    links.push(parsed.toString());
+
+    try {
+      const parsed = new URL(url);
+      parsed.searchParams.set("kloffer-week", parsed.searchParams.get("kloffer-week") || "current");
+
+      // Nechceme tisíce detailních odkazů do kategorií. Detailní položky si parser najde uvnitř HTML.
+      parsed.searchParams.delete("kloffer-articleID");
+
+      links.push(parsed.toString());
+    } catch {
+      links.push(url);
+    }
   }
 
-  return uniqueBy(links, (url) => url).slice(0, 30);
+  return uniqueBy(links, (url) => url)
+    .filter((url) => url.includes("kloffer-category="))
+    .slice(0, 20);
 }
 
 function categoryNameFromUrl(url) {
   try {
-    const parsed = new URL(url);
+    const parsed = new URL(url.replace(/&amp;/g, "&"));
     const raw = parsed.searchParams.get("kloffer-category") ?? "";
     return decodeURIComponent(raw)
       .replace(/^\d+_?/, "")
@@ -147,12 +163,6 @@ function categoryNameFromUrl(url) {
   } catch {
     return "";
   }
-}
-
-function findMatchingCloseTag(html, startIndex, openMarker = "<a ", closeMarker = "</a>") {
-  const closeIndex = html.indexOf(closeMarker, startIndex);
-  if (closeIndex < 0) return -1;
-  return closeIndex + closeMarker.length;
 }
 
 function extractAttr(fragment, attr) {
@@ -166,26 +176,51 @@ function extractFirst(fragment, regex) {
   return match ? cleanText(match[1]) : "";
 }
 
-function parseProductTiles(html, pageUrl, validByKlNr) {
+function findTileAroundArticleId(html, articleIndex) {
+  const candidates = [
+    html.lastIndexOf('<a ', articleIndex),
+    html.lastIndexOf('<div class="o-slider__item"', articleIndex),
+    html.lastIndexOf('<li ', articleIndex),
+    html.lastIndexOf('<article ', articleIndex),
+    html.lastIndexOf('<div ', articleIndex),
+  ].filter((index) => index >= 0);
+
+  const start = candidates.length ? Math.min(...candidates) : Math.max(0, articleIndex - 2500);
+
+  const closeA = html.indexOf("</a>", articleIndex);
+  const closeLi = html.indexOf("</li>", articleIndex);
+  const closeArticle = html.indexOf("</article>", articleIndex);
+
+  const possibleEnds = [closeA, closeLi, closeArticle]
+    .filter((index) => index >= 0)
+    .map((index) => index + 12);
+
+  const end = possibleEnds.length ? Math.min(...possibleEnds) : Math.min(html.length, articleIndex + 5000);
+
+  return html.slice(start, end);
+}
+
+function parseProductTiles(html, pageUrl, validByKlNr, pageCategory = "") {
   const offers = [];
-  const linkRegex = /<a\b[^>]*class\s*=\s*["'][^"']*k-product-tile[^"']*["'][^>]*href\s*=\s*["']([^"']*kloffer-articleID=([0-9]+)[^"']*)["'][^>]*>/gi;
+  const articleRegex = /kloffer-articleID=([0-9]+)/gi;
 
   let match;
-  while ((match = linkRegex.exec(html))) {
-    const href = absoluteUrl(match[1], pageUrl).replace(/&amp;/g, "&");
-    const klNr = match[2];
-    const start = match.index;
-    const end = findMatchingCloseTag(html, start);
+  while ((match = articleRegex.exec(html))) {
+    const klNr = match[1];
+    const tile = findTileAroundArticleId(html, match.index);
 
-    if (end < 0) continue;
+    const hrefMatch = tile.match(/href\s*=\s*["']([^"']*kloffer-articleID=[^"']*)["']/i);
+    const href = hrefMatch ? absoluteUrl(hrefMatch[1], pageUrl).replace(/&amp;/g, "&") : pageUrl;
 
-    const tile = html.slice(start, end);
+    const imageTag =
+      tile.match(/<img\b[^>]*(?:k-product-tile__main-image|data-image-fallback|alt=)[^>]*>/i)?.[0] ??
+      tile.match(/<img\b[^>]*>/i)?.[0] ??
+      "";
 
-    const imageTag = tile.match(/<img\b[^>]*class\s*=\s*["'][^"']*k-product-tile__main-image[^"']*["'][^>]*>/i)?.[0] ?? "";
     const product =
       cleanText(extractAttr(imageTag, "alt")) ||
       cleanText(extractAttr(imageTag, "title")) ||
-      extractFirst(tile, /<div[^>]*class=["'][^"']*k-product-tile__title[^"']*["'][^>]*>([\s\S]*?)<\/div>/i);
+      extractFirst(tile, /<[^>]*class=["'][^"']*(?:product|tile).*?(?:title|name)[^"']*["'][^>]*>([\s\S]*?)<\/[^>]+>/i);
 
     const priceText = extractFirst(tile, /<div[^>]*class=["'][^"']*k-price-tag__price[^"']*["'][^>]*>([\s\S]*?)<\/div>/i);
     const oldPriceText = extractFirst(tile, /<span[^>]*class=["'][^"']*k-price-tag__old-price-line-through[^"']*["'][^>]*>([\s\S]*?)<\/span>/i);
@@ -194,8 +229,7 @@ function parseProductTiles(html, pageUrl, validByKlNr) {
     const price = toNumber(priceText);
     const oldPrice = toNumber(oldPriceText);
     const imageUrl = absoluteUrl(extractAttr(imageTag, "src"), pageUrl);
-    const categoryUrl = href;
-    const category = categoryNameFromUrl(href);
+    const category = categoryNameFromUrl(href) || pageCategory;
     const valid = validByKlNr.get(klNr) ?? {};
 
     if (!klNr || !product || price == null) continue;
@@ -220,12 +254,12 @@ function parseProductTiles(html, pageUrl, validByKlNr) {
       priceType: discountText || "akční cena",
       klNr,
       imageUrl,
-      sourceUrl: categoryUrl,
+      sourceUrl: href,
       leafletUrl: STORE.leafletUrl,
     });
   }
 
-  return offers;
+  return uniqueBy(offers, (offer) => offer.klNr);
 }
 
 async function main() {
@@ -252,6 +286,7 @@ async function main() {
       url: storePage.finalUrl,
       text: storePage.text,
       length: storePage.length,
+      category: "",
     },
   ];
 
@@ -266,6 +301,7 @@ async function main() {
         url: page.finalUrl,
         text: page.text,
         length: page.length,
+        category: categoryNameFromUrl(url),
       });
 
       await writeFile(`${RAW_HTML_DIR}/category-${String(categoryIndex).padStart(2, "0")}.html`, page.text, "utf8");
@@ -274,24 +310,27 @@ async function main() {
         type: "category",
         url,
         error: error instanceof Error ? error.message : String(error),
+        category: categoryNameFromUrl(url),
       });
     }
   }
 
   await writeFile(`${RAW_HTML_DIR}/store-page.html`, storePage.text, "utf8");
 
-  const allOffers = pages.flatMap((page) =>
-    page.text ? parseProductTiles(page.text, page.url, validByKlNr) : []
-  );
+  const parsedByPage = pages.map((page) => {
+    const offers = page.text ? parseProductTiles(page.text, page.url, validByKlNr, page.category) : [];
+    return {
+      ...page,
+      offers,
+    };
+  });
 
+  const allOffers = parsedByPage.flatMap((page) => page.offers);
   const uniqueOffers = uniqueBy(allOffers, (offer) => offer.klNr).sort((a, b) =>
     a.product.localeCompare(b.product, "cs")
   );
 
-  const withDate = uniqueOffers.filter((offer) => offer.validFrom || offer.validTo);
-  const indexedKlNrs = new Set(rawIndex.map((item) => item.klNr));
   const matchedKlNrs = new Set(uniqueOffers.map((offer) => offer.klNr));
-
   const missingFromHtml = rawIndex
     .filter((item) => !matchedKlNrs.has(item.klNr))
     .slice(0, 200);
@@ -305,7 +344,7 @@ async function main() {
       store: STORE,
       count: uniqueOffers.length,
       rawIndexCount: rawIndex.length,
-      matchedRawIndexCount: withDate.length,
+      matchedRawIndexCount: uniqueOffers.filter((offer) => offer.validFrom || offer.validTo).length,
       parser: "scripts/import-kaufland-teplice-html.mjs",
     },
     offers: uniqueOffers,
@@ -314,20 +353,28 @@ async function main() {
   const debug = {
     meta: result.meta,
     categoryLinks,
-    pages: pages.map((page) => ({
+    pages: parsedByPage.map((page) => ({
       type: page.type,
       url: page.url,
+      category: page.category,
       length: page.length ?? 0,
       error: page.error ?? null,
-      parsedOffersCount: page.text ? parseProductTiles(page.text, page.url, validByKlNr).length : 0,
+      parsedOffersCount: page.offers.length,
+      sampleProducts: page.offers.slice(0, 8).map((offer) => ({
+        klNr: offer.klNr,
+        product: offer.product,
+        price: offer.price,
+        oldPrice: offer.oldPrice,
+        category: offer.category,
+      })),
     })),
     firstOffers: uniqueOffers.slice(0, 30),
     missingFromHtml,
     missingFromHtmlCount: rawIndex.length - matchedKlNrs.size,
     notes: [
-      "Parser čte produktové dlaždice z HTML pobočky a kategorií.",
+      "Parser v2 hledá kloffer-articleID kdekoliv v HTML a není závislý na pořadí atributů class/href.",
       "Endpoint .kloffers obsahuje jen klNr a platnost, proto ho používáme jako index platnosti.",
-      "Pokud count nebude blízko rawIndexCount, další krok je dořešit stránkování nebo další kategorie.",
+      "Pokud count nebude blízko rawIndexCount, další krok je zjistit, zda Kaufland stránkuje/lazy-loaduje další produkty přes JS asset.",
     ],
   };
 
@@ -337,7 +384,6 @@ async function main() {
 
   console.log(`Raw index count: ${rawIndex.length}`);
   console.log(`Parsed offers count: ${uniqueOffers.length}`);
-  console.log(`Matched raw index count: ${withDate.length}`);
   console.log(`Missing from HTML count: ${debug.missingFromHtmlCount}`);
   console.log(`Wrote ${OFFERS_FILE}`);
   console.log(`Wrote ${DEBUG_FILE}`);

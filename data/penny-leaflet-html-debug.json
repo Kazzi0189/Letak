@@ -1,20 +1,20 @@
 {
   "meta": {
     "source": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
-    "updatedAt": "2026-05-13T19:42:27.428Z",
-    "count": 326,
+    "updatedAt": "2026-05-13T19:51:21.926Z",
+    "count": 353,
     "parser": "scripts/import-penny-leaflet-html.mjs",
-    "parserVersion": "0.5",
-    "note": "V5: oprava názvů položek u bloků, kde před aktuální položkou leží jiná položka typu cena za 1 kg / 1 ks nebo holé balení bez jednotkové ceny. Cílem je omezit slepené názvy jako ČERSTVÝ SÝR ... RYBÍ POMAZÁNKA."
+    "parserVersion": "0.6",
+    "note": "V6: rozšířená oprava zbylých slepených názvů. Parser nově umí jednotkovou cenu bez desetinné čárky typu 100 g 23 Kč a čistí bloky s mezivloženou cenou typu 100 g < 11,90 Kč."
   },
   "summary": {
     "pagesChecked": 36,
     "pagesWithProductLine": 35,
-    "parsedOffers": 326,
-    "highConfidenceOffers": 293,
+    "parsedOffers": 353,
+    "highConfidenceOffers": 319,
     "mediumConfidenceOffers": 25,
-    "lowConfidenceOffers": 8,
-    "computedPriceOffers": 321,
+    "lowConfidenceOffers": 9,
+    "computedPriceOffers": 348,
     "explicitPriceOffers": 0,
     "leadPriceOffers": 5
   },
@@ -853,11 +853,11 @@
           }
         },
         {
-          "id": "penny-leaflet-db608b4bbe7866ef",
+          "id": "penny-leaflet-ef0b455eba3f7497",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "TAVENÝ SÝR BONI",
+          "product": "SÝROVÉ TYČINKY KARLOVA KORUNA",
           "brand": "",
           "packageSize": "80 g",
           "price": 19.9,
@@ -877,7 +877,7 @@
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": null,
             "rawProductPrefix": "TAVENÝ SÝR BONI různé druhy 100 g < 11,90 Kč SÝROVÉ TYČINKY KARLOVA KORUNA",
-            "cleanedProductPrefix": "TAVENÝ SÝR BONI různé druhy 100 g < 11,90 Kč SÝROVÉ TYČINKY KARLOVA KORUNA"
+            "cleanedProductPrefix": "SÝROVÉ TYČINKY KARLOVA KORUNA"
           }
         },
         {
@@ -1202,7 +1202,7 @@
         10.9,
         44.9
       ],
-      "offersCount": 15,
+      "offersCount": 16,
       "firstOffers": [
         {
           "id": "penny-leaflet-4034bf88d88ddff6",
@@ -1373,11 +1373,39 @@
           }
         },
         {
-          "id": "penny-leaflet-2653f792b2ea3779",
+          "id": "penny-leaflet-03c62c110d2720d0",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "KOŘENĚNÉ MATJESY V OLEJI GRAN MARE 200/130 g | 100 g 23 Kč SHOT BIO PENNY TO GO ginger/kurkuma",
+          "product": "KOŘENĚNÉ MATJESY V OLEJI GRAN MARE",
+          "brand": "",
+          "packageSize": "200/130 g",
+          "price": 29.9,
+          "unitPrice": 23,
+          "unit": "Kč/100 g",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/5/index.html",
+          "pageNumber": 5,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 23.9,
+            "computedPrice": 29.9,
+            "nearestLeadPrice": 29.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": null,
+            "rawProductPrefix": "KOŘENĚNÉ MATJESY V OLEJI GRAN MARE",
+            "cleanedProductPrefix": "KOŘENĚNÉ MATJESY V OLEJI GRAN MARE"
+          }
+        },
+        {
+          "id": "penny-leaflet-ac0bfd4f8da545b8",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "SHOT BIO PENNY TO GO ginger/kurkuma",
           "brand": "",
           "packageSize": "150 ml",
           "price": 23.9,
@@ -1391,13 +1419,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 23.9,
+            "leadPrice": 44.9,
             "computedPrice": 23.9,
             "nearestLeadPrice": 23.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": null,
-            "rawProductPrefix": "KOŘENĚNÉ MATJESY V OLEJI GRAN MARE 200/130 g | 100 g 23 Kč SHOT BIO PENNY TO GO ginger/kurkuma",
-            "cleanedProductPrefix": "KOŘENĚNÉ MATJESY V OLEJI GRAN MARE 200/130 g | 100 g 23 Kč SHOT BIO PENNY TO GO ginger/kurkuma"
+            "rawProductPrefix": "SHOT BIO PENNY TO GO ginger/kurkuma",
+            "cleanedProductPrefix": "SHOT BIO PENNY TO GO ginger/kurkuma"
           }
         },
         {
@@ -1419,7 +1447,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 44.9,
+            "leadPrice": 29.9,
             "computedPrice": 32.9,
             "nearestLeadPrice": 32.9,
             "leadDiff": 0,
@@ -1447,7 +1475,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 29.9,
+            "leadPrice": 32.9,
             "computedPrice": 11.9,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
@@ -1475,7 +1503,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 32.9,
+            "leadPrice": 11.9,
             "computedPrice": 5.9,
             "nearestLeadPrice": 5.9,
             "leadDiff": 0,
@@ -1503,7 +1531,7 @@
           "confidence": "medium",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 11.9,
+            "leadPrice": 5.9,
             "computedPrice": 99,
             "nearestLeadPrice": 44.9,
             "leadDiff": 54.1,
@@ -1531,7 +1559,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 5.9,
+            "leadPrice": 22.9,
             "computedPrice": 27.93,
             "nearestLeadPrice": 27.9,
             "leadDiff": 0.030000000000001137,
@@ -1559,7 +1587,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 22.9,
+            "leadPrice": 9.9,
             "computedPrice": 15.9,
             "nearestLeadPrice": 15.9,
             "leadDiff": 0,
@@ -1587,7 +1615,7 @@
           "confidence": "low",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 9.9,
+            "leadPrice": 27.9,
             "computedPrice": 10.9,
             "nearestLeadPrice": 10.9,
             "leadDiff": 0,
@@ -1615,7 +1643,7 @@
           "confidence": "low",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 27.9,
+            "leadPrice": 15.9,
             "computedPrice": 44.9,
             "nearestLeadPrice": 44.9,
             "leadDiff": 0,
@@ -2622,7 +2650,7 @@
         7.9,
         8.9
       ],
-      "offersCount": 11,
+      "offersCount": 12,
       "firstOffers": [
         {
           "id": "penny-leaflet-59366a38ddc8ed80",
@@ -2821,11 +2849,39 @@
           }
         },
         {
-          "id": "penny-leaflet-7458207c4a44fe14",
+          "id": "penny-leaflet-3098a5dba61ae3f5",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "ZMRZLINA KAKTUS* citron/jahoda 45 ml | 1 l 220 Kč ZMRZLINA BIG COOKIES AND CREAM RIOS",
+          "product": "ZMRZLINA KAKTUS* citron/jahoda",
+          "brand": "",
+          "packageSize": "45 ml",
+          "price": 9.9,
+          "unitPrice": 220,
+          "unit": "Kč/1 l",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/8/index.html",
+          "pageNumber": 8,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 7.9,
+            "computedPrice": 9.9,
+            "nearestLeadPrice": 9.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": null,
+            "rawProductPrefix": "ZMRZLINA KAKTUS* citron/jahoda",
+            "cleanedProductPrefix": "ZMRZLINA KAKTUS* citron/jahoda"
+          }
+        },
+        {
+          "id": "penny-leaflet-06182c4aebfcf6ac",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "ZMRZLINA BIG COOKIES AND CREAM RIOS",
           "brand": "",
           "packageSize": "120 ml",
           "price": 14.9,
@@ -2839,21 +2895,21 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 7.9,
+            "leadPrice": 14.9,
             "computedPrice": 14.9,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 14.9,
-            "rawProductPrefix": "ZMRZLINA KAKTUS* citron/jahoda 45 ml | 1 l 220 Kč ZMRZLINA BIG COOKIES AND CREAM RIOS",
-            "cleanedProductPrefix": "ZMRZLINA KAKTUS* citron/jahoda 45 ml | 1 l 220 Kč ZMRZLINA BIG COOKIES AND CREAM RIOS"
+            "rawProductPrefix": "ZMRZLINA BIG COOKIES AND CREAM RIOS",
+            "cleanedProductPrefix": "ZMRZLINA BIG COOKIES AND CREAM RIOS"
           }
         },
         {
-          "id": "penny-leaflet-683d1b4e53b6968d",
+          "id": "penny-leaflet-516e1d4591794f35",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "ZMRZLINA PREMIUM PEGAS",
+          "product": "ZMRZLINA SANDWICH OREO",
           "brand": "",
           "packageSize": "110 ml",
           "price": 24.9,
@@ -2867,13 +2923,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 14.9,
+            "leadPrice": 24.9,
             "computedPrice": 24.9,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": null,
             "rawProductPrefix": "ZMRZLINA PREMIUM PEGAS různé druhy 100 ml < 22,90 Kč ZMRZLINA SANDWICH OREO*",
-            "cleanedProductPrefix": "ZMRZLINA PREMIUM PEGAS různé druhy 100 ml < 22,90 Kč ZMRZLINA SANDWICH OREO*"
+            "cleanedProductPrefix": "ZMRZLINA SANDWICH OREO*"
           }
         },
         {
@@ -2895,7 +2951,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 24.9,
+            "leadPrice": 29.9,
             "computedPrice": 7.9,
             "nearestLeadPrice": 7.9,
             "leadDiff": 0,
@@ -2923,7 +2979,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 29.9,
+            "leadPrice": 7.9,
             "computedPrice": 8.9,
             "nearestLeadPrice": 8.9,
             "leadDiff": 0,
@@ -3034,11 +3090,11 @@
           }
         },
         {
-          "id": "penny-leaflet-d0920107df415f91",
+          "id": "penny-leaflet-cf45d26ee5ebaa5a",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "BRAMBOROVÉ HALUŠKY",
+          "product": "TRESKA ALJAŠSKÁ MYLORD mražená",
           "brand": "",
           "packageSize": "4x 100 g",
           "price": 69.9,
@@ -3058,7 +3114,7 @@
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 69.9,
             "rawProductPrefix": "BRAMBOROVÉ HALUŠKY mražené | 1 kg < 44,90 Kč TRESKA ALJAŠSKÁ MYLORD mražená",
-            "cleanedProductPrefix": "BRAMBOROVÉ HALUŠKY mražené | 1 kg < 44,90 Kč TRESKA ALJAŠSKÁ MYLORD mražená"
+            "cleanedProductPrefix": "TRESKA ALJAŠSKÁ MYLORD mražená"
           }
         },
         {
@@ -3832,7 +3888,7 @@
         19.9,
         9.9
       ],
-      "offersCount": 20,
+      "offersCount": 22,
       "firstOffers": [
         {
           "id": "penny-leaflet-1780f8a444f1e61a",
@@ -3919,11 +3975,11 @@
           }
         },
         {
-          "id": "penny-leaflet-446a8de1fa4f15ad",
+          "id": "penny-leaflet-bfab8d9283a5f226",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "ŘEPKOVÝ OLEJ PENNY 1 l < 29,90 Kč UTOPENCI S CIBULÍ HAMÉ",
+          "product": "UTOPENCI S CIBULÍ HAMÉ",
           "brand": "",
           "packageSize": "670/320 g",
           "price": 79.9,
@@ -3943,7 +3999,7 @@
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 56.9,
             "rawProductPrefix": "ŘEPKOVÝ OLEJ PENNY 1 l < 29,90 Kč UTOPENCI S CIBULÍ HAMÉ*",
-            "cleanedProductPrefix": "ŘEPKOVÝ OLEJ PENNY 1 l < 29,90 Kč UTOPENCI S CIBULÍ HAMÉ*"
+            "cleanedProductPrefix": "UTOPENCI S CIBULÍ HAMÉ*"
           }
         },
         {
@@ -4059,11 +4115,39 @@
           }
         },
         {
-          "id": "penny-leaflet-6503b352e2b02905",
+          "id": "penny-leaflet-90022b3ca4b76a44",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "PROTLAK RAJČATOVÝ SAN FABIO 140 g | 1 kg 85 Kč < 11,90 Kč OLIVOVÝ OLEJ EXTRA PANENSKÝ",
+          "product": "PROTLAK RAJČATOVÝ SAN FABIO",
+          "brand": "",
+          "packageSize": "140 g",
+          "price": 11.9,
+          "unitPrice": 85,
+          "unit": "Kč/1 kg",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
+          "pageNumber": 11,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 29.9,
+            "computedPrice": 11.9,
+            "nearestLeadPrice": 11.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 11.9,
+            "rawProductPrefix": "PROTLAK RAJČATOVÝ SAN FABIO",
+            "cleanedProductPrefix": "PROTLAK RAJČATOVÝ SAN FABIO"
+          }
+        },
+        {
+          "id": "penny-leaflet-d66cb07455d24261",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "OLIVOVÝ OLEJ EXTRA PANENSKÝ",
           "brand": "",
           "packageSize": "0,75 l",
           "price": 129.9,
@@ -4077,13 +4161,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 29.9,
+            "leadPrice": 11.9,
             "computedPrice": 129.9,
             "nearestLeadPrice": 129.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 119.9,
-            "rawProductPrefix": "PROTLAK RAJČATOVÝ SAN FABIO 140 g | 1 kg 85 Kč < 11,90 Kč OLIVOVÝ OLEJ EXTRA PANENSKÝ",
-            "cleanedProductPrefix": "PROTLAK RAJČATOVÝ SAN FABIO 140 g | 1 kg 85 Kč < 11,90 Kč OLIVOVÝ OLEJ EXTRA PANENSKÝ"
+            "rawProductPrefix": "OLIVOVÝ OLEJ EXTRA PANENSKÝ",
+            "cleanedProductPrefix": "OLIVOVÝ OLEJ EXTRA PANENSKÝ"
           }
         },
         {
@@ -4105,7 +4189,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 11.9,
+            "leadPrice": 129.9,
             "computedPrice": 19.9,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
@@ -4133,7 +4217,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 129.9,
+            "leadPrice": 19.9,
             "computedPrice": 14.9,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
@@ -4143,11 +4227,39 @@
           }
         },
         {
-          "id": "penny-leaflet-819b042a1a23fc20",
+          "id": "penny-leaflet-051aedb5db4b8cb8",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "SUŠENÁ RAJČATA S KAPARY SAN FABIO 280/140 g 1 kg 285 Kč < 54,90 Kč OKURKY KARLOVA KORUNA",
+          "product": "SUŠENÁ RAJČATA S KAPARY SAN FABIO",
+          "brand": "",
+          "packageSize": "280/140 g",
+          "price": 39.9,
+          "unitPrice": 285,
+          "unit": "Kč/1 kg",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
+          "pageNumber": 11,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 14.9,
+            "computedPrice": 39.9,
+            "nearestLeadPrice": 39.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 54.9,
+            "rawProductPrefix": "SUŠENÁ RAJČATA S KAPARY SAN FABIO",
+            "cleanedProductPrefix": "SUŠENÁ RAJČATA S KAPARY SAN FABIO"
+          }
+        },
+        {
+          "id": "penny-leaflet-56cdf58162afde7c",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "OKURKY KARLOVA KORUNA",
           "brand": "",
           "packageSize": "670/350 g",
           "price": 29.9,
@@ -4161,13 +4273,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 19.9,
+            "leadPrice": 39.9,
             "computedPrice": 29.9,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 28.9,
-            "rawProductPrefix": "SUŠENÁ RAJČATA S KAPARY SAN FABIO 280/140 g 1 kg 285 Kč < 54,90 Kč OKURKY KARLOVA KORUNA",
-            "cleanedProductPrefix": "SUŠENÁ RAJČATA S KAPARY SAN FABIO 280/140 g 1 kg 285 Kč < 54,90 Kč OKURKY KARLOVA KORUNA"
+            "rawProductPrefix": "OKURKY KARLOVA KORUNA",
+            "cleanedProductPrefix": "OKURKY KARLOVA KORUNA"
           }
         },
         {
@@ -4189,7 +4301,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 14.9,
+            "leadPrice": 29.9,
             "computedPrice": 19.9,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
@@ -4217,7 +4329,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 39.9,
+            "leadPrice": 19.9,
             "computedPrice": 8.9,
             "nearestLeadPrice": 8.9,
             "leadDiff": 0,
@@ -4245,7 +4357,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 29.9,
+            "leadPrice": 49.9,
             "computedPrice": 59.9,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
@@ -4273,7 +4385,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 19.9,
+            "leadPrice": 59.9,
             "computedPrice": 9.9,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
@@ -4301,7 +4413,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 49.9,
+            "leadPrice": 8.9,
             "computedPrice": 49.9,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
@@ -4329,7 +4441,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 59.9,
+            "leadPrice": 9.9,
             "computedPrice": 19.9,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
@@ -4357,7 +4469,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 8.9,
+            "leadPrice": 19.9,
             "computedPrice": 19.9,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
@@ -4431,7 +4543,7 @@
         18.9,
         29.9
       ],
-      "offersCount": 9,
+      "offersCount": 10,
       "firstOffers": [
         {
           "id": "penny-leaflet-c1af6f5b34a38eef",
@@ -4574,11 +4686,39 @@
           }
         },
         {
-          "id": "penny-leaflet-de8b2a7b381ce38d",
+          "id": "penny-leaflet-de6e939cfba6076e",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "PŘEPUŠTĚNÉ MÁSLO GHÍ 450 ml 1 l 222 Kč < 199,90 Kč ŠVESTKOVÁ POVIDLA HAMÉ",
+          "product": "PŘEPUŠTĚNÉ MÁSLO GHÍ",
+          "brand": "",
+          "packageSize": "450 ml",
+          "price": 99.9,
+          "unitPrice": 222,
+          "unit": "Kč/1 l",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/index.html",
+          "pageNumber": 12,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 99.9,
+            "computedPrice": 99.9,
+            "nearestLeadPrice": 99.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 199.9,
+            "rawProductPrefix": "PŘEPUŠTĚNÉ MÁSLO GHÍ",
+            "cleanedProductPrefix": "PŘEPUŠTĚNÉ MÁSLO GHÍ"
+          }
+        },
+        {
+          "id": "penny-leaflet-98c8bca7b9f6b715",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "ŠVESTKOVÁ POVIDLA HAMÉ",
           "brand": "",
           "packageSize": "440 g",
           "price": 36.9,
@@ -4592,13 +4732,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 99.9,
+            "leadPrice": 36.9,
             "computedPrice": 36.9,
             "nearestLeadPrice": 36.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 39.9,
-            "rawProductPrefix": "PŘEPUŠTĚNÉ MÁSLO GHÍ 450 ml 1 l 222 Kč < 199,90 Kč ŠVESTKOVÁ POVIDLA HAMÉ",
-            "cleanedProductPrefix": "PŘEPUŠTĚNÉ MÁSLO GHÍ 450 ml 1 l 222 Kč < 199,90 Kč ŠVESTKOVÁ POVIDLA HAMÉ"
+            "rawProductPrefix": "ŠVESTKOVÁ POVIDLA HAMÉ",
+            "cleanedProductPrefix": "ŠVESTKOVÁ POVIDLA HAMÉ"
           }
         },
         {
@@ -4620,7 +4760,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 36.9,
+            "leadPrice": 49.9,
             "computedPrice": 49.9,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
@@ -4648,7 +4788,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 49.9,
+            "leadPrice": 34.9,
             "computedPrice": 34.9,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
@@ -4676,7 +4816,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 34.9,
+            "leadPrice": 119.9,
             "computedPrice": 119.9,
             "nearestLeadPrice": 119.9,
             "leadDiff": 0,
@@ -4719,7 +4859,7 @@
         16.9,
         89.9
       ],
-      "offersCount": 8,
+      "offersCount": 11,
       "firstOffers": [
         {
           "id": "penny-leaflet-22b06bb4151204ff",
@@ -4834,11 +4974,39 @@
           }
         },
         {
-          "id": "penny-leaflet-66badb5bc4de1816",
+          "id": "penny-leaflet-064417a013a66010",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "HELLO EXTRA HUSTÝ SIRUP",
+          "brand": "",
+          "packageSize": "0,7 l",
+          "price": 32.9,
+          "unitPrice": 47,
+          "unit": "Kč/1 l",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/13/index.html",
+          "pageNumber": 13,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 8.9,
+            "computedPrice": 32.9,
+            "nearestLeadPrice": 32.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 29.9,
+            "rawProductPrefix": "HELLO EXTRA HUSTÝ SIRUP různé druhy",
+            "cleanedProductPrefix": "HELLO EXTRA HUSTÝ SIRUP různé druhy"
+          }
+        },
+        {
+          "id": "penny-leaflet-20df774a47b45240",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "PAŠTIKA HAMÉ* Májka, Matěj, Svačinka",
           "brand": "",
           "packageSize": "120 g",
           "price": 16.9,
@@ -4852,13 +5020,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 8.9,
+            "leadPrice": 32.9,
             "computedPrice": 16.9,
             "nearestLeadPrice": 16.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 13.9,
-            "rawProductPrefix": "HELLO EXTRA HUSTÝ SIRUP různé druhy 0,7 l 1 l 47 Kč < 29,90 Kč PAŠTIKA HAMÉ* Májka, Matěj, Svačinka |",
-            "cleanedProductPrefix": "HELLO EXTRA HUSTÝ SIRUP různé druhy 0,7 l 1 l 47 Kč < 29,90 Kč PAŠTIKA HAMÉ* Májka, Matěj, Svačinka |"
+            "rawProductPrefix": "PAŠTIKA HAMÉ* Májka, Matěj, Svačinka |",
+            "cleanedProductPrefix": "PAŠTIKA HAMÉ* Májka, Matěj, Svačinka |"
           }
         },
         {
@@ -4880,7 +5048,7 @@
           "confidence": "medium",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 32.9,
+            "leadPrice": 11.9,
             "computedPrice": 21.6,
             "nearestLeadPrice": 21.9,
             "leadDiff": 0.29999999999999716,
@@ -4908,7 +5076,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 11.9,
+            "leadPrice": 12.9,
             "computedPrice": 89.9,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
@@ -4936,13 +5104,69 @@
           "confidence": "medium",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 12.9,
+            "leadPrice": 16.9,
             "computedPrice": 29.9,
             "nearestLeadPrice": 32.9,
             "leadDiff": 3,
             "ignoredExplicitAfterUnitPrice": null,
             "rawProductPrefix": "29,90 **59,90/ 50% SUŠENKY MINIS* různé druhy |",
             "cleanedProductPrefix": "29,90 **59,90/ 50% SUŠENKY MINIS* různé druhy |"
+          }
+        },
+        {
+          "id": "penny-leaflet-7ffe788471a06ef5",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "TYČINKY ORION Kofila",
+          "brand": "",
+          "packageSize": "35 g",
+          "price": 11.9,
+          "unitPrice": 34,
+          "unit": "Kč/100 g",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/13/index.html",
+          "pageNumber": 13,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 89.9,
+            "computedPrice": 11.9,
+            "nearestLeadPrice": 11.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 13.9,
+            "rawProductPrefix": "TYČINKY ORION Kofila",
+            "cleanedProductPrefix": "TYČINKY ORION Kofila"
+          }
+        },
+        {
+          "id": "penny-leaflet-29545b516fbbeaf1",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "TYČINKA KIT KAT CHUNKY",
+          "brand": "",
+          "packageSize": "40 g",
+          "price": 12.9,
+          "unitPrice": 32.25,
+          "unit": "Kč/100 g",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/13/index.html",
+          "pageNumber": 13,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": null,
+            "computedPrice": 12.9,
+            "nearestLeadPrice": 12.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 12.9,
+            "rawProductPrefix": "TYČINKA KIT KAT CHUNKY",
+            "cleanedProductPrefix": "TYČINKA KIT KAT CHUNKY"
           }
         }
       ]
@@ -4989,7 +5213,7 @@
         29.9,
         7.48
       ],
-      "offersCount": 14,
+      "offersCount": 16,
       "firstOffers": [
         {
           "id": "penny-leaflet-40e19a0994bf5b90",
@@ -5020,11 +5244,39 @@
           }
         },
         {
-          "id": "penny-leaflet-504bd800ff338ab3",
+          "id": "penny-leaflet-e232b2cfa096461f",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "DEZERT MATY OLMÍCI smetanový 110 g 100 g 9 Kč ZAKYSANÁ SMETANA DE LUXE 20% KUNÍN",
+          "product": "DEZERT MATY OLMÍCI smetanový",
+          "brand": "",
+          "packageSize": "110 g",
+          "price": 9.9,
+          "unitPrice": 9,
+          "unit": "Kč/100 g",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
+          "pageNumber": 14,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 27.9,
+            "computedPrice": 9.9,
+            "nearestLeadPrice": 9.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": null,
+            "rawProductPrefix": "DEZERT MATY OLMÍCI smetanový",
+            "cleanedProductPrefix": "DEZERT MATY OLMÍCI smetanový"
+          }
+        },
+        {
+          "id": "penny-leaflet-119c6a88cb445069",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "ZAKYSANÁ SMETANA DE LUXE 20% KUNÍN",
           "brand": "",
           "packageSize": "190 g",
           "price": 19.9,
@@ -5038,13 +5290,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 27.9,
+            "leadPrice": 19.9,
             "computedPrice": 19.9,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": null,
-            "rawProductPrefix": "DEZERT MATY OLMÍCI smetanový 110 g 100 g 9 Kč ZAKYSANÁ SMETANA DE LUXE 20% KUNÍN",
-            "cleanedProductPrefix": "DEZERT MATY OLMÍCI smetanový 110 g 100 g 9 Kč ZAKYSANÁ SMETANA DE LUXE 20% KUNÍN"
+            "rawProductPrefix": "ZAKYSANÁ SMETANA DE LUXE 20% KUNÍN",
+            "cleanedProductPrefix": "ZAKYSANÁ SMETANA DE LUXE 20% KUNÍN"
           }
         },
         {
@@ -5066,7 +5318,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 19.9,
+            "leadPrice": 7.9,
             "computedPrice": 9.9,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
@@ -5094,7 +5346,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 7.9,
+            "leadPrice": 9.9,
             "computedPrice": 9.9,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
@@ -5160,11 +5412,39 @@
           }
         },
         {
-          "id": "penny-leaflet-770799766a8d9c25",
+          "id": "penny-leaflet-025b387c18dd81a0",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "TUŇÁK STEAK MARINNA",
+          "brand": "",
+          "packageSize": "140/150g",
+          "price": 27.9,
+          "unitPrice": 287.5,
+          "unit": "Kč/1 kg",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
+          "pageNumber": 14,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 28.9,
+            "computedPrice": 27.9,
+            "nearestLeadPrice": 27.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 34.9,
+            "rawProductPrefix": "TUŇÁK STEAK MARINNA různé druhy 160/185/195; 104/",
+            "cleanedProductPrefix": "TUŇÁK STEAK MARINNA různé druhy 160/185/195; 104/"
+          }
+        },
+        {
+          "id": "penny-leaflet-efdbc0c4c36dbb59",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "KREKRY TUC",
           "brand": "",
           "packageSize": "60 g",
           "price": 19.9,
@@ -5178,13 +5458,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 9.9,
+            "leadPrice": 39.9,
             "computedPrice": 19.9,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 24.9,
-            "rawProductPrefix": "TUŇÁK STEAK MARINNA různé druhy 160/185/195; 104/140/150g 1 kg 287,50/213,57/199,33 Kč < 34,90 Kč KREKRY TUC různé druhy | 100 g | < 16,90 Kč BIO SNACK BIOSAURUS různé druhy",
-            "cleanedProductPrefix": "TUŇÁK STEAK MARINNA různé druhy 160/185/195; 104/140/150g 1 kg 287,50/213,57/199,33 Kč < 34,90 Kč KREKRY TUC různé druhy | 100 g | < 16,90 Kč BIO SNACK BIOSAURUS různé druhy"
+            "rawProductPrefix": "KREKRY TUC různé druhy | 100 g | < 16,90 Kč BIO SNACK BIOSAURUS různé druhy",
+            "cleanedProductPrefix": "KREKRY TUC různé druhy | 100 g | < 16,90 Kč BIO SNACK BIOSAURUS různé druhy"
           }
         },
         {
@@ -5206,7 +5486,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 28.9,
+            "leadPrice": 29.9,
             "computedPrice": 39.9,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
@@ -5234,7 +5514,7 @@
           "confidence": "low",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 39.9,
+            "leadPrice": 16.9,
             "computedPrice": 9.9,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
@@ -5262,7 +5542,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 29.9,
+            "leadPrice": 19.9,
             "computedPrice": 69.9,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
@@ -5290,7 +5570,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 16.9,
+            "leadPrice": 39.9,
             "computedPrice": 37.9,
             "nearestLeadPrice": 37.9,
             "leadDiff": 0,
@@ -5318,7 +5598,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 19.9,
+            "leadPrice": 9.9,
             "computedPrice": 59.9,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
@@ -5346,7 +5626,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 39.9,
+            "leadPrice": 69.9,
             "computedPrice": 89.9,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
@@ -5374,7 +5654,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 9.9,
+            "leadPrice": 89.9,
             "computedPrice": 179.9,
             "nearestLeadPrice": 179.9,
             "leadDiff": 0,
@@ -5426,7 +5706,7 @@
         16.9,
         24.9
       ],
-      "offersCount": 15,
+      "offersCount": 16,
       "firstOffers": [
         {
           "id": "penny-leaflet-e46b3fb35a361da1",
@@ -5625,11 +5905,11 @@
           }
         },
         {
-          "id": "penny-leaflet-5b0802aff2e0d207",
+          "id": "penny-leaflet-4bbb7ad919339904",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "RELAX 100% pomeranč 1 l < 34,90 Kč RYBÍ FILÉ NOWACO porce,",
+          "product": "RYBÍ FILÉ NOWACO porce,",
           "brand": "",
           "packageSize": "300 g",
           "price": 49.9,
@@ -5649,7 +5929,7 @@
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 49.9,
             "rawProductPrefix": "RELAX 100% pomeranč 1 l < 34,90 Kč RYBÍ FILÉ NOWACO porce, mražené",
-            "cleanedProductPrefix": "RELAX 100% pomeranč 1 l < 34,90 Kč RYBÍ FILÉ NOWACO porce, mražené"
+            "cleanedProductPrefix": "RYBÍ FILÉ NOWACO porce, mražené"
           }
         },
         {
@@ -5847,6 +6127,34 @@
             "rawProductPrefix": "ASCONI GOLD různé druhy",
             "cleanedProductPrefix": "ASCONI GOLD různé druhy"
           }
+        },
+        {
+          "id": "penny-leaflet-e89f1eccb330ad35",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "ČOKOPIŠKOTY FIGARO",
+          "brand": "",
+          "packageSize": "147 g",
+          "price": 22.9,
+          "unitPrice": 15.58,
+          "unit": "Kč/100 g",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
+          "pageNumber": 15,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 9.9,
+            "computedPrice": 22.9,
+            "nearestLeadPrice": 22.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 24.9,
+            "rawProductPrefix": "ČOKOPIŠKOTY FIGARO různé druhy",
+            "cleanedProductPrefix": "ČOKOPIŠKOTY FIGARO různé druhy"
+          }
         }
       ]
     },
@@ -5896,7 +6204,7 @@
         19.9,
         29.9
       ],
-      "offersCount": 14,
+      "offersCount": 15,
       "firstOffers": [
         {
           "id": "penny-leaflet-b816cc14e86c7f6d",
@@ -6095,6 +6403,34 @@
           }
         },
         {
+          "id": "penny-leaflet-c39aa29fcca0f78a",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "EMCO SUPER SUŠENKY*",
+          "brand": "",
+          "packageSize": "60 g",
+          "price": 11.9,
+          "unitPrice": 19.83,
+          "unit": "Kč/100 g",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
+          "pageNumber": 16,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 26.9,
+            "computedPrice": 11.9,
+            "nearestLeadPrice": 11.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": null,
+            "rawProductPrefix": "(běžně za 71,14 Kč) < 17,90 Kč OVOCNÁ SVAČINKA HELLO s malinami 100 g < 7,90 Kč EMCO SUPER SUŠENKY* různé druhy |",
+            "cleanedProductPrefix": "EMCO SUPER SUŠENKY* různé druhy |"
+          }
+        },
+        {
           "id": "penny-leaflet-9bd715bd789125f0",
           "storeId": "penny-default",
           "chain": "Penny",
@@ -6113,7 +6449,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 26.9,
+            "leadPrice": 39.9,
             "computedPrice": 29.9,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
@@ -6141,7 +6477,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 39.9,
+            "leadPrice": 19.9,
             "computedPrice": 10.9,
             "nearestLeadPrice": 10.9,
             "leadDiff": 0,
@@ -6169,7 +6505,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 19.9,
+            "leadPrice": 24.9,
             "computedPrice": 19.9,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
@@ -6197,7 +6533,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 24.9,
+            "leadPrice": 7.9,
             "computedPrice": 34.9,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
@@ -6225,7 +6561,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 7.9,
+            "leadPrice": 11.9,
             "computedPrice": 29.9,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
@@ -6253,7 +6589,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 11.9,
+            "leadPrice": 29.9,
             "computedPrice": 29.9,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
@@ -6281,7 +6617,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 29.9,
+            "leadPrice": 10.9,
             "computedPrice": 10.9,
             "nearestLeadPrice": 10.9,
             "leadDiff": 0,
@@ -6331,7 +6667,7 @@
         8.9,
         19.9
       ],
-      "offersCount": 13,
+      "offersCount": 16,
       "firstOffers": [
         {
           "id": "penny-leaflet-dbfb81b3b05c85be",
@@ -6446,11 +6782,39 @@
           }
         },
         {
-          "id": "penny-leaflet-e9328c7efbb8add3",
+          "id": "penny-leaflet-280a4f3d2413389a",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "TYČINKA ROSHEN*",
+          "brand": "",
+          "packageSize": "38/43 g",
+          "price": 12.9,
+          "unitPrice": 33.95,
+          "unit": "Kč/100 g",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
+          "pageNumber": 17,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 29.9,
+            "computedPrice": 12.9,
+            "nearestLeadPrice": 12.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 11.9,
+            "rawProductPrefix": "TYČINKA ROSHEN* různé druhy |",
+            "cleanedProductPrefix": "TYČINKA ROSHEN* různé druhy |"
+          }
+        },
+        {
+          "id": "penny-leaflet-e91b603025cdfb0b",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "MÜSLI TYČINKA TWIGGY*",
           "brand": "",
           "packageSize": "30/20 g",
           "price": 4.9,
@@ -6464,13 +6828,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 29.9,
+            "leadPrice": 12.9,
             "computedPrice": 4.9,
             "nearestLeadPrice": 4.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 4.9,
-            "rawProductPrefix": "TYČINKA ROSHEN* různé druhy | 38/43 g 100 g 33,95/30 Kč < 11,90 Kč MÜSLI TYČINKA TWIGGY* různé druhy |",
-            "cleanedProductPrefix": "TYČINKA ROSHEN* různé druhy | 38/43 g 100 g 33,95/30 Kč < 11,90 Kč MÜSLI TYČINKA TWIGGY* různé druhy |"
+            "rawProductPrefix": "MÜSLI TYČINKA TWIGGY* různé druhy |",
+            "cleanedProductPrefix": "MÜSLI TYČINKA TWIGGY* různé druhy |"
           }
         },
         {
@@ -6492,7 +6856,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 12.9,
+            "leadPrice": 4.9,
             "computedPrice": 4.9,
             "nearestLeadPrice": 4.9,
             "leadDiff": 0,
@@ -6548,7 +6912,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 4.9,
+            "leadPrice": 14.9,
             "computedPrice": 29.9,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
@@ -6558,11 +6922,39 @@
           }
         },
         {
-          "id": "penny-leaflet-efc278c4af493461",
+          "id": "penny-leaflet-6062732587a8e4c8",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "ČOKOLÁDA MERCI*",
+          "product": "DĚTSKÉ CEREÁLIE CRIP CROP",
+          "brand": "",
+          "packageSize": "250/100 g",
+          "price": 19.9,
+          "unitPrice": 79.6,
+          "unit": "Kč/1 kg",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
+          "pageNumber": 17,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 34.9,
+            "computedPrice": 19.9,
+            "nearestLeadPrice": 19.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 19.9,
+            "rawProductPrefix": "ČOKOLÁDA MERCI* různé druhy | 100 g < 34,90 Kč DĚTSKÉ CEREÁLIE CRIP CROP různé druhy |",
+            "cleanedProductPrefix": "DĚTSKÉ CEREÁLIE CRIP CROP různé druhy |"
+          }
+        },
+        {
+          "id": "penny-leaflet-f5f19077f4587702",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "VLOČKY OVESNÉ KARLOVA KORUNA",
           "brand": "",
           "packageSize": "500 g",
           "price": 11.9,
@@ -6576,13 +6968,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 14.9,
+            "leadPrice": 19.9,
             "computedPrice": 11.9,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 11.9,
-            "rawProductPrefix": "ČOKOLÁDA MERCI* různé druhy | 100 g < 34,90 Kč DĚTSKÉ CEREÁLIE CRIP CROP různé druhy | 250/100 g 1 kg 79,60/199 Kč | < 19,90 Kč VLOČKY OVESNÉ KARLOVA KORUNA různé druhy",
-            "cleanedProductPrefix": "ČOKOLÁDA MERCI* různé druhy | 100 g < 34,90 Kč DĚTSKÉ CEREÁLIE CRIP CROP různé druhy | 250/100 g 1 kg 79,60/199 Kč | < 19,90 Kč VLOČKY OVESNÉ KARLOVA KORUNA různé druhy"
+            "rawProductPrefix": "VLOČKY OVESNÉ KARLOVA KORUNA různé druhy",
+            "cleanedProductPrefix": "VLOČKY OVESNÉ KARLOVA KORUNA různé druhy"
           }
         },
         {
@@ -6604,7 +6996,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 34.9,
+            "leadPrice": 11.9,
             "computedPrice": 29.9,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
@@ -6632,7 +7024,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 19.9,
+            "leadPrice": 29.9,
             "computedPrice": 34.9,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
@@ -6660,7 +7052,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 11.9,
+            "leadPrice": 34.9,
             "computedPrice": 19.9,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
@@ -6670,11 +7062,39 @@
           }
         },
         {
-          "id": "penny-leaflet-a6e1bea2081fa7e0",
+          "id": "penny-leaflet-4fc5afd433eb4883",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "SRDÍČKA MÜSLI CRIP CROP",
+          "brand": "",
+          "packageSize": "50 g",
+          "price": 8.9,
+          "unitPrice": 178,
+          "unit": "Kč/1 kg",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
+          "pageNumber": 17,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 19.9,
+            "computedPrice": 8.9,
+            "nearestLeadPrice": 8.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 8.9,
+            "rawProductPrefix": "SRDÍČKA MÜSLI CRIP CROP různé druhy",
+            "cleanedProductPrefix": "SRDÍČKA MÜSLI CRIP CROP různé druhy"
+          }
+        },
+        {
+          "id": "penny-leaflet-9de18c2e6e684fa3",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "KINDER BUENO",
           "brand": "",
           "packageSize": "43 g",
           "price": 19.9,
@@ -6688,13 +7108,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 29.9,
+            "leadPrice": 8.9,
             "computedPrice": 19.9,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 19.9,
-            "rawProductPrefix": "SRDÍČKA MÜSLI CRIP CROP různé druhy 50 g 1 kg 178 Kč < 8,90 Kč KINDER BUENO",
-            "cleanedProductPrefix": "SRDÍČKA MÜSLI CRIP CROP různé druhy 50 g 1 kg 178 Kč < 8,90 Kč KINDER BUENO"
+            "rawProductPrefix": "KINDER BUENO",
+            "cleanedProductPrefix": "KINDER BUENO"
           }
         }
       ]
@@ -6777,14 +7197,42 @@
         179.6,
         747.5
       ],
-      "offersCount": 1,
+      "offersCount": 2,
       "firstOffers": [
         {
-          "id": "penny-leaflet-cc8d8002c0dfd62c",
+          "id": "penny-leaflet-8508603884f756e2",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "APEROL 0,7 l 1 l 357 Kč < 249,90 Kč BOŽKOV REPUBLIKA míchané alkoholické nápoje | plech",
+          "product": "APEROL",
+          "brand": "",
+          "packageSize": "0,7 l",
+          "price": 249.9,
+          "unitPrice": 357,
+          "unit": "Kč/1 l",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/index.html",
+          "pageNumber": 18,
+          "confidence": "low",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 39.9,
+            "computedPrice": 249.9,
+            "nearestLeadPrice": 249.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 249.9,
+            "rawProductPrefix": "APEROL",
+            "cleanedProductPrefix": "APEROL"
+          }
+        },
+        {
+          "id": "penny-leaflet-e4693655f089017c",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "BOŽKOV REPUBLIKA míchané alkoholické nápoje | plech",
           "brand": "",
           "packageSize": "0,25 l",
           "price": 19.9,
@@ -6798,13 +7246,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 39.9,
+            "leadPrice": 49.9,
             "computedPrice": 19.9,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 39.9,
-            "rawProductPrefix": "APEROL 0,7 l 1 l 357 Kč < 249,90 Kč BOŽKOV REPUBLIKA míchané alkoholické nápoje | plech různé druhy 6 % alk. |",
-            "cleanedProductPrefix": "APEROL 0,7 l 1 l 357 Kč < 249,90 Kč BOŽKOV REPUBLIKA míchané alkoholické nápoje | plech různé druhy 6 % alk. |"
+            "rawProductPrefix": "BOŽKOV REPUBLIKA míchané alkoholické nápoje | plech různé druhy 6 % alk. |",
+            "cleanedProductPrefix": "BOŽKOV REPUBLIKA míchané alkoholické nápoje | plech různé druhy 6 % alk. |"
           }
         }
       ]
@@ -7578,11 +8026,11 @@
           }
         },
         {
-          "id": "penny-leaflet-91b2cc391b18a1c7",
+          "id": "penny-leaflet-628b3b5a5344b325",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "POPCORN SOLTY",
+          "product": "LAY’S MAX DEEP-CUT*",
           "brand": "",
           "packageSize": "120 g",
           "price": 29.9,
@@ -7602,7 +8050,7 @@
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 29.9,
             "rawProductPrefix": "POPCORN SOLTY různé druhy 100 g < 9,90 Kč LAY’S MAX DEEP-CUT* různé druhy",
-            "cleanedProductPrefix": "POPCORN SOLTY různé druhy 100 g < 9,90 Kč LAY’S MAX DEEP-CUT* různé druhy"
+            "cleanedProductPrefix": "LAY’S MAX DEEP-CUT* různé druhy"
           }
         },
         {
@@ -7796,7 +8244,7 @@
         24.9,
         26.9
       ],
-      "offersCount": 15,
+      "offersCount": 18,
       "firstOffers": [
         {
           "id": "penny-leaflet-4a0d9eb354cf81bc",
@@ -7855,11 +8303,39 @@
           }
         },
         {
-          "id": "penny-leaflet-b794daf96a89dc3b",
+          "id": "penny-leaflet-1ad1dd03f5e1977d",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "KOFOLA, VINEA* 4x 0,33 l 1 l 30 Kč < 39,60 Kč BIO ČAJ LEROS heřmánek, meduňka",
+          "product": "KOFOLA, VINEA",
+          "brand": "",
+          "packageSize": "4x 0,33 l",
+          "price": 39.6,
+          "unitPrice": 30,
+          "unit": "Kč/1 l",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
+          "pageNumber": 22,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 26.9,
+            "computedPrice": 39.6,
+            "nearestLeadPrice": 39.6,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 39.6,
+            "rawProductPrefix": "KOFOLA, VINEA*",
+            "cleanedProductPrefix": "KOFOLA, VINEA*"
+          }
+        },
+        {
+          "id": "penny-leaflet-87fde50337b3786a",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "BIO ČAJ LEROS heřmánek, meduňka",
           "brand": "",
           "packageSize": "20 g",
           "price": 29.9,
@@ -7873,13 +8349,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 26.9,
+            "leadPrice": 14.9,
             "computedPrice": 29.9,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 29.9,
-            "rawProductPrefix": "KOFOLA, VINEA* 4x 0,33 l 1 l 30 Kč < 39,60 Kč BIO ČAJ LEROS heřmánek, meduňka",
-            "cleanedProductPrefix": "KOFOLA, VINEA* 4x 0,33 l 1 l 30 Kč < 39,60 Kč BIO ČAJ LEROS heřmánek, meduňka"
+            "rawProductPrefix": "BIO ČAJ LEROS heřmánek, meduňka",
+            "cleanedProductPrefix": "BIO ČAJ LEROS heřmánek, meduňka"
           }
         },
         {
@@ -7901,7 +8377,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 14.9,
+            "leadPrice": 69.9,
             "computedPrice": 18.9,
             "nearestLeadPrice": 18.9,
             "leadDiff": 0,
@@ -7929,13 +8405,69 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 69.9,
+            "leadPrice": 22.9,
             "computedPrice": 18.9,
             "nearestLeadPrice": 18.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 17.9,
             "rawProductPrefix": "MULTIVITAMÍN KARLOVA KORUNA",
             "cleanedProductPrefix": "MULTIVITAMÍN KARLOVA KORUNA"
+          }
+        },
+        {
+          "id": "penny-leaflet-10e2aea5934e9eb9",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "MINERÁLNÍ VODA VINCENTKA",
+          "brand": "",
+          "packageSize": "0,7 l",
+          "price": 32.9,
+          "unitPrice": 47,
+          "unit": "Kč/1 l",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
+          "pageNumber": 22,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 19.9,
+            "computedPrice": 32.9,
+            "nearestLeadPrice": 32.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 32.9,
+            "rawProductPrefix": "MINERÁLNÍ VODA VINCENTKA",
+            "cleanedProductPrefix": "MINERÁLNÍ VODA VINCENTKA"
+          }
+        },
+        {
+          "id": "penny-leaflet-e409e858d89f628a",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "MINERÁLNÍ VODA MAGNESIA PLUS Focus, Antistress",
+          "brand": "",
+          "packageSize": "0,7 l",
+          "price": 22.9,
+          "unitPrice": 32.71,
+          "unit": "Kč/1 l",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
+          "pageNumber": 22,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 39.6,
+            "computedPrice": 22.9,
+            "nearestLeadPrice": 22.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 22.9,
+            "rawProductPrefix": "MINERÁLNÍ VODA MAGNESIA PLUS Focus, Antistress",
+            "cleanedProductPrefix": "MINERÁLNÍ VODA MAGNESIA PLUS Focus, Antistress"
           }
         },
         {
@@ -7957,7 +8489,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 22.9,
+            "leadPrice": 29.9,
             "computedPrice": 39.9,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
@@ -7985,7 +8517,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 19.9,
+            "leadPrice": 18.9,
             "computedPrice": 16.9,
             "nearestLeadPrice": 16.9,
             "leadDiff": 0,
@@ -8013,7 +8545,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 39.6,
+            "leadPrice": 18.9,
             "computedPrice": 59.9,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
@@ -8041,7 +8573,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 29.9,
+            "leadPrice": 32.9,
             "computedPrice": 29.9,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
@@ -8069,7 +8601,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 18.9,
+            "leadPrice": 22.9,
             "computedPrice": 26.9,
             "nearestLeadPrice": 26.9,
             "leadDiff": 0,
@@ -8097,7 +8629,7 @@
           "confidence": "medium",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 18.9,
+            "leadPrice": 39.9,
             "computedPrice": 100.2,
             "nearestLeadPrice": 99.9,
             "leadDiff": 0.29999999999999716,
@@ -8125,7 +8657,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 32.9,
+            "leadPrice": 16.9,
             "computedPrice": 19.9,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
@@ -8153,7 +8685,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 22.9,
+            "leadPrice": 99.9,
             "computedPrice": 22.9,
             "nearestLeadPrice": 22.9,
             "leadDiff": 0,
@@ -8181,7 +8713,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 39.9,
+            "leadPrice": 59.9,
             "computedPrice": 32.9,
             "nearestLeadPrice": 32.9,
             "leadDiff": 0,
@@ -8209,7 +8741,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 16.9,
+            "leadPrice": 29.9,
             "computedPrice": 26.9,
             "nearestLeadPrice": 26.9,
             "leadDiff": 0,
@@ -8258,7 +8790,7 @@
         189.9,
         99.9
       ],
-      "offersCount": 9,
+      "offersCount": 10,
       "firstOffers": [
         {
           "id": "penny-leaflet-0f9387b7c98a42e6",
@@ -8345,14 +8877,42 @@
           }
         },
         {
-          "id": "penny-leaflet-48f2aac148c68795",
+          "id": "penny-leaflet-aeb313f2157d27ba",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "KÁVA CASABLANCA INTENSO mletá",
+          "brand": "",
+          "packageSize": "250 g",
+          "price": 59.9,
+          "unitPrice": 23.96,
+          "unit": "Kč/100 g",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+          "pageNumber": 23,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 199.9,
+            "computedPrice": 59.9,
+            "nearestLeadPrice": 59.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 59.9,
+            "rawProductPrefix": "KÁVA MARILA STANDARD mletá 1 kg < 199,90 Kč EDUSCHO ESPRESSO INTENSO zrnková 1 kg < 299,90 Kč KÁVA CASABLANCA INTENSO mletá |",
+            "cleanedProductPrefix": "KÁVA CASABLANCA INTENSO mletá |"
+          }
+        },
+        {
+          "id": "penny-leaflet-6cf0cb3ed32a952b",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "LAVAZZA CAFFÉ CREMA* zrnková",
           "brand": "",
           "packageSize": "1,1 kg",
-          "price": 199.9,
+          "price": 329.9,
           "unitPrice": 36.35,
           "unit": "Kč/100 g",
           "validFrom": "od st 13.05.2026",
@@ -8363,9 +8923,9 @@
           "confidence": "high",
           "debug": {
             "priceSource": "lead",
-            "leadPrice": 199.9,
+            "leadPrice": 329.9,
             "computedPrice": null,
-            "nearestLeadPrice": 199.9,
+            "nearestLeadPrice": 329.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 399.9,
             "rawProductPrefix": "LAVAZZA CAFFÉ CREMA* zrnková",
@@ -8373,11 +8933,11 @@
           }
         },
         {
-          "id": "penny-leaflet-176b9c69e6780803",
+          "id": "penny-leaflet-d166c1d61aac8a3a",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "KÁVA CASABLANCA CREMA zrnková 1 kg < 289,90 Kč KÁVA CASABLANCA ESPRESSO MILD zrnková",
+          "product": "KÁVA CASABLANCA ESPRESSO MILD zrnková",
           "brand": "",
           "packageSize": "500 g",
           "price": 139.9,
@@ -8391,21 +8951,21 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 329.9,
+            "leadPrice": 59.9,
             "computedPrice": 139.9,
             "nearestLeadPrice": 139.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 139.9,
             "rawProductPrefix": "KÁVA CASABLANCA CREMA zrnková 1 kg < 289,90 Kč KÁVA CASABLANCA ESPRESSO MILD zrnková",
-            "cleanedProductPrefix": "KÁVA CASABLANCA CREMA zrnková 1 kg < 289,90 Kč KÁVA CASABLANCA ESPRESSO MILD zrnková"
+            "cleanedProductPrefix": "KÁVA CASABLANCA ESPRESSO MILD zrnková"
           }
         },
         {
-          "id": "penny-leaflet-dcf0276307010de7",
+          "id": "penny-leaflet-5a957de3f80d58b0",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "DOLCE GUSTO KÁVOVÉ KAPSLE",
+          "product": "KÁVA JACOBS VELVET REFILL XXL* instantní",
           "brand": "",
           "packageSize": "300 g",
           "price": 199.9,
@@ -8419,13 +8979,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 59.9,
+            "leadPrice": 399.9,
             "computedPrice": 199.9,
             "nearestLeadPrice": 199.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 199.9,
             "rawProductPrefix": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy 1 balení < 119,90 Kč NESCAFÉ 3V1, 2V1 různé druhy 1 balení < 49,90 Kč CAPPUCCINO CASABLANCA různé druhy 100 g < 12,90 Kč KÁVA JACOBS VELVET REFILL XXL* instantní |",
-            "cleanedProductPrefix": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy 1 balení < 119,90 Kč NESCAFÉ 3V1, 2V1 různé druhy 1 balení < 49,90 Kč CAPPUCCINO CASABLANCA různé druhy 100 g < 12,90 Kč KÁVA JACOBS VELVET REFILL XXL* instantní |"
+            "cleanedProductPrefix": "KÁVA JACOBS VELVET REFILL XXL* instantní |"
           }
         },
         {
@@ -8447,7 +9007,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 399.9,
+            "leadPrice": 289.9,
             "computedPrice": 189.9,
             "nearestLeadPrice": 189.9,
             "leadDiff": 0,
@@ -8475,7 +9035,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 289.9,
+            "leadPrice": 139.9,
             "computedPrice": 99.9,
             "nearestLeadPrice": 99.9,
             "leadDiff": 0,
@@ -8503,7 +9063,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 139.9,
+            "leadPrice": 119.9,
             "computedPrice": 129.9,
             "nearestLeadPrice": 129.9,
             "leadDiff": 0,
@@ -8559,8 +9119,36 @@
         79.87,
         59.9
       ],
-      "offersCount": 10,
+      "offersCount": 12,
       "firstOffers": [
+        {
+          "id": "penny-leaflet-10bc7abbcd5afba9",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "ČISTIČ ODPADŮ FREDY",
+          "brand": "",
+          "packageSize": "500 g",
+          "price": 29.9,
+          "unitPrice": 59.8,
+          "unit": "Kč/1 kg",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/index.html",
+          "pageNumber": 24,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 199.9,
+            "computedPrice": 29.9,
+            "nearestLeadPrice": 29.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 29.9,
+            "rawProductPrefix": "Kč PROSTŘEDEK NA MYTÍ POVRCHŮ SIDOLUX 1 l < 34,90 Kč ČISTIČ ODPADŮ FREDY",
+            "cleanedProductPrefix": "ČISTIČ ODPADŮ FREDY"
+          }
+        },
         {
           "id": "penny-leaflet-e60dbd28835c1288",
           "storeId": "penny-default",
@@ -8580,7 +9168,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 199.9,
+            "leadPrice": 79.9,
             "computedPrice": 89.9,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
@@ -8608,7 +9196,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 79.9,
+            "leadPrice": 59.9,
             "computedPrice": 26.9,
             "nearestLeadPrice": 26.9,
             "leadDiff": 0,
@@ -8618,14 +9206,14 @@
           }
         },
         {
-          "id": "penny-leaflet-351740b860d6b560",
+          "id": "penny-leaflet-d1babc89933f5929",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "(běžně za 1,75 Kč) < 26,90 Kč PRACÍ PRÁŠEK, GEL REX 2,5 kg,",
           "brand": "",
           "packageSize": "2,475 l",
-          "price": 59.9,
+          "price": 34.9,
           "unitPrice": 79.96,
           "unit": "Kč/1 kg",
           "validFrom": "od st 13.05.2026",
@@ -8636,9 +9224,9 @@
           "confidence": "high",
           "debug": {
             "priceSource": "lead",
-            "leadPrice": 59.9,
+            "leadPrice": 34.9,
             "computedPrice": null,
-            "nearestLeadPrice": 59.9,
+            "nearestLeadPrice": 34.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": null,
             "rawProductPrefix": "(běžně za 1,75 Kč) < 26,90 Kč PRACÍ PRÁŠEK, GEL REX 2,5 kg,",
@@ -8664,7 +9252,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 34.9,
+            "leadPrice": 59.9,
             "computedPrice": 59.9,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
@@ -8692,7 +9280,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 59.9,
+            "leadPrice": 29.9,
             "computedPrice": 89.9,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
@@ -8720,7 +9308,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 29.9,
+            "leadPrice": 89.9,
             "computedPrice": 99.9,
             "nearestLeadPrice": 99.9,
             "leadDiff": 0,
@@ -8748,7 +9336,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 89.9,
+            "leadPrice": 124.9,
             "computedPrice": 79.9,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
@@ -8758,11 +9346,39 @@
           }
         },
         {
-          "id": "penny-leaflet-c04652ba47045295",
+          "id": "penny-leaflet-ac91e1a1dcc5c7c0",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "KAPSLE DO MYČKY PLATINUM JAR* 60 ks 1 ks 5 Kč nabídka Jedinečná 79,90 JAR EXTRA + CITRUS",
+          "product": "KAPSLE DO MYČKY PLATINUM JAR",
+          "brand": "",
+          "packageSize": "60 ks",
+          "price": 300,
+          "unitPrice": 5,
+          "unit": "Kč/1 ks",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/index.html",
+          "pageNumber": 24,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 26.9,
+            "computedPrice": 300,
+            "nearestLeadPrice": 299.9,
+            "leadDiff": 0.10000000000002274,
+            "ignoredExplicitAfterUnitPrice": null,
+            "rawProductPrefix": "KAPSLE DO MYČKY PLATINUM JAR*",
+            "cleanedProductPrefix": "KAPSLE DO MYČKY PLATINUM JAR*"
+          }
+        },
+        {
+          "id": "penny-leaflet-d41b4c54e0811f0f",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "79,90 JAR EXTRA + CITRUS",
           "brand": "",
           "packageSize": "900 ml",
           "price": 79.9,
@@ -8776,13 +9392,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 124.9,
+            "leadPrice": 41.9,
             "computedPrice": 79.9,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 79.9,
-            "rawProductPrefix": "KAPSLE DO MYČKY PLATINUM JAR* 60 ks 1 ks 5 Kč nabídka Jedinečná 79,90 JAR EXTRA + CITRUS*",
-            "cleanedProductPrefix": "KAPSLE DO MYČKY PLATINUM JAR* 60 ks 1 ks 5 Kč nabídka Jedinečná 79,90 JAR EXTRA + CITRUS*"
+            "rawProductPrefix": "79,90 JAR EXTRA + CITRUS*",
+            "cleanedProductPrefix": "79,90 JAR EXTRA + CITRUS*"
           }
         },
         {
@@ -8804,7 +9420,7 @@
           "confidence": "medium",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 26.9,
+            "leadPrice": 59.9,
             "computedPrice": 199.7,
             "nearestLeadPrice": 199.9,
             "leadDiff": 0.20000000000001705,
@@ -8814,14 +9430,14 @@
           }
         },
         {
-          "id": "penny-leaflet-ae99101a39dd90f9",
+          "id": "penny-leaflet-f22f76af81dd2ad2",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "PRACÍ PRÁŠEK, GEL ARIEL* 5 kg,",
           "brand": "",
           "packageSize": "5 l",
-          "price": 41.9,
+          "price": 89.9,
           "unitPrice": 79.98,
           "unit": "Kč/1 kg",
           "validFrom": "od st 13.05.2026",
@@ -8832,9 +9448,9 @@
           "confidence": "high",
           "debug": {
             "priceSource": "lead",
-            "leadPrice": 41.9,
+            "leadPrice": 89.9,
             "computedPrice": null,
-            "nearestLeadPrice": 41.9,
+            "nearestLeadPrice": 89.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": null,
             "rawProductPrefix": "PRACÍ PRÁŠEK, GEL ARIEL* 5 kg,",
@@ -8883,7 +9499,7 @@
         49.9,
         93.2
       ],
-      "offersCount": 16,
+      "offersCount": 17,
       "firstOffers": [
         {
           "id": "penny-leaflet-3945aae90f021dea",
@@ -9138,11 +9754,39 @@
           }
         },
         {
-          "id": "penny-leaflet-b2aa67bfa1ea29b8",
+          "id": "penny-leaflet-80d9241db5f6ecda",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "BARVY NA VLASY PALETTE",
+          "product": "FIXAČNÍ KRÉM NA ZUBNÍ PROTÉZU BLEND-A-DENT",
+          "brand": "",
+          "packageSize": "47 g",
+          "price": 79.9,
+          "unitPrice": 170,
+          "unit": "Kč/100 g",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
+          "pageNumber": 25,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 19.9,
+            "computedPrice": 79.9,
+            "nearestLeadPrice": 79.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 99.9,
+            "rawProductPrefix": "BARVY NA VLASY PALETTE různé druhy 1 ks < 69,90 Kč FIXAČNÍ KRÉM NA ZUBNÍ PROTÉZU BLEND-A-DENT",
+            "cleanedProductPrefix": "FIXAČNÍ KRÉM NA ZUBNÍ PROTÉZU BLEND-A-DENT"
+          }
+        },
+        {
+          "id": "penny-leaflet-13c7cf35cd9fdaa6",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "KAŠE MLÉČNÁ HAMI banán, jahoda",
           "brand": "",
           "packageSize": "210 g",
           "price": 69.9,
@@ -9156,13 +9800,13 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 19.9,
+            "leadPrice": 14.9,
             "computedPrice": 69.9,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 69.9,
-            "rawProductPrefix": "BARVY NA VLASY PALETTE různé druhy 1 ks < 69,90 Kč FIXAČNÍ KRÉM NA ZUBNÍ PROTÉZU BLEND-A-DENT 47 g 100 g 170 Kč < 99,90 Kč KAŠE MLÉČNÁ HAMI banán, jahoda",
-            "cleanedProductPrefix": "BARVY NA VLASY PALETTE různé druhy 1 ks < 69,90 Kč FIXAČNÍ KRÉM NA ZUBNÍ PROTÉZU BLEND-A-DENT 47 g 100 g 170 Kč < 99,90 Kč KAŠE MLÉČNÁ HAMI banán, jahoda"
+            "rawProductPrefix": "KAŠE MLÉČNÁ HAMI banán, jahoda",
+            "cleanedProductPrefix": "KAŠE MLÉČNÁ HAMI banán, jahoda"
           }
         },
         {
@@ -9184,7 +9828,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 14.9,
+            "leadPrice": 64.9,
             "computedPrice": 24.8,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0.09999999999999787,
@@ -9212,7 +9856,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 64.9,
+            "leadPrice": 79.9,
             "computedPrice": 59.9,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
@@ -9240,7 +9884,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 79.9,
+            "leadPrice": 69.9,
             "computedPrice": 49.9,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
@@ -9268,7 +9912,7 @@
           "confidence": "high",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 69.9,
+            "leadPrice": 59.9,
             "computedPrice": 64.9,
             "nearestLeadPrice": 64.9,
             "leadDiff": 0,
@@ -9296,7 +9940,7 @@
           "confidence": "medium",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 59.9,
+            "leadPrice": 24.9,
             "computedPrice": 34.9,
             "nearestLeadPrice": 39.9,
             "leadDiff": 5,
@@ -9324,7 +9968,7 @@
           "confidence": "medium",
           "debug": {
             "priceSource": "computed",
-            "leadPrice": 24.9,
+            "leadPrice": 49.9,
             "computedPrice": 119.9,
             "nearestLeadPrice": 139.9,
             "leadDiff": 20,
@@ -9374,7 +10018,7 @@
         74.84,
         279.9
       ],
-      "offersCount": 5,
+      "offersCount": 6,
       "firstOffers": [
         {
           "id": "penny-leaflet-e77add8143519353",
@@ -9514,6 +10158,34 @@
             "ignoredExplicitAfterUnitPrice": 99.9,
             "rawProductPrefix": "KONZERVY PRO KOČKY GOURMET GOLD různé druhy",
             "cleanedProductPrefix": "KONZERVY PRO KOČKY GOURMET GOLD různé druhy"
+          }
+        },
+        {
+          "id": "penny-leaflet-2ca422cdbbe034d9",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "FILETY PRO PSY BODIE SELECT",
+          "brand": "",
+          "packageSize": "100 g",
+          "price": 29.9,
+          "unitPrice": 299,
+          "unit": "Kč/1 kg",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 19.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/26/index.html",
+          "pageNumber": 26,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 39.9,
+            "computedPrice": 29.9,
+            "nearestLeadPrice": 29.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 29.9,
+            "rawProductPrefix": "FILETY PRO PSY BODIE SELECT různé druhy",
+            "cleanedProductPrefix": "FILETY PRO PSY BODIE SELECT různé druhy"
           }
         }
       ]
@@ -9887,7 +10559,7 @@
         69.9,
         5.9
       ],
-      "offersCount": 7,
+      "offersCount": 10,
       "firstOffers": [
         {
           "id": "penny-leaflet-6fa1b2c11a64a6e9",
@@ -10084,6 +10756,90 @@
             "rawProductPrefix": "BUDVAR 33 světlý ležák",
             "cleanedProductPrefix": "BUDVAR 33 světlý ležák"
           }
+        },
+        {
+          "id": "penny-leaflet-826cb1f4beb2baee",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "ČOKOLÁDA NA VAŘENÍ FIGARO",
+          "brand": "",
+          "packageSize": "90 g",
+          "price": 27.9,
+          "unitPrice": 31,
+          "unit": "Kč/100 g",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 17.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/index.html",
+          "pageNumber": 31,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 27.9,
+            "computedPrice": 27.9,
+            "nearestLeadPrice": 27.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 39.9,
+            "rawProductPrefix": "ČOKOLÁDA NA VAŘENÍ FIGARO",
+            "cleanedProductPrefix": "ČOKOLÁDA NA VAŘENÍ FIGARO"
+          }
+        },
+        {
+          "id": "penny-leaflet-eca788a0604dbb6e",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "CHIPSY BOHEMIA solené",
+          "brand": "",
+          "packageSize": "130 g",
+          "price": 29.9,
+          "unitPrice": 23,
+          "unit": "Kč/100 g",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 17.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/index.html",
+          "pageNumber": 31,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 29.9,
+            "computedPrice": 29.9,
+            "nearestLeadPrice": 29.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": 29.9,
+            "rawProductPrefix": "CHIPSY BOHEMIA solené",
+            "cleanedProductPrefix": "CHIPSY BOHEMIA solené"
+          }
+        },
+        {
+          "id": "penny-leaflet-6696592a36aa6e4c",
+          "storeId": "penny-default",
+          "chain": "Penny",
+          "storeName": "Penny – leták",
+          "product": "PAŠTIKA PRO KOČKY MICINKA",
+          "brand": "",
+          "packageSize": "100 g",
+          "price": 5.9,
+          "unitPrice": 59,
+          "unit": "Kč/1 kg",
+          "validFrom": "od st 13.05.2026",
+          "validTo": "do 17.05.2026",
+          "priceType": "leták",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/index.html",
+          "pageNumber": 31,
+          "confidence": "high",
+          "debug": {
+            "priceSource": "computed",
+            "leadPrice": 69.9,
+            "computedPrice": 5.9,
+            "nearestLeadPrice": 5.9,
+            "leadDiff": 0,
+            "ignoredExplicitAfterUnitPrice": null,
+            "rawProductPrefix": "RŮŽE SVAZEK HARLEKÝN* 1 ks PAŠTIKA PRO KOČKY MICINKA různé druhy",
+            "cleanedProductPrefix": "PAŠTIKA PRO KOČKY MICINKA různé druhy"
+          }
         }
       ]
     },
@@ -10239,11 +10995,11 @@
           }
         },
         {
-          "id": "penny-leaflet-9ea96bd35c0af1bf",
+          "id": "penny-leaflet-8b98b9a81d099192",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
-          "product": "TRVANLIVÉ PLNOTUČNÉ MLÉKO MADETA 3,5% 1 l < 14,90 Kč MINERÁLNÍ VODA GEMERKA",
+          "product": "MINERÁLNÍ VODA GEMERKA",
           "brand": "",
           "packageSize": "1,5 l",
           "price": 11.9,
@@ -10263,7 +11019,7 @@
             "leadDiff": 0,
             "ignoredExplicitAfterUnitPrice": 11.9,
             "rawProductPrefix": "TRVANLIVÉ PLNOTUČNÉ MLÉKO MADETA 3,5% 1 l < 14,90 Kč MINERÁLNÍ VODA GEMERKA",
-            "cleanedProductPrefix": "TRVANLIVÉ PLNOTUČNÉ MLÉKO MADETA 3,5% 1 l < 14,90 Kč MINERÁLNÍ VODA GEMERKA"
+            "cleanedProductPrefix": "MINERÁLNÍ VODA GEMERKA"
           }
         },
         {

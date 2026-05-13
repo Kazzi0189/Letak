@@ -1,9 +1,10 @@
 {
   "meta": {
     "source": "https://prodejny.kaufland.cz/aktualne/servis/prodejna/teplice-centrum-2450.html",
+    "gridSource": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle",
     "offersIndexSource": "https://prodejny.kaufland.cz/.kloffers.storeName=CZ2450.json",
     "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
-    "checkedAt": "2026-05-13T12:42:27.561Z",
+    "checkedAt": "2026-05-13T13:05:26.303Z",
     "store": {
       "chain": "Kaufland",
       "storeId": "kaufland-teplice-centrum",
@@ -12,33 +13,21 @@
       "kauflandStoreName": "CZ2450",
       "offersUrl": "https://prodejny.kaufland.cz/.kloffers.storeName=CZ2450.json",
       "storePage": "https://prodejny.kaufland.cz/aktualne/servis/prodejna/teplice-centrum-2450.html",
+      "gridPage": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle",
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
-    "count": 613,
+    "count": 563,
     "rawIndexCount": 696,
     "matchedRawIndexCount": 50,
-    "offersWithoutKlNrCount": 563,
+    "offersWithoutKlNrCount": 513,
     "parser": "scripts/import-kaufland-teplice-html.mjs"
   },
-  "categoryLinks": [
-    "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle",
-    "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=01_Maso__dr%C5%AFbe%C5%BE__uzeniny",
-    "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=02_Ovoce__zelenina__rostliny",
-    "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=03_Ml%C3%A9%C4%8Dn%C3%A9_v%C3%BDrobky__tuky__vejce",
-    "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=05_Lah%C5%AFdky__konzervy",
-    "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=06_Z%C3%A1kladn%C3%AD_potraviny__pe%C4%8Divo",
-    "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=07_K%C3%A1va__%C4%8Daj_cukrovinky__slan%C3%A9_pochoutky",
-    "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=08_N%C3%A1poje__lihoviny",
-    "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=09_Drogerie__d%C4%9Btsk%C3%A1_v%C3%BD%C5%BEiva_a_p%C3%A9%C4%8De__krmiva",
-    "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-week=current"
-  ],
   "pages": [
     {
       "type": "storePage",
       "url": "https://prodejny.kaufland.cz/aktualne/servis/prodejna/teplice-centrum-2450.html",
-      "category": "",
+      "category": "Akční nabídka",
       "length": 248557,
-      "error": null,
       "parsedOffersCount": 50,
       "offersWithKlNrCount": 50,
       "offersWithoutKlNrCount": 0,
@@ -70,8 +59,7 @@
         "tileClassCount": 881,
         "anchorTileCount": 50,
         "priceTagCount": 50,
-        "imgAltCount": 56,
-        "firstTileContext": "<a class=\"k-product-tile k-product-tile--slider k-product-tile--limit-image-height\" href=\"/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&amp;kloffer-articleID=00039070\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><!----></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/3504188826096_CZ_P-1\" alt=\"Nektarinky koš \" title=\"Nektarinky koš \" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/3504188826096_CZ_P-1?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/3504188826096_CZ_P-1?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/3504188826096_CZ_P-1?JGstbGVnYWN5LW9uc2l0ZS0zJA== 666w\" sizes=\"(min-width: 1484px) 211px, (min-width: 1441px) 194px, (min-width: 1141px) calc(20vw - 94px), (min-width: 1025px) calc(25vw - 101px), (min-width: 781px) calc(25vw - 57px), (min-width: 481px) calc(33.34vw - 47px), calc(50vw - 52px)\" data-image-fallback style=\"\"><!----><!----></div><div class=\"k-product-tile__text\"><div class=\"k-product-tile__title\">Nektarinky koš</div><div class=\"k-product-tile__subtitle\"></div><!----><div class=\"k-product-tile__unit-price\">500 g balení</div><div class=\"k-product-tile__base-price\">(=1 kg 89,80)</div><!----><!----></div></div><div class=\"k-product-tile__bottom\"><!----><div class=\"k-product-tile__pricetags\"><div class=\"k-product-tile__pricetags-normal\"><div class=\"k-price-tag k-product-tile__pricetag\"><!----><div class=\"k-price-tag__discount\">-35%</div><div class=\"k-price-tag__price\">44,90 <!----></div><div class=\"k-price-tag__old-price\"><span class=\"k-price-tag__old-price-line-through\">69,90</span><!----></div></div><!----></div><!----></div></div></a></div><div class=\"o-slider__item\"><a class=\"k-product-tile k-product-tile--slider k-product-tile--limit-image-height\" href=\"/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&amp;kloffer-articleID=00041059\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><div class=\"k-eye-catcher k-eye-catcher--left k-product-tile__eye-catcher\" style=\"--eye-catcher-color:#e10915;\"><!--[-->AKCE!<!--]--></div></div><!----><div class=\"k-product-tile__buttons\"><!----></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/5708869232178_CZ_P-1\" alt=\"Zvonek bílý Campanula White Get Mee\" title=\"Zvonek bílý Campanula White Get Mee\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/5708869232178_CZ_P-1?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/5708869232178_CZ_P-1?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/5708869232178_CZ_P-1?JGstbGV"
+        "imgAltCount": 56
       },
       "sampleProducts": [
         {
@@ -153,15 +141,34 @@
           "unitPrice": 149.9,
           "unit": "Kč/ks",
           "category": "Ovoce / zelenina / rostliny"
+        },
+        {
+          "klNr": "00124698",
+          "product": "Aksamitník Tagetes erecta",
+          "price": 18.9,
+          "oldPrice": null,
+          "packageSize": "1 kus",
+          "unitPrice": 18.9,
+          "unit": "Kč/ks",
+          "category": "Ovoce / zelenina / rostliny"
+        },
+        {
+          "klNr": "00144476",
+          "product": "Kytice mix velká 2A",
+          "price": 329.9,
+          "oldPrice": null,
+          "packageSize": "1 svazek",
+          "unitPrice": 329.9,
+          "unit": "Kč/ks",
+          "category": "Ovoce / zelenina / rostliny"
         }
       ]
     },
     {
-      "type": "category",
+      "type": "gridPage",
       "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "length": 2373050,
-      "error": null,
       "parsedOffersCount": 563,
       "offersWithKlNrCount": 0,
       "offersWithoutKlNrCount": 563,
@@ -172,8 +179,7 @@
         "tileClassCount": 11117,
         "anchorTileCount": 700,
         "priceTagCount": 807,
-        "imgAltCount": 693,
-        "firstTileContext": "<a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P\" alt=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" title=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0zJA== 666w\" sizes=\"(min-width: 1484px) 211px, (min-width: 1441px) 194px, (min-width: 1141px) calc(20vw - 94px), (min-width: 1025px) calc(25vw - 101px), (min-width: 781px) calc(25vw - 57px), (min-width: 481px) calc(33.34vw - 47px), calc(50vw - 52px)\" style=\"\"><!----><!----></div><div class=\"k-product-tile__text\"><div class=\"k-product-tile__title\">K-Mistři od fochu</div><div class=\"k-product-tile__subtitle\">Vepřová kýta\npultový prodej</div><!----><div class=\"k-product-tile__unit-price\">cena za 1 kg</div><div class=\"k-product-tile__base-price\"></div><!----><!----></div></div><div class=\"k-product-tile__bottom\"><!----><div class=\"k-product-tile__pricetags\"><div class=\"k-product-tile__pricetags-normal\"><div class=\"k-price-tag k-product-tile__pricetag\"><!----><div class=\"k-price-tag__discount\">-65%</div><div class=\"k-price-tag__price\">69,90 <!----></div><div class=\"k-price-tag__old-price\"><span class=\"k-price-tag__old-price-line-through\">203,90</span><!----></div></div><!----></div><!----></div></div></a><!--]--></div></div><div class=\"k-grid__item\" style=\"\"><div class=\"k-grid__item-wrapper\"><!--[--><a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P\" alt=\"Hamé Májka\" title=\"Hamé Májka\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufl"
+        "imgAltCount": 693
       },
       "sampleProducts": [
         {
@@ -184,7 +190,7 @@
           "packageSize": "cena za 1 kg",
           "unitPrice": 69.9,
           "unit": "Kč/ks",
-          "category": "TopArticle"
+          "category": "Akční nabídka"
         },
         {
           "klNr": "",
@@ -194,7 +200,7 @@
           "packageSize": "120 g",
           "unitPrice": 21.13,
           "unit": "Kč/100 g",
-          "category": "TopArticle"
+          "category": "Akční nabídka"
         },
         {
           "klNr": "",
@@ -204,7 +210,7 @@
           "packageSize": "500 g",
           "unitPrice": 25.8,
           "unit": "Kč/1 kg",
-          "category": "TopArticle"
+          "category": "Akční nabídka"
         },
         {
           "klNr": "",
@@ -214,7 +220,7 @@
           "packageSize": "24,2 g",
           "unitPrice": 206.2,
           "unit": "Kč/100 g",
-          "category": "TopArticle"
+          "category": "Akční nabídka"
         },
         {
           "klNr": "",
@@ -224,7 +230,7 @@
           "packageSize": "0,25 l plech",
           "unitPrice": 79.6,
           "unit": "Kč/1 l",
-          "category": "TopArticle"
+          "category": "Akční nabídka"
         },
         {
           "klNr": "",
@@ -234,7 +240,7 @@
           "packageSize": "225 g-250 g",
           "unitPrice": 25.96,
           "unit": "Kč/100 g",
-          "category": "TopArticle"
+          "category": "Akční nabídka"
         },
         {
           "klNr": "",
@@ -242,9 +248,9 @@
           "price": 59.9,
           "oldPrice": 143.9,
           "packageSize": "8x19,3 m",
-          "unitPrice": 59.9,
-          "unit": "Kč/ks",
-          "category": "TopArticle"
+          "unitPrice": 0.39,
+          "unit": "Kč/1 m",
+          "category": "Akční nabídka"
         },
         {
           "klNr": "",
@@ -254,932 +260,34 @@
           "packageSize": "500 g",
           "unitPrice": 2.78,
           "unit": "Kč/100 g",
-          "category": "TopArticle"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=01_Maso__dr%C5%AFbe%C5%BE__uzeniny",
-      "category": "Maso / drůbež / uzeniny",
-      "length": 2372905,
-      "error": null,
-      "parsedOffersCount": 563,
-      "offersWithKlNrCount": 0,
-      "offersWithoutKlNrCount": 563,
-      "diagnostics": {
-        "articleIdOccurrencesCount": 0,
-        "uniqueArticleIdOccurrencesCount": 0,
-        "firstArticleIds": [],
-        "tileClassCount": 11117,
-        "anchorTileCount": 700,
-        "priceTagCount": 807,
-        "imgAltCount": 693,
-        "firstTileContext": "<a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P\" alt=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" title=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0zJA== 666w\" sizes=\"(min-width: 1484px) 211px, (min-width: 1441px) 194px, (min-width: 1141px) calc(20vw - 94px), (min-width: 1025px) calc(25vw - 101px), (min-width: 781px) calc(25vw - 57px), (min-width: 481px) calc(33.34vw - 47px), calc(50vw - 52px)\" style=\"\"><!----><!----></div><div class=\"k-product-tile__text\"><div class=\"k-product-tile__title\">K-Mistři od fochu</div><div class=\"k-product-tile__subtitle\">Vepřová kýta\npultový prodej</div><!----><div class=\"k-product-tile__unit-price\">cena za 1 kg</div><div class=\"k-product-tile__base-price\"></div><!----><!----></div></div><div class=\"k-product-tile__bottom\"><!----><div class=\"k-product-tile__pricetags\"><div class=\"k-product-tile__pricetags-normal\"><div class=\"k-price-tag k-product-tile__pricetag\"><!----><div class=\"k-price-tag__discount\">-65%</div><div class=\"k-price-tag__price\">69,90 <!----></div><div class=\"k-price-tag__old-price\"><span class=\"k-price-tag__old-price-line-through\">203,90</span><!----></div></div><!----></div><!----></div></div></a><!--]--></div></div><div class=\"k-grid__item\" style=\"\"><div class=\"k-grid__item-wrapper\"><!--[--><a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P\" alt=\"Hamé Májka\" title=\"Hamé Májka\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufl"
-      },
-      "sampleProducts": [
-        {
-          "klNr": "",
-          "product": "K-Mistři od fochu Vepřová kýta pultový prodej",
-          "price": 69.9,
-          "oldPrice": 203.9,
-          "packageSize": "cena za 1 kg",
-          "unitPrice": 69.9,
-          "unit": "Kč/ks",
-          "category": "Maso / drůbež / uzeniny"
+          "category": "Akční nabídka"
         },
         {
           "klNr": "",
-          "product": "Hamé Májka",
-          "price": 16.9,
-          "oldPrice": 46.9,
-          "packageSize": "120 g",
-          "unitPrice": 21.13,
+          "product": "Sokra Losos kousky",
+          "price": 39.9,
+          "oldPrice": 89.9,
+          "packageSize": "170 g/85 g-119 g JVP",
+          "unitPrice": 46.95,
           "unit": "Kč/100 g",
-          "category": "Maso / drůbež / uzeniny"
+          "category": "Akční nabídka"
         },
         {
           "klNr": "",
-          "product": "Malitas Vaječné těstoviny",
-          "price": 12.9,
-          "oldPrice": 34.9,
-          "packageSize": "500 g",
-          "unitPrice": 25.8,
-          "unit": "Kč/1 kg",
-          "category": "Maso / drůbež / uzeniny"
-        },
-        {
-          "klNr": "",
-          "product": "MaxiVita Premium Zdravé vlasy doplněk stravy",
-          "price": 49.9,
-          "oldPrice": 128.9,
-          "packageSize": "24,2 g",
-          "unitPrice": 206.2,
-          "unit": "Kč/100 g",
-          "category": "Maso / drůbež / uzeniny"
-        },
-        {
-          "klNr": "",
-          "product": "Becherovka Beton Ostatní alkoholický nápoj různé druhy",
-          "price": 19.9,
-          "oldPrice": 49.9,
-          "packageSize": "0,25 l plech",
-          "unitPrice": 79.6,
-          "unit": "Kč/1 l",
-          "category": "Maso / drůbež / uzeniny"
-        },
-        {
-          "klNr": "",
-          "product": "Orion Studentská pečeť",
+          "product": "Sun&Sea Tuňák",
           "price": 64.9,
-          "oldPrice": 159.9,
-          "packageSize": "225 g-250 g",
-          "unitPrice": 25.96,
+          "oldPrice": 145.9,
+          "packageSize": "3x70 g JVP-80 g/3x52 g-56 g",
+          "unitPrice": 38.64,
           "unit": "Kč/100 g",
-          "category": "Maso / drůbež / uzeniny"
-        },
-        {
-          "klNr": "",
-          "product": "Zewa Toaletní papír",
-          "price": 59.9,
-          "oldPrice": 143.9,
-          "packageSize": "8x19,3 m",
-          "unitPrice": 59.9,
-          "unit": "Kč/ks",
-          "category": "Maso / drůbež / uzeniny"
-        },
-        {
-          "klNr": "",
-          "product": "Hollandia Selský jogurt bílý",
-          "price": 13.9,
-          "oldPrice": 31.9,
-          "packageSize": "500 g",
-          "unitPrice": 2.78,
-          "unit": "Kč/100 g",
-          "category": "Maso / drůbež / uzeniny"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=02_Ovoce__zelenina__rostliny",
-      "category": "Ovoce / zelenina / rostliny",
-      "length": 2373050,
-      "error": null,
-      "parsedOffersCount": 563,
-      "offersWithKlNrCount": 0,
-      "offersWithoutKlNrCount": 563,
-      "diagnostics": {
-        "articleIdOccurrencesCount": 0,
-        "uniqueArticleIdOccurrencesCount": 0,
-        "firstArticleIds": [],
-        "tileClassCount": 11117,
-        "anchorTileCount": 700,
-        "priceTagCount": 807,
-        "imgAltCount": 693,
-        "firstTileContext": "<a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P\" alt=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" title=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0zJA== 666w\" sizes=\"(min-width: 1484px) 211px, (min-width: 1441px) 194px, (min-width: 1141px) calc(20vw - 94px), (min-width: 1025px) calc(25vw - 101px), (min-width: 781px) calc(25vw - 57px), (min-width: 481px) calc(33.34vw - 47px), calc(50vw - 52px)\" style=\"\"><!----><!----></div><div class=\"k-product-tile__text\"><div class=\"k-product-tile__title\">K-Mistři od fochu</div><div class=\"k-product-tile__subtitle\">Vepřová kýta\npultový prodej</div><!----><div class=\"k-product-tile__unit-price\">cena za 1 kg</div><div class=\"k-product-tile__base-price\"></div><!----><!----></div></div><div class=\"k-product-tile__bottom\"><!----><div class=\"k-product-tile__pricetags\"><div class=\"k-product-tile__pricetags-normal\"><div class=\"k-price-tag k-product-tile__pricetag\"><!----><div class=\"k-price-tag__discount\">-65%</div><div class=\"k-price-tag__price\">69,90 <!----></div><div class=\"k-price-tag__old-price\"><span class=\"k-price-tag__old-price-line-through\">203,90</span><!----></div></div><!----></div><!----></div></div></a><!--]--></div></div><div class=\"k-grid__item\" style=\"\"><div class=\"k-grid__item-wrapper\"><!--[--><a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P\" alt=\"Hamé Májka\" title=\"Hamé Májka\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufl"
-      },
-      "sampleProducts": [
-        {
-          "klNr": "",
-          "product": "K-Mistři od fochu Vepřová kýta pultový prodej",
-          "price": 69.9,
-          "oldPrice": 203.9,
-          "packageSize": "cena za 1 kg",
-          "unitPrice": 69.9,
-          "unit": "Kč/ks",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Hamé Májka",
-          "price": 16.9,
-          "oldPrice": 46.9,
-          "packageSize": "120 g",
-          "unitPrice": 21.13,
-          "unit": "Kč/100 g",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Malitas Vaječné těstoviny",
-          "price": 12.9,
-          "oldPrice": 34.9,
-          "packageSize": "500 g",
-          "unitPrice": 25.8,
-          "unit": "Kč/1 kg",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "MaxiVita Premium Zdravé vlasy doplněk stravy",
-          "price": 49.9,
-          "oldPrice": 128.9,
-          "packageSize": "24,2 g",
-          "unitPrice": 206.2,
-          "unit": "Kč/100 g",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Becherovka Beton Ostatní alkoholický nápoj různé druhy",
-          "price": 19.9,
-          "oldPrice": 49.9,
-          "packageSize": "0,25 l plech",
-          "unitPrice": 79.6,
-          "unit": "Kč/1 l",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Orion Studentská pečeť",
-          "price": 64.9,
-          "oldPrice": 159.9,
-          "packageSize": "225 g-250 g",
-          "unitPrice": 25.96,
-          "unit": "Kč/100 g",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Zewa Toaletní papír",
-          "price": 59.9,
-          "oldPrice": 143.9,
-          "packageSize": "8x19,3 m",
-          "unitPrice": 59.9,
-          "unit": "Kč/ks",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Hollandia Selský jogurt bílý",
-          "price": 13.9,
-          "oldPrice": 31.9,
-          "packageSize": "500 g",
-          "unitPrice": 2.78,
-          "unit": "Kč/100 g",
-          "category": "Ovoce / zelenina / rostliny"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=03_Ml%C3%A9%C4%8Dn%C3%A9_v%C3%BDrobky__tuky__vejce",
-      "category": "Mléčné výrobky / tuky / vejce",
-      "length": 2372905,
-      "error": null,
-      "parsedOffersCount": 563,
-      "offersWithKlNrCount": 0,
-      "offersWithoutKlNrCount": 563,
-      "diagnostics": {
-        "articleIdOccurrencesCount": 0,
-        "uniqueArticleIdOccurrencesCount": 0,
-        "firstArticleIds": [],
-        "tileClassCount": 11117,
-        "anchorTileCount": 700,
-        "priceTagCount": 807,
-        "imgAltCount": 693,
-        "firstTileContext": "<a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P\" alt=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" title=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0zJA== 666w\" sizes=\"(min-width: 1484px) 211px, (min-width: 1441px) 194px, (min-width: 1141px) calc(20vw - 94px), (min-width: 1025px) calc(25vw - 101px), (min-width: 781px) calc(25vw - 57px), (min-width: 481px) calc(33.34vw - 47px), calc(50vw - 52px)\" style=\"\"><!----><!----></div><div class=\"k-product-tile__text\"><div class=\"k-product-tile__title\">K-Mistři od fochu</div><div class=\"k-product-tile__subtitle\">Vepřová kýta\npultový prodej</div><!----><div class=\"k-product-tile__unit-price\">cena za 1 kg</div><div class=\"k-product-tile__base-price\"></div><!----><!----></div></div><div class=\"k-product-tile__bottom\"><!----><div class=\"k-product-tile__pricetags\"><div class=\"k-product-tile__pricetags-normal\"><div class=\"k-price-tag k-product-tile__pricetag\"><!----><div class=\"k-price-tag__discount\">-65%</div><div class=\"k-price-tag__price\">69,90 <!----></div><div class=\"k-price-tag__old-price\"><span class=\"k-price-tag__old-price-line-through\">203,90</span><!----></div></div><!----></div><!----></div></div></a><!--]--></div></div><div class=\"k-grid__item\" style=\"\"><div class=\"k-grid__item-wrapper\"><!--[--><a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P\" alt=\"Hamé Májka\" title=\"Hamé Májka\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufl"
-      },
-      "sampleProducts": [
-        {
-          "klNr": "",
-          "product": "K-Mistři od fochu Vepřová kýta pultový prodej",
-          "price": 69.9,
-          "oldPrice": 203.9,
-          "packageSize": "cena za 1 kg",
-          "unitPrice": 69.9,
-          "unit": "Kč/ks",
-          "category": "Mléčné výrobky / tuky / vejce"
-        },
-        {
-          "klNr": "",
-          "product": "Hamé Májka",
-          "price": 16.9,
-          "oldPrice": 46.9,
-          "packageSize": "120 g",
-          "unitPrice": 21.13,
-          "unit": "Kč/100 g",
-          "category": "Mléčné výrobky / tuky / vejce"
-        },
-        {
-          "klNr": "",
-          "product": "Malitas Vaječné těstoviny",
-          "price": 12.9,
-          "oldPrice": 34.9,
-          "packageSize": "500 g",
-          "unitPrice": 25.8,
-          "unit": "Kč/1 kg",
-          "category": "Mléčné výrobky / tuky / vejce"
-        },
-        {
-          "klNr": "",
-          "product": "MaxiVita Premium Zdravé vlasy doplněk stravy",
-          "price": 49.9,
-          "oldPrice": 128.9,
-          "packageSize": "24,2 g",
-          "unitPrice": 206.2,
-          "unit": "Kč/100 g",
-          "category": "Mléčné výrobky / tuky / vejce"
-        },
-        {
-          "klNr": "",
-          "product": "Becherovka Beton Ostatní alkoholický nápoj různé druhy",
-          "price": 19.9,
-          "oldPrice": 49.9,
-          "packageSize": "0,25 l plech",
-          "unitPrice": 79.6,
-          "unit": "Kč/1 l",
-          "category": "Mléčné výrobky / tuky / vejce"
-        },
-        {
-          "klNr": "",
-          "product": "Orion Studentská pečeť",
-          "price": 64.9,
-          "oldPrice": 159.9,
-          "packageSize": "225 g-250 g",
-          "unitPrice": 25.96,
-          "unit": "Kč/100 g",
-          "category": "Mléčné výrobky / tuky / vejce"
-        },
-        {
-          "klNr": "",
-          "product": "Zewa Toaletní papír",
-          "price": 59.9,
-          "oldPrice": 143.9,
-          "packageSize": "8x19,3 m",
-          "unitPrice": 59.9,
-          "unit": "Kč/ks",
-          "category": "Mléčné výrobky / tuky / vejce"
-        },
-        {
-          "klNr": "",
-          "product": "Hollandia Selský jogurt bílý",
-          "price": 13.9,
-          "oldPrice": 31.9,
-          "packageSize": "500 g",
-          "unitPrice": 2.78,
-          "unit": "Kč/100 g",
-          "category": "Mléčné výrobky / tuky / vejce"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=05_Lah%C5%AFdky__konzervy",
-      "category": "Lahůdky / konzervy",
-      "length": 2372905,
-      "error": null,
-      "parsedOffersCount": 563,
-      "offersWithKlNrCount": 0,
-      "offersWithoutKlNrCount": 563,
-      "diagnostics": {
-        "articleIdOccurrencesCount": 0,
-        "uniqueArticleIdOccurrencesCount": 0,
-        "firstArticleIds": [],
-        "tileClassCount": 11117,
-        "anchorTileCount": 700,
-        "priceTagCount": 807,
-        "imgAltCount": 693,
-        "firstTileContext": "<a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P\" alt=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" title=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0zJA== 666w\" sizes=\"(min-width: 1484px) 211px, (min-width: 1441px) 194px, (min-width: 1141px) calc(20vw - 94px), (min-width: 1025px) calc(25vw - 101px), (min-width: 781px) calc(25vw - 57px), (min-width: 481px) calc(33.34vw - 47px), calc(50vw - 52px)\" style=\"\"><!----><!----></div><div class=\"k-product-tile__text\"><div class=\"k-product-tile__title\">K-Mistři od fochu</div><div class=\"k-product-tile__subtitle\">Vepřová kýta\npultový prodej</div><!----><div class=\"k-product-tile__unit-price\">cena za 1 kg</div><div class=\"k-product-tile__base-price\"></div><!----><!----></div></div><div class=\"k-product-tile__bottom\"><!----><div class=\"k-product-tile__pricetags\"><div class=\"k-product-tile__pricetags-normal\"><div class=\"k-price-tag k-product-tile__pricetag\"><!----><div class=\"k-price-tag__discount\">-65%</div><div class=\"k-price-tag__price\">69,90 <!----></div><div class=\"k-price-tag__old-price\"><span class=\"k-price-tag__old-price-line-through\">203,90</span><!----></div></div><!----></div><!----></div></div></a><!--]--></div></div><div class=\"k-grid__item\" style=\"\"><div class=\"k-grid__item-wrapper\"><!--[--><a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P\" alt=\"Hamé Májka\" title=\"Hamé Májka\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufl"
-      },
-      "sampleProducts": [
-        {
-          "klNr": "",
-          "product": "K-Mistři od fochu Vepřová kýta pultový prodej",
-          "price": 69.9,
-          "oldPrice": 203.9,
-          "packageSize": "cena za 1 kg",
-          "unitPrice": 69.9,
-          "unit": "Kč/ks",
-          "category": "Lahůdky / konzervy"
-        },
-        {
-          "klNr": "",
-          "product": "Hamé Májka",
-          "price": 16.9,
-          "oldPrice": 46.9,
-          "packageSize": "120 g",
-          "unitPrice": 21.13,
-          "unit": "Kč/100 g",
-          "category": "Lahůdky / konzervy"
-        },
-        {
-          "klNr": "",
-          "product": "Malitas Vaječné těstoviny",
-          "price": 12.9,
-          "oldPrice": 34.9,
-          "packageSize": "500 g",
-          "unitPrice": 25.8,
-          "unit": "Kč/1 kg",
-          "category": "Lahůdky / konzervy"
-        },
-        {
-          "klNr": "",
-          "product": "MaxiVita Premium Zdravé vlasy doplněk stravy",
-          "price": 49.9,
-          "oldPrice": 128.9,
-          "packageSize": "24,2 g",
-          "unitPrice": 206.2,
-          "unit": "Kč/100 g",
-          "category": "Lahůdky / konzervy"
-        },
-        {
-          "klNr": "",
-          "product": "Becherovka Beton Ostatní alkoholický nápoj různé druhy",
-          "price": 19.9,
-          "oldPrice": 49.9,
-          "packageSize": "0,25 l plech",
-          "unitPrice": 79.6,
-          "unit": "Kč/1 l",
-          "category": "Lahůdky / konzervy"
-        },
-        {
-          "klNr": "",
-          "product": "Orion Studentská pečeť",
-          "price": 64.9,
-          "oldPrice": 159.9,
-          "packageSize": "225 g-250 g",
-          "unitPrice": 25.96,
-          "unit": "Kč/100 g",
-          "category": "Lahůdky / konzervy"
-        },
-        {
-          "klNr": "",
-          "product": "Zewa Toaletní papír",
-          "price": 59.9,
-          "oldPrice": 143.9,
-          "packageSize": "8x19,3 m",
-          "unitPrice": 59.9,
-          "unit": "Kč/ks",
-          "category": "Lahůdky / konzervy"
-        },
-        {
-          "klNr": "",
-          "product": "Hollandia Selský jogurt bílý",
-          "price": 13.9,
-          "oldPrice": 31.9,
-          "packageSize": "500 g",
-          "unitPrice": 2.78,
-          "unit": "Kč/100 g",
-          "category": "Lahůdky / konzervy"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=06_Z%C3%A1kladn%C3%AD_potraviny__pe%C4%8Divo",
-      "category": "Základní potraviny / pečivo",
-      "length": 2373050,
-      "error": null,
-      "parsedOffersCount": 563,
-      "offersWithKlNrCount": 0,
-      "offersWithoutKlNrCount": 563,
-      "diagnostics": {
-        "articleIdOccurrencesCount": 0,
-        "uniqueArticleIdOccurrencesCount": 0,
-        "firstArticleIds": [],
-        "tileClassCount": 11117,
-        "anchorTileCount": 700,
-        "priceTagCount": 807,
-        "imgAltCount": 693,
-        "firstTileContext": "<a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P\" alt=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" title=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0zJA== 666w\" sizes=\"(min-width: 1484px) 211px, (min-width: 1441px) 194px, (min-width: 1141px) calc(20vw - 94px), (min-width: 1025px) calc(25vw - 101px), (min-width: 781px) calc(25vw - 57px), (min-width: 481px) calc(33.34vw - 47px), calc(50vw - 52px)\" style=\"\"><!----><!----></div><div class=\"k-product-tile__text\"><div class=\"k-product-tile__title\">K-Mistři od fochu</div><div class=\"k-product-tile__subtitle\">Vepřová kýta\npultový prodej</div><!----><div class=\"k-product-tile__unit-price\">cena za 1 kg</div><div class=\"k-product-tile__base-price\"></div><!----><!----></div></div><div class=\"k-product-tile__bottom\"><!----><div class=\"k-product-tile__pricetags\"><div class=\"k-product-tile__pricetags-normal\"><div class=\"k-price-tag k-product-tile__pricetag\"><!----><div class=\"k-price-tag__discount\">-65%</div><div class=\"k-price-tag__price\">69,90 <!----></div><div class=\"k-price-tag__old-price\"><span class=\"k-price-tag__old-price-line-through\">203,90</span><!----></div></div><!----></div><!----></div></div></a><!--]--></div></div><div class=\"k-grid__item\" style=\"\"><div class=\"k-grid__item-wrapper\"><!--[--><a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P\" alt=\"Hamé Májka\" title=\"Hamé Májka\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufl"
-      },
-      "sampleProducts": [
-        {
-          "klNr": "",
-          "product": "K-Mistři od fochu Vepřová kýta pultový prodej",
-          "price": 69.9,
-          "oldPrice": 203.9,
-          "packageSize": "cena za 1 kg",
-          "unitPrice": 69.9,
-          "unit": "Kč/ks",
-          "category": "Základní potraviny / pečivo"
-        },
-        {
-          "klNr": "",
-          "product": "Hamé Májka",
-          "price": 16.9,
-          "oldPrice": 46.9,
-          "packageSize": "120 g",
-          "unitPrice": 21.13,
-          "unit": "Kč/100 g",
-          "category": "Základní potraviny / pečivo"
-        },
-        {
-          "klNr": "",
-          "product": "Malitas Vaječné těstoviny",
-          "price": 12.9,
-          "oldPrice": 34.9,
-          "packageSize": "500 g",
-          "unitPrice": 25.8,
-          "unit": "Kč/1 kg",
-          "category": "Základní potraviny / pečivo"
-        },
-        {
-          "klNr": "",
-          "product": "MaxiVita Premium Zdravé vlasy doplněk stravy",
-          "price": 49.9,
-          "oldPrice": 128.9,
-          "packageSize": "24,2 g",
-          "unitPrice": 206.2,
-          "unit": "Kč/100 g",
-          "category": "Základní potraviny / pečivo"
-        },
-        {
-          "klNr": "",
-          "product": "Becherovka Beton Ostatní alkoholický nápoj různé druhy",
-          "price": 19.9,
-          "oldPrice": 49.9,
-          "packageSize": "0,25 l plech",
-          "unitPrice": 79.6,
-          "unit": "Kč/1 l",
-          "category": "Základní potraviny / pečivo"
-        },
-        {
-          "klNr": "",
-          "product": "Orion Studentská pečeť",
-          "price": 64.9,
-          "oldPrice": 159.9,
-          "packageSize": "225 g-250 g",
-          "unitPrice": 25.96,
-          "unit": "Kč/100 g",
-          "category": "Základní potraviny / pečivo"
-        },
-        {
-          "klNr": "",
-          "product": "Zewa Toaletní papír",
-          "price": 59.9,
-          "oldPrice": 143.9,
-          "packageSize": "8x19,3 m",
-          "unitPrice": 59.9,
-          "unit": "Kč/ks",
-          "category": "Základní potraviny / pečivo"
-        },
-        {
-          "klNr": "",
-          "product": "Hollandia Selský jogurt bílý",
-          "price": 13.9,
-          "oldPrice": 31.9,
-          "packageSize": "500 g",
-          "unitPrice": 2.78,
-          "unit": "Kč/100 g",
-          "category": "Základní potraviny / pečivo"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=07_K%C3%A1va__%C4%8Daj_cukrovinky__slan%C3%A9_pochoutky",
-      "category": "Káva / čaj cukrovinky / slané pochoutky",
-      "length": 2372905,
-      "error": null,
-      "parsedOffersCount": 563,
-      "offersWithKlNrCount": 0,
-      "offersWithoutKlNrCount": 563,
-      "diagnostics": {
-        "articleIdOccurrencesCount": 0,
-        "uniqueArticleIdOccurrencesCount": 0,
-        "firstArticleIds": [],
-        "tileClassCount": 11117,
-        "anchorTileCount": 700,
-        "priceTagCount": 807,
-        "imgAltCount": 693,
-        "firstTileContext": "<a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P\" alt=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" title=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0zJA== 666w\" sizes=\"(min-width: 1484px) 211px, (min-width: 1441px) 194px, (min-width: 1141px) calc(20vw - 94px), (min-width: 1025px) calc(25vw - 101px), (min-width: 781px) calc(25vw - 57px), (min-width: 481px) calc(33.34vw - 47px), calc(50vw - 52px)\" style=\"\"><!----><!----></div><div class=\"k-product-tile__text\"><div class=\"k-product-tile__title\">K-Mistři od fochu</div><div class=\"k-product-tile__subtitle\">Vepřová kýta\npultový prodej</div><!----><div class=\"k-product-tile__unit-price\">cena za 1 kg</div><div class=\"k-product-tile__base-price\"></div><!----><!----></div></div><div class=\"k-product-tile__bottom\"><!----><div class=\"k-product-tile__pricetags\"><div class=\"k-product-tile__pricetags-normal\"><div class=\"k-price-tag k-product-tile__pricetag\"><!----><div class=\"k-price-tag__discount\">-65%</div><div class=\"k-price-tag__price\">69,90 <!----></div><div class=\"k-price-tag__old-price\"><span class=\"k-price-tag__old-price-line-through\">203,90</span><!----></div></div><!----></div><!----></div></div></a><!--]--></div></div><div class=\"k-grid__item\" style=\"\"><div class=\"k-grid__item-wrapper\"><!--[--><a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P\" alt=\"Hamé Májka\" title=\"Hamé Májka\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufl"
-      },
-      "sampleProducts": [
-        {
-          "klNr": "",
-          "product": "K-Mistři od fochu Vepřová kýta pultový prodej",
-          "price": 69.9,
-          "oldPrice": 203.9,
-          "packageSize": "cena za 1 kg",
-          "unitPrice": 69.9,
-          "unit": "Kč/ks",
-          "category": "Káva / čaj cukrovinky / slané pochoutky"
-        },
-        {
-          "klNr": "",
-          "product": "Hamé Májka",
-          "price": 16.9,
-          "oldPrice": 46.9,
-          "packageSize": "120 g",
-          "unitPrice": 21.13,
-          "unit": "Kč/100 g",
-          "category": "Káva / čaj cukrovinky / slané pochoutky"
-        },
-        {
-          "klNr": "",
-          "product": "Malitas Vaječné těstoviny",
-          "price": 12.9,
-          "oldPrice": 34.9,
-          "packageSize": "500 g",
-          "unitPrice": 25.8,
-          "unit": "Kč/1 kg",
-          "category": "Káva / čaj cukrovinky / slané pochoutky"
-        },
-        {
-          "klNr": "",
-          "product": "MaxiVita Premium Zdravé vlasy doplněk stravy",
-          "price": 49.9,
-          "oldPrice": 128.9,
-          "packageSize": "24,2 g",
-          "unitPrice": 206.2,
-          "unit": "Kč/100 g",
-          "category": "Káva / čaj cukrovinky / slané pochoutky"
-        },
-        {
-          "klNr": "",
-          "product": "Becherovka Beton Ostatní alkoholický nápoj různé druhy",
-          "price": 19.9,
-          "oldPrice": 49.9,
-          "packageSize": "0,25 l plech",
-          "unitPrice": 79.6,
-          "unit": "Kč/1 l",
-          "category": "Káva / čaj cukrovinky / slané pochoutky"
-        },
-        {
-          "klNr": "",
-          "product": "Orion Studentská pečeť",
-          "price": 64.9,
-          "oldPrice": 159.9,
-          "packageSize": "225 g-250 g",
-          "unitPrice": 25.96,
-          "unit": "Kč/100 g",
-          "category": "Káva / čaj cukrovinky / slané pochoutky"
-        },
-        {
-          "klNr": "",
-          "product": "Zewa Toaletní papír",
-          "price": 59.9,
-          "oldPrice": 143.9,
-          "packageSize": "8x19,3 m",
-          "unitPrice": 59.9,
-          "unit": "Kč/ks",
-          "category": "Káva / čaj cukrovinky / slané pochoutky"
-        },
-        {
-          "klNr": "",
-          "product": "Hollandia Selský jogurt bílý",
-          "price": 13.9,
-          "oldPrice": 31.9,
-          "packageSize": "500 g",
-          "unitPrice": 2.78,
-          "unit": "Kč/100 g",
-          "category": "Káva / čaj cukrovinky / slané pochoutky"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=08_N%C3%A1poje__lihoviny",
-      "category": "Nápoje / lihoviny",
-      "length": 2373050,
-      "error": null,
-      "parsedOffersCount": 563,
-      "offersWithKlNrCount": 0,
-      "offersWithoutKlNrCount": 563,
-      "diagnostics": {
-        "articleIdOccurrencesCount": 0,
-        "uniqueArticleIdOccurrencesCount": 0,
-        "firstArticleIds": [],
-        "tileClassCount": 11117,
-        "anchorTileCount": 700,
-        "priceTagCount": 807,
-        "imgAltCount": 693,
-        "firstTileContext": "<a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P\" alt=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" title=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0zJA== 666w\" sizes=\"(min-width: 1484px) 211px, (min-width: 1441px) 194px, (min-width: 1141px) calc(20vw - 94px), (min-width: 1025px) calc(25vw - 101px), (min-width: 781px) calc(25vw - 57px), (min-width: 481px) calc(33.34vw - 47px), calc(50vw - 52px)\" style=\"\"><!----><!----></div><div class=\"k-product-tile__text\"><div class=\"k-product-tile__title\">K-Mistři od fochu</div><div class=\"k-product-tile__subtitle\">Vepřová kýta\npultový prodej</div><!----><div class=\"k-product-tile__unit-price\">cena za 1 kg</div><div class=\"k-product-tile__base-price\"></div><!----><!----></div></div><div class=\"k-product-tile__bottom\"><!----><div class=\"k-product-tile__pricetags\"><div class=\"k-product-tile__pricetags-normal\"><div class=\"k-price-tag k-product-tile__pricetag\"><!----><div class=\"k-price-tag__discount\">-65%</div><div class=\"k-price-tag__price\">69,90 <!----></div><div class=\"k-price-tag__old-price\"><span class=\"k-price-tag__old-price-line-through\">203,90</span><!----></div></div><!----></div><!----></div></div></a><!--]--></div></div><div class=\"k-grid__item\" style=\"\"><div class=\"k-grid__item-wrapper\"><!--[--><a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P\" alt=\"Hamé Májka\" title=\"Hamé Májka\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufl"
-      },
-      "sampleProducts": [
-        {
-          "klNr": "",
-          "product": "K-Mistři od fochu Vepřová kýta pultový prodej",
-          "price": 69.9,
-          "oldPrice": 203.9,
-          "packageSize": "cena za 1 kg",
-          "unitPrice": 69.9,
-          "unit": "Kč/ks",
-          "category": "Nápoje / lihoviny"
-        },
-        {
-          "klNr": "",
-          "product": "Hamé Májka",
-          "price": 16.9,
-          "oldPrice": 46.9,
-          "packageSize": "120 g",
-          "unitPrice": 21.13,
-          "unit": "Kč/100 g",
-          "category": "Nápoje / lihoviny"
-        },
-        {
-          "klNr": "",
-          "product": "Malitas Vaječné těstoviny",
-          "price": 12.9,
-          "oldPrice": 34.9,
-          "packageSize": "500 g",
-          "unitPrice": 25.8,
-          "unit": "Kč/1 kg",
-          "category": "Nápoje / lihoviny"
-        },
-        {
-          "klNr": "",
-          "product": "MaxiVita Premium Zdravé vlasy doplněk stravy",
-          "price": 49.9,
-          "oldPrice": 128.9,
-          "packageSize": "24,2 g",
-          "unitPrice": 206.2,
-          "unit": "Kč/100 g",
-          "category": "Nápoje / lihoviny"
-        },
-        {
-          "klNr": "",
-          "product": "Becherovka Beton Ostatní alkoholický nápoj různé druhy",
-          "price": 19.9,
-          "oldPrice": 49.9,
-          "packageSize": "0,25 l plech",
-          "unitPrice": 79.6,
-          "unit": "Kč/1 l",
-          "category": "Nápoje / lihoviny"
-        },
-        {
-          "klNr": "",
-          "product": "Orion Studentská pečeť",
-          "price": 64.9,
-          "oldPrice": 159.9,
-          "packageSize": "225 g-250 g",
-          "unitPrice": 25.96,
-          "unit": "Kč/100 g",
-          "category": "Nápoje / lihoviny"
-        },
-        {
-          "klNr": "",
-          "product": "Zewa Toaletní papír",
-          "price": 59.9,
-          "oldPrice": 143.9,
-          "packageSize": "8x19,3 m",
-          "unitPrice": 59.9,
-          "unit": "Kč/ks",
-          "category": "Nápoje / lihoviny"
-        },
-        {
-          "klNr": "",
-          "product": "Hollandia Selský jogurt bílý",
-          "price": 13.9,
-          "oldPrice": 31.9,
-          "packageSize": "500 g",
-          "unitPrice": 2.78,
-          "unit": "Kč/100 g",
-          "category": "Nápoje / lihoviny"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=09_Drogerie__d%C4%9Btsk%C3%A1_v%C3%BD%C5%BEiva_a_p%C3%A9%C4%8De__krmiva",
-      "category": "Drogerie / dětská výživa a péče / krmiva",
-      "length": 2372905,
-      "error": null,
-      "parsedOffersCount": 563,
-      "offersWithKlNrCount": 0,
-      "offersWithoutKlNrCount": 563,
-      "diagnostics": {
-        "articleIdOccurrencesCount": 0,
-        "uniqueArticleIdOccurrencesCount": 0,
-        "firstArticleIds": [],
-        "tileClassCount": 11117,
-        "anchorTileCount": 700,
-        "priceTagCount": 807,
-        "imgAltCount": 693,
-        "firstTileContext": "<a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P\" alt=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" title=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0zJA== 666w\" sizes=\"(min-width: 1484px) 211px, (min-width: 1441px) 194px, (min-width: 1141px) calc(20vw - 94px), (min-width: 1025px) calc(25vw - 101px), (min-width: 781px) calc(25vw - 57px), (min-width: 481px) calc(33.34vw - 47px), calc(50vw - 52px)\" style=\"\"><!----><!----></div><div class=\"k-product-tile__text\"><div class=\"k-product-tile__title\">K-Mistři od fochu</div><div class=\"k-product-tile__subtitle\">Vepřová kýta\npultový prodej</div><!----><div class=\"k-product-tile__unit-price\">cena za 1 kg</div><div class=\"k-product-tile__base-price\"></div><!----><!----></div></div><div class=\"k-product-tile__bottom\"><!----><div class=\"k-product-tile__pricetags\"><div class=\"k-product-tile__pricetags-normal\"><div class=\"k-price-tag k-product-tile__pricetag\"><!----><div class=\"k-price-tag__discount\">-65%</div><div class=\"k-price-tag__price\">69,90 <!----></div><div class=\"k-price-tag__old-price\"><span class=\"k-price-tag__old-price-line-through\">203,90</span><!----></div></div><!----></div><!----></div></div></a><!--]--></div></div><div class=\"k-grid__item\" style=\"\"><div class=\"k-grid__item-wrapper\"><!--[--><a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P\" alt=\"Hamé Májka\" title=\"Hamé Májka\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufl"
-      },
-      "sampleProducts": [
-        {
-          "klNr": "",
-          "product": "K-Mistři od fochu Vepřová kýta pultový prodej",
-          "price": 69.9,
-          "oldPrice": 203.9,
-          "packageSize": "cena za 1 kg",
-          "unitPrice": 69.9,
-          "unit": "Kč/ks",
-          "category": "Drogerie / dětská výživa a péče / krmiva"
-        },
-        {
-          "klNr": "",
-          "product": "Hamé Májka",
-          "price": 16.9,
-          "oldPrice": 46.9,
-          "packageSize": "120 g",
-          "unitPrice": 21.13,
-          "unit": "Kč/100 g",
-          "category": "Drogerie / dětská výživa a péče / krmiva"
-        },
-        {
-          "klNr": "",
-          "product": "Malitas Vaječné těstoviny",
-          "price": 12.9,
-          "oldPrice": 34.9,
-          "packageSize": "500 g",
-          "unitPrice": 25.8,
-          "unit": "Kč/1 kg",
-          "category": "Drogerie / dětská výživa a péče / krmiva"
-        },
-        {
-          "klNr": "",
-          "product": "MaxiVita Premium Zdravé vlasy doplněk stravy",
-          "price": 49.9,
-          "oldPrice": 128.9,
-          "packageSize": "24,2 g",
-          "unitPrice": 206.2,
-          "unit": "Kč/100 g",
-          "category": "Drogerie / dětská výživa a péče / krmiva"
-        },
-        {
-          "klNr": "",
-          "product": "Becherovka Beton Ostatní alkoholický nápoj různé druhy",
-          "price": 19.9,
-          "oldPrice": 49.9,
-          "packageSize": "0,25 l plech",
-          "unitPrice": 79.6,
-          "unit": "Kč/1 l",
-          "category": "Drogerie / dětská výživa a péče / krmiva"
-        },
-        {
-          "klNr": "",
-          "product": "Orion Studentská pečeť",
-          "price": 64.9,
-          "oldPrice": 159.9,
-          "packageSize": "225 g-250 g",
-          "unitPrice": 25.96,
-          "unit": "Kč/100 g",
-          "category": "Drogerie / dětská výživa a péče / krmiva"
-        },
-        {
-          "klNr": "",
-          "product": "Zewa Toaletní papír",
-          "price": 59.9,
-          "oldPrice": 143.9,
-          "packageSize": "8x19,3 m",
-          "unitPrice": 59.9,
-          "unit": "Kč/ks",
-          "category": "Drogerie / dětská výživa a péče / krmiva"
-        },
-        {
-          "klNr": "",
-          "product": "Hollandia Selský jogurt bílý",
-          "price": 13.9,
-          "oldPrice": 31.9,
-          "packageSize": "500 g",
-          "unitPrice": 2.78,
-          "unit": "Kč/100 g",
-          "category": "Drogerie / dětská výživa a péče / krmiva"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-week=current",
-      "category": "Ovoce / zelenina / rostliny",
-      "length": 2373050,
-      "error": null,
-      "parsedOffersCount": 563,
-      "offersWithKlNrCount": 0,
-      "offersWithoutKlNrCount": 563,
-      "diagnostics": {
-        "articleIdOccurrencesCount": 0,
-        "uniqueArticleIdOccurrencesCount": 0,
-        "firstArticleIds": [],
-        "tileClassCount": 11117,
-        "anchorTileCount": 700,
-        "priceTagCount": 807,
-        "imgAltCount": 693,
-        "firstTileContext": "<a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P\" alt=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" title=\"K-Mistři od fochu Vepřová kýta\npultový prodej\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0yJA== 322w, https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0zJA== 666w\" sizes=\"(min-width: 1484px) 211px, (min-width: 1441px) 194px, (min-width: 1141px) calc(20vw - 94px), (min-width: 1025px) calc(25vw - 101px), (min-width: 781px) calc(25vw - 57px), (min-width: 481px) calc(33.34vw - 47px), calc(50vw - 52px)\" style=\"\"><!----><!----></div><div class=\"k-product-tile__text\"><div class=\"k-product-tile__title\">K-Mistři od fochu</div><div class=\"k-product-tile__subtitle\">Vepřová kýta\npultový prodej</div><!----><div class=\"k-product-tile__unit-price\">cena za 1 kg</div><div class=\"k-product-tile__base-price\"></div><!----><!----></div></div><div class=\"k-product-tile__bottom\"><!----><div class=\"k-product-tile__pricetags\"><div class=\"k-product-tile__pricetags-normal\"><div class=\"k-price-tag k-product-tile__pricetag\"><!----><div class=\"k-price-tag__discount\">-65%</div><div class=\"k-price-tag__price\">69,90 <!----></div><div class=\"k-price-tag__old-price\"><span class=\"k-price-tag__old-price-line-through\">203,90</span><!----></div></div><!----></div><!----></div></div></a><!--]--></div></div><div class=\"k-grid__item\" style=\"\"><div class=\"k-grid__item-wrapper\"><!--[--><a class=\"k-product-tile\" href=\"#\" tabindex=\"0\"><!----><!----><div class=\"k-product-tile__main\"><div class=\"k-product-tile__eye-catchers\"><!----><!----></div><!----><div class=\"k-product-tile__buttons\"><button class=\"k-icon-button k-icon-button--translucent k-shopping-list-button\" title=\"Přidat na lístek\" style=\"--icon-button-unicode:&quot;\\ea96&quot;;--icon-button-background-color:transparent;--icon-button-background-hover-color:#31ab1f;--icon-button-hover-color:#fff;\"></button></div><div class=\"k-product-tile__image\"><img class=\"k-image k-product-tile__main-image\" src=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P\" alt=\"Hamé Májka\" title=\"Hamé Májka\" loading=\"lazy\" srcset=\"https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P?JGstbGVnYWN5LW9uc2l0ZS0xJA== 150w, https://kaufl"
-      },
-      "sampleProducts": [
-        {
-          "klNr": "",
-          "product": "K-Mistři od fochu Vepřová kýta pultový prodej",
-          "price": 69.9,
-          "oldPrice": 203.9,
-          "packageSize": "cena za 1 kg",
-          "unitPrice": 69.9,
-          "unit": "Kč/ks",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Hamé Májka",
-          "price": 16.9,
-          "oldPrice": 46.9,
-          "packageSize": "120 g",
-          "unitPrice": 21.13,
-          "unit": "Kč/100 g",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Malitas Vaječné těstoviny",
-          "price": 12.9,
-          "oldPrice": 34.9,
-          "packageSize": "500 g",
-          "unitPrice": 25.8,
-          "unit": "Kč/1 kg",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "MaxiVita Premium Zdravé vlasy doplněk stravy",
-          "price": 49.9,
-          "oldPrice": 128.9,
-          "packageSize": "24,2 g",
-          "unitPrice": 206.2,
-          "unit": "Kč/100 g",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Becherovka Beton Ostatní alkoholický nápoj různé druhy",
-          "price": 19.9,
-          "oldPrice": 49.9,
-          "packageSize": "0,25 l plech",
-          "unitPrice": 79.6,
-          "unit": "Kč/1 l",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Orion Studentská pečeť",
-          "price": 64.9,
-          "oldPrice": 159.9,
-          "packageSize": "225 g-250 g",
-          "unitPrice": 25.96,
-          "unit": "Kč/100 g",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Zewa Toaletní papír",
-          "price": 59.9,
-          "oldPrice": 143.9,
-          "packageSize": "8x19,3 m",
-          "unitPrice": 59.9,
-          "unit": "Kč/ks",
-          "category": "Ovoce / zelenina / rostliny"
-        },
-        {
-          "klNr": "",
-          "product": "Hollandia Selský jogurt bílý",
-          "price": 13.9,
-          "oldPrice": 31.9,
-          "packageSize": "500 g",
-          "unitPrice": 2.78,
-          "unit": "Kč/100 g",
-          "category": "Ovoce / zelenina / rostliny"
+          "category": "Akční nabídka"
         }
       ]
     }
   ],
   "firstOffers": [
     {
-      "id": "kaufland-teplice-64b0b3365262c66f",
+      "id": "kaufland-teplice-46dfaa853cb4feba",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1192,7 +300,7 @@
       "oldPrice": 39.9,
       "unitPrice": 119.5,
       "unit": "Kč/1 kg",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-40%",
@@ -1202,7 +310,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-830f3eeabdf62291",
+      "id": "kaufland-teplice-5defc181a14edd0a",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1215,7 +323,7 @@
       "oldPrice": 49.9,
       "unitPrice": 107.6,
       "unit": "Kč/1 kg",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-46%",
@@ -1225,7 +333,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-f9b2c9135e5ab016",
+      "id": "kaufland-teplice-8ac23e5e7e526bdd",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1238,7 +346,7 @@
       "oldPrice": 44.9,
       "unitPrice": 7.87,
       "unit": "Kč/100 g",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-33%",
@@ -1248,7 +356,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-d2d9d0b575709505",
+      "id": "kaufland-teplice-559025c7e609596c",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1261,7 +369,7 @@
       "oldPrice": 29.9,
       "unitPrice": 5.69,
       "unit": "Kč/100 g",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-33%",
@@ -1271,7 +379,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-bf22aa976285fe93",
+      "id": "kaufland-teplice-83f7faf886d2e2c9",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1284,7 +392,7 @@
       "oldPrice": null,
       "unitPrice": 88.82,
       "unit": "Kč/100 g",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "pouze",
@@ -1317,29 +425,6 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-4ad41612c73fbf7a",
-      "storeId": "kaufland-teplice-centrum",
-      "chain": "Kaufland",
-      "storeName": "Kaufland Teplice-Centrum",
-      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
-      "sourceStoreName": "CZ2450",
-      "product": "Aksamitník Tagetes erecta",
-      "brand": "",
-      "packageSize": "1 kus",
-      "price": 18.9,
-      "oldPrice": null,
-      "unitPrice": 18.9,
-      "unit": "Kč/ks",
-      "category": "TopArticle",
-      "validFrom": "2026-05-13",
-      "validTo": "2026-05-19",
-      "priceType": "pouze",
-      "klNr": "",
-      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8591665447023_CZ_P",
-      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
-      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
-    },
-    {
       "id": "kaufland-teplice-be9343aa8cfb9fea",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
@@ -1363,30 +448,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-814370f0faa24c65",
-      "storeId": "kaufland-teplice-centrum",
-      "chain": "Kaufland",
-      "storeName": "Kaufland Teplice-Centrum",
-      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
-      "sourceStoreName": "CZ2450",
-      "product": "Aksamitník Tagetes patula",
-      "brand": "",
-      "packageSize": "1 kus",
-      "price": 18.9,
-      "oldPrice": null,
-      "unitPrice": 18.9,
-      "unit": "Kč/ks",
-      "category": "TopArticle",
-      "validFrom": "2026-05-13",
-      "validTo": "2026-05-19",
-      "priceType": "pouze",
-      "klNr": "",
-      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/4011261020702_CZ_P-1",
-      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
-      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
-    },
-    {
-      "id": "kaufland-teplice-9a3f28b351816b2e",
+      "id": "kaufland-teplice-fed0abc3838b7540",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1399,7 +461,7 @@
       "oldPrice": 49.9,
       "unitPrice": 8.55,
       "unit": "Kč/100 g",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-40%",
@@ -1409,7 +471,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-9d9bbdbf7f555f70",
+      "id": "kaufland-teplice-4b7397f5f5a2b8f9",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1422,7 +484,7 @@
       "oldPrice": 49.9,
       "unitPrice": 18.45,
       "unit": "Kč/100 g",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-26%",
@@ -1432,7 +494,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-ccfbd5c272eb2acc",
+      "id": "kaufland-teplice-031cdcc2a811de00",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1445,7 +507,7 @@
       "oldPrice": null,
       "unitPrice": 177.67,
       "unit": "Kč/1 kg",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "pouze",
@@ -1455,7 +517,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-15099f498dc184b2",
+      "id": "kaufland-teplice-25961bb150687f79",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1468,7 +530,7 @@
       "oldPrice": 199.9,
       "unitPrice": 63.96,
       "unit": "Kč/100 ml",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-20%",
@@ -1478,7 +540,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-733f56b86fa4be65",
+      "id": "kaufland-teplice-0c47813e51ee6166",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1491,7 +553,7 @@
       "oldPrice": 79.9,
       "unitPrice": 873.75,
       "unit": "Kč/100 ml",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-12%",
@@ -1501,7 +563,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-1de0a35a999ad6d8",
+      "id": "kaufland-teplice-4d3be10a7bfe4b9b",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1514,7 +576,7 @@
       "oldPrice": 169.9,
       "unitPrice": 319.8,
       "unit": "Kč/1 l",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-5%",
@@ -1524,7 +586,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-1e85d5835446fbb2",
+      "id": "kaufland-teplice-9966f20520c3e44b",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1537,7 +599,7 @@
       "oldPrice": 47.9,
       "unitPrice": 7.48,
       "unit": "Kč/100 g",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-37%",
@@ -1570,29 +632,6 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-6068be13683e49e3",
-      "storeId": "kaufland-teplice-centrum",
-      "chain": "Kaufland",
-      "storeName": "Kaufland Teplice-Centrum",
-      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
-      "sourceStoreName": "CZ2450",
-      "product": "Ananas Sanlucar Gold",
-      "brand": "",
-      "packageSize": "1 kus",
-      "price": 49.9,
-      "oldPrice": 69.9,
-      "unitPrice": 49.9,
-      "unit": "Kč/ks",
-      "category": "TopArticle",
-      "validFrom": "2026-05-13",
-      "validTo": "2026-05-19",
-      "priceType": "-28%",
-      "klNr": "",
-      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8430631286023_CZ_P",
-      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
-      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
-    },
-    {
       "id": "kaufland-teplice-22f383a1c2244d3c",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
@@ -1616,30 +655,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-e303da7ea689c19e",
-      "storeId": "kaufland-teplice-centrum",
-      "chain": "Kaufland",
-      "storeName": "Kaufland Teplice-Centrum",
-      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
-      "sourceStoreName": "CZ2450",
-      "product": "Anthurium andreanum",
-      "brand": "",
-      "packageSize": "1 kus",
-      "price": 159.9,
-      "oldPrice": null,
-      "unitPrice": 159.9,
-      "unit": "Kč/ks",
-      "category": "TopArticle",
-      "validFrom": "2026-05-13",
-      "validTo": "2026-05-19",
-      "priceType": "pouze",
-      "klNr": "",
-      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/5706629665105_CZ_P",
-      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
-      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
-    },
-    {
-      "id": "kaufland-teplice-e93d48cf4ce4f423",
+      "id": "kaufland-teplice-1d2d31fa980efe83",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1652,7 +668,7 @@
       "oldPrice": 64.9,
       "unitPrice": 21.34,
       "unit": "Kč/100 g",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-38%",
@@ -1662,7 +678,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-aacb02eb775dc4e3",
+      "id": "kaufland-teplice-ae5c175df062978f",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1675,7 +691,7 @@
       "oldPrice": 429.9,
       "unitPrice": 399.9,
       "unit": "Kč/ks",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-6%",
@@ -1685,7 +701,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-99358b4e707e4e8c",
+      "id": "kaufland-teplice-9361463d9754f983",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1698,7 +714,7 @@
       "oldPrice": 29.9,
       "unitPrice": 41.5,
       "unit": "Kč/100 g",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-16%",
@@ -1708,7 +724,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-7be303ac438ce0a8",
+      "id": "kaufland-teplice-f5ddffcbdf54f979",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1721,7 +737,7 @@
       "oldPrice": 159.9,
       "unitPrice": 99.9,
       "unit": "Kč/ks",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-37%",
@@ -1731,7 +747,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-d129eda13db15d38",
+      "id": "kaufland-teplice-f3094208f03d8b26",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1744,7 +760,7 @@
       "oldPrice": 10,
       "unitPrice": 29.67,
       "unit": "Kč/100 g",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-11%",
@@ -1754,7 +770,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-57e506b7223be2f8",
+      "id": "kaufland-teplice-3f5a7965bb3b7f4d",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1767,7 +783,7 @@
       "oldPrice": 119.9,
       "unitPrice": 14.98,
       "unit": "Kč/100 ml",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-50%",
@@ -1777,7 +793,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-6bea447d6b7e9a19",
+      "id": "kaufland-teplice-9ff7c655e01c2515",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1790,7 +806,7 @@
       "oldPrice": 19.9,
       "unitPrice": 5.41,
       "unit": "Kč/100 g",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-40%",
@@ -1800,7 +816,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-889e31c46979e976",
+      "id": "kaufland-teplice-cba4968b1a0610e9",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1813,7 +829,7 @@
       "oldPrice": 42.9,
       "unitPrice": 37.38,
       "unit": "Kč/100 g",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-30%",
@@ -1823,7 +839,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-17a3759710dde43f",
+      "id": "kaufland-teplice-8cd336c53d5ce9ff",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1836,7 +852,7 @@
       "oldPrice": null,
       "unitPrice": 149.9,
       "unit": "Kč/ks",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "pouze",
@@ -1846,7 +862,7 @@
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     },
     {
-      "id": "kaufland-teplice-ee65c4eda7e3fdc7",
+      "id": "kaufland-teplice-fb71e25410f0cad9",
       "storeId": "kaufland-teplice-centrum",
       "chain": "Kaufland",
       "storeName": "Kaufland Teplice-Centrum",
@@ -1859,7 +875,7 @@
       "oldPrice": 139.9,
       "unitPrice": 54.95,
       "unit": "Kč/100 ml",
-      "category": "TopArticle",
+      "category": "Akční nabídka",
       "validFrom": "2026-05-13",
       "validTo": "2026-05-19",
       "priceType": "-21%",
@@ -1867,1014 +883,334 @@
       "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/5010724527481_CZ_P-1",
       "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
       "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-a090d319dbcee6d3",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "BBQ Kukuřice předvařená",
+      "brand": "",
+      "packageSize": "2 kusy v balení",
+      "price": 29.9,
+      "oldPrice": 37.9,
+      "unitPrice": 29.9,
+      "unit": "Kč/ks",
+      "category": "Ovoce / zelenina / rostliny",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "-21%",
+      "klNr": "09704121",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8413567031042_CZ_P-1",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=09704121",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-f88b465041c7dd9b",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "Becherovka Beton Ostatní alkoholický nápoj různé druhy",
+      "brand": "",
+      "packageSize": "0,25 l plech",
+      "price": 19.9,
+      "oldPrice": 49.9,
+      "unitPrice": 79.6,
+      "unit": "Kč/1 l",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "-60%",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594405112113_CZ_P",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-3486b0e60d8a6f43",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "Becherovka Bylinný likér 38%/20%",
+      "brand": "",
+      "packageSize": "0,5 l láhev",
+      "price": 169.9,
+      "oldPrice": null,
+      "unitPrice": 339.8,
+      "unit": "Kč/1 l",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "pouze",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594405101537_CZ_P",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-bb739d3118065142",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "Bella Herbs Dámské vložky Verbena",
+      "brand": "",
+      "packageSize": "14 kusů JVP/20 kusů",
+      "price": 49.9,
+      "oldPrice": null,
+      "unitPrice": 49.9,
+      "unit": "Kč/ks",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "pouze",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/5900516304751_CZ_P",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-9f15f6274185d2da",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "Bercoff Čaj",
+      "brand": "",
+      "packageSize": "30 g/36 g JVP/40 g",
+      "price": 24.9,
+      "oldPrice": 44.9,
+      "unitPrice": 83,
+      "unit": "Kč/100 g",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "-44%",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8586005108061_CZ_P",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-bdd0ddd929795ecd",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "Berebells Proteinová tyčinka",
+      "brand": "",
+      "packageSize": "55 g",
+      "price": 44.9,
+      "oldPrice": 59.9,
+      "unitPrice": 81.64,
+      "unit": "Kč/100 g",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "-25%",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/20815050",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-ff63bab450125858",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "bevola Kosmetické ubrousky",
+      "brand": "",
+      "packageSize": "200 kusů",
+      "price": 21.9,
+      "oldPrice": 32.9,
+      "unitPrice": 21.9,
+      "unit": "Kč/ks",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "-33%",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/5901478012463_CZ_P",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-d39befc28e967903",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "BI:ON Šampon",
+      "brand": "",
+      "packageSize": "946 ml",
+      "price": 79.9,
+      "oldPrice": null,
+      "unitPrice": 8.45,
+      "unit": "Kč/100 ml",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "pouze",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/4820168433955_CZ_P",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-8209ea8ce3bb83f6",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "BIO Hlíva ústřičná kloboučky",
+      "brand": "",
+      "packageSize": "180 g balení",
+      "price": 36.9,
+      "oldPrice": null,
+      "unitPrice": 205,
+      "unit": "Kč/1 kg",
+      "category": "Ovoce / zelenina / rostliny",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "pouze",
+      "klNr": "20284411",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594045871906_CZ_P-1",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=20284411",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-e99d74aeaeda1811",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "BIO Špaldová kostka",
+      "brand": "",
+      "packageSize": "65 g",
+      "price": 6.4,
+      "oldPrice": 7.9,
+      "unitPrice": 9.85,
+      "unit": "Kč/100 g",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "-18%",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2950_CZ_P",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-28c4fa7e925d3fc2",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "Birell Nealkoholické pivo světlé/řezané",
+      "brand": "",
+      "packageSize": "0,5 l plech",
+      "price": 17.9,
+      "oldPrice": 22.9,
+      "unitPrice": 35.8,
+      "unit": "Kč/1 l",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "-21%",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594404006413_CZ_P",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-379c2de8d08f41b4",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "Birgo Osvěžující nealkoholický nápoj z piva",
+      "brand": "",
+      "packageSize": "0,5 l plech",
+      "price": 15.9,
+      "oldPrice": 17.9,
+      "unitPrice": 31.8,
+      "unit": "Kč/1 l",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "-11%",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001025435_CZ_P",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-ca04b81846a6772a",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "Bivoj Dušená šunka",
+      "brand": "",
+      "packageSize": "100 g",
+      "price": 17.9,
+      "oldPrice": 24.9,
+      "unitPrice": 17.9,
+      "unit": "Kč/100 g",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "-28%",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8595010301756_CZ_P",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    {
+      "id": "kaufland-teplice-0cb49edba0225568",
+      "storeId": "kaufland-teplice-centrum",
+      "chain": "Kaufland",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "sourceStoreName": "CZ2450",
+      "product": "Bivoj Opavské klobásy",
+      "brand": "",
+      "packageSize": "100 g",
+      "price": 13.9,
+      "oldPrice": 28.9,
+      "unitPrice": 13.9,
+      "unit": "Kč/ks",
+      "category": "Akční nabídka",
+      "validFrom": "2026-05-13",
+      "validTo": "2026-05-19",
+      "priceType": "-51%",
+      "klNr": "",
+      "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2820470000000_CZ_P",
+      "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
     }
   ],
-  "missingFromHtml": [
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00036652"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00041142"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00091621"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00093179"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00119107"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00119722"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00122265"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00138600"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00142613"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00142618"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00144389"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00149359"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00150384"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00151017"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00154455"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00209484"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00300594"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00302040"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00302060"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "01000717"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20169965"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20177390"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20181016"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20284926"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20606173"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20701176"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20706573"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20773287"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20781383"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20782484"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20812187"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20820875"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20871962"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20890497"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20925814"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20926736"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63000039"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00055495"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63000122"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63000127"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63000137"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63000151"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63000261"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63000019"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63000333"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63000467"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63010639"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63010690"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63010702"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "63012650"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00130787"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00300584"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "01004250"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00162166"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20553116"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20798633"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20941200"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00026120"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00031181"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00046265"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00046282"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00096198"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00119974"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00122125"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00125264"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00151461"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00151579"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00152746"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00163756"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00400678"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00409541"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00410231"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00506549"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00507681"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "01600021"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20209835"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20787596"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20794903"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20798950"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20884459"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20919880"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20926717"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20936494"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20942638"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00152977"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00160599"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00403410"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00405400"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00405634"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00505683"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20830752"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00074941"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00122424"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00400052"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00400219"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00403455"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00408428"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00500173"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "01000799"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00098674"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00104388"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00048472"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00142329"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00153489"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00807100"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20424768"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20811696"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20816428"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20820526"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20830311"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20839018"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20917714"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20927148"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20932284"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20937500"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20945483"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20185010"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00807290"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20206336"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00030942"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00052630"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00056400"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00063066"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00088985"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00102901"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00123819"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00153485"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00159813"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "01000662"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "01206355"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "01304852"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "01403171"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "01403919"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "03002460"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "03100830"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20210223"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20258640"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20272972"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20284094"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20604660"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20674693"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20835852"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20850291"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20856364"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20911693"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20913997"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "03100211"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "01501271"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20208530"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00029534"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00032446"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00035625"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00044873"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00055963"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00104777"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00106976"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00113736"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00121921"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00123400"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00126119"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00131843"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00133906"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00137264"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00137434"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00137934"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00137945"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00138751"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00140559"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00141836"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00149635"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00149862"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00154558"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "00156851"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "01004291"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "02805504"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "02805632"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "02806621"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "02807978"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "02808186"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "02914939"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "02915310"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "03200075"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "03200930"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "03601719"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "03802287"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "03903434"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "04002026"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20035881"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20178716"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20229302"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20265444"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20266672"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20695184"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20695594"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20706584"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20707428"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20711046"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20720433"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20818658"
-    },
-    {
-      "dateFrom": "2026-05-13",
-      "dateTo": "2026-05-19",
-      "klNr": "20854790"
-    }
-  ],
-  "missingFromHtmlCount": 646,
   "notes": [
-    "Parser v4 parsuje produktové <a class='k-product-tile'> dlaždice i bez kloffer-articleID.",
-    "Položky bez klNr se deduplikují podle názvu, ceny, obrázku a kategorie.",
-    "Platnost položek bez klNr se bere z prvního záznamu indexu .kloffers, protože aktuální import je pro jednu aktuální akční vlnu."
+    "Parser v5 bere stránku pobočky + jeden plný grid TopArticle.",
+    "Netahejte všechny kategorie: Kaufland pro tyto URL vrací stejný plný grid, takže by vznikaly falešné kategorie.",
+    "Duplicitní produkt z gridu a stránky pobočky se sloučí a preferuje se varianta s klNr.",
+    "Výsledný count může být nižší než V4, ale měl by být čistší a bez duplicit produktů s/bez klNr."
   ]
 }

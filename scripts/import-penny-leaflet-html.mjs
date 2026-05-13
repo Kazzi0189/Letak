@@ -294,22 +294,44 @@ function nearestLeadPrice(price, leadPrices) {
   return best;
 }
 
+function getAdjustedUnitPrices(unitBase, unitPrices) {
+  const base = String(unitBase || "").replace(/\s+/g, " ").trim().toLowerCase();
+  const adjusted = [];
+
+  for (const unitPrice of unitPrices ?? []) {
+    adjusted.push({ unitPrice, adjustment: "none" });
+
+    // FlippingBook text občas posune desetinnou čárku u malých tekutých položek:
+    // "100 ml 19,80 Kč" má podle cenového bloku odpovídat 1,98 Kč / 100 ml.
+    if ((base === "100 ml" || base === "100 g") && unitPrice >= 10) {
+      adjusted.push({
+        unitPrice: normalizeMainPrice(unitPrice / 10),
+        adjustment: "divide-by-10",
+      });
+    }
+  }
+
+  return adjusted;
+}
+
 function computeMainPriceFromUnit(packageSize, unitBase, unitPrices, leadPrices) {
   const pkg = parsePackageAmount(packageSize);
   if (!pkg) return null;
 
   const candidates = [];
-  const prices = unitPrices?.length ? unitPrices : [];
+  const prices = getAdjustedUnitPrices(unitBase, unitPrices);
 
   for (const variant of pkg.variants) {
-    for (const unitPrice of prices) {
-      const price = computeCandidatePrice(variant, unitBase, unitPrice);
+    for (const item of prices) {
+      const price = computeCandidatePrice(variant, unitBase, item.unitPrice);
       if (price !== null) {
         const nearest = nearestLeadPrice(price, leadPrices);
         candidates.push({
           price,
           nearestLeadPrice: nearest?.price ?? null,
           leadDiff: nearest?.diff ?? null,
+          unitPriceAdjustment: item.adjustment,
+          adjustedUnitPrice: item.unitPrice,
         });
       }
     }
@@ -320,7 +342,7 @@ function computeMainPriceFromUnit(packageSize, unitBase, unitPrices, leadPrices)
   candidates.sort((a, b) => {
     const aDiff = a.leadDiff ?? Number.POSITIVE_INFINITY;
     const bDiff = b.leadDiff ?? Number.POSITIVE_INFINITY;
-    return aDiff - bDiff || a.price - b.price;
+    return aDiff - bDiff || (a.unitPriceAdjustment === "none" ? -1 : 1) || a.price - b.price;
   });
 
   return candidates[0];
@@ -397,6 +419,31 @@ function applyPriceSafety({ chosen, unitInfo, packageSize }) {
     nearestLeadPrice: chosen.nearestLeadPrice,
   });
 
+  const adjustedByUnitPrice =
+    chosen.unitPriceAdjustment && chosen.unitPriceAdjustment !== "none";
+
+  // Když se podezřelá cena opravila pomocí jasné desetinné chyby a sedí na cenový blok,
+  // nepovažujeme ji za suspect.
+  if (
+    adjustedByUnitPrice &&
+    chosen.leadDiff !== null &&
+    chosen.leadDiff <= 0.15
+  ) {
+    return {
+      chosen: {
+        ...chosen,
+        source: "computed-adjusted-unit-price",
+      },
+      safety: {
+        suspect: false,
+        reasons: [],
+        nearestLeadPrice: chosen.nearestLeadPrice ?? null,
+        leadDiff: chosen.leadDiff ?? null,
+        unitPriceAdjustment: chosen.unitPriceAdjustment,
+      },
+    };
+  }
+
   if (!safety.suspect) {
     return {
       chosen,
@@ -404,32 +451,15 @@ function applyPriceSafety({ chosen, unitInfo, packageSize }) {
     };
   }
 
-  // Pokud je výpočet podezřelý, ale máme blízkou cenu z horního bloku,
-  // ponecháme vypočtenou cenu v debug, ale do hlavní price dáme bezpečnější nearestLeadPrice.
-  // Typický příklad: 500 ml × 19,80 Kč/100 ml = 99 Kč, ale v letáku je cena 9,90 Kč.
-  if (
-    chosen.nearestLeadPrice !== null &&
-    Number.isFinite(chosen.nearestLeadPrice) &&
-    chosen.leadDiff !== null &&
-    chosen.leadDiff > 20
-  ) {
-    return {
-      chosen: {
-        ...chosen,
-        originalComputedPrice: chosen.price,
-        price: chosen.nearestLeadPrice,
-        source: "safety-nearest-lead",
-      },
-      safety: {
-        ...safety,
-        correctedToNearestLeadPrice: true,
-      },
-    };
-  }
-
+  // V7 tady přepisovala cenu na nejbližší cenu z celé stránky. To je riskantní:
+  // u KEFÍROVÉHO MLÉKA to vedlo na 44,90 Kč, přestože problém je nejspíš desetinná čárka.
+  // V8 proto cenu nepřepisuje na vzdálený leadPrice, pouze označí položku jako suspect.
   return {
     chosen,
-    safety,
+    safety: {
+      ...safety,
+      correctedToNearestLeadPrice: false,
+    },
   };
 }
 
@@ -585,6 +615,8 @@ function parsePageProductLine(productLine, pageNumber, sourceUrl) {
         leadPrice,
         computedPrice: computed?.price ?? null,
         originalComputedPrice: chosen.originalComputedPrice ?? null,
+        unitPriceAdjustment: chosen.unitPriceAdjustment ?? "none",
+        adjustedUnitPrice: chosen.adjustedUnitPrice ?? null,
         nearestLeadPrice: chosen.nearestLeadPrice ?? null,
         leadDiff: chosen.leadDiff ?? null,
         safety,
@@ -602,7 +634,7 @@ async function fetchPage(pageNumber) {
   const url = `${VIEWER_BASE_URL}${pageNumber}/index.html`;
   const response = await fetch(url, {
     headers: {
-      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacPennyLeafletHtmlImport/0.7; +https://github.com/)",
+      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacPennyLeafletHtmlImport/0.8; +https://github.com/)",
       accept: "text/html,application/xhtml+xml",
       "accept-language": "cs-CZ,cs;q=0.9,en;q=0.8",
     },
@@ -665,9 +697,9 @@ async function main() {
     updatedAt: new Date().toISOString(),
     count: publicOffers.length,
     parser: "scripts/import-penny-leaflet-html.mjs",
-    parserVersion: "0.7",
+    parserVersion: "0.8",
     note:
-      "V7: bezpečnostní vrstva pro podezřelé dopočtené ceny. Pokud vypočtená cena výrazně nesedí na žádnou cenu z horního cenového bloku, položka se označí jako suspect a sníží se confidence.",
+      "V8: bezpečnější práce s podezřelými cenami. Parser zkouší opravit typickou chybu desetinné čárky u jednotkových cen, například 100 ml 19,80 Kč -> 1,98 Kč. Pokud není jistá oprava, cenu automaticky nepřepisuje na vzdálenou položku z cenového bloku.",
   };
 
   await writeFile(OUTPUT_FILE, JSON.stringify({ meta, offers: publicOffers }, null, 2) + "\n", "utf8");
@@ -686,6 +718,7 @@ async function main() {
           lowConfidenceOffers: offers.filter((offer) => offer.confidence === "low").length,
           suspectOffers: offers.filter((offer) => offer.suspect).length,
           safetyCorrectedOffers: offers.filter((offer) => offer.debug?.priceSource === "safety-nearest-lead").length,
+          adjustedUnitPriceOffers: offers.filter((offer) => offer.debug?.priceSource === "computed-adjusted-unit-price").length,
           computedPriceOffers: offers.filter((offer) => offer.debug?.priceSource === "computed").length,
           explicitPriceOffers: offers.filter((offer) => offer.debug?.priceSource === "explicit").length,
           leadPriceOffers: offers.filter((offer) => offer.debug?.priceSource === "lead").length,

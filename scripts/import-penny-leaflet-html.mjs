@@ -348,6 +348,91 @@ function choosePrice({ leadPrice, computed }) {
   return { price: null, source: "missing", nearestLeadPrice: null, leadDiff: null };
 }
 
+function evaluateSuspectPrice({ price, unitBase, packageSize, leadDiff, nearestLeadPrice }) {
+  const reasons = [];
+
+  if (price === null || price === undefined || !Number.isFinite(price)) {
+    reasons.push("missing-price");
+  }
+
+  if (price !== null && price !== undefined && Number.isFinite(price)) {
+    if (price <= 0) reasons.push("non-positive-price");
+
+    // Běžné položky v letáku mohou být drahé, ale extrémní dopočty jsou podezřelé.
+    if (price > 999) reasons.push("very-high-price");
+
+    // Nejčastější problém: tekutiny s jednotkovkou v textu jako 100 ml 19,80 Kč,
+    // kde výpočet vyrobí 99 Kč, ale v horním cenovém bloku je spíš 9,90 Kč.
+    const base = String(unitBase || "").replace(/\s+/g, " ").toLowerCase();
+    if ((base === "100 ml" || base === "1 l") && price >= 80 && leadDiff !== null && leadDiff > 20) {
+      reasons.push("liquid-price-far-from-leaflet-price");
+    }
+
+    // Obecné pravidlo: když výpočet nesedí na žádnou cenu z cenového bloku,
+    // necháme položku v datech, ale nedáme jí high confidence.
+    if (leadDiff !== null && leadDiff > 20) {
+      reasons.push("computed-price-far-from-nearest-lead-price");
+    }
+
+    // U malých balení je cena nad 80 Kč skoro vždy podezřelá, pokud nesedí na cenový blok.
+    if (/g|ml/.test(String(packageSize || "").toLowerCase()) && price >= 80 && leadDiff !== null && leadDiff > 15) {
+      reasons.push("small-package-high-price");
+    }
+  }
+
+  return {
+    suspect: reasons.length > 0,
+    reasons,
+    nearestLeadPrice: nearestLeadPrice ?? null,
+    leadDiff: leadDiff ?? null,
+  };
+}
+
+function applyPriceSafety({ chosen, unitInfo, packageSize }) {
+  const safety = evaluateSuspectPrice({
+    price: chosen.price,
+    unitBase: unitInfo.unitBase,
+    packageSize,
+    leadDiff: chosen.leadDiff,
+    nearestLeadPrice: chosen.nearestLeadPrice,
+  });
+
+  if (!safety.suspect) {
+    return {
+      chosen,
+      safety,
+    };
+  }
+
+  // Pokud je výpočet podezřelý, ale máme blízkou cenu z horního bloku,
+  // ponecháme vypočtenou cenu v debug, ale do hlavní price dáme bezpečnější nearestLeadPrice.
+  // Typický příklad: 500 ml × 19,80 Kč/100 ml = 99 Kč, ale v letáku je cena 9,90 Kč.
+  if (
+    chosen.nearestLeadPrice !== null &&
+    Number.isFinite(chosen.nearestLeadPrice) &&
+    chosen.leadDiff !== null &&
+    chosen.leadDiff > 20
+  ) {
+    return {
+      chosen: {
+        ...chosen,
+        originalComputedPrice: chosen.price,
+        price: chosen.nearestLeadPrice,
+        source: "safety-nearest-lead",
+      },
+      safety: {
+        ...safety,
+        correctedToNearestLeadPrice: true,
+      },
+    };
+  }
+
+  return {
+    chosen,
+    safety,
+  };
+}
+
 function hasUnparsedPriceBeforePackage(productPrefix) {
   return /(?:100\s*g|1\s*kg|1\s*l|100\s*ml|1\s*ks|100\s*ks|1\s*m)\s+\d{1,4}(?:\s?\d{3})*,\d{1,2}(?:\s*[\/–-]\s*\d{1,4}(?:\s?\d{3})*,\d{1,2})?\s*Kč/i.test(productPrefix);
 }
@@ -457,21 +542,24 @@ function parsePageProductLine(productLine, pageNumber, sourceUrl) {
 
     const leadPrice = leadPrices[leadPriceIndex] ?? null;
     const computed = computeMainPriceFromUnit(packageSize, unitInfo.unitBase, unitInfo.unitPrices, leadPrices);
-    const chosen = choosePrice({ leadPrice, computed });
+    const chosenRaw = choosePrice({ leadPrice, computed });
+    const { chosen, safety } = applyPriceSafety({ chosen: chosenRaw, unitInfo, packageSize });
 
     // Lead cenu posouváme pro každou nalezenou položku, ale nepovažujeme ji za spolehlivý zdroj hlavní ceny.
     leadPriceIndex += 1;
 
     const confidence =
-      chosen.price !== null &&
-      product.length > 8 &&
-      !/^v nabídce/i.test(product) &&
-      chosen.leadDiff !== null &&
-      chosen.leadDiff <= 0.15
-        ? "high"
-        : chosen.price !== null && product.length > 8 && !/^v nabídce/i.test(product)
-          ? "medium"
-          : "low";
+      safety.suspect
+        ? "medium"
+        : chosen.price !== null &&
+            product.length > 8 &&
+            !/^v nabídce/i.test(product) &&
+            chosen.leadDiff !== null &&
+            chosen.leadDiff <= 0.15
+          ? "high"
+          : chosen.price !== null && product.length > 8 && !/^v nabídce/i.test(product)
+            ? "medium"
+            : "low";
 
     offers.push({
       id: makeId(product, chosen.price ?? unitInfo.unitPrice ?? 0, pageNumber, packageSize),
@@ -490,12 +578,16 @@ function parsePageProductLine(productLine, pageNumber, sourceUrl) {
       sourceUrl,
       pageNumber,
       confidence,
+      suspect: safety.suspect,
+      suspectReasons: safety.reasons,
       debug: {
         priceSource: chosen.source,
         leadPrice,
         computedPrice: computed?.price ?? null,
+        originalComputedPrice: chosen.originalComputedPrice ?? null,
         nearestLeadPrice: chosen.nearestLeadPrice ?? null,
         leadDiff: chosen.leadDiff ?? null,
+        safety,
         ignoredExplicitAfterUnitPrice: explicitPrice,
         rawProductPrefix,
         cleanedProductPrefix: productPrefix,
@@ -510,7 +602,7 @@ async function fetchPage(pageNumber) {
   const url = `${VIEWER_BASE_URL}${pageNumber}/index.html`;
   const response = await fetch(url, {
     headers: {
-      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacPennyLeafletHtmlImport/0.6; +https://github.com/)",
+      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacPennyLeafletHtmlImport/0.7; +https://github.com/)",
       accept: "text/html,application/xhtml+xml",
       "accept-language": "cs-CZ,cs;q=0.9,en;q=0.8",
     },
@@ -573,9 +665,9 @@ async function main() {
     updatedAt: new Date().toISOString(),
     count: publicOffers.length,
     parser: "scripts/import-penny-leaflet-html.mjs",
-    parserVersion: "0.6",
+    parserVersion: "0.7",
     note:
-      "V6: rozšířená oprava zbylých slepených názvů. Parser nově umí jednotkovou cenu bez desetinné čárky typu 100 g 23 Kč a čistí bloky s mezivloženou cenou typu 100 g < 11,90 Kč.",
+      "V7: bezpečnostní vrstva pro podezřelé dopočtené ceny. Pokud vypočtená cena výrazně nesedí na žádnou cenu z horního cenového bloku, položka se označí jako suspect a sníží se confidence.",
   };
 
   await writeFile(OUTPUT_FILE, JSON.stringify({ meta, offers: publicOffers }, null, 2) + "\n", "utf8");
@@ -592,6 +684,8 @@ async function main() {
           highConfidenceOffers: offers.filter((offer) => offer.confidence === "high").length,
           mediumConfidenceOffers: offers.filter((offer) => offer.confidence === "medium").length,
           lowConfidenceOffers: offers.filter((offer) => offer.confidence === "low").length,
+          suspectOffers: offers.filter((offer) => offer.suspect).length,
+          safetyCorrectedOffers: offers.filter((offer) => offer.debug?.priceSource === "safety-nearest-lead").length,
           computedPriceOffers: offers.filter((offer) => offer.debug?.priceSource === "computed").length,
           explicitPriceOffers: offers.filter((offer) => offer.debug?.priceSource === "explicit").length,
           leadPriceOffers: offers.filter((offer) => offer.debug?.priceSource === "lead").length,

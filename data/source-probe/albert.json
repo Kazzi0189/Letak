@@ -3,12 +3,12 @@
   "sourceUrl": "https://www.albert.cz/aktualni-letaky",
   "dependsOnStore": "partly",
   "sourceNote": "Nutné rozlišit minimálně supermarket / hypermarket a případně lokalitu.",
-  "checkedAt": "2026-05-13T07:19:49.958Z",
+  "checkedAt": "2026-05-13T07:32:57.747Z",
   "ok": true,
   "status": 200,
   "finalUrl": "https://www.albert.cz/aktualni-letaky",
   "contentType": "text/html; charset=utf-8",
-  "htmlLength": 1129086,
+  "htmlLength": 1129087,
   "pdfLinks": [
     "https://economie.fgov.be/sites/default/files/Files/Ventes/Forms/Formulaire-de-retractation.pdf"
   ],

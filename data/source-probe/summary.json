@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T07:19:51.274Z",
+  "updatedAt": "2026-05-13T07:32:59.084Z",
   "count": 4,
   "results": [
     {
@@ -63,7 +63,7 @@
       "finalUrl": "https://www.albert.cz/aktualni-letaky",
       "contentType": "text/html; charset=utf-8",
       "dependsOnStore": "partly",
-      "htmlLength": 1129086,
+      "htmlLength": 1129087,
       "pdfLinksCount": 1,
       "viewerLinksCount": 4,
       "hasNextData": true,

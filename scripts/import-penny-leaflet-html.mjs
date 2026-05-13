@@ -198,7 +198,7 @@ function parseExplicitMainPrice(segmentAfterUnit) {
 }
 
 function parseUnitInfo(unitText) {
-  const match = unitText.match(/^(.+?)\s+(\d{1,4}(?:\s?\d{3})*,\d{1,2}(?:\s*[\/–-]\s*\d{1,4}(?:\s?\d{3})*,\d{1,2})?)\s*Kč$/i);
+  const match = unitText.match(/^(.+?)\s+(\d{1,4}(?:\s?\d{3})*(?:,\d{1,2})?(?:\s*[\/–-]\s*\d{1,4}(?:\s?\d{3})*(?:,\d{1,2})?)*)\s*Kč$/i);
   if (!match) return null;
 
   const unitBase = match[1].replace(/\s+/g, " ").trim();
@@ -368,6 +368,20 @@ function cleanupProductPrefixBeforePackage(productPrefix) {
     ""
   );
 
+  // Varianta, kde je mezi starým balením a novým názvem ještě značka "< cena Kč":
+  // "TAVENÝ SÝR ... 100 g < 11,90 Kč SÝROVÉ TYČINKY ..."
+  value = value.replace(
+    /^.*\b(?:\d+\s*x\s*)?\d+(?:[ ,]\d+)?(?:\s*[\/–-]\s*\d+(?:[ ,]\d+)?)?\s*(?:g|kg|ml|l|ks|m|svazek|balení)\s*<\s*\d{1,4}(?:\s?\d{3})*,\d{1,2}\s*Kč\s+(?=[A-ZÁ-Ž])/,
+    ""
+  );
+
+  // Varianta, kde předchozí položka obsahuje jednotkovou cenu bez desetinné čárky:
+  // "KOŘENĚNÉ MATJESY ... 100 g 23 Kč SHOT BIO ..."
+  value = value.replace(
+    /^.*\b(?:100\s*g|1\s*kg|1\s*l|100\s*ml|1\s*ks|100\s*ks|1\s*m)\s+\d{1,4}(?:\s?\d{3})*(?:,\d{1,2})?(?:\s*[\/–-]\s*\d{1,4}(?:\s?\d{3})*(?:,\d{1,2})?)*\s*Kč\s+(?=[A-ZÁ-Ž])/,
+    ""
+  );
+
   // Odstraň přívěsky bodových akcí, které se objevují za poslední položkou.
   value = value
     .replace(/\b\d+\s+bod(?:y|ů)?\s+navíc.*$/i, "")
@@ -395,7 +409,7 @@ function parsePageProductLine(productLine, pageNumber, sourceUrl) {
   const leadPrices = extractLeadPrices(cleaned);
 
   const unitPriceRegex =
-    /(?:100\s*g|1\s*kg|1\s*l|100\s*ml|1\s*ks|100\s*ks|1\s*m)\s+\d{1,4}(?:\s?\d{3})*,\d{1,2}(?:\s*[\/–-]\s*\d{1,4}(?:\s?\d{3})*,\d{1,2})?\s*Kč/gi;
+    /(?:100\s*g|1\s*kg|1\s*l|100\s*ml|1\s*ks|100\s*ks|1\s*m)\s+\d{1,4}(?:\s?\d{3})*(?:,\d{1,2})?(?:\s*[\/–-]\s*\d{1,4}(?:\s?\d{3})*(?:,\d{1,2})?)*\s*Kč/gi;
 
   const unitMatches = Array.from(body.matchAll(unitPriceRegex));
   const offers = [];
@@ -496,7 +510,7 @@ async function fetchPage(pageNumber) {
   const url = `${VIEWER_BASE_URL}${pageNumber}/index.html`;
   const response = await fetch(url, {
     headers: {
-      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacPennyLeafletHtmlImport/0.5; +https://github.com/)",
+      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacPennyLeafletHtmlImport/0.6; +https://github.com/)",
       accept: "text/html,application/xhtml+xml",
       "accept-language": "cs-CZ,cs;q=0.9,en;q=0.8",
     },
@@ -559,9 +573,9 @@ async function main() {
     updatedAt: new Date().toISOString(),
     count: publicOffers.length,
     parser: "scripts/import-penny-leaflet-html.mjs",
-    parserVersion: "0.5",
+    parserVersion: "0.6",
     note:
-      "V5: oprava názvů položek u bloků, kde před aktuální položkou leží jiná položka typu cena za 1 kg / 1 ks nebo holé balení bez jednotkové ceny. Cílem je omezit slepené názvy jako ČERSTVÝ SÝR ... RYBÍ POMAZÁNKA.",
+      "V6: rozšířená oprava zbylých slepených názvů. Parser nově umí jednotkovou cenu bez desetinné čárky typu 100 g 23 Kč a čistí bloky s mezivloženou cenou typu 100 g < 11,90 Kč.",
   };
 
   await writeFile(OUTPUT_FILE, JSON.stringify({ meta, offers: publicOffers }, null, 2) + "\n", "utf8");

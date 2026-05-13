@@ -1,0 +1,37 @@
+name: Probe Penny pages publication
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Probe Penny pages and publication assets
+        run: node scripts/probe-penny-pages-publication.mjs
+
+      - name: Commit Penny pages publication probe results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/penny-pages-publication-probe
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Probe Penny pages publication"
+            git push
+          fi

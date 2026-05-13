@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "https://www.penny.cz/nabidky",
-    "updatedAt": "2026-05-12T08:05:43.933Z",
-    "totalLines": 286,
+    "updatedAt": "2026-05-13T08:12:53.735Z",
+    "totalLines": 314,
     "parser": "scripts/import-penny.mjs"
   },
   "lines": [
@@ -108,1046 +108,1158 @@
     },
     {
       "index": 25,
-      "line": "Pivo Zlatý Bažant sklo"
+      "line": "Aperol Bitter 11%"
     },
     {
       "index": 26,
-      "line": "### Pivo Zlatý Bažant sklo"
+      "line": "### Aperol Bitter 11%"
     },
     {
       "index": 27,
-      "line": "0,5 l"
+      "line": "0,7 l"
     },
     {
       "index": 28,
-      "line": "od st 06.05.2026"
+      "line": "od st 13.05.2026"
     },
     {
       "index": 29,
-      "line": "do út 12.05.2026"
+      "line": "do st 20.05.2026"
     },
     {
       "index": 30,
-      "line": "11,90 Kč 23,90 Kč"
+      "line": "249,90 Kč 399,90 Kč"
     },
     {
       "index": 31,
-      "line": "1 l 23,80 Kč"
+      "line": "1 l 357,00 Kč"
     },
     {
       "index": 32,
-      "line": "Smetana ke šlehání 33% Olma"
+      "line": "Listové těsto chlazené Penny To G"
     },
     {
       "index": 33,
-      "line": "SUPER NABÍDKA"
+      "line": "### Listové těsto chlazené Penny To G"
     },
     {
       "index": 34,
-      "line": "### Smetana ke šlehání 33% Olma"
+      "line": "275 g"
     },
     {
       "index": 35,
-      "line": "200 g"
+      "line": "od st 13.05.2026"
     },
     {
       "index": 36,
-      "line": "od st 06.05.2026"
+      "line": "do st 20.05.2026"
     },
     {
       "index": 37,
-      "line": "do út 12.05.2026"
+      "line": "17,90 Kč 29,90 Kč"
     },
     {
       "index": 38,
-      "line": "19,90 Kč 27,90 Kč"
+      "line": "100 g 6,51 Kč"
     },
     {
       "index": 39,
-      "line": "100 g 9,95 Kč"
+      "line": "Fruit gummies Enjoy"
     },
     {
       "index": 40,
-      "line": "Toffifee 4+1zdarma"
+      "line": "### Fruit gummies Enjoy"
     },
     {
       "index": 41,
-      "line": "SUPER NABÍDKA"
+      "line": "35 g"
     },
     {
       "index": 42,
-      "line": "### Toffifee 4+1zdarma"
+      "line": "od st 13.05.2026"
     },
     {
       "index": 43,
-      "line": "625 g"
+      "line": "do st 20.05.2026"
     },
     {
       "index": 44,
-      "line": "od st 06.05.2026"
+      "line": "bez PENNY karty"
     },
     {
       "index": 45,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 46,
-      "line": "139,90 Kč"
-    },
-    {
-      "index": 47,
-      "line": "100 g 22,38 Kč"
-    },
-    {
-      "index": 48,
-      "line": "Brumík 5pack Opavia"
-    },
-    {
-      "index": 49,
-      "line": "SUPER NABÍDKA"
-    },
-    {
-      "index": 50,
-      "line": "### Brumík 5pack Opavia"
-    },
-    {
-      "index": 51,
-      "line": "150 g"
-    },
-    {
-      "index": 52,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 53,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 54,
-      "line": "29,90 Kč 55,90 Kč"
-    },
-    {
-      "index": 55,
-      "line": "100 g 19,93 Kč"
-    },
-    {
-      "index": 56,
-      "line": "Jablka červená"
-    },
-    {
-      "index": 57,
-      "line": "### Jablka červená"
-    },
-    {
-      "index": 58,
-      "line": "1 kg"
-    },
-    {
-      "index": 59,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 60,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 61,
-      "line": "16,90 Kč 29,90 Kč"
-    },
-    {
-      "index": 62,
-      "line": "1 kg 16,90 Kč"
-    },
-    {
-      "index": 63,
-      "line": "BORŮVKY 250G"
-    },
-    {
-      "index": 64,
-      "line": "### BORŮVKY 250G"
-    },
-    {
-      "index": 65,
-      "line": "250 g"
-    },
-    {
-      "index": 66,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 67,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 68,
-      "line": "49,90 Kč 89,90 Kč"
-    },
-    {
-      "index": 69,
-      "line": "100 g 19,96 Kč"
-    },
-    {
-      "index": 70,
-      "line": "Pistácie pražené XXL Naturalia"
-    },
-    {
-      "index": 71,
-      "line": "SUPER NABÍDKA"
-    },
-    {
-      "index": 72,
-      "line": "### Pistácie pražené XXL Naturalia"
-    },
-    {
-      "index": 73,
-      "line": "400 g"
-    },
-    {
-      "index": 74,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 75,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 76,
-      "line": "99,90 Kč"
-    },
-    {
-      "index": 77,
-      "line": "100 g 24,98 Kč"
-    },
-    {
-      "index": 78,
-      "line": "Poděbradka Prolinie"
-    },
-    {
-      "index": 79,
-      "line": "### Poděbradka Prolinie"
-    },
-    {
-      "index": 80,
-      "line": "1,5 l"
-    },
-    {
-      "index": 81,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 82,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 83,
-      "line": "10,90 Kč 19,90 Kč"
-    },
-    {
-      "index": 84,
-      "line": "1 l 7,27 Kč"
-    },
-    {
-      "index": 85,
-      "line": "Paštika Svačinka Hamé"
-    },
-    {
-      "index": 86,
-      "line": "### Paštika Svačinka Hamé"
-    },
-    {
-      "index": 87,
-      "line": "105 g"
-    },
-    {
-      "index": 88,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 89,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 90,
-      "line": "bez PENNY karty"
-    },
-    {
-      "index": 91,
-      "line": "29,90 Kč"
-    },
-    {
-      "index": 92,
-      "line": "1 kg 284,76 Kč"
-    },
-    {
-      "index": 93,
-      "line": "s PENNY kartou"
-    },
-    {
-      "index": 94,
-      "line": "14,90 Kč"
-    },
-    {
-      "index": 95,
-      "line": "1 kg 141,91 Kč"
-    },
-    {
-      "index": 96,
-      "line": "Paštika Matěj Hamé"
-    },
-    {
-      "index": 97,
-      "line": "### Paštika Matěj Hamé"
-    },
-    {
-      "index": 98,
-      "line": "105 g"
-    },
-    {
-      "index": 99,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 100,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 101,
-      "line": "bez PENNY karty"
-    },
-    {
-      "index": 102,
-      "line": "29,90 Kč"
-    },
-    {
-      "index": 103,
-      "line": "1 kg 284,76 Kč"
-    },
-    {
-      "index": 104,
-      "line": "s PENNY kartou"
-    },
-    {
-      "index": 105,
-      "line": "14,90 Kč"
-    },
-    {
-      "index": 106,
-      "line": "1 kg 141,91 Kč"
-    },
-    {
-      "index": 107,
-      "line": "Fernet Stock Standard 30%"
-    },
-    {
-      "index": 108,
-      "line": "### Fernet Stock Standard 30%"
-    },
-    {
-      "index": 109,
-      "line": "0,5 l"
-    },
-    {
-      "index": 110,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 111,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 112,
-      "line": "99,90 Kč 189,90 Kč"
-    },
-    {
-      "index": 113,
-      "line": "1 l 199,80 Kč"
-    },
-    {
-      "index": 114,
-      "line": "Sýr Eidam 30% Karlova Koruna"
-    },
-    {
-      "index": 115,
-      "line": "### Sýr Eidam 30% Karlova Koruna"
-    },
-    {
-      "index": 116,
-      "line": "100 g"
-    },
-    {
-      "index": 117,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 118,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 119,
-      "line": "12,90 Kč 18,90 Kč"
-    },
-    {
-      "index": 120,
-      "line": "100 g 12,90 Kč"
-    },
-    {
-      "index": 121,
-      "line": "Villa Bellucci Crystal Edition"
-    },
-    {
-      "index": 122,
-      "line": "SUPER NABÍDKA"
-    },
-    {
-      "index": 123,
-      "line": "### Villa Bellucci Crystal Edition"
-    },
-    {
-      "index": 124,
-      "line": "0,75 l"
-    },
-    {
-      "index": 125,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 126,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 127,
-      "line": "69,90 Kč"
-    },
-    {
-      "index": 128,
-      "line": "1 l 93,20 Kč"
-    },
-    {
-      "index": 129,
-      "line": "Birell Pomelo & Grep"
-    },
-    {
-      "index": 130,
-      "line": "SUPER NABÍDKA"
-    },
-    {
-      "index": 131,
-      "line": "### Birell Pomelo & Grep"
-    },
-    {
-      "index": 132,
-      "line": "0,5 l"
-    },
-    {
-      "index": 133,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 134,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 135,
-      "line": "18,90 Kč 24,90 Kč"
-    },
-    {
-      "index": 136,
-      "line": "1 l 37,80 Kč"
-    },
-    {
-      "index": 137,
-      "line": "Bonboniera Legendy Orion"
-    },
-    {
-      "index": 138,
-      "line": "SUPER NABÍDKA"
-    },
-    {
-      "index": 139,
-      "line": "### Bonboniera Legendy Orion"
-    },
-    {
-      "index": 140,
-      "line": "144 g"
-    },
-    {
-      "index": 141,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 142,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 143,
-      "line": "59,90 Kč 119,90 Kč"
-    },
-    {
-      "index": 144,
-      "line": "100 g 41,60 Kč"
-    },
-    {
-      "index": 145,
-      "line": "Mléko trvanlivé plnotučné 3,5% Boni"
-    },
-    {
-      "index": 146,
-      "line": "### Mléko trvanlivé plnotučné 3,5% Boni"
-    },
-    {
-      "index": 147,
-      "line": "1 l"
-    },
-    {
-      "index": 148,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 149,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 150,
-      "line": "14,90 Kč 24,90 Kč"
-    },
-    {
-      "index": 151,
-      "line": "1 l 14,90 Kč"
-    },
-    {
-      "index": 152,
-      "line": "Zmrzlina Manhattan"
-    },
-    {
-      "index": 153,
-      "line": "SUPER NABÍDKA"
-    },
-    {
-      "index": 154,
-      "line": "### Zmrzlina Manhattan"
-    },
-    {
-      "index": 155,
-      "line": "1 400 ml"
-    },
-    {
-      "index": 156,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 157,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 158,
-      "line": "79,90 Kč 209,90 Kč"
-    },
-    {
-      "index": 159,
-      "line": "1 l 57,07 Kč"
-    },
-    {
-      "index": 160,
-      "line": "Tyčinka Knoppers"
-    },
-    {
-      "index": 161,
-      "line": "### Tyčinka Knoppers"
-    },
-    {
-      "index": 162,
-      "line": "40 g"
-    },
-    {
-      "index": 163,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 164,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 165,
-      "line": "bez PENNY karty"
-    },
-    {
-      "index": 166,
-      "line": "16,90 Kč"
-    },
-    {
-      "index": 167,
-      "line": "100 g 42,25 Kč"
-    },
-    {
-      "index": 168,
-      "line": "s PENNY kartou"
-    },
-    {
-      "index": 169,
-      "line": "11,90 Kč"
-    },
-    {
-      "index": 170,
-      "line": "100 g 29,75 Kč"
-    },
-    {
-      "index": 171,
-      "line": "Polévka do hrnečku Vitana"
-    },
-    {
-      "index": 172,
-      "line": "### Polévka do hrnečku Vitana"
-    },
-    {
-      "index": 173,
-      "line": "27 g"
-    },
-    {
-      "index": 174,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 175,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 176,
-      "line": "bez PENNY karty"
-    },
-    {
-      "index": 177,
-      "line": "13,90 Kč"
-    },
-    {
-      "index": 178,
-      "line": "1 kg 514,82 Kč"
-    },
-    {
-      "index": 179,
-      "line": "s PENNY kartou"
-    },
-    {
-      "index": 180,
-      "line": "8,90 Kč"
-    },
-    {
-      "index": 181,
-      "line": "1 kg 329,63 Kč"
-    },
-    {
-      "index": 182,
-      "line": "Šproty Gran Mare"
-    },
-    {
-      "index": 183,
-      "line": "### Šproty Gran Mare"
-    },
-    {
-      "index": 184,
-      "line": "102 g"
-    },
-    {
-      "index": 185,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 186,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 187,
-      "line": "bez PENNY karty"
-    },
-    {
-      "index": 188,
-      "line": "27,90 Kč"
-    },
-    {
-      "index": 189,
-      "line": "1 kg 273,53 Kč"
-    },
-    {
-      "index": 190,
-      "line": "s PENNY kartou"
-    },
-    {
-      "index": 191,
-      "line": "19,90 Kč"
-    },
-    {
-      "index": 192,
-      "line": "1 kg 195,10 Kč"
-    },
-    {
-      "index": 193,
-      "line": "Kysané zelí Machland"
-    },
-    {
-      "index": 194,
-      "line": "### Kysané zelí Machland"
-    },
-    {
-      "index": 195,
-      "line": "425 g"
-    },
-    {
-      "index": 196,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 197,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 198,
-      "line": "bez PENNY karty"
-    },
-    {
-      "index": 199,
       "line": "24,90 Kč"
     },
     {
-      "index": 200,
-      "line": "1 kg 58,59 Kč"
+      "index": 46,
+      "line": "100 g 71,14 Kč"
     },
     {
-      "index": 201,
+      "index": 47,
       "line": "s PENNY kartou"
     },
     {
-      "index": 202,
-      "line": "17,90 Kč"
-    },
-    {
-      "index": 203,
-      "line": "1 kg 42,12 Kč"
-    },
-    {
-      "index": 204,
-      "line": "Bonbóny Werther\"s Original"
-    },
-    {
-      "index": 205,
-      "line": "### Bonbóny Werther\"s Original"
-    },
-    {
-      "index": 206,
-      "line": "90 g"
-    },
-    {
-      "index": 207,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 208,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 209,
-      "line": "bez PENNY karty"
-    },
-    {
-      "index": 210,
-      "line": "32,90 Kč"
-    },
-    {
-      "index": 211,
-      "line": "100 g 36,56 Kč"
-    },
-    {
-      "index": 212,
-      "line": "s PENNY kartou"
-    },
-    {
-      "index": 213,
+      "index": 48,
       "line": "19,90 Kč"
     },
     {
-      "index": 214,
-      "line": "100 g 22,11 Kč"
+      "index": 49,
+      "line": "100 g 56,86 Kč"
     },
     {
-      "index": 215,
-      "line": "Tatranky Opavia"
+      "index": 50,
+      "line": "Fruit gummies Enjoy"
     },
     {
-      "index": 216,
-      "line": "### Tatranky Opavia"
+      "index": 51,
+      "line": "### Fruit gummies Enjoy"
     },
     {
-      "index": 217,
-      "line": "47 g"
+      "index": 52,
+      "line": "35 g"
     },
     {
-      "index": 218,
-      "line": "od st 06.05.2026"
+      "index": 53,
+      "line": "od st 13.05.2026"
     },
     {
-      "index": 219,
-      "line": "do út 12.05.2026"
+      "index": 54,
+      "line": "do st 20.05.2026"
     },
     {
-      "index": 220,
+      "index": 55,
       "line": "bez PENNY karty"
     },
     {
-      "index": 221,
-      "line": "15,90 Kč"
+      "index": 56,
+      "line": "24,90 Kč"
     },
     {
-      "index": 222,
-      "line": "100 g 33,83 Kč"
+      "index": 57,
+      "line": "100 g 71,14 Kč"
     },
     {
-      "index": 223,
+      "index": 58,
       "line": "s PENNY kartou"
     },
     {
-      "index": 224,
-      "line": "8,90 Kč"
+      "index": 59,
+      "line": "19,90 Kč"
     },
     {
-      "index": 225,
-      "line": "100 g 18,94 Kč"
+      "index": 60,
+      "line": "100 g 56,86 Kč"
     },
     {
-      "index": 226,
-      "line": "Sušenky Zlaté polomáčené Opavia"
+      "index": 61,
+      "line": "Modry Portugal BiB"
     },
     {
-      "index": 227,
-      "line": "### Sušenky Zlaté polomáčené Opavia"
+      "index": 62,
+      "line": "SUPER NABÍDKA"
     },
     {
-      "index": 228,
-      "line": "100 g"
+      "index": 63,
+      "line": "### Modry Portugal BiB"
     },
     {
-      "index": 229,
-      "line": "od st 06.05.2026"
+      "index": 64,
+      "line": "3 l"
     },
     {
-      "index": 230,
-      "line": "do út 12.05.2026"
+      "index": 65,
+      "line": "od st 13.05.2026"
     },
     {
-      "index": 231,
+      "index": 66,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 67,
+      "line": "99,90 Kč"
+    },
+    {
+      "index": 68,
+      "line": "1 l 33,30 Kč"
+    },
+    {
+      "index": 69,
+      "line": "Veltlinské zelené BiB"
+    },
+    {
+      "index": 70,
+      "line": "SUPER NABÍDKA"
+    },
+    {
+      "index": 71,
+      "line": "### Veltlinské zelené BiB"
+    },
+    {
+      "index": 72,
+      "line": "3 l"
+    },
+    {
+      "index": 73,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 74,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 75,
+      "line": "99,90 Kč"
+    },
+    {
+      "index": 76,
+      "line": "1 l 33,30 Kč"
+    },
+    {
+      "index": 77,
+      "line": "Toaletní papír Classic Ooops!"
+    },
+    {
+      "index": 78,
+      "line": "SUPER NABÍDKA"
+    },
+    {
+      "index": 79,
+      "line": "### Toaletní papír Classic Ooops!"
+    },
+    {
+      "index": 80,
+      "line": "253,12 m"
+    },
+    {
+      "index": 81,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 82,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 83,
+      "line": "74,90 Kč"
+    },
+    {
+      "index": 84,
+      "line": "1 m 0,30 Kč"
+    },
+    {
+      "index": 85,
+      "line": "Pepsi/Mirinda"
+    },
+    {
+      "index": 86,
+      "line": "### Pepsi/Mirinda"
+    },
+    {
+      "index": 87,
+      "line": "2,5 l"
+    },
+    {
+      "index": 88,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 89,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 90,
+      "line": "28,90 Kč 39,90 Kč"
+    },
+    {
+      "index": 91,
+      "line": "1 l 11,56 Kč"
+    },
+    {
+      "index": 92,
+      "line": "Smetana zakysaná 16% Karlova Koruna"
+    },
+    {
+      "index": 93,
+      "line": "### Smetana zakysaná 16% Karlova Koruna"
+    },
+    {
+      "index": 94,
+      "line": "200 g"
+    },
+    {
+      "index": 95,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 96,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 97,
+      "line": "9,90 Kč 15,90 Kč"
+    },
+    {
+      "index": 98,
+      "line": "100 g 4,95 Kč"
+    },
+    {
+      "index": 99,
+      "line": "Trubičky CaféTime"
+    },
+    {
+      "index": 100,
+      "line": "### Trubičky CaféTime"
+    },
+    {
+      "index": 101,
+      "line": "280 g"
+    },
+    {
+      "index": 102,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 103,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 104,
       "line": "bez PENNY karty"
     },
     {
-      "index": 232,
-      "line": "25,90 Kč"
+      "index": 105,
+      "line": "39,90 Kč"
     },
     {
-      "index": 233,
-      "line": "100 g 25,90 Kč"
+      "index": 106,
+      "line": "100 g 14,25 Kč"
     },
     {
-      "index": 234,
+      "index": 107,
       "line": "s PENNY kartou"
     },
     {
-      "index": 235,
-      "line": "16,90 Kč"
+      "index": 108,
+      "line": "26,90 Kč"
     },
     {
-      "index": 236,
-      "line": "100 g 16,90 Kč"
+      "index": 109,
+      "line": "100 g 9,61 Kč"
     },
     {
-      "index": 237,
-      "line": "Poděbradka Prolinie"
+      "index": 110,
+      "line": "Sýr Eidam 30% plátky Karlova Koruna"
     },
     {
-      "index": 238,
-      "line": "### Poděbradka Prolinie"
+      "index": 111,
+      "line": "### Sýr Eidam 30% plátky Karlova Koruna"
     },
     {
-      "index": 239,
-      "line": "1,5 l"
-    },
-    {
-      "index": 240,
-      "line": "od st 06.05.2026"
-    },
-    {
-      "index": 241,
-      "line": "do út 12.05.2026"
-    },
-    {
-      "index": 242,
-      "line": "10,90 Kč 19,90 Kč"
-    },
-    {
-      "index": 243,
-      "line": "1 l 7,27 Kč"
-    },
-    {
-      "index": 244,
-      "line": "Salám šunkový zauzený Řezníkův Talíř"
-    },
-    {
-      "index": 245,
-      "line": "### Salám šunkový zauzený Řezníkův Talíř"
-    },
-    {
-      "index": 246,
+      "index": 112,
       "line": "100 g"
     },
     {
-      "index": 247,
-      "line": "od st 06.05.2026"
+      "index": 113,
+      "line": "od st 13.05.2026"
     },
     {
-      "index": 248,
-      "line": "do út 12.05.2026"
+      "index": 114,
+      "line": "do st 20.05.2026"
     },
     {
-      "index": 249,
-      "line": "14,90 Kč 19,90 Kč"
+      "index": 115,
+      "line": "14,90 Kč 20,90 Kč"
     },
     {
-      "index": 250,
+      "index": 116,
       "line": "100 g 14,90 Kč"
     },
     {
+      "index": 117,
+      "line": "Trubičky CaféTime"
+    },
+    {
+      "index": 118,
+      "line": "### Trubičky CaféTime"
+    },
+    {
+      "index": 119,
+      "line": "280 g"
+    },
+    {
+      "index": 120,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 121,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 122,
+      "line": "bez PENNY karty"
+    },
+    {
+      "index": 123,
+      "line": "39,90 Kč"
+    },
+    {
+      "index": 124,
+      "line": "100 g 14,25 Kč"
+    },
+    {
+      "index": 125,
+      "line": "s PENNY kartou"
+    },
+    {
+      "index": 126,
+      "line": "26,90 Kč"
+    },
+    {
+      "index": 127,
+      "line": "100 g 9,61 Kč"
+    },
+    {
+      "index": 128,
+      "line": "Vejce podestýlková M"
+    },
+    {
+      "index": 129,
+      "line": "SUPER NABÍDKA"
+    },
+    {
+      "index": 130,
+      "line": "### Vejce podestýlková M"
+    },
+    {
+      "index": 131,
+      "line": "30 ks"
+    },
+    {
+      "index": 132,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 133,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 134,
+      "line": "129,90 Kč"
+    },
+    {
+      "index": 135,
+      "line": "1 ks 4,33 Kč"
+    },
+    {
+      "index": 136,
+      "line": "Moravská švestka 38%"
+    },
+    {
+      "index": 137,
+      "line": "### Moravská švestka 38%"
+    },
+    {
+      "index": 138,
+      "line": "0,5 l"
+    },
+    {
+      "index": 139,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 140,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 141,
+      "line": "129,90 Kč 219,90 Kč"
+    },
+    {
+      "index": 142,
+      "line": "1 l 259,80 Kč"
+    },
+    {
+      "index": 143,
+      "line": "Moravská hruška 38%"
+    },
+    {
+      "index": 144,
+      "line": "### Moravská hruška 38%"
+    },
+    {
+      "index": 145,
+      "line": "0,5 l"
+    },
+    {
+      "index": 146,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 147,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 148,
+      "line": "129,90 Kč 219,90 Kč"
+    },
+    {
+      "index": 149,
+      "line": "1 l 259,80 Kč"
+    },
+    {
+      "index": 150,
+      "line": "Gel na praní Pallor"
+    },
+    {
+      "index": 151,
+      "line": "### Gel na praní Pallor"
+    },
+    {
+      "index": 152,
+      "line": "3 l"
+    },
+    {
+      "index": 153,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 154,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 155,
+      "line": "bez PENNY karty"
+    },
+    {
+      "index": 156,
+      "line": "124,90 Kč"
+    },
+    {
+      "index": 157,
+      "line": "1 l 41,63 Kč"
+    },
+    {
+      "index": 158,
+      "line": "s PENNY kartou"
+    },
+    {
+      "index": 159,
+      "line": "89,90 Kč"
+    },
+    {
+      "index": 160,
+      "line": "1 l 29,97 Kč"
+    },
+    {
+      "index": 161,
+      "line": "Salám Vysočina krájená Řezníkův talíř"
+    },
+    {
+      "index": 162,
+      "line": "### Salám Vysočina krájená Řezníkův talíř"
+    },
+    {
+      "index": 163,
+      "line": "100 g"
+    },
+    {
+      "index": 164,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 165,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 166,
+      "line": "15,90 Kč 24,90 Kč"
+    },
+    {
+      "index": 167,
+      "line": "100 g 15,90 Kč"
+    },
+    {
+      "index": 168,
+      "line": "Ubrousky absorbující barvy Pallor"
+    },
+    {
+      "index": 169,
+      "line": "### Ubrousky absorbující barvy Pallor"
+    },
+    {
+      "index": 170,
+      "line": "24 ks"
+    },
+    {
+      "index": 171,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 172,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 173,
+      "line": "bez PENNY karty"
+    },
+    {
+      "index": 174,
+      "line": "41,90 Kč"
+    },
+    {
+      "index": 175,
+      "line": "1 ks 1,75 Kč"
+    },
+    {
+      "index": 176,
+      "line": "s PENNY kartou"
+    },
+    {
+      "index": 177,
+      "line": "26,90 Kč"
+    },
+    {
+      "index": 178,
+      "line": "1 ks 1,12 Kč"
+    },
+    {
+      "index": 179,
+      "line": "Prostředek na mytí povrchů Sidolux"
+    },
+    {
+      "index": 180,
+      "line": "### Prostředek na mytí povrchů Sidolux"
+    },
+    {
+      "index": 181,
+      "line": "1 l"
+    },
+    {
+      "index": 182,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 183,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 184,
+      "line": "bez PENNY karty"
+    },
+    {
+      "index": 185,
+      "line": "59,90 Kč"
+    },
+    {
+      "index": 186,
+      "line": "1 l 59,90 Kč"
+    },
+    {
+      "index": 187,
+      "line": "s PENNY kartou"
+    },
+    {
+      "index": 188,
+      "line": "34,90 Kč"
+    },
+    {
+      "index": 189,
+      "line": "1 l 34,90 Kč"
+    },
+    {
+      "index": 190,
+      "line": "Máslo 82% Boni"
+    },
+    {
+      "index": 191,
+      "line": "### Máslo 82% Boni"
+    },
+    {
+      "index": 192,
+      "line": "250 g"
+    },
+    {
+      "index": 193,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 194,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 195,
+      "line": "22,90 Kč 44,90 Kč"
+    },
+    {
+      "index": 196,
+      "line": "100 g 9,16 Kč"
+    },
+    {
+      "index": 197,
+      "line": "Hambáče Enjoy"
+    },
+    {
+      "index": 198,
+      "line": "### Hambáče Enjoy"
+    },
+    {
+      "index": 199,
+      "line": "80 g"
+    },
+    {
+      "index": 200,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 201,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 202,
+      "line": "bez PENNY karty"
+    },
+    {
+      "index": 203,
+      "line": "14,90 Kč"
+    },
+    {
+      "index": 204,
+      "line": "100 g 18,63 Kč"
+    },
+    {
+      "index": 205,
+      "line": "s PENNY kartou"
+    },
+    {
+      "index": 206,
+      "line": "10,90 Kč"
+    },
+    {
+      "index": 207,
+      "line": "100 g 13,63 Kč"
+    },
+    {
+      "index": 208,
+      "line": "Kyselí červi Enjoy"
+    },
+    {
+      "index": 209,
+      "line": "### Kyselí červi Enjoy"
+    },
+    {
+      "index": 210,
+      "line": "80 g"
+    },
+    {
+      "index": 211,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 212,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 213,
+      "line": "bez PENNY karty"
+    },
+    {
+      "index": 214,
+      "line": "14,90 Kč"
+    },
+    {
+      "index": 215,
+      "line": "100 g 18,63 Kč"
+    },
+    {
+      "index": 216,
+      "line": "s PENNY kartou"
+    },
+    {
+      "index": 217,
+      "line": "10,90 Kč"
+    },
+    {
+      "index": 218,
+      "line": "100 g 13,63 Kč"
+    },
+    {
+      "index": 219,
+      "line": "Sovičky Enjoy"
+    },
+    {
+      "index": 220,
+      "line": "### Sovičky Enjoy"
+    },
+    {
+      "index": 221,
+      "line": "80 g"
+    },
+    {
+      "index": 222,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 223,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 224,
+      "line": "bez PENNY karty"
+    },
+    {
+      "index": 225,
+      "line": "14,90 Kč"
+    },
+    {
+      "index": 226,
+      "line": "100 g 18,63 Kč"
+    },
+    {
+      "index": 227,
+      "line": "s PENNY kartou"
+    },
+    {
+      "index": 228,
+      "line": "10,90 Kč"
+    },
+    {
+      "index": 229,
+      "line": "100 g 13,63 Kč"
+    },
+    {
+      "index": 230,
+      "line": "Polévka instantní nudlová YumYum"
+    },
+    {
+      "index": 231,
+      "line": "### Polévka instantní nudlová YumYum"
+    },
+    {
+      "index": 232,
+      "line": "60 g"
+    },
+    {
+      "index": 233,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 234,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 235,
+      "line": "9,90 Kč 18,90 Kč"
+    },
+    {
+      "index": 236,
+      "line": "1 kg 165,00 Kč"
+    },
+    {
+      "index": 237,
+      "line": "Tuňákový salát Mexico Giana"
+    },
+    {
+      "index": 238,
+      "line": "### Tuňákový salát Mexico Giana"
+    },
+    {
+      "index": 239,
+      "line": "185 g"
+    },
+    {
+      "index": 240,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 241,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 242,
+      "line": "29,90 Kč 67,90 Kč"
+    },
+    {
+      "index": 243,
+      "line": "1 kg 161,62 Kč"
+    },
+    {
+      "index": 244,
+      "line": "Radegast Ryze hořká 12 sklo"
+    },
+    {
+      "index": 245,
+      "line": "### Radegast Ryze hořká 12 sklo"
+    },
+    {
+      "index": 246,
+      "line": "0,5 l"
+    },
+    {
+      "index": 247,
+      "line": "od st 13.05.2026"
+    },
+    {
+      "index": 248,
+      "line": "do st 20.05.2026"
+    },
+    {
+      "index": 249,
+      "line": "19,90 Kč 25,90 Kč"
+    },
+    {
+      "index": 250,
+      "line": "1 l 39,80 Kč"
+    },
+    {
       "index": 251,
-      "line": "Chcete nás poznat?"
+      "line": "Korunní"
     },
     {
       "index": 252,
-      "line": "Penny Market s.r.o."
+      "line": "### Korunní"
     },
     {
       "index": 253,
-      "line": "Otevírací doba: PO-NE 7:00 - 20:00"
+      "line": "1,5 l"
     },
     {
       "index": 254,
-      "line": "O společnosti Penny Market s.r.o."
+      "line": "od st 13.05.2026"
     },
     {
       "index": 255,
-      "line": "Pro média"
+      "line": "do st 20.05.2026"
     },
     {
       "index": 256,
-      "line": "Kariéra"
+      "line": "12,90 Kč 19,90 Kč"
     },
     {
       "index": 257,
-      "line": "Naše služby"
+      "line": "1 l 8,60 Kč"
     },
     {
       "index": 258,
-      "line": "Máte nějakou otázku?"
+      "line": "YO sirup"
     },
     {
       "index": 259,
-      "line": "Kontaktujte nás!"
+      "line": "### YO sirup"
     },
     {
       "index": 260,
-      "line": "800 202 220"
+      "line": "0,7 l"
     },
     {
       "index": 261,
-      "line": "Od pondělí do neděle"
+      "line": "od st 13.05.2026"
     },
     {
       "index": 262,
-      "line": "od 8:00 do 20:00"
+      "line": "do st 20.05.2026"
     },
     {
       "index": 263,
-      "line": "Napište nám na info@penny.cz"
+      "line": "49,90 Kč 89,90 Kč"
     },
     {
       "index": 264,
-      "line": "Nejčastěji kladené otázky"
+      "line": "1 l 71,29 Kč"
     },
     {
       "index": 265,
-      "line": "PENNY dbá o přírodu!"
+      "line": "Káva mletá Marila Standard"
     },
     {
       "index": 266,
-      "line": "Kvalita a udržitelnost"
+      "line": "### Káva mletá Marila Standard"
     },
     {
       "index": 267,
-      "line": "Společenská odpovědnost"
+      "line": "1 kg"
     },
     {
       "index": 268,
-      "line": "Zpráva o udržitelnosti PENNY 2023"
+      "line": "od st 13.05.2026"
     },
     {
       "index": 269,
-      "line": "Neplýtváme s PENNY"
+      "line": "do st 20.05.2026"
     },
     {
       "index": 270,
-      "line": "PENNY rádio"
+      "line": "199,90 Kč 329,90 Kč"
     },
     {
       "index": 271,
-      "line": "Pro dodavatele"
+      "line": "100 g 19,99 Kč"
     },
     {
       "index": 272,
-      "line": "Prohlášení o přístupnosti společnosti Penny Market s.r.o."
+      "line": "Slanina anglická shaved Řezníkův Talíř"
     },
     {
       "index": 273,
-      "line": "Náležitá péče v dodavatelském řetězci (LkSG)"
+      "line": "### Slanina anglická shaved Řezníkův Talíř"
     },
     {
       "index": 274,
-      "line": "Sledujte PENNY!"
+      "line": "100 g"
     },
     {
       "index": 275,
-      "line": "Najdete nás např."
+      "line": "od st 13.05.2026"
     },
     {
       "index": 276,
-      "line": "Impressum, compliance a whistleblowing"
+      "line": "do st 20.05.2026"
     },
     {
       "index": 277,
-      "line": "Zásady ochrany osobních údajů"
+      "line": "17,90 Kč 29,90 Kč"
     },
     {
       "index": 278,
-      "line": "Informační a reklamační řád"
+      "line": "100 g 17,90 Kč"
     },
     {
       "index": 279,
-      "line": "Provozní řád"
+      "line": "Chcete nás poznat?"
     },
     {
       "index": 280,
-      "line": "ochranadat.penny.cz"
+      "line": "Penny Market s.r.o."
     },
     {
       "index": 281,
-      "line": "Impressum, compliance a whistleblowing"
+      "line": "Otevírací doba: PO-NE 7:00 - 20:00"
     },
     {
       "index": 282,
-      "line": "Zásady ochrany osobních údajů"
+      "line": "O společnosti Penny Market s.r.o."
     },
     {
       "index": 283,
-      "line": "Informační a reklamační řád"
+      "line": "Pro média"
     },
     {
       "index": 284,
-      "line": "Provozní řád"
+      "line": "Kariéra"
     },
     {
       "index": 285,
+      "line": "Naše služby"
+    },
+    {
+      "index": 286,
+      "line": "Máte nějakou otázku?"
+    },
+    {
+      "index": 287,
+      "line": "Kontaktujte nás!"
+    },
+    {
+      "index": 288,
+      "line": "800 202 220"
+    },
+    {
+      "index": 289,
+      "line": "Od pondělí do neděle"
+    },
+    {
+      "index": 290,
+      "line": "od 8:00 do 20:00"
+    },
+    {
+      "index": 291,
+      "line": "Napište nám na info@penny.cz"
+    },
+    {
+      "index": 292,
+      "line": "Nejčastěji kladené otázky"
+    },
+    {
+      "index": 293,
+      "line": "PENNY dbá o přírodu!"
+    },
+    {
+      "index": 294,
+      "line": "Kvalita a udržitelnost"
+    },
+    {
+      "index": 295,
+      "line": "Společenská odpovědnost"
+    },
+    {
+      "index": 296,
+      "line": "Zpráva o udržitelnosti PENNY 2023"
+    },
+    {
+      "index": 297,
+      "line": "Neplýtváme s PENNY"
+    },
+    {
+      "index": 298,
+      "line": "PENNY rádio"
+    },
+    {
+      "index": 299,
+      "line": "Pro dodavatele"
+    },
+    {
+      "index": 300,
+      "line": "Prohlášení o přístupnosti společnosti Penny Market s.r.o."
+    },
+    {
+      "index": 301,
+      "line": "Náležitá péče v dodavatelském řetězci (LkSG)"
+    },
+    {
+      "index": 302,
+      "line": "Sledujte PENNY!"
+    },
+    {
+      "index": 303,
+      "line": "Najdete nás např."
+    },
+    {
+      "index": 304,
+      "line": "Impressum, compliance a whistleblowing"
+    },
+    {
+      "index": 305,
+      "line": "Zásady ochrany osobních údajů"
+    },
+    {
+      "index": 306,
+      "line": "Informační a reklamační řád"
+    },
+    {
+      "index": 307,
+      "line": "Provozní řád"
+    },
+    {
+      "index": 308,
+      "line": "ochranadat.penny.cz"
+    },
+    {
+      "index": 309,
+      "line": "Impressum, compliance a whistleblowing"
+    },
+    {
+      "index": 310,
+      "line": "Zásady ochrany osobních údajů"
+    },
+    {
+      "index": 311,
+      "line": "Informační a reklamační řád"
+    },
+    {
+      "index": 312,
+      "line": "Provozní řád"
+    },
+    {
+      "index": 313,
       "line": "ochranadat.penny.cz"
     }
   ]

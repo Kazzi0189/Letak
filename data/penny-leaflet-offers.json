@@ -1,11 +1,11 @@
 {
   "meta": {
     "source": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
-    "updatedAt": "2026-05-13T20:42:16.415Z",
+    "updatedAt": "2026-05-13T20:47:50.807Z",
     "count": 353,
     "parser": "scripts/import-penny-leaflet-html.mjs",
-    "parserVersion": "0.8",
-    "note": "V8: bezpečnější práce s podezřelými cenami. Parser zkouší opravit typickou chybu desetinné čárky u jednotkových cen, například 100 ml 19,80 Kč -> 1,98 Kč. Pokud není jistá oprava, cenu automaticky nepřepisuje na vzdálenou položku z cenového bloku."
+    "parserVersion": "0.9",
+    "note": "V9: oprava přenosu metadat u dopočtů s upravenou jednotkovou cenou a jemné dorovnání na cenu z letákového cenového bloku, pokud se výpočet liší jen do 15 haléřů."
   },
   "offers": [
     {
@@ -789,14 +789,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-6aa5896e9d853875",
+      "id": "penny-leaflet-23ed48713a4ada01",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KEFÍROVÉ MLÉKO KARLOVA KORUNA",
       "brand": "",
       "packageSize": "500 ml",
-      "price": 10,
+      "price": 9.9,
       "unitPrice": 19.8,
       "unit": "Kč/100 ml",
       "validFrom": "od st 13.05.2026",
@@ -849,14 +849,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-5d54fac5f121f09a",
+      "id": "penny-leaflet-1d984db3859cfa39",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "MLÉKO ACIDOFILNÍ KARLOVA KORUNA",
       "brand": "",
       "packageSize": "950 g",
-      "price": 27.93,
+      "price": 27.9,
       "unitPrice": 2.94,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -5889,14 +5889,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-ac91e1a1dcc5c7c0",
+      "id": "penny-leaflet-dd2445fbc30f7ba9",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KAPSLE DO MYČKY PLATINUM JAR",
       "brand": "",
       "packageSize": "60 ks",
-      "price": 300,
+      "price": 299.9,
       "unitPrice": 5,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -6049,14 +6049,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-6bd94f487464e3da",
+      "id": "penny-leaflet-c75735b18838dd6e",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KUCHYŇSKÉ UTĚRKY WIPPY 2vrstvé 2 role",
       "brand": "",
       "packageSize": "22 m",
-      "price": 19.8,
+      "price": 19.9,
       "unitPrice": 0.9,
       "unit": "Kč/1 m",
       "validFrom": "od st 13.05.2026",
@@ -6089,14 +6089,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-e9422013696e0cd8",
+      "id": "penny-leaflet-203fb5c7796d932f",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PAPÍROVÉ KAPESNÍČKY WIPPY 4vrstvé",
       "brand": "",
       "packageSize": "10x 10 ks",
-      "price": 23,
+      "price": 22.9,
       "unitPrice": 0.23,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -6109,14 +6109,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-3945aae90f021dea",
+      "id": "penny-leaflet-62cd42d2a6eeb241",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PLENY MIDI 3 BABY WELL",
       "brand": "",
       "packageSize": "46 ks",
-      "price": 139.84,
+      "price": 139.9,
       "unitPrice": 3.04,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -6169,14 +6169,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-ce2071667fe2f1cb",
+      "id": "penny-leaflet-0311dd4052d06f6c",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TAMPONY KOTEX",
       "brand": "",
       "packageSize": "16 ks",
-      "price": 39.84,
+      "price": 39.9,
       "unitPrice": 2.49,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -6209,14 +6209,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-421734d4dcc2c469",
+      "id": "penny-leaflet-9dcb14b7347176a9",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "VÍCEÚČELOVÉ VLHČENÉ UBROUSKY PENNY",
       "brand": "",
       "packageSize": "80 ks",
-      "price": 24.8,
+      "price": 24.9,
       "unitPrice": 0.31,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -6229,14 +6229,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-cc8819538f4eba7c",
+      "id": "penny-leaflet-dbf028cc2870bad6",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "VLOŽKY ULTRA WINGS CARIN",
       "brand": "",
       "packageSize": "8/9 ks",
-      "price": 14.94,
+      "price": 14.9,
       "unitPrice": 1.66,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -6709,14 +6709,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-80969a48a852b774",
+      "id": "penny-leaflet-5069ae9bc9fc8ff2",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TOALETNÍ PAPÍR HEŘMÁNEK WIPPY 3vrstvý | 4 role",
       "brand": "",
       "packageSize": "78,84 m",
-      "price": 22.86,
+      "price": 22.9,
       "unitPrice": 0.29,
       "unit": "Kč/1 m",
       "validFrom": "od st 13.05.2026",

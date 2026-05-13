@@ -8,12 +8,12 @@ const STORE_CATALOG = [
     status: 'napojeno přes import Penny'
   },
   {
-    id: 'kaufland-demo',
+    id: 'kaufland-teplice-centrum',
     chain: 'Kaufland',
-    name: 'Kaufland – demo pobočka',
-    address: 'bude napojeno podle konkrétní prodejny',
+    name: 'Kaufland Teplice-Centrum',
+    address: 'Čs. Dobrovolců 3356, 415 01 Teplice',
     type: 'hypermarket',
-    status: 'čeká na import konkrétní prodejny'
+    status: 'napojeno přes import Kaufland Teplice'
   },
   {
     id: 'albert-hyper-demo',
@@ -33,9 +33,24 @@ const STORE_CATALOG = [
   }
 ];
 
+function getInitialSelectedStoreIds() {
+  const savedRaw = localStorage.getItem('selectedStoreIds');
+  const saved = JSON.parse(savedRaw || '["penny-default","kaufland-teplice-centrum"]');
+
+  const migrated = saved
+    .map((id) => (id === 'kaufland-demo' ? 'kaufland-teplice-centrum' : id))
+    .filter((id, index, array) => array.indexOf(id) === index);
+
+  if (!migrated.includes('kaufland-teplice-centrum')) {
+    migrated.push('kaufland-teplice-centrum');
+  }
+
+  return migrated;
+}
+
 const state = {
   postcode: localStorage.getItem('postcode') || '',
-  selectedStoreIds: JSON.parse(localStorage.getItem('selectedStoreIds') || '["penny-default"]'),
+  selectedStoreIds: getInitialSelectedStoreIds(),
   query: '',
   offers: [],
   cart: JSON.parse(localStorage.getItem('cart') || '[]'),
@@ -228,7 +243,7 @@ function render() {
       <header class="hero">
         <div class="badge">🛒 PWA prototyp</div>
         <h1>Letáky podle tvých prodejen</h1>
-        <p>Vyber prodejny, hledej akční produkty a skládej si košíky podle obchodů. První reálný import je připravený pro Penny.</p>
+        <p>Vyber prodejny, hledej akční produkty a skládej si košíky podle obchodů. Reálné importy jsou připravené pro Penny a Kaufland Teplice.</p>
         <div class="status">${state.dataStatus} · aktualizováno: ${updatedAt}</div>
       </header>
 
@@ -236,7 +251,7 @@ function render() {
         <div class="location-row">
           <div>
             <h2>1. Moje lokalita a prodejny</h2>
-            <p>Kaufland a Albert budeme později tahat podle konkrétní prodejny. Penny je první napojený zdroj.</p>
+            <p>Kaufland Teplice je napojený podle konkrétní pobočky. Albert zatím čeká na další import.</p>
           </div>
           <div>
             <label class="small" for="postcode">PSČ nebo město</label>

@@ -1,0 +1,304 @@
+{
+  "checkedAt": "2026-05-13T09:02:47.451Z",
+  "store": {
+    "chain": "Kaufland",
+    "storeNameHuman": "Kaufland Teplice-Centrum",
+    "address": "Čs. Dobrovolců 3356, 415 01 Teplice",
+    "officialStorePage": "https://prodejny.kaufland.cz/aktualne/servis/prodejna/teplice-centrum-2450.html",
+    "genericLeafletPage": "https://prodejny.kaufland.cz/letak.html",
+    "storeNameCandidates": [
+      "cz5810",
+      "teplice-centrum-2450",
+      "2450",
+      "teplice-centrum"
+    ]
+  },
+  "derivedStoreNameCandidates": [
+    "cz5810",
+    "teplice-centrum-2450",
+    "2450",
+    "teplice-centrum",
+    "CZ2450"
+  ],
+  "officialStorePageOk": true,
+  "genericLeafletPageOk": true,
+  "leafletLinksFromStorePage": [
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Akční leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Akční leták"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+      "text": "Leták, platnost od 13.05.2026 do 19.05.2026 Prohlédnout leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Leták"
+    }
+  ],
+  "leafletLinksFromGenericPage": [
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Prodejna:"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Vyhledat trasu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit prodejnu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Více informací o prodejně"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Přihlásit se"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Jste zde nový? Zaregistrujte se!"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Profil"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Odhlásit se"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit nebo upravit nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Menu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit nebo upravit nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#navigation-marketplace",
+      "text": "Online marketplace"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#navigation-market",
+      "text": "Nabídka prodejny"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Akční leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Akční leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Akční leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Sdílet"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Sdílet"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Sdílet"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Sdílet"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit prodejnu"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_3300_CZ20-LFT/ar/3300",
+      "text": "Akční nabídka 13.05.2026 – 19.05.2026 Kaufland Prolistovat leták"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_Hyper1_3300_CZ20-CL1/ar/3300",
+      "text": "Spotřební zboží 13.05.2026 – 19.05.2026 Kaufland Prolistovat leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit prodejnu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit prodejnu"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_Wrapper1_3300_CZ19-CL3/ar/3300",
+      "text": "Vyvážený nákup 06.05.2026 – 02.06.2026 Kaufland Prolistovat"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_Wrapper2_3300_CZ12-CL4/ar/3300",
+      "text": "K-Jarmark 18.03.2026 – 18.05.2026 Kaufland Prolistovat"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_Magazine1_3300_CZ08-CL5/ar/3300",
+      "text": "K-Classic 18.02.2026 – 18.05.2026 Kaufland Prolistovat"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_Magazine2_3300_CZ09-CL6/ar/3300",
+      "text": "K-Mistři od fochu 23.02.2026 – 18.05.2026 Kaufland Prolistovat"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit prodejnu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/servis/newsletter.html?intcid=Content_Banner_None_Service%3Aodkazvstrletak-newsletter",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/kauflandcard.html?intcid=Content_Banner_None_Service%3Aodkazvstrletak-kauflandcard",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/servis/whatsapp.html?intcid=Content_Banner_None_Service%3Aodkazvstrletak-whatsapp",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#seo-footer-1",
+      "text": "Kaufland.cz"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#seo-footer-2",
+      "text": "Servis"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#seo-footer-3",
+      "text": "O nás"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#seo-footer-4",
+      "text": "Sortiment"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#top",
+      "text": ""
+    }
+  ],
+  "endpointTestsCount": 18,
+  "usefulEndpointsCount": 8,
+  "usefulEndpoints": [
+    {
+      "storeName": "cz5810",
+      "url": "https://prodejny.kaufland.cz/.kloffers.storeName=cz5810.json",
+      "status": 200,
+      "contentType": "application/json",
+      "length": 45937,
+      "usefulJson": false
+    },
+    {
+      "storeName": "cz5810",
+      "url": "https://prodejny.kaufland.cz/.klxtraproducts.json",
+      "status": 401,
+      "contentType": "application/json;charset=utf-8",
+      "length": 79,
+      "usefulJson": true
+    },
+    {
+      "storeName": "cz5810",
+      "url": "https://prodejny.kaufland.cz/.klxtraproductscategory.json",
+      "status": 401,
+      "contentType": "application/json;charset=utf-8",
+      "length": 79,
+      "usefulJson": true
+    },
+    {
+      "storeName": "cz5810",
+      "url": "https://prodejny.kaufland.cz/.klxtraproductslegacy.json",
+      "status": 401,
+      "contentType": "application/json;charset=utf-8",
+      "length": 79,
+      "usefulJson": true
+    },
+    {
+      "storeName": "teplice-centrum-2450",
+      "url": "https://prodejny.kaufland.cz/.kloffers.storeName=teplice-centrum-2450.json",
+      "status": 200,
+      "contentType": "application/json",
+      "length": 45937,
+      "usefulJson": false
+    },
+    {
+      "storeName": "2450",
+      "url": "https://prodejny.kaufland.cz/.kloffers.storeName=2450.json",
+      "status": 200,
+      "contentType": "application/json",
+      "length": 45937,
+      "usefulJson": false
+    },
+    {
+      "storeName": "teplice-centrum",
+      "url": "https://prodejny.kaufland.cz/.kloffers.storeName=teplice-centrum.json",
+      "status": 200,
+      "contentType": "application/json",
+      "length": 45937,
+      "usefulJson": false
+    },
+    {
+      "storeName": "CZ2450",
+      "url": "https://prodejny.kaufland.cz/.kloffers.storeName=CZ2450.json",
+      "status": 200,
+      "contentType": "application/json",
+      "length": 45937,
+      "usefulJson": false
+    }
+  ],
+  "recommendation": {
+    "nextStep": "Prověřit usefulEndpoints a zkusit z nich postavit první Kaufland import pro tuto pobočku."
+  }
+}

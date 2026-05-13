@@ -85,7 +85,7 @@ async function fetchText(url) {
   const response = await fetch(url, {
     redirect: "follow",
     headers: {
-      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacKauflandHtmlImport/0.2; +https://github.com/)",
+      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacKauflandHtmlImport/0.3; +https://github.com/)",
       accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
       "accept-language": "cs-CZ,cs;q=0.9,en;q=0.8",
     },
@@ -110,7 +110,7 @@ async function fetchJson(url) {
   const response = await fetch(url, {
     redirect: "follow",
     headers: {
-      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacKauflandHtmlImport/0.2; +https://github.com/)",
+      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacKauflandHtmlImport/0.3; +https://github.com/)",
       accept: "application/json,*/*",
       "accept-language": "cs-CZ,cs;q=0.9,en;q=0.8",
     },
@@ -136,10 +136,7 @@ function extractCategoryLinks(html, baseUrl) {
     try {
       const parsed = new URL(url);
       parsed.searchParams.set("kloffer-week", parsed.searchParams.get("kloffer-week") || "current");
-
-      // Nechceme tisíce detailních odkazů do kategorií. Detailní položky si parser najde uvnitř HTML.
       parsed.searchParams.delete("kloffer-articleID");
-
       links.push(parsed.toString());
     } catch {
       links.push(url);
@@ -176,28 +173,23 @@ function extractFirst(fragment, regex) {
   return match ? cleanText(match[1]) : "";
 }
 
-function findTileAroundArticleId(html, articleIndex) {
-  const candidates = [
-    html.lastIndexOf('<a ', articleIndex),
-    html.lastIndexOf('<div class="o-slider__item"', articleIndex),
-    html.lastIndexOf('<li ', articleIndex),
-    html.lastIndexOf('<article ', articleIndex),
-    html.lastIndexOf('<div ', articleIndex),
-  ].filter((index) => index >= 0);
+function findAnchorStart(html, index) {
+  const start = html.lastIndexOf("<a ", index);
+  if (start < 0) return -1;
 
-  const start = candidates.length ? Math.min(...candidates) : Math.max(0, articleIndex - 2500);
+  // Bezpečnost: produktová dlaždice nemá být obrovský blok.
+  if (index - start > 3000) return -1;
 
-  const closeA = html.indexOf("</a>", articleIndex);
-  const closeLi = html.indexOf("</li>", articleIndex);
-  const closeArticle = html.indexOf("</article>", articleIndex);
+  return start;
+}
 
-  const possibleEnds = [closeA, closeLi, closeArticle]
-    .filter((index) => index >= 0)
-    .map((index) => index + 12);
+function findAnchorEnd(html, start) {
+  const end = html.indexOf("</a>", start);
+  if (end < 0) return -1;
 
-  const end = possibleEnds.length ? Math.min(...possibleEnds) : Math.min(html.length, articleIndex + 5000);
+  if (end - start > 10000) return -1;
 
-  return html.slice(start, end);
+  return end + "</a>".length;
 }
 
 function parseProductTiles(html, pageUrl, validByKlNr, pageCategory = "") {
@@ -207,7 +199,17 @@ function parseProductTiles(html, pageUrl, validByKlNr, pageCategory = "") {
   let match;
   while ((match = articleRegex.exec(html))) {
     const klNr = match[1];
-    const tile = findTileAroundArticleId(html, match.index);
+
+    const start = findAnchorStart(html, match.index);
+    if (start < 0) continue;
+
+    const end = findAnchorEnd(html, start);
+    if (end < 0) continue;
+
+    const tile = html.slice(start, end);
+
+    // Důležité: vyříznutá dlaždice musí obsahovat právě tento articleID, jinak ji přeskočíme.
+    if (!tile.includes(`kloffer-articleID=${klNr}`)) continue;
 
     const hrefMatch = tile.match(/href\s*=\s*["']([^"']*kloffer-articleID=[^"']*)["']/i);
     const href = hrefMatch ? absoluteUrl(hrefMatch[1], pageUrl).replace(/&amp;/g, "&") : pageUrl;
@@ -260,6 +262,29 @@ function parseProductTiles(html, pageUrl, validByKlNr, pageCategory = "") {
   }
 
   return uniqueBy(offers, (offer) => offer.klNr);
+}
+
+function pageDiagnostics(html) {
+  const articleMatches = Array.from(html.matchAll(/kloffer-articleID=([0-9]+)/gi)).map((m) => m[1]);
+  const tileClassCount = (html.match(/k-product-tile/gi) || []).length;
+  const priceTagCount = (html.match(/k-price-tag__price/gi) || []).length;
+  const imgAltCount = (html.match(/<img\b[^>]*alt=/gi) || []).length;
+
+  const firstArticleIndex = html.search(/kloffer-articleID=[0-9]+/i);
+  const firstArticleContext =
+    firstArticleIndex >= 0
+      ? html.slice(Math.max(0, firstArticleIndex - 700), Math.min(html.length, firstArticleIndex + 1500))
+      : "";
+
+  return {
+    articleIdOccurrencesCount: articleMatches.length,
+    uniqueArticleIdOccurrencesCount: new Set(articleMatches).size,
+    firstArticleIds: Array.from(new Set(articleMatches)).slice(0, 20),
+    tileClassCount,
+    priceTagCount,
+    imgAltCount,
+    firstArticleContext: firstArticleContext.slice(0, 2500),
+  };
 }
 
 async function main() {
@@ -322,6 +347,7 @@ async function main() {
     return {
       ...page,
       offers,
+      diagnostics: page.text ? pageDiagnostics(page.text) : null,
     };
   });
 
@@ -360,6 +386,7 @@ async function main() {
       length: page.length ?? 0,
       error: page.error ?? null,
       parsedOffersCount: page.offers.length,
+      diagnostics: page.diagnostics,
       sampleProducts: page.offers.slice(0, 8).map((offer) => ({
         klNr: offer.klNr,
         product: offer.product,
@@ -372,9 +399,9 @@ async function main() {
     missingFromHtml,
     missingFromHtmlCount: rawIndex.length - matchedKlNrs.size,
     notes: [
-      "Parser v2 hledá kloffer-articleID kdekoliv v HTML a není závislý na pořadí atributů class/href.",
-      "Endpoint .kloffers obsahuje jen klNr a platnost, proto ho používáme jako index platnosti.",
-      "Pokud count nebude blízko rawIndexCount, další krok je zjistit, zda Kaufland stránkuje/lazy-loaduje další produkty přes JS asset.",
+      "Parser v3 vyřezává pouze nejbližší <a> kolem konkrétního kloffer-articleID, aby se nemíchal první produkt do dalších položek.",
+      "Diagnostika kategorií ukazuje, jestli kategorie obsahují articleID, produktové dlaždice a cenové tagy.",
+      "Pokud kategorie stále mají parsedOffersCount 0, další krok je analyzovat firstArticleContext a případné JS datové zdroje.",
     ],
   };
 

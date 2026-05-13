@@ -1,11 +1,11 @@
 {
   "meta": {
     "source": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
-    "updatedAt": "2026-05-13T20:01:19.338Z",
+    "updatedAt": "2026-05-13T20:42:16.415Z",
     "count": 353,
     "parser": "scripts/import-penny-leaflet-html.mjs",
-    "parserVersion": "0.7",
-    "note": "V7: bezpečnostní vrstva pro podezřelé dopočtené ceny. Pokud vypočtená cena výrazně nesedí na žádnou cenu z horního cenového bloku, položka se označí jako suspect a sníží se confidence."
+    "parserVersion": "0.8",
+    "note": "V8: bezpečnější práce s podezřelými cenami. Parser zkouší opravit typickou chybu desetinné čárky u jednotkových cen, například 100 ml 19,80 Kč -> 1,98 Kč. Pokud není jistá oprava, cenu automaticky nepřepisuje na vzdálenou položku z cenového bloku."
   },
   "offers": [
     {
@@ -789,14 +789,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-72233fa0b2bf3b98",
+      "id": "penny-leaflet-6aa5896e9d853875",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KEFÍROVÉ MLÉKO KARLOVA KORUNA",
       "brand": "",
       "packageSize": "500 ml",
-      "price": 44.9,
+      "price": 10,
       "unitPrice": 19.8,
       "unit": "Kč/100 ml",
       "validFrom": "od st 13.05.2026",
@@ -804,13 +804,9 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/5/index.html",
       "pageNumber": 5,
-      "confidence": "medium",
-      "suspect": true,
-      "suspectReasons": [
-        "liquid-price-far-from-leaflet-price",
-        "computed-price-far-from-nearest-lead-price",
-        "small-package-high-price"
-      ]
+      "confidence": "high",
+      "suspect": false,
+      "suspectReasons": []
     },
     {
       "id": "penny-leaflet-03c62c110d2720d0",
@@ -3573,14 +3569,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-025b387c18dd81a0",
+      "id": "penny-leaflet-e9a0267701f656fb",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TUŇÁK STEAK MARINNA",
       "brand": "",
       "packageSize": "140/150g",
-      "price": 27.9,
+      "price": 29.9,
       "unitPrice": 287.5,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -4533,14 +4529,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-ff9f72eebd4c92b4",
+      "id": "penny-leaflet-49488cc570464d3c",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TYČINKA BIG CORNY",
       "brand": "",
       "packageSize": "40/50 g",
-      "price": 11.9,
+      "price": 14.9,
       "unitPrice": 37.25,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -6253,14 +6249,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-95ece2dac88b1514",
+      "id": "penny-leaflet-068a5901b24f021f",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ZUBNÍ PASTA ELMEX*",
       "brand": "",
       "packageSize": "2x 75 ml",
-      "price": 119.9,
+      "price": 12,
       "unitPrice": 79.93,
       "unit": "Kč/100 ml",
       "validFrom": "od st 13.05.2026",
@@ -6269,10 +6265,8 @@
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
       "confidence": "medium",
-      "suspect": true,
-      "suspectReasons": [
-        "small-package-high-price"
-      ]
+      "suspect": false,
+      "suspectReasons": []
     },
     {
       "id": "penny-leaflet-2554fe32e6da90d5",
@@ -7035,14 +7029,14 @@
       "suspectReasons": []
     },
     {
-      "id": "penny-leaflet-bb2eb5746e3b1847",
+      "id": "penny-leaflet-777d60b9e34ddc8b",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "GEL NA PRANÍ WOOLITE* colors",
       "brand": "",
       "packageSize": "3,6 l",
-      "price": 159.9,
+      "price": 199.9,
       "unitPrice": 55.53,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",

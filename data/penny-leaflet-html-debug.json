@@ -1,22 +1,23 @@
 {
   "meta": {
     "source": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
-    "updatedAt": "2026-05-13T20:01:19.338Z",
+    "updatedAt": "2026-05-13T20:42:16.415Z",
     "count": 353,
     "parser": "scripts/import-penny-leaflet-html.mjs",
-    "parserVersion": "0.7",
-    "note": "V7: bezpečnostní vrstva pro podezřelé dopočtené ceny. Pokud vypočtená cena výrazně nesedí na žádnou cenu z horního cenového bloku, položka se označí jako suspect a sníží se confidence."
+    "parserVersion": "0.8",
+    "note": "V8: bezpečnější práce s podezřelými cenami. Parser zkouší opravit typickou chybu desetinné čárky u jednotkových cen, například 100 ml 19,80 Kč -> 1,98 Kč. Pokud není jistá oprava, cenu automaticky nepřepisuje na vzdálenou položku z cenového bloku."
   },
   "summary": {
     "pagesChecked": 36,
     "pagesWithProductLine": 35,
     "parsedOffers": 353,
-    "highConfidenceOffers": 319,
-    "mediumConfidenceOffers": 25,
+    "highConfidenceOffers": 320,
+    "mediumConfidenceOffers": 24,
     "lowConfidenceOffers": 9,
-    "suspectOffers": 3,
-    "safetyCorrectedOffers": 2,
-    "computedPriceOffers": 346,
+    "suspectOffers": 1,
+    "safetyCorrectedOffers": 0,
+    "adjustedUnitPriceOffers": 0,
+    "computedPriceOffers": 348,
     "explicitPriceOffers": 0,
     "leadPriceOffers": 5
   },
@@ -82,6 +83,8 @@
             "leadPrice": 69.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -119,6 +122,8 @@
             "leadPrice": 59.9,
             "computedPrice": 34.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
             "safety": {
@@ -156,6 +161,8 @@
             "leadPrice": 79.9,
             "computedPrice": 24.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0,
             "safety": {
@@ -193,6 +200,8 @@
             "leadPrice": 129.9,
             "computedPrice": 54.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 54.9,
             "leadDiff": 0,
             "safety": {
@@ -277,6 +286,8 @@
             "leadPrice": 36.9,
             "computedPrice": 36.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 36.9,
             "leadDiff": 0,
             "safety": {
@@ -314,6 +325,8 @@
             "leadPrice": 34.9,
             "computedPrice": 34.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
             "safety": {
@@ -351,6 +364,8 @@
             "leadPrice": 12.9,
             "computedPrice": 12.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 12.9,
             "leadDiff": 0,
             "safety": {
@@ -388,6 +403,8 @@
             "leadPrice": 24.9,
             "computedPrice": 24.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0,
             "safety": {
@@ -425,6 +442,8 @@
             "leadPrice": 39.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -462,6 +481,8 @@
             "leadPrice": 23.9,
             "computedPrice": 23.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 23.9,
             "leadDiff": 0,
             "safety": {
@@ -499,6 +520,8 @@
             "leadPrice": 44.9,
             "computedPrice": 44.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 44.9,
             "leadDiff": 0,
             "safety": {
@@ -536,6 +559,8 @@
             "leadPrice": 9.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -573,6 +598,8 @@
             "leadPrice": 29.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -610,6 +637,8 @@
             "leadPrice": 22.9,
             "computedPrice": 22.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 22.9,
             "leadDiff": 0,
             "safety": {
@@ -647,6 +676,8 @@
             "leadPrice": 49.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -684,6 +715,8 @@
             "leadPrice": 2.5,
             "computedPrice": 2.5,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 2.5,
             "leadDiff": 0,
             "safety": {
@@ -721,6 +754,8 @@
             "leadPrice": 7.9,
             "computedPrice": 7.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 7.9,
             "leadDiff": 0,
             "safety": {
@@ -758,6 +793,8 @@
             "leadPrice": 149.9,
             "computedPrice": null,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 149.9,
             "leadDiff": 0,
             "safety": {
@@ -844,6 +881,8 @@
             "leadPrice": 19.9,
             "computedPrice": 23.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 23.9,
             "leadDiff": 0,
             "safety": {
@@ -881,6 +920,8 @@
             "leadPrice": 23.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -918,6 +959,8 @@
             "leadPrice": 19.9,
             "computedPrice": 18.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 18.9,
             "leadDiff": 0,
             "safety": {
@@ -955,6 +998,8 @@
             "leadPrice": 18.9,
             "computedPrice": 27.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 27.9,
             "leadDiff": 0,
             "safety": {
@@ -992,6 +1037,8 @@
             "leadPrice": 27.9,
             "computedPrice": 37.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 37.9,
             "leadDiff": 0,
             "safety": {
@@ -1029,6 +1076,8 @@
             "leadPrice": 37.9,
             "computedPrice": 16.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 16.9,
             "leadDiff": 0,
             "safety": {
@@ -1066,6 +1115,8 @@
             "leadPrice": 25.9,
             "computedPrice": 16.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 16.9,
             "leadDiff": 0,
             "safety": {
@@ -1103,6 +1154,8 @@
             "leadPrice": 24.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -1140,6 +1193,8 @@
             "leadPrice": 16.9,
             "computedPrice": 28.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 28.9,
             "leadDiff": 0,
             "safety": {
@@ -1177,6 +1232,8 @@
             "leadPrice": 16.9,
             "computedPrice": 18.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 18.9,
             "leadDiff": 0,
             "safety": {
@@ -1214,6 +1271,8 @@
             "leadPrice": 11.9,
             "computedPrice": 25.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 25.9,
             "leadDiff": 0,
             "safety": {
@@ -1251,6 +1310,8 @@
             "leadPrice": 19.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -1288,6 +1349,8 @@
             "leadPrice": 28.9,
             "computedPrice": 25.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 25.9,
             "leadDiff": 0,
             "safety": {
@@ -1325,6 +1388,8 @@
             "leadPrice": 25.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -1362,6 +1427,8 @@
             "leadPrice": 18.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -1399,6 +1466,8 @@
             "leadPrice": 23.9,
             "computedPrice": 7.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 7.9,
             "leadDiff": 0,
             "safety": {
@@ -1436,6 +1505,8 @@
             "leadPrice": 11.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -1473,6 +1544,8 @@
             "leadPrice": 14.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -1554,6 +1627,8 @@
             "leadPrice": 15.9,
             "computedPrice": 15.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 15.9,
             "leadDiff": 0,
             "safety": {
@@ -1591,6 +1666,8 @@
             "leadPrice": 12.9,
             "computedPrice": 21.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 21.9,
             "leadDiff": 0,
             "safety": {
@@ -1628,6 +1705,8 @@
             "leadPrice": 17.9,
             "computedPrice": 17.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 17.9,
             "leadDiff": 0,
             "safety": {
@@ -1665,6 +1744,8 @@
             "leadPrice": 21.9,
             "computedPrice": 22.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 22.9,
             "leadDiff": 0,
             "safety": {
@@ -1702,6 +1783,8 @@
             "leadPrice": 19.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -1739,6 +1822,8 @@
             "leadPrice": 22.9,
             "computedPrice": 44.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 44.9,
             "leadDiff": 0,
             "safety": {
@@ -1776,6 +1861,8 @@
             "leadPrice": 23.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -1813,6 +1900,8 @@
             "leadPrice": 44.9,
             "computedPrice": 23.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 23.9,
             "leadDiff": 0,
             "safety": {
@@ -1850,6 +1939,8 @@
             "leadPrice": 29.9,
             "computedPrice": 32.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 32.9,
             "leadDiff": 0,
             "safety": {
@@ -1887,6 +1978,8 @@
             "leadPrice": 32.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -1924,6 +2017,8 @@
             "leadPrice": 11.9,
             "computedPrice": 5.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 5.9,
             "leadDiff": 0,
             "safety": {
@@ -1938,14 +2033,14 @@
           }
         },
         {
-          "id": "penny-leaflet-72233fa0b2bf3b98",
+          "id": "penny-leaflet-6aa5896e9d853875",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "KEFÍROVÉ MLÉKO KARLOVA KORUNA",
           "brand": "",
           "packageSize": "500 ml",
-          "price": 44.9,
+          "price": 10,
           "unitPrice": 19.8,
           "unit": "Kč/100 ml",
           "validFrom": "od st 13.05.2026",
@@ -1953,30 +2048,23 @@
           "priceType": "leták",
           "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/5/index.html",
           "pageNumber": 5,
-          "confidence": "medium",
-          "suspect": true,
-          "suspectReasons": [
-            "liquid-price-far-from-leaflet-price",
-            "computed-price-far-from-nearest-lead-price",
-            "small-package-high-price"
-          ],
+          "confidence": "high",
+          "suspect": false,
+          "suspectReasons": [],
           "debug": {
-            "priceSource": "safety-nearest-lead",
+            "priceSource": "computed",
             "leadPrice": 5.9,
-            "computedPrice": 99,
-            "originalComputedPrice": 99,
-            "nearestLeadPrice": 44.9,
-            "leadDiff": 54.1,
+            "computedPrice": 10,
+            "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
+            "nearestLeadPrice": 9.9,
+            "leadDiff": 0.09999999999999964,
             "safety": {
-              "suspect": true,
-              "reasons": [
-                "liquid-price-far-from-leaflet-price",
-                "computed-price-far-from-nearest-lead-price",
-                "small-package-high-price"
-              ],
-              "nearestLeadPrice": 44.9,
-              "leadDiff": 54.1,
-              "correctedToNearestLeadPrice": true
+              "suspect": false,
+              "reasons": [],
+              "nearestLeadPrice": 9.9,
+              "leadDiff": 0.09999999999999964
             },
             "ignoredExplicitAfterUnitPrice": null,
             "rawProductPrefix": "MLÉKO ČERSTVÉ 3,5% KARLOVA KORUNA PET 1 l KEFÍROVÉ MLÉKO KARLOVA KORUNA nízkotučné",
@@ -2007,6 +2095,8 @@
             "leadPrice": 22.9,
             "computedPrice": 27.93,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 27.9,
             "leadDiff": 0.030000000000001137,
             "safety": {
@@ -2044,6 +2134,8 @@
             "leadPrice": 9.9,
             "computedPrice": 15.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 15.9,
             "leadDiff": 0,
             "safety": {
@@ -2081,6 +2173,8 @@
             "leadPrice": 27.9,
             "computedPrice": 10.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 10.9,
             "leadDiff": 0,
             "safety": {
@@ -2118,6 +2212,8 @@
             "leadPrice": 15.9,
             "computedPrice": 44.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 44.9,
             "leadDiff": 0,
             "safety": {
@@ -2206,6 +2302,8 @@
             "leadPrice": 12.9,
             "computedPrice": 12.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 12.9,
             "leadDiff": 0,
             "safety": {
@@ -2243,6 +2341,8 @@
             "leadPrice": 19.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -2280,6 +2380,8 @@
             "leadPrice": 12.9,
             "computedPrice": 12.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 12.9,
             "leadDiff": 0,
             "safety": {
@@ -2317,6 +2419,8 @@
             "leadPrice": 24.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -2354,6 +2458,8 @@
             "leadPrice": 34.9,
             "computedPrice": 54.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 54.9,
             "leadDiff": 0,
             "safety": {
@@ -2391,6 +2497,8 @@
             "leadPrice": 22.9,
             "computedPrice": 34.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
             "safety": {
@@ -2428,6 +2536,8 @@
             "leadPrice": 29.9,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "safety": {
@@ -2465,6 +2575,8 @@
             "leadPrice": 79.9,
             "computedPrice": 64.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 64.9,
             "leadDiff": 0,
             "safety": {
@@ -2502,6 +2614,8 @@
             "leadPrice": 54.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -2539,6 +2653,8 @@
             "leadPrice": 27.9,
             "computedPrice": 72.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 72.9,
             "leadDiff": 0,
             "safety": {
@@ -2576,6 +2692,8 @@
             "leadPrice": 29.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -2613,6 +2731,8 @@
             "leadPrice": 64.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -2650,6 +2770,8 @@
             "leadPrice": 19.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -2687,6 +2809,8 @@
             "leadPrice": 72.9,
             "computedPrice": 64.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 64.9,
             "leadDiff": 0,
             "safety": {
@@ -2724,6 +2848,8 @@
             "leadPrice": 19.9,
             "computedPrice": 69.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "safety": {
@@ -2761,6 +2887,8 @@
             "leadPrice": 69.9,
             "computedPrice": 89.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
             "safety": {
@@ -2798,6 +2926,8 @@
             "leadPrice": 39.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -2835,6 +2965,8 @@
             "leadPrice": 64.9,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "safety": {
@@ -2872,6 +3004,8 @@
             "leadPrice": 49.9,
             "computedPrice": 24.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0,
             "safety": {
@@ -2909,6 +3043,8 @@
             "leadPrice": 69.9,
             "computedPrice": 16.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 16.9,
             "leadDiff": 0,
             "safety": {
@@ -2988,6 +3124,8 @@
             "leadPrice": 21.9,
             "computedPrice": 21.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 21.9,
             "leadDiff": 0,
             "safety": {
@@ -3025,6 +3163,8 @@
             "leadPrice": 14.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -3062,6 +3202,8 @@
             "leadPrice": 19.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -3099,6 +3241,8 @@
             "leadPrice": 29.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -3136,6 +3280,8 @@
             "leadPrice": 9.9,
             "computedPrice": 18.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 18.9,
             "leadDiff": 0,
             "safety": {
@@ -3173,6 +3319,8 @@
             "leadPrice": 18.9,
             "computedPrice": 26.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 26.9,
             "leadDiff": 0,
             "safety": {
@@ -3210,6 +3358,8 @@
             "leadPrice": 26.9,
             "computedPrice": 69.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "safety": {
@@ -3247,6 +3397,8 @@
             "leadPrice": 69.9,
             "computedPrice": 13.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 13.9,
             "leadDiff": 0,
             "safety": {
@@ -3284,6 +3436,8 @@
             "leadPrice": 13.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -3321,6 +3475,8 @@
             "leadPrice": 23.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -3358,6 +3514,8 @@
             "leadPrice": 169.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -3434,6 +3592,8 @@
             "leadPrice": 69.9,
             "computedPrice": 69.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "safety": {
@@ -3471,6 +3631,8 @@
             "leadPrice": 9.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -3508,6 +3670,8 @@
             "leadPrice": 9.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -3545,6 +3709,8 @@
             "leadPrice": 49.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -3582,6 +3748,8 @@
             "leadPrice": 79.9,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "safety": {
@@ -3619,6 +3787,8 @@
             "leadPrice": 24.9,
             "computedPrice": 7.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 7.9,
             "leadDiff": 0,
             "safety": {
@@ -3656,6 +3826,8 @@
             "leadPrice": 12.9,
             "computedPrice": 12.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 12.9,
             "leadDiff": 0,
             "safety": {
@@ -3693,6 +3865,8 @@
             "leadPrice": 7.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -3730,6 +3904,8 @@
             "leadPrice": 14.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -3767,6 +3943,8 @@
             "leadPrice": 24.9,
             "computedPrice": 24.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0,
             "safety": {
@@ -3804,6 +3982,8 @@
             "leadPrice": 29.9,
             "computedPrice": 7.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 7.9,
             "leadDiff": 0,
             "safety": {
@@ -3841,6 +4021,8 @@
             "leadPrice": 7.9,
             "computedPrice": 8.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 8.9,
             "leadDiff": 0,
             "safety": {
@@ -3923,6 +4105,8 @@
             "leadPrice": 12.9,
             "computedPrice": 12.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 12.9,
             "leadDiff": 0,
             "safety": {
@@ -3960,6 +4144,8 @@
             "leadPrice": 17.9,
             "computedPrice": 17.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 17.9,
             "leadDiff": 0,
             "safety": {
@@ -3997,6 +4183,8 @@
             "leadPrice": 17.9,
             "computedPrice": 69.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "safety": {
@@ -4034,6 +4222,8 @@
             "leadPrice": 24.9,
             "computedPrice": 99.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 99.9,
             "leadDiff": 0,
             "safety": {
@@ -4071,6 +4261,8 @@
             "leadPrice": 44.9,
             "computedPrice": 24.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0,
             "safety": {
@@ -4108,6 +4300,8 @@
             "leadPrice": 69.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -4145,6 +4339,8 @@
             "leadPrice": 99.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -4182,6 +4378,8 @@
             "leadPrice": 24.9,
             "computedPrice": 21.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 21.9,
             "leadDiff": 0,
             "safety": {
@@ -4219,6 +4417,8 @@
             "leadPrice": 19.9,
             "computedPrice": 16.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 16.9,
             "leadDiff": 0,
             "safety": {
@@ -4256,6 +4456,8 @@
             "leadPrice": 39.9,
             "computedPrice": 24.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0,
             "safety": {
@@ -4293,6 +4495,8 @@
             "leadPrice": 21.9,
             "computedPrice": 69.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "safety": {
@@ -4330,6 +4534,8 @@
             "leadPrice": 16.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -4367,6 +4573,8 @@
             "leadPrice": 24.9,
             "computedPrice": 17.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 17.9,
             "leadDiff": 0,
             "safety": {
@@ -4404,6 +4612,8 @@
             "leadPrice": 19.9,
             "computedPrice": 24.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0,
             "safety": {
@@ -4441,6 +4651,8 @@
             "leadPrice": 12.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -4478,6 +4690,8 @@
             "leadPrice": 69.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -4515,6 +4729,8 @@
             "leadPrice": 29.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -4577,6 +4793,8 @@
             "leadPrice": null,
             "computedPrice": 89.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -4614,6 +4832,8 @@
             "leadPrice": null,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -4651,6 +4871,8 @@
             "leadPrice": null,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -4688,6 +4910,8 @@
             "leadPrice": null,
             "computedPrice": 52.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -4725,6 +4949,8 @@
             "leadPrice": null,
             "computedPrice": 96.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -4762,6 +4988,8 @@
             "leadPrice": null,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -4799,6 +5027,8 @@
             "leadPrice": null,
             "computedPrice": 15.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -4836,6 +5066,8 @@
             "leadPrice": null,
             "computedPrice": 64.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -4873,6 +5105,8 @@
             "leadPrice": null,
             "computedPrice": 21.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -4910,6 +5144,8 @@
             "leadPrice": null,
             "computedPrice": 44.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -4947,6 +5183,8 @@
             "leadPrice": null,
             "computedPrice": 24.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -5032,6 +5270,8 @@
             "leadPrice": 44.9,
             "computedPrice": 44.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 44.9,
             "leadDiff": 0,
             "safety": {
@@ -5069,6 +5309,8 @@
             "leadPrice": 12.9,
             "computedPrice": 12.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 12.9,
             "leadDiff": 0,
             "safety": {
@@ -5106,6 +5348,8 @@
             "leadPrice": 129.9,
             "computedPrice": 129.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 129.9,
             "leadDiff": 0,
             "safety": {
@@ -5143,6 +5387,8 @@
             "leadPrice": 29.9,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "safety": {
@@ -5180,6 +5426,8 @@
             "leadPrice": 79.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -5217,6 +5465,8 @@
             "leadPrice": 19.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -5254,6 +5504,8 @@
             "leadPrice": 9.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -5291,6 +5543,8 @@
             "leadPrice": 39.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -5328,6 +5582,8 @@
             "leadPrice": 29.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -5365,6 +5621,8 @@
             "leadPrice": 11.9,
             "computedPrice": 129.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 129.9,
             "leadDiff": 0,
             "safety": {
@@ -5402,6 +5660,8 @@
             "leadPrice": 129.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -5439,6 +5699,8 @@
             "leadPrice": 19.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -5476,6 +5738,8 @@
             "leadPrice": 14.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -5513,6 +5777,8 @@
             "leadPrice": 39.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -5550,6 +5816,8 @@
             "leadPrice": 29.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -5587,6 +5855,8 @@
             "leadPrice": 19.9,
             "computedPrice": 8.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 8.9,
             "leadDiff": 0,
             "safety": {
@@ -5624,6 +5894,8 @@
             "leadPrice": 49.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -5661,6 +5933,8 @@
             "leadPrice": 59.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -5698,6 +5972,8 @@
             "leadPrice": 8.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -5735,6 +6011,8 @@
             "leadPrice": 9.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -5772,6 +6050,8 @@
             "leadPrice": 19.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -5809,6 +6089,8 @@
             "leadPrice": 9.9,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "safety": {
@@ -5885,6 +6167,8 @@
             "leadPrice": 14.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -5922,6 +6206,8 @@
             "leadPrice": 14.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -5959,6 +6245,8 @@
             "leadPrice": 9.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -5996,6 +6284,8 @@
             "leadPrice": 9.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -6033,6 +6323,8 @@
             "leadPrice": 39.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -6070,6 +6362,8 @@
             "leadPrice": 99.9,
             "computedPrice": 99.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 99.9,
             "leadDiff": 0,
             "safety": {
@@ -6107,6 +6401,8 @@
             "leadPrice": 36.9,
             "computedPrice": 36.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 36.9,
             "leadDiff": 0,
             "safety": {
@@ -6144,6 +6440,8 @@
             "leadPrice": 49.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -6181,6 +6479,8 @@
             "leadPrice": 34.9,
             "computedPrice": 34.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
             "safety": {
@@ -6218,6 +6518,8 @@
             "leadPrice": 119.9,
             "computedPrice": 119.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 119.9,
             "leadDiff": 0,
             "safety": {
@@ -6291,6 +6593,8 @@
             "leadPrice": 21.9,
             "computedPrice": 39.95,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.95,
             "leadDiff": 0,
             "safety": {
@@ -6328,6 +6632,8 @@
             "leadPrice": 39.95,
             "computedPrice": 21.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 21.9,
             "leadDiff": 0,
             "safety": {
@@ -6365,6 +6671,8 @@
             "leadPrice": 21.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -6402,6 +6710,8 @@
             "leadPrice": 14.9,
             "computedPrice": 8.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 8.9,
             "leadDiff": 0,
             "safety": {
@@ -6439,6 +6749,8 @@
             "leadPrice": 8.9,
             "computedPrice": 32.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 32.9,
             "leadDiff": 0,
             "safety": {
@@ -6476,6 +6788,8 @@
             "leadPrice": 32.9,
             "computedPrice": 16.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 16.9,
             "leadDiff": 0,
             "safety": {
@@ -6513,6 +6827,8 @@
             "leadPrice": 11.9,
             "computedPrice": 21.6,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 21.9,
             "leadDiff": 0.29999999999999716,
             "safety": {
@@ -6550,6 +6866,8 @@
             "leadPrice": 12.9,
             "computedPrice": 89.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
             "safety": {
@@ -6587,6 +6905,8 @@
             "leadPrice": 16.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 32.9,
             "leadDiff": 3,
             "safety": {
@@ -6624,6 +6944,8 @@
             "leadPrice": 89.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -6661,6 +6983,8 @@
             "leadPrice": null,
             "computedPrice": 12.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 12.9,
             "leadDiff": 0,
             "safety": {
@@ -6744,6 +7068,8 @@
             "leadPrice": 59.9,
             "computedPrice": 27.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 27.9,
             "leadDiff": 0,
             "safety": {
@@ -6781,6 +7107,8 @@
             "leadPrice": 27.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -6818,6 +7146,8 @@
             "leadPrice": 19.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -6855,6 +7185,8 @@
             "leadPrice": 7.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -6892,6 +7224,8 @@
             "leadPrice": 9.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -6929,6 +7263,8 @@
             "leadPrice": 9.9,
             "computedPrice": 28.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 28.9,
             "leadDiff": 0,
             "safety": {
@@ -6966,6 +7302,8 @@
             "leadPrice": 9.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -6980,14 +7318,14 @@
           }
         },
         {
-          "id": "penny-leaflet-025b387c18dd81a0",
+          "id": "penny-leaflet-e9a0267701f656fb",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "TUŇÁK STEAK MARINNA",
           "brand": "",
           "packageSize": "140/150g",
-          "price": 27.9,
+          "price": 29.9,
           "unitPrice": 287.5,
           "unit": "Kč/1 kg",
           "validFrom": "od st 13.05.2026",
@@ -7001,14 +7339,16 @@
           "debug": {
             "priceSource": "computed",
             "leadPrice": 28.9,
-            "computedPrice": 27.9,
+            "computedPrice": 29.9,
             "originalComputedPrice": null,
-            "nearestLeadPrice": 27.9,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
+            "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
               "suspect": false,
               "reasons": [],
-              "nearestLeadPrice": 27.9,
+              "nearestLeadPrice": 29.9,
               "leadDiff": 0
             },
             "ignoredExplicitAfterUnitPrice": 34.9,
@@ -7040,6 +7380,8 @@
             "leadPrice": 39.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -7077,6 +7419,8 @@
             "leadPrice": 29.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -7114,6 +7458,8 @@
             "leadPrice": 16.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -7151,6 +7497,8 @@
             "leadPrice": 19.9,
             "computedPrice": 69.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "safety": {
@@ -7188,6 +7536,8 @@
             "leadPrice": 39.9,
             "computedPrice": 37.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 37.9,
             "leadDiff": 0,
             "safety": {
@@ -7225,6 +7575,8 @@
             "leadPrice": 9.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -7262,6 +7614,8 @@
             "leadPrice": 69.9,
             "computedPrice": 89.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
             "safety": {
@@ -7299,6 +7653,8 @@
             "leadPrice": 89.9,
             "computedPrice": 179.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 179.9,
             "leadDiff": 0,
             "safety": {
@@ -7381,6 +7737,8 @@
             "leadPrice": 9.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -7418,6 +7776,8 @@
             "leadPrice": 39.9,
             "computedPrice": 7.8,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 2.1000000000000005,
             "safety": {
@@ -7455,6 +7815,8 @@
             "leadPrice": 11.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -7492,6 +7854,8 @@
             "leadPrice": 9.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -7529,6 +7893,8 @@
             "leadPrice": 49.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -7566,6 +7932,8 @@
             "leadPrice": 15.9,
             "computedPrice": 27.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 27.9,
             "leadDiff": 0,
             "safety": {
@@ -7603,6 +7971,8 @@
             "leadPrice": 27.9,
             "computedPrice": 15.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 15.9,
             "leadDiff": 0,
             "safety": {
@@ -7640,6 +8010,8 @@
             "leadPrice": 34.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -7677,6 +8049,8 @@
             "leadPrice": 49.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -7714,6 +8088,8 @@
             "leadPrice": 19.9,
             "computedPrice": 34.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
             "safety": {
@@ -7751,6 +8127,8 @@
             "leadPrice": 34.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -7788,6 +8166,8 @@
             "leadPrice": 14.9,
             "computedPrice": 24.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0,
             "safety": {
@@ -7825,6 +8205,8 @@
             "leadPrice": 44.9,
             "computedPrice": 16.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 16.9,
             "leadDiff": 0,
             "safety": {
@@ -7862,6 +8244,8 @@
             "leadPrice": 59.9,
             "computedPrice": 44.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 44.9,
             "leadDiff": 0,
             "safety": {
@@ -7899,6 +8283,8 @@
             "leadPrice": 49.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -7936,6 +8322,8 @@
             "leadPrice": 9.9,
             "computedPrice": 22.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 22.9,
             "leadDiff": 0,
             "safety": {
@@ -8023,6 +8411,8 @@
             "leadPrice": 19.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -8060,6 +8450,8 @@
             "leadPrice": 12.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -8097,6 +8489,8 @@
             "leadPrice": 29.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -8134,6 +8528,8 @@
             "leadPrice": 11.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -8171,6 +8567,8 @@
             "leadPrice": 14.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -8208,6 +8606,8 @@
             "leadPrice": 29.9,
             "computedPrice": 26.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 26.9,
             "leadDiff": 0,
             "safety": {
@@ -8245,6 +8645,8 @@
             "leadPrice": 29.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -8282,6 +8684,8 @@
             "leadPrice": 26.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -8319,6 +8723,8 @@
             "leadPrice": 39.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -8356,6 +8762,8 @@
             "leadPrice": 19.9,
             "computedPrice": 10.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 10.9,
             "leadDiff": 0,
             "safety": {
@@ -8393,6 +8801,8 @@
             "leadPrice": 24.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -8430,6 +8840,8 @@
             "leadPrice": 7.9,
             "computedPrice": 34.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
             "safety": {
@@ -8467,6 +8879,8 @@
             "leadPrice": 11.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -8504,6 +8918,8 @@
             "leadPrice": 29.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -8541,6 +8957,8 @@
             "leadPrice": 10.9,
             "computedPrice": 10.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 10.9,
             "leadDiff": 0,
             "safety": {
@@ -8621,6 +9039,8 @@
             "leadPrice": 7.9,
             "computedPrice": 7.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 7.9,
             "leadDiff": 0,
             "safety": {
@@ -8658,6 +9078,8 @@
             "leadPrice": 14.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -8695,6 +9117,8 @@
             "leadPrice": 5.9,
             "computedPrice": 5.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 5.9,
             "leadDiff": 0,
             "safety": {
@@ -8732,6 +9156,8 @@
             "leadPrice": 2.9,
             "computedPrice": 2.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 2.9,
             "leadDiff": 0,
             "safety": {
@@ -8769,6 +9195,8 @@
             "leadPrice": 29.9,
             "computedPrice": 12.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 12.9,
             "leadDiff": 0,
             "safety": {
@@ -8806,6 +9234,8 @@
             "leadPrice": 12.9,
             "computedPrice": 4.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 4.9,
             "leadDiff": 0,
             "safety": {
@@ -8843,6 +9273,8 @@
             "leadPrice": 4.9,
             "computedPrice": 4.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 4.9,
             "leadDiff": 0,
             "safety": {
@@ -8857,14 +9289,14 @@
           }
         },
         {
-          "id": "penny-leaflet-ff9f72eebd4c92b4",
+          "id": "penny-leaflet-49488cc570464d3c",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "TYČINKA BIG CORNY",
           "brand": "",
           "packageSize": "40/50 g",
-          "price": 11.9,
+          "price": 14.9,
           "unitPrice": 37.25,
           "unit": "Kč/100 g",
           "validFrom": "od st 13.05.2026",
@@ -8878,14 +9310,16 @@
           "debug": {
             "priceSource": "computed",
             "leadPrice": 4.9,
-            "computedPrice": 11.9,
+            "computedPrice": 14.9,
             "originalComputedPrice": null,
-            "nearestLeadPrice": 11.9,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
+            "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
               "suspect": false,
               "reasons": [],
-              "nearestLeadPrice": 11.9,
+              "nearestLeadPrice": 14.9,
               "leadDiff": 0
             },
             "ignoredExplicitAfterUnitPrice": 14.9,
@@ -8917,6 +9351,8 @@
             "leadPrice": 14.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -8954,6 +9390,8 @@
             "leadPrice": 34.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -8991,6 +9429,8 @@
             "leadPrice": 19.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -9028,6 +9468,8 @@
             "leadPrice": 11.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -9065,6 +9507,8 @@
             "leadPrice": 29.9,
             "computedPrice": 34.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
             "safety": {
@@ -9102,6 +9546,8 @@
             "leadPrice": 34.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -9139,6 +9585,8 @@
             "leadPrice": 19.9,
             "computedPrice": 8.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 8.9,
             "leadDiff": 0,
             "safety": {
@@ -9176,6 +9624,8 @@
             "leadPrice": 8.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -9295,6 +9745,8 @@
             "leadPrice": 39.9,
             "computedPrice": 249.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 249.9,
             "leadDiff": 0,
             "safety": {
@@ -9332,6 +9784,8 @@
             "leadPrice": 49.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -9412,6 +9866,8 @@
             "leadPrice": 19139.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -9449,6 +9905,8 @@
             "leadPrice": 369.9,
             "computedPrice": 26.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 26.9,
             "leadDiff": 0,
             "safety": {
@@ -9486,6 +9944,8 @@
             "leadPrice": 9.9,
             "computedPrice": 26.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 26.9,
             "leadDiff": 0,
             "safety": {
@@ -9523,6 +9983,8 @@
             "leadPrice": 26.9,
             "computedPrice": 169.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 169.9,
             "leadDiff": 0,
             "safety": {
@@ -9560,6 +10022,8 @@
             "leadPrice": 26.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -9683,6 +10147,8 @@
             "leadPrice": 209.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -9720,6 +10186,8 @@
             "leadPrice": 219.9,
             "computedPrice": 69.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "safety": {
@@ -9810,6 +10278,8 @@
             "leadPrice": 119.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -9847,6 +10317,8 @@
             "leadPrice": 79.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -9884,6 +10356,8 @@
             "leadPrice": 27.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -9921,6 +10395,8 @@
             "leadPrice": 49.9,
             "computedPrice": 44.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 44.9,
             "leadDiff": 0,
             "safety": {
@@ -9958,6 +10434,8 @@
             "leadPrice": 29.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -9995,6 +10473,8 @@
             "leadPrice": 8.9,
             "computedPrice": 34.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
             "safety": {
@@ -10032,6 +10512,8 @@
             "leadPrice": 29.9,
             "computedPrice": 89.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
             "safety": {
@@ -10069,6 +10551,8 @@
             "leadPrice": 29.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -10106,6 +10590,8 @@
             "leadPrice": 44.9,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "safety": {
@@ -10143,6 +10629,8 @@
             "leadPrice": 19.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -10180,6 +10668,8 @@
             "leadPrice": 34.9,
             "computedPrice": 89.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
             "safety": {
@@ -10217,6 +10707,8 @@
             "leadPrice": 11.9,
             "computedPrice": 129.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 129.9,
             "leadDiff": 0,
             "safety": {
@@ -10254,6 +10746,8 @@
             "leadPrice": 89.9,
             "computedPrice": 44.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 44.9,
             "leadDiff": 0,
             "safety": {
@@ -10291,6 +10785,8 @@
             "leadPrice": 39.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -10328,6 +10824,8 @@
             "leadPrice": 17.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -10365,6 +10863,8 @@
             "leadPrice": 79.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -10402,6 +10902,8 @@
             "leadPrice": 59.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -10439,6 +10941,8 @@
             "leadPrice": 19.9,
             "computedPrice": 17.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 17.9,
             "leadDiff": 0,
             "safety": {
@@ -10476,6 +10980,8 @@
             "leadPrice": 89.9,
             "computedPrice": 69.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "safety": {
@@ -10513,6 +11019,8 @@
             "leadPrice": 129.9,
             "computedPrice": 119.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 119.9,
             "leadDiff": 0,
             "safety": {
@@ -10603,6 +11111,8 @@
             "leadPrice": 14.9,
             "computedPrice": 14.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0,
             "safety": {
@@ -10640,6 +11150,8 @@
             "leadPrice": 26.9,
             "computedPrice": 69.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "safety": {
@@ -10677,6 +11189,8 @@
             "leadPrice": 26.9,
             "computedPrice": 39.6,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.6,
             "leadDiff": 0,
             "safety": {
@@ -10714,6 +11228,8 @@
             "leadPrice": 14.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -10751,6 +11267,8 @@
             "leadPrice": 69.9,
             "computedPrice": 18.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 18.9,
             "leadDiff": 0,
             "safety": {
@@ -10788,6 +11306,8 @@
             "leadPrice": 22.9,
             "computedPrice": 18.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 18.9,
             "leadDiff": 0,
             "safety": {
@@ -10825,6 +11345,8 @@
             "leadPrice": 19.9,
             "computedPrice": 32.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 32.9,
             "leadDiff": 0,
             "safety": {
@@ -10862,6 +11384,8 @@
             "leadPrice": 39.6,
             "computedPrice": 22.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 22.9,
             "leadDiff": 0,
             "safety": {
@@ -10899,6 +11423,8 @@
             "leadPrice": 29.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -10936,6 +11462,8 @@
             "leadPrice": 18.9,
             "computedPrice": 16.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 16.9,
             "leadDiff": 0,
             "safety": {
@@ -10973,6 +11501,8 @@
             "leadPrice": 18.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -11010,6 +11540,8 @@
             "leadPrice": 32.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -11047,6 +11579,8 @@
             "leadPrice": 22.9,
             "computedPrice": 26.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 26.9,
             "leadDiff": 0,
             "safety": {
@@ -11084,6 +11618,8 @@
             "leadPrice": 39.9,
             "computedPrice": 100.2,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 99.9,
             "leadDiff": 0.29999999999999716,
             "safety": {
@@ -11121,6 +11657,8 @@
             "leadPrice": 16.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -11158,6 +11696,8 @@
             "leadPrice": 99.9,
             "computedPrice": 22.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 22.9,
             "leadDiff": 0,
             "safety": {
@@ -11195,6 +11735,8 @@
             "leadPrice": 59.9,
             "computedPrice": 32.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 32.9,
             "leadDiff": 0,
             "safety": {
@@ -11232,6 +11774,8 @@
             "leadPrice": 29.9,
             "computedPrice": 26.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 26.9,
             "leadDiff": 0,
             "safety": {
@@ -11311,6 +11855,8 @@
             "leadPrice": 19.9,
             "computedPrice": 19.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0,
             "safety": {
@@ -11348,6 +11894,8 @@
             "leadPrice": 59.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -11385,6 +11933,8 @@
             "leadPrice": 99.9,
             "computedPrice": 99.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 99.9,
             "leadDiff": 0,
             "safety": {
@@ -11422,6 +11972,8 @@
             "leadPrice": 199.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -11459,6 +12011,8 @@
             "leadPrice": 329.9,
             "computedPrice": null,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 329.9,
             "leadDiff": 0,
             "safety": {
@@ -11496,6 +12050,8 @@
             "leadPrice": 59.9,
             "computedPrice": 139.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 139.9,
             "leadDiff": 0,
             "safety": {
@@ -11533,6 +12089,8 @@
             "leadPrice": 399.9,
             "computedPrice": 199.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 199.9,
             "leadDiff": 0,
             "safety": {
@@ -11570,6 +12128,8 @@
             "leadPrice": 289.9,
             "computedPrice": 189.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 189.9,
             "leadDiff": 0,
             "safety": {
@@ -11607,6 +12167,8 @@
             "leadPrice": 139.9,
             "computedPrice": 99.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 99.9,
             "leadDiff": 0,
             "safety": {
@@ -11644,6 +12206,8 @@
             "leadPrice": 119.9,
             "computedPrice": 129.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 129.9,
             "leadDiff": 0,
             "safety": {
@@ -11730,6 +12294,8 @@
             "leadPrice": 199.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -11767,6 +12333,8 @@
             "leadPrice": 79.9,
             "computedPrice": 89.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
             "safety": {
@@ -11804,6 +12372,8 @@
             "leadPrice": 59.9,
             "computedPrice": 26.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 26.9,
             "leadDiff": 0,
             "safety": {
@@ -11841,6 +12411,8 @@
             "leadPrice": 34.9,
             "computedPrice": null,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
             "safety": {
@@ -11878,6 +12450,8 @@
             "leadPrice": 59.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -11915,6 +12489,8 @@
             "leadPrice": 29.9,
             "computedPrice": 89.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
             "safety": {
@@ -11952,6 +12528,8 @@
             "leadPrice": 89.9,
             "computedPrice": 99.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 99.9,
             "leadDiff": 0,
             "safety": {
@@ -11989,6 +12567,8 @@
             "leadPrice": 124.9,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "safety": {
@@ -12026,6 +12606,8 @@
             "leadPrice": 26.9,
             "computedPrice": 300,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 299.9,
             "leadDiff": 0.10000000000002274,
             "safety": {
@@ -12063,6 +12645,8 @@
             "leadPrice": 41.9,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "safety": {
@@ -12100,6 +12684,8 @@
             "leadPrice": 59.9,
             "computedPrice": 199.7,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 199.9,
             "leadDiff": 0.20000000000001705,
             "safety": {
@@ -12137,6 +12723,8 @@
             "leadPrice": 89.9,
             "computedPrice": null,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
             "safety": {
@@ -12218,6 +12806,8 @@
             "leadPrice": 69.9,
             "computedPrice": 139.84,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 139.9,
             "leadDiff": 0.060000000000002274,
             "safety": {
@@ -12255,6 +12845,8 @@
             "leadPrice": 89.9,
             "computedPrice": 39.84,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0.05999999999999517,
             "safety": {
@@ -12292,6 +12884,8 @@
             "leadPrice": 139.9,
             "computedPrice": 14.94,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0.03999999999999915,
             "safety": {
@@ -12329,6 +12923,8 @@
             "leadPrice": 39.9,
             "computedPrice": 12.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 12.9,
             "leadDiff": 0,
             "safety": {
@@ -12366,6 +12962,8 @@
             "leadPrice": 14.9,
             "computedPrice": 69.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "safety": {
@@ -12403,6 +13001,8 @@
             "leadPrice": 12.9,
             "computedPrice": 16.5,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 16.9,
             "leadDiff": 0.3999999999999986,
             "safety": {
@@ -12440,6 +13040,8 @@
             "leadPrice": 69.9,
             "computedPrice": 23,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 22.9,
             "leadDiff": 0.10000000000000142,
             "safety": {
@@ -12477,6 +13079,8 @@
             "leadPrice": 16.9,
             "computedPrice": 19.8,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 19.9,
             "leadDiff": 0.09999999999999787,
             "safety": {
@@ -12514,6 +13118,8 @@
             "leadPrice": 22.9,
             "computedPrice": 14.7,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 14.9,
             "leadDiff": 0.20000000000000107,
             "safety": {
@@ -12551,6 +13157,8 @@
             "leadPrice": 19.9,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "safety": {
@@ -12588,6 +13196,8 @@
             "leadPrice": 14.9,
             "computedPrice": 69.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 69.9,
             "leadDiff": 0,
             "safety": {
@@ -12625,6 +13235,8 @@
             "leadPrice": 64.9,
             "computedPrice": 24.8,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0.09999999999999787,
             "safety": {
@@ -12662,6 +13274,8 @@
             "leadPrice": 79.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -12699,6 +13313,8 @@
             "leadPrice": 69.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -12736,6 +13352,8 @@
             "leadPrice": 59.9,
             "computedPrice": 64.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 64.9,
             "leadDiff": 0,
             "safety": {
@@ -12773,6 +13391,8 @@
             "leadPrice": 24.9,
             "computedPrice": 34.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 5,
             "safety": {
@@ -12787,14 +13407,14 @@
           }
         },
         {
-          "id": "penny-leaflet-95ece2dac88b1514",
+          "id": "penny-leaflet-068a5901b24f021f",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "ZUBNÍ PASTA ELMEX*",
           "brand": "",
           "packageSize": "2x 75 ml",
-          "price": 119.9,
+          "price": 12,
           "unitPrice": 79.93,
           "unit": "Kč/100 ml",
           "validFrom": "od st 13.05.2026",
@@ -12803,24 +13423,22 @@
           "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
           "pageNumber": 25,
           "confidence": "medium",
-          "suspect": true,
-          "suspectReasons": [
-            "small-package-high-price"
-          ],
+          "suspect": false,
+          "suspectReasons": [],
           "debug": {
             "priceSource": "computed",
             "leadPrice": 49.9,
-            "computedPrice": 119.9,
+            "computedPrice": 12,
             "originalComputedPrice": null,
-            "nearestLeadPrice": 139.9,
-            "leadDiff": 20,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
+            "nearestLeadPrice": 12.9,
+            "leadDiff": 0.9000000000000004,
             "safety": {
-              "suspect": true,
-              "reasons": [
-                "small-package-high-price"
-              ],
-              "nearestLeadPrice": 139.9,
-              "leadDiff": 20
+              "suspect": false,
+              "reasons": [],
+              "nearestLeadPrice": 12.9,
+              "leadDiff": 0.9000000000000004
             },
             "ignoredExplicitAfterUnitPrice": 119.9,
             "rawProductPrefix": "ZUBNÍ PASTA ELMEX* různé druhy",
@@ -12894,6 +13512,8 @@
             "leadPrice": 279.9,
             "computedPrice": 27.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 27.9,
             "leadDiff": 0,
             "safety": {
@@ -12931,6 +13551,8 @@
             "leadPrice": 9.9,
             "computedPrice": 189.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 189.9,
             "leadDiff": 0,
             "safety": {
@@ -12968,6 +13590,8 @@
             "leadPrice": 27.9,
             "computedPrice": 109.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 109.9,
             "leadDiff": 0,
             "safety": {
@@ -13005,6 +13629,8 @@
             "leadPrice": 189.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -13042,6 +13668,8 @@
             "leadPrice": 109.9,
             "computedPrice": 99.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 99.9,
             "leadDiff": 0,
             "safety": {
@@ -13079,6 +13707,8 @@
             "leadPrice": 39.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -13256,6 +13886,8 @@
             "leadPrice": 36.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -13293,6 +13925,8 @@
             "leadPrice": 39.9,
             "computedPrice": 32.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 32.9,
             "leadDiff": 0,
             "safety": {
@@ -13330,6 +13964,8 @@
             "leadPrice": 14.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -13367,6 +14003,8 @@
             "leadPrice": 44.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -13404,6 +14042,8 @@
             "leadPrice": 23.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -13441,6 +14081,8 @@
             "leadPrice": 32.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -13478,6 +14120,8 @@
             "leadPrice": 49.9,
             "computedPrice": 39.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 39.9,
             "leadDiff": 0,
             "safety": {
@@ -13552,6 +14196,8 @@
             "leadPrice": 29.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -13589,6 +14235,8 @@
             "leadPrice": 24.9,
             "computedPrice": 24.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 24.9,
             "leadDiff": 0,
             "safety": {
@@ -13626,6 +14274,8 @@
             "leadPrice": 79.9,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "safety": {
@@ -13663,6 +14313,8 @@
             "leadPrice": 11.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -13700,6 +14352,8 @@
             "leadPrice": 22.9,
             "computedPrice": 22.86,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 22.9,
             "leadDiff": 0.03999999999999915,
             "safety": {
@@ -13737,6 +14391,8 @@
             "leadPrice": 189.9,
             "computedPrice": 189.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 189.9,
             "leadDiff": 0,
             "safety": {
@@ -13774,6 +14430,8 @@
             "leadPrice": 17.9,
             "computedPrice": 17.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 17.9,
             "leadDiff": 0,
             "safety": {
@@ -13811,6 +14469,8 @@
             "leadPrice": 27.9,
             "computedPrice": 27.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 27.9,
             "leadDiff": 0,
             "safety": {
@@ -13848,6 +14508,8 @@
             "leadPrice": 29.9,
             "computedPrice": 29.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 29.9,
             "leadDiff": 0,
             "safety": {
@@ -13885,6 +14547,8 @@
             "leadPrice": 69.9,
             "computedPrice": 5.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 5.9,
             "leadDiff": 0,
             "safety": {
@@ -13963,6 +14627,8 @@
             "leadPrice": 14.9,
             "computedPrice": 8.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 8.9,
             "leadDiff": 0,
             "safety": {
@@ -14000,6 +14666,8 @@
             "leadPrice": 8.9,
             "computedPrice": 9.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 9.9,
             "leadDiff": 0,
             "safety": {
@@ -14037,6 +14705,8 @@
             "leadPrice": 79.9,
             "computedPrice": 32.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 32.9,
             "leadDiff": 0,
             "safety": {
@@ -14074,6 +14744,8 @@
             "leadPrice": 8.9,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 79.9,
             "leadDiff": 0,
             "safety": {
@@ -14111,6 +14783,8 @@
             "leadPrice": 9.9,
             "computedPrice": 11.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 11.9,
             "leadDiff": 0,
             "safety": {
@@ -14148,6 +14822,8 @@
             "leadPrice": 12.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -14185,6 +14861,8 @@
             "leadPrice": 32.9,
             "computedPrice": 34.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 34.9,
             "leadDiff": 0,
             "safety": {
@@ -14250,6 +14928,8 @@
             "leadPrice": 49.9,
             "computedPrice": 49.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 49.9,
             "leadDiff": 0,
             "safety": {
@@ -14287,6 +14967,8 @@
             "leadPrice": 59.9,
             "computedPrice": 59.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 0,
             "safety": {
@@ -14324,6 +15006,8 @@
             "leadPrice": null,
             "computedPrice": 79.88,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 59.9,
             "leadDiff": 19.979999999999997,
             "safety": {
@@ -14386,6 +15070,8 @@
             "leadPrice": null,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -14423,6 +15109,8 @@
             "leadPrice": null,
             "computedPrice": 79.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": null,
             "leadDiff": null,
             "safety": {
@@ -14488,6 +15176,8 @@
             "leadPrice": 159.9,
             "computedPrice": null,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 159.9,
             "leadDiff": 0,
             "safety": {
@@ -14525,6 +15215,8 @@
             "leadPrice": 89.9,
             "computedPrice": 89.9,
             "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 89.9,
             "leadDiff": 0,
             "safety": {
@@ -14539,14 +15231,14 @@
           }
         },
         {
-          "id": "penny-leaflet-bb2eb5746e3b1847",
+          "id": "penny-leaflet-777d60b9e34ddc8b",
           "storeId": "penny-default",
           "chain": "Penny",
           "storeName": "Penny – leták",
           "product": "GEL NA PRANÍ WOOLITE* colors",
           "brand": "",
           "packageSize": "3,6 l",
-          "price": 159.9,
+          "price": 199.9,
           "unitPrice": 55.53,
           "unit": "Kč/1 l",
           "validFrom": "od st 13.05.2026",
@@ -14561,10 +15253,12 @@
             "computed-price-far-from-nearest-lead-price"
           ],
           "debug": {
-            "priceSource": "safety-nearest-lead",
+            "priceSource": "computed",
             "leadPrice": null,
             "computedPrice": 199.9,
-            "originalComputedPrice": 199.9,
+            "originalComputedPrice": null,
+            "unitPriceAdjustment": "none",
+            "adjustedUnitPrice": null,
             "nearestLeadPrice": 159.9,
             "leadDiff": 40,
             "safety": {
@@ -14575,7 +15269,7 @@
               ],
               "nearestLeadPrice": 159.9,
               "leadDiff": 40,
-              "correctedToNearestLeadPrice": true
+              "correctedToNearestLeadPrice": false
             },
             "ignoredExplicitAfterUnitPrice": 199.9,
             "rawProductPrefix": "GEL NA PRANÍ WOOLITE* colors",

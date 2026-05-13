@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "checkedAt": "2026-05-13T10:13:58.339Z",
+    "store": {
+      "chain": "Kaufland",
+      "storeId": "kaufland-teplice-centrum",
+      "storeName": "Kaufland Teplice-Centrum",
+      "storeAddress": "Čs. Dobrovolců 3356, 415 01 Teplice",
+      "kauflandStoreName": "CZ2450",
+      "offersUrl": "https://prodejny.kaufland.cz/.kloffers.storeName=CZ2450.json",
+      "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450"
+    },
+    "totalRawItems": 696,
+    "normalizedItems": 696,
+    "itemsWithProductName": 0,
+    "itemsWithPrice": 0,
+    "itemsWithKlNr": 696
+  },
+  "responseMeta": {
+    "url": "https://prodejny.kaufland.cz/.kloffers.storeName=CZ2450.json",
+    "status": 200,
+    "contentType": "application/json",
+    "length": 45937
+  },
+  "topLevelType": "array",
+  "keySummary": [
+    {
+      "path": "$",
+      "type": "array",
+      "count": 696
+    },
+    {
+      "path": "$[]",
+      "type": "object",
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ]
+    },
+    {
+      "path": "$[].dateFrom",
+      "type": "string",
+      "sample": "2026-05-13"
+    },
+    {
+      "path": "$[].dateTo",
+      "type": "string",
+      "sample": "2026-05-19"
+    },
+    {
+      "path": "$[].klNr",
+      "type": "string",
+      "sample": "00039070"
+    }
+  ],
+  "sampleItems": [
+    {
+      "index": 0,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00039070"
+      }
+    },
+    {
+      "index": 1,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00041059"
+      }
+    },
+    {
+      "index": 2,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00057403"
+      }
+    },
+    {
+      "index": 3,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00057406"
+      }
+    },
+    {
+      "index": 4,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00077100"
+      }
+    },
+    {
+      "index": 5,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00089707"
+      }
+    },
+    {
+      "index": 6,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00089710"
+      }
+    },
+    {
+      "index": 7,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00123641"
+      }
+    },
+    {
+      "index": 8,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00124698"
+      }
+    },
+    {
+      "index": 9,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00144476"
+      }
+    },
+    {
+      "index": 10,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00148441"
+      }
+    },
+    {
+      "index": 11,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00150010"
+      }
+    },
+    {
+      "index": 12,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00150011"
+      }
+    },
+    {
+      "index": 13,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00150012"
+      }
+    },
+    {
+      "index": 14,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00150014"
+      }
+    },
+    {
+      "index": 15,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00150041"
+      }
+    },
+    {
+      "index": 16,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00150042"
+      }
+    },
+    {
+      "index": 17,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00150043"
+      }
+    },
+    {
+      "index": 18,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00150047"
+      }
+    },
+    {
+      "index": 19,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00150048"
+      }
+    },
+    {
+      "index": 20,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00152732"
+      }
+    },
+    {
+      "index": 21,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00154247"
+      }
+    },
+    {
+      "index": 22,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00159747"
+      }
+    },
+    {
+      "index": 23,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "00159748"
+      }
+    },
+    {
+      "index": 24,
+      "keys": [
+        "dateFrom",
+        "dateTo",
+        "klNr"
+      ],
+      "item": {
+        "dateFrom": "2026-05-13",
+        "dateTo": "2026-05-19",
+        "klNr": "09700949"
+      }
+    }
+  ],
+  "recommendation": "JSON zatím vypadá hlavně jako seznam klNr a platnosti. Další krok: najít detail produktu podle klNr nebo využít viewer letáku."
+}

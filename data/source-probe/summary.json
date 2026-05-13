@@ -1,0 +1,107 @@
+{
+  "updatedAt": "2026-05-13T07:19:51.274Z",
+  "count": 4,
+  "results": [
+    {
+      "chain": "Penny",
+      "sourceUrl": "https://www.penny.cz/nabidky/letaky",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.penny.cz/nabidky/letaky",
+      "contentType": "text/html;charset=utf-8",
+      "dependsOnStore": "unknown",
+      "htmlLength": 232287,
+      "pdfLinksCount": 1,
+      "viewerLinksCount": 7,
+      "hasNextData": false,
+      "jsonLdCount": 2,
+      "endpointHintsCount": 50,
+      "productLikeLinesCount": 2,
+      "technicalPotential": {
+        "rating": "high-for-structured-data",
+        "notes": [
+          "Stránka obsahuje JSON-LD bloky: 2.",
+          "Ve stránce jsou náznaky API/datových endpointů.",
+          "Nalezeny PDF odkazy: 1.",
+          "Nalezeny odkazy na leták/viewer: 7.",
+          "Nalezeny řádky podobné produktům/cenám: 2."
+        ]
+      },
+      "error": null
+    },
+    {
+      "chain": "Kaufland",
+      "sourceUrl": "https://prodejny.kaufland.cz/letak.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://prodejny.kaufland.cz/letak.html",
+      "contentType": "text/html; charset=UTF-8",
+      "dependsOnStore": "yes",
+      "htmlLength": 178541,
+      "pdfLinksCount": 0,
+      "viewerLinksCount": 46,
+      "hasNextData": false,
+      "jsonLdCount": 1,
+      "endpointHintsCount": 50,
+      "productLikeLinesCount": 13,
+      "technicalPotential": {
+        "rating": "high-for-structured-data",
+        "notes": [
+          "Stránka obsahuje JSON-LD bloky: 1.",
+          "Ve stránce jsou náznaky API/datových endpointů.",
+          "Nalezeny odkazy na leták/viewer: 46.",
+          "Nalezeny řádky podobné produktům/cenám: 13."
+        ]
+      },
+      "error": null
+    },
+    {
+      "chain": "Albert",
+      "sourceUrl": "https://www.albert.cz/aktualni-letaky",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.albert.cz/aktualni-letaky",
+      "contentType": "text/html; charset=utf-8",
+      "dependsOnStore": "partly",
+      "htmlLength": 1129086,
+      "pdfLinksCount": 1,
+      "viewerLinksCount": 4,
+      "hasNextData": true,
+      "jsonLdCount": 1,
+      "endpointHintsCount": 50,
+      "productLikeLinesCount": 0,
+      "technicalPotential": {
+        "rating": "high-for-structured-data",
+        "notes": [
+          "Stránka obsahuje __NEXT_DATA__, může jít o strukturovaná data.",
+          "Stránka obsahuje JSON-LD bloky: 1.",
+          "Ve stránce jsou náznaky API/datových endpointů.",
+          "Nalezeny PDF odkazy: 1.",
+          "Nalezeny odkazy na leták/viewer: 4."
+        ]
+      },
+      "error": null
+    },
+    {
+      "chain": "Lidl",
+      "sourceUrl": "https://www.lidl.cz/c/akcni-letak/s10008644",
+      "ok": false,
+      "status": null,
+      "finalUrl": null,
+      "contentType": null,
+      "dependsOnStore": "unknown",
+      "htmlLength": 0,
+      "pdfLinksCount": 0,
+      "viewerLinksCount": 0,
+      "hasNextData": false,
+      "jsonLdCount": 0,
+      "endpointHintsCount": 0,
+      "productLikeLinesCount": 0,
+      "technicalPotential": {
+        "rating": "unknown",
+        "notes": []
+      },
+      "error": "fetch failed"
+    }
+  ]
+}

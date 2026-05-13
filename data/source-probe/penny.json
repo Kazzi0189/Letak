@@ -1,0 +1,411 @@
+{
+  "chain": "Penny",
+  "sourceUrl": "https://www.penny.cz/nabidky/letaky",
+  "dependsOnStore": "unknown",
+  "sourceNote": "Ověřujeme celou sekci letáků, ne jen /nabidky akční položky.",
+  "checkedAt": "2026-05-13T07:19:48.608Z",
+  "ok": true,
+  "status": 200,
+  "finalUrl": "https://www.penny.cz/nabidky/letaky",
+  "contentType": "text/html;charset=utf-8",
+  "htmlLength": 232287,
+  "pdfLinks": [
+    "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/8fd348ae-e367-4f1a-99d5-34a867abb7e2/Zpra%CC%81va%20o%20udrz%CC%8Citelnosti%202023.pdf"
+  ],
+  "viewerLinks": [
+    {
+      "href": "https://www.penny.cz/nabidky/letaky#main",
+      "text": "Na úvod"
+    },
+    {
+      "href": "https://www.penny.cz/nabidky/letaky#menu-item-1",
+      "text": "K navigaci"
+    },
+    {
+      "href": "https://www.penny.cz/nabidky/letaky#search",
+      "text": "K vyhledávání"
+    },
+    {
+      "href": "https://www.penny.cz/nabidky/letaky#mobile-search",
+      "text": "K vyhledávání"
+    },
+    {
+      "href": "https://www.penny.cz/nabidky/letaky#footer",
+      "text": "K patičce"
+    },
+    {
+      "href": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+      "text": ""
+    },
+    {
+      "href": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me",
+      "text": "Prohlédnout"
+    }
+  ],
+  "possibleData": {
+    "scriptJsonOrJsAssets": [
+      "https://www.penny.cz/scripts/unsupported-browser.js",
+      "https://www.penny.cz/_nuxt/B48dznTy.js",
+      "https://www.penny.cz/_nuxt/7X9_TrQ5.js",
+      "https://www.penny.cz/_nuxt/0_D29Vfy.js",
+      "https://www.penny.cz/_nuxt/DwuSTdT5.js",
+      "https://www.penny.cz/_nuxt/Bwr_o4pL.js",
+      "https://www.penny.cz/_nuxt/DVqrYNlX.js",
+      "https://www.penny.cz/_nuxt/BK26Rpur.js",
+      "https://www.penny.cz/_nuxt/CMMKmH7P.js",
+      "https://www.penny.cz/_nuxt/FBiBy78k.js",
+      "https://www.penny.cz/_nuxt/QgY-G5Mn.js",
+      "https://www.penny.cz/_nuxt/fnp4yVJ_.js",
+      "https://www.penny.cz/_nuxt/fcjR_dWV.js",
+      "https://www.penny.cz/_nuxt/CZ5p_PVZ.js",
+      "https://www.penny.cz/_nuxt/BvYC9Rxf.js",
+      "https://www.penny.cz/_nuxt/D3EHXnd9.js",
+      "https://www.penny.cz/_nuxt/D7JFzrpE.js",
+      "https://www.penny.cz/_nuxt/D16MLeXQ.js",
+      "https://www.penny.cz/_nuxt/BhXNNRqz.js",
+      "https://www.penny.cz/_nuxt/CSsLEKu0.js",
+      "https://www.penny.cz/_nuxt/7RMWFBYE.js",
+      "https://www.penny.cz/_nuxt/DsmeX4JN.js",
+      "https://www.penny.cz/_nuxt/MDCbdgID.js",
+      "https://www.penny.cz/_nuxt/DE2W3OHN.js",
+      "https://www.penny.cz/_nuxt/UWmR9Lke.js",
+      "https://www.penny.cz/_nuxt/CC98LrP8.js",
+      "https://www.penny.cz/_nuxt/IHeNF19A.js",
+      "https://www.penny.cz/_nuxt/7vuGhX3o.js",
+      "https://www.penny.cz/_nuxt/Dcv7-JYf.js",
+      "https://www.penny.cz/_nuxt/BKRS8239.js",
+      "https://www.penny.cz/_nuxt/CVzBVNrL.js",
+      "https://www.penny.cz/_nuxt/Io8Vm6u-.js",
+      "https://www.penny.cz/_nuxt/4PYoU-IS.js",
+      "https://www.penny.cz/_nuxt/BqVVmAPr.js",
+      "https://www.penny.cz/_nuxt/BsPpbvOB.js",
+      "https://www.penny.cz/_nuxt/Cw-5pOTR.js",
+      "https://www.penny.cz/_nuxt/BmdByWG-.js",
+      "https://www.penny.cz/_nuxt/CWByqKTd.js",
+      "https://www.penny.cz/_nuxt/DndFXUZU.js",
+      "https://www.penny.cz/_nuxt/CFZ0d43U.js",
+      "https://www.penny.cz/_nuxt/CsYlJfnM.js",
+      "https://www.penny.cz/_nuxt/DniJoR-d.js",
+      "https://www.penny.cz/_nuxt/BPQWWWEt.js",
+      "https://www.penny.cz/_nuxt/DLI8PTDJ.js",
+      "https://www.penny.cz/_nuxt/DBcuVMmH.js",
+      "https://www.penny.cz/_nuxt/CGL1c2H2.js",
+      "https://www.penny.cz/_nuxt/DgIzVGyw.js",
+      "https://www.penny.cz/_nuxt/CMyO-g22.js",
+      "https://www.penny.cz/_nuxt/Gn0ejRL8.js",
+      "https://www.penny.cz/_nuxt/DeuvHGdr.js"
+    ],
+    "hasNextData": false,
+    "jsonLdCount": 2,
+    "endpointHints": [
+      "><title>Letáky | penny.cz</title><script nonce=",
+      "https://www.penny.cz/nabidky/letaky",
+      "Letáky PENNY",
+      "Letáky",
+      "><span>Letáky</span></li><!--]--></ol></nav><!--[--><!----><!--[--><section style=",
+      "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+      "otevřít leták od 13. 5.",
+      "https://assets-eu-01.kc-usercontent.com:443/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/f138d978-f644-487e-9e95-5fad35be1b55/20KW_ONE_13_05_2026_WEB_leaflet_page-0001.jpeg?w=639&amp;fm=webp&amp;lossless=0&amp;q=80",
+      "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me",
+      ">Napište nám na info@penny.cz</a></div></div></div><div style=",
+      "product-discovery-dialog-area",
+      "production",
+      "CMS_PAGE-nabidky\\u002Fletaky",
+      "featureProductInStoreListing",
+      "featureProductInStoreAvailability",
+      "featureProductDiscovery",
+      "featureProductDiscoveryAlgolia",
+      "featureProductDiscoveryShopForward",
+      "product",
+      "products",
+      "product_configuration",
+      "product_overview_configuration",
+      "mapsApiKey",
+      "products.result.empty",
+      "products.count",
+      "products.sort.pricecheapestfirst",
+      "products.sort.pricemostexpensivefirst",
+      "products.sort.text",
+      "products.sort.relevance",
+      "search.parts.products.goto",
+      "search.parts.products.headline",
+      "search.results.products.headline",
+      "product.price.badges.loyalty",
+      "product.category.showall",
+      "product.actions.button.addtocart",
+      "product.actions.button.zoomin",
+      "product.actions.button.viewinshop",
+      "product.actions.button.addtocartsuccess",
+      "product.actions.button.zoomout",
+      "product.actions.quantity",
+      "product.productimage",
+      "product.info.skuprefix",
+      "filter.products.categoryroot",
+      "filter.products.categorychild",
+      "form.productbestbeforedate",
+      "form.hints.productbestbeforedate",
+      "form.hints.productname",
+      "form.hints.productean",
+      "form.hints.productbatchnumber",
+      "form.productname"
+    ]
+  },
+  "productLikeLines": [
+    "Vyhledávejte produkty, recepty či články",
+    "Od pondělí do neděle"
+  ],
+  "technicalPotential": {
+    "rating": "high-for-structured-data",
+    "notes": [
+      "Stránka obsahuje JSON-LD bloky: 2.",
+      "Ve stránce jsou náznaky API/datových endpointů.",
+      "Nalezeny PDF odkazy: 1.",
+      "Nalezeny odkazy na leták/viewer: 7.",
+      "Nalezeny řádky podobné produktům/cenám: 2."
+    ]
+  },
+  "sampleLinks": [
+    {
+      "href": "https://www.penny.cz/nabidky/letaky#main",
+      "text": "Na úvod"
+    },
+    {
+      "href": "https://www.penny.cz/nabidky/letaky#menu-item-1",
+      "text": "K navigaci"
+    },
+    {
+      "href": "https://www.penny.cz/nabidky/letaky#search",
+      "text": "K vyhledávání"
+    },
+    {
+      "href": "https://www.penny.cz/nabidky/letaky#mobile-search",
+      "text": "K vyhledávání"
+    },
+    {
+      "href": "https://www.penny.cz/nabidky/letaky#footer",
+      "text": "K patičce"
+    },
+    {
+      "href": "https://www.penny.cz/",
+      "text": ""
+    },
+    {
+      "href": "https://www.penny.cz/prodejny",
+      "text": ""
+    },
+    {
+      "href": "https://www.penny.cz/",
+      "text": "Zpět na úvodní stranu"
+    },
+    {
+      "href": "https://www.penny.cz/nabidky",
+      "text": "Nabídky"
+    },
+    {
+      "href": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+      "text": ""
+    },
+    {
+      "href": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me",
+      "text": "Prohlédnout"
+    },
+    {
+      "href": "https://www.penny.cz/prodejny",
+      "text": "Otevírací doba: PO-NE 7:00 - 20:00"
+    },
+    {
+      "href": "https://www.penny.cz/stranka/o-nas",
+      "text": "O společnosti Penny Market s.r.o."
+    },
+    {
+      "href": "https://www.penny.cz/media",
+      "text": "Pro média"
+    },
+    {
+      "href": "https://www.penny.cz/kariera",
+      "text": "Kariéra"
+    },
+    {
+      "href": "https://www.penny.cz/stranka/nase-sluzby",
+      "text": "Naše služby"
+    },
+    {
+      "href": "https://www.penny.cz/kontakty",
+      "text": "Napište nám na info@penny.cz"
+    },
+    {
+      "href": "https://www.penny.cz/stranka/casto-kladene-otazky",
+      "text": "Nejčastěji kladené otázky"
+    },
+    {
+      "href": "http://www.penny.cz/spolecenskaodpovednost",
+      "text": "Společenská odpovědnost"
+    },
+    {
+      "href": "https://assets-eu-01.kc-usercontent.com/b490fe50-3436-01c5-6cd3-1e0fc2fff5ea/8fd348ae-e367-4f1a-99d5-34a867abb7e2/Zpra%CC%81va%20o%20udrz%CC%8Citelnosti%202023.pdf",
+      "text": "Zpráva o udržitelnosti PENNY 2023"
+    },
+    {
+      "href": "https://www.penny.cz/konecplytvani",
+      "text": "Neplýtváme s PENNY"
+    },
+    {
+      "href": "https://www.penny.cz/stranka/radio",
+      "text": "PENNY rádio"
+    },
+    {
+      "href": "https://www.penny.cz/stranka/pro-dodavatele",
+      "text": "Pro dodavatele"
+    },
+    {
+      "href": "https://www.penny.cz/prohlaseni-o-pristupnosti",
+      "text": "Prohlášení o přístupnosti společnosti Penny Market s.r.o."
+    },
+    {
+      "href": "https://www.penny.cz/lksg",
+      "text": "Náležitá péče v dodavatelském řetězci (LkSG)"
+    },
+    {
+      "href": "https://www.facebook.com/PennyMarket",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/user/pennymarketcz",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/pennymarketcz/",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=cz.penny.app",
+      "text": ""
+    },
+    {
+      "href": "https://apps.apple.com/cz/app/id1548691177",
+      "text": ""
+    },
+    {
+      "href": "https://www.penny.cz/Impressum",
+      "text": "Impressum, compliance a whistleblowing"
+    },
+    {
+      "href": "https://www.penny.cz/zasady-ochrany-osobnich-udaju",
+      "text": "Zásady ochrany osobních údajů"
+    },
+    {
+      "href": "https://www.penny.cz/informacni-rad",
+      "text": "Informační a reklamační řád"
+    },
+    {
+      "href": "https://www.penny.cz/provozni-rad",
+      "text": "Provozní řád "
+    },
+    {
+      "href": "https://ochranadat.penny.cz/",
+      "text": "ochranadat.penny.cz"
+    },
+    {
+      "href": "https://www.penny.cz/Impressum",
+      "text": "Impressum, compliance a whistleblowing"
+    },
+    {
+      "href": "https://www.penny.cz/zasady-ochrany-osobnich-udaju",
+      "text": "Zásady ochrany osobních údajů"
+    },
+    {
+      "href": "https://www.penny.cz/informacni-rad",
+      "text": "Informační a reklamační řád"
+    },
+    {
+      "href": "https://www.penny.cz/provozni-rad",
+      "text": "Provozní řád"
+    },
+    {
+      "href": "https://ochranadat.penny.cz/",
+      "text": "ochranadat.penny.cz"
+    }
+  ],
+  "sampleTextLines": [
+    "Letáky | penny.cz",
+    "Na úvod",
+    "K navigaci",
+    "K vyhledávání",
+    "K vyhledávání",
+    "K patičce",
+    "NAKUPUJTE HEZKY ČESKY",
+    "NAŠE AKCE",
+    "NAŠE AKCE",
+    "expand_more",
+    "NAŠE PRODUKTY",
+    "NAŠE PRODUKTY",
+    "expand_more",
+    "PENNY KARTA",
+    "PENNY KARTA",
+    "expand_more",
+    "NAŠE KAMPANĚ",
+    "NAŠE KAMPANĚ",
+    "expand_more",
+    "PENNY KOUTEK",
+    "PENNY KOUTEK",
+    "expand_more",
+    "SPOLEČENSKÁ ODPOVĚDNOST",
+    "SPOLEČENSKÁ ODPOVĚDNOST",
+    "expand_more",
+    "KARIÉRA",
+    "KARIÉRA",
+    "expand_more",
+    "PRO MÉDIA",
+    "PRO MÉDIA",
+    "expand_more",
+    "Více",
+    "Více",
+    "expand_more",
+    "Vyhledávejte produkty, recepty či články",
+    "search",
+    "menu",
+    "Zpět na úvodní stranu",
+    "/",
+    "Nabídky",
+    "/",
+    "Letáky",
+    "13. 5. - 19. 5.",
+    "Prohlédnout",
+    "Chcete nás poznat?",
+    "Penny Market s.r.o.",
+    "Otevírací doba: PO-NE 7:00 - 20:00",
+    "O společnosti Penny Market s.r.o.",
+    "Pro média",
+    "Kariéra",
+    "Naše služby",
+    "Máte nějakou otázku?",
+    "Kontaktujte nás!",
+    "800 202 220",
+    "Od pondělí do neděle",
+    "od 8:00 do 20:00",
+    "Napište nám na info@penny.cz",
+    "Nejčastěji kladené otázky",
+    "PENNY dbá o přírodu!",
+    "Kvalita a udržitelnost",
+    "Společenská odpovědnost",
+    "Zpráva o udržitelnosti PENNY 2023",
+    "Neplýtváme s PENNY",
+    "PENNY rádio",
+    "Pro dodavatele",
+    "Prohlášení o přístupnosti společnosti Penny Market s.r.o.",
+    "Náležitá péče v dodavatelském řetězci (LkSG)",
+    "Sledujte PENNY!",
+    "Najdete nás např.",
+    "Impressum, compliance a whistleblowing",
+    "Zásady ochrany osobních údajů",
+    "Informační a reklamační řád",
+    "Provozní řád",
+    "ochranadat.penny.cz",
+    "Impressum, compliance a whistleblowing",
+    "Zásady ochrany osobních údajů",
+    "Informační a reklamační řád",
+    "Provozní řád",
+    "ochranadat.penny.cz"
+  ],
+  "error": null
+}

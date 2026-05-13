@@ -1,0 +1,734 @@
+{
+  "chain": "Kaufland",
+  "sourceUrl": "https://prodejny.kaufland.cz/letak.html",
+  "dependsOnStore": "yes",
+  "sourceNote": "Kaufland typicky pracuje s konkrétní prodejnou/lokalitou.",
+  "checkedAt": "2026-05-13T07:19:49.241Z",
+  "ok": true,
+  "status": 200,
+  "finalUrl": "https://prodejny.kaufland.cz/letak.html",
+  "contentType": "text/html; charset=UTF-8",
+  "htmlLength": 178541,
+  "pdfLinks": [],
+  "viewerLinks": [
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Prodejna:"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Vyhledat trasu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit prodejnu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Více informací o prodejně"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Přihlásit se"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Jste zde nový? Zaregistrujte se!"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Profil"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Odhlásit se"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit nebo upravit nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Menu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit nebo upravit nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#navigation-marketplace",
+      "text": "Online marketplace"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#navigation-market",
+      "text": "Nabídka prodejny"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Akční leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Akční leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Akční leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Sdílet"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Sdílet"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Sdílet"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Sdílet"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit prodejnu"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_3300_CZ20-LFT/ar/3300",
+      "text": "Akční nabídka 13.05.2026 – 19.05.2026 Kaufland Prolistovat leták"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_Hyper1_3300_CZ20-CL1/ar/3300",
+      "text": "Spotřební zboží 13.05.2026 – 19.05.2026 Kaufland Prolistovat leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit prodejnu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit prodejnu"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_Wrapper1_3300_CZ19-CL3/ar/3300",
+      "text": "Vyvážený nákup 06.05.2026 – 02.06.2026 Kaufland Prolistovat"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_Wrapper2_3300_CZ12-CL4/ar/3300",
+      "text": "K-Jarmark 18.03.2026 – 18.05.2026 Kaufland Prolistovat"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_Magazine1_3300_CZ08-CL5/ar/3300",
+      "text": "K-Classic 18.02.2026 – 18.05.2026 Kaufland Prolistovat"
+    },
+    {
+      "href": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_Magazine2_3300_CZ09-CL6/ar/3300",
+      "text": "K-Mistři od fochu 23.02.2026 – 18.05.2026 Kaufland Prolistovat"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit prodejnu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/servis/newsletter.html?intcid=Content_Banner_None_Service%3Aodkazvstrletak-newsletter",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/kauflandcard.html?intcid=Content_Banner_None_Service%3Aodkazvstrletak-kauflandcard",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/servis/whatsapp.html?intcid=Content_Banner_None_Service%3Aodkazvstrletak-whatsapp",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#seo-footer-1",
+      "text": "Kaufland.cz"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#seo-footer-2",
+      "text": "Servis"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#seo-footer-3",
+      "text": "O nás"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#seo-footer-4",
+      "text": "Sortiment"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#top",
+      "text": ""
+    }
+  ],
+  "possibleData": {
+    "scriptJsonOrJsAssets": [
+      "https://prodejny.kaufland.cz/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+      "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/manifest-7e86afde7ead0c1343100b29382ef58f.json",
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/js/vendors~app~consumer~ssc2~ssc~career~corporation-66a315dcb5.min.js",
+      "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/js/vendors~app~consumer~ssc~career~corporation-2cceedf8db.min.js",
+      "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/js/vendors~app~consumer-827506850f.min.js",
+      "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/js/consumer-afb20730c0.min.js",
+      "https://assets.adobedtm.com/5e52683bb000/46cfac0f6f9e/launch-EN896beb140e364a99b3c8bb9468565428.min.js"
+    ],
+    "hasNextData": false,
+    "jsonLdCount": 1,
+    "endpointHints": [
+      ">\n\n<head><title>\n\tAktuální leták | Kaufland\n</title>\n<meta name=",
+      "Prolistujte si náš aktuální leták online! Den před akcí si navíc můžete prohlédnout i nový leták na příští týden. Akční letáky lze stáhnout i do PDF.",
+      "leták,akční leták,aktuální leták,leták kaufland",
+      "Kaufland | Aktuální leták",
+      "Co je nového v akci? Jděte s dobou a prolistujte si leták digitálně! Můžete si jej prohlédnout vždy den před začátkem akce a kdykoli během ní na této stránce nebo v naší mobilní aplikaci. A po přihlášení k našemu newsletteru vás na něj vždy upozorníme, aby vám už neutekla žádná sleva!",
+      "https://prodejny.kaufland.cz/letak.html",
+      "kl:cz:cs:letak",
+      "letak",
+      "Leták",
+      "Leaflet",
+      "Leaflets Overview",
+      "ProductRecall",
+      "a-icon-tile a-icon-tile--animation a-icon-tile--assortment-offers-promotion-campaign  c-bg-assortment-fruits-vegetables",
+      "a-icon-tile a-icon-tile--animation a-icon-tile--assortment-offers-promotion-new-this-week  c-bg-assortment-breakfast-spreads",
+      "a-icon-tile a-icon-tile--animation a-icon-tile--assortment-offers-discount  c-bg-assortment-staple-foods-food",
+      "a-icon-tile a-icon-tile--animation a-icon-tile--assortment-offers-promotion-campaign  c-bg-assortment-non-food-household",
+      "a-icon-tile a-icon-tile--animation a-icon-tile--assortment-offers-promotion-new-this-week  c-bg-assortment-fresh-chilled-cheese",
+      "a-icon-tile a-icon-tile--animation a-icon-tile--assortment-offers-discount  c-bg-assortment-drinks",
+      "a-icon-tile a-icon-tile--animation a-icon-tile--assortment-offers-promotion-campaign  c-bg-assortment-snacks-sweets-confectionery",
+      "a-icon-tile a-icon-tile--animation a-icon-tile--assortment-offers-promotion-new-this-week  c-bg-assortment-fish",
+      "a-icon-tile a-icon-tile--animation a-icon-tile--assortment-offers-discount  c-bg-assortment-meat",
+      " data-url-api=",
+      "xtraProductsUrl",
+      "/.klxtraproductscategory.json",
+      "xtraProductsMoreUrl",
+      "/.klxtraproducts.json",
+      "xtraProductsLegacyUrl",
+      "/.klxtraproductslegacy.json",
+      "api",
+      "https://app.kaufland.net/auth/api/v1/auth",
+      "urlShoppingListApi",
+      "https://live.api.schwarz/sit/kaufland-app/kfl-shoppinglistapi-service/v1/shoppinglistapi",
+      "o-special-offers-controller",
+      "SpecialOffersController",
+      "o-special-offers-controller__settings",
+      "apiUrl",
+      "/.kloffers.storeName={storeName}.json",
+      "/letak.html",
+      ">Leták</span>\n            </span>\n\t\t</a>\n\t</div>\n</div>\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=",
+      "store-offers",
+      " data-url-api-assortment=",
+      " data-url-api-recipes=",
+      " data-url-api-offers=",
+      "a-data-acc-header-store-offers",
+      "o-navigation-main__link o-navigation-main__link--level-1 o-navigation-main__link--has-main-icon a-ico-assortment-offers-discount--before ",
+      "/nabidka/prehled.html?kloffer-week=current&amp;kloffer-category=01_Maso__drůbež__uzeniny&amp;intcid=Content_Link-List_None_Offers:odkazvmenu-vakci&amp;intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "/nabidka/prehled.html?kloffer-week=current&amp;kloffer-category=02_Ovoce__zelenina__rostliny&amp;intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "/nabidka/prehled.html?kloffer-week=current&amp;kloffer-category=03_Mléčné_výrobky__tuky__vejce&amp;intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "/nabidka/prehled.html?kloffer-week=current&amp;kloffer-category=05_Lahůdky__konzervy&amp;intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "/nabidka/prehled.html?kloffer-week=current&amp;kloffer-category=06_Základní_potraviny__pečivo&amp;intcid=Content_Link-List_None_Offers:odkazvmenu-vakci"
+    ]
+  },
+  "productLikeLines": [
+    "Nákupní lístek",
+    "Přidat na nákupní lístek",
+    "Založit nový nákupní lístek",
+    "Změnit nebo upravit nákupní lístek",
+    "Časté otázky o nákupním lístku",
+    "Nákupní lístek",
+    "Přidat na nákupní lístek",
+    "Založit nový nákupní lístek",
+    "Změnit nebo upravit nákupní lístek",
+    "Časté otázky o nákupním lístku",
+    "Mléko v akci",
+    "Mléčné výrobky, vejce a máslo v akci",
+    "Dostupná od pondělí do pátku od 08:00 do 20:00 hodin."
+  ],
+  "technicalPotential": {
+    "rating": "high-for-structured-data",
+    "notes": [
+      "Stránka obsahuje JSON-LD bloky: 1.",
+      "Ve stránce jsou náznaky API/datových endpointů.",
+      "Nalezeny odkazy na leták/viewer: 46.",
+      "Nalezeny řádky podobné produktům/cenám: 13."
+    ]
+  },
+  "sampleLinks": [
+    {
+      "href": "https://prodejny.kaufland.cz/",
+      "text": ".white{fill: #fff} .red{fill:#e10915}"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/kauflandcard/kauflandcard.html",
+      "text": "Kaufland Card"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Prodejna:"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/servis/kontakt.store.html",
+      "text": "Kontakt"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Vyhledat trasu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit prodejnu"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Více informací o prodejně"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Přihlásit se"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Jste zde nový? Zaregistrujte se!"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Profil"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Odhlásit se"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit nebo upravit nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/servis/caste-otazky.html#nakupni-listek",
+      "text": "Časté otázky o nákupním lístku"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Menu"
+    },
+    {
+      "href": "https://www.kaufland.cz/",
+      "text": "Online marketplace"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/",
+      "text": "Nabídka prodejny"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": ""
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#",
+      "text": "Změnit nebo upravit nákupní lístek"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/servis/caste-otazky.html#nakupni-listek",
+      "text": "Časté otázky o nákupním lístku"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/",
+      "text": ".white{fill: #fff} .red{fill:#e10915}"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#navigation-marketplace",
+      "text": "Online marketplace"
+    },
+    {
+      "href": "https://www.kaufland.cz/c/elektronika-a-pocitace/~34331/711/",
+      "text": "Elektronika a počítače"
+    },
+    {
+      "href": "https://www.kaufland.cz/c/hobby-a-zahrada/~23671/",
+      "text": "Zahrada a hobby"
+    },
+    {
+      "href": "https://www.kaufland.cz/c/kuchyne-a-domacnost/~9541/",
+      "text": "Kuchyně a domácnost"
+    },
+    {
+      "href": "https://www.kaufland.cz/c/miminka-a-deti/~8321/",
+      "text": "Miminka a děti"
+    },
+    {
+      "href": "https://www.kaufland.cz/c/vybaveni-domacnosti-a-nabytek/~1931/",
+      "text": "Vybavení domácnosti a nábytek"
+    },
+    {
+      "href": "https://www.kaufland.cz/c/moda/~1711/",
+      "text": "Móda a doplňky"
+    },
+    {
+      "href": "https://www.kaufland.cz/c/drogerie/~11/",
+      "text": "Péče o tělo a zdraví"
+    },
+    {
+      "href": "https://www.kaufland.cz/c/sport-a-outdoor/~69055/",
+      "text": "Sport a outdoor"
+    },
+    {
+      "href": "https://www.kaufland.cz/c/auto-moto/~16341/",
+      "text": "Auta a motocykly"
+    },
+    {
+      "href": "https://www.kaufland.cz/c/potraviny/~1311/",
+      "text": "Potraviny"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html#navigation-market",
+      "text": "Nabídka prodejny"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle",
+      "text": "Tento týden v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle",
+      "text": "Tento týden v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=01_Maso__dr%C5%AFbe%C5%BE__uzeniny&intcid=Content_Link-List_None_Offers:odkazvmenu-vakci&intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "text": "Maso v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/aktualni-tyden/pivo-v-akci.html",
+      "text": "Pivo v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/aktualni-tyden/kava-v-akci.html",
+      "text": "Káva v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/aktualni-tyden/mleko-v-akci.html",
+      "text": "Mléko v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=02_Ovoce__zelenina__rostliny&intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "text": "Ovoce a zelenina v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=03_Ml%C3%A9%C4%8Dn%C3%A9_v%C3%BDrobky__tuky__vejce&intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "text": "Mléčné výrobky, vejce a máslo v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=05_Lah%C5%AFdky__konzervy&intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "text": "Konzervy a pochoutky v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=06_Z%C3%A1kladn%C3%AD_potraviny__pe%C4%8Divo&intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "text": "Pečivo a základní potraviny v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=07_K%C3%A1va__%C4%8Daj_cukrovinky__slan%C3%A9_pochoutky&intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "text": "Káva, čaj, sladké a slané v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=08_N%C3%A1poje__lihoviny&intcid=Content_Link-List_None_Offers:odkazvmenu-vakci&intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "text": "Alkohol a nealkoholické nápoje v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=09_Drogerie__d%C4%9Btsk%C3%A1_v%C3%BD%C5%BEiva_a_p%C3%A9%C4%8De__krmiva&intcid=Content_Link-List_None_Offers:odkazvmenu-vakci&intcid=Content_Link-List_None_Offers:odkazvmenu-vakci",
+      "text": "Drogerie a krmiva v akci"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Akční leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/letak.html",
+      "text": "Akční leták"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/kauflandcard.html",
+      "text": "Kaufland Card"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/kauflandcard.html",
+      "text": "Kaufland Card"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/kauflandcard/kauflandcard.html",
+      "text": "Objevte výhody Kaufland Card"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/kauflandcard/kupony.html",
+      "text": "Kupóny"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/kauflandcard/kaufland-pay.html",
+      "text": "Kaufland Pay"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/kauflandcard/digitalni-uctenka.html",
+      "text": "Digitální účtenka"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/kauflandcard/partneri.html",
+      "text": "Partneři"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/kauflandcard/soutez.html",
+      "text": "Soutěž"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne.html",
+      "text": "Aktuálně"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne.html",
+      "text": "Aktuálně"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/souteze.html",
+      "text": "Soutěže"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/cerstvost.html",
+      "text": "Čerstvost"
+    },
+    {
+      "href": "https://spolecnost.kaufland.cz/rozhoduji-ciny/defibrilator.html",
+      "text": "Defibrilátor (AEG) Novinka"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/hokej.html",
+      "text": "Hokej"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/padel.html",
+      "text": "Padel"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/sortiment/partnerske-znacky/parkside.html",
+      "text": "Parkside"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/oracle-redbull-racing.html",
+      "text": "Oracle Red Bull Racing"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/regiony.html",
+      "text": "Regionalita"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/pukypomahaji.html",
+      "text": "Puky pomáhají"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/servis.html",
+      "text": "Servis pro zákazníky"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/svetluska.html",
+      "text": "Sbírka pro Světlušku"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/aktualne/vernostni-programy.html",
+      "text": "Věrnostní programy"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/sortiment.html",
+      "text": "Sortiment"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/sortiment.html",
+      "text": "Sortiment"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/sortiment/nase-znacky.html",
+      "text": "Naše značky"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/sortiment/partnerske-znacky.html",
+      "text": "Partnerské značky Novinka"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/sortiment/partnerske-znacky/livarno.html",
+      "text": "LIVARNO Novinka"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/sortiment/partnerske-znacky/silvercrest.html",
+      "text": "SILVERCREST Novinka"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/sortiment/partnerske-znacky/parkside.html",
+      "text": "PARKSIDE"
+    },
+    {
+      "href": "https://prodejny.kaufland.cz/sortiment/novinky.html",
+      "text": "Novinky v sortimentu"
+    }
+  ],
+  "sampleTextLines": [
+    "Aktuální leták | Kaufland",
+    "Přeskočit na",
+    "Hlavní obsah",
+    "Patička",
+    "Data o prodejně se načítají",
+    "Vaše data byla odeslána.",
+    "Leták",
+    "Kaufland Card",
+    "Prodejna:",
+    "Toto není vaše prodejna?",
+    "Změnit",
+    "Vaše prodejna",
+    "Kontakt",
+    "Vyhledat trasu",
+    "Změnit prodejnu",
+    "Více informací o prodejně",
+    "Nedávno vyhledané prodejny",
+    "Přihlásit se",
+    "Přihlásit se",
+    "Jste zde nový? Zaregistrujte se!",
+    "Profil",
+    "Odhlásit se",
+    "Nákupní lístek",
+    "Přidat na nákupní lístek",
+    "Založit nový nákupní lístek",
+    "Změnit nebo upravit nákupní lístek",
+    "Časté otázky o nákupním lístku",
+    "Menu",
+    "Online marketplace",
+    "Nabídka prodejny",
+    "Vyhledat",
+    "Nákupní lístek",
+    "Přidat na nákupní lístek",
+    "Založit nový nákupní lístek",
+    "Změnit nebo upravit nákupní lístek",
+    "Časté otázky o nákupním lístku",
+    "Podívejte se také na nabídku našich prodejen!",
+    "Online marketplace",
+    "Elektronika a počítače",
+    "Zahrada a hobby",
+    "Kuchyně a domácnost",
+    "Miminka a děti",
+    "Vybavení domácnosti a nábytek",
+    "Móda a doplňky",
+    "Péče o tělo a zdraví",
+    "Sport a outdoor",
+    "Auta a motocykly",
+    "Potraviny",
+    "Nabídka prodejny",
+    "Tento týden v akci",
+    "Tento týden v akci",
+    "Maso v akci",
+    "Pivo v akci",
+    "Káva v akci",
+    "Mléko v akci",
+    "Ovoce a zelenina v akci",
+    "Mléčné výrobky, vejce a máslo v akci",
+    "Konzervy a pochoutky v akci",
+    "Pečivo a základní potraviny v akci",
+    "Káva, čaj, sladké a slané v akci",
+    "Alkohol a nealkoholické nápoje v akci",
+    "Drogerie a krmiva v akci",
+    "Akční leták",
+    "Akční leták",
+    "Kaufland Card",
+    "Kaufland Card",
+    "Objevte výhody Kaufland Card",
+    "Kupóny",
+    "Kaufland Pay",
+    "Digitální účtenka",
+    "Partneři",
+    "Soutěž",
+    "Aktuálně",
+    "Aktuálně",
+    "Soutěže",
+    "Čerstvost",
+    "Defibrilátor (AEG)",
+    "Novinka",
+    "Hokej",
+    "Padel",
+    "Parkside",
+    "Oracle Red Bull Racing",
+    "Regionalita",
+    "Puky pomáhají",
+    "Servis pro zákazníky",
+    "Sbírka pro Světlušku",
+    "Věrnostní programy",
+    "Sortiment",
+    "Sortiment",
+    "Naše značky",
+    "Partnerské značky",
+    "Novinka",
+    "LIVARNO",
+    "Novinka",
+    "SILVERCREST",
+    "Novinka",
+    "PARKSIDE",
+    "Novinky v sortimentu",
+    "Čerstvost a kvalita",
+    "Lexikon potravin",
+    "Více ze sortimentu",
+    "Recepty",
+    "Recepty",
+    "Vyhledat recept",
+    "Videorecepty",
+    "Recepty ze sociálních sítí",
+    "Zdravé recepty",
+    "Předkrmy",
+    "Hlavní jídla",
+    "Pečení",
+    "Snídaně",
+    "Nápoje",
+    "Přílohy",
+    "Svačiny pro děti",
+    "Velikonoční recepty",
+    "Halloweenské recepty",
+    "Vánoční recepty",
+    "Online kuchařka",
+    "Online magazín",
+    "Online magazín"
+  ],
+  "error": null
+}

@@ -1,0 +1,533 @@
+{
+  "chain": "Albert",
+  "sourceUrl": "https://www.albert.cz/aktualni-letaky",
+  "dependsOnStore": "partly",
+  "sourceNote": "Nutné rozlišit minimálně supermarket / hypermarket a případně lokalitu.",
+  "checkedAt": "2026-05-13T07:19:49.958Z",
+  "ok": true,
+  "status": 200,
+  "finalUrl": "https://www.albert.cz/aktualni-letaky",
+  "contentType": "text/html; charset=utf-8",
+  "htmlLength": 1129086,
+  "pdfLinks": [
+    "https://economie.fgov.be/sites/default/files/Files/Ventes/Forms/Formulaire-de-retractation.pdf"
+  ],
+  "viewerLinks": [
+    {
+      "href": "https://www.albert.cz/aktualni-letaky#main-content",
+      "text": "Přeskočit"
+    },
+    {
+      "href": "https://www.albert.cz/aktualni-letaky",
+      "text": "LETÁKY"
+    },
+    {
+      "href": "https://www.albert.cz/aktualni-letaky",
+      "text": "Albert leták"
+    },
+    {
+      "href": "https://www.albert.cz/aktualni-letaky",
+      "text": "Albert leták"
+    }
+  ],
+  "possibleData": {
+    "scriptJsonOrJsAssets": [
+      "https://www.albert.cz/ruxitagentjs_ICA1589NPRTUVXfhqru_10335260306043831.js",
+      "https://assets.adobedtm.com/cb7c8da1ae6b/80715598ca38/launch-4c7465818704.min.js",
+      "https://www.albert.cz/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "https://www.albert.cz/_next/static/chunks/4348.ab4beebf20417a9e.js",
+      "https://www.albert.cz/_next/static/chunks/CmsImage.353da22c16d4e8f0.js",
+      "https://www.albert.cz/_next/static/chunks/8377.fa2838d65f5c1371.js",
+      "https://www.albert.cz/_next/static/chunks/CmsLeaflets.30cddb335f62f923.js",
+      "https://www.albert.cz/_next/static/chunks/CmsStructuredText.665e8c5ef60532ff.js",
+      "https://www.albert.cz/_next/static/chunks/4670.7142b3b33e396f00.js",
+      "https://www.albert.cz/_next/static/chunks/2574.748bafe04db72bc4.js",
+      "https://www.albert.cz/_next/static/chunks/6761.1a05128b52f9d777.js",
+      "https://www.albert.cz/_next/static/chunks/6415.ab5f74cba359bf02.js",
+      "https://www.albert.cz/_next/static/chunks/1787.fffae15497db145c.js",
+      "https://www.albert.cz/_next/static/chunks/9511.440f486875b91790.js",
+      "https://www.albert.cz/_next/static/chunks/2201.39711366ecf2bd55.js",
+      "https://www.albert.cz/_next/static/chunks/CmsSubscribeToFlyers.f2bc84fb3fd7ff9d.js",
+      "https://www.albert.cz/_next/static/chunks/CmsCommercialPopup.7bacd96b2f6809df.js",
+      "https://www.albert.cz/_next/static/chunks/CmsProfilingConsentReminder.671acff33e7998df.js",
+      "https://www.albert.cz/_next/static/chunks/3896.5b9a2f7f59b992af.js",
+      "https://www.albert.cz/_next/static/chunks/5829.abc165389927d3e0.js",
+      "https://www.albert.cz/_next/static/chunks/3872.7800f9c17746518c.js",
+      "https://www.albert.cz/_next/static/chunks/5306.5dc282005016e125.js",
+      "https://www.albert.cz/_next/static/chunks/CmsNudgeToSelectStore.8d3fc89ad756ecd1.js",
+      "https://www.albert.cz/_next/static/chunks/webpack-429c2db3cb4786b8.js",
+      "https://www.albert.cz/_next/static/chunks/framework-c6c82aad00023883.js",
+      "https://www.albert.cz/_next/static/chunks/main-6aa7cbd49b9a595a.js",
+      "https://www.albert.cz/_next/static/chunks/pages/_app-2847405ce7f36145.js",
+      "https://www.albert.cz/_next/static/chunks/2526-98b6f4bbf248c821.js",
+      "https://www.albert.cz/_next/static/chunks/5459-2d38fd4ca7404441.js",
+      "https://www.albert.cz/_next/static/chunks/685-df59211eaa9808e0.js",
+      "https://www.albert.cz/_next/static/chunks/125-a3dd06cbddcf4f2c.js",
+      "https://www.albert.cz/_next/static/chunks/4997-a880230acd823e30.js",
+      "https://www.albert.cz/_next/static/chunks/9763-1fd8e3be1d09fe05.js",
+      "https://www.albert.cz/_next/static/chunks/9024-fed88848b1f58d09.js",
+      "https://www.albert.cz/_next/static/chunks/6466-b7e4bd528e585b00.js",
+      "https://www.albert.cz/_next/static/chunks/pages/index-30e73a670e7cda54.js",
+      "https://www.albert.cz/_next/static/ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387/_buildManifest.js",
+      "https://www.albert.cz/_next/static/ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387/_ssgManifest.js"
+    ],
+    "hasNextData": true,
+    "jsonLdCount": 1,
+    "endpointHints": [
+      ");\n      font-weight: 700;\n      font-style: normal;\n      font-display: swap;\n    }\n  </style><title>Albert leták - Supermarket a Hypermarket | Albert</title><meta name=",
+      "Prohlédněte si aktuální letáky Albert pro supermarket i hypermarket! Čeká vás týdenní nabídka plná skvělých cen a akcí na vaše oblíbené produkty.",
+      "Albert leták - Supermarket a Hypermarket | Albert",
+      "//static.albert.cz/site/binaries/_ht_1712567423307/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_letak_1200x630.png",
+      "www.albert.cz/aktualni-letaky",
+      "https://www.albert.cz/aktualni-letaky",
+      "/><script>\n  window.mapi = {\n    getDeviceId: () => ((e,i)=>{let n;try{n=localStorage.getItem(i)}catch{n=null}if(n)return n;let t=",
+      "https://www.albert.cz/api/v1/",
+      ", cb),\n  };\n  window.mapi.getDeviceId();\n</script><meta name=",
+      "leaflet",
+      "leaflets-page",
+      "https://www.albert.cz/_next/static/chunks/CmsLeaflets.30cddb335f62f923.js",
+      ">Albert leták - Supermarket a Hypermarket | Albert</span><div data-testid=",
+      "LETÁKY",
+      "/aktualni-letaky",
+      ">LETÁKY</span></a></div></li><li><div class=",
+      "Akční letáky",
+      ">Akční letáky</span></div></li></ol></nav></div></div></div><div class=",
+      ">Aktuální akční letáky</h1></div><main id=",
+      ">Aktuální akční letáky</h1></div><div data-testid=",
+      ">Supermarket leták<!-- --> </h2><span class=",
+      ">Akční leták pro Albert supermarkety</span></div></div><div class=",
+      "leaflet-root",
+      "https://letaky.albert.cz/20sm_akcni_letak/cover_page.jpg?ts=1778596170&amp;size=at600",
+      "leaflet-store-list-button",
+      "https://letaky.albert.cz/19sm_akcni_katalog_brand/cover_page.jpg?ts=1777549916&amp;size=at600",
+      "https://letaky.albert.cz/20sm_akcni_katalog_bio/cover_page.jpg?ts=1778155744&amp;size=at600",
+      ">Hypermarket leták<!-- --> </h2><span class=",
+      ">Akční leták pro Albert hypermarkety</span></div></div><div class=",
+      "https://letaky.albert.cz/20hm_akcni_letak/cover_page.jpg?ts=1778569826&amp;size=at600",
+      "https://letaky.albert.cz/20hm_akcni_katalog_bio/cover_page.jpg?ts=1778488228&amp;size=at600",
+      "https://letaky.albert.cz/19hm_akcni_katalog_vino/cover_page.jpg?ts=1777986275&amp;size=at600",
+      "https://letaky.albert.cz/19hm_akcni_katalog_brand/cover_page.jpg?ts=1777548392&amp;size=at600",
+      "//static.albert.cz/site/binaries/_ht_1778585462064/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=592",
+      "//static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=784",
+      "//static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=1200",
+      "//static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=843",
+      ">ALBERT LETÁK</h2>\n\n<p style=",
+      ">Chcete mít přehled o slevách s předstihem? Přihlaste se k odběru letáků pomocí formuláře níže a nechte si Albert akční leták posílat e-mailem. Albert newsletter vám každý týden přinese ty nejlepší akce, tipy na nákupy i inspiraci na vaření.</p>\n</div></div></div></div></div></div><div data-testid=",
+      "//static.albert.cz/site/binaries/_ht_1778585463130/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=592",
+      "//static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=784",
+      "//static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=1200",
+      "//static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=408",
+      ">Albert akční leták najdete také v aplikaci <a class=",
+      "myAccount.burnableOffers.partnerOffer.activation.not.allowed",
+      "myAccount.burnableOffers.burn.basket.deactivate.keep.offer",
+      "product.details.section.info.attributes.badgeproductistasteofinspiration.tooltip",
+      "product.details.section.ratingAndReview.review.cancel",
+      "product.details.section.description.storageConditions",
+      "product.details.section.ratingAndReview.review.userName"
+    ]
+  },
+  "productLikeLines": [],
+  "technicalPotential": {
+    "rating": "high-for-structured-data",
+    "notes": [
+      "Stránka obsahuje __NEXT_DATA__, může jít o strukturovaná data.",
+      "Stránka obsahuje JSON-LD bloky: 1.",
+      "Ve stránce jsou náznaky API/datových endpointů.",
+      "Nalezeny PDF odkazy: 1.",
+      "Nalezeny odkazy na leták/viewer: 4."
+    ]
+  },
+  "sampleLinks": [
+    {
+      "href": "https://www.albert.cz/aktualni-letaky#main-content",
+      "text": "Přeskočit"
+    },
+    {
+      "href": "https://www.albert.cz/",
+      "text": ""
+    },
+    {
+      "href": "https://www.albert.cz/aktualni-letaky",
+      "text": "LETÁKY"
+    },
+    {
+      "href": "https://www.albert.cz/recepty",
+      "text": "RECEPTY"
+    },
+    {
+      "href": "https://www.albert.cz/aplikace",
+      "text": "MŮJ ALBERT"
+    },
+    {
+      "href": "https://www.albert.cz/nase-prodejny",
+      "text": "PRODEJNY"
+    },
+    {
+      "href": "https://www.albert.cz/",
+      "text": "Albert"
+    },
+    {
+      "href": "https://www.albert.cz/",
+      "text": ""
+    },
+    {
+      "href": "https://www.albert.cz/aplikace",
+      "text": "Můj Albert"
+    },
+    {
+      "href": "https://www.albert.cz/magazin-albert",
+      "text": "Albert Magazín"
+    },
+    {
+      "href": "https://www.albert.cz/nase-prodejny",
+      "text": "prodejnách Albert."
+    },
+    {
+      "href": "https://www.albert.cz/prodejny-kontakt",
+      "text": "Albert prodejny Kontakty pro dotazy na prodejny"
+    },
+    {
+      "href": "https://www.albert.cz/muj-albert-kontakt",
+      "text": "Můj Albert Kontakty pro dotazy na aplikaci Můj Albert"
+    },
+    {
+      "href": "https://www.albert.cz/zasady-zpracovani-osobnich-udaju",
+      "text": "Podmínkami zpracování osobních údajů."
+    },
+    {
+      "href": "https://x.com/albertcesko",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/albertceskarepublika/",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/albertceskarepublika/",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/user/albertceskarepublika",
+      "text": ""
+    },
+    {
+      "href": "https://cz.linkedin.com/company/albert-ceska-republika",
+      "text": ""
+    },
+    {
+      "href": "https://cz.pinterest.com/albertceskarepublika/_created/",
+      "text": ""
+    },
+    {
+      "href": "https://apps.apple.com/app/id1487977886",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=cz.albert.app",
+      "text": ""
+    },
+    {
+      "href": "https://www.albert.cz/nase-prodejny",
+      "text": "Prodejny Albert"
+    },
+    {
+      "href": "https://www.albert.cz/aktualni-letaky",
+      "text": "Albert leták"
+    },
+    {
+      "href": "https://www.albert.cz/aplikace",
+      "text": "Můj Albert"
+    },
+    {
+      "href": "https://www.albert.cz/albert-online",
+      "text": "Albert Online"
+    },
+    {
+      "href": "https://www.albert.cz/aplikace/albert-scan",
+      "text": "Albert scan"
+    },
+    {
+      "href": "https://www.albert.cz/darkova-karta",
+      "text": "Dárková karta"
+    },
+    {
+      "href": "https://www.nadacnifondalbert.cz/",
+      "text": "Nadační fond Albert"
+    },
+    {
+      "href": "https://www.albert.cz/kariera",
+      "text": "Kariéra"
+    },
+    {
+      "href": "https://www.albert.cz/pro-studenta",
+      "text": "Pro studenty"
+    },
+    {
+      "href": "https://www.albert.cz/pro-zakazniky",
+      "text": "Pro zákazníky"
+    },
+    {
+      "href": "https://www.albert.cz/garance-kvality",
+      "text": "Garance kvality"
+    },
+    {
+      "href": "https://www.albert.cz/news-room",
+      "text": "Pro novináře"
+    },
+    {
+      "href": "https://www.albert.cz/nasi-dodavatele",
+      "text": "Naši dodavatelé"
+    },
+    {
+      "href": "https://www.albert.cz/pro-dodavatele",
+      "text": "Pro dodavatele"
+    },
+    {
+      "href": "https://www.albert.cz/informace-dokumenty",
+      "text": "Důležité informace a dokumenty"
+    },
+    {
+      "href": "https://www.albert.cz/prodejny-kontakt",
+      "text": "Albert prodejny kontakt"
+    },
+    {
+      "href": "https://www.albert.cz/muj-albert-kontakt",
+      "text": "Můj Albert kontakt"
+    },
+    {
+      "href": "https://www.albert.cz/sidlo-centrala-spolecnosti",
+      "text": "Sídlo a centrála společnosti"
+    },
+    {
+      "href": "https://www.albert.cz/nase-prodejny",
+      "text": "Prodejny Albert"
+    },
+    {
+      "href": "https://www.albert.cz/aktualni-letaky",
+      "text": "Albert leták"
+    },
+    {
+      "href": "https://www.albert.cz/aplikace",
+      "text": "Můj Albert"
+    },
+    {
+      "href": "https://www.albert.cz/albert-online",
+      "text": "Albert Online"
+    },
+    {
+      "href": "https://www.albert.cz/aplikace/albert-scan",
+      "text": "Albert scan"
+    },
+    {
+      "href": "https://www.albert.cz/darkova-karta",
+      "text": "Dárková karta"
+    },
+    {
+      "href": "https://www.nadacnifondalbert.cz/",
+      "text": "Nadační fond Albert"
+    },
+    {
+      "href": "https://www.albert.cz/kariera",
+      "text": "Kariéra"
+    },
+    {
+      "href": "https://www.albert.cz/pro-studenta",
+      "text": "Pro studenty"
+    },
+    {
+      "href": "https://www.albert.cz/pro-zakazniky",
+      "text": "Pro zákazníky"
+    },
+    {
+      "href": "https://www.albert.cz/garance-kvality",
+      "text": "Garance kvality"
+    },
+    {
+      "href": "https://www.albert.cz/news-room",
+      "text": "Pro novináře"
+    },
+    {
+      "href": "https://www.albert.cz/nasi-dodavatele",
+      "text": "Naši dodavatelé"
+    },
+    {
+      "href": "https://www.albert.cz/pro-dodavatele",
+      "text": "Pro dodavatele"
+    },
+    {
+      "href": "https://www.albert.cz/informace-dokumenty",
+      "text": "Důležité informace a dokumenty"
+    },
+    {
+      "href": "https://www.albert.cz/prodejny-kontakt",
+      "text": "Albert prodejny kontakt"
+    },
+    {
+      "href": "https://www.albert.cz/muj-albert-kontakt",
+      "text": "Můj Albert kontakt"
+    },
+    {
+      "href": "https://www.albert.cz/sidlo-centrala-spolecnosti",
+      "text": "Sídlo a centrála společnosti"
+    },
+    {
+      "href": "https://apps.apple.com/app/id1487977886",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=cz.albert.app",
+      "text": ""
+    },
+    {
+      "href": "https://www.albert.cz/zasady-zpracovani-osobnich-udaju",
+      "text": "Zásady zpracování osobních údajů"
+    },
+    {
+      "href": "https://www.albert.cz/informace-o-zpracovani-osobnich-udaju-pro-obchodni-partnery-a-jejich-zamestnance",
+      "text": "Zásady zpracování osobních údajů pro obchodní partnery"
+    },
+    {
+      "href": "https://www.albert.cz/informace-dokumenty/zasady-zpracovani-osobnich-udaju-uchazecu",
+      "text": "Zásady zpracování osobních údajů pro uchazeče o zaměstnání"
+    },
+    {
+      "href": "https://www.albert.cz/compliance-a-oznamovatele",
+      "text": "Compliance a oznamovatelé"
+    },
+    {
+      "href": "https://www.albert.cz/zasady-pouzivani-cookies",
+      "text": "Zásady používání cookies"
+    },
+    {
+      "href": "https://www.albert.cz/vseobecne-obchodni-podminky",
+      "text": "Všeobecné obchodní podmínky pro Online nákup"
+    },
+    {
+      "href": "https://www.albert.cz/vseobecne-obchodni-podminky-muj-albert",
+      "text": "Všeobecné obchodní podmínky aplikace Můj Albert"
+    }
+  ],
+  "sampleTextLines": [
+    "Albert leták - Supermarket a Hypermarket | Albert",
+    "Přeskočit",
+    "Albert leták - Supermarket a Hypermarket | Albert",
+    "LETÁKY",
+    "RECEPTY",
+    "AKCE",
+    "POUZE U NÁS",
+    "MŮJ ALBERT",
+    "PRODEJNY",
+    "Albert",
+    "Akční letáky",
+    "Aktuální akční letáky",
+    "Aktuální akční letáky",
+    "Supermarket leták",
+    "Akční leták pro Albert supermarkety",
+    "Platný",
+    "pro",
+    "ještě 7 dní",
+    "Od 13.05.2026 do 19.05.2026",
+    "Platný",
+    "pro",
+    "ještě 7 dní",
+    "Od 06.05.2026 do 19.05.2026",
+    "Platný",
+    "pro",
+    "ještě 7 dní",
+    "Od 13.05.2026 do 19.05.2026",
+    "Hypermarket leták",
+    "Akční leták pro Albert hypermarkety",
+    "Platný",
+    "pro",
+    "ještě 7 dní",
+    "Od 13.05.2026 do 19.05.2026",
+    "Platný",
+    "pro",
+    "ještě 14 dní",
+    "Od 13.05.2026 do 26.05.2026",
+    "Platný",
+    "pro",
+    "ještě 7 dní",
+    "Od 06.05.2026 do 19.05.2026",
+    "Platný",
+    "pro",
+    "ještě 7 dní",
+    "Od 06.05.2026 do 19.05.2026",
+    "ALBERT LETÁK",
+    "Vítejte na stránce, kde vždy objevíte ten nejčerstvější Albert akční leták plný slev a výhodných akcí! Každý týden zveřejňujeme nový Albert hypermarket leták i Albert supermarket leták, aby vám neunikla žádná výhodná nabídka. Sledujte Albert akce na potraviny, nápoje, čerstvé pečivo, maso, mléčné výrobky, ovoce i zeleninu. Leták Albert je dostupný kdykoliv online – rychle, přehledně a odkudkoliv.",
+    "Plánujete větší rodinný nákup, nebo jen doplnit zásoby na týden? Na této stránce jsou k dispozici všechny aktuální letáky Albert, ať už pro Albert hypermarket, nebo Albert supermarket. Díky nám máte vždy přehled o tom, co se právě vyplatí pořídit. Mrkněte i na leták Albert na příští týden a získejte náskok v plánování svých nákupů. Nezapomeňte také na víkendové, sezónní nebo tematické slevové akce – Albert leták i Albert akční katalog pravidelně přinášejí kvalitu, inspiraci i úsporu.",
+    "ALBERT NEWSLETTER",
+    "Chcete mít přehled o slevách s předstihem? Přihlaste se k odběru letáků pomocí formuláře níže a nechte si Albert akční leták posílat e-mailem. Albert newsletter vám každý týden přinese ty nejlepší akce, tipy na nákupy i inspiraci na vaření.",
+    "APLIKACE MŮJ ALBERT",
+    "Albert akční leták najdete také v aplikaci",
+    "Můj Albert",
+    ", kde si akční produkty jednoduše přidáte na nákupní seznam. Nákupy v Albertu jsou vždy výhodné a díky aplikaci Můj Albert ještě výhodnější. S aplikací můžete využívat Exkluzivní akce , každý měsíc si můžete aktivovat 15% slevu z běžných cen na BIO a Nature's Promise produkty nebo sbírat kredity i body do věrnostních kampaní.",
+    "ALBERT MAGAZÍN",
+    "Nechte se inspirovat!",
+    "Albert Magazín",
+    "přináší každý měsíc tipy na sezónní recepty, zajímavosti ze světa potravin, rozhovory s kuchaři i soutěže o atraktivní výhry. Prolistujte si aktuální číslo Albert Magazínu online nebo v tištěné podobě zdarma přímo v",
+    "prodejnách Albert.",
+    "Albert prodejny",
+    "Kontakty pro dotazy na prodejny",
+    "Můj Albert",
+    "Kontakty pro dotazy na aplikaci Můj Albert",
+    "Přihlaste se k odběru newsletteru",
+    "Zanechte svou e-mailovou adresu a získejte ty nejlepší akce a inspiraci.",
+    "Váš e-mail",
+    "Odebírat",
+    "Tímto souhlasím se zasíláním obchodních sdělení a promočních nabídek na mé kontaktní údaje a zároveň stvrzuji, že jsem se seznámil/a s",
+    "Podmínkami zpracování osobních údajů.",
+    "Sleduj nás na sociálních sítích",
+    "Stáhni naši aplikaci",
+    "Albert",
+    "Prodejny Albert",
+    "Albert leták",
+    "Můj Albert",
+    "Albert Online",
+    "Albert scan",
+    "Dárková karta",
+    "Nadační fond Albert",
+    "Užitečné odkazy",
+    "Kariéra",
+    "Pro studenty",
+    "Pro zákazníky",
+    "Garance kvality",
+    "Pro novináře",
+    "Naši dodavatelé",
+    "Pro dodavatele",
+    "Důležité informace a dokumenty",
+    "Kontakty",
+    "Albert prodejny kontakt",
+    "Můj Albert kontakt",
+    "Sídlo a centrála společnosti",
+    "Albert",
+    "Prodejny Albert",
+    "Albert leták",
+    "Můj Albert",
+    "Albert Online",
+    "Albert scan",
+    "Dárková karta",
+    "Nadační fond Albert",
+    "Užitečné odkazy",
+    "Kariéra",
+    "Pro studenty",
+    "Pro zákazníky",
+    "Garance kvality",
+    "Pro novináře",
+    "Naši dodavatelé",
+    "Pro dodavatele",
+    "Důležité informace a dokumenty",
+    "Kontakty",
+    "Albert prodejny kontakt",
+    "Můj Albert kontakt",
+    "Sídlo a centrála společnosti",
+    "Stáhni naši aplikaci",
+    "Zásady zpracování osobních údajů",
+    "Zásady zpracování osobních údajů pro obchodní partnery",
+    "Zásady zpracování osobních údajů pro uchazeče o zaměstnání",
+    "Compliance a oznamovatelé",
+    "Zásady používání cookies",
+    "Všeobecné obchodní podmínky pro Online nákup"
+  ],
+  "error": null
+}

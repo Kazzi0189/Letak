@@ -352,6 +352,32 @@ function hasUnparsedPriceBeforePackage(productPrefix) {
   return /(?:100\s*g|1\s*kg|1\s*l|100\s*ml|1\s*ks|100\s*ks|1\s*m)\s+\d{1,4}(?:\s?\d{3})*,\d{1,2}(?:\s*[\/–-]\s*\d{1,4}(?:\s?\d{3})*,\d{1,2})?\s*Kč/i.test(productPrefix);
 }
 
+function cleanupProductPrefixBeforePackage(productPrefix) {
+  let value = productPrefix.replace(/\s+/g, " ").trim();
+
+  // Když před aktuální položkou stojí položka bez jednotkové ceny typu
+  // "BANÁNY cena za 1 kg BRAMBORY ... cena za 1 kg ŽAMPIONY 400 g 1 kg ...",
+  // nechceme název před posledním "cena za ...".
+  value = value.replace(/^.*\bcena\s+za\s+1\s+(?:kg|ks)\s+/i, "");
+
+  // Když před aktuální položkou stojí jiná položka jen s balením bez jednotkové ceny:
+  // "ČERSTVÝ SÝR ... 100 g RYBÍ POMAZÁNKA 135 g 100 g ..."
+  // vezmeme text až za posledním hotovým balením.
+  value = value.replace(
+    /^.*\b(?:\d+\s*x\s*)?\d+(?:[ ,]\d+)?(?:\s*[\/–-]\s*\d+(?:[ ,]\d+)?)?\s*(?:g|kg|ml|l|ks|m|svazek|balení)\s+(?=[A-ZÁ-Ž])/,
+    ""
+  );
+
+  // Odstraň přívěsky bodových akcí, které se objevují za poslední položkou.
+  value = value
+    .replace(/\b\d+\s+bod(?:y|ů)?\s+navíc.*$/i, "")
+    .replace(/\bMAX\.\s*osoba\/nákup\/\s*den.*$/i, "")
+    .replace(/\bNabídka platná\b.*$/i, "")
+    .trim();
+
+  return value;
+}
+
 function parsePageProductLine(productLine, pageNumber, sourceUrl) {
   const validFrom = formatDateFromText(productLine, "od");
   let validTo = formatDateFromText(productLine, "do");
@@ -400,7 +426,8 @@ function parsePageProductLine(productLine, pageNumber, sourceUrl) {
     if (!packageMatch) continue;
 
     const packageSize = packageMatch[1].replace(/\s+/g, " ").trim();
-    const productPrefix = beforeUnit.slice(0, packageMatch.index).trim();
+    const rawProductPrefix = beforeUnit.slice(0, packageMatch.index).trim();
+    const productPrefix = cleanupProductPrefixBeforePackage(rawProductPrefix);
     const product = shortenProductPrefix(productPrefix);
 
     if (isBadProductName(product)) continue;
@@ -456,6 +483,8 @@ function parsePageProductLine(productLine, pageNumber, sourceUrl) {
         nearestLeadPrice: chosen.nearestLeadPrice ?? null,
         leadDiff: chosen.leadDiff ?? null,
         ignoredExplicitAfterUnitPrice: explicitPrice,
+        rawProductPrefix,
+        cleanedProductPrefix: productPrefix,
       },
     });
   }
@@ -467,7 +496,7 @@ async function fetchPage(pageNumber) {
   const url = `${VIEWER_BASE_URL}${pageNumber}/index.html`;
   const response = await fetch(url, {
     headers: {
-      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacPennyLeafletHtmlImport/0.4; +https://github.com/)",
+      "user-agent": "Mozilla/5.0 (compatible; LetakovyPorovnavacPennyLeafletHtmlImport/0.5; +https://github.com/)",
       accept: "text/html,application/xhtml+xml",
       "accept-language": "cs-CZ,cs;q=0.9,en;q=0.8",
     },
@@ -530,9 +559,9 @@ async function main() {
     updatedAt: new Date().toISOString(),
     count: publicOffers.length,
     parser: "scripts/import-penny-leaflet-html.mjs",
-    parserVersion: "0.4",
+    parserVersion: "0.5",
     note:
-      "V4: hlavní cena se bere primárně z přepočtu balení × jednotková cena. Hodnota za znakem < se nebere jako akční cena, protože často znamená nejnižší cenu za posledních 30 dní. Přidána podpora variant 28/30 g a 21,07/19,67 Kč.",
+      "V5: oprava názvů položek u bloků, kde před aktuální položkou leží jiná položka typu cena za 1 kg / 1 ks nebo holé balení bez jednotkové ceny. Cílem je omezit slepené názvy jako ČERSTVÝ SÝR ... RYBÍ POMAZÁNKA.",
   };
 
   await writeFile(OUTPUT_FILE, JSON.stringify({ meta, offers: publicOffers }, null, 2) + "\n", "utf8");

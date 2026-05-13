@@ -1,11 +1,11 @@
 {
   "meta": {
     "source": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
-    "updatedAt": "2026-05-13T19:30:07.615Z",
-    "count": 307,
+    "updatedAt": "2026-05-13T19:36:29.753Z",
+    "count": 326,
     "parser": "scripts/import-penny-leaflet-html.mjs",
-    "parserVersion": "0.3",
-    "note": "V3: cena se přednostně dopočítává z jednotkové ceny a balení, explicitní cena za položkou se bere jen bezprostředně za jednotkovou cenou. Debug obsahuje priceSource."
+    "parserVersion": "0.4",
+    "note": "V4: hlavní cena se bere primárně z přepočtu balení × jednotková cena. Hodnota za znakem < se nebere jako akční cena, protože často znamená nejnižší cenu za posledních 30 dní. Přidána podpora variant 28/30 g a 21,07/19,67 Kč."
   },
   "offers": [
     {
@@ -42,7 +42,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/2/index.html",
       "pageNumber": 2,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-3bfbb2dfb808af34",
@@ -60,7 +60,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/2/index.html",
       "pageNumber": 2,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-5b3d05c03654ef84",
@@ -78,17 +78,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/2/index.html",
       "pageNumber": 2,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-b7745cac061acb61",
+      "id": "penny-leaflet-9dcd976baccddd63",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "CROISSANT",
       "brand": "",
       "packageSize": "65 g",
-      "price": 8.9,
+      "price": 9.9,
       "unitPrice": 152.31,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -96,7 +96,25 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
       "pageNumber": 3,
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-00948c2fd8cf945d",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "DONUT s jahodovou, lískooříškovou náplní, rozmrazeno",
+      "brand": "",
+      "packageSize": "69/75 g",
+      "price": 12.9,
+      "unitPrice": 18.7,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
+      "pageNumber": 3,
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-888ef068d7a9ffb7",
@@ -114,7 +132,25 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
       "pageNumber": 3,
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-887a494900617822",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "CHLÉB DŘEVORUBECKÝ VÍCEZRNNÝ",
+      "brand": "",
+      "packageSize": "405 g",
+      "price": 24.9,
+      "unitPrice": 6.15,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
+      "pageNumber": 3,
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-c5d08aaf7d6e2ac0",
@@ -132,7 +168,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
       "pageNumber": 3,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-a2953af4d403a366",
@@ -150,7 +186,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
       "pageNumber": 3,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-cb247b4334a9d4f0",
@@ -168,7 +204,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
       "pageNumber": 3,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-3c70e1fce8c9fd46",
@@ -186,7 +222,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
       "pageNumber": 3,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-7dced55cd97a048d",
@@ -204,17 +240,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
       "pageNumber": 3,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-b4b81d76996a4fec",
+      "id": "penny-leaflet-296731cf37dfead6",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ORCHIDEA CAMBRIA NELLY ISLER*",
       "brand": "",
       "packageSize": "1 svazek",
-      "price": 2.5,
+      "price": 149.9,
       "unitPrice": 6.65,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -240,7 +276,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
       "pageNumber": 3,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-76ab323738fd9429",
@@ -258,7 +294,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
       "pageNumber": 3,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-5db2aace10274948",
@@ -312,7 +348,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-b77f85b9c650c5d0",
@@ -330,7 +366,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-f9d128857d860bc7",
@@ -348,17 +384,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-109b9255c7821d9e",
+      "id": "penny-leaflet-f85a93e38e889120",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "JADEL BONI",
       "brand": "",
       "packageSize": "150 g",
-      "price": 25.91,
+      "price": 25.9,
       "unitPrice": 17.27,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -366,7 +402,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-7a0f7fb53f240832",
@@ -384,7 +420,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-aa7ef44b54e62f4c",
@@ -402,7 +438,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-3f2e8c08867e4011",
@@ -420,7 +456,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-3dbc1548093adbb9",
@@ -438,7 +474,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-292ee06e190e553b",
@@ -456,17 +492,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-d2931405e1db1b57",
+      "id": "penny-leaflet-5cdc6356a525fb8b",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SÝR CHEDDAR 50% PLÁTKY BONI 100 g SÝR ŽERVÉ XXL KARLOVA KORUNA*",
       "brand": "",
       "packageSize": "150 g",
-      "price": 16.91,
+      "price": 16.9,
       "unitPrice": 11.27,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -474,7 +510,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-10af4ec95cf8677d",
@@ -492,7 +528,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-4a899552523e2afe",
@@ -510,7 +546,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-20b47082af92312a",
@@ -528,7 +564,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-db608b4bbe7866ef",
@@ -546,7 +582,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-21221db5359a1c48",
@@ -582,7 +618,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-6c97854e3f194c58",
@@ -600,7 +636,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-339ee844565df2e3",
@@ -618,7 +654,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
       "pageNumber": 4,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-b6bb8c18b7b60f85",
@@ -636,7 +672,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/5/index.html",
       "pageNumber": 5,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-37b3982bae3f7c62",
@@ -654,17 +690,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/5/index.html",
       "pageNumber": 5,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-c2a866ddcf003c6e",
+      "id": "penny-leaflet-03a1e59e6a98f6de",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "DRINK JOGURTOVÝ KARLOVA KORUNA",
       "brand": "",
       "packageSize": "400 g",
-      "price": 15.92,
+      "price": 15.9,
       "unitPrice": 3.98,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -672,7 +708,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/5/index.html",
       "pageNumber": 5,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-648e728dc2506cd5",
@@ -726,7 +762,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/5/index.html",
       "pageNumber": 5,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-5d54fac5f121f09a",
@@ -739,6 +775,24 @@
       "price": 27.93,
       "unitPrice": 2.94,
       "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/5/index.html",
+      "pageNumber": 5,
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-b091ca443b458298",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "MLÉKO ČERSTVÉ 3,5% KARLOVA KORUNA PET 1 l KEFÍROVÉ MLÉKO KARLOVA KORUNA",
+      "brand": "",
+      "packageSize": "500 ml",
+      "price": 99,
+      "unitPrice": 19.8,
+      "unit": "Kč/100 ml",
       "validFrom": "od st 13.05.2026",
       "validTo": "do 19.05.2026",
       "priceType": "leták",
@@ -819,22 +873,22 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-715623d2f4a10597",
+      "id": "penny-leaflet-a4219525807979f8",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SNACK MILKERIA",
       "brand": "",
-      "packageSize": "500 ml",
-      "price": 99,
-      "unitPrice": 19.8,
-      "unit": "Kč/100 ml",
+      "packageSize": "28/30 g",
+      "price": 5.9,
+      "unitPrice": 21.07,
+      "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
       "validTo": "do 19.05.2026",
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/5/index.html",
       "pageNumber": 5,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-9c58db28c978fc85",
@@ -852,7 +906,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/5/index.html",
       "pageNumber": 5,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-72ec8cee7034fe97",
@@ -870,17 +924,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/5/index.html",
       "pageNumber": 5,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-97d78e3760500a72",
+      "id": "penny-leaflet-75db757fd3953c8e",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ANTIPASTI* zelené, červené a cherry papričky plněné smetanovým sýrem",
       "brand": "",
       "packageSize": "210 g",
-      "price": 69.91,
+      "price": 69.9,
       "unitPrice": 33.29,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -888,7 +942,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-0ace366cf932bd08",
@@ -906,17 +960,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-ad80107809acbbb0",
+      "id": "penny-leaflet-0cbd5e27bc0748e0",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "JOGURT OPOČENSKÝ*",
       "brand": "",
       "packageSize": "150 g",
-      "price": 16.91,
+      "price": 16.9,
       "unitPrice": 11.27,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -924,7 +978,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-dcbe8bed43b4dbc1",
@@ -942,7 +996,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-c175b345e6bba672",
@@ -960,7 +1014,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-6164a9ebd229d117",
@@ -978,25 +1032,25 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-1a12d9601eef9b61",
+      "id": "penny-leaflet-c1b72b55dc9fc231",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "NÁPOJ ACTIVIA",
       "brand": "",
-      "packageSize": "125 g",
-      "price": 12.9,
-      "unitPrice": 10.32,
+      "packageSize": "270/280 g",
+      "price": 19.9,
+      "unitPrice": 7.37,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
       "validTo": "do 19.05.2026",
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-9a74ba97c39641fa",
@@ -1032,7 +1086,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-f3f0b1acdd5bff49",
@@ -1050,7 +1104,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-d95084936ccd936d",
@@ -1068,17 +1122,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-c7830f4ed46b48b6",
+      "id": "penny-leaflet-7ea2a5e00936b7fa",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SÝR GRANA PADANO SAN FABIO",
       "brand": "",
       "packageSize": "200 g",
-      "price": 69.9,
+      "price": 79.9,
       "unitPrice": 39.95,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -1086,14 +1140,32 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-6bdb1c66c8af415d",
+      "id": "penny-leaflet-64fd17583271e258",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SÝR GRANA PADANO SAN FABIO strouhaný,",
+      "brand": "",
+      "packageSize": "125/150 g",
+      "price": 54.9,
+      "unitPrice": 43.92,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
+      "pageNumber": 6,
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-912feea5bf399ba6",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "SÝR NIVA JIHOČESKÁ FIT 30%* 100 g SÝR SEDLČANSKÝ HERMELÍN",
       "brand": "",
       "packageSize": "200 g",
       "price": 34.9,
@@ -1104,7 +1176,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-88370aea36a4641a",
@@ -1122,7 +1194,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-a007fdc94138d919",
@@ -1140,17 +1212,53 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-8f874810c6083427",
+      "id": "penny-leaflet-1f05ab448ca85a22",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
-      "product": "TOFU natural, uzené 180/200 g 100 g 11,06/9,95 Kč",
+      "product": "TOFU natural, uzené",
+      "brand": "",
+      "packageSize": "180/200 g",
+      "price": 19.9,
+      "unitPrice": 11.06,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
+      "pageNumber": 6,
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-625bcff08accc7c6",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "TVAROH A JOGURT MATYLDA BIO MILKO",
+      "brand": "",
+      "packageSize": "125 g",
+      "price": 12.9,
+      "unitPrice": 10.32,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
+      "pageNumber": 6,
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-9c9d000cfd21c340",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "UZENÝ LOSOS plátky | 100 g KRAJÁNEK TRIO POMAZÁNEK*",
       "brand": "",
       "packageSize": "3x 60 g",
-      "price": 39.91,
+      "price": 39.9,
       "unitPrice": 22.17,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -1158,17 +1266,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-a47a936a97c1153d",
+      "id": "penny-leaflet-448070a0be863096",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ZLATÁ HANÁ",
       "brand": "",
       "packageSize": "250 g",
-      "price": 23.9,
+      "price": 24.9,
       "unitPrice": 9.96,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -1176,17 +1284,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/6/index.html",
       "pageNumber": 6,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-5d43c6a3a6f2b1a9",
+      "id": "penny-leaflet-cfa9fd745baf5f58",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "HIGH PROTEIN DEZERT",
       "brand": "",
       "packageSize": "32 g",
-      "price": 24.9,
+      "price": 18.9,
       "unitPrice": 590.62,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -1194,17 +1302,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/7/index.html",
       "pageNumber": 7,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-ceb9af1e66b05c7e",
+      "id": "penny-leaflet-5624d85bc842be97",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KAŠE & PROTEIN S ČOKOLÁDOU EMCO",
       "brand": "",
       "packageSize": "55 g",
-      "price": 12.9,
+      "price": 13.9,
       "unitPrice": 252.73,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -1212,17 +1320,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/7/index.html",
       "pageNumber": 7,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-d500ad521cd446d7",
+      "id": "penny-leaflet-ca7088e6b807bf58",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KLOBÁSA GRILOVACÍ NA GRIL s jalapeňo",
       "brand": "",
       "packageSize": "300 g",
-      "price": 49.89,
+      "price": 49.9,
       "unitPrice": 16.63,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -1230,7 +1338,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/7/index.html",
       "pageNumber": 7,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-451956d7128c8862",
@@ -1248,7 +1356,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/7/index.html",
       "pageNumber": 7,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-81f6d2ced451ea6c",
@@ -1266,17 +1374,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/7/index.html",
       "pageNumber": 7,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-545850636d2b191f",
+      "id": "penny-leaflet-ccc660e0ee485b1b",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PIKANTNÍ GRILOVACÍ KLOBÁSA NA GRIL",
       "brand": "",
       "packageSize": "300 g",
-      "price": 49.89,
+      "price": 49.9,
       "unitPrice": 16.63,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -1284,7 +1392,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/7/index.html",
       "pageNumber": 7,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-850210917bda94e3",
@@ -1323,14 +1431,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-5d7ea4c4859dd81b",
+      "id": "penny-leaflet-bac7031fd8e1ce0e",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PROTEIN TYČINKA XXL MAXSPORT*",
       "brand": "",
       "packageSize": "60 g",
-      "price": 24.9,
+      "price": 26.9,
       "unitPrice": 44.83,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -1338,7 +1446,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/7/index.html",
       "pageNumber": 7,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-6cf74c9d6bec19ba",
@@ -1392,17 +1500,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/8/index.html",
       "pageNumber": 8,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-6c0fdafccf101862",
+      "id": "penny-leaflet-dde914b44cc02dcb",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KORNOUT RIOS",
       "brand": "",
       "packageSize": "120 ml",
-      "price": 6.9,
+      "price": 7.9,
       "unitPrice": 65.83,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -1410,7 +1518,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/8/index.html",
       "pageNumber": 8,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-d1f90a8e06f2d2b0",
@@ -1431,14 +1539,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-b2fe38e12e181b94",
+      "id": "penny-leaflet-e3ad5819bb3f839a",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SMETANOVÁ ZMRZLINA V OPLATCE RIOS",
       "brand": "",
       "packageSize": "200 ml",
-      "price": 6.9,
+      "price": 9.9,
       "unitPrice": 49.5,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -1446,7 +1554,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/8/index.html",
       "pageNumber": 8,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-9e41e8cc088c63ec",
@@ -1464,7 +1572,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/8/index.html",
       "pageNumber": 8,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-7458207c4a44fe14",
@@ -1482,17 +1590,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/8/index.html",
       "pageNumber": 8,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-4c2fbca50455eab6",
+      "id": "penny-leaflet-c07afd5c900fbdbd",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ZMRZLINA MILKA*",
       "brand": "",
       "packageSize": "90 ml",
-      "price": 24.9,
+      "price": 29.9,
       "unitPrice": 332.22,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -1500,7 +1608,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/8/index.html",
       "pageNumber": 8,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-59366a38ddc8ed80",
@@ -1554,7 +1662,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/8/index.html",
       "pageNumber": 8,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-59040832d18f471f",
@@ -1590,7 +1698,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-ea8ee27bd22a985b",
@@ -1626,7 +1734,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-128ed94caa85d5a6",
@@ -1647,14 +1755,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-ae8eb4669a1e4685",
+      "id": "penny-leaflet-9fe236e396bedc7d",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KREVETY LOUPANÉ PŘEDVAŘENÉ MYLORD*",
       "brand": "",
       "packageSize": "250 g",
-      "price": 89.9,
+      "price": 99.9,
       "unitPrice": 399.6,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -1662,7 +1770,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-80b25ad5e77e63cf",
@@ -1683,14 +1791,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-b2f9107fbdf0bbdb",
+      "id": "penny-leaflet-c0281af6cd0421fb",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KUŘECÍ JÁTRA mražená",
       "brand": "",
       "packageSize": "500 g",
-      "price": 19.9,
+      "price": 24.9,
       "unitPrice": 49.8,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -1698,17 +1806,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-14448cf70d843557",
+      "id": "penny-leaflet-247590b199086cf8",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "LISTOVÉ TĚSTO NOWACO",
       "brand": "",
       "packageSize": "400 g",
-      "price": 14.9,
+      "price": 16.9,
       "unitPrice": 42.25,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -1716,7 +1824,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-18cf697afc8d34d7",
@@ -1734,25 +1842,25 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-4d27a53c0eb9931e",
+      "id": "penny-leaflet-f7ab01d44a0ce544",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PIZZA mražená,",
       "brand": "",
-      "packageSize": "250 g",
-      "price": 14.9,
-      "unitPrice": 7.16,
-      "unit": "Kč/100 g",
+      "packageSize": "275–305 g",
+      "price": 29.9,
+      "unitPrice": 108.73,
+      "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
       "validTo": "do 19.05.2026",
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-0a973248072e845f",
@@ -1770,7 +1878,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-5d17c840af1f3f56",
@@ -1788,7 +1896,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-d28906173a20a570",
@@ -1806,17 +1914,35 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-ebbeef5719317369",
+      "id": "penny-leaflet-52ec83cf5aaa7a2a",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "TYČINKY SLANÉ SALTO",
+      "brand": "",
+      "packageSize": "250 g",
+      "price": 17.9,
+      "unitPrice": 7.16,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
+      "pageNumber": 9,
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-b8ee9b5ca54937bd",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ZELENINA S KUKUŘICÍ MRAZIVÁ ČERSTVOST mražená",
       "brand": "",
       "packageSize": "450 g",
-      "price": 16.9,
+      "price": 14.9,
       "unitPrice": 33.11,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -1824,7 +1950,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-e5acfd97e3ddafa6",
@@ -1842,7 +1968,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/9/index.html",
       "pageNumber": 9,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-44d36a2686d0c77c",
@@ -1863,14 +1989,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-cba55c2d61938d6c",
+      "id": "penny-leaflet-2e3e1fa35d2fb872",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "DRŮBEŽÍ ŠPEKÁČKY",
       "brand": "",
       "packageSize": "900 g",
-      "price": 64.89,
+      "price": 64.9,
       "unitPrice": 7.21,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -1899,14 +2025,14 @@
       "confidence": "medium"
     },
     {
-      "id": "penny-leaflet-3b4a105893923488",
+      "id": "penny-leaflet-492525872ef7b34d",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KLADENSKÁ PEČENĚ ŘEZNÍKŮV TALÍŘ",
       "brand": "",
       "packageSize": "300 g",
-      "price": 52.89,
+      "price": 52.9,
       "unitPrice": 17.63,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -1989,14 +2115,14 @@
       "confidence": "medium"
     },
     {
-      "id": "penny-leaflet-c48f941052a4d144",
+      "id": "penny-leaflet-2d97cec86b064f50",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SALÁM VYSOČINA ŘEZNÍKŮV TALÍŘ",
       "brand": "",
       "packageSize": "700 g",
-      "price": 96.88,
+      "price": 96.9,
       "unitPrice": 13.84,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -2007,14 +2133,14 @@
       "confidence": "medium"
     },
     {
-      "id": "penny-leaflet-33ae87d1eb1e1af0",
+      "id": "penny-leaflet-2dc3c2dee47c84dc",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "UZENÁ KRKOVICE",
       "brand": "",
       "packageSize": "2x 200 g",
-      "price": 59.92,
+      "price": 59.9,
       "unitPrice": 14.98,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -2058,7 +2184,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-d32b6140081e191e",
@@ -2076,17 +2202,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-8adfa14bf7859a6a",
+      "id": "penny-leaflet-2008acde52174e0f",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "FILETY Z MAKRELY LOSOS BBQ, Mexico",
       "brand": "",
       "packageSize": "170/85 g",
-      "price": 27.9,
+      "price": 29.9,
       "unitPrice": 351.76,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2094,17 +2220,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-6b51472706a70b22",
+      "id": "penny-leaflet-82b079d6b291d511",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "HALUŠKY BRAMBOROVÉ GUSTITO",
       "brand": "",
       "packageSize": "400 g",
-      "price": 26.9,
+      "price": 19.9,
       "unitPrice": 49.75,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2112,17 +2238,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-e00008ddd0d25cd4",
+      "id": "penny-leaflet-8b6362d904787812",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "HOŘČICE KARLOVA KORUNA kremžská, plnotučná",
       "brand": "",
       "packageSize": "400 g",
-      "price": 10.9,
+      "price": 9.9,
       "unitPrice": 24.75,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2130,7 +2256,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-59f2735dac3fe31f",
@@ -2148,7 +2274,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-9bb35623489f2af1",
@@ -2184,7 +2310,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-165df5325d666b83",
@@ -2202,17 +2328,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-54c2140121be3022",
+      "id": "penny-leaflet-7ba28436d9672b65",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "POMAZÁNKA LINO LADA*",
       "brand": "",
       "packageSize": "350 g",
-      "price": 46.9,
+      "price": 49.9,
       "unitPrice": 14.26,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -2220,17 +2346,35 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-7a47b871ea57f428",
+      "id": "penny-leaflet-579cfd7be7377b2b",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "POMAZÁNKA LOTUS",
+      "brand": "",
+      "packageSize": "400 g",
+      "price": 59.9,
+      "unitPrice": 14.98,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
+      "pageNumber": 11,
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-6503b352e2b02905",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PROTLAK RAJČATOVÝ SAN FABIO 140 g | 1 kg 85 Kč < 11,90 Kč OLIVOVÝ OLEJ EXTRA PANENSKÝ",
       "brand": "",
       "packageSize": "0,75 l",
-      "price": 119.9,
+      "price": 129.9,
       "unitPrice": 173.2,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -2238,17 +2382,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-5b8670646ae923d0",
+      "id": "penny-leaflet-28b82aa1d91dda5b",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PŠENIČNÁ MOUKA*",
       "brand": "",
       "packageSize": "200 g",
-      "price": 24.9,
+      "price": 19.9,
       "unitPrice": 9.95,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -2256,7 +2400,25 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-fcc2e78ae69f476b",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "PUDING DR. OETKER příchuť vanilka, čokoláda",
+      "brand": "",
+      "packageSize": "38/46 g",
+      "price": 8.9,
+      "unitPrice": 234.21,
+      "unit": "Kč/1 kg",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
+      "pageNumber": 11,
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-6c98f03102516944",
@@ -2277,14 +2439,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-44b4457434ae41fe",
+      "id": "penny-leaflet-446a8de1fa4f15ad",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ŘEPKOVÝ OLEJ PENNY 1 l < 29,90 Kč UTOPENCI S CIBULÍ HAMÉ",
       "brand": "",
       "packageSize": "670/320 g",
-      "price": 56.9,
+      "price": 79.9,
       "unitPrice": 249.69,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2292,17 +2454,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-b28585174eb38941",
+      "id": "penny-leaflet-819b042a1a23fc20",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SUŠENÁ RAJČATA S KAPARY SAN FABIO 280/140 g 1 kg 285 Kč < 54,90 Kč OKURKY KARLOVA KORUNA",
       "brand": "",
       "packageSize": "670/350 g",
-      "price": 28.9,
+      "price": 29.9,
       "unitPrice": 85.43,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2310,7 +2472,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-bd4f51fe357a11e6",
@@ -2331,14 +2493,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-1401eb8689fe5f1e",
+      "id": "penny-leaflet-b341d13e36206eef",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TORTELLINI SAN FABIO",
       "brand": "",
       "packageSize": "250 g",
-      "price": 21.9,
+      "price": 19.9,
       "unitPrice": 79.6,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2346,17 +2508,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-544f7f687ea8d0e8",
+      "id": "penny-leaflet-1780f8a444f1e61a",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "VEPŘOVÉ MASO VE VLASTNÍ ŠŤÁVĚ GUSTITO",
       "brand": "",
       "packageSize": "300 g",
-      "price": 39.9,
+      "price": 44.9,
       "unitPrice": 149.67,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2364,7 +2526,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/11/index.html",
       "pageNumber": 11,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-77d4b01bc1f59da1",
@@ -2418,17 +2580,35 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/index.html",
       "pageNumber": 12,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-0b403c5c0aa50690",
+      "id": "penny-leaflet-c0798bd5168f8b50",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "KÁVA JIHLAVANKA instantní,",
+      "brand": "",
+      "packageSize": "180/200 g",
+      "price": 119.9,
+      "unitPrice": 66.61,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/index.html",
+      "pageNumber": 12,
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-778bfdcb61a77324",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KOŘENÍ TEKUTÉ MAGGI",
       "brand": "",
       "packageSize": "200 g",
-      "price": 30.9,
+      "price": 14.9,
       "unitPrice": 74.5,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2436,17 +2616,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/index.html",
       "pageNumber": 12,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-c03c440c5810c2a9",
+      "id": "penny-leaflet-de8b2a7b381ce38d",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PŘEPUŠTĚNÉ MÁSLO GHÍ 450 ml 1 l 222 Kč < 199,90 Kč ŠVESTKOVÁ POVIDLA HAMÉ",
       "brand": "",
       "packageSize": "440 g",
-      "price": 39.9,
+      "price": 36.9,
       "unitPrice": 83.86,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2454,17 +2634,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/index.html",
       "pageNumber": 12,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-57e3bbfff879e03d",
+      "id": "penny-leaflet-f27f63fa440f4128",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "RAMA Classic",
       "brand": "",
       "packageSize": "400 g",
-      "price": 29.9,
+      "price": 39.9,
       "unitPrice": 9.98,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -2472,17 +2652,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/index.html",
       "pageNumber": 12,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-422fa443e7fa4348",
+      "id": "penny-leaflet-eda8821559f7861b",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "RÝŽE LAGRIS ve varných sáčcích loupaná, parboiled",
       "brand": "",
       "packageSize": "800 g",
-      "price": 29.9,
+      "price": 34.9,
       "unitPrice": 43.63,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2490,7 +2670,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/index.html",
       "pageNumber": 12,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-f165bc3a83485350",
@@ -2529,14 +2709,14 @@
       "confidence": "medium"
     },
     {
-      "id": "penny-leaflet-6c59aad22b4cd161",
+      "id": "penny-leaflet-8b2826c6efa29169",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ĎÁBELSKÉ TOUSTY HAMÉ",
       "brand": "",
       "packageSize": "120 g",
-      "price": 25.9,
+      "price": 21.9,
       "unitPrice": 182.5,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2544,17 +2724,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/13/index.html",
       "pageNumber": 13,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-1644aa556ad3bd31",
+      "id": "penny-leaflet-4b6572d92350c029",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "DĚTSKÉ VLHČENÉ UBROUSKY ALOE VERA LINTEO",
       "brand": "",
       "packageSize": "80 ks",
-      "price": 19.9,
+      "price": 21.6,
       "unitPrice": 0.27,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -2565,14 +2745,32 @@
       "confidence": "medium"
     },
     {
-      "id": "penny-leaflet-22b298f446d154ae",
+      "id": "penny-leaflet-66badb5bc4de1816",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "HELLO EXTRA HUSTÝ SIRUP",
+      "brand": "",
+      "packageSize": "120 g",
+      "price": 16.9,
+      "unitPrice": 140.83,
+      "unit": "Kč/1 kg",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/13/index.html",
+      "pageNumber": 13,
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-22b06bb4151204ff",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "OBALOVANÝ SÝR NOWACO mražený",
       "brand": "",
       "packageSize": "200 g",
-      "price": 39.9,
+      "price": 39.95,
       "unitPrice": 199.75,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2580,7 +2778,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/13/index.html",
       "pageNumber": 13,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-d75c110ed5948065",
@@ -2598,7 +2796,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/13/index.html",
       "pageNumber": 13,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-10ad89d61598a7aa",
@@ -2616,25 +2814,25 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/13/index.html",
       "pageNumber": 13,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-d8d707a9226469a8",
+      "id": "penny-leaflet-845995528bfb24ed",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SUŠENKY MILKA",
       "brand": "",
-      "packageSize": "120 g",
-      "price": 13.9,
-      "unitPrice": 140.83,
-      "unit": "Kč/1 kg",
+      "packageSize": "35-40 g",
+      "price": 8.9,
+      "unitPrice": 25.43,
+      "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
       "validTo": "do 19.05.2026",
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/13/index.html",
       "pageNumber": 13,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-710b9c3510504e7f",
@@ -2652,7 +2850,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-d1c62892a66400da",
@@ -2670,7 +2868,25 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-504bd800ff338ab3",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "DEZERT MATY OLMÍCI smetanový 110 g 100 g 9 Kč ZAKYSANÁ SMETANA DE LUXE 20% KUNÍN",
+      "brand": "",
+      "packageSize": "190 g",
+      "price": 19.9,
+      "unitPrice": 10.47,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
+      "pageNumber": 14,
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-cb5590ac9e0fcfc7",
@@ -2688,7 +2904,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-82584f0e42484307",
@@ -2706,7 +2922,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-01b51ce7b450489b",
@@ -2724,7 +2940,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-5ba7c50dcb4461f2",
@@ -2742,17 +2958,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-406c7f7ec3289a62",
+      "id": "penny-leaflet-ed6275224cb4c34f",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KUKUŘICE GOLD BONDUELLE",
       "brand": "",
       "packageSize": "340/285 g",
-      "price": 29.9,
+      "price": 28.9,
       "unitPrice": 101.4,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2760,17 +2976,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-50822de0d31ea666",
+      "id": "penny-leaflet-26604c85433ec65b",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "MORAVSKÁ KLOBÁSA ŘEZNÍKŮV TALÍŘ",
       "brand": "",
       "packageSize": "320 g",
-      "price": 37.89,
+      "price": 37.9,
       "unitPrice": 11.84,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -2778,17 +2994,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-38eaa194fd0de6e7",
+      "id": "penny-leaflet-b199870c618af606",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "MYSLI EMCO",
       "brand": "",
       "packageSize": "750 g",
-      "price": 64.9,
+      "price": 69.9,
       "unitPrice": 93.2,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -2796,7 +3012,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-780bdd0341efac70",
@@ -2814,17 +3030,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-27fa13bae849f0f6",
+      "id": "penny-leaflet-770799766a8d9c25",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TUŇÁK STEAK MARINNA",
       "brand": "",
       "packageSize": "60 g",
-      "price": 24.9,
+      "price": 19.9,
       "unitPrice": 33.17,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -2832,17 +3048,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-2ef2c5d85581735b",
+      "id": "penny-leaflet-2a5b548631ec7b8e",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "v nabídce také Kešu v kokosu za 150 g 39,90 Kč RAW TYČINKA CRIP CROP",
       "brand": "",
       "packageSize": "50 g",
-      "price": 12.9,
+      "price": 9.9,
       "unitPrice": 19.8,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -2851,6 +3067,24 @@
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
       "pageNumber": 14,
       "confidence": "low"
+    },
+    {
+      "id": "penny-leaflet-40e19a0994bf5b90",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "ZELENINOVÁ SMĚS MORAVANKA, KUNOVJANKA 330/340 g;",
+      "brand": "",
+      "packageSize": "175/170 g",
+      "price": 27.9,
+      "unitPrice": 159.43,
+      "unit": "Kč/1 kg",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/14/index.html",
+      "pageNumber": 14,
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-949ebf65e48f8df4",
@@ -2868,7 +3102,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-c0458d5214ba5522",
@@ -2886,7 +3120,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-b4858227ecf5f8a2",
@@ -2904,7 +3138,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-05d82d94c42aada5",
@@ -2922,17 +3156,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-4be0eb457c0f8ffe",
+      "id": "penny-leaflet-5b97582cf7afacee",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "BONBONIÉRA MARIANNA",
       "brand": "",
       "packageSize": "133 g",
-      "price": 84.9,
+      "price": 49.9,
       "unitPrice": 37.52,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -2940,7 +3174,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-f72e283472753e1f",
@@ -2958,7 +3192,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-f939f5a74b9db454",
@@ -2976,7 +3210,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-ea762fd7e3bd8f9a",
@@ -2994,17 +3228,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-57d4cccebbf5c267",
+      "id": "penny-leaflet-a35a1d17b359e480",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "OPLATKA STUDENTSKÁ PEČEŤ ORION* mléčná",
       "brand": "",
       "packageSize": "30 g",
-      "price": 7.82,
+      "price": 7.8,
       "unitPrice": 26.05,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -3030,17 +3264,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-19a55fbf26c74b2a",
+      "id": "penny-leaflet-4dc579bf07614435",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SMAŽENÉ KUŘECÍ NUGETKY",
       "brand": "",
       "packageSize": "260 g",
-      "price": 39.9,
+      "price": 34.9,
       "unitPrice": 134.23,
       "unit": "Kč/1 kg",
       "validFrom": "od st 13.05.2026",
@@ -3048,17 +3282,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-0b64dbdc27db0d19",
+      "id": "penny-leaflet-6fc6bac83a2f5a1a",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SUŠENKY LOTUS BISCOFF",
       "brand": "",
       "packageSize": "250 g",
-      "price": 26.9,
+      "price": 27.9,
       "unitPrice": 11.16,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -3066,7 +3300,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-e46b3fb35a361da1",
@@ -3087,14 +3321,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-9ebbbad611c0e0c0",
+      "id": "penny-leaflet-a64cb91eb3408a9c",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ZLATÝ BAŽANT",
       "brand": "",
       "packageSize": "0,5 l",
-      "price": 17.9,
+      "price": 15.9,
       "unitPrice": 31.8,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -3102,7 +3336,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-e076f14bf50891e1",
@@ -3120,7 +3354,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/15/index.html",
       "pageNumber": 15,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-215c68d69a36f47d",
@@ -3138,7 +3372,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-30bf7c69e2286013",
@@ -3156,7 +3390,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-ce91b5f8c33bc4c3",
@@ -3174,7 +3408,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-e95d7b9a4ac9b7f5",
@@ -3192,17 +3426,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-2be81338d77be905",
+      "id": "penny-leaflet-9bd715bd789125f0",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PIŠKOTY OPAVIA",
       "brand": "",
       "packageSize": "220 g",
-      "price": 24.9,
+      "price": 29.9,
       "unitPrice": 13.59,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -3210,7 +3444,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-74e6edacf94d852d",
@@ -3228,7 +3462,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-3037117881462942",
@@ -3246,17 +3480,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-b3efabf1e18f62da",
+      "id": "penny-leaflet-142778be5768816a",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SUŠENKY BEBE RODINNÉ OPAVIA jemné",
       "brand": "",
       "packageSize": "130 g",
-      "price": 16.9,
+      "price": 14.9,
       "unitPrice": 11.46,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -3264,7 +3498,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-0e453f7f010ff7c0",
@@ -3282,25 +3516,43 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-f9baab3cf4dc5ac4",
+      "id": "penny-leaflet-fc99f360522010d8",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SUŠENKY OPAVIA",
       "brand": "",
-      "packageSize": "280 g",
-      "price": 26.91,
-      "unitPrice": 9.61,
+      "packageSize": "220/180 g",
+      "price": 29.9,
+      "unitPrice": 13.59,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
       "validTo": "do 19.05.2026",
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-e4f6106d3c0f9be1",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "TRADIČNÍ OPLATKY KOLONÁDA OPAVIA",
+      "brand": "",
+      "packageSize": "140/92 g",
+      "price": 29.9,
+      "unitPrice": 21.36,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
+      "pageNumber": 16,
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-540dbaa3d2169a75",
@@ -3318,7 +3570,25 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-f51c49f3784cb1bf",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "TRUBIČKY CAFÉ TIME",
+      "brand": "",
+      "packageSize": "280 g",
+      "price": 26.9,
+      "unitPrice": 9.61,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
+      "pageNumber": 16,
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-b816cc14e86c7f6d",
@@ -3336,7 +3606,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
       "pageNumber": 16,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-dbfb81b3b05c85be",
@@ -3372,17 +3642,53 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
       "pageNumber": 17,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-00effe26350b6b4d",
+      "id": "penny-leaflet-efc278c4af493461",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "ČOKOLÁDA MERCI*",
+      "brand": "",
+      "packageSize": "500 g",
+      "price": 11.9,
+      "unitPrice": 23.8,
+      "unit": "Kč/1 kg",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
+      "pageNumber": 17,
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-06aa3cd4f7579ea8",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "ČOKOLÁDA MILKA",
+      "brand": "",
+      "packageSize": "87,5–95 g",
+      "price": 29.9,
+      "unitPrice": 34.17,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
+      "pageNumber": 17,
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-cdfead619d883ac7",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KUKUŘIČNÉ TRUBIČKY ALASKA",
       "brand": "",
       "packageSize": "18 g",
-      "price": 2.4,
+      "price": 2.9,
       "unitPrice": 16.11,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -3390,7 +3696,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
       "pageNumber": 17,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-97a21d40db75b836",
@@ -3411,14 +3717,32 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-8ad7b4ab6af9ded2",
+      "id": "penny-leaflet-5c72b3075a8897be",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "MÜSLI TYČINKA CRIP CROP",
+      "brand": "",
+      "packageSize": "30 g",
+      "price": 4.9,
+      "unitPrice": 16.33,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
+      "pageNumber": 17,
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-1af0632c45b9829c",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "OPLATKA ATTACK SEDITA",
       "brand": "",
       "packageSize": "30 g",
-      "price": 4.9,
+      "price": 5.9,
       "unitPrice": 19.67,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -3426,7 +3750,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
       "pageNumber": 17,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-a8c207633276f53f",
@@ -3444,7 +3768,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
       "pageNumber": 17,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-a6e1bea2081fa7e0",
@@ -3462,7 +3786,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
       "pageNumber": 17,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-a4fbb122907f1fb4",
@@ -3480,34 +3804,34 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
       "pageNumber": 17,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-5bc8b6eb93be4c9b",
+      "id": "penny-leaflet-ff9f72eebd4c92b4",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TYČINKA BIG CORNY",
       "brand": "",
-      "packageSize": "500 g",
+      "packageSize": "40/50 g",
       "price": 11.9,
-      "unitPrice": 23.8,
-      "unit": "Kč/1 kg",
+      "unitPrice": 37.25,
+      "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
       "validTo": "do 19.05.2026",
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
       "pageNumber": 17,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-15556901f392e0d6",
+      "id": "penny-leaflet-e9328c7efbb8add3",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TYČINKA ROSHEN*",
       "brand": "",
-      "packageSize": "30 g",
+      "packageSize": "30/20 g",
       "price": 4.9,
       "unitPrice": 16.33,
       "unit": "Kč/100 g",
@@ -3516,17 +3840,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/index.html",
       "pageNumber": 17,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-7368270b5098b67e",
+      "id": "penny-leaflet-cc8d8002c0dfd62c",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "APEROL 0,7 l 1 l 357 Kč < 249,90 Kč BOŽKOV REPUBLIKA míchané alkoholické nápoje | plech",
       "brand": "",
       "packageSize": "0,25 l",
-      "price": 39.9,
+      "price": 19.9,
       "unitPrice": 79.6,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -3537,14 +3861,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-2afcb33cd206a980",
+      "id": "penny-leaflet-fb4b369219c8e7a8",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "FERNET STOCK",
       "brand": "",
       "packageSize": "0,5 l",
-      "price": 159.9,
+      "price": 169.9,
       "unitPrice": 339.8,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -3552,17 +3876,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/index.html",
       "pageNumber": 19,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-22c683151617dee0",
+      "id": "penny-leaflet-22492e1151b738fd",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KINLEY AROMATIC PINK BERRY",
       "brand": "",
       "packageSize": "1,5 l",
-      "price": 31.9,
+      "price": 29.9,
       "unitPrice": 19.93,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -3570,7 +3894,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/index.html",
       "pageNumber": 19,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-ed2e35e5c7ee8493",
@@ -3588,7 +3912,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/index.html",
       "pageNumber": 19,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-ed45414c6240d904",
@@ -3606,7 +3930,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/index.html",
       "pageNumber": 19,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-cfdd938e5e4388e6",
@@ -3624,17 +3948,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/index.html",
       "pageNumber": 19,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-c0979d3346f426d1",
+      "id": "penny-leaflet-0ce8e22aa5929b95",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SVIJANSKÝ MÁZ",
       "brand": "",
       "packageSize": "0,5 l",
-      "price": 10.9,
+      "price": 11.9,
       "unitPrice": 23.8,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -3642,17 +3966,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
       "pageNumber": 20,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-f58aaf862800d2c7",
+      "id": "penny-leaflet-51a2d55851dbf1a7",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "záloha na lahev 3 Kč PROSECCO bílé perlivé",
       "brand": "",
       "packageSize": "0,75 l",
-      "price": 59.9,
+      "price": 69.9,
       "unitPrice": 93.2,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -3660,17 +3984,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
       "pageNumber": 20,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-d5ab2bf5eaa176fa",
+      "id": "penny-leaflet-a5cf82f882282fcd",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ARAŠÍDY NATURALIA pražené solené",
       "brand": "",
       "packageSize": "200 g",
-      "price": 14.9,
+      "price": 17.9,
       "unitPrice": 8.95,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -3678,7 +4002,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-a1ff40228dce1466",
@@ -3696,7 +4020,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-9197956b8dc4d055",
@@ -3714,7 +4038,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-da9e58c8f8a3903f",
@@ -3732,7 +4056,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-4aa4a845f25cb0c5",
@@ -3750,7 +4074,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-932adb293e291d88",
@@ -3768,17 +4092,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-50a5a09d1c5a9486",
+      "id": "penny-leaflet-ee49eb2adc064c85",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "MANDLE KARAMELIZOVANÉ SOLENÉ NATURALIA",
       "brand": "",
       "packageSize": "150 g",
-      "price": 34.9,
+      "price": 29.9,
       "unitPrice": 19.93,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -3786,7 +4110,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-1093a057e1fba087",
@@ -3804,7 +4128,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-09d3f1356b3cc741",
@@ -3822,17 +4146,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-f63fc6caf0b09555",
+      "id": "penny-leaflet-ffa91a8a95dfc695",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PEKANOVÉ OŘECHY NATURALIA",
       "brand": "",
       "packageSize": "200 g",
-      "price": 79.9,
+      "price": 89.9,
       "unitPrice": 44.95,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -3840,7 +4164,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-25778343e6c75378",
@@ -3858,7 +4182,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-91b2cc391b18a1c7",
@@ -3876,7 +4200,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-42fcac7b318a1f3a",
@@ -3894,17 +4218,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-3117ff5604d27a28",
+      "id": "penny-leaflet-7952fd92f6bd9d08",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PRECLÍKY KARLOVA KORUNA slané",
       "brand": "",
       "packageSize": "150 g",
-      "price": 14.9,
+      "price": 11.9,
       "unitPrice": 7.93,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -3912,7 +4236,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-eb93d5a8fd523c91",
@@ -3930,7 +4254,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-4e0a0890db4a08d9",
@@ -3948,17 +4272,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-bcd7dc24bc6c98be",
+      "id": "penny-leaflet-bfb1c6bfcd307c50",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "SMĚS OŘECHŮ A ROZINEK NATURALIA",
       "brand": "",
       "packageSize": "200 g",
-      "price": 39.9,
+      "price": 49.9,
       "unitPrice": 24.95,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -3966,7 +4290,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-81f7a40a552ac02d",
@@ -3984,17 +4308,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-582f1f03d3382d21",
+      "id": "penny-leaflet-abd14db0196c9f23",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TRAMIN CERVENÉ, MUSCAT OTTONEL, PÁLAVA",
       "brand": "",
       "packageSize": "0,75 l",
-      "price": 49.9,
+      "price": 59.9,
       "unitPrice": 79.87,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -4002,7 +4326,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-79a0c3419479f5b9",
@@ -4020,7 +4344,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
       "pageNumber": 21,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-9c1ed92903fc1bef",
@@ -4038,17 +4362,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-509c26889a5d54a4",
+      "id": "penny-leaflet-f3dad76f4c1f09bf",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "COCA-COLA, COCA-COLA ZERO, FANTA POMERANČ* PET",
       "brand": "",
       "packageSize": "2 l",
-      "price": 29.9,
+      "price": 32.9,
       "unitPrice": 16.45,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -4056,7 +4380,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-2acaf8c4b199ed19",
@@ -4074,17 +4398,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-1f249729bdd63a6e",
+      "id": "penny-leaflet-7459e60a148f7535",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ENERGETICKÝ NÁPOJ SEMTEX",
       "brand": "",
       "packageSize": "0,5 l",
-      "price": 17.9,
+      "price": 19.9,
       "unitPrice": 39.8,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -4092,7 +4416,25 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "penny-leaflet-509ea745e6b7e671",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "GRANKO ORION instantní nápoj",
+      "brand": "",
+      "packageSize": "200 g",
+      "price": 59.9,
+      "unitPrice": 29.95,
+      "unit": "Kč/100 g",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
+      "pageNumber": 22,
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-53c51ff16126c37f",
@@ -4110,7 +4452,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-1f988ee0d4782851",
@@ -4128,7 +4470,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-4a0d9eb354cf81bc",
@@ -4164,35 +4506,35 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-417859df1420f891",
+      "id": "penny-leaflet-207c3bf232ebec48",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KOUZELNÝ ČAJ",
       "brand": "",
-      "packageSize": "200 g",
-      "price": 69.9,
-      "unitPrice": 29.95,
+      "packageSize": "35/40 g",
+      "price": 16.9,
+      "unitPrice": 48.29,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
       "validTo": "do 19.05.2026",
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-a439c2b3c70c0e54",
+      "id": "penny-leaflet-451e5c903a3b3ef8",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "MINERÁLNÍ VODA MAGNESIA RED",
       "brand": "",
       "packageSize": "1,5 l",
-      "price": 17.9,
+      "price": 18.9,
       "unitPrice": 12.6,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -4200,17 +4542,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-adef65782cb18716",
+      "id": "penny-leaflet-c0ea6d315e1b827d",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "MULTIVITAMÍN KARLOVA KORUNA",
       "brand": "",
       "packageSize": "1,5 l",
-      "price": 17.9,
+      "price": 18.9,
       "unitPrice": 12.6,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -4218,7 +4560,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-a9a76766787a58ca",
@@ -4236,17 +4578,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-64dc636e5260d4cc",
+      "id": "penny-leaflet-8fbefa925640c05c",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TABLETY KOLAGEN FORTE+ MAXI VITA",
       "brand": "",
       "packageSize": "60 ks",
-      "price": 99.9,
+      "price": 100.2,
       "unitPrice": 1.67,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -4272,17 +4614,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/index.html",
       "pageNumber": 22,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-3afde08e2d810d7b",
+      "id": "penny-leaflet-0f9387b7c98a42e6",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "á 129,90 COFFEE WHITENER CASABLANCA",
       "brand": "",
       "packageSize": "200 g",
-      "price": 17.9,
+      "price": 19.9,
       "unitPrice": 9.95,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -4290,7 +4632,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
       "pageNumber": 23,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-dcf0276307010de7",
@@ -4308,7 +4650,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
       "pageNumber": 23,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-dbe60607c2cf6020",
@@ -4326,7 +4668,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
       "pageNumber": 23,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-ba0acdf54b402a3b",
@@ -4362,7 +4704,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
       "pageNumber": 23,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-c4e6bcecc2267e48",
@@ -4398,7 +4740,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
       "pageNumber": 23,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-2b2559ef97b1281c",
@@ -4416,17 +4758,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
       "pageNumber": 23,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-7a4b3237d471dd22",
+      "id": "penny-leaflet-48f2aac148c68795",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "LAVAZZA CAFFÉ CREMA* zrnková",
       "brand": "",
       "packageSize": "1,1 kg",
-      "price": 399.9,
+      "price": 199.9,
       "unitPrice": 36.35,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -4434,7 +4776,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
       "pageNumber": 23,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-351740b860d6b560",
@@ -4455,14 +4797,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-6d268524154b2915",
+      "id": "penny-leaflet-a7e195bd9c574041",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "(běžně za 41,63 Kč) < 89,90 Kč UBROUSKY PROTI OBARVENÍ PRÁDLA PALLOR",
       "brand": "",
       "packageSize": "24 ks",
-      "price": 26.88,
+      "price": 26.9,
       "unitPrice": 1.12,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -4470,17 +4812,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/index.html",
       "pageNumber": 24,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-aa80688591462508",
+      "id": "penny-leaflet-b4b252c7b98c29fa",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "AVIVÁŽ LENOR*",
       "brand": "",
       "packageSize": "2x 798 ml",
-      "price": 99.89,
+      "price": 99.9,
       "unitPrice": 62.59,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -4488,7 +4830,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/index.html",
       "pageNumber": 24,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-92d5ae09f581571d",
@@ -4506,7 +4848,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/index.html",
       "pageNumber": 24,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-f8dac610e767789d",
@@ -4524,17 +4866,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/index.html",
       "pageNumber": 24,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-b975e5eb9665cefe",
+      "id": "penny-leaflet-e60dbd28835c1288",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "GEL PRACÍ S MARSEILLSKÝM MÝDLEM PALLOR",
       "brand": "",
       "packageSize": "3 l",
-      "price": 89.91,
+      "price": 89.9,
       "unitPrice": 29.97,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -4542,7 +4884,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/index.html",
       "pageNumber": 24,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-c04652ba47045295",
@@ -4560,7 +4902,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/index.html",
       "pageNumber": 24,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-5a48bb0554e8eae6",
@@ -4578,7 +4920,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/index.html",
       "pageNumber": 24,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-ae99101a39dd90f9",
@@ -4599,14 +4941,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-3d97ab4d85d8b1e9",
+      "id": "penny-leaflet-5c2e781a6e81ef8e",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TABLETY DO MYČKY 3V1 LEMON SOMAT",
       "brand": "",
       "packageSize": "48 ks",
-      "price": 199.9,
+      "price": 199.7,
       "unitPrice": 4.16,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -4632,7 +4974,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-b2aa67bfa1ea29b8",
@@ -4650,17 +4992,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-9ed26424100bc5ce",
+      "id": "penny-leaflet-02bd4a982269dc68",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KAPESNÍKY WIPPY 2vrstvé",
       "brand": "",
       "packageSize": "150 ks",
-      "price": 16.9,
+      "price": 16.5,
       "unitPrice": 0.11,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -4671,14 +5013,14 @@
       "confidence": "medium"
     },
     {
-      "id": "penny-leaflet-c75735b18838dd6e",
+      "id": "penny-leaflet-6bd94f487464e3da",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KUCHYŇSKÉ UTĚRKY WIPPY 2vrstvé 2 role",
       "brand": "",
       "packageSize": "22 m",
-      "price": 19.9,
+      "price": 19.8,
       "unitPrice": 0.9,
       "unit": "Kč/1 m",
       "validFrom": "od st 13.05.2026",
@@ -4686,7 +5028,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-458d518d568a17e5",
@@ -4704,17 +5046,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-203fb5c7796d932f",
+      "id": "penny-leaflet-e9422013696e0cd8",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PAPÍROVÉ KAPESNÍČKY WIPPY 4vrstvé",
       "brand": "",
       "packageSize": "10x 10 ks",
-      "price": 22.9,
+      "price": 23,
       "unitPrice": 0.23,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -4722,17 +5064,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-62cd42d2a6eeb241",
+      "id": "penny-leaflet-3945aae90f021dea",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PLENY MIDI 3 BABY WELL",
       "brand": "",
       "packageSize": "46 ks",
-      "price": 139.9,
+      "price": 139.84,
       "unitPrice": 3.04,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -4740,17 +5082,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-d5a34696be9d9a2d",
+      "id": "penny-leaflet-34d6d95a6e61fc46",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "PYTLE NA ODPADKY S VŮNÍ CITRONU CLINA",
       "brand": "",
       "packageSize": "10 ks",
-      "price": 9.9,
+      "price": 12.9,
       "unitPrice": 1.29,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -4758,7 +5100,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-018fd7b6f93d5b13",
@@ -4776,17 +5118,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-0311dd4052d06f6c",
+      "id": "penny-leaflet-ce2071667fe2f1cb",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TAMPONY KOTEX",
       "brand": "",
       "packageSize": "16 ks",
-      "price": 39.9,
+      "price": 39.84,
       "unitPrice": 2.49,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -4794,17 +5136,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-c3dd5df393121057",
+      "id": "penny-leaflet-25ae077451b7369f",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TOALETNÍ PAPÍR VLHČENÝ WIPPY",
       "brand": "",
       "packageSize": "70 ks",
-      "price": 14.9,
+      "price": 14.7,
       "unitPrice": 0.21,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -4815,14 +5157,14 @@
       "confidence": "medium"
     },
     {
-      "id": "penny-leaflet-9dcb14b7347176a9",
+      "id": "penny-leaflet-421734d4dcc2c469",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "VÍCEÚČELOVÉ VLHČENÉ UBROUSKY PENNY",
       "brand": "",
       "packageSize": "80 ks",
-      "price": 24.9,
+      "price": 24.8,
       "unitPrice": 0.31,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -4830,17 +5172,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-de2d6b97d435d7ea",
+      "id": "penny-leaflet-cc8819538f4eba7c",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "VLOŽKY ULTRA WINGS CARIN",
       "brand": "",
       "packageSize": "8/9 ks",
-      "price": 24.9,
+      "price": 14.94,
       "unitPrice": 1.66,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -4848,7 +5190,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-95ece2dac88b1514",
@@ -4884,17 +5226,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/index.html",
       "pageNumber": 25,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-72e56e9d07e2c84a",
+      "id": "penny-leaflet-b62ffe9904f614cf",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ZUBNÍ PASTA TRIPLE ACTION COLGATE",
       "brand": "",
       "packageSize": "125 ml",
-      "price": 39.9,
+      "price": 34.9,
       "unitPrice": 27.92,
       "unit": "Kč/100 ml",
       "validFrom": "od st 13.05.2026",
@@ -4920,7 +5262,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/26/index.html",
       "pageNumber": 26,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-3e33e7af181184f4",
@@ -4938,7 +5280,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/26/index.html",
       "pageNumber": 26,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-e77add8143519353",
@@ -4956,7 +5298,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/26/index.html",
       "pageNumber": 26,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-c59acfbab83dff36",
@@ -4974,7 +5316,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/26/index.html",
       "pageNumber": 26,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-b29216069657d785",
@@ -4992,7 +5334,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/26/index.html",
       "pageNumber": 26,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-88f7e36ed4b299a3",
@@ -5010,17 +5352,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/index.html",
       "pageNumber": 30,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-3d757bedff022bd6",
+      "id": "penny-leaflet-96ee9913c7ed3578",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "GRILOVACÍ TYČINKY NA GRIL",
       "brand": "",
       "packageSize": "340 g",
-      "price": 49.91,
+      "price": 49.9,
       "unitPrice": 14.68,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -5028,17 +5370,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/index.html",
       "pageNumber": 30,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-7fb5d2f6845ad906",
+      "id": "penny-leaflet-1fffb39c36c26ded",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "KLOBÁSA GRILOVACÍ S GOUDOU NA GRIL",
       "brand": "",
       "packageSize": "300 g",
-      "price": 49.89,
+      "price": 49.9,
       "unitPrice": 16.63,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -5046,7 +5388,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/index.html",
       "pageNumber": 30,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-217e4360b418ecc5",
@@ -5100,7 +5442,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/index.html",
       "pageNumber": 30,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-12777aa8cf6df84e",
@@ -5118,17 +5460,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/index.html",
       "pageNumber": 30,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-337442c69b02f4ab",
+      "id": "penny-leaflet-56b46d5757581395",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "BONBONIÉRA MERCI LOVELIES",
       "brand": "",
       "packageSize": "185 g",
-      "price": 89.9,
+      "price": 79.9,
       "unitPrice": 43.19,
       "unit": "Kč/100 g",
       "validFrom": "od st 13.05.2026",
@@ -5136,17 +5478,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/index.html",
       "pageNumber": 31,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-014667c15de96023",
+      "id": "penny-leaflet-16e60577a6b04fbc",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "BUDVAR 33",
       "brand": "",
       "packageSize": "0,5 l",
-      "price": 19.9,
+      "price": 17.9,
       "unitPrice": 35.8,
       "unit": "Kč/1 l",
       "validFrom": "od st 13.05.2026",
@@ -5154,7 +5496,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/index.html",
       "pageNumber": 31,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-1850aed32135b4fe",
@@ -5193,14 +5535,14 @@
       "confidence": "high"
     },
     {
-      "id": "penny-leaflet-f051a3b9db55a2cd",
+      "id": "penny-leaflet-80969a48a852b774",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "TOALETNÍ PAPÍR HEŘMÁNEK WIPPY 3vrstvý | 4 role",
       "brand": "",
       "packageSize": "78,84 m",
-      "price": 21.9,
+      "price": 22.86,
       "unitPrice": 0.29,
       "unit": "Kč/1 m",
       "validFrom": "od st 13.05.2026",
@@ -5208,7 +5550,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/index.html",
       "pageNumber": 31,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-6fa1b2c11a64a6e9",
@@ -5280,7 +5622,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/index.html",
       "pageNumber": 32,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-d5d7d1217b995f36",
@@ -5298,7 +5640,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/index.html",
       "pageNumber": 32,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-d43fe0b3731f956b",
@@ -5352,7 +5694,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/index.html",
       "pageNumber": 32,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-599a72ec7915dc7f",
@@ -5370,7 +5712,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/index.html",
       "pageNumber": 32,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-8371c99046474c10",
@@ -5388,17 +5730,17 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/index.html",
       "pageNumber": 32,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "penny-leaflet-e379b473feadb0e4",
+      "id": "penny-leaflet-9c3b03ab74fd2e1a",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "á 79,90 DEOSPREJ FA",
       "brand": "",
       "packageSize": "150 ml",
-      "price": 69.9,
+      "price": 49.9,
       "unitPrice": 33.27,
       "unit": "Kč/100 ml",
       "validFrom": "od st 13.05.2026",
@@ -5406,7 +5748,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/33/index.html",
       "pageNumber": 33,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-4ec7cdc00af1df23",
@@ -5427,14 +5769,14 @@
       "confidence": "medium"
     },
     {
-      "id": "penny-leaflet-ff9cb429efd0b2bc",
+      "id": "penny-leaflet-5e093ece6f2a0031",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "ŠAMPON SCHAUMA",
       "brand": "",
       "packageSize": "400 ml",
-      "price": 69.9,
+      "price": 59.9,
       "unitPrice": 14.98,
       "unit": "Kč/100 ml",
       "validFrom": "od st 13.05.2026",
@@ -5442,7 +5784,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/33/index.html",
       "pageNumber": 33,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-a3f0f4b787680b60",
@@ -5481,14 +5823,14 @@
       "confidence": "medium"
     },
     {
-      "id": "penny-leaflet-2db132c6dd370629",
+      "id": "penny-leaflet-c2ff54e70c6e5b4b",
       "storeId": "penny-default",
       "chain": "Penny",
       "storeName": "Penny – leták",
       "product": "á 199,90 TABLETY DO MYČKY FINISH ALL IN",
       "brand": "",
       "packageSize": "1 48 ks",
-      "price": 199.9,
+      "price": 159.9,
       "unitPrice": 3.33,
       "unit": "Kč/1 ks",
       "validFrom": "od st 13.05.2026",
@@ -5496,7 +5838,7 @@
       "priceType": "leták",
       "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/35/index.html",
       "pageNumber": 35,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "penny-leaflet-777d60b9e34ddc8b",

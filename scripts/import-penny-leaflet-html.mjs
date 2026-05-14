@@ -72,8 +72,9 @@ function makeId(product, price, pageNumber, packageSize) {
 }
 
 function pennyPageImageUrl(pageNumber) {
-  if (!pageNumber) return "";
-  return `${VIEWER_BASE_URL}${pageNumber}/files/assets/cover300.jpg`;
+  // Penny zatím nedává samostatné produktové obrázky.
+  // Předchozí pokus s cover300 vytvářel v aplikaci prázdné boxy, proto teď vracíme prázdnou hodnotu.
+  return "";
 }
 
 function removePageNoise(text, pageNumber) {

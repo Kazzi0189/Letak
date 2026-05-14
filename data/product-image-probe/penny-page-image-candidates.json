@@ -1,0 +1,1088 @@
+{
+  "checkedAt": "2026-05-14T12:37:09.080Z",
+  "note": "Test možných cest k obrázkům stránek Penny. Pokud working obsahuje jen cover300, nejde o produktové obrázky.",
+  "working": [
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    }
+  ],
+  "tested": [
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/1.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/1.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/01.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/01.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/001.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/001.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0001.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0001.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/1.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/1.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/01.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/01.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/001.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/001.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0001.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0001.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/1.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/1.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/01.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/01.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/001.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/001.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0001.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0001.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page1.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page1.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-1.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-1.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0001.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0001.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/1/files/assets/cover300.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/1/files/assets/cover300.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 1,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/2.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/2.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/02.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/02.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/002.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/002.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0002.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0002.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/2.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/2.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/02.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/02.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/002.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/002.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0002.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0002.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/2.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/2.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/02.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/02.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/002.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/002.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0002.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0002.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page2.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page2.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-2.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-2.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0002.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0002.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/2/files/assets/cover300.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/2/files/assets/cover300.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/3.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/3.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/03.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/03.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/003.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/003.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0003.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0003.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/3.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/3.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/03.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/03.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/003.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/003.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0003.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0003.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/3.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/3.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/03.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/03.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/003.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/003.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0003.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0003.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page3.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page3.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-3.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-3.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0003.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0003.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/files/assets/cover300.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/files/assets/cover300.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/12.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/12.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/12.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/12.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/012.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/012.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0012.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0012.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/12.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/12.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/12.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/12.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/012.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/012.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0012.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0012.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/12.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/12.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/12.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/12.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/012.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/012.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0012.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0012.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page12.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page12.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-12.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-12.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0012.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0012.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/files/assets/cover300.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/files/assets/cover300.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 12,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/25.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/25.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/25.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/25.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/025.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/025.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0025.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0025.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/25.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/25.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/25.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/25.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/025.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/025.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0025.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0025.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/25.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/25.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/25.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/25.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/025.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/025.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0025.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0025.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page25.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page25.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-25.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-25.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0025.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0025.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/files/assets/cover300.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/25/files/assets/cover300.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 25,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/36.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/36.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/36.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/36.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/036.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/036.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0036.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/large/0036.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/36.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/36.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/36.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/36.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/036.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/036.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0036.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/mobile/0036.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/36.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/36.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/36.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/36.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/036.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/036.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0036.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/pages/0036.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page36.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page36.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-36.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-36.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0036.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/page-0036.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/36/files/assets/cover300.jpg",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/36/files/assets/cover300.jpg",
+      "contentType": "text/html",
+      "contentLength": "1245",
+      "isImage": false
+    },
+    {
+      "pageNumber": 36,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "ok": true,
+      "status": 206,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+      "contentType": "image/jpeg",
+      "contentLength": "513",
+      "isImage": true
+    }
+  ]
+}

@@ -130,7 +130,7 @@ function renderOfferImage(offer) {
   const url = productImageUrl(offer);
 
   if (!url) {
-    return '<div class="offer-image-placeholder" aria-hidden="true"></div>';
+    return '';
   }
 
   const isPageThumbnail = offer.imageType === 'page-thumbnail' && !offer.imageUrl;

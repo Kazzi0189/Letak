@@ -1,0 +1,49 @@
+name: Add Penny page images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Patch Penny page images
+        run: node scripts/patch-penny-page-images.mjs
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check app.js
+          node --check scripts/import-penny-leaflet-html.mjs
+          node --check scripts/combine-offers.mjs
+
+      - name: Rebuild Penny offers with page images
+        run: node scripts/import-penny-leaflet-html.mjs
+
+      - name: Rebuild combined offers
+        run: node scripts/combine-offers.mjs
+
+      - name: Commit Penny page images
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add app.js styles.css scripts/import-penny-leaflet-html.mjs scripts/combine-offers.mjs scripts/patch-penny-page-images.mjs data/penny-leaflet-offers.json data/penny-leaflet-html-debug.json data/offers.json data/offers-combined-debug.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Add Penny leaflet page images"
+            git push
+          fi

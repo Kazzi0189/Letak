@@ -69,3 +69,35 @@ p { margin: 0; color: var(--muted); line-height: 1.5; }
   .price-box { justify-content: flex-end; }
   .bottom-bar { display: none; }
 }
+
+
+.pill.ok {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.pill.warn {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.pill.danger {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.quality-note {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.offer .pill.danger,
+.offer .pill.warn {
+  font-weight: 800;
+}
+
+@media (min-width: 720px) {
+  .toolbar {
+    grid-template-columns: 1fr 190px 220px;
+  }
+}

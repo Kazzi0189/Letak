@@ -55,6 +55,7 @@ const state = {
   offers: [],
   cart: JSON.parse(localStorage.getItem('cart') || '[]'),
   sortBy: 'unitPrice',
+  qualityMode: localStorage.getItem('qualityMode') || 'trusted',
   dataStatus: 'Načítám data…'
 };
 
@@ -77,12 +78,81 @@ function saveState() {
   localStorage.setItem('postcode', state.postcode);
   localStorage.setItem('selectedStoreIds', JSON.stringify(state.selectedStoreIds));
   localStorage.setItem('cart', JSON.stringify(state.cart));
+  localStorage.setItem('qualityMode', state.qualityMode);
+}
+
+function offerQuality(offer) {
+  const confidence = String(offer.confidence || '').toLowerCase();
+  const suspect =
+    offer.suspect === true ||
+    String(offer.suspect || '').toLowerCase() === 'true';
+
+  if (suspect) return 'suspect';
+  if (confidence === 'low') return 'low';
+  if (confidence === 'medium') return 'medium';
+  return 'high';
+}
+
+function shouldShowOfferByQuality(offer) {
+  const quality = offerQuality(offer);
+
+  if (state.qualityMode === 'all') return true;
+  if (state.qualityMode === 'high') return quality === 'high';
+  if (state.qualityMode === 'review') return quality === 'low' || quality === 'suspect';
+
+  return quality === 'high' || quality === 'medium';
+}
+
+function qualityLabel(offer) {
+  const quality = offerQuality(offer);
+
+  if (quality === 'high') return 'vysoká jistota';
+  if (quality === 'medium') return 'střední jistota';
+  if (quality === 'low') return 'nízká jistota';
+  return 'ke kontrole';
+}
+
+function renderQualityBadge(offer) {
+  const quality = offerQuality(offer);
+
+  if (quality === 'high') return '<span class="pill ok">ověřeno</span>';
+  if (quality === 'medium') return '<span class="pill warn">střední jistota</span>';
+  if (quality === 'low') return '<span class="pill warn">nízká jistota</span>';
+
+  return '<span class="pill danger">ke kontrole</span>';
+}
+
+function renderOfferQualityText(offer) {
+  const quality = offerQuality(offer);
+  const page = offer.pageNumber ? ` · str. ${offer.pageNumber}` : '';
+
+  if (quality === 'high') return page;
+
+  const reasons = Array.isArray(offer.suspectReasons) && offer.suspectReasons.length
+    ? ` · ${offer.suspectReasons.join(', ')}`
+    : '';
+
+  return ` · ${qualityLabel(offer)}${reasons}${page}`;
+}
+
+function qualitySummary() {
+  const selected = state.offers.filter((offer) => state.selectedStoreIds.includes(offer.storeId));
+  const counts = selected.reduce(
+    (acc, offer) => {
+      acc[offerQuality(offer)] += 1;
+      return acc;
+    },
+    { high: 0, medium: 0, low: 0, suspect: 0 }
+  );
+
+  return `Jistota dat: vysoká ${counts.high}, střední ${counts.medium}, nízká ${counts.low}, ke kontrole ${counts.suspect}`;
 }
 
 function visibleOffers() {
   const query = normalize(state.query.trim());
   return state.offers
     .filter((offer) => state.selectedStoreIds.includes(offer.storeId))
+    .filter((offer) => shouldShowOfferByQuality(offer))
     .filter((offer) => {
       if (!query) return true;
       return normalize(`${offer.product} ${offer.brand} ${offer.chain} ${offer.storeName} ${offer.packageSize}`).includes(query);
@@ -95,7 +165,7 @@ function visibleOffers() {
 
 function cheapestMap() {
   const map = new Map();
-  for (const offer of state.offers.filter((offer) => state.selectedStoreIds.includes(offer.storeId))) {
+  for (const offer of state.offers.filter((offer) => state.selectedStoreIds.includes(offer.storeId) && shouldShowOfferByQuality(offer))) {
     const key = normalize(offer.product);
     const current = map.get(key);
     const offerValue = Number(offer.unitPrice || offer.price || Infinity);
@@ -185,12 +255,13 @@ function renderOffers() {
         <div class="offer-top">
           <span class="pill">${offer.storeName || offer.chain}</span>
           ${isCheapest ? '<span class="pill dark">nejlevnější</span>' : ''}
-          <span class="small">platí do ${offer.validTo || 'neuvedeno'}</span>
+        ${renderQualityBadge(offer)}
+        <span class="small">platí do ${offer.validTo || 'neuvedeno'}</span>
         </div>
         <div class="offer-main">
           <div>
             <div class="offer-title">${offer.product || 'Neznámý produkt'}</div>
-            <p>${offer.brand || 'značka neuvedena'} · ${offer.packageSize || 'balení neuvedeno'} · ${offer.priceType || 'akce'}</p>
+            <p>${offer.brand || 'značka neuvedena'} · ${offer.packageSize || 'balení neuvedeno'} · ${offer.priceType || 'akce'}${renderOfferQualityText(offer)}</p>
           </div>
           <div class="price-box">
             <div>
@@ -266,12 +337,20 @@ function render() {
           <div class="card">
             <h2>2. Nabídky</h2>
             <p>Hledej produkt a přidej nejlevnější nabídky do košíku.</p>
+            <p class="quality-note">${qualitySummary()}</p>
             <div class="toolbar">
               <input id="query" class="input" value="${state.query}" placeholder="Hledej: máslo, mléko, káva…" />
               <select id="sort" class="select">
                 <option value="unitPrice" ${state.sortBy === 'unitPrice' ? 'selected' : ''}>Jednotková cena</option>
                 <option value="price" ${state.sortBy === 'price' ? 'selected' : ''}>Cena balení</option>
-              </select>
+            </select>
+
+            <select id="quality" class="select">
+              <option value="trusted" ${state.qualityMode === 'trusted' ? 'selected' : ''}>Jisté + střední</option>
+              <option value="high" ${state.qualityMode === 'high' ? 'selected' : ''}>Jen vysoká jistota</option>
+              <option value="review" ${state.qualityMode === 'review' ? 'selected' : ''}>Jen ke kontrole</option>
+              <option value="all" ${state.qualityMode === 'all' ? 'selected' : ''}>Vše včetně nízké jistoty</option>
+            </select>
             </div>
             <div class="toolbar">
               <button class="btn" data-action="add-cheapest">Přidat nejlevnější z výsledků</button>
@@ -312,6 +391,12 @@ function render() {
 
   document.querySelector('#sort')?.addEventListener('change', (event) => {
     state.sortBy = event.target.value;
+    renderDynamic();
+  });
+
+  document.querySelector('#quality')?.addEventListener('change', (event) => {
+    state.qualityMode = event.target.value;
+    saveState();
     renderDynamic();
   });
 }

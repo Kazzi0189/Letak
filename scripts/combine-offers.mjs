@@ -1,11 +1,10 @@
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { copyFile, mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
-import { createHash } from "node:crypto";
 
 const INPUTS = [
   {
-    name: "Penny",
-    path: "data/offers.json",
+    name: "Penny leták",
+    path: "data/penny-leaflet-offers.json",
     required: false,
   },
   {
@@ -19,82 +18,39 @@ const OUTPUT_FILE = "data/offers.json";
 const BACKUP_FILE = "data/offers-penny-last.json";
 const DEBUG_FILE = "data/offers-combined-debug.json";
 
-function makeId(parts) {
-  return (
-    "offer-" +
-    createHash("sha1")
-      .update(parts.filter(Boolean).join("|"))
-      .digest("hex")
-      .slice(0, 16)
-  );
-}
-
-function normalizeNumber(value) {
-  if (typeof value === "number" && Number.isFinite(value)) return value;
-  if (typeof value !== "string") return null;
-
-  const parsed = Number(value.replace(",", ".").replace(/[^\d.]/g, ""));
-  return Number.isFinite(parsed) ? parsed : null;
+function toNumber(value) {
+  const number = Number(value);
+  return Number.isFinite(number) ? number : null;
 }
 
 function normalizeOffer(offer, sourceName) {
-  const chain = offer.chain || sourceName;
-  const storeName = offer.storeName || chain;
-  const product = String(offer.product || offer.name || offer.title || "").trim();
-
-  const price = normalizeNumber(offer.price);
-  const unitPrice = normalizeNumber(offer.unitPrice) ?? price;
-
-  if (!product || price === null) return null;
-
-  const id =
-    offer.id ||
-    makeId([
-      chain,
-      storeName,
-      product,
-      price,
-      offer.packageSize,
-      offer.validFrom,
-      offer.validTo,
-      offer.imageUrl,
-    ]);
+  const confidence = String(offer.confidence || "high").toLowerCase();
+  const suspect =
+    offer.suspect === true ||
+    String(offer.suspect || "").toLowerCase() === "true";
 
   return {
-    id,
-    storeId: offer.storeId || `${chain.toLowerCase().replace(/\s+/g, "-")}-default`,
-    chain,
-    storeName,
-    storeAddress: offer.storeAddress || "",
-    product,
+    id: offer.id || `${sourceName}-${offer.product}-${offer.price}`,
+    storeId: offer.storeId || sourceName.toLowerCase().replace(/\s+/g, "-"),
+    chain: offer.chain || sourceName,
+    storeName: offer.storeName || sourceName,
+    product: offer.product || "",
     brand: offer.brand || "",
     packageSize: offer.packageSize || "",
-    price,
-    oldPrice: normalizeNumber(offer.oldPrice),
-    unitPrice,
+    price: toNumber(offer.price),
+    unitPrice: toNumber(offer.unitPrice ?? offer.price),
     unit: offer.unit || "Kč/ks",
-    category: offer.category || "",
     validFrom: offer.validFrom || "",
     validTo: offer.validTo || "",
-    priceType: offer.priceType || "akční cena",
-    klNr: offer.klNr || "",
-    imageUrl: offer.imageUrl || "",
+    priceType: offer.priceType || "akce",
     sourceUrl: offer.sourceUrl || "",
     leafletUrl: offer.leafletUrl || "",
+    confidence: ["high", "medium", "low"].includes(confidence) ? confidence : "high",
+    suspect,
+    suspectReasons: Array.isArray(offer.suspectReasons) ? offer.suspectReasons : [],
+    pageNumber: offer.pageNumber ?? null,
     sourceFile: sourceName,
   };
-}
-
-function dedupeKey(offer) {
-  return [
-    offer.chain.toLowerCase(),
-    offer.storeName.toLowerCase(),
-    offer.product.toLowerCase(),
-    offer.price,
-    offer.packageSize.toLowerCase(),
-    offer.validFrom,
-    offer.validTo,
-  ].join("|");
 }
 
 async function readOffers(input) {
@@ -105,126 +61,102 @@ async function readOffers(input) {
 
     return {
       input,
-      exists: false,
-      meta: null,
+      count: 0,
       offers: [],
+      missing: true,
     };
   }
 
-  const parsed = JSON.parse(await readFile(input.path, "utf8"));
-  const offers = Array.isArray(parsed.offers) ? parsed.offers : [];
+  const raw = await readFile(input.path, "utf8");
+  const parsed = JSON.parse(raw);
+  const sourceOffers = Array.isArray(parsed.offers) ? parsed.offers : [];
+
+  const offers = sourceOffers
+    .map((offer) => normalizeOffer(offer, input.name))
+    .filter((offer) => offer.product && offer.price !== null);
 
   return {
     input,
-    exists: true,
-    meta: parsed.meta ?? null,
-    offers: offers
-      .map((offer) => normalizeOffer(offer, input.name))
-      .filter(Boolean),
+    count: offers.length,
+    offers,
+    missing: false,
   };
 }
 
 async function main() {
   await mkdir("data", { recursive: true });
 
+  if (existsSync(OUTPUT_FILE) && !existsSync(BACKUP_FILE)) {
+    await copyFile(OUTPUT_FILE, BACKUP_FILE);
+  }
+
   const loaded = [];
+  const allOffers = [];
+
   for (const input of INPUTS) {
-    loaded.push(await readOffers(input));
+    const result = await readOffers(input);
+    loaded.push({
+      name: input.name,
+      path: input.path,
+      count: result.count,
+      missing: result.missing,
+    });
+    allOffers.push(...result.offers);
   }
 
-  const penny = loaded.find((item) => item.input.name === "Penny");
-  if (penny?.exists) {
-    await writeFile(
-      BACKUP_FILE,
-      JSON.stringify(
-        {
-          meta: {
-            backedUpAt: new Date().toISOString(),
-            source: penny.input.path,
-            note: "Backup původního Penny data/offers.json před vytvořením společného offers.json.",
-            originalMeta: penny.meta,
-            count: penny.offers.length,
-          },
-          offers: penny.offers,
-        },
-        null,
-        2
-      ) + "\n",
-      "utf8"
-    );
-  }
-
-  const all = loaded.flatMap((item) => item.offers);
   const unique = new Map();
 
-  for (const offer of all) {
-    const key = dedupeKey(offer);
-    const existing = unique.get(key);
+  for (const offer of allOffers) {
+    const key = [
+      offer.storeId,
+      offer.product,
+      offer.packageSize,
+      offer.price,
+      offer.unitPrice,
+      offer.pageNumber ?? "",
+    ].join("|");
 
-    if (!existing) {
-      unique.set(key, offer);
-      continue;
-    }
-
-    const existingScore =
-      Number(Boolean(existing.imageUrl)) +
-      Number(Boolean(existing.storeAddress)) +
-      Number(Boolean(existing.klNr)) +
-      Number(Boolean(existing.oldPrice));
-
-    const newScore =
-      Number(Boolean(offer.imageUrl)) +
-      Number(Boolean(offer.storeAddress)) +
-      Number(Boolean(offer.klNr)) +
-      Number(Boolean(offer.oldPrice));
-
-    if (newScore > existingScore) {
-      unique.set(key, offer);
-    }
+    unique.set(key, offer);
   }
 
-  const combined = Array.from(unique.values()).sort((a, b) => {
-    const productCompare = a.product.localeCompare(b.product, "cs");
-    if (productCompare !== 0) return productCompare;
-    return a.price - b.price;
+  const offers = Array.from(unique.values()).sort((a, b) => {
+    const byStore = a.storeName.localeCompare(b.storeName, "cs");
+    if (byStore !== 0) return byStore;
+    return a.product.localeCompare(b.product, "cs");
   });
-
-  const byChain = combined.reduce((acc, offer) => {
-    acc[offer.chain] = (acc[offer.chain] ?? 0) + 1;
-    return acc;
-  }, {});
 
   const output = {
     meta: {
       source: "combined",
       updatedAt: new Date().toISOString(),
-      count: combined.length,
+      count: offers.length,
       parser: "scripts/combine-offers.mjs",
-      inputs: loaded.map((item) => ({
-        name: item.input.name,
-        path: item.input.path,
-        exists: item.exists,
-        count: item.offers.length,
-      })),
-      byChain,
-      note: "Společný soubor pro aplikaci. Obsahuje nabídky z dostupných importů.",
+      inputs: loaded,
     },
-    offers: combined,
+    offers,
   };
 
-  await writeFile(OUTPUT_FILE, JSON.stringify(output, null, 2) + "\n", "utf8");
+  const qualityCounts = offers.reduce(
+    (acc, offer) => {
+      if (offer.suspect) acc.suspect += 1;
+      else if (offer.confidence === "low") acc.low += 1;
+      else if (offer.confidence === "medium") acc.medium += 1;
+      else acc.high += 1;
 
+      return acc;
+    },
+    { high: 0, medium: 0, low: 0, suspect: 0 }
+  );
+
+  await writeFile(OUTPUT_FILE, JSON.stringify(output, null, 2) + "\n", "utf8");
   await writeFile(
     DEBUG_FILE,
     JSON.stringify(
       {
         meta: output.meta,
-        firstOffers: combined.slice(0, 30),
-        notes: [
-          "Výstup je záměrně zapsán do data/offers.json, aby frontend nemusel být zatím upraven.",
-          "Původní Penny data/offers.json se uloží jako data/offers-penny-last.json.",
-          "Když znovu spustíš Penny import, data/offers.json se přepíše jen na Penny; potom stačí znovu spustit Combine offers.",
-        ],
+        loaded,
+        qualityCounts,
+        firstOffers: offers.slice(0, 20),
       },
       null,
       2
@@ -232,10 +164,8 @@ async function main() {
     "utf8"
   );
 
-  console.log(`Combined offers: ${combined.length}`);
-  console.log(JSON.stringify(byChain, null, 2));
-  console.log(`Wrote ${OUTPUT_FILE}`);
-  console.log(`Wrote ${DEBUG_FILE}`);
+  console.log(`Combined ${offers.length} offers into ${OUTPUT_FILE}`);
+  console.log(JSON.stringify({ loaded, qualityCounts }, null, 2));
 }
 
 main().catch((error) => {

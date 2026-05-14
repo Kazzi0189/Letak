@@ -1,0 +1,1642 @@
+{
+  "checkedAt": "2026-05-14T14:14:11.599Z",
+  "sourceUrls": [
+    "https://www.albert.cz/aktualni-letaky",
+    "https://www.albert.cz/akcni-nabidky",
+    "https://www.albert.cz/shop",
+    "https://www.albert.cz"
+  ],
+  "summary": {
+    "recommendedPath": "inspect-json-or-api-first",
+    "counts": {
+      "pagesChecked": 4,
+      "imageUrls": 147,
+      "dataUrls": 43,
+      "priceExamples": 0,
+      "unitPriceExamples": 0,
+      "productWordsFound": 0,
+      "workingImages": 117,
+      "workingJsonEndpoints": 0,
+      "jsonLikeBlocks": 7
+    },
+    "productWordsFound": [],
+    "priceExamples": [],
+    "unitPriceExamples": [],
+    "workingJsonEndpoints": [],
+    "workingImages": [
+      {
+        "url": "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "contentType": "image/png",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/site/binaries/_ht_1712567423307/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_letak_1200x630.png",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/site/binaries/_ht_1712567423307/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_letak_1200x630.png",
+        "contentType": "image/png",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "contentType": "image/png",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://letaky.albert.cz/20sm_akcni_letak/cover_page.jpg?ts=1778596170&size=at600",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/cover_page.jpg?ts=1778596170&size=at600",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://letaky.albert.cz/19sm_akcni_katalog_brand/cover_page.jpg?ts=1777549916&size=at600",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://letaky.albert.cz/19sm_akcni_katalog_brand/cover_page.jpg?ts=1777549916&size=at600",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://letaky.albert.cz/20sm_akcni_katalog_bio/cover_page.jpg?ts=1778155744&size=at600",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://letaky.albert.cz/20sm_akcni_katalog_bio/cover_page.jpg?ts=1778155744&size=at600",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://letaky.albert.cz/20hm_akcni_letak/cover_page.jpg?ts=1778569826&size=at600",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/cover_page.jpg?ts=1778569826&size=at600",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://letaky.albert.cz/20hm_akcni_katalog_bio/cover_page.jpg?ts=1778488228&size=at600",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://letaky.albert.cz/20hm_akcni_katalog_bio/cover_page.jpg?ts=1778488228&size=at600",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://letaky.albert.cz/19hm_akcni_katalog_vino/cover_page.jpg?ts=1777986275&size=at600",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://letaky.albert.cz/19hm_akcni_katalog_vino/cover_page.jpg?ts=1777986275&size=at600",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://letaky.albert.cz/19hm_akcni_katalog_brand/cover_page.jpg?ts=1777548392&size=at600",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://letaky.albert.cz/19hm_akcni_katalog_brand/cover_page.jpg?ts=1777548392&size=at600",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=843",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=843",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=843",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=843",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/site/binaries/_ht_1736325341359/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk-mobil.jpg?imwidth=408",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/site/binaries/_ht_1736325341359/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk-mobil.jpg?imwidth=408",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=408",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=408",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=1",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=1",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=2",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=2",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=592",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=592",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=784",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=784",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=1200",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=1200",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      },
+      {
+        "url": "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=300&imdensity=1",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=300&imdensity=1",
+        "contentType": "image/jpeg",
+        "contentLength": "1025",
+        "isImage": true,
+        "isJson": false
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://www.albert.cz/aktualni-letaky",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.albert.cz/aktualni-letaky",
+      "contentType": "text/html; charset=utf-8",
+      "htmlLength": 1130097,
+      "foundProductWords": [],
+      "priceMatches": [],
+      "unitPriceMatches": [],
+      "jsonLikeBlocks": [
+        {
+          "type": "__NEXT_DATA__",
+          "length": 962151,
+          "preview": "{\"props\":{\"messageBundle\":{\"phoneVerificationPopup.verificationCodes.limit.blocked\":\"\",\"phoneVerificationPopup.continueShopping.button\":\"\",\"myAccount.burnableOffers.partnerOffer.activation.not.allowed\":\"Redeemed\",\"welcome.section.form.privacy.policy\":\"Souhlasím s Albert Domů Zdarma \\u003ca href=\\\"{1}\\\"\\u003eobchodními podmínkami\\u003c/a\\u003e. Seznamte se s našimi \\u003ca href=\\\"{0}\\\"zásadami zpracování osobních údajů\\u003c/a\\u003e.\",\"myAccount.burnableOffers.burn.basket.deactivate.keep.offer\":\"No, keep the offer\",\"loyalty.registration.personal.details.lastname.label\":\"Last name\",\"basket.add.to.cart\":\"Přidat\",\"product.details.section.info.attributes.badgeproductistasteofinspiration.tooltip\":\"Taste of Inspirations\",\"subscription.deliveryPlus.advantages.drawer.item.3.title\":\"\",\"product.details.section.ratingAndReview.review.cancel\":\"Zrušit\",\"product.details.section.description.storageConditions\":\"Skladovací podmínky a podmínky použití\",\"hero.carousel.loyalty.image.title\":\"\",\"cookies.item"
+        },
+        {
+          "type": "ld+json",
+          "length": 307,
+          "preview": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Albert\",\n      \"item\": \"https://www.albert.cz\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Akční letáky\"\n    }\n  ]\n}"
+        }
+      ],
+      "dataUrls": [
+        "https://static.albert.cz/site/binaries/_ht_1712567423307/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_letak_1200x630.png",
+        "https://www.albert.cz/www.albert.cz/aktualni-letaky",
+        "https://www.albert.cz/aktualni-letaky",
+        "https://www.albert.cz/_next/static/chunks/CmsLeaflets.30cddb335f62f923.js",
+        "https://www.albert.cz/aktualni-letaky#main-content",
+        "https://letaky.albert.cz/20sm_akcni_letak/cover_page.jpg?ts=1778596170&size=at600",
+        "https://letaky.albert.cz/19sm_akcni_katalog_brand/cover_page.jpg?ts=1777549916&size=at600",
+        "https://letaky.albert.cz/20sm_akcni_katalog_bio/cover_page.jpg?ts=1778155744&size=at600",
+        "https://letaky.albert.cz/20hm_akcni_letak/cover_page.jpg?ts=1778569826&size=at600",
+        "https://letaky.albert.cz/20hm_akcni_katalog_bio/cover_page.jpg?ts=1778488228&size=at600",
+        "https://letaky.albert.cz/19hm_akcni_katalog_vino/cover_page.jpg?ts=1777986275&size=at600",
+        "https://letaky.albert.cz/19hm_akcni_katalog_brand/cover_page.jpg?ts=1777548392&size=at600",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=843",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=408",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=1200",
+        "https://www.albert.cz/api/v1/",
+        "https://letaky.albert.cz/20hm_akcni_letak/",
+        "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+        "https://letaky.albert.cz/20hm_akcni_katalog_bio/",
+        "https://view.publitas.com/90263/3056755/pdfs/a1bcbe32-0bf8-49d3-bd75-4f14106cbcf9.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_katalog_BIO.pdf",
+        "https://letaky.albert.cz/19hm_akcni_katalog_vino/",
+        "https://view.publitas.com/90263/3044438/pdfs/67f4ba00-c18f-41e7-a8fc-922a36e889a9.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252019HM_akcni_katalog_Vino.pdf",
+        "https://letaky.albert.cz/19hm_akcni_katalog_brand/",
+        "https://view.publitas.com/90263/3035134/pdfs/2207ba00-6209-4252-a631-00fcd319412d.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252019HM_akcni_katalog_brand.pdf",
+        "https://letaky.albert.cz/20sm_akcni_letak/",
+        "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+        "https://letaky.albert.cz/19sm_akcni_katalog_brand/",
+        "https://view.publitas.com/90263/3035135/pdfs/48658d32-b072-4132-b8d6-2cf45de81c73.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252019SM_akcni_katalog_brand.pdf",
+        "https://letaky.albert.cz/20sm_akcni_katalog_bio/",
+        "https://view.publitas.com/90263/3054367/pdfs/564a3fdb-0d6e-47ef-9920-363b946486b4.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_katalog_bio.pdf"
+      ],
+      "imageUrls": [
+        "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "https://static.albert.cz/site/binaries/_ht_1712567423307/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_letak_1200x630.png",
+        "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "https://letaky.albert.cz/20sm_akcni_letak/cover_page.jpg?ts=1778596170&size=at600",
+        "https://letaky.albert.cz/19sm_akcni_katalog_brand/cover_page.jpg?ts=1777549916&size=at600",
+        "https://letaky.albert.cz/20sm_akcni_katalog_bio/cover_page.jpg?ts=1778155744&size=at600",
+        "https://letaky.albert.cz/20hm_akcni_letak/cover_page.jpg?ts=1778569826&size=at600",
+        "https://letaky.albert.cz/20hm_akcni_katalog_bio/cover_page.jpg?ts=1778488228&size=at600",
+        "https://letaky.albert.cz/19hm_akcni_katalog_vino/cover_page.jpg?ts=1777986275&size=at600",
+        "https://letaky.albert.cz/19hm_akcni_katalog_brand/cover_page.jpg?ts=1777548392&size=at600",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=843",
+        "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=843",
+        "https://static.albert.cz/site/binaries/_ht_1736325341359/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk-mobil.jpg?imwidth=408",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=408",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1767007224263/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1736325341359/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk-mobil.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1736325341359/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk-mobil.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1736325341359/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk-mobil.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1736325341359/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk-mobil.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1736325341359/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk-mobil.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=1200"
+      ],
+      "testedDataUrls": [
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1712567423307/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_letak_1200x630.png",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1712567423307/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_letak_1200x630.png",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://www.albert.cz/www.albert.cz/aktualni-letaky",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.albert.cz/aktualni-letaky",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "isImage": false,
+          "isJson": false
+        },
+        {
+          "url": "https://www.albert.cz/aktualni-letaky",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.albert.cz/aktualni-letaky",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "isImage": false,
+          "isJson": false
+        },
+        {
+          "url": "https://www.albert.cz/_next/static/chunks/CmsLeaflets.30cddb335f62f923.js",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.albert.cz/_next/static/chunks/CmsLeaflets.30cddb335f62f923.js",
+          "contentType": "application/javascript; charset=UTF-8",
+          "contentLength": "12957",
+          "isImage": false,
+          "isJson": false
+        },
+        {
+          "url": "https://www.albert.cz/aktualni-letaky#main-content",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.albert.cz/aktualni-letaky",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "isImage": false,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/cover_page.jpg?ts=1778596170&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/cover_page.jpg?ts=1778596170&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/19sm_akcni_katalog_brand/cover_page.jpg?ts=1777549916&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/19sm_akcni_katalog_brand/cover_page.jpg?ts=1777549916&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/20sm_akcni_katalog_bio/cover_page.jpg?ts=1778155744&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_katalog_bio/cover_page.jpg?ts=1778155744&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/cover_page.jpg?ts=1778569826&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/cover_page.jpg?ts=1778569826&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/20hm_akcni_katalog_bio/cover_page.jpg?ts=1778488228&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_katalog_bio/cover_page.jpg?ts=1778488228&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/19hm_akcni_katalog_vino/cover_page.jpg?ts=1777986275&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/19hm_akcni_katalog_vino/cover_page.jpg?ts=1777986275&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/19hm_akcni_katalog_brand/cover_page.jpg?ts=1777548392&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/19hm_akcni_katalog_brand/cover_page.jpg?ts=1777548392&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=843",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=843",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=408",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=408",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=1",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=1",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=2",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=2",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=592",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=592",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=784",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=784",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=1200",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=1200",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=300&imdensity=1",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=300&imdensity=1",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        }
+      ],
+      "testedImageUrls": [
+        {
+          "url": "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1712567423307/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_letak_1200x630.png",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1712567423307/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_letak_1200x630.png",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/cover_page.jpg?ts=1778596170&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/cover_page.jpg?ts=1778596170&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/19sm_akcni_katalog_brand/cover_page.jpg?ts=1777549916&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/19sm_akcni_katalog_brand/cover_page.jpg?ts=1777549916&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/20sm_akcni_katalog_bio/cover_page.jpg?ts=1778155744&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_katalog_bio/cover_page.jpg?ts=1778155744&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/cover_page.jpg?ts=1778569826&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/cover_page.jpg?ts=1778569826&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/20hm_akcni_katalog_bio/cover_page.jpg?ts=1778488228&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_katalog_bio/cover_page.jpg?ts=1778488228&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/19hm_akcni_katalog_vino/cover_page.jpg?ts=1777986275&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/19hm_akcni_katalog_vino/cover_page.jpg?ts=1777986275&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/19hm_akcni_katalog_brand/cover_page.jpg?ts=1777548392&size=at600",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://letaky.albert.cz/19hm_akcni_katalog_brand/cover_page.jpg?ts=1777548392&size=at600",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=843",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=843",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=843",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=843",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1736325341359/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk-mobil.jpg?imwidth=408",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1736325341359/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk-mobil.jpg?imwidth=408",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=408",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585463130/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine_mobile.jpg?imwidth=408",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=1",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=1",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=2",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=300&imdensity=2",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=592",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/xs/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=592",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=784",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=784",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=1200",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585462064/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/10.banner_levy_letaky_rozcestnik_listerine.jpg?imwidth=1200",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=300&imdensity=1",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1767007224263/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/dk_banner_843x324.png?imwidth=300&imdensity=1",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        }
+      ],
+      "textPreview": "Albert leták - Supermarket a Hypermarket | Albert Přeskočit Albert leták - Supermarket a Hypermarket | Albert LETÁKY RECEPTY AKCE POUZE U NÁS MŮJ ALBERT PRODEJNY Albert Akční letáky Aktuální akční letáky Aktuální akční letáky Supermarket leták Akční leták pro Albert supermarkety Platný pro ještě 6 dní Od 13.05.2026 do 19.05.2026 Platný pro ještě 6 dní Od 06.05.2026 do 19.05.2026 Platný pro ještě 6 dní Od 13.05.2026 do 19.05.2026 Hypermarket leták Akční leták pro Albert hypermarkety Platný pro ještě 6 dní Od 13.05.2026 do 19.05.2026 Platný pro ještě 13 dní Od 13.05.2026 do 26.05.2026 Platný pro ještě 6 dní Od 06.05.2026 do 19.05.2026 Platný pro ještě 6 dní Od 06.05.2026 do 19.05.2026 ALBERT LETÁK Vítejte na stránce, kde vždy objevíte ten nejčerstvější Albert akční leták plný slev a výhodných akcí! Každý týden zveřejňujeme nový Albert hypermarket leták i Albert supermarket leták, aby vám neunikla žádná výhodná nabídka. Sledujte Albert akce na potraviny, nápoje, čerstvé pečivo, maso, mléčné výrobky, ovoce i zeleninu. Leták Albert je dostupný kdykoliv online – rychle, přehledně a odkudkoliv. Plánujete větší rodinný nákup, nebo jen doplnit zásoby na týden? Na této stránce jsou k dispozici všechny aktuální letáky Albert, ať už pro Albert hypermarket, nebo Albert supermarket. Díky nám máte vždy přehled o tom, co se právě vyplatí pořídit. Mrkněte i na leták Albert na příští týden a získejte náskok v plánování svých nákupů. Nezapomeňte také na víkendové, sezónní nebo tematické slevové akce – Albert leták i Albert akční katalog pravidelně přinášejí kvalitu, inspiraci i úsporu. ALBERT"
+    },
+    {
+      "url": "https://www.albert.cz/akcni-nabidky",
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://www.albert.cz/akcni-nabidky",
+      "contentType": "text/html; charset=utf-8",
+      "htmlLength": 1018028,
+      "foundProductWords": [],
+      "priceMatches": [],
+      "unitPriceMatches": [],
+      "jsonLikeBlocks": [
+        {
+          "type": "__NEXT_DATA__",
+          "length": 858653,
+          "preview": "{\"props\":{\"messageBundle\":{\"phoneVerificationPopup.verificationCodes.limit.blocked\":\"\",\"phoneVerificationPopup.continueShopping.button\":\"\",\"myAccount.burnableOffers.partnerOffer.activation.not.allowed\":\"Redeemed\",\"welcome.section.form.privacy.policy\":\"Souhlasím s Albert Domů Zdarma \\u003ca href=\\\"{1}\\\"\\u003eobchodními podmínkami\\u003c/a\\u003e. Seznamte se s našimi \\u003ca href=\\\"{0}\\\"zásadami zpracování osobních údajů\\u003c/a\\u003e.\",\"myAccount.burnableOffers.burn.basket.deactivate.keep.offer\":\"No, keep the offer\",\"loyalty.registration.personal.details.lastname.label\":\"Last name\",\"basket.add.to.cart\":\"Přidat\",\"product.details.section.info.attributes.badgeproductistasteofinspiration.tooltip\":\"Taste of Inspirations\",\"subscription.deliveryPlus.advantages.drawer.item.3.title\":\"\",\"product.details.section.ratingAndReview.review.cancel\":\"Zrušit\",\"product.details.section.description.storageConditions\":\"Skladovací podmínky a podmínky použití\",\"hero.carousel.loyalty.image.title\":\"\",\"cookies.item"
+        },
+        {
+          "type": "ld+json",
+          "length": 318,
+          "preview": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Albert\",\n      \"item\": \"https://www.albert.cz\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Stránka nebyla nalezena\"\n    }\n  ]\n}"
+        }
+      ],
+      "dataUrls": [
+        "https://www.albert.cz/akcni-nabidky",
+        "https://www.albert.cz/akcni-nabidky#main-content",
+        "https://www.albert.cz/aktualni-letaky",
+        "https://www.albert.cz/api/v1/"
+      ],
+      "imageUrls": [
+        "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1691155098008/lg/content/gallery/image-components/albert-czechia-cz/home-page/bio_hp_bot.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1691155054279/lg/content/gallery/image-components/albert-czechia-cz/home-page/fb_hp_bot.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1690268950385/lg/content/gallery/image-components/albert-czechia-cz/home-page/trznice_hp_bot_test.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1691154582530/xs/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1691154549534/xs/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1691155023863/xs/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1691155098008/lg/content/gallery/image-components/albert-czechia-cz/home-page/bio_hp_bot.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1691155098008/lg/content/gallery/image-components/albert-czechia-cz/home-page/bio_hp_bot.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1691155098008/xs/content/gallery/image-components/albert-czechia-cz/home-page/bio_hp_bot.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1691155098008/lg/content/gallery/image-components/albert-czechia-cz/home-page/bio_hp_bot.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1691155098008/lg/content/gallery/image-components/albert-czechia-cz/home-page/bio_hp_bot.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1691155054279/lg/content/gallery/image-components/albert-czechia-cz/home-page/fb_hp_bot.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1691155054279/lg/content/gallery/image-components/albert-czechia-cz/home-page/fb_hp_bot.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1691155054279/xs/content/gallery/image-components/albert-czechia-cz/home-page/fb_hp_bot.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1691155054279/lg/content/gallery/image-components/albert-czechia-cz/home-page/fb_hp_bot.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1691155054279/lg/content/gallery/image-components/albert-czechia-cz/home-page/fb_hp_bot.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1690268950385/lg/content/gallery/image-components/albert-czechia-cz/home-page/trznice_hp_bot_test.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1690268950385/lg/content/gallery/image-components/albert-czechia-cz/home-page/trznice_hp_bot_test.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1690268950385/xs/content/gallery/image-components/albert-czechia-cz/home-page/trznice_hp_bot_test.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1690268950385/lg/content/gallery/image-components/albert-czechia-cz/home-page/trznice_hp_bot_test.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1690268950385/lg/content/gallery/image-components/albert-czechia-cz/home-page/trznice_hp_bot_test.jpg?imwidth=1200"
+      ],
+      "testedDataUrls": [
+        {
+          "url": "https://www.albert.cz/akcni-nabidky",
+          "ok": false,
+          "status": 404,
+          "finalUrl": "https://www.albert.cz/akcni-nabidky",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "isImage": false,
+          "isJson": false
+        },
+        {
+          "url": "https://www.albert.cz/akcni-nabidky#main-content",
+          "ok": false,
+          "status": 404,
+          "finalUrl": "https://www.albert.cz/akcni-nabidky",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "isImage": false,
+          "isJson": false
+        },
+        {
+          "url": "https://www.albert.cz/aktualni-letaky",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.albert.cz/aktualni-letaky",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "isImage": false,
+          "isJson": false
+        },
+        {
+          "url": "https://www.albert.cz/api/v1/",
+          "ok": false,
+          "status": 400,
+          "finalUrl": "https://www.albert.cz/api/v1/",
+          "contentType": "application/json; charset=utf-8",
+          "contentLength": "335",
+          "isImage": false,
+          "isJson": false
+        }
+      ],
+      "testedImageUrls": [
+        {
+          "url": "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691155098008/lg/content/gallery/image-components/albert-czechia-cz/home-page/bio_hp_bot.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691155098008/lg/content/gallery/image-components/albert-czechia-cz/home-page/bio_hp_bot.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691155054279/lg/content/gallery/image-components/albert-czechia-cz/home-page/fb_hp_bot.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691155054279/lg/content/gallery/image-components/albert-czechia-cz/home-page/fb_hp_bot.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1690268950385/lg/content/gallery/image-components/albert-czechia-cz/home-page/trznice_hp_bot_test.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1690268950385/lg/content/gallery/image-components/albert-czechia-cz/home-page/trznice_hp_bot_test.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=300&imdensity=1",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=300&imdensity=1",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=300&imdensity=2",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=300&imdensity=2",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154582530/xs/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=592",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154582530/xs/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=592",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=784",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=784",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=1200",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=1200",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=300&imdensity=1",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=300&imdensity=1",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=300&imdensity=2",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=300&imdensity=2",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154549534/xs/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=592",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154549534/xs/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=592",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=784",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=784",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=1200",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=1200",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=300&imdensity=1",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=300&imdensity=1",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=300&imdensity=2",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=300&imdensity=2",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        }
+      ],
+      "textPreview": "Stránka nebyla nalezena - 404 Přeskočit Stránka nebyla nalezena - 404 LETÁKY RECEPTY AKCE POUZE U NÁS MŮJ ALBERT PRODEJNY Albert Stránka nebyla nalezena Stránka nebyla nalezena Stránka nebyla nalezena Stránku, kterou hledáte, se nám nepodařilo najít. Podívejte se co pro Vás máme připraveno: Letáky Recepty Prodejny ZÁLEŽÍ NÁM NA TOM, ABYSTE JEDLI LÉPE Albert prodejny Kontakty pro dotazy na prodejny Můj Albert Kontakty pro dotazy na aplikaci Můj Albert Přihlaste se k odběru newsletteru Zanechte svou e-mailovou adresu a získejte ty nejlepší akce a inspiraci. Váš e-mail Odebírat Tímto souhlasím se zasíláním obchodních sdělení a promočních nabídek na mé kontaktní údaje a zároveň stvrzuji, že jsem se seznámil/a s Podmínkami zpracování osobních údajů. Sleduj nás na sociálních sítích Stáhni naši aplikaci Albert Prodejny Albert Albert leták Můj Albert Albert Online Albert scan Dárková karta Nadační fond Albert Užitečné odkazy Kariéra Pro studenty Pro zákazníky Garance kvality Pro novináře Naši dodavatelé Pro dodavatele Důležité informace a dokumenty Kontakty Albert prodejny kontakt Můj Albert kontakt Sídlo a centrála společnosti Albert Prodejny Albert Albert leták Můj Albert Albert Online Albert scan Dárková karta Nadační fond Albert Užitečné odkazy Kariéra Pro studenty Pro zákazníky Garance kvality Pro novináře Naši dodavatelé Pro dodavatele Důležité informace a dokumenty Kontakty Albert prodejny kontakt Můj Albert kontakt Sídlo a centrála společnosti Stáhni naši aplikaci Zásady zpracování osobních údajů Zásady zpracování osobních údajů pro obchodní partnery Zásady zpracování osobn"
+    },
+    {
+      "url": "https://www.albert.cz/shop",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.albert.cz/albert-online",
+      "contentType": "text/html; charset=utf-8",
+      "htmlLength": 1044769,
+      "foundProductWords": [],
+      "priceMatches": [],
+      "unitPriceMatches": [],
+      "jsonLikeBlocks": [
+        {
+          "type": "__NEXT_DATA__",
+          "length": 884329,
+          "preview": "{\"props\":{\"messageBundle\":{\"phoneVerificationPopup.verificationCodes.limit.blocked\":\"\",\"phoneVerificationPopup.continueShopping.button\":\"\",\"myAccount.burnableOffers.partnerOffer.activation.not.allowed\":\"Redeemed\",\"welcome.section.form.privacy.policy\":\"Souhlasím s Albert Domů Zdarma \\u003ca href=\\\"{1}\\\"\\u003eobchodními podmínkami\\u003c/a\\u003e. Seznamte se s našimi \\u003ca href=\\\"{0}\\\"zásadami zpracování osobních údajů\\u003c/a\\u003e.\",\"myAccount.burnableOffers.burn.basket.deactivate.keep.offer\":\"No, keep the offer\",\"loyalty.registration.personal.details.lastname.label\":\"Last name\",\"basket.add.to.cart\":\"Přidat\",\"product.details.section.info.attributes.badgeproductistasteofinspiration.tooltip\":\"Taste of Inspirations\",\"subscription.deliveryPlus.advantages.drawer.item.3.title\":\"\",\"product.details.section.ratingAndReview.review.cancel\":\"Zrušit\",\"product.details.section.description.storageConditions\":\"Skladovací podmínky a podmínky použití\",\"hero.carousel.loyalty.image.title\":\"\",\"cookies.item"
+        },
+        {
+          "type": "ld+json",
+          "length": 361,
+          "preview": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Albert\",\n      \"item\": \"https://www.albert.cz\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Albert Online\",\n      \"item\": \"https://www.albert.cz/albert-online\"\n    }\n  ]\n}"
+        }
+      ],
+      "dataUrls": [
+        "https://www.albert.cz/aktualni-letaky",
+        "https://www.albert.cz/api/v1/"
+      ],
+      "imageUrls": [
+        "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "https://static.albert.cz/site/binaries/_ht_1765973934030/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/hero_image_360x360.png",
+        "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=720",
+        "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=720",
+        "https://static.albert.cz/site/binaries/_ht_1766044796851/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=720",
+        "https://static.albert.cz/site/binaries/_ht_1766044830010/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/foodora_720x720.png?imwidth=720",
+        "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1766150615861/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1766042327772/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1766044796851/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1766044796851/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1766044796851/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1766044796851/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1766044796851/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1766044830010/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/foodora_720x720.png?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1766044830010/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/foodora_720x720.png?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1766044830010/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/foodora_720x720.png?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1766044830010/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/foodora_720x720.png?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1766044830010/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/foodora_720x720.png?imwidth=1200"
+      ],
+      "testedDataUrls": [
+        {
+          "url": "https://www.albert.cz/aktualni-letaky",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.albert.cz/aktualni-letaky",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "isImage": false,
+          "isJson": false
+        },
+        {
+          "url": "https://www.albert.cz/api/v1/",
+          "ok": false,
+          "status": 400,
+          "finalUrl": "https://www.albert.cz/api/v1/",
+          "contentType": "application/json; charset=utf-8",
+          "contentLength": "335",
+          "isImage": false,
+          "isJson": false
+        }
+      ],
+      "testedImageUrls": [
+        {
+          "url": "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1765973934030/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/hero_image_360x360.png",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1765973934030/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/hero_image_360x360.png",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=720",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=720",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=720",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=720",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766044796851/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=720",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766044796851/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=720",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766044830010/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/foodora_720x720.png?imwidth=720",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766044830010/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/foodora_720x720.png?imwidth=720",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=300&imdensity=1",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=300&imdensity=1",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=300&imdensity=2",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=300&imdensity=2",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766150615861/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=592",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766150615861/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=592",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=784",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=784",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=1200",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766150615861/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/2025_w52_map_720x720.jpg?imwidth=1200",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=300&imdensity=1",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=300&imdensity=1",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=300&imdensity=2",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=300&imdensity=2",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766042327772/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=592",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766042327772/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=592",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=784",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=784",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=1200",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766042327772/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/map_720x720.png?imwidth=1200",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766044796851/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=300&imdensity=1",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766044796851/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=300&imdensity=1",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766044796851/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=300&imdensity=2",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766044796851/lg/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=300&imdensity=2",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1766044796851/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=592",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1766044796851/xs/content/gallery/image-components/albert-czechia-cz/web-tabs/ao-exit/wolt_720x720.png?imwidth=592",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        }
+      ],
+      "textPreview": "Albert Online - informace o ukončení služby | Albert Přeskočit Albert Online - informace o ukončení služby | Albert LETÁKY RECEPTY AKCE POUZE U NÁS MŮJ ALBERT PRODEJNY Albert Albert Online Milí zákazníci, k 23. prosinci 2025 skončila služba Albert Online. Chceme vám poděkovat za důvěru a zároveň vás ujistit, že i nadále můžete nakupovat vaše oblíbené produkty z Albertu pohodlně z domova. Nově pro vás máme alternativu – objednávky přes naše partnery Wolt a foodora , kteří vám přivezou oblíbené produkty Albert až ke dveřím, jak jste zvyklí. Nakoupíte u nich nejen naše značky, jako Nature’s Promise, Fresh Bistro nebo oblíbenou mlynářskou řadu pečiva, ale také další oblíbené značky, které jinde nenajdete. Milí zákazníci, k 23. prosinci 2025 skončila služba Albert Online. Chceme vám poděkovat za důvěru a zároveň vás ujistit, že i nadále můžete nakupovat vaše oblíbené produkty z Albertu pohodlně z domova. Nově pro vás máme alternativu – objednávky přes naše partnery Wolt a foodora , kteří vám přivezou oblíbené produkty Albert až ke dveřím, jak jste zvyklí. Nakoupíte u nich nejen naše značky, jako Nature’s Promise, Fresh Bistro nebo oblíbenou mlynářskou řadu pečiva, ale také další oblíbené značky, které jinde nenajdete. NAKOUPIT MŮŽETE ONLINE S NAŠIMI PARTNERY WOLT A FOODORA Doručování je dostupné v Brně, Olomouci, Přerově, Prostějově, Ostravě, Frýdku-Místku, Havířově, Zlíně, Otrokovicích a jejich okolí, v Pardubicích, Mladé Boleslavi, Ústí nad Labem, Hradci Králové, Českých Budějovicích, Liberci, Plzni, Praze a postupně rozšiřujeme službu i do dalších měst. Vaše pohodlné nakupová"
+    },
+    {
+      "url": "https://www.albert.cz",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.albert.cz/",
+      "contentType": "text/html; charset=utf-8",
+      "htmlLength": 1148266,
+      "foundProductWords": [],
+      "priceMatches": [],
+      "unitPriceMatches": [],
+      "jsonLikeBlocks": [
+        {
+          "type": "__NEXT_DATA__",
+          "length": 938778,
+          "preview": "{\"props\":{\"messageBundle\":{\"phoneVerificationPopup.verificationCodes.limit.blocked\":\"\",\"phoneVerificationPopup.continueShopping.button\":\"\",\"myAccount.burnableOffers.partnerOffer.activation.not.allowed\":\"Redeemed\",\"welcome.section.form.privacy.policy\":\"Souhlasím s Albert Domů Zdarma \\u003ca href=\\\"{1}\\\"\\u003eobchodními podmínkami\\u003c/a\\u003e. Seznamte se s našimi \\u003ca href=\\\"{0}\\\"zásadami zpracování osobních údajů\\u003c/a\\u003e.\",\"myAccount.burnableOffers.burn.basket.deactivate.keep.offer\":\"No, keep the offer\",\"loyalty.registration.personal.details.lastname.label\":\"Last name\",\"basket.add.to.cart\":\"Přidat\",\"product.details.section.info.attributes.badgeproductistasteofinspiration.tooltip\":\"Taste of Inspirations\",\"subscription.deliveryPlus.advantages.drawer.item.3.title\":\"\",\"product.details.section.ratingAndReview.review.cancel\":\"Zrušit\",\"product.details.section.description.storageConditions\":\"Skladovací podmínky a podmínky použití\",\"hero.carousel.loyalty.image.title\":\"\",\"cookies.item"
+        }
+      ],
+      "dataUrls": [
+        "https://www.albert.cz/_next/static/chunks/CmsLeafletPreview.3cfc6a6216142fd6.js",
+        "https://www.albert.cz/aktualni-letaky",
+        "https://letaky.albert.cz/20hm_akcni_katalog_bio/page/10-11?intcmp=WEB_all_MONETIZACE_HP_18.Carusel_BIO_w20_banner_cz",
+        "https://www.albert.cz/api/v1/"
+      ],
+      "imageUrls": [
+        "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "https://static.albert.cz/site/binaries/_ht_1713259657518/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_logo_1200x630_v2.png",
+        "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+        "https://static.albert.cz/site/binaries/_ht_1778586255294/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1778603116067/lg/content/gallery/hero-banners/albert-czechia-cz/hp/1440x480_yate_w20_alb_web-carousel_sc_camping_1440x480_cta.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1778586253631/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_birell_mobile.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1778586251951/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio_mobile.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1778603116954/lg/content/gallery/hero-banners/albert-czechia-cz/hp/592x370_yate_w20_alb_web-carousel_sc_camping_592x370_cta.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1778586252894/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_birell.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1777995063262/content/gallery/hero-banners/albert-czechia-cz/magazin-albert/magazin-05-2026.jpg",
+        "https://static.albert.cz/site/binaries/_ht_1778585463815/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/19.banner_velky_levy_sedl_hermelin.jpg?imwidth=703",
+        "https://static.albert.cz/site/binaries/_ht_1778585465185/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/20.banner_velky_pravy_unilever_novinky.jpg?imwidth=843",
+        "https://static.albert.cz/site/binaries/_ht_1778585464593/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/19.banner_velky_levy_sedl_hermelin_mobile.jpg?imwidth=340",
+        "https://static.albert.cz/site/binaries/_ht_1778585466118/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/20.banner_velky_pravy_unilever_novinky_mobile.jpg?imwidth=408",
+        "https://static.albert.cz/site/binaries/_ht_1748512929502/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2025/darkova-karta-albert-square.jpg?imwidth=690",
+        "https://static.albert.cz/site/binaries/_ht_1748957583746/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2025/kariera-prodavacka.jpg?imwidth=500",
+        "https://static.albert.cz/site/binaries/_ht_1778585466672/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/40.-middle-square-banner_eidam_protein.jpg?imwidth=500",
+        "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1691155098008/lg/content/gallery/image-components/albert-czechia-cz/home-page/bio_hp_bot.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1691155054279/lg/content/gallery/image-components/albert-czechia-cz/home-page/fb_hp_bot.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1690268950385/lg/content/gallery/image-components/albert-czechia-cz/home-page/trznice_hp_bot_test.jpg?imwidth=1100",
+        "https://static.albert.cz/site/binaries/_ht_1778586255294/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1778586255294/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1778586255294/xs/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1778586255294/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1778586255294/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1778603116067/lg/content/gallery/hero-banners/albert-czechia-cz/hp/1440x480_yate_w20_alb_web-carousel_sc_camping_1440x480_cta.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1778603116067/lg/content/gallery/hero-banners/albert-czechia-cz/hp/1440x480_yate_w20_alb_web-carousel_sc_camping_1440x480_cta.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1778603116067/xs/content/gallery/hero-banners/albert-czechia-cz/hp/1440x480_yate_w20_alb_web-carousel_sc_camping_1440x480_cta.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1778603116067/lg/content/gallery/hero-banners/albert-czechia-cz/hp/1440x480_yate_w20_alb_web-carousel_sc_camping_1440x480_cta.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1778603116067/lg/content/gallery/hero-banners/albert-czechia-cz/hp/1440x480_yate_w20_alb_web-carousel_sc_camping_1440x480_cta.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1778586253631/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_birell_mobile.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1778586253631/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_birell_mobile.jpg?imwidth=300&imdensity=2",
+        "https://static.albert.cz/site/binaries/_ht_1778586253631/xs/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_birell_mobile.jpg?imwidth=592",
+        "https://static.albert.cz/site/binaries/_ht_1778586253631/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_birell_mobile.jpg?imwidth=784",
+        "https://static.albert.cz/site/binaries/_ht_1778586253631/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_birell_mobile.jpg?imwidth=1200",
+        "https://static.albert.cz/site/binaries/_ht_1778586251951/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio_mobile.jpg?imwidth=300&imdensity=1",
+        "https://static.albert.cz/site/binaries/_ht_1778586251951/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio_mobile.jpg?imwidth=300&imdensity=2"
+      ],
+      "testedDataUrls": [
+        {
+          "url": "https://www.albert.cz/_next/static/chunks/CmsLeafletPreview.3cfc6a6216142fd6.js",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.albert.cz/_next/static/chunks/CmsLeafletPreview.3cfc6a6216142fd6.js",
+          "contentType": "application/javascript; charset=UTF-8",
+          "contentLength": "5492",
+          "isImage": false,
+          "isJson": false
+        },
+        {
+          "url": "https://www.albert.cz/aktualni-letaky",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://www.albert.cz/aktualni-letaky",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "isImage": false,
+          "isJson": false
+        },
+        {
+          "url": "https://letaky.albert.cz/20hm_akcni_katalog_bio/page/10-11?intcmp=WEB_all_MONETIZACE_HP_18.Carusel_BIO_w20_banner_cz",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_katalog_bio/page/10-11?intcmp=WEB_all_MONETIZACE_HP_18.Carusel_BIO_w20_banner_cz",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "isImage": false,
+          "isJson": false
+        },
+        {
+          "url": "https://www.albert.cz/api/v1/",
+          "ok": false,
+          "status": 400,
+          "finalUrl": "https://www.albert.cz/api/v1/",
+          "contentType": "application/json; charset=utf-8",
+          "contentLength": "335",
+          "isImage": false,
+          "isJson": false
+        }
+      ],
+      "testedImageUrls": [
+        {
+          "url": "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/static/next/icons/favicon.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1713259657518/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_logo_1200x630_v2.png",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1713259657518/content/gallery/image-components/albert-czechia-cz/pages/open-graph-images/albert_logo_1200x630_v2.png",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/static/next/images/download-app__logo.png?buildNumber=ffec0482887b85408552e2f90039a06feff753bb33b88656c6168d89489d7387",
+          "contentType": "image/png",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778586255294/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778586255294/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778603116067/lg/content/gallery/hero-banners/albert-czechia-cz/hp/1440x480_yate_w20_alb_web-carousel_sc_camping_1440x480_cta.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778603116067/lg/content/gallery/hero-banners/albert-czechia-cz/hp/1440x480_yate_w20_alb_web-carousel_sc_camping_1440x480_cta.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778586253631/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_birell_mobile.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778586253631/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_birell_mobile.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778586251951/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio_mobile.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778586251951/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_bio_mobile.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778603116954/lg/content/gallery/hero-banners/albert-czechia-cz/hp/592x370_yate_w20_alb_web-carousel_sc_camping_592x370_cta.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778603116954/lg/content/gallery/hero-banners/albert-czechia-cz/hp/592x370_yate_w20_alb_web-carousel_sc_camping_592x370_cta.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778586252894/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_birell.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778586252894/lg/content/gallery/hero-banners/albert-czechia-cz/hp/18.carusel_w20_birell.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1777995063262/content/gallery/hero-banners/albert-czechia-cz/magazin-albert/magazin-05-2026.jpg",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1777995063262/content/gallery/hero-banners/albert-czechia-cz/magazin-albert/magazin-05-2026.jpg",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585463815/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/19.banner_velky_levy_sedl_hermelin.jpg?imwidth=703",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585463815/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/19.banner_velky_levy_sedl_hermelin.jpg?imwidth=703",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585465185/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/20.banner_velky_pravy_unilever_novinky.jpg?imwidth=843",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585465185/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/20.banner_velky_pravy_unilever_novinky.jpg?imwidth=843",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585464593/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/19.banner_velky_levy_sedl_hermelin_mobile.jpg?imwidth=340",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585464593/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/19.banner_velky_levy_sedl_hermelin_mobile.jpg?imwidth=340",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585466118/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/20.banner_velky_pravy_unilever_novinky_mobile.jpg?imwidth=408",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585466118/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/20.banner_velky_pravy_unilever_novinky_mobile.jpg?imwidth=408",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1748512929502/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2025/darkova-karta-albert-square.jpg?imwidth=690",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1748512929502/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2025/darkova-karta-albert-square.jpg?imwidth=690",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1748957583746/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2025/kariera-prodavacka.jpg?imwidth=500",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1748957583746/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2025/kariera-prodavacka.jpg?imwidth=500",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1778585466672/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/40.-middle-square-banner_eidam_protein.jpg?imwidth=500",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1778585466672/lg/content/gallery/image-components/albert-czechia-cz/monetizace/2026/40.-middle-square-banner_eidam_protein.jpg?imwidth=500",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154582530/lg/content/gallery/image-components/albert-czechia-cz/home-page/pekar_hp_bot_test.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691154549534/lg/content/gallery/image-components/albert-czechia-cz/home-page/maso_hp_bot_test.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        },
+        {
+          "url": "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=1100",
+          "ok": true,
+          "status": 206,
+          "finalUrl": "https://static.albert.cz/site/binaries/_ht_1691155023863/lg/content/gallery/image-components/albert-czechia-cz/home-page/ryby_hp_bot_test.jpg?imwidth=1100",
+          "contentType": "image/jpeg",
+          "contentLength": "1025",
+          "isImage": true,
+          "isJson": false
+        }
+      ],
+      "textPreview": "Albert - Stojí za to jíst lépe Přeskočit Albert - Stojí za to jíst lépe LETÁKY RECEPTY AKCE POUZE U NÁS MŮJ ALBERT PRODEJNY Novinky z Magazínu Každý měsíc Vám přinášíme spousty inspirativních receptů. Čtěte více Recepty Všechny recepty Všechny recepty ZÁLEŽÍ NÁM NA TOM, ABYSTE JEDLI LÉPE V Albertu víme, že lepší jídlo vede k lepšímu životu. Albert prodejny Kontakty pro dotazy na prodejny Můj Albert Kontakty pro dotazy na aplikaci Můj Albert Přihlaste se k odběru newsletteru Zanechte svou e-mailovou adresu a získejte ty nejlepší akce a inspiraci. Váš e-mail Odebírat Tímto souhlasím se zasíláním obchodních sdělení a promočních nabídek na mé kontaktní údaje a zároveň stvrzuji, že jsem se seznámil/a s Podmínkami zpracování osobních údajů. Sleduj nás na sociálních sítích Stáhni naši aplikaci Albert Prodejny Albert Albert leták Můj Albert Albert Online Albert scan Dárková karta Nadační fond Albert Užitečné odkazy Kariéra Pro studenty Pro zákazníky Garance kvality Pro novináře Naši dodavatelé Pro dodavatele Důležité informace a dokumenty Kontakty Albert prodejny kontakt Můj Albert kontakt Sídlo a centrála společnosti Albert Prodejny Albert Albert leták Můj Albert Albert Online Albert scan Dárková karta Nadační fond Albert Užitečné odkazy Kariéra Pro studenty Pro zákazníky Garance kvality Pro novináře Naši dodavatelé Pro dodavatele Důležité informace a dokumenty Kontakty Albert prodejny kontakt Můj Albert kontakt Sídlo a centrála společnosti Stáhni naši aplikaci Zásady zpracování osobních údajů Zásady zpracování osobních údajů pro obchodní partnery Zásady zpracování osobních údajů "
+    }
+  ]
+}

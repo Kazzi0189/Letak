@@ -44,6 +44,14 @@ function normalizeOffer(offer, sourceName) {
     validTo: offer.validTo || "",
     priceType: offer.priceType || "akce",
     sourceUrl: offer.sourceUrl || "",
+    imageUrl:
+      offer.imageUrl ||
+      offer.image ||
+      offer.imageSrc ||
+      offer.thumbnailUrl ||
+      offer.productImageUrl ||
+      "",
+    imageAlt: offer.imageAlt || offer.product || "",
     leafletUrl: offer.leafletUrl || "",
     confidence: ["high", "medium", "low"].includes(confidence) ? confidence : "high",
     suspect,

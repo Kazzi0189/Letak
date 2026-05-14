@@ -112,6 +112,39 @@ function qualityLabel(offer) {
   return 'ke kontrole';
 }
 
+
+
+function productImageUrl(offer) {
+  return (
+    offer.imageUrl ||
+    offer.image ||
+    offer.imageSrc ||
+    offer.thumbnailUrl ||
+    offer.productImageUrl ||
+    ''
+  );
+}
+
+function renderOfferImage(offer) {
+  const url = productImageUrl(offer);
+
+  if (!url) {
+    return '<div class="offer-image-placeholder" aria-hidden="true"></div>';
+  }
+
+  const alt = (offer.imageAlt || offer.product || 'Obrázek produktu')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+
+  return `
+    <div class="offer-image-wrap">
+      <img class="offer-image" src="${url}" alt="${alt}" loading="lazy" referrerpolicy="no-referrer" />
+    </div>
+  `;
+}
+
 function renderQualityBadge(offer) {
   const quality = offerQuality(offer);
 
@@ -251,7 +284,8 @@ function renderOffers() {
     const isCheapest = String(cheapest.get(normalize(offer.product))?.id) === String(offer.id);
     const unit = offer.unitPrice ? `${Number(offer.unitPrice).toFixed(2).replace('.', ',')} ${offer.unit || ''}` : '';
     return `
-      <article class="offer ${isCheapest ? 'cheapest' : ''}">
+      <article class="offer ${isCheapest ? 'cheapest' : ''} offer-with-image">
+      ${renderOfferImage(offer)}
         <div class="offer-top">
           <span class="pill">${offer.storeName || offer.chain}</span>
           ${isCheapest ? '<span class="pill dark">nejlevnější</span>' : ''}

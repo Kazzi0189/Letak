@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-05-14T14:23:22.200Z",
+  "leaflets": [
+    {
+      "id": "20sm_akcni_letak",
+      "type": "supermarket",
+      "title": "Albert supermarket akční leták",
+      "recommendedPath": "parse-pdf-text-or-render-pages",
+      "dataUrls": 45,
+      "imageUrls": 1,
+      "priceExamples": 0,
+      "unitPriceExamples": 0,
+      "productWords": [],
+      "jsonLikeBlocks": 0,
+      "workingImages": 4,
+      "workingJson": 0,
+      "pdfLooksLikePdf": true,
+      "pdfContentType": "application/pdf",
+      "pdfContentLength": "4097"
+    },
+    {
+      "id": "20hm_akcni_letak",
+      "type": "hypermarket",
+      "title": "Albert hypermarket akční leták",
+      "recommendedPath": "parse-pdf-text-or-render-pages",
+      "dataUrls": 46,
+      "imageUrls": 1,
+      "priceExamples": 0,
+      "unitPriceExamples": 0,
+      "productWords": [],
+      "jsonLikeBlocks": 0,
+      "workingImages": 4,
+      "workingJson": 0,
+      "pdfLooksLikePdf": true,
+      "pdfContentType": "application/pdf",
+      "pdfContentLength": "4097"
+    }
+  ]
+}

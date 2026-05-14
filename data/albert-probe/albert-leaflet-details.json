@@ -1,0 +1,2823 @@
+{
+  "summary": {
+    "checkedAt": "2026-05-14T14:23:22.200Z",
+    "leaflets": [
+      {
+        "id": "20sm_akcni_letak",
+        "type": "supermarket",
+        "title": "Albert supermarket akční leták",
+        "recommendedPath": "parse-pdf-text-or-render-pages",
+        "dataUrls": 45,
+        "imageUrls": 1,
+        "priceExamples": 0,
+        "unitPriceExamples": 0,
+        "productWords": [],
+        "jsonLikeBlocks": 0,
+        "workingImages": 4,
+        "workingJson": 0,
+        "pdfLooksLikePdf": true,
+        "pdfContentType": "application/pdf",
+        "pdfContentLength": "4097"
+      },
+      {
+        "id": "20hm_akcni_letak",
+        "type": "hypermarket",
+        "title": "Albert hypermarket akční leták",
+        "recommendedPath": "parse-pdf-text-or-render-pages",
+        "dataUrls": 46,
+        "imageUrls": 1,
+        "priceExamples": 0,
+        "unitPriceExamples": 0,
+        "productWords": [],
+        "jsonLikeBlocks": 0,
+        "workingImages": 4,
+        "workingJson": 0,
+        "pdfLooksLikePdf": true,
+        "pdfContentType": "application/pdf",
+        "pdfContentLength": "4097"
+      }
+    ]
+  },
+  "results": [
+    {
+      "leaflet": {
+        "id": "20sm_akcni_letak",
+        "type": "supermarket",
+        "title": "Albert supermarket akční leták",
+        "url": "https://letaky.albert.cz/20sm_akcni_letak/",
+        "pdfUrl": "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf"
+      },
+      "summary": {
+        "recommendedPath": "parse-pdf-text-or-render-pages",
+        "dataUrls": 45,
+        "imageUrls": 1,
+        "priceExamples": 0,
+        "unitPriceExamples": 0,
+        "productWords": [],
+        "jsonLikeBlocks": 0,
+        "workingImages": 4,
+        "workingJson": 0,
+        "pdfLooksLikePdf": true,
+        "pdfContentType": "application/pdf",
+        "pdfContentLength": "4097"
+      },
+      "pages": [
+        {
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "htmlLength": 193870,
+          "textPreview": "Albert - 20SM_akcni_letak - Strana 1",
+          "productWords": [],
+          "priceMatches": [],
+          "unitPriceMatches": [],
+          "jsonLikeBlocks": [],
+          "dataUrls": [
+            "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+            "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+            "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/shopping_cart",
+            "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/text/html;%20charset=utf-8",
+            "https://letaky.albert.cz/20sm_akcni_letak/yes",
+            "https://letaky.albert.cz/20sm_akcni_letak/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+            "https://letaky.albert.cz/20sm_akcni_letak/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%2016,90%20-29%20%%2011%2090%20Donut%20s%20n%C3%A1pln%C3%AD%20%E2%80%A2%2069%E2%80%9371%20g%20%E2%80%A2%20100%20g%20od%2016,77%20K%C4%8D%20%E2%80%A2%20r%C5%AFzn%C3%A9%20druhy%20-50%20%%2089,90%2044%20Nature",
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "https://letaky.albert.cz/20sm_akcni_letak/1",
+            "https://letaky.albert.cz/20sm_akcni_letak/noindex",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/1",
+            "https://letaky.albert.cz/20sm_akcni_letak/Albert%20-%2020SM_akcni_letak%20-%20Strana%201",
+            "https://letaky.albert.cz/20sm_akcni_letak/website",
+            "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+            "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+            "https://scripts.publitas.com/albert/custom-consent/consent.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/%7B%7Bimage_link%7D%7D",
+            "https://www.publitas.com",
+            "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+            "https://letaky.albert.cz/20sm_akcni_letak/",
+            "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+            "https://stats.publitas.com/publitas-stats/track"
+          ],
+          "imageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "testedDataUrls": [
+            {
+              "url": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/shopping_cart",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/shopping_cart",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "contentType": "application/javascript",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/text/html;%20charset=utf-8",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/text/html;%20charset=utf-8",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/yes",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/yes",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%2016,90%20-29%20%%2011%2090%20Donut%20s%20n%C3%A1pln%C3%AD%20%E2%80%A2%2069%E2%80%9371%20g%20%E2%80%A2%20100%20g%20od%2016,77%20K%C4%8D%20%E2%80%A2%20r%C5%AFzn%C3%A9%20druhy%20-50%20%%2089,90%2044%20Nature",
+              "ok": false,
+              "status": 400,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%2016,90%20-29%20%%2011%2090%20Donut%20s%20n%C3%A1pln%C3%AD%20%E2%80%A2%2069%E2%80%9371%20g%20%E2%80%A2%20100%20g%20od%2016,77%20K%C4%8D%20%E2%80%A2%20r%C5%AFzn%C3%A9%20druhy%20-50%20%%2089,90%2044%20Nature",
+              "contentType": "text/html",
+              "contentLength": "915",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/1",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/noindex",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/noindex",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/1",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/Albert%20-%2020SM_akcni_letak%20-%20Strana%201",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/Albert%20-%2020SM_akcni_letak%20-%20Strana%201",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/website",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/website",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+              "contentType": "image/jpeg",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "contentType": "image/x-icon",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "contentType": "text/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/%7B%7Bimage_link%7D%7D",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/%7B%7Bimage_link%7D%7D",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+              "contentType": "application/pdf",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://stats.publitas.com/publitas-stats/track",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://stats.publitas.com/publitas-stats/track",
+              "contentType": "image/gif",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            }
+          ],
+          "testedImageUrls": [
+            {
+              "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            }
+          ]
+        },
+        {
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/1",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/1",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "htmlLength": 193870,
+          "textPreview": "Albert - 20SM_akcni_letak - Strana 1",
+          "productWords": [],
+          "priceMatches": [],
+          "unitPriceMatches": [],
+          "jsonLikeBlocks": [],
+          "dataUrls": [
+            "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+            "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+            "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/shopping_cart",
+            "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/text/html;%20charset=utf-8",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/yes",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%2016,90%20-29%20%%2011%2090%20Donut%20s%20n%C3%A1pln%C3%AD%20%E2%80%A2%2069%E2%80%9371%20g%20%E2%80%A2%20100%20g%20od%2016,77%20K%C4%8D%20%E2%80%A2%20r%C5%AFzn%C3%A9%20druhy%20-50%20%%2089,90%2044%20Nature",
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/1",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/noindex",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/Albert%20-%2020SM_akcni_letak%20-%20Strana%201",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/website",
+            "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+            "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+            "https://scripts.publitas.com/albert/custom-consent/consent.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+            "https://www.publitas.com",
+            "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+            "https://letaky.albert.cz/20sm_akcni_letak/",
+            "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+            "https://stats.publitas.com/publitas-stats/track"
+          ],
+          "imageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "testedDataUrls": [
+            {
+              "url": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/shopping_cart",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/shopping_cart",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "contentType": "application/javascript",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/text/html;%20charset=utf-8",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/text/html;%20charset=utf-8",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/yes",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/yes",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%2016,90%20-29%20%%2011%2090%20Donut%20s%20n%C3%A1pln%C3%AD%20%E2%80%A2%2069%E2%80%9371%20g%20%E2%80%A2%20100%20g%20od%2016,77%20K%C4%8D%20%E2%80%A2%20r%C5%AFzn%C3%A9%20druhy%20-50%20%%2089,90%2044%20Nature",
+              "ok": false,
+              "status": 400,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%2016,90%20-29%20%%2011%2090%20Donut%20s%20n%C3%A1pln%C3%AD%20%E2%80%A2%2069%E2%80%9371%20g%20%E2%80%A2%20100%20g%20od%2016,77%20K%C4%8D%20%E2%80%A2%20r%C5%AFzn%C3%A9%20druhy%20-50%20%%2089,90%2044%20Nature",
+              "contentType": "text/html",
+              "contentLength": "915",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/1",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/noindex",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/noindex",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/Albert%20-%2020SM_akcni_letak%20-%20Strana%201",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/Albert%20-%2020SM_akcni_letak%20-%20Strana%201",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/website",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/website",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+              "contentType": "image/jpeg",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "contentType": "image/x-icon",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "contentType": "text/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+              "contentType": "application/pdf",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://stats.publitas.com/publitas-stats/track",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://stats.publitas.com/publitas-stats/track",
+              "contentType": "image/gif",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            }
+          ],
+          "testedImageUrls": [
+            {
+              "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            }
+          ]
+        },
+        {
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/2-3",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/2-3",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "htmlLength": 193880,
+          "textPreview": "Albert - 20SM_akcni_letak - Stran 2–3",
+          "productWords": [],
+          "priceMatches": [],
+          "unitPriceMatches": [],
+          "jsonLikeBlocks": [],
+          "dataUrls": [
+            "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+            "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+            "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/shopping_cart",
+            "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/text/html;%20charset=utf-8",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/yes",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/NEPORAZITELN%C3%89%2026,90%20-33%20%%2017%20BEZ%20APLIKACE%2090%202190%20Nature",
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/2",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/noindex",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/2-3",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/Albert%20-%2020SM_akcni_letak%20-%20Stran%202%E2%80%933",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/website",
+            "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+            "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+            "https://scripts.publitas.com/albert/custom-consent/consent.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+            "https://www.publitas.com",
+            "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+            "https://letaky.albert.cz/20sm_akcni_letak/",
+            "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+            "https://stats.publitas.com/publitas-stats/track"
+          ],
+          "imageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "testedDataUrls": [
+            {
+              "url": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/shopping_cart",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/shopping_cart",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "contentType": "application/javascript",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/text/html;%20charset=utf-8",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/text/html;%20charset=utf-8",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/yes",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/yes",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/NEPORAZITELN%C3%89%2026,90%20-33%20%%2017%20BEZ%20APLIKACE%2090%202190%20Nature",
+              "ok": false,
+              "status": 400,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/NEPORAZITELN%C3%89%2026,90%20-33%20%%2017%20BEZ%20APLIKACE%2090%202190%20Nature",
+              "contentType": "text/html",
+              "contentLength": "915",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/2",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/2",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/noindex",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/noindex",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/2-3",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/2-3",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/Albert%20-%2020SM_akcni_letak%20-%20Stran%202%E2%80%933",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/Albert%20-%2020SM_akcni_letak%20-%20Stran%202%E2%80%933",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/website",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/website",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+              "contentType": "image/jpeg",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "contentType": "image/x-icon",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "contentType": "text/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+              "contentType": "application/pdf",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://stats.publitas.com/publitas-stats/track",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://stats.publitas.com/publitas-stats/track",
+              "contentType": "image/gif",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            }
+          ],
+          "testedImageUrls": [
+            {
+              "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            }
+          ]
+        },
+        {
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/4-5",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/4-5",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "htmlLength": 193860,
+          "textPreview": "Albert - 20SM_akcni_letak - Stran 4–5",
+          "productWords": [],
+          "priceMatches": [],
+          "unitPriceMatches": [],
+          "jsonLikeBlocks": [],
+          "dataUrls": [
+            "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+            "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+            "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/shopping_cart",
+            "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/text/html;%20charset=utf-8",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/yes",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/NEPORAZITELN%C3%89%20B%C4%9A%C5%BDN%C3%81%20CENA%20269,-%20129%20BEZ%20APLIKACE%2090%2013990%20Tchibo%20Gold%20Selection%20%E2%80%A2%20instantn%C3%AD%20k%C3%A1va%20%E2%80%A2%20180%E2%80%93200%20g%20%E2%80%A2%20100%20g%20od%2069,95%20K%C4%8D%20bez%20Aplikace%20/%20od%2064,95%20K%C4%8D",
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/4",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/noindex",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/4-5",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/Albert%20-%2020SM_akcni_letak%20-%20Stran%204%E2%80%935",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/website",
+            "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+            "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+            "https://scripts.publitas.com/albert/custom-consent/consent.js",
+            "https://letaky.albert.cz/20sm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+            "https://www.publitas.com",
+            "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+            "https://letaky.albert.cz/20sm_akcni_letak/",
+            "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+            "https://stats.publitas.com/publitas-stats/track"
+          ],
+          "imageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "testedDataUrls": [
+            {
+              "url": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/assets/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/shopping_cart",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/shopping_cart",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "contentType": "application/javascript",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/text/html;%20charset=utf-8",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/text/html;%20charset=utf-8",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/yes",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/yes",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/NEPORAZITELN%C3%89%20B%C4%9A%C5%BDN%C3%81%20CENA%20269,-%20129%20BEZ%20APLIKACE%2090%2013990%20Tchibo%20Gold%20Selection%20%E2%80%A2%20instantn%C3%AD%20k%C3%A1va%20%E2%80%A2%20180%E2%80%93200%20g%20%E2%80%A2%20100%20g%20od%2069,95%20K%C4%8D%20bez%20Aplikace%20/%20od%2064,95%20K%C4%8D",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/NEPORAZITELN%C3%89%20B%C4%9A%C5%BDN%C3%81%20CENA%20269,-%20129%20BEZ%20APLIKACE%2090%2013990%20Tchibo%20Gold%20Selection%20%E2%80%A2%20instantn%C3%AD%20k%C3%A1va%20%E2%80%A2%20180%E2%80%93200%20g%20%E2%80%A2%20100%20g%20od%2069,95%20K%C4%8D%20bez%20Aplikace%20/%20od%2064,95%20K%C4%8D",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/4",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/4",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/noindex",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/noindex",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/4-5",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/4-5",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/Albert%20-%2020SM_akcni_letak%20-%20Stran%204%E2%80%935",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/Albert%20-%2020SM_akcni_letak%20-%20Stran%204%E2%80%935",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/website",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/website",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://view.publitas.com/screenshots?gId=90263&height=2113&pId=3054369&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054369%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778596170&width=1212&s=45df46be3a1cd0044efa774fb2d9d84e19884512e954dd7678fe0a548c086f8b",
+              "contentType": "image/jpeg",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "contentType": "image/x-icon",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "contentType": "text/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20sm_akcni_letak/",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+              "contentType": "application/pdf",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://stats.publitas.com/publitas-stats/track",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://stats.publitas.com/publitas-stats/track",
+              "contentType": "image/gif",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            }
+          ],
+          "testedImageUrls": [
+            {
+              "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "url": "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://view.publitas.com/90263/3054369/pdfs/24c390bb-c750-424c-968d-cd0ba0955889.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020SM_akcni_letak.pdf",
+        "contentType": "application/pdf",
+        "contentLength": "4097",
+        "acceptRanges": "",
+        "firstBytesHex": "255044462d312e340a25c2b5c2b60a0a312030206f626a0a",
+        "asciiPreview": "%PDF-1.4 % 1 0 obj <</Type/Catalog/Pages 2 0 R>> endobj 2 0 obj <</Type/Pages/Count 42/Kids[3 0 R 5867 0 R 5940 0 R 5990 0 R 6036 0 R 291 0 R 445 0 R 578 0 R 818 0 R 985 0 R 1330 0 R 1509 0 R 1639 0 R 1809 0 R 2007 0 R 2024 0 R 2126 0 R 2267 0 R 2460 0 R 2681 0 R 2835 0 R 2982 0 R 3238 0 R 3336 0 R 3556 0 R 3799 0 R 3912 0 R 4163 0 R 4302 0 R 4441 0 R 4537 0 R 4707 0 R 4811 0 R 4979 0 R 5126 0 R 5225 0 R 5312 0 R 5357 0 R 5438 0 R 5563 0 R 5749 0 R 5865 0 R]>> endobj 3 0 obj <</TrimBox[0 18 481.89 859.89]/BleedBox[0 18 481.89 859.89]/Contents 4 0 R/Resources<</ExtGState<</GS61 5 0 R/GS51 6 0 R/GS73 7 0 R/GS30 14 0 R/GS57 18 0 R/GS63 22 0 R/GS55 26 0 R/GS81 27 0 R/GS59 31 0 R/GS71 40 0 R/GS35 46 0 R/GS29 47 0 R/GS31 48 0 R/GS28 49 0 R/GS39 53 0 R/GS43 57 0 R/GS67 62 0 R/GS33 63 0 R/GS49 64 ",
+        "looksLikePdf": true
+      }
+    },
+    {
+      "leaflet": {
+        "id": "20hm_akcni_letak",
+        "type": "hypermarket",
+        "title": "Albert hypermarket akční leták",
+        "url": "https://letaky.albert.cz/20hm_akcni_letak/",
+        "pdfUrl": "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf"
+      },
+      "summary": {
+        "recommendedPath": "parse-pdf-text-or-render-pages",
+        "dataUrls": 46,
+        "imageUrls": 1,
+        "priceExamples": 0,
+        "unitPriceExamples": 0,
+        "productWords": [],
+        "jsonLikeBlocks": 0,
+        "workingImages": 4,
+        "workingJson": 0,
+        "pdfLooksLikePdf": true,
+        "pdfContentType": "application/pdf",
+        "pdfContentLength": "4097"
+      },
+      "pages": [
+        {
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "htmlLength": 193877,
+          "textPreview": "Albert - 20HM_akcni_letak - Strana 1",
+          "productWords": [],
+          "priceMatches": [],
+          "unitPriceMatches": [],
+          "jsonLikeBlocks": [],
+          "dataUrls": [
+            "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+            "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+            "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/shopping_cart",
+            "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/text/html;%20charset=utf-8",
+            "https://letaky.albert.cz/20hm_akcni_letak/yes",
+            "https://letaky.albert.cz/20hm_akcni_letak/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+            "https://letaky.albert.cz/20hm_akcni_letak/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%20-38%20%%20229,-%2013990%20BEZ%20APLIKACE%2089,90%20-%2050%20%%20BEZ%20APLIKACE%20%E2%80%A2%201,5%%20%E2%80%A2%201%20l%20-33%20%%2017%20BEZ%20APLIKACE%20%E2%80%A2%2030%20ks%20%E2%80%A2%201%20ks%20=%205%20K%C4%8D%20bez",
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "https://letaky.albert.cz/20hm_akcni_letak/1",
+            "https://letaky.albert.cz/20hm_akcni_letak/noindex",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/1",
+            "https://letaky.albert.cz/20hm_akcni_letak/Albert%20-%2020HM_akcni_letak%20-%20Strana%201",
+            "https://letaky.albert.cz/20hm_akcni_letak/website",
+            "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+            "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+            "https://scripts.publitas.com/albert/custom-consent/consent.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/%7B%7Bimage_link%7D%7D",
+            "https://www.publitas.com",
+            "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+            "https://letaky.albert.cz/20hm_akcni_letak/",
+            "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+            "https://stats.publitas.com/publitas-stats/track"
+          ],
+          "imageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "testedDataUrls": [
+            {
+              "url": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/shopping_cart",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/shopping_cart",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "contentType": "application/javascript",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/text/html;%20charset=utf-8",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/text/html;%20charset=utf-8",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/yes",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/yes",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%20-38%20%%20229,-%2013990%20BEZ%20APLIKACE%2089,90%20-%2050%20%%20BEZ%20APLIKACE%20%E2%80%A2%201,5%%20%E2%80%A2%201%20l%20-33%20%%2017%20BEZ%20APLIKACE%20%E2%80%A2%2030%20ks%20%E2%80%A2%201%20ks%20=%205%20K%C4%8D%20bez",
+              "ok": false,
+              "status": 400,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%20-38%20%%20229,-%2013990%20BEZ%20APLIKACE%2089,90%20-%2050%20%%20BEZ%20APLIKACE%20%E2%80%A2%201,5%%20%E2%80%A2%201%20l%20-33%20%%2017%20BEZ%20APLIKACE%20%E2%80%A2%2030%20ks%20%E2%80%A2%201%20ks%20=%205%20K%C4%8D%20bez",
+              "contentType": "text/html",
+              "contentLength": "915",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/1",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/noindex",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/noindex",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/1",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/Albert%20-%2020HM_akcni_letak%20-%20Strana%201",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/Albert%20-%2020HM_akcni_letak%20-%20Strana%201",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/website",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/website",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+              "contentType": "image/jpeg",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "contentType": "image/x-icon",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "contentType": "text/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/%7B%7Bimage_link%7D%7D",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/%7B%7Bimage_link%7D%7D",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+              "contentType": "application/pdf",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://stats.publitas.com/publitas-stats/track",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://stats.publitas.com/publitas-stats/track",
+              "contentType": "image/gif",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            }
+          ],
+          "testedImageUrls": [
+            {
+              "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            }
+          ]
+        },
+        {
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/1",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/1",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "htmlLength": 193877,
+          "textPreview": "Albert - 20HM_akcni_letak - Strana 1",
+          "productWords": [],
+          "priceMatches": [],
+          "unitPriceMatches": [],
+          "jsonLikeBlocks": [],
+          "dataUrls": [
+            "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+            "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+            "https://letaky.albert.cz/assets/sentry.d082f41bab3ef61e8ca8.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/shopping_cart",
+            "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/text/html;%20charset=utf-8",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/yes",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%20-38%20%%20229,-%2013990%20BEZ%20APLIKACE%2089,90%20-%2050%20%%20BEZ%20APLIKACE%20%E2%80%A2%201,5%%20%E2%80%A2%201%20l%20-33%20%%2017%20BEZ%20APLIKACE%20%E2%80%A2%2030%20ks%20%E2%80%A2%201%20ks%20=%205%20K%C4%8D%20bez",
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/1",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/noindex",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/Albert%20-%2020HM_akcni_letak%20-%20Strana%201",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/website",
+            "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+            "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+            "https://scripts.publitas.com/albert/custom-consent/consent.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+            "https://www.publitas.com",
+            "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+            "https://letaky.albert.cz/20hm_akcni_letak/",
+            "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+            "https://stats.publitas.com/publitas-stats/track"
+          ],
+          "imageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "testedDataUrls": [
+            {
+              "url": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/assets/sentry.d082f41bab3ef61e8ca8.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/assets/sentry.d082f41bab3ef61e8ca8.js",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/shopping_cart",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/shopping_cart",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "contentType": "application/javascript",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/text/html;%20charset=utf-8",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/text/html;%20charset=utf-8",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/yes",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/yes",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%20-38%20%%20229,-%2013990%20BEZ%20APLIKACE%2089,90%20-%2050%20%%20BEZ%20APLIKACE%20%E2%80%A2%201,5%%20%E2%80%A2%201%20l%20-33%20%%2017%20BEZ%20APLIKACE%20%E2%80%A2%2030%20ks%20%E2%80%A2%201%20ks%20=%205%20K%C4%8D%20bez",
+              "ok": false,
+              "status": 400,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/Od%2013.%205.%20do%2019.%205.%202026%20www.albert.cz%20-38%20%%20229,-%2013990%20BEZ%20APLIKACE%2089,90%20-%2050%20%%20BEZ%20APLIKACE%20%E2%80%A2%201,5%%20%E2%80%A2%201%20l%20-33%20%%2017%20BEZ%20APLIKACE%20%E2%80%A2%2030%20ks%20%E2%80%A2%201%20ks%20=%205%20K%C4%8D%20bez",
+              "contentType": "text/html",
+              "contentLength": "915",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/1",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/noindex",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/noindex",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/Albert%20-%2020HM_akcni_letak%20-%20Strana%201",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/Albert%20-%2020HM_akcni_letak%20-%20Strana%201",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/website",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/website",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+              "contentType": "image/jpeg",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "contentType": "image/x-icon",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "contentType": "text/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+              "contentType": "application/pdf",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://stats.publitas.com/publitas-stats/track",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://stats.publitas.com/publitas-stats/track",
+              "contentType": "image/gif",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            }
+          ],
+          "testedImageUrls": [
+            {
+              "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            }
+          ]
+        },
+        {
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/2-3",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/2-3",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "htmlLength": 193895,
+          "textPreview": "Albert - 20HM_akcni_letak - Stran 2–3",
+          "productWords": [],
+          "priceMatches": [],
+          "unitPriceMatches": [],
+          "jsonLikeBlocks": [],
+          "dataUrls": [
+            "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+            "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+            "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/shopping_cart",
+            "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/text/html;%20charset=utf-8",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/yes",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/NEPORAZITELN%C3%89%2026,90%20-33%20%%2017%20BEZ%20APLIKACE%2090%202190%20Nature",
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/2",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/noindex",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/2-3",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/Albert%20-%2020HM_akcni_letak%20-%20Stran%202%E2%80%933",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/website",
+            "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+            "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+            "https://scripts.publitas.com/albert/custom-consent/consent.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+            "https://www.publitas.com",
+            "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+            "https://letaky.albert.cz/20hm_akcni_letak/",
+            "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+            "https://stats.publitas.com/publitas-stats/track"
+          ],
+          "imageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "testedDataUrls": [
+            {
+              "url": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/assets/sentry.efaa62c8b7b49eec5f00.js",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/shopping_cart",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/shopping_cart",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "contentType": "application/javascript",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/text/html;%20charset=utf-8",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/text/html;%20charset=utf-8",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/yes",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/yes",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/NEPORAZITELN%C3%89%2026,90%20-33%20%%2017%20BEZ%20APLIKACE%2090%202190%20Nature",
+              "ok": false,
+              "status": 400,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/NEPORAZITELN%C3%89%2026,90%20-33%20%%2017%20BEZ%20APLIKACE%2090%202190%20Nature",
+              "contentType": "text/html",
+              "contentLength": "915",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/2",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/2",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/noindex",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/noindex",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/2-3",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/2-3",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/Albert%20-%2020HM_akcni_letak%20-%20Stran%202%E2%80%933",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/Albert%20-%2020HM_akcni_letak%20-%20Stran%202%E2%80%933",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/website",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/website",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+              "contentType": "image/jpeg",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "contentType": "image/x-icon",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "contentType": "text/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+              "contentType": "application/pdf",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://stats.publitas.com/publitas-stats/track",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://stats.publitas.com/publitas-stats/track",
+              "contentType": "image/gif",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            }
+          ],
+          "testedImageUrls": [
+            {
+              "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            }
+          ]
+        },
+        {
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/4-5",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/4-5",
+          "contentType": "text/html; charset=utf-8",
+          "contentLength": "",
+          "htmlLength": 193887,
+          "textPreview": "Albert - 20HM_akcni_letak - Stran 4–5",
+          "productWords": [],
+          "priceMatches": [],
+          "unitPriceMatches": [],
+          "jsonLikeBlocks": [],
+          "dataUrls": [
+            "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+            "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+            "https://letaky.albert.cz/assets/sentry.d082f41bab3ef61e8ca8.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/shopping_cart",
+            "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/text/html;%20charset=utf-8",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/yes",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/NEPORAZITELN%C3%89%20Velkopopovick%C3%BD%20Kozel%2011/%20Gambrinus%20Patron%2012%20%E2%80%A2%20sv%C4%9Btl%C3%BD%20le%C5%BE%C3%A1k%20%E2%80%A2%200,5%20l%20%E2%80%A2%201%20l%20=%2035,80%20K%C4%8D%20%E2%80%A2%2017,90%20K%C4%8D%2017%2025,90%2090%20Bohemia%20Chips%20%E2%80%A2%20130%20g%20%E2%80%A2%20100%20g%20=%2030,70",
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/4",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/noindex",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/4-5",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/Albert%20-%2020HM_akcni_letak%20-%20Stran%204%E2%80%935",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/website",
+            "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+            "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+            "https://scripts.publitas.com/albert/custom-consent/consent.js",
+            "https://letaky.albert.cz/20hm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+            "https://www.publitas.com",
+            "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+            "https://letaky.albert.cz/20hm_akcni_letak/",
+            "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+            "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+            "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+            "https://stats.publitas.com/publitas-stats/track"
+          ],
+          "imageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "testedDataUrls": [
+            {
+              "url": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/public/eac64f9fafd5d508053d67ff9fb602e610f9ed562705",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/assets/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/assets/sentry.d082f41bab3ef61e8ca8.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://letaky.albert.cz/assets/sentry.d082f41bab3ef61e8ca8.js",
+              "contentType": "application/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/shopping_cart",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/shopping_cart",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/javascripts/vendors/publitas-stats.js",
+              "contentType": "application/javascript",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/text/html;%20charset=utf-8",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/text/html;%20charset=utf-8",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/yes",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/yes",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/width=device-width,%20initial-scale=1,%20minimum-scale=1",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/NEPORAZITELN%C3%89%20Velkopopovick%C3%BD%20Kozel%2011/%20Gambrinus%20Patron%2012%20%E2%80%A2%20sv%C4%9Btl%C3%BD%20le%C5%BE%C3%A1k%20%E2%80%A2%200,5%20l%20%E2%80%A2%201%20l%20=%2035,80%20K%C4%8D%20%E2%80%A2%2017,90%20K%C4%8D%2017%2025,90%2090%20Bohemia%20Chips%20%E2%80%A2%20130%20g%20%E2%80%A2%20100%20g%20=%2030,70",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/NEPORAZITELN%C3%89%20Velkopopovick%C3%BD%20Kozel%2011/%20Gambrinus%20Patron%2012%20%E2%80%A2%20sv%C4%9Btl%C3%BD%20le%C5%BE%C3%A1k%20%E2%80%A2%200,5%20l%20%E2%80%A2%201%20l%20=%2035,80%20K%C4%8D%20%E2%80%A2%2017,90%20K%C4%8D%2017%2025,90%2090%20Bohemia%20Chips%20%E2%80%A2%20130%20g%20%E2%80%A2%20100%20g%20=%2030,70",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/4",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/4",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/noindex",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/noindex",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/4-5",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/4-5",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/Albert%20-%2020HM_akcni_letak%20-%20Stran%204%E2%80%935",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/Albert%20-%2020HM_akcni_letak%20-%20Stran%204%E2%80%935",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/website",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/website",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://view.publitas.com/screenshots?gId=90263&height=2116&pId=3054366&src=https%3A%2F%2Fview-private.publitas.com%2Fdynamic_pages%2F3054366%2F1%2Fat1600%3Finclude_image_content%3Dtrue&ts=1778569826&width=1211&s=acf28cb11b84cb149ca5148dcbfc06ab643c3d2668fb2356b7258653b46d9ca4",
+              "contentType": "image/jpeg",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/favicon-ef158d3c18edd62212b9307e5a672921a1099fda.ico",
+              "contentType": "image/x-icon",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            },
+            {
+              "url": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://scripts.publitas.com/albert/custom-consent/consent.js",
+              "contentType": "text/javascript",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "ok": false,
+              "status": 404,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/%7B%7Bimage_link%7D%7D",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "14333",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://www.publitas.com/?utm_source=publitas&utm_medium=viewer&utm_campaign=free",
+              "contentType": "text/html; charset=UTF-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://letaky.albert.cz/20hm_akcni_letak/",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/",
+              "contentType": "text/html; charset=utf-8",
+              "contentLength": "",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+              "contentType": "application/pdf",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon-f2a075513b1f85834e01799e0f88276a586d80ec.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/product_hotspot_icon2x-b3496bd8b6605878db2db1fb447bf0fa7d941b0e.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon-f8a6420301df376575c00f714d54809d9f76113c.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/branding/external_link_hotspot_icon2x-2dde0c21ab293d5b40138a88ff7211c77556d56a.image",
+              "contentType": "application/octet-stream",
+              "contentLength": "1025",
+              "isImage": false,
+              "isJson": false
+            },
+            {
+              "url": "https://stats.publitas.com/publitas-stats/track",
+              "ok": true,
+              "status": 200,
+              "finalUrl": "https://stats.publitas.com/publitas-stats/track",
+              "contentType": "image/gif",
+              "contentLength": "",
+              "isImage": true,
+              "isJson": false
+            }
+          ],
+          "testedImageUrls": [
+            {
+              "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "ok": true,
+              "status": 206,
+              "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+              "contentType": "image/jpeg",
+              "contentLength": "1025",
+              "isImage": true,
+              "isJson": false
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "url": "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://view.publitas.com/90263/3054366/pdfs/86f6e4f5-04c7-4ba5-a2bd-588266f53987.pdf?response-content-disposition=attachment%3B+filename%2A%3DUTF-8%27%27Albert%2520-%252020HM_akcni_letak.pdf",
+        "contentType": "application/pdf",
+        "contentLength": "4097",
+        "acceptRanges": "",
+        "firstBytesHex": "255044462d312e360d258084888c9094989ca0a4a8acb0b4",
+        "asciiPreview": "%PDF-1.6 % 1 0 obj << /BBox [ 114.38 342.08 158.721 318.286 ] /Matrix [ 1 0 0 1 0 0 ] /Resources << /ExtGState << /GS0 5552 0 R >> >> /Subtype /Form /Group 4 0 R /Filter /FlateDecode /Length 216 >> stream H 4 ]J 1 s \\ $M \" ` U * _ f tO_( _ %w F G X 6&wO # E}3@ [ Y j % wjab q B6 k & 2 6 r f se5 3 Ux33 $( U O@2 QZ Wu ? p pC' endstream endobj 2 0 obj << /BBox [ 308.026 229.063 318.026 54.0237 ] /Matrix [ 1 0 0 1 0 0 ] /Resources << /ExtGState << /GS0 5552 0 R >> >> /Subtype /Form /Group 4 0 R /Filter /FlateDecode /Length 89 >> stream H 2P * 2P @o.C r _ ; J L L s H]CSs= cK ` @ 0 L endstream endobj 4 0 obj << /Type /Group /K false /CS /DeviceCMYK /S /Transparency /I false >> endobj 5 0 obj << /TrimBox [ 0 20.504 481.89 862.394 ] /BleedBox [ 0 20.504 481.89 862.394 ] /Contents 2260 0 R /Resource",
+        "looksLikePdf": true
+      }
+    }
+  ]
+}

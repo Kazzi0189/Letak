@@ -1,0 +1,2230 @@
+{
+  "checkedAt": "2026-05-14T12:11:59.974Z",
+  "summary": {
+    "penny": {
+      "recommendedPath": "no-direct-product-images-found",
+      "counts": {
+        "offers": 353,
+        "existingImageFields": 0,
+        "testedImages": 12,
+        "possibleProductImages": 0,
+        "pageOrLeafletImages": 0,
+        "decorativeOrCoverImages": 12,
+        "nearbyPossibleProductCandidates": 0
+      }
+    },
+    "kaufland": {
+      "recommendedPath": "use-existing-offer-image-fields",
+      "counts": {
+        "offers": 563,
+        "existingImageFields": 563,
+        "testedImages": 42,
+        "possibleProductImages": 33,
+        "pageOrLeafletImages": 0,
+        "decorativeOrCoverImages": 9,
+        "nearbyPossibleProductCandidates": 60
+      }
+    },
+    "notes": [
+      "V2 je omezený průzkum kvůli paměti: Penny kontroluje vzorek stran a Kaufland jen několik zdrojových URL.",
+      "existingImageFields znamená, že JSON nabídky už obsahuje imageUrl nebo podobné pole.",
+      "possibleProductImages znamená, že HTML zdroj obsahuje obrázky, které nevypadají jako logo/cover/page.",
+      "pageOrLeafletImages znamená spíš obrázky celé stránky letáku, ne samostatný produkt."
+    ]
+  },
+  "penny": {
+    "offersCount": 353,
+    "existingImageFields": [],
+    "testedImages": [
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?c73cd5ea",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?c73cd5ea",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?749746b6",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?749746b6",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?30dc42c5",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?30dc42c5",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?be8e9915",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?be8e9915",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?e658be0e",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?e658be0e",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?7362ae9a",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?7362ae9a",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?0811a6a4",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?0811a6a4",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?5c8ba6e2",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?5c8ba6e2",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?4b0f3ccb",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?4b0f3ccb",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?a17d01c8",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?a17d01c8",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?e7e188c0",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?e7e188c0",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      }
+    ],
+    "nearbyCandidates": [],
+    "pages": [
+      {
+        "page": 2,
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/2/index.html",
+        "ok": true,
+        "status": 200,
+        "contentType": "text/html",
+        "htmlLength": 5592,
+        "offersOnPage": 4,
+        "imagesCount": 4,
+        "images": [
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?c73cd5ea",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/2/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/2/files/assets/html/skin/images/fbThumb.jpg",
+            "imageClass": "decorative-or-cover"
+          }
+        ],
+        "nearbyCandidates": []
+      },
+      {
+        "page": 3,
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/index.html",
+        "ok": true,
+        "status": 200,
+        "contentType": "text/html",
+        "htmlLength": 6262,
+        "offersOnPage": 14,
+        "imagesCount": 4,
+        "images": [
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?749746b6",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/3/files/assets/html/skin/images/fbThumb.jpg",
+            "imageClass": "decorative-or-cover"
+          }
+        ],
+        "nearbyCandidates": []
+      },
+      {
+        "page": 4,
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/index.html",
+        "ok": true,
+        "status": 200,
+        "contentType": "text/html",
+        "htmlLength": 6593,
+        "offersOnPage": 18,
+        "imagesCount": 4,
+        "images": [
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?30dc42c5",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/4/files/assets/html/skin/images/fbThumb.jpg",
+            "imageClass": "decorative-or-cover"
+          }
+        ],
+        "nearbyCandidates": []
+      },
+      {
+        "page": 8,
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/8/index.html",
+        "ok": true,
+        "status": 200,
+        "contentType": "text/html",
+        "htmlLength": 5744,
+        "offersOnPage": 12,
+        "imagesCount": 4,
+        "images": [
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?be8e9915",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/8/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/8/files/assets/html/skin/images/fbThumb.jpg",
+            "imageClass": "decorative-or-cover"
+          }
+        ],
+        "nearbyCandidates": []
+      },
+      {
+        "page": 12,
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/index.html",
+        "ok": true,
+        "status": 200,
+        "contentType": "text/html",
+        "htmlLength": 5648,
+        "offersOnPage": 10,
+        "imagesCount": 4,
+        "images": [
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?e658be0e",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/12/files/assets/html/skin/images/fbThumb.jpg",
+            "imageClass": "decorative-or-cover"
+          }
+        ],
+        "nearbyCandidates": []
+      },
+      {
+        "page": 16,
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/index.html",
+        "ok": true,
+        "status": 200,
+        "contentType": "text/html",
+        "htmlLength": 6363,
+        "offersOnPage": 15,
+        "imagesCount": 4,
+        "images": [
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?7362ae9a",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/16/files/assets/html/skin/images/fbThumb.jpg",
+            "imageClass": "decorative-or-cover"
+          }
+        ],
+        "nearbyCandidates": []
+      },
+      {
+        "page": 20,
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+        "ok": true,
+        "status": 200,
+        "contentType": "text/html",
+        "htmlLength": 6763,
+        "offersOnPage": 2,
+        "imagesCount": 4,
+        "images": [
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?0811a6a4",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/html/skin/images/fbThumb.jpg",
+            "imageClass": "decorative-or-cover"
+          }
+        ],
+        "nearbyCandidates": []
+      },
+      {
+        "page": 24,
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/index.html",
+        "ok": true,
+        "status": 200,
+        "contentType": "text/html",
+        "htmlLength": 6762,
+        "offersOnPage": 12,
+        "imagesCount": 4,
+        "images": [
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?5c8ba6e2",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/24/files/assets/html/skin/images/fbThumb.jpg",
+            "imageClass": "decorative-or-cover"
+          }
+        ],
+        "nearbyCandidates": []
+      },
+      {
+        "page": 28,
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+        "ok": true,
+        "status": 200,
+        "contentType": "text/html",
+        "htmlLength": 8095,
+        "offersOnPage": 0,
+        "imagesCount": 4,
+        "images": [
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?4b0f3ccb",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/html/skin/images/fbThumb.jpg",
+            "imageClass": "decorative-or-cover"
+          }
+        ],
+        "nearbyCandidates": []
+      },
+      {
+        "page": 32,
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/index.html",
+        "ok": true,
+        "status": 200,
+        "contentType": "text/html",
+        "htmlLength": 8670,
+        "offersOnPage": 7,
+        "imagesCount": 4,
+        "images": [
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?a17d01c8",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/files/assets/html/skin/images/fbThumb.jpg",
+            "imageClass": "decorative-or-cover"
+          }
+        ],
+        "nearbyCandidates": []
+      },
+      {
+        "page": 36,
+        "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/36/index.html",
+        "ok": true,
+        "status": 200,
+        "contentType": "text/html",
+        "htmlLength": 4200,
+        "offersOnPage": 0,
+        "imagesCount": 4,
+        "images": [
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?e7e188c0",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/36/files/assets/cover300.jpg",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/36/files/assets/html/skin/images/fbThumb.jpg",
+            "imageClass": "decorative-or-cover"
+          }
+        ],
+        "nearbyCandidates": []
+      }
+    ]
+  },
+  "kaufland": {
+    "offersCount": 563,
+    "sourceUrls": [
+      "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+      "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+      "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=00124698",
+      "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=09902681"
+    ],
+    "existingImageFields": [
+      {
+        "product": "A.T. International Rýžové nudle",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8595235702017_CZ_P"
+        }
+      },
+      {
+        "product": "Adriana Semolinové těstoviny",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594003464591_CZ_P"
+        }
+      },
+      {
+        "product": "Ady Čalamáda",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8588002158254_CZ_P"
+        }
+      },
+      {
+        "product": "Agro Jesenice Český hrášek",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8590186263877_CZ_P"
+        }
+      },
+      {
+        "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/054881005951_CZ_P"
+        }
+      },
+      {
+        "product": "Aksamitník Tagetes erecta",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=00124698",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8591665447023_CZ_P"
+        }
+      },
+      {
+        "product": "Aksamitník Tagetes patula",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=09902681",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/4011261020702_CZ_P-1"
+        }
+      },
+      {
+        "product": "Alba gurmán Hořčice",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594000779308_CZ_P"
+        }
+      },
+      {
+        "product": "Alimpex Bavorské klobásy",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8595121834808_CZ_P"
+        }
+      },
+      {
+        "product": "Aljašká treska filety bez kůže",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594014236811_CZ_P"
+        }
+      },
+      {
+        "product": "Alpecin Šampon",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/4008666215154_CZ_P"
+        }
+      },
+      {
+        "product": "Ambi Pur Osvěžvač vzduchu",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8700216261586_CZ_P"
+        }
+      },
+      {
+        "product": "Amundsen Vodka",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594005011922_CZ_P"
+        }
+      },
+      {
+        "product": "Amylon Knedlíky bramborové",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594006664011_CZ_P"
+        }
+      },
+      {
+        "product": "Ananas Sanlucar Gold",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=20268087",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8430631286023_CZ_P"
+        }
+      },
+      {
+        "product": "Anthurium andreanum",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=09900861",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/5706629665105_CZ_P"
+        }
+      },
+      {
+        "product": "Apetito Tavený sýr",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594004818034_CZ_P"
+        }
+      },
+      {
+        "product": "Ariel Prací kapsle",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8700216764193_CZ_P"
+        }
+      },
+      {
+        "product": "Avelopa Kukuřičné křupky nesolené",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594062421061_CZ_P"
+        }
+      },
+      {
+        "product": "Aviváž",
+        "storeName": "Kaufland Teplice-Centrum",
+        "sourceUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "leafletUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "found": {
+          "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8700216724296_CZ_P"
+        }
+      }
+    ],
+    "testedImages": [
+      {
+        "url": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/opengraph_image_default-a2531d9dba.png",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/opengraph_image_default-a2531d9dba.png",
+        "contentType": "image/png",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/favicon-32x32-e89176fc20.png",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/favicon-32x32-e89176fc20.png",
+        "contentType": "image/png",
+        "contentLength": "195",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/favicon-16x16-31e057d6f6.png",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/favicon-16x16-31e057d6f6.png",
+        "contentType": "image/png",
+        "contentLength": "139",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/apple-touch-icon-a250d79c49.png",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/apple-touch-icon-a250d79c49.png",
+        "contentType": "image/png",
+        "contentLength": "335",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/CZ.png",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ.png",
+        "contentType": "image/png",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/CZ300_00091621_P.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_00091621_P.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/CZ300_00400678_P.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_00400678_P.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/CZ300_02204030_P.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_02204030_P.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/CZ300_20924135_P.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_20924135_P.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/CZ300_20899666_P.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_20899666_P.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-150x150-a06f801589.png",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-150x150-a06f801589.png",
+        "contentType": "image/png",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-70x70-576c1f81d8.png",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-70x70-576c1f81d8.png",
+        "contentType": "image/png",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-310x150-6fe3a0527e.png",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-310x150-6fe3a0527e.png",
+        "contentType": "image/png",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-310x310-9f94afda61.png",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-310x310-9f94afda61.png",
+        "contentType": "image/png",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/CESKA_POTRAVINA.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/CESKA_POTRAVINA.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/K_JARMARK_OZ.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/K_JARMARK_OZ.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/LETS_BBQ.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/LETS_BBQ.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/BIO.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/BIO.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/EU_BIO.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/EU_BIO.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/CZ860_00091621_P.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ860_00091621_P.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/K_CLASSIC.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/K_CLASSIC.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/K_PURLAND_CZ-SK_RAL3000.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/K_PURLAND_CZ-SK_RAL3000.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/BEZ_LEPKU.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/BEZ_LEPKU.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/K-JARMARK.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/K-JARMARK.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/Banner_chlazene_potraviny.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/Banner_chlazene_potraviny.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/CESKA_CECHOVNI_NORMA.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/CESKA_CECHOVNI_NORMA.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/THEME_000334.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/THEME_000334.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/K_Purland_CZ-SK_RAL3000.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/K_Purland_CZ-SK_RAL3000.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/KLASA_LOGO_S_PODKLADEM.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/KLASA_LOGO_S_PODKLADEM.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/K-Classic.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/K-Classic.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/Mistri_od_fochu.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/Mistri_od_fochu.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/ceska_cechovni_norma.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/ceska_cechovni_norma.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/ceska_chutovka_2012.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/ceska_chutovka_2012.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/K-Purland.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/K-Purland.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/ASC.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/ASC.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/K-FAVOURITES.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/K-FAVOURITES.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/CHZP.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/CHZP.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/logo_vejce_podestylkovy.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/logo_vejce_podestylkovy.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "decorative-or-cover"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/CZ860_00400678_P.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ860_00400678_P.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/K-Jarmark.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/K-Jarmark.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/Banner_mrazene_potraviny.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/Banner_mrazene_potraviny.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "url": "https://media.kaufland.com/images/PPIM/KMO/VGT.jpg",
+        "ok": true,
+        "status": 206,
+        "finalUrl": "https://media.kaufland.com/images/PPIM/KMO/VGT.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "513",
+        "isImage": true,
+        "imageClass": "possible-product-image"
+      }
+    ],
+    "nearbyCandidates": [
+      {
+        "product": "A.T. International Rýžové nudle",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 503971,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "A.T. International Rýžové nudle",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 506151,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Adriana Semolinové těstoviny",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 531615,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Adriana Semolinové těstoviny",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 533795,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ady Čalamáda",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 528643,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ady Čalamáda",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 530823,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Agro Jesenice Český hrášek",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 562362,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Agro Jesenice Český hrášek",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 564542,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 450048,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 452228,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes erecta",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 670293,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes erecta",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 672473,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes patula",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 670293,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes patula",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 672473,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alba gurmán Hořčice",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 586885,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alba gurmán Hořčice",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 589065,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alimpex Bavorské klobásy",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 619453,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alimpex Bavorské klobásy",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 621633,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aljašká treska filety bez kůže",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 588643,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aljašká treska filety bez kůže",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 590823,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "A.T. International Rýžové nudle",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 503971,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "A.T. International Rýžové nudle",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 506151,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Adriana Semolinové těstoviny",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 531615,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Adriana Semolinové těstoviny",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 533795,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ady Čalamáda",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 528643,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ady Čalamáda",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 530823,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Agro Jesenice Český hrášek",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 562362,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Agro Jesenice Český hrášek",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 564542,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 450048,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 452228,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes erecta",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 670293,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes erecta",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 672473,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes patula",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 670293,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes patula",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 672473,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alba gurmán Hořčice",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 586885,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alba gurmán Hořčice",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 589065,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alimpex Bavorské klobásy",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 619453,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alimpex Bavorské klobásy",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 621633,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aljašká treska filety bez kůže",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 588643,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aljašká treska filety bez kůže",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 590823,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "A.T. International Rýžové nudle",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 503971,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "A.T. International Rýžové nudle",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 506151,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Adriana Semolinové těstoviny",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 531615,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Adriana Semolinové těstoviny",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 533795,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ady Čalamáda",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 528643,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ady Čalamáda",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 530823,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Agro Jesenice Český hrášek",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 562362,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Agro Jesenice Český hrášek",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 564542,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 450048,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 452228,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes erecta",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 670293,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes erecta",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 672473,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes patula",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 670293,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aksamitník Tagetes patula",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 672473,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alba gurmán Hořčice",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 586885,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alba gurmán Hořčice",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 589065,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alimpex Bavorské klobásy",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 619453,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Alimpex Bavorské klobásy",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 621633,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aljašká treska filety bez kůže",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+        "distance": 588643,
+        "imageClass": "possible-product-image"
+      },
+      {
+        "product": "Aljašká treska filety bez kůže",
+        "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+        "distance": 590823,
+        "imageClass": "possible-product-image"
+      }
+    ],
+    "pages": [
+      {
+        "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle#",
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-week=current&kloffer-category=0001_TopArticle",
+        "contentType": "text/html; charset=UTF-8",
+        "htmlLength": 2372804,
+        "imagesCount": 60,
+        "images": [
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/opengraph_image_default-a2531d9dba.png",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/favicon-32x32-e89176fc20.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/favicon-16x16-31e057d6f6.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/apple-touch-icon-a250d79c49.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ.png",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_00091621_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_00400678_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_02204030_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_20924135_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_20899666_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-150x150-a06f801589.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-70x70-576c1f81d8.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-310x150-6fe3a0527e.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-310x310-9f94afda61.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CESKA_POTRAVINA.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_JARMARK.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_JARMARK_OZ.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/LETS_BBQ.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/BIO.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/EU_BIO.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/Ceska_potravina.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/banner_pultovy_prodej.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/Banner_pultovy_prodej.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ860_00091621_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/BBQ.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_CLASSIC.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_PURLAND_CZ-SK_RAL3000.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/Banner_samoobsluzny_prodej.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/GFR.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/LAC.jpg",
+            "imageClass": "possible-product-image"
+          }
+        ],
+        "nearbyCandidates": [
+          {
+            "product": "A.T. International Rýžové nudle",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 503971,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "A.T. International Rýžové nudle",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 506151,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Adriana Semolinové těstoviny",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 531615,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Adriana Semolinové těstoviny",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 533795,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ady Čalamáda",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 528643,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ady Čalamáda",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 530823,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Agro Jesenice Český hrášek",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 562362,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Agro Jesenice Český hrášek",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 564542,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 450048,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 452228,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes erecta",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 670293,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes erecta",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 672473,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes patula",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 670293,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes patula",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 672473,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alba gurmán Hořčice",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 586885,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alba gurmán Hořčice",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 589065,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alimpex Bavorské klobásy",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 619453,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alimpex Bavorské klobásy",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 621633,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aljašká treska filety bez kůže",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 588643,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aljašká treska filety bez kůže",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 590823,
+            "imageClass": "possible-product-image"
+          }
+        ]
+      },
+      {
+        "url": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://leaflets.kaufland.com/cz-CZ/CZ_cs_KDZ_2450_CZ20-LFT/ar/2450",
+        "contentType": "text/html; charset=utf-8",
+        "htmlLength": 1156,
+        "imagesCount": 0,
+        "images": [],
+        "nearbyCandidates": []
+      },
+      {
+        "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=00124698",
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=00124698",
+        "contentType": "text/html; charset=UTF-8",
+        "htmlLength": 2372804,
+        "imagesCount": 60,
+        "images": [
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/opengraph_image_default-a2531d9dba.png",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/favicon-32x32-e89176fc20.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/favicon-16x16-31e057d6f6.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/apple-touch-icon-a250d79c49.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ.png",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_00091621_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_00400678_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_02204030_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_20924135_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_20899666_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-150x150-a06f801589.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-70x70-576c1f81d8.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-310x150-6fe3a0527e.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-310x310-9f94afda61.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CESKA_POTRAVINA.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_JARMARK.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_JARMARK_OZ.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/LETS_BBQ.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/BIO.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/EU_BIO.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/Ceska_potravina.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/banner_pultovy_prodej.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/Banner_pultovy_prodej.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ860_00091621_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/BBQ.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_CLASSIC.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_PURLAND_CZ-SK_RAL3000.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/Banner_samoobsluzny_prodej.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/GFR.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/LAC.jpg",
+            "imageClass": "possible-product-image"
+          }
+        ],
+        "nearbyCandidates": [
+          {
+            "product": "A.T. International Rýžové nudle",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 503971,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "A.T. International Rýžové nudle",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 506151,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Adriana Semolinové těstoviny",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 531615,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Adriana Semolinové těstoviny",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 533795,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ady Čalamáda",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 528643,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ady Čalamáda",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 530823,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Agro Jesenice Český hrášek",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 562362,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Agro Jesenice Český hrášek",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 564542,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 450048,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 452228,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes erecta",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 670293,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes erecta",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 672473,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes patula",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 670293,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes patula",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 672473,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alba gurmán Hořčice",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 586885,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alba gurmán Hořčice",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 589065,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alimpex Bavorské klobásy",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 619453,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alimpex Bavorské klobásy",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 621633,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aljašká treska filety bez kůže",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 588643,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aljašká treska filety bez kůže",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 590823,
+            "imageClass": "possible-product-image"
+          }
+        ]
+      },
+      {
+        "url": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=09902681",
+        "ok": true,
+        "status": 200,
+        "finalUrl": "https://prodejny.kaufland.cz/nabidka/prehled.html?kloffer-category=02_Ovoce__zelenina__rostliny&kloffer-articleID=09902681",
+        "contentType": "text/html; charset=UTF-8",
+        "htmlLength": 2372804,
+        "imagesCount": 60,
+        "images": [
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/opengraph_image_default-a2531d9dba.png",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/favicon-32x32-e89176fc20.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/favicon-16x16-31e057d6f6.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/apple-touch-icon-a250d79c49.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ.png",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_00091621_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_00400678_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_02204030_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_20924135_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ300_20899666_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-150x150-a06f801589.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-70x70-576c1f81d8.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-310x150-6fe3a0527e.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://prodejny.kaufland.cz/etc.clientlibs/kaufland/clientlibs/clientlib-klsite/resources/frontend/img/icon/mstile-310x310-9f94afda61.png",
+            "imageClass": "decorative-or-cover"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CESKA_POTRAVINA.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_JARMARK.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_JARMARK_OZ.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/LETS_BBQ.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/BIO.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/EU_BIO.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/Ceska_potravina.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/banner_pultovy_prodej.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/Banner_pultovy_prodej.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/CZ860_00091621_P.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/BBQ.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_CLASSIC.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/K_PURLAND_CZ-SK_RAL3000.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/Banner_samoobsluzny_prodej.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/GFR.jpg",
+            "imageClass": "possible-product-image"
+          },
+          {
+            "imageUrl": "https://media.kaufland.com/images/PPIM/KMO/LAC.jpg",
+            "imageClass": "possible-product-image"
+          }
+        ],
+        "nearbyCandidates": [
+          {
+            "product": "A.T. International Rýžové nudle",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 503971,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "A.T. International Rýžové nudle",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 506151,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Adriana Semolinové těstoviny",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 531615,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Adriana Semolinové těstoviny",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 533795,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ady Čalamáda",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 528643,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ady Čalamáda",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 530823,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Agro Jesenice Český hrášek",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 562362,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Agro Jesenice Český hrášek",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 564542,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 450048,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Ahmad Tea Černý/zelený/ovocný čaj",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 452228,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes erecta",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 670293,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes erecta",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 672473,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes patula",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 670293,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aksamitník Tagetes patula",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 672473,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alba gurmán Hořčice",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 586885,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alba gurmán Hořčice",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 589065,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alimpex Bavorské klobásy",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 619453,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Alimpex Bavorské klobásy",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 621633,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aljašká treska filety bez kůže",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/2875300000000_CZ_P",
+            "distance": 588643,
+            "imageClass": "possible-product-image"
+          },
+          {
+            "product": "Aljašká treska filety bez kůže",
+            "imageUrl": "https://kaufland.media.schwarz/is/image/schwarz/8594001692644_CZ_P",
+            "distance": 590823,
+            "imageClass": "possible-product-image"
+          }
+        ]
+      }
+    ]
+  }
+}

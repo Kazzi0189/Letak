@@ -121,6 +121,7 @@ function productImageUrl(offer) {
     offer.imageSrc ||
     offer.thumbnailUrl ||
     offer.productImageUrl ||
+    offer.pageImageUrl ||
     ''
   );
 }
@@ -132,7 +133,8 @@ function renderOfferImage(offer) {
     return '<div class="offer-image-placeholder" aria-hidden="true"></div>';
   }
 
-  const alt = (offer.imageAlt || offer.product || 'Obrázek produktu')
+  const isPageThumbnail = offer.imageType === 'page-thumbnail' && !offer.imageUrl;
+  const alt = (offer.imageAlt || offer.product || (isPageThumbnail ? 'Miniatura stránky letáku' : 'Obrázek produktu'))
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
@@ -140,7 +142,8 @@ function renderOfferImage(offer) {
 
   return `
     <div class="offer-image-wrap">
-      <img class="offer-image" src="${url}" alt="${alt}" loading="lazy" referrerpolicy="no-referrer" />
+      <img class="offer-image ${isPageThumbnail ? 'offer-page-image' : ''}" src="${url}" alt="${alt}" loading="lazy" referrerpolicy="no-referrer" />
+      ${isPageThumbnail ? '<span class="offer-image-label">leták</span>' : ''}
     </div>
   `;
 }

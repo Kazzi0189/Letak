@@ -71,6 +71,11 @@ function makeId(product, price, pageNumber, packageSize) {
   );
 }
 
+function pennyPageImageUrl(pageNumber) {
+  if (!pageNumber) return "";
+  return `${VIEWER_BASE_URL}${pageNumber}/files/assets/cover300.jpg`;
+}
+
 function removePageNoise(text, pageNumber) {
   return text
     .replace(new RegExp(`^\\s*${pageNumber}\\s+`, "i"), "")
@@ -634,6 +639,10 @@ function parsePageProductLine(productLine, pageNumber, sourceUrl) {
       priceType: "leták",
       sourceUrl,
       pageNumber,
+      imageUrl: "",
+      pageImageUrl: pennyPageImageUrl(pageNumber),
+      imageType: "page-thumbnail",
+      imageAlt: `${product} – stránka letáku ${pageNumber}`,
       confidence,
       suspect: safety.suspect,
       suspectReasons: safety.reasons,
@@ -727,8 +736,7 @@ async function main() {
     count: publicOffers.length,
     parser: "scripts/import-penny-leaflet-html.mjs",
     parserVersion: "0.9",
-    note:
-      "V9: oprava přenosu metadat u dopočtů s upravenou jednotkovou cenou a jemné dorovnání na cenu z letákového cenového bloku, pokud se výpočet liší jen do 15 haléřů.",
+    note: "V9: oprava přenosu metadat u dopočtů s upravenou jednotkovou cenou a jemné dorovnání na cenu z letákového cenového bloku, pokud se výpočet liší jen do 15 haléřů. Penny má zatím jen miniatury stránky letáku, ne samostatné produktové obrázky.",
   };
 
   await writeFile(OUTPUT_FILE, JSON.stringify({ meta, offers: publicOffers }, null, 2) + "\n", "utf8");

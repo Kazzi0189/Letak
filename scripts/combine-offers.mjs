@@ -52,6 +52,8 @@ function normalizeOffer(offer, sourceName) {
       offer.productImageUrl ||
       "",
     imageAlt: offer.imageAlt || offer.product || "",
+    pageImageUrl: offer.pageImageUrl || "",
+    imageType: offer.imageType || (offer.pageImageUrl ? "page-thumbnail" : (offer.imageUrl ? "product" : "")),
     leafletUrl: offer.leafletUrl || "",
     confidence: ["high", "medium", "low"].includes(confidence) ? confidence : "high",
     suspect,

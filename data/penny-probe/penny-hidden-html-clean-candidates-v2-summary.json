@@ -1,0 +1,875 @@
+{
+  "checkedAt": "2026-05-15T17:56:45.491Z",
+  "inputSummary": {
+    "pagesChecked": 37,
+    "currentPennyOffersLoaded": 353,
+    "totalCandidateOffers": 69,
+    "probablyNewCandidateOffers": 61,
+    "beerCandidateOffers": 22,
+    "page20CandidateOffers": 23,
+    "page20BeerCandidateOffers": 19,
+    "pagesWithManyNewCandidates": [
+      {
+        "pageNumber": 20,
+        "probablyNewOffersCount": 23,
+        "totalOffersCount": 23,
+        "beerOffersCount": 19
+      },
+      {
+        "pageNumber": 23,
+        "probablyNewOffersCount": 6,
+        "totalOffersCount": 6,
+        "beerOffersCount": 0
+      }
+    ],
+    "recommendedPath": "inspect-all-pages-candidates-then-build-penny-import-v2"
+  },
+  "summary": {
+    "totalInputOffers": 69,
+    "safeCandidates": 22,
+    "reviewCandidates": 41,
+    "rejectedCandidates": 6,
+    "safePage20": 18,
+    "reviewPage20": 2,
+    "rejectedPage20": 3,
+    "pagesWithSafeCandidates": [
+      {
+        "pageNumber": 8,
+        "safe": 1,
+        "review": 0,
+        "rejected": 0
+      },
+      {
+        "pageNumber": 18,
+        "safe": 1,
+        "review": 1,
+        "rejected": 1
+      },
+      {
+        "pageNumber": 19,
+        "safe": 1,
+        "review": 1,
+        "rejected": 0
+      },
+      {
+        "pageNumber": 20,
+        "safe": 18,
+        "review": 2,
+        "rejected": 3
+      },
+      {
+        "pageNumber": 28,
+        "safe": 1,
+        "review": 2,
+        "rejected": 0
+      }
+    ],
+    "recommendedPath": "build-conservative-penny-import-v2-from-safe-candidates"
+  },
+  "safeSample": [
+    {
+      "pageNumber": 8,
+      "product": "ZMRZLINA PREMIUM PEGAS různé druhy",
+      "priceText": "22,90 Kč",
+      "packageSize": "55 ml",
+      "category": "mléčné",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný kandidát prošel základním filtrem"
+      ]
+    },
+    {
+      "pageNumber": 18,
+      "product": "APEROL",
+      "priceText": "249,90 Kč",
+      "packageSize": "500 g",
+      "category": "alkohol",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný kandidát prošel základním filtrem"
+      ]
+    },
+    {
+      "pageNumber": 19,
+      "product": "RELAX Kaktus",
+      "priceText": "19,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "alkohol",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný kandidát prošel základním filtrem"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "SKOTSKÁ WHISKY MC ILLROY 40 % alk.",
+      "priceText": "219,90 Kč",
+      "packageSize": "0,7 l",
+      "category": "alkohol",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "OSTRAVAR MUSTANG světlý ležák plech",
+      "priceText": "18,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "BRANÍK světlé výčepní",
+      "priceText": "9,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "VELKOPOPOVICKÝ KOZEL 10 světlé výčepní",
+      "priceText": "11,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "STAROČECH ORIGINAL světlé výčepní",
+      "priceText": "11,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "RADEGAST RATAR hořký ležák plech",
+      "priceText": "20,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "BUDWEISER BUDVAR světlý ležák",
+      "priceText": "19,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "GAMBRINUS PATRON světlý ležák plech",
+      "priceText": "18,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "ZUBR GRAND, HOLBA ŠERÁK světlý ležák plech",
+      "priceText": "16,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "STAROČECH nealko",
+      "priceText": "6,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "STAROPRAMEN 12 světlý ležák plech",
+      "priceText": "17,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "BRANDY KOBLEVO RESERVE VSOP 40 % alk.",
+      "priceText": "229,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "alkohol",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "COOL různé druhy",
+      "priceText": "36,90 Kč",
+      "packageSize": "1,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "VELKOPOPOVICKÝ KOZEL nealko plech",
+      "priceText": "17,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "KRUŠOVICE 10 světlé výčepní",
+      "priceText": "9,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "BOHEMIA SEKT různé druhy",
+      "priceText": "109,90 Kč",
+      "packageSize": "0,75 l",
+      "category": "alkohol",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "SVIJANSKÝ MÁZ světlý ležák",
+      "priceText": "10,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "product": "PROSECCO bílé perlivé",
+      "priceText": "59,90 Kč",
+      "packageSize": "0,75 l",
+      "category": "alkohol",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "cílený parser stránky 20"
+      ]
+    },
+    {
+      "pageNumber": 28,
+      "product": "různé typy 1 balení POSTŘIKOVAČ kruhový, s podstavcem, 8polohový, různá provedení",
+      "priceText": "449,90 Kč",
+      "packageSize": "1 ks",
+      "category": "alkohol",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný kandidát prošel základním filtrem"
+      ]
+    }
+  ],
+  "reviewSample": [
+    {
+      "pageNumber": 4,
+      "product": "TAVENÝ SÝR BONI různé druhy",
+      "priceText": "11,90 Kč",
+      "packageSize": "200 g",
+      "category": "mléčné",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obsahuje promo/limitní text nebo složený kontext"
+      ],
+      "rawContext": "R EMMENTÁL BONI 200 g 100 g 18,95 Kč < 37,90 Kč SÝR CHEDDAR 50% PLÁTKY BONI 100 g SÝR ŽERVÉ XXL KARLOVA KORUNA* různé druhy 150 g 100 g 11,27 Kč MOZZARELLA BONI 220/125 g 100 g 13,52 Kč TAVENÝ SÝR BONI různé druhy 100 g < 11,90 Kč SÝROVÉ TYČINKY KARLOVA KORUNA 80 g 100 g 24,88 Kč SÝR PARENICA KARLOVA KORUNA uzená, neuzená 110 g 100 g 26,27 Kč TVARO"
+    },
+    {
+      "pageNumber": 9,
+      "product": "BRAMBOROVÉ HALUŠKY mražené",
+      "priceText": "44,90 Kč",
+      "packageSize": "350 g",
+      "category": "mražené",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "T mražená | 350 g | 1 kg 36,86 Kč < 12,90 Kč | v nabídce také fazolka zelená řezaná mražená Mrazivá čerstvost 350 g za 14,90 Kč KROKETY BRAMBOROVÉ mražené 300 g 1 kg 59,67 Kč < 17,90 Kč BRAMBOROVÉ HALUŠKY mražené | 1 kg < 44,90 Kč TRESKA ALJAŠSKÁ MYLORD mražená 4x 100 g 1 kg 174,75 Kč < 69,90 Kč KREVETY LOUPANÉ PŘEDVAŘENÉ MYLORD* mražené 250 g 1 kg"
+    },
+    {
+      "pageNumber": 11,
+      "product": "ŘEPKOVÝ OLEJ PENNY",
+      "priceText": "29,90 Kč",
+      "packageSize": "500 g",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "pravděpodobně špatně převzaté balení z předchozí položky"
+      ],
+      "rawContext": "za 44,90 Kč TĚSTOVINY SAN FABIO různé druhy 500 g 1 kg 25,80 Kč < 12,90 Kč v nabídce také těstoviny vřetena barevná San Fabio 500 g za 14,90 Kč RÝŽE BASMATI LAGRIS* 3 kg 1 kg 43,30 Kč < 129,90 Kč ŘEPKOVÝ OLEJ PENNY 1 l < 29,90 Kč UTOPENCI S CIBULÍ HAMÉ* 670/320 g 1 kg 249,69 Kč < 56,90 Kč TORTELLINI SAN FABIO různé druhy 250 g 1 kg 79,60 Kč < 21,9"
+    },
+    {
+      "pageNumber": 11,
+      "product": "PROTLAK RAJČATOVÝ SAN FABIO",
+      "priceText": "11,90 Kč",
+      "packageSize": "115 g",
+      "category": "mražené",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obsahuje promo/limitní text nebo složený kontext"
+      ],
+      "rawContext": "ČÍ 115 g 1 kg 346,96 Kč < 39,90 Kč FILETY Z MAKRELY LOSOS BBQ, Mexico 170/85 g 1 kg 351,76 Kč < 27,90 Kč v nabídce také Filety z makrely Gran Mare 170; 102/85 g od 29,90 Kč PROTLAK RAJČATOVÝ SAN FABIO 140 g | 1 kg 85 Kč < 11,90 Kč OLIVOVÝ OLEJ EXTRA PANENSKÝ 0,75 l 1 l 173,20 Kč < 119,90 Kč POHANKA GUSTITO 500 g 1 kg 39,80 Kč < 19,90 Kč ČERVENÁ ŘEP"
+    },
+    {
+      "pageNumber": 11,
+      "product": "SUŠENÁ RAJČATA S KAPARY SAN FABIO 280/",
+      "priceText": "54,90 Kč",
+      "packageSize": "0,75 l",
+      "category": "ovoce zelenina",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obsahuje promo/limitní text nebo složený kontext"
+      ],
+      "rawContext": "1,90 Kč OLIVOVÝ OLEJ EXTRA PANENSKÝ 0,75 l 1 l 173,20 Kč < 119,90 Kč POHANKA GUSTITO 500 g 1 kg 39,80 Kč < 19,90 Kč ČERVENÁ ŘEPA BIO PENNY* 670/430 g 1 kg 34,65 Kč SUŠENÁ RAJČATA S KAPARY SAN FABIO 280/140 g 1 kg 285 Kč < 54,90 Kč OKURKY KARLOVA KORUNA 670/350 g 1 kg 85,43 Kč < 28,90 Kč HALUŠKY BRAMBOROVÉ GUSTITO 400 g 1 kg 49,75 Kč < 26,90 Kč v na"
+    },
+    {
+      "pageNumber": 11,
+      "product": "PŠENIČNÁ MOUKA různé druhy",
+      "priceText": "8,90 Kč",
+      "packageSize": "350 g",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obsahuje promo/limitní text nebo složený kontext"
+      ],
+      "rawContext": "č v limitované nabídce také kypřicí prášek 5 + 1 za 9,90 Kč POMAZÁNKA LINO LADA* různé druhy 350 g 100 g 14,26 Kč < 46,90 Kč KOMPOT MANDARINKY PENNY 312/175 g 1 kg 113,71 Kč < 19,90 Kč PŠENIČNÁ MOUKA* různé druhy | 1 kg <8,90 Kč 5MAX. ks osoba/nákup/ den 3 kg 400 g 6 ks 19,90 29,90/ 33% 79,90 114,90/ 30% 29,90 39,90/ 25% MLETÝ MÁK KARLOVA KORUNA"
+    },
+    {
+      "pageNumber": 11,
+      "product": "CUKR KOSTKY",
+      "priceText": "39,90 Kč",
+      "packageSize": "3 kg",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "pravděpodobně špatně převzaté balení z předchozí položky"
+      ],
+      "rawContext": "s osoba/nákup/ den 3 kg 400 g 6 ks 19,90 29,90/ 33% 79,90 114,90/ 30% 29,90 39,90/ 25% MLETÝ MÁK KARLOVA KORUNA 200 g 100 g 9,95 Kč < 24,90 Kč MED ČESKÝ LUČNÍ PASTOVANÝ 500 g | 1 kg 159,80 Kč < 79,90 Kč CUKR KOSTKY 1 kg < 39,90 Kč ks 10 MAX. osoba/nákup/ den Nabídka platná od středy 13. 5. do úterý 19. 5. 2026"
+    },
+    {
+      "pageNumber": 12,
+      "product": "PŘEPUŠTĚNÉ MÁSLO GHÍ",
+      "priceText": "199,90 Kč",
+      "packageSize": "200 g",
+      "category": "mléčné",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "GGI 200 g 1 kg 74,50 Kč < 30,90 Kč ACTIVIA různé druhy 120 g | 100 g 8,25 Kč SELSKÝ JOGURT HOLLANDIA různé druhy 200 g 100 g 4,95 Kč RAMA Classic | 400 g 100 g 9,98 Kč | < 29,90 Kč PŘEPUŠTĚNÉ MÁSLO GHÍ 450 ml 1 l 222 Kč < 199,90 Kč ŠVESTKOVÁ POVIDLA HAMÉ 440 g 1 kg 83,86 Kč < 39,90 Kč EXTRA DŽEM SCHWARTAU různé druhy 340 g 1 kg 146,76 Kč < 49,90 Kč"
+    },
+    {
+      "pageNumber": 12,
+      "product": "GOTHAJSKÝ SALÁM ŘEZNÍKŮV TALÍŘ krájený",
+      "priceText": "34,90 Kč",
+      "packageSize": "200 g",
+      "category": "uzeniny",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obsahuje promo/limitní text nebo složený kontext"
+      ],
+      "rawContext": "č < 29,90 Kč KÁVA JIHLAVANKA instantní, různé druhy 180/200 g 100 g 66,61/59,95 Kč < 129,90 Kč GOTHAJSKÝ SALÁM ŘEZNÍKŮV TALÍŘ krájený 100 g ŠUNKOVÉ KOLENO ŘEZNÍKŮV TALÍŘ krájené 100 g KAKAO HOLANDSKÉHO TYPU MARILA 100 g < 34,90 Kč Nabídka platná od středy 13. 5. do úterý 19. 5. 2026 Nabídka platná od středy 13. 5. do úterý 19. 5. 2026"
+    },
+    {
+      "pageNumber": 13,
+      "product": "HELLO EXTRA HUSTÝ SIRUP různé druhy",
+      "priceText": "29,90 Kč",
+      "packageSize": "120 g",
+      "category": "nápoje",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "ulkou Hamé 120 g za 19,90 Kč RODINNÉ VĚNEČKY SEDITA kakaové, vanilkové 120 g 100 g 12,42 Kč < 14,90 Kč SUŠENKY MILKA různé druhy 35-40 g 100 g 25,43–22,25 Kč < 9,90 Kč HELLO EXTRA HUSTÝ SIRUP různé druhy 0,7 l 1 l 47 Kč < 29,90 Kč PAŠTIKA HAMÉ* Májka, Matěj, Svačinka | 120 g 1 kg 140,83 Kč < 13,90 Kč DĚTSKÉ VLHČENÉ UBROUSKY ALOE VERA LINTEO 80 ks 1"
+    },
+    {
+      "pageNumber": 13,
+      "product": "TYČINKY ORION Kofila",
+      "priceText": "13,90 Kč",
+      "packageSize": "80 ks",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "LHČENÉ UBROUSKY ALOE VERA LINTEO 80 ks 1 ks 0,27 Kč < 19,90 Kč PRÁŠEK 4V1 CALGON 500 g 1 kg 179,80 Kč < 89,90 Kč 29,90 **59,90/ 50% SUŠENKY MINIS* různé druhy | 240 g 100 g 12,46 Kč TYČINKY ORION Kofila 35 g 100 g 34 Kč < 13,90 Kč v nabídce také tyčinka Ledové kaštany Orion 45 g za 13,90 Kč TYČINKA KIT KAT CHUNKY 40 g 100 g 32,25 Kč < 12,90 Kč Nabí"
+    },
+    {
+      "pageNumber": 14,
+      "product": "TATARSKÁ OMÁČKA, MAJONÉZA POLIČANKA",
+      "priceText": "6,90 Kč",
+      "packageSize": "160 g",
+      "category": "mléčné",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obsahuje promo/limitní text nebo složený kontext"
+      ],
+      "rawContext": "Halali 320/160 g za 27,90 Kč DEZERT MATY OLMÍCI smetanový 110 g 100 g 9 Kč ZAKYSANÁ SMETANA DE LUXE 20% KUNÍN 190 g 100 g 10,47 Kč BOBÍK vanilka, čokoláda 70 g 100 g 14,14 Kč TATARSKÁ OMÁČKA, MAJONÉZA POLIČANKA 100 ml | < 6,90 Kč JOGURT FLORIAN různé druhy 150 g 100 g 6,60 Kč KUKUŘICE GOLD BONDUELLE 340/285 g 1 kg 101,40 Kč < 29,90 Kč v nabídce ta"
+    },
+    {
+      "pageNumber": 14,
+      "product": "KREKRY TUC různé druhy",
+      "priceText": "16,90 Kč",
+      "packageSize": "265 g",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obsahuje promo/limitní text nebo složený kontext"
+      ],
+      "rawContext": "xico 300/265 g za 29,90 Kč KEČUP GURMÁN OTMA jemný, ostrý 520 g 1 kg 76,73 Kč < 39,90 Kč TUŇÁK STEAK MARINNA různé druhy 160/185/195; 104/140/150g 1 kg 287,50/213,57/199,33 Kč < 34,90 Kč KREKRY TUC různé druhy | 100 g | < 16,90 Kč BIO SNACK BIOSAURUS různé druhy 60 g 100 g 33,17 Kč < 24,90 Kč KEŠU PRAŽENÉ S MEDEM A SOLÍ NATURALIA 150 g 100 g 26,60"
+    },
+    {
+      "pageNumber": 15,
+      "product": "VELTLÍNSKÉ ZELENÉ, MÜLLER THURGAU, FRANKOVKA MODRÁ, RISLING VLASSKY, MODRÝ PORTUGAL",
+      "priceText": "49,90 Kč",
+      "packageSize": "0,75 l",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "14 Kč < 16,90 Kč AVANTI Classico, Rosé, Ice 0,75 l 1 l 59,87 Kč < 44,90 Kč ASCONI GOLD různé druhy 0,75 l 1 l 79,87 Kč < 59,90 Kč VELTLÍNSKÉ ZELENÉ, MÜLLER THURGAU, FRANKOVKA MODRÁ, RISLING VLASSKY, MODRÝ PORTUGAL 1 l | < 49,90 Kč FIDORKA OPAVIA různé druhy 30 g 100 g 33 Kč < 8,90 Kč ČOKOPIŠKOTY FIGARO různé druhy 147 g 100 g 15,58 Kč < 24,90 Kč 20"
+    },
+    {
+      "pageNumber": 15,
+      "product": "FIDORKA OPAVIA různé druhy",
+      "priceText": "8,90 Kč",
+      "packageSize": "0,75 l",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "pravděpodobně špatně převzaté balení z předchozí položky"
+      ],
+      "rawContext": "59,87 Kč < 44,90 Kč ASCONI GOLD různé druhy 0,75 l 1 l 79,87 Kč < 59,90 Kč VELTLÍNSKÉ ZELENÉ, MÜLLER THURGAU, FRANKOVKA MODRÁ, RISLING VLASSKY, MODRÝ PORTUGAL 1 l | < 49,90 Kč FIDORKA OPAVIA různé druhy 30 g 100 g 33 Kč < 8,90 Kč ČOKOPIŠKOTY FIGARO různé druhy 147 g 100 g 15,58 Kč < 24,90 Kč 2022 1 l Nabídka platná od středy 13. 5. do úterý 19. 5."
+    },
+    {
+      "pageNumber": 16,
+      "product": "OVOCNÁ SVAČINKA HELLO s malinami",
+      "priceText": "7,90 Kč",
+      "packageSize": "280 g",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "0 Kč < 27,90 Kč TRUBIČKY CAFÉ TIME různé druhy 280 g 100 g 9,61 Kč (běžně za 14,25 Kč) < 26,90 Kč OVOCNÉ ŽELÉ ENJOY různé druhy | 35 g 100 g 56,86 Kč (běžně za 71,14 Kč) < 17,90 Kč OVOCNÁ SVAČINKA HELLO s malinami 100 g < 7,90 Kč EMCO SUPER SUŠENKY* různé druhy | 60 g 100 g 19,83 Kč PIŠKOTY OPAVIA* 220 g 100 g 13,59 Kč < 24,90 Kč TROPICKÝ MIX PEDR"
+    },
+    {
+      "pageNumber": 17,
+      "product": "TYČINKA ROSHEN různé druhy",
+      "priceText": "11,90 Kč",
+      "packageSize": "100 g",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obsahuje promo/limitní text nebo složený kontext"
+      ],
+      "rawContext": "g 100 g 29,80 Kč < 14,90 Kč OPLATKA ATTACK SEDITA různé druhy | 30 g 100 g 19,67 Kč < 4,90 Kč KUKUŘIČNÉ TRUBIČKY ALASKA různé druhy 18 g | 100 g 16,11 Kč < 2,40 Kč TYČINKA ROSHEN* různé druhy | 38/43 g 100 g 33,95/30 Kč < 11,90 Kč MÜSLI TYČINKA TWIGGY* různé druhy | 30/20 g 100 g 16,33/24,50 Kč < 4,90 Kč MÜSLI TYČINKA CRIP CROP různé druhy | 30 g 1"
+    },
+    {
+      "pageNumber": 17,
+      "product": "ČOKOLÁDA MERCI různé druhy",
+      "priceText": "34,90 Kč",
+      "packageSize": "30 g",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obsahuje promo/limitní text nebo složený kontext"
+      ],
+      "rawContext": "ůzné druhy | 30 g 100 g 16,33 Kč < 4,90 Kč TYČINKA BIG CORNY různé druhy | 40/50 g 100 g 37,25/29,80 Kč < 14,90 Kč ČOKOLÁDA MILKA různé druhy 87,5–95 g 100 g 34,17–31,47 Kč < 29,90 Kč ČOKOLÁDA MERCI* různé druhy | 100 g < 34,90 Kč DĚTSKÉ CEREÁLIE CRIP CROP různé druhy | 250/100 g 1 kg 79,60/199 Kč | < 19,90 Kč VLOČKY OVESNÉ KARLOVA KORUNA různé dru"
+    },
+    {
+      "pageNumber": 17,
+      "product": "DĚTSKÉ CEREÁLIE CRIP CROP různé druhy",
+      "priceText": "19,90 Kč",
+      "packageSize": "100 g",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obsahuje promo/limitní text nebo složený kontext"
+      ],
+      "rawContext": "g 100 g 37,25/29,80 Kč < 14,90 Kč ČOKOLÁDA MILKA různé druhy 87,5–95 g 100 g 34,17–31,47 Kč < 29,90 Kč ČOKOLÁDA MERCI* různé druhy | 100 g < 34,90 Kč DĚTSKÉ CEREÁLIE CRIP CROP různé druhy | 250/100 g 1 kg 79,60/199 Kč | < 19,90 Kč VLOČKY OVESNÉ KARLOVA KORUNA různé druhy 500 g 1 kg 23,80 Kč < 11,90 Kč CEREÁLIE CORNFLAKES CRIP CROP 500 g 1 kg 59,80"
+    },
+    {
+      "pageNumber": 17,
+      "product": "SRDÍČKA MÜSLI CRIP CROP různé druhy",
+      "priceText": "8,90 Kč",
+      "packageSize": "250 g",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "kg 59,80 Kč < 29,90 Kč ŠPALDOVÉ LUPÍNKY CRIP CROP různé druhy | 250 g 1 kg 139,60 Kč < 34,90 Kč POLŠTÁŘKY S NÁPLNÍ CRISPY různé druhy 150 g 1 kg 132,67 Kč < 19,90 Kč SRDÍČKA MÜSLI CRIP CROP různé druhy 50 g 1 kg 178 Kč < 8,90 Kč KINDER BUENO 43 g 100 g 46,28 Kč < 19,90 Kč Nabídka platná od středy 13. 5. do úterý 19. 5. 2026"
+    },
+    {
+      "pageNumber": 18,
+      "product": "MORANI Bianco, Rosso",
+      "priceText": "59,90 Kč",
+      "packageSize": "0,2 l",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "CITY SECCO/ROSATO plech | 0,2 l 1 l 64,50 Kč < 11,90 Kč DESPERADOS ORIGINAL, MOJITO* sklo | 0,33 l 1 l 45,15 Kč záloha na lahev 3 Kč < 11,90 Kč ZLATOPRAMEN SOULAD* různé druhy 0,5 l 1 l 31,80 Kč MORANI Bianco, Rosso 1 l < 59,90 Kč • 5 cl Limoncella • 8–10 cl River tonicu • 2 plátky citronu na ozdobu • led – čím více, tím lépe OSVĚŽUJÍCÍ MOJITO • 4"
+    },
+    {
+      "pageNumber": 19,
+      "product": "RAJČATOVÁ ŠŤÁVA",
+      "priceText": "24,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "alkohol",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "KOV Originál 37,5 % alk. 0,5 l | 1 l 279,80 Kč < 139,90 Kč KOJENECKÁ VODA AQUILA neperlivá 1,5 l 1 l 6,60 Kč < 9,90 Kč MINERÁLNÍ VODA MATTONI jemně perlivá 1,5 l 1 l 7,93 Kč < 11,90 Kč VITÁLKA 100% RAJČATOVÁ ŠŤÁVA 1 l | < 24,90 Kč BEEFEATER GIN, BEEFEATER GIN PINK 40 % alk., 37,5 % alk. 0,7 l 1 l 528,43 Kč < 369,90 Kč KINLEY AROMATIC PINK BERRY 1,5"
+    },
+    {
+      "pageNumber": 20,
+      "product": "STAROPRAMEN 10 světlé výčepní plech",
+      "priceText": "14,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "blok obsahuje přilepenou další položku, chce ještě rozdělit"
+      ],
+      "rawContext": "STAROPRAMEN 10 světlé výčepní plech, 0,5 l 1 l 29,80 Kč < 14,90 Kč STAROČECH polotmavý ležák, plech 0,5 l 1 l 27,80 Kč < 14,90 Kč"
+    },
+    {
+      "pageNumber": 20,
+      "product": "KRUŠOVICE 12 světlý ležák plech",
+      "priceText": "16,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "confidence": "targeted-page20",
+      "reasons": [
+        "blok obsahuje přilepenou další položku, chce ještě rozdělit"
+      ],
+      "rawContext": "KRUŠOVICE 12 světlý ležák plech | 0,5 l 1 l 33,80 Kč < 16,90 Kč MUSTANG HOŘKÝ světlý ležák plech 0,5 l 1 l 35,80 Kč < 17,90 Kč"
+    },
+    {
+      "pageNumber": 21,
+      "product": "POPCORN SOLTY různé druhy",
+      "priceText": "9,90 Kč",
+      "packageSize": "0,75 l",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "09,90 Kč PORTSKÉ červené 0,75 l 1 l 173,20 Kč < 129,90 Kč DON SIMON NATURE různé druhy 0,75 l 1 l 59,87 Kč < 44,90 Kč TRAMIN CERVENÉ, MUSCAT OTTONEL, PÁLAVA 0,75 l 1 l 79,87 Kč < 49,90 Kč POPCORN SOLTY různé druhy 100 g < 9,90 Kč LAY’S MAX DEEP-CUT* různé druhy 120 g 100 g 24,92 Kč < 29,90 Kč SNACK KREKRY JEMNĚ SOLENÉ 125 g 100 g 15,92 Kč < 19,90"
+    },
+    {
+      "pageNumber": 22,
+      "product": "KOFOLA, VINEA 4x",
+      "priceText": "39,60 Kč",
+      "packageSize": "0,5 l",
+      "category": "nápoje",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "za 26,90 Kč JUPÍK AQUA dětský nesycený nápoj | jahoda 0,5 l | 1 l 29,80 Kč < 14,90 Kč v nabídce také další druhy za 13,90 Kč CAPRI-SUN* vybrané druhy 10x 200 ml 1 l 34,95 Kč < 69,90 Kč KOFOLA, VINEA* 4x 0,33 l 1 l 30 Kč < 39,60 Kč BIO ČAJ LEROS heřmánek, meduňka 20 g 100 g 149,50 Kč < 29,90 Kč MINERÁLNÍ VODA MAGNESIA RED s příchutí maliny 1,5 l 1 l"
+    },
+    {
+      "pageNumber": 22,
+      "product": "MINERÁLNÍ VODA VINCENTKA",
+      "priceText": "32,90 Kč",
+      "packageSize": "20 g",
+      "category": "drogerie",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "nek, meduňka 20 g 100 g 149,50 Kč < 29,90 Kč MINERÁLNÍ VODA MAGNESIA RED s příchutí maliny 1,5 l 1 l 12,60 Kč < 17,90 Kč MULTIVITAMÍN KARLOVA KORUNA 1,5 l 1 l 12,60 Kč < 17,90 Kč MINERÁLNÍ VODA VINCENTKA 0,7 l 1 l 47 Kč < 32,90 Kč MINERÁLNÍ VODA MAGNESIA PLUS Focus, Antistress 0,7 l 1 l 32,71 Kč < 22,90 Kč TABLETY OMEGA 3 MAXI VITA 30 ks 1 ks 1,33"
+    },
+    {
+      "pageNumber": 23,
+      "product": "KÁVA MARILA STANDARD mletá",
+      "priceText": "199,90 Kč",
+      "packageSize": "100 g",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "ké káva instant bez kofeinu Casablanca 100 g za 79,90 Kč KÁVA CASABLANCA CLASSIC instantní 200 g 100 g 49,95 Kč < 99,90 Kč v nabídce také káva instantní crema Casablanca 160 g za 89,90 Kč KÁVA MARILA STANDARD mletá 1 kg < 199,90 Kč EDUSCHO ESPRESSO INTENSO zrnková 1 kg < 299,90 Kč KÁVA CASABLANCA INTENSO mletá | 250 g 100 g 23,96 Kč < 59,90 Kč LAVAZ"
+    },
+    {
+      "pageNumber": 23,
+      "product": "EDUSCHO ESPRESSO INTENSO zrnková",
+      "priceText": "299,90 Kč",
+      "packageSize": "200 g",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": ",90 Kč KÁVA CASABLANCA CLASSIC instantní 200 g 100 g 49,95 Kč < 99,90 Kč v nabídce také káva instantní crema Casablanca 160 g za 89,90 Kč KÁVA MARILA STANDARD mletá 1 kg < 199,90 Kč EDUSCHO ESPRESSO INTENSO zrnková 1 kg < 299,90 Kč KÁVA CASABLANCA INTENSO mletá | 250 g 100 g 23,96 Kč < 59,90 Kč LAVAZZA CAFFÉ CREMA* zrnková 1,1 kg 100 g 36,35 Kč < 39"
+    },
+    {
+      "pageNumber": 23,
+      "product": "KÁVA CASABLANCA CREMA zrnková",
+      "priceText": "289,90 Kč",
+      "packageSize": "1 kg",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "9,90 Kč EDUSCHO ESPRESSO INTENSO zrnková 1 kg < 299,90 Kč KÁVA CASABLANCA INTENSO mletá | 250 g 100 g 23,96 Kč < 59,90 Kč LAVAZZA CAFFÉ CREMA* zrnková 1,1 kg 100 g 36,35 Kč < 399,90 Kč KÁVA CASABLANCA CREMA zrnková 1 kg < 289,90 Kč KÁVA CASABLANCA ESPRESSO MILD zrnková 500 g 100 g 27,98 Kč < 139,90 Kč DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy 1 balení <"
+    },
+    {
+      "pageNumber": 23,
+      "product": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy",
+      "priceText": "119,90 Kč",
+      "packageSize": "1,1 kg",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "CAFFÉ CREMA* zrnková 1,1 kg 100 g 36,35 Kč < 399,90 Kč KÁVA CASABLANCA CREMA zrnková 1 kg < 289,90 Kč KÁVA CASABLANCA ESPRESSO MILD zrnková 500 g 100 g 27,98 Kč < 139,90 Kč DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy 1 balení < 119,90 Kč NESCAFÉ 3V1, 2V1 různé druhy 1 balení < 49,90 Kč CAPPUCCINO CASABLANCA různé druhy 100 g < 12,90 Kč KÁVA JACOBS VELVET"
+    },
+    {
+      "pageNumber": 23,
+      "product": "NESCAFÉ 3V1, 2V1 různé druhy",
+      "priceText": "49,90 Kč",
+      "packageSize": "1 kg",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "0 Kč KÁVA CASABLANCA CREMA zrnková 1 kg < 289,90 Kč KÁVA CASABLANCA ESPRESSO MILD zrnková 500 g 100 g 27,98 Kč < 139,90 Kč DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy 1 balení < 119,90 Kč NESCAFÉ 3V1, 2V1 různé druhy 1 balení < 49,90 Kč CAPPUCCINO CASABLANCA různé druhy 100 g < 12,90 Kč KÁVA JACOBS VELVET REFILL XXL* instantní | 300 g 100 g 66,63 Kč < 19"
+    },
+    {
+      "pageNumber": 23,
+      "product": "CAPPUCCINO CASABLANCA různé druhy",
+      "priceText": "12,90 Kč",
+      "packageSize": "500 g",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "pravděpodobně špatně převzaté balení z předchozí položky"
+      ],
+      "rawContext": "KÁVA CASABLANCA ESPRESSO MILD zrnková 500 g 100 g 27,98 Kč < 139,90 Kč DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy 1 balení < 119,90 Kč NESCAFÉ 3V1, 2V1 různé druhy 1 balení < 49,90 Kč CAPPUCCINO CASABLANCA různé druhy 100 g < 12,90 Kč KÁVA JACOBS VELVET REFILL XXL* instantní | 300 g 100 g 66,63 Kč < 199,90 Kč KÁVOVÉ KAPSLE TASSIMO* různé druhy 1 balení"
+    },
+    {
+      "pageNumber": 24,
+      "product": "PROSTŘEDEK NA MYTÍ POVRCHŮ SIDOLUX",
+      "priceText": "34,90 Kč",
+      "packageSize": "3,6 l",
+      "category": "drogerie",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "90 GEL NA PRANÍ WOOLITE* různé druhy 3,6 l 1 l 55,53 Kč < 199,90 Kč WC POWER AKTIV BREF* různé druhy 4x 50 g 1 kg 399,50 Kč SPREJ NA VODNÍ KÁMEN CIF* 750 ml 1 l 79,87 Kč < 59,90 Kč PROSTŘEDEK NA MYTÍ POVRCHŮ SIDOLUX 1 l < 34,90 Kč ČISTIČ ODPADŮ FREDY 500 g 1 kg 59,80 Kč < 29,90 Kč GEL PRACÍ S MARSEILLSKÝM MÝDLEM PALLOR 3 l | 1 l 29,97 Kč (běžně za"
+    },
+    {
+      "pageNumber": 25,
+      "product": "BARVY NA VLASY PALETTE různé druhy",
+      "priceText": "69,90 Kč",
+      "packageSize": "10 ks",
+      "category": "drogerie",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "pravděpodobně špatně převzaté balení z předchozí položky"
+      ],
+      "rawContext": "vrstvé 10x 10 ks 1 ks 0,23 Kč < 22,90 Kč KUCHYŇSKÉ UTĚRKY WIPPY 2vrstvé 2 role | 22 m 1 m 0,90 Kč < 19,90 Kč TOALETNÍ PAPÍR VLHČENÝ WIPPY různé druhy 70 ks 1 ks 0,21 Kč < 14,90 Kč BARVY NA VLASY PALETTE různé druhy 1 ks < 69,90 Kč FIXAČNÍ KRÉM NA ZUBNÍ PROTÉZU BLEND-A-DENT 47 g 100 g 170 Kč < 99,90 Kč KAŠE MLÉČNÁ HAMI banán, jahoda 210 g 100 g 33,2"
+    },
+    {
+      "pageNumber": 25,
+      "product": "FIXAČNÍ KRÉM NA ZUBNÍ PROTÉZU BLEND-A-DENT",
+      "priceText": "99,90 Kč",
+      "packageSize": "2 role",
+      "category": "drogerie",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "2 role | 22 m 1 m 0,90 Kč < 19,90 Kč TOALETNÍ PAPÍR VLHČENÝ WIPPY různé druhy 70 ks 1 ks 0,21 Kč < 14,90 Kč BARVY NA VLASY PALETTE různé druhy 1 ks < 69,90 Kč FIXAČNÍ KRÉM NA ZUBNÍ PROTÉZU BLEND-A-DENT 47 g 100 g 170 Kč < 99,90 Kč KAŠE MLÉČNÁ HAMI banán, jahoda 210 g 100 g 33,29 Kč < 69,90 Kč VÍCEÚČELOVÉ VLHČENÉ UBROUSKY PENNY různé druhy 80 ks 1 k"
+    },
+    {
+      "pageNumber": 26,
+      "product": "FILETY PRO PSY BODIE SELECT různé druhy",
+      "priceText": "29,90 Kč",
+      "packageSize": "5 l",
+      "category": "maso",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "pravděpodobně špatně převzaté balení z předchozí položky"
+      ],
+      "rawContext": ",65 Kč < 109,90 Kč STELIVO PRO KOČKY S VŮNÍ KITTY STAR 5 l 1 l 7,98 Kč < 39,90 Kč KONZERVY PRO KOČKY GOURMET GOLD různé druhy 8x 85 g 1 kg 146,91 Kč | < 99,90 Kč FILETY PRO PSY BODIE SELECT různé druhy 100 g 1 kg 299 Kč < 29,90 Kč nabídka Jedinečná 99,90 BROUSEK* na nože, třístupňový 1 ks nabídka Jedinečná 129,90 PALIČKA NA MASO* 1 ks nabídka Jedin"
+    },
+    {
+      "pageNumber": 28,
+      "product": "cm 1 balení VÁZACÍ DRÁTEK 2x",
+      "priceText": "34,90 Kč",
+      "packageSize": "20 m",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "cm 1 balení VÁZACÍ DRÁTEK* 2x 20 m, kovový potažený PVC, včetně řezače 1 balení ZAHRADNICKÉ NŮŽKY* pákové, max. ø řezu 2–30 cm / plotové, max. pr. řezu 0,8–1 cm 1 ks STRUNA DO SEKAČKY* hvězda/kulatá, ø 2,4 mm 1 balení | < 34,90 Kč OPĚRA* kovová, stříbrná 1 ks < 49,90 Kč ZAVLAŽOVACÍ KONCOVKA* různé typy 1 balení POSTŘIKOVAČ* kruhový, s podstavcem, 8"
+    },
+    {
+      "pageNumber": 28,
+      "product": "OPĚRA kovová, stříbrná",
+      "priceText": "49,90 Kč",
+      "packageSize": "1 ks",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "vý potažený PVC, včetně řezače 1 balení ZAHRADNICKÉ NŮŽKY* pákové, max. ø řezu 2–30 cm / plotové, max. pr. řezu 0,8–1 cm 1 ks STRUNA DO SEKAČKY* hvězda/kulatá, ø 2,4 mm 1 balení | < 34,90 Kč OPĚRA* kovová, stříbrná 1 ks < 49,90 Kč ZAVLAŽOVACÍ KONCOVKA* různé typy 1 balení POSTŘIKOVAČ* kruhový, s podstavcem, 8polohový, různá provedení 1 ks TABLETOVÉ"
+    },
+    {
+      "pageNumber": 31,
+      "product": "ČOKOLÁDA NA VAŘENÍ FIGARO",
+      "priceText": "39,90 Kč",
+      "packageSize": "4 role",
+      "category": "pivo",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "tvý | 4 role 78,84 m | 1 m 0,29 Kč < 21,90 Kč KÁVA SEGAFREDO ESPRESSO CASA zrnková 500 g 100 g 37,98 Kč < 189,90 Kč BUDVAR 33 světlý ležák 0,5 l | plech 1 l 35,80 Kč < 19,90 Kč ČOKOLÁDA NA VAŘENÍ FIGARO 90 g 100 g 31 Kč < 39,90 Kč CHIPSY BOHEMIA solené 130 g 100 g 23 Kč < 29,90 Kč RŮŽE SVAZEK HARLEKÝN* 1 ks PAŠTIKA PRO KOČKY MICINKA různé druhy 100"
+    },
+    {
+      "pageNumber": 31,
+      "product": "CHIPSY BOHEMIA solené",
+      "priceText": "29,90 Kč",
+      "packageSize": "500 g",
+      "category": "pivo",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "obecný parser zatím nechávám ke kontrole"
+      ],
+      "rawContext": "SEGAFREDO ESPRESSO CASA zrnková 500 g 100 g 37,98 Kč < 189,90 Kč BUDVAR 33 světlý ležák 0,5 l | plech 1 l 35,80 Kč < 19,90 Kč ČOKOLÁDA NA VAŘENÍ FIGARO 90 g 100 g 31 Kč < 39,90 Kč CHIPSY BOHEMIA solené 130 g 100 g 23 Kč < 29,90 Kč RŮŽE SVAZEK HARLEKÝN* 1 ks PAŠTIKA PRO KOČKY MICINKA různé druhy 100 g 1 kg 59 Kč 4 Nabídka platí od pátku 15. 5. do ne"
+    }
+  ],
+  "rejectedSample": [
+    {
+      "pageNumber": 4,
+      "product": "tuku",
+      "priceText": "8,90 Kč",
+      "category": "mléčné",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "zjevný šum v názvu produktu"
+      ],
+      "rawContext": "také bílý 140 g za 11,90 Kč BÍLÝ JOGURT KARLOVA KORUNA 500 g 100 g 2,98 Kč JOGURT ACTIVE S BIFIDO KULTUROU KARLOVA KORUNA různé druhy 130 g | 100 g 6,08 Kč ilustrační foto TRVANLIVÉ MLÉKO BONI polotučné, 1,5 % tuku 1 l < 8,90 Kč JOGURT BÍLÝ 3,9% BONI 1 kg MLÉČNÝ ČOKOLÁDOVÝ DEZERT S LÍSKOVÝMI OŘÍŠKY BONI 150 g 100 g 9,93 Kč DEZERT ZE ZAKYSANÉ SMET"
+    },
+    {
+      "pageNumber": 15,
+      "product": "pomeranč",
+      "priceText": "34,90 Kč",
+      "category": "pivo",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "zjevný šum v názvu produktu"
+      ],
+      "rawContext": "aké další druhy za 11,90 Kč BONBONIÉRA MARIANNA 133 g 100 g 37,52 Kč < 84,90 Kč SUŠENKY LOTUS BISCOFF 250 g 100 g 11,16 Kč < 26,90 Kč ZLATÝ BAŽANT světlý ležák plech 0,5 l 1 l 31,80 Kč < 17,90 Kč RELAX 100% pomeranč 1 l < 34,90 Kč RYBÍ FILÉ NOWACO porce, mražené 300 g 1 kg 166,33 Kč < 49,90 Kč ASIJSKÁ ZELENINOVÁ SMĚS MRAZIVÁ ČERSTVOST mražená | 450"
+    },
+    {
+      "pageNumber": 18,
+      "product": "záloha na lahev 3 Kč",
+      "priceText": "11,90 Kč",
+      "category": "",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "zjevný šum v názvu produktu"
+      ],
+      "rawContext": "Kč ENERGETICKÝ NÁPOJ RED BULL různé druhy 0,25 l | 1 l 119,60 Kč < 32,90 Kč FRIZZANTE CITY SECCO/ROSATO plech | 0,2 l 1 l 64,50 Kč < 11,90 Kč DESPERADOS ORIGINAL, MOJITO* sklo | 0,33 l 1 l 45,15 Kč záloha na lahev 3 Kč < 11,90 Kč ZLATOPRAMEN SOULAD* různé druhy 0,5 l 1 l 31,80 Kč MORANI Bianco, Rosso 1 l < 59,90 Kč • 5 cl Limoncella • 8–10 cl Rive"
+    },
+    {
+      "pageNumber": 20,
+      "product": "záloha na lahev 3 Kč",
+      "priceText": "9,90 Kč",
+      "category": "pivo",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "zjevný šum v názvu produktu"
+      ],
+      "rawContext": "40 % alk. 0,7 l 1 l 299,86 Kč < 219,90 Kč OSTRAVAR MUSTANG* světlý ležák plech | 0,5 l 1 l 35,80 Kč v limitované nabídce také Černá Barbora 0,5 l za 18,90 Kč BRANÍK světlé výčepní 0,5 l 1 l 19,80 Kč záloha na lahev 3 Kč < 9,90 Kč VELKOPOPOVICKÝ KOZEL 10* světlé výčepní 0,5 l 1 l 25,80 Kč záloha na lahev 3 Kč < 11,90 Kč STAROČECH ORIGINAL světlé vý"
+    },
+    {
+      "pageNumber": 20,
+      "product": "záloha na lahev 3 Kč",
+      "priceText": "11,90 Kč",
+      "category": "pivo",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "zjevný šum v názvu produktu"
+      ],
+      "rawContext": "35,80 Kč v limitované nabídce také Černá Barbora 0,5 l za 18,90 Kč BRANÍK světlé výčepní 0,5 l 1 l 19,80 Kč záloha na lahev 3 Kč < 9,90 Kč VELKOPOPOVICKÝ KOZEL 10* světlé výčepní 0,5 l 1 l 25,80 Kč záloha na lahev 3 Kč < 11,90 Kč STAROČECH ORIGINAL světlé výčepní 0,5 l | 1 l 15,80 Kč záloha na lahev 3 Kč < 11,90 Kč STAROPRAMEN 10 světlé výčepní pl"
+    },
+    {
+      "pageNumber": 20,
+      "product": "záloha na lahev 3 Kč",
+      "priceText": "6,90 Kč",
+      "category": "pivo",
+      "confidence": "generic-hidden-html",
+      "reasons": [
+        "zjevný šum v názvu produktu"
+      ],
+      "rawContext": "h | 0,5 l 1 l 31,80 Kč < 16,90 Kč KRUŠOVICE 12 světlý ležák plech | 0,5 l 1 l 33,80 Kč < 16,90 Kč MUSTANG HOŘKÝ světlý ležák plech 0,5 l 1 l 35,80 Kč < 17,90 Kč STAROČECH nealko | 0,5 l 1 l 13,80 Kč záloha na lahev 3 Kč < 6,90 Kč STAROPRAMEN 12 světlý ležák plech | 0,5 l 1 l 33,80 Kč < 17,90 Kč BRANDY KOBLEVO RESERVE VSOP 40 % alk. 0,5 l 1 l 439,8"
+    }
+  ]
+}

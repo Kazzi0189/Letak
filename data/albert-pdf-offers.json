@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "Albert PDF text via Publitas",
-    "updatedAt": "2026-05-15T06:58:08.286Z",
-    "count": 498,
-    "cleanCount": 280,
-    "suspectCount": 218,
-    "parser": "scripts/extract-albert-pdf-offers-v5.mjs",
-    "note": "Průzkumný parser z PDF textu. V5 dál čistí clean-only výstup, přesouvá další marketingové a slité názvy do suspect a opravuje známé falešné názvy."
+    "updatedAt": "2026-05-15T07:12:16.504Z",
+    "count": 497,
+    "cleanCount": 271,
+    "suspectCount": 226,
+    "parser": "scripts/extract-albert-pdf-offers-v6.mjs",
+    "note": "Průzkumný parser z PDF textu. V6 je finální čistící průchod před importem: vyřazuje konfliktní ceny, reklamní názvy a nesoulad balení v názvu a packageSize."
   },
   "offers": [
     {
@@ -985,9 +985,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/11",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "finální filtr: Dolce Gusto cena konflikt"
+      ],
       "rawContext": "NAVÍC 1 BOD Dolce Gusto Kapsle • 30 ks (15× káva, 15× mléko) • 1 ks = 6,64 Kč • vybrané druhy • 199 Kč"
     },
     {
@@ -2766,9 +2768,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/26",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "finální filtr: jiné balení v názvu než packageSize"
+      ],
       "rawContext": "Kofola 2l • 2 l • 1 l = 13,45 Kč • vybrané druhy • 19,90 Kč"
     },
     {
@@ -2885,7 +2889,8 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "název nezačíná velkým písmenem"
+        "název nezačíná velkým písmenem",
+        "finální filtr: jiné balení v názvu než packageSize"
       ],
       "rawContext": "voda • 1,5 l • 1 l = 9,27 Kč • vybrané druhy • 11,90 Kč"
     },
@@ -4001,9 +4006,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/31",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "finální filtr: jiné balení v názvu než packageSize",
+        "finální filtr: obecný název s konfliktním objemem"
+      ],
       "rawContext": "Šampon na vlasy 800 ml • 500 ml • 100 ml = 14,98 Kč • vybrané druhy"
     },
     {
@@ -5002,7 +5010,8 @@
       "suspect": true,
       "suspectReasons": [
         "šum v názvu",
-        "moc dlouhý/slitý název"
+        "moc dlouhý/slitý název",
+        "finální filtr: jiné balení v názvu než packageSize"
       ],
       "rawContext": "*PŘI KOUPI 3 KS TAPAS ZAPLATÍTE 2 KS. NEJLEVNĚJŠÍ VÝROBEK NEPLATÍTE. • 175 g • 100 g = 39,43 Kč"
     },
@@ -7128,7 +7137,8 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "název nezačíná velkým písmenem"
+        "název nezačíná velkým písmenem",
+        "finální filtr: jiné balení v názvu než packageSize"
       ],
       "rawContext": "příchutí • 75 g • 100 g = 15,87 Kč"
     },
@@ -7497,9 +7507,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/20",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "finální filtr: jiné balení v názvu než packageSize"
+      ],
       "rawContext": "Hellmann's Tatarská omáčka/ Majonéza 340 ml • 100 ml = 11,74 Kč • vybrané druhy • 39,90 Kč"
     },
     {
@@ -8338,9 +8350,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/26",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "finální filtr: jiné balení v názvu než packageSize"
+      ],
       "rawContext": "Orion Pribináček 3× 20 g • 32 g • 100 g = 40,32 Kč • 12,90 Kč"
     },
     {
@@ -9382,7 +9396,8 @@
       "suspectReasons": [
         "název nezačíná velkým písmenem",
         "možné sloučení více produktů",
-        "více balení/jednotkových cen v jednom bloku"
+        "více balení/jednotkových cen v jednom bloku",
+        "finální filtr: jiné balení v názvu než packageSize"
       ],
       "rawContext": "minerální voda • 1,5 l • 1 l = 9,27 Kč • vybrané druhy • 11,90 Kč • 2,25 l • 1 l = 14,63 Kč • vybrané druhy • 26,90 Kč"
     },
@@ -9535,7 +9550,8 @@
       "suspectReasons": [
         "šum v názvu",
         "moc dlouhý/slitý název",
-        "možné sloučení více produktů"
+        "možné sloučení více produktů",
+        "finální filtr: jiné balení v názvu než packageSize"
       ],
       "rawContext": "PŘI KOUPI 10 ks Rio Nata de Coco • ovocný nápoj • 400 ml • 1 l = 74,75 Kč • vybrané druhy • 29,90 Kč"
     },
@@ -9627,7 +9643,8 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "název nezačíná velkým písmenem"
+        "název nezačíná velkým písmenem",
+        "finální filtr: jiné balení v názvu než packageSize"
       ],
       "rawContext": "voda • 0,7 l • 1 l = 25,58 Kč • vybrané druhy • 17,90 Kč"
     },
@@ -10073,7 +10090,8 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "název nezačíná velkým písmenem"
+        "název nezačíná velkým písmenem",
+        "finální filtr: jiné balení v názvu než packageSize"
       ],
       "rawContext": "pivo • 0,5 l • 1 l = 37,80 Kč • vybrané druhy"
     },
@@ -10412,9 +10430,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/36",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "finální filtr: Johnnie Walker cena konflikt"
+      ],
       "rawContext": "Johnnie Walker Red Label • 40% • 0,7 l • 1 l = 427,15 Kč • 329 Kč"
     },
     {
@@ -10502,9 +10522,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/36",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "finální filtr: Captain Morgan cena konflikt"
+      ],
       "rawContext": "Captain Morgan • 35% • 0,7 l • 1 l = 427,15 Kč • 319 Kč"
     },
     {
@@ -10955,34 +10977,6 @@
       "rawContext": "Ovocná svačinka Sunar Mléčná kaše • 340 g • 100 g = 29,39 Kč • vybrané"
     },
     {
-      "id": "albert-hypermarket-2fa3308957b424eb",
-      "chain": "Albert",
-      "storeId": "albert-hypermarket",
-      "storeName": "Albert hypermarket",
-      "leafletType": "hypermarket",
-      "product": "VEZMĚTE SI Z REGÁLU +",
-      "brand": "",
-      "description": "419 Kč",
-      "packageSize": "800 g",
-      "price": 419,
-      "priceText": "419 Kč",
-      "unitPrice": 523.75,
-      "unit": "Kč/1 kg",
-      "unitText": "1 kg = 523,75 Kč",
-      "validFrom": "od st 13.05.2026",
-      "validTo": "do út 19.05.2026",
-      "priceType": "akční cena",
-      "pageNumber": 38,
-      "imageUrl": "",
-      "pageImageUrl": "",
-      "imageType": "",
-      "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/38",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
-      "rawContext": "VEZMĚTE SI Z REGÁLU + • 800 g • 1 kg = 523,75 Kč • vybrané druhy • 419 Kč"
-    },
-    {
       "id": "albert-hypermarket-590789addf1270a3",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
@@ -11156,7 +11150,8 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "parametry plen místo názvu"
+        "parametry plen místo názvu",
+        "finální filtr: jiné balení v názvu než packageSize"
       ],
       "rawContext": "Maxi+ 50 ks, Junior 46 ks • 1 ks od 2,73 Kč • 169 Kč"
     },
@@ -11215,9 +11210,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/39",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "finální filtr: Pampers cena konflikt"
+      ],
       "rawContext": "Pampers Plenkové kalhotky • vel. 3–7 • 25–40 ks • 1 ks od 6,23 Kč • cena za 1 bal. 279 Kč"
     },
     {
@@ -12015,7 +12012,8 @@
         "šum v názvu",
         "moc dlouhý/slitý název",
         "možné sloučení více produktů",
-        "více balení/jednotkových cen v jednom bloku"
+        "více balení/jednotkových cen v jednom bloku",
+        "finální filtr: jiné balení v názvu než packageSize"
       ],
       "rawContext": "PŘI KOUPI 2 ks a více Mionetto Prosecco DOC Frizzante • Itálie • 0,75 l • 1 l = 146,54 Kč • cena za 1 ks 139,90 Kč • 119,90 Kč"
     },
@@ -13089,7 +13087,8 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "název nezačíná velkým písmenem"
+        "název nezačíná velkým písmenem",
+        "finální filtr: jiné balení v názvu než packageSize"
       ],
       "rawContext": "limonáda • 250 ml • 100 ml = 8,76 Kč • vybrané"
     },

@@ -6,11 +6,8 @@ on:
 permissions:
   contents: write
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
-  import:
+  import-and-combine:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,20 +17,20 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "24"
+          node-version: "20"
 
       - name: Install pdftotext
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
 
-      - name: Check JavaScript syntax
+      - name: Check scripts syntax
         run: |
           node --check scripts/extract-albert-pdf-offers-v7.mjs
           node --check scripts/combine-offers.mjs
           node --check scripts/patch-app-albert.mjs
 
-      - name: Extract Albert clean PDF offers
+      - name: Import Albert PDF offers v7 clean
         run: node scripts/extract-albert-pdf-offers-v7.mjs
 
       - name: Combine all offers
@@ -45,30 +42,19 @@ jobs:
       - name: Validate combined offers
         run: node scripts/validate-offers.mjs
 
-      - name: Check patched app syntax
-        run: node --check app.js
-
-      - name: Commit Albert import and combined data
+      - name: Commit Albert combined offers
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add \
-            scripts/extract-albert-pdf-offers-v7.mjs \
-            scripts/combine-offers.mjs \
-            scripts/patch-app-albert.mjs \
-            app.js \
-            data/offers.json \
-            data/offers-combined-debug.json \
-            data/offers-before-combine-last.json \
-            data/albert-pdf-offers.json \
-            data/albert-pdf-offers-clean.json \
-            data/albert-probe/pdf-offers-v7-summary.json \
-            data/albert-probe/albert-pdf-offers-v7-debug.json
+          git add scripts/extract-albert-pdf-offers-v7.mjs scripts/combine-offers.mjs scripts/patch-app-albert.mjs
+          git add data/albert-pdf-offers.json data/albert-pdf-offers-clean.json data/offers.json data/offers-combined-debug.json
+          git add data/albert-probe/pdf-offers-v7-summary.json data/albert-probe/albert-pdf-offers-v7-debug.json
+          git add app.js
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Import Albert clean offers and combine data"
+            git commit -m "Import Albert and combine offers"
             git push
           fi

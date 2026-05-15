@@ -1,0 +1,250 @@
+{
+  "checkedAt": "2026-05-15T18:38:27.016Z",
+  "source": "data/penny-probe/penny-hidden-html-clean-candidates-v2.json",
+  "summary": {
+    "inputPennyOffers": 353,
+    "candidateOffersLoaded": 18,
+    "normalizedCandidates": 18,
+    "addedOffers": 18,
+    "skippedOffers": 0,
+    "outputPennyOffers": 371,
+    "recommendedNextStep": "run-combine-offers-and-test-search-pivo-branik-krusovice"
+  },
+  "added": [
+    {
+      "product": "SKOTSKÁ WHISKY MC ILLROY 40 % alk.",
+      "priceText": "219,90 Kč",
+      "packageSize": "0,7 l",
+      "category": "alkohol",
+      "searchTerms": [
+        "alkohol"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "OSTRAVAR MUSTANG světlý ležák plech",
+      "priceText": "18,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "BRANÍK světlé výčepní",
+      "priceText": "9,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "VELKOPOPOVICKÝ KOZEL 10 světlé výčepní",
+      "priceText": "11,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "STAROČECH ORIGINAL světlé výčepní",
+      "priceText": "11,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "RADEGAST RATAR hořký ležák plech",
+      "priceText": "20,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo",
+        "hořký ležák"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "BUDWEISER BUDVAR světlý ležák",
+      "priceText": "19,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "GAMBRINUS PATRON světlý ležák plech",
+      "priceText": "18,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "ZUBR GRAND, HOLBA ŠERÁK světlý ležák plech",
+      "priceText": "16,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "STAROČECH nealko",
+      "priceText": "6,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo",
+        "nealkoholické",
+        "nealkoholické pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "STAROPRAMEN 12 světlý ležák plech",
+      "priceText": "17,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "BRANDY KOBLEVO RESERVE VSOP 40 % alk.",
+      "priceText": "229,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "alkohol",
+      "searchTerms": [
+        "alkohol"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "COOL různé druhy",
+      "priceText": "36,90 Kč",
+      "packageSize": "1,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo",
+        "radler",
+        "míchaný nápoj"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "VELKOPOPOVICKÝ KOZEL nealko plech",
+      "priceText": "17,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo",
+        "nealkoholické",
+        "nealkoholické pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "KRUŠOVICE 10 světlé výčepní",
+      "priceText": "9,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "BOHEMIA SEKT různé druhy",
+      "priceText": "109,90 Kč",
+      "packageSize": "0,75 l",
+      "category": "alkohol",
+      "searchTerms": [
+        "alkohol",
+        "sekt",
+        "šumivé víno"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "SVIJANSKÝ MÁZ světlý ležák",
+      "priceText": "10,90 Kč",
+      "packageSize": "0,5 l",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák",
+        "výčepní pivo"
+      ],
+      "pageNumber": 20
+    },
+    {
+      "product": "PROSECCO bílé perlivé",
+      "priceText": "59,90 Kč",
+      "packageSize": "0,75 l",
+      "category": "alkohol",
+      "searchTerms": [
+        "alkohol",
+        "sekt",
+        "šumivé víno",
+        "prosecco"
+      ],
+      "pageNumber": 20
+    }
+  ],
+  "skipped": []
+}

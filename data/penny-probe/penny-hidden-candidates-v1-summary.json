@@ -1,0 +1,1734 @@
+{
+  "checkedAt": "2026-05-15T14:17:41.592Z",
+  "summary": {
+    "pagesChecked": 37,
+    "pagesWithHiddenPrices": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      30,
+      31,
+      34,
+      37
+    ],
+    "totalCandidateOffers": 3,
+    "candidatePages": [
+      {
+        "pageNumber": 10,
+        "candidatesCount": 2
+      },
+      {
+        "pageNumber": 34,
+        "candidatesCount": 1
+      }
+    ],
+    "recommendedPath": "improve-hidden-meta-parser-before-import-v2"
+  },
+  "candidateOffers": [
+    {
+      "id": "penny-hidden-c47b2a2f39c6ee4d",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "Mistrovská dušená šunka",
+      "brand": "",
+      "description": "uzeniny",
+      "packageSize": "",
+      "price": 12.9,
+      "priceText": "12,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 10,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/index.html",
+      "category": "uzeniny",
+      "searchTerms": [
+        "uzeniny"
+      ],
+      "compareKey": "uzeniny",
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z hidden HTML – vyžaduje kontrolu"
+      ],
+      "rawContext": "10 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MISTROVSKÁ DUŠENÁ ŠUNKA ŘEZNÍKŮV TALÍŘ 100 g 12,90 19,90/ 35% 21,90 31,90/ 31% 24,90 31,90/ 21%"
+    },
+    {
+      "id": "penny-hidden-c1b8679c92ae0ae0",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "Řezníkův talíř",
+      "brand": "",
+      "description": "uzeniny",
+      "packageSize": "",
+      "price": 21.9,
+      "priceText": "21,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 10,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/index.html",
+      "category": "uzeniny",
+      "searchTerms": [
+        "uzeniny"
+      ],
+      "compareKey": "uzeniny",
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z hidden HTML – vyžaduje kontrolu"
+      ],
+      "rawContext": "10 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MISTROVSKÁ DUŠENÁ ŠUNKA ŘEZNÍKŮV TALÍŘ 100 g 12,90 19,90/ 35% 21,90 31,90/ 31% 24,90 31,90/ 21%"
+    },
+    {
+      "id": "penny-hidden-b52d60cfa840aaa4",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "Osvěžovač vzduchu Aloha Ambi Pur",
+      "brand": "",
+      "description": "drogerie",
+      "packageSize": "",
+      "price": 79.9,
+      "priceText": "79,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 34,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/34/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/34/index.html",
+      "category": "drogerie",
+      "searchTerms": [
+        "drogerie"
+      ],
+      "compareKey": "drogerie",
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z hidden HTML – vyžaduje kontrolu"
+      ],
+      "rawContext": "nízké ceny hezky česky < Nejnižší cena za posledních 30 dní nabídka Jedinečná 79,90 nabídka Jedinečná 79,90 OSVĚŽOVAČ VZDUCHU ALOHA AMBI PUR* 185 ml 1 l 431,89"
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 924,
+      "hiddenTextLength": 0,
+      "hiddenPricesCount": 0,
+      "hiddenPrices": [],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [],
+      "hiddenTextPreview": ""
+    },
+    {
+      "pageNumber": 2,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 5592,
+      "hiddenTextLength": 0,
+      "hiddenPricesCount": 0,
+      "hiddenPrices": [],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [],
+      "hiddenTextPreview": ""
+    },
+    {
+      "pageNumber": 3,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6262,
+      "hiddenTextLength": 156,
+      "hiddenPricesCount": 9,
+      "hiddenPrices": [
+        {
+          "priceText": "36,90",
+          "price": 36.9
+        },
+        {
+          "priceText": "47,90",
+          "price": 47.9
+        },
+        {
+          "priceText": "34,90",
+          "price": 34.9
+        },
+        {
+          "priceText": "12,90",
+          "price": 12.9
+        },
+        {
+          "priceText": "15,90",
+          "price": 15.9
+        },
+        {
+          "priceText": "24,90",
+          "price": 24.9
+        },
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        },
+        {
+          "priceText": "39,90",
+          "price": 39.9
+        },
+        {
+          "priceText": "23,90",
+          "price": 23.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "3 < Nejnižší cena za posledních 30 dní 36,90 47,90/ 22% Super Cena! 34,90 12,90 15,90/ 18% 24,90 29,90/ 16% nabídka Jedinečná 39,90 23,90 29,90/ 20% nabídka",
+          "score": 20
+        }
+      ],
+      "hiddenTextPreview": "3 < Nejnižší cena za posledních 30 dní 36,90 47,90/ 22% Super Cena! 34,90 12,90 15,90/ 18% 24,90 29,90/ 16% nabídka Jedinečná 39,90 23,90 29,90/ 20% nabídka"
+    },
+    {
+      "pageNumber": 4,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6593,
+      "hiddenTextLength": 160,
+      "hiddenPricesCount": 9,
+      "hiddenPrices": [
+        {
+          "priceText": "19,90",
+          "price": 19.9
+        },
+        {
+          "priceText": "30,90",
+          "price": 30.9
+        },
+        {
+          "priceText": "23,90",
+          "price": 23.9
+        },
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        },
+        {
+          "priceText": "28,90",
+          "price": 28.9
+        },
+        {
+          "priceText": "18,90",
+          "price": 18.9
+        },
+        {
+          "priceText": "27,90",
+          "price": 27.9
+        },
+        {
+          "priceText": "37,90",
+          "price": 37.9
+        },
+        {
+          "priceText": "47,90",
+          "price": 47.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "4 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 19,90 30,90/ 35% 23,90 29,90/ 20% 19,90 28,90/ 31% 18,90 23,90/ 20% Super Cena! 27,90 37,90 47,90/",
+          "score": 22
+        }
+      ],
+      "hiddenTextPreview": "4 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 19,90 30,90/ 35% 23,90 29,90/ 20% 19,90 28,90/ 31% 18,90 23,90/ 20% Super Cena! 27,90 37,90 47,90/"
+    },
+    {
+      "pageNumber": 5,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6931,
+      "hiddenTextLength": 0,
+      "hiddenPricesCount": 0,
+      "hiddenPrices": [],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [],
+      "hiddenTextPreview": ""
+    },
+    {
+      "pageNumber": 6,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6746,
+      "hiddenTextLength": 159,
+      "hiddenPricesCount": 9,
+      "hiddenPrices": [
+        {
+          "priceText": "12,90",
+          "price": 12.9
+        },
+        {
+          "priceText": "17,90",
+          "price": 17.9
+        },
+        {
+          "priceText": "19,90",
+          "price": 19.9
+        },
+        {
+          "priceText": "32,90",
+          "price": 32.9
+        },
+        {
+          "priceText": "24,90",
+          "price": 24.9
+        },
+        {
+          "priceText": "34,90",
+          "price": 34.9
+        },
+        {
+          "priceText": "45,90",
+          "price": 45.9
+        },
+        {
+          "priceText": "22,90",
+          "price": 22.9
+        },
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "6 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 12,90 17,90/ 27% 19,90 32,90/ 39% 12,90 19,90/ 35% 24,90 34,90/ 28% 34,90 45,90/ 23% 22,90 29,90/",
+          "score": 24
+        }
+      ],
+      "hiddenTextPreview": "6 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 12,90 17,90/ 27% 19,90 32,90/ 39% 12,90 19,90/ 35% 24,90 34,90/ 28% 34,90 45,90/ 23% 22,90 29,90/"
+    },
+    {
+      "pageNumber": 7,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 5897,
+      "hiddenTextLength": 158,
+      "hiddenPricesCount": 6,
+      "hiddenPrices": [
+        {
+          "priceText": "21,90",
+          "price": 21.9
+        },
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        },
+        {
+          "priceText": "14,90",
+          "price": 14.9
+        },
+        {
+          "priceText": "19,90",
+          "price": 19.9
+        },
+        {
+          "priceText": "24,90",
+          "price": 24.9
+        },
+        {
+          "priceText": "9,90",
+          "price": 9.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "masa 95 % masa 98 % 7 < Nejnižší cena za posledních 30 dní Proteinové výrobky 21,90 29,90/ 26% nabídka Jedinečná 14,90 19,90 24,90/ 20% Super Cena! 29,90 9,90",
+          "score": 14
+        }
+      ],
+      "hiddenTextPreview": "masa 95 % masa 98 % 7 < Nejnižší cena za posledních 30 dní Proteinové výrobky 21,90 29,90/ 26% nabídka Jedinečná 14,90 19,90 24,90/ 20% Super Cena! 29,90 9,90"
+    },
+    {
+      "pageNumber": 8,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 5744,
+      "hiddenTextLength": 153,
+      "hiddenPricesCount": 10,
+      "hiddenPrices": [
+        {
+          "priceText": "69,90",
+          "price": 69.9
+        },
+        {
+          "priceText": "99,90",
+          "price": 99.9
+        },
+        {
+          "priceText": "9,90",
+          "price": 9.9
+        },
+        {
+          "priceText": "18,90",
+          "price": 18.9
+        },
+        {
+          "priceText": "12,90",
+          "price": 12.9
+        },
+        {
+          "priceText": "49,90",
+          "price": 49.9
+        },
+        {
+          "priceText": "59,90",
+          "price": 59.9
+        },
+        {
+          "priceText": "79,90",
+          "price": 79.9
+        },
+        {
+          "priceText": "109,90",
+          "price": 109.9
+        },
+        {
+          "priceText": "24,90",
+          "price": 24.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "8 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 69,90 99,90/ 30% 9,90 **18,90/ 47% 9,90 12,90/ 23% 49,90 59,90/ 16% 79,90 109,90/ 27% 24,90",
+          "score": 22
+        }
+      ],
+      "hiddenTextPreview": "8 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 69,90 99,90/ 30% 9,90 **18,90/ 47% 9,90 12,90/ 23% 49,90 59,90/ 16% 79,90 109,90/ 27% 24,90"
+    },
+    {
+      "pageNumber": 9,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6375,
+      "hiddenTextLength": 158,
+      "hiddenPricesCount": 10,
+      "hiddenPrices": [
+        {
+          "priceText": "12,90",
+          "price": 12.9
+        },
+        {
+          "priceText": "16,90",
+          "price": 16.9
+        },
+        {
+          "priceText": "17,90",
+          "price": 17.9
+        },
+        {
+          "priceText": "24,90",
+          "price": 24.9
+        },
+        {
+          "priceText": "22,90",
+          "price": 22.9
+        },
+        {
+          "priceText": "34,90",
+          "price": 34.9
+        },
+        {
+          "priceText": "44,90",
+          "price": 44.9
+        },
+        {
+          "priceText": "59,90",
+          "price": 59.9
+        },
+        {
+          "priceText": "69,90",
+          "price": 69.9
+        },
+        {
+          "priceText": "99,90",
+          "price": 99.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "9 < Nejnižší cena za posledních 30 dní 12,90 16,90/ 23% 17,90 24,90/ 28% 17,90 22,90/ 21% 24,90 34,90/ 28% 44,90 59,90/ 25% 69,90 99,90/ 30% nabídka Jedinečná",
+          "score": 24
+        }
+      ],
+      "hiddenTextPreview": "9 < Nejnižší cena za posledních 30 dní 12,90 16,90/ 23% 17,90 24,90/ 28% 17,90 22,90/ 21% 24,90 34,90/ 28% 44,90 59,90/ 25% 69,90 99,90/ 30% nabídka Jedinečná"
+    },
+    {
+      "pageNumber": 10,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6411,
+      "hiddenTextLength": 158,
+      "hiddenPricesCount": 5,
+      "hiddenPrices": [
+        {
+          "priceText": "12,90",
+          "price": 12.9
+        },
+        {
+          "priceText": "19,90",
+          "price": 19.9
+        },
+        {
+          "priceText": "21,90",
+          "price": 21.9
+        },
+        {
+          "priceText": "31,90",
+          "price": 31.9
+        },
+        {
+          "priceText": "24,90",
+          "price": 24.9
+        }
+      ],
+      "candidatesCount": 2,
+      "candidates": [
+        {
+          "id": "penny-hidden-c47b2a2f39c6ee4d",
+          "chain": "Penny",
+          "storeId": "penny-letak",
+          "storeName": "Penny – leták",
+          "product": "Mistrovská dušená šunka",
+          "brand": "",
+          "description": "uzeniny",
+          "packageSize": "",
+          "price": 12.9,
+          "priceText": "12,90 Kč",
+          "unitPrice": null,
+          "unit": "",
+          "validTo": "19.05.2026",
+          "pageNumber": 10,
+          "imageUrl": "",
+          "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/files/assets/cover300.jpg",
+          "imageType": "penny-page",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/index.html",
+          "category": "uzeniny",
+          "searchTerms": [
+            "uzeniny"
+          ],
+          "compareKey": "uzeniny",
+          "confidence": "low",
+          "suspect": true,
+          "suspectReasons": [
+            "candidate z hidden HTML – vyžaduje kontrolu"
+          ],
+          "rawContext": "10 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MISTROVSKÁ DUŠENÁ ŠUNKA ŘEZNÍKŮV TALÍŘ 100 g 12,90 19,90/ 35% 21,90 31,90/ 31% 24,90 31,90/ 21%"
+        },
+        {
+          "id": "penny-hidden-c1b8679c92ae0ae0",
+          "chain": "Penny",
+          "storeId": "penny-letak",
+          "storeName": "Penny – leták",
+          "product": "Řezníkův talíř",
+          "brand": "",
+          "description": "uzeniny",
+          "packageSize": "",
+          "price": 21.9,
+          "priceText": "21,90 Kč",
+          "unitPrice": null,
+          "unit": "",
+          "validTo": "19.05.2026",
+          "pageNumber": 10,
+          "imageUrl": "",
+          "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/files/assets/cover300.jpg",
+          "imageType": "penny-page",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/index.html",
+          "category": "uzeniny",
+          "searchTerms": [
+            "uzeniny"
+          ],
+          "compareKey": "uzeniny",
+          "confidence": "low",
+          "suspect": true,
+          "suspectReasons": [
+            "candidate z hidden HTML – vyžaduje kontrolu"
+          ],
+          "rawContext": "10 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MISTROVSKÁ DUŠENÁ ŠUNKA ŘEZNÍKŮV TALÍŘ 100 g 12,90 19,90/ 35% 21,90 31,90/ 31% 24,90 31,90/ 21%"
+        }
+      ],
+      "bestFragments": [
+        {
+          "text": "10 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MISTROVSKÁ DUŠENÁ ŠUNKA ŘEZNÍKŮV TALÍŘ 100 g 12,90 19,90/ 35% 21,90 31,90/ 31% 24,90 31,90/ 21%",
+          "score": 12
+        }
+      ],
+      "hiddenTextPreview": "10 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MISTROVSKÁ DUŠENÁ ŠUNKA ŘEZNÍKŮV TALÍŘ 100 g 12,90 19,90/ 35% 21,90 31,90/ 31% 24,90 31,90/ 21%"
+    },
+    {
+      "pageNumber": 11,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 7078,
+      "hiddenTextLength": 158,
+      "hiddenPricesCount": 6,
+      "hiddenPrices": [
+        {
+          "priceText": "44,90",
+          "price": 44.9
+        },
+        {
+          "priceText": "59,90",
+          "price": 59.9
+        },
+        {
+          "priceText": "12,90",
+          "price": 12.9
+        },
+        {
+          "priceText": "15,90",
+          "price": 15.9
+        },
+        {
+          "priceText": "129,90",
+          "price": 129.9
+        },
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "11 < Nejnižší cena za posledních 30 dní p 800 202 220 info@penny.cz 800 202 220 info@penny.cz 44,90 59,90/ 25% 12,90 15,90/ 18% nabídka Jedinečná 129,90 29,90",
+          "score": 12
+        }
+      ],
+      "hiddenTextPreview": "11 < Nejnižší cena za posledních 30 dní p 800 202 220 info@penny.cz 800 202 220 info@penny.cz 44,90 59,90/ 25% 12,90 15,90/ 18% nabídka Jedinečná 129,90 29,90"
+    },
+    {
+      "pageNumber": 12,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 5648,
+      "hiddenTextLength": 159,
+      "hiddenPricesCount": 10,
+      "hiddenPrices": [
+        {
+          "priceText": "14,90",
+          "price": 14.9
+        },
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        },
+        {
+          "priceText": "30,90",
+          "price": 30.9
+        },
+        {
+          "priceText": "9,90",
+          "price": 9.9
+        },
+        {
+          "priceText": "19,90",
+          "price": 19.9
+        },
+        {
+          "priceText": "21,90",
+          "price": 21.9
+        },
+        {
+          "priceText": "39,90",
+          "price": 39.9
+        },
+        {
+          "priceText": "84,90",
+          "price": 84.9
+        },
+        {
+          "priceText": "99,90",
+          "price": 99.9
+        },
+        {
+          "priceText": "199,90",
+          "price": 199.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "12 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 14,90 29,90/ 50% 14,90 30,90/ 51% 9,90 19,90/ 50% 9,90 21,90/ 54% 39,90 84,90/ 53% 99,90 199,90/",
+          "score": 24
+        }
+      ],
+      "hiddenTextPreview": "12 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 14,90 29,90/ 50% 14,90 30,90/ 51% 9,90 19,90/ 50% 9,90 21,90/ 54% 39,90 84,90/ 53% 99,90 199,90/"
+    },
+    {
+      "pageNumber": 13,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 5634,
+      "hiddenTextLength": 157,
+      "hiddenPricesCount": 12,
+      "hiddenPrices": [
+        {
+          "priceText": "21,90",
+          "price": 21.9
+        },
+        {
+          "priceText": "49,90",
+          "price": 49.9
+        },
+        {
+          "priceText": "39,95",
+          "price": 39.95
+        },
+        {
+          "priceText": "79,90",
+          "price": 79.9
+        },
+        {
+          "priceText": "45,90",
+          "price": 45.9
+        },
+        {
+          "priceText": "14,90",
+          "price": 14.9
+        },
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        },
+        {
+          "priceText": "8,90",
+          "price": 8.9
+        },
+        {
+          "priceText": "18,90",
+          "price": 18.9
+        },
+        {
+          "priceText": "32,90",
+          "price": 32.9
+        },
+        {
+          "priceText": "68,90",
+          "price": 68.9
+        },
+        {
+          "priceText": "11,90",
+          "price": 11.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "A VÍCE -50 13 < Nejnižší cena za posledních 30 dní 21,90 49,90/ 56% 39,95 79,90/ 50% 21,90 45,90/ 52% 14,90 29,90/ 50% 8,90 18,90/ 52% 32,90 68,90/ 52% 11,90",
+          "score": 26
+        }
+      ],
+      "hiddenTextPreview": "A VÍCE -50 13 < Nejnižší cena za posledních 30 dní 21,90 49,90/ 56% 39,95 79,90/ 50% 21,90 45,90/ 52% 14,90 29,90/ 50% 8,90 18,90/ 52% 32,90 68,90/ 52% 11,90"
+    },
+    {
+      "pageNumber": 14,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6346,
+      "hiddenTextLength": 158,
+      "hiddenPricesCount": 11,
+      "hiddenPrices": [
+        {
+          "priceText": "59,90",
+          "price": 59.9
+        },
+        {
+          "priceText": "109,90",
+          "price": 109.9
+        },
+        {
+          "priceText": "27,90",
+          "price": 27.9
+        },
+        {
+          "priceText": "47,90",
+          "price": 47.9
+        },
+        {
+          "priceText": "19,90",
+          "price": 19.9
+        },
+        {
+          "priceText": "37,90",
+          "price": 37.9
+        },
+        {
+          "priceText": "7,90",
+          "price": 7.9
+        },
+        {
+          "priceText": "13,90",
+          "price": 13.9
+        },
+        {
+          "priceText": "9,90",
+          "price": 9.9
+        },
+        {
+          "priceText": "16,90",
+          "price": 16.9
+        },
+        {
+          "priceText": "18,90",
+          "price": 18.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "14 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 59,90 109,90/ 45% 27,90 47,90/ 41% 19,90 37,90/ 47% 7,90 13,90/ 43% 9,90 16,90/ 41% 9,90 18,90/",
+          "score": 24
+        }
+      ],
+      "hiddenTextPreview": "14 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 59,90 109,90/ 45% 27,90 47,90/ 41% 19,90 37,90/ 47% 7,90 13,90/ 43% 9,90 16,90/ 41% 9,90 18,90/"
+    },
+    {
+      "pageNumber": 15,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6433,
+      "hiddenTextLength": 160,
+      "hiddenPricesCount": 12,
+      "hiddenPrices": [
+        {
+          "priceText": "9,90",
+          "price": 9.9
+        },
+        {
+          "priceText": "18,90",
+          "price": 18.9
+        },
+        {
+          "priceText": "39,90",
+          "price": 39.9
+        },
+        {
+          "priceText": "76,90",
+          "price": 76.9
+        },
+        {
+          "priceText": "11,90",
+          "price": 11.9
+        },
+        {
+          "priceText": "19,90",
+          "price": 19.9
+        },
+        {
+          "priceText": "17,90",
+          "price": 17.9
+        },
+        {
+          "priceText": "49,90",
+          "price": 49.9
+        },
+        {
+          "priceText": "84,90",
+          "price": 84.9
+        },
+        {
+          "priceText": "15,90",
+          "price": 15.9
+        },
+        {
+          "priceText": "26,90",
+          "price": 26.9
+        },
+        {
+          "priceText": "27,90",
+          "price": 27.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "A VÍCE -40 15 < Nejnižší cena za posledních 30 dní 9,90 **18,90/ 47% 39,90 76,90/ 48% 11,90 19,90/ 40% 9,90 **17,90/ 44% 49,90 84,90/ 41% 15,90 26,90/ 40% 27,90",
+          "score": 26
+        }
+      ],
+      "hiddenTextPreview": "A VÍCE -40 15 < Nejnižší cena za posledních 30 dní 9,90 **18,90/ 47% 39,90 76,90/ 48% 11,90 19,90/ 40% 9,90 **17,90/ 44% 49,90 84,90/ 41% 15,90 26,90/ 40% 27,90"
+    },
+    {
+      "pageNumber": 16,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6363,
+      "hiddenTextLength": 160,
+      "hiddenPricesCount": 5,
+      "hiddenPrices": [
+        {
+          "priceText": "19,90",
+          "price": 19.9
+        },
+        {
+          "priceText": "12,90",
+          "price": 12.9
+        },
+        {
+          "priceText": "18,90",
+          "price": 18.9
+        },
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        },
+        {
+          "priceText": "11,90",
+          "price": 11.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "16 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MOJE PENNY KARTA %% nabídka Jedinečná 19,90 12,90 18,90/ 31% nabídka Jedinečná 29,90 11,90 18,90/",
+          "score": 12
+        }
+      ],
+      "hiddenTextPreview": "16 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MOJE PENNY KARTA %% nabídka Jedinečná 19,90 12,90 18,90/ 31% nabídka Jedinečná 29,90 11,90 18,90/"
+    },
+    {
+      "pageNumber": 17,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6060,
+      "hiddenTextLength": 158,
+      "hiddenPricesCount": 12,
+      "hiddenPrices": [
+        {
+          "priceText": "7,90",
+          "price": 7.9
+        },
+        {
+          "priceText": "13,50",
+          "price": 13.5
+        },
+        {
+          "priceText": "14,90",
+          "price": 14.9
+        },
+        {
+          "priceText": "21,90",
+          "price": 21.9
+        },
+        {
+          "priceText": "5,90",
+          "price": 5.9
+        },
+        {
+          "priceText": "9,90",
+          "price": 9.9
+        },
+        {
+          "priceText": "2,90",
+          "price": 2.9
+        },
+        {
+          "priceText": "4,90",
+          "price": 4.9
+        },
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        },
+        {
+          "priceText": "39,90",
+          "price": 39.9
+        },
+        {
+          "priceText": "12,90",
+          "price": 12.9
+        },
+        {
+          "priceText": "19,90",
+          "price": 19.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "17 < Nejnižší cena za posledních 30 dní 7,90 13,50/ 41% 14,90 **21,90/ 31% 5,90 9,90/ 40% 2,90 4,90/ 40% 29,90 39,90/ 25% 12,90 **19,90/ 35% nabídka Jedinečná",
+          "score": 24
+        }
+      ],
+      "hiddenTextPreview": "17 < Nejnižší cena za posledních 30 dní 7,90 13,50/ 41% 14,90 **21,90/ 31% 5,90 9,90/ 40% 2,90 4,90/ 40% 29,90 39,90/ 25% 12,90 **19,90/ 35% nabídka Jedinečná"
+    },
+    {
+      "pageNumber": 18,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6942,
+      "hiddenTextLength": 155,
+      "hiddenPricesCount": 7,
+      "hiddenPrices": [
+        {
+          "priceText": "39,90",
+          "price": 39.9
+        },
+        {
+          "priceText": "59,90",
+          "price": 59.9
+        },
+        {
+          "priceText": "49,90",
+          "price": 49.9
+        },
+        {
+          "priceText": "119,90",
+          "price": 119.9
+        },
+        {
+          "priceText": "149,90",
+          "price": 149.9
+        },
+        {
+          "priceText": "139,90",
+          "price": 139.9
+        },
+        {
+          "priceText": "199,90",
+          "price": 199.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "18 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní SVĚTOVÝ DEN KOKTEJLŮ 39,90 59,90/ 33% 49,90 59,90/ 16% 119,90 149,90/ 20% 139,90 199,90/ 30%",
+          "score": 16
+        }
+      ],
+      "hiddenTextPreview": "18 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní SVĚTOVÝ DEN KOKTEJLŮ 39,90 59,90/ 33% 49,90 59,90/ 16% 119,90 149,90/ 20% 139,90 199,90/ 30%"
+    },
+    {
+      "pageNumber": 19,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 5633,
+      "hiddenTextLength": 159,
+      "hiddenPricesCount": 8,
+      "hiddenPrices": [
+        {
+          "priceText": "139,90",
+          "price": 139.9
+        },
+        {
+          "priceText": "199,90",
+          "price": 199.9
+        },
+        {
+          "priceText": "369,90",
+          "price": 369.9
+        },
+        {
+          "priceText": "499,90",
+          "price": 499.9
+        },
+        {
+          "priceText": "9,90",
+          "price": 9.9
+        },
+        {
+          "priceText": "17,90",
+          "price": 17.9
+        },
+        {
+          "priceText": "26,90",
+          "price": 26.9
+        },
+        {
+          "priceText": "39,90",
+          "price": 39.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "LIMONÁDA ZE SICILSKÝCH CITRUSŮ 19 < Nejnižší cena za posledních 30 dní 139,90 199,90/ 30% 369,90 499,90/ 26% 9,90 17,90/ 44% 26,90 39,90/ 32% nabídka Jedinečná",
+          "score": 16
+        }
+      ],
+      "hiddenTextPreview": "LIMONÁDA ZE SICILSKÝCH CITRUSŮ 19 < Nejnižší cena za posledních 30 dní 139,90 199,90/ 30% 369,90 499,90/ 26% 9,90 17,90/ 44% 26,90 39,90/ 32% nabídka Jedinečná"
+    },
+    {
+      "pageNumber": 20,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6763,
+      "hiddenTextLength": 155,
+      "hiddenPricesCount": 12,
+      "hiddenPrices": [
+        {
+          "priceText": "209,90",
+          "price": 209.9
+        },
+        {
+          "priceText": "279,90",
+          "price": 279.9
+        },
+        {
+          "priceText": "219,90",
+          "price": 219.9
+        },
+        {
+          "priceText": "36,90",
+          "price": 36.9
+        },
+        {
+          "priceText": "54,90",
+          "price": 54.9
+        },
+        {
+          "priceText": "17,90",
+          "price": 17.9
+        },
+        {
+          "priceText": "25,90",
+          "price": 25.9
+        },
+        {
+          "priceText": "9,90",
+          "price": 9.9
+        },
+        {
+          "priceText": "14,90",
+          "price": 14.9
+        },
+        {
+          "priceText": "12,90",
+          "price": 12.9
+        },
+        {
+          "priceText": "16,90",
+          "price": 16.9
+        },
+        {
+          "priceText": "7,90",
+          "price": 7.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "20 < Nejnižší cena za posledních 30 dní 209,90 279,90/ 25% 219,90 279,90/ 21% 36,90 **54,90/ 32% 17,90 **25,90/ 30% 9,90 14,90/ 33% 12,90 **16,90/ 23% 7,90",
+          "score": 26
+        }
+      ],
+      "hiddenTextPreview": "20 < Nejnižší cena za posledních 30 dní 209,90 279,90/ 25% 219,90 279,90/ 21% 36,90 **54,90/ 32% 17,90 **25,90/ 30% 9,90 14,90/ 33% 12,90 **16,90/ 23% 7,90"
+    },
+    {
+      "pageNumber": 21,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 7034,
+      "hiddenTextLength": 155,
+      "hiddenPricesCount": 10,
+      "hiddenPrices": [
+        {
+          "priceText": "119,90",
+          "price": 119.9
+        },
+        {
+          "priceText": "79,90",
+          "price": 79.9
+        },
+        {
+          "priceText": "99,90",
+          "price": 99.9
+        },
+        {
+          "priceText": "27,90",
+          "price": 27.9
+        },
+        {
+          "priceText": "34,90",
+          "price": 34.9
+        },
+        {
+          "priceText": "49,90",
+          "price": 49.9
+        },
+        {
+          "priceText": "69,90",
+          "price": 69.9
+        },
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        },
+        {
+          "priceText": "8,90",
+          "price": 8.9
+        },
+        {
+          "priceText": "11,90",
+          "price": 11.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "21 < Nejnižší cena za posledních 30 dní nabídka Jedinečná 119,90 79,90 99,90/ 20% 27,90 34,90/ 20% 49,90 69,90/ 28% nabídka Jedinečná 29,90 8,90 11,90/ 25%",
+          "score": 20
+        }
+      ],
+      "hiddenTextPreview": "21 < Nejnižší cena za posledních 30 dní nabídka Jedinečná 119,90 79,90 99,90/ 20% 27,90 34,90/ 20% 49,90 69,90/ 28% nabídka Jedinečná 29,90 8,90 11,90/ 25%"
+    },
+    {
+      "pageNumber": 22,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6933,
+      "hiddenTextLength": 160,
+      "hiddenPricesCount": 7,
+      "hiddenPrices": [
+        {
+          "priceText": "14,90",
+          "price": 14.9
+        },
+        {
+          "priceText": "19,90",
+          "price": 19.9
+        },
+        {
+          "priceText": "26,90",
+          "price": 26.9
+        },
+        {
+          "priceText": "37,90",
+          "price": 37.9
+        },
+        {
+          "priceText": "43,90",
+          "price": 43.9
+        },
+        {
+          "priceText": "22,90",
+          "price": 22.9
+        },
+        {
+          "priceText": "69,90",
+          "price": 69.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "22 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 14,90 19,90/ 25% 26,90 37,90/ 29% 26,90 43,90/ 38% 14,90 22,90/ 34% nabídka Jedinečná 69,90 22,90",
+          "score": 20
+        }
+      ],
+      "hiddenTextPreview": "22 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 14,90 19,90/ 25% 26,90 37,90/ 29% 26,90 43,90/ 38% 14,90 22,90/ 34% nabídka Jedinečná 69,90 22,90"
+    },
+    {
+      "pageNumber": 23,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 7003,
+      "hiddenTextLength": 159,
+      "hiddenPricesCount": 1,
+      "hiddenPrices": [
+        {
+          "priceText": "11.09",
+          "price": 11.09
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "www.invia.cz číslo poukazu platnost do Dárkový poukaz pro Antonína Folprechta 10 000 Kč ( desettisíc CZK ) UZJ9CVZ3TN ID: 8780278 11.09.2025 pro Jana Nováka 20",
+          "score": 2
+        }
+      ],
+      "hiddenTextPreview": "www.invia.cz číslo poukazu platnost do Dárkový poukaz pro Antonína Folprechta 10 000 Kč ( desettisíc CZK ) UZJ9CVZ3TN ID: 8780278 11.09.2025 pro Jana Nováka 20"
+    },
+    {
+      "pageNumber": 24,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6762,
+      "hiddenTextLength": 160,
+      "hiddenPricesCount": 3,
+      "hiddenPrices": [
+        {
+          "priceText": "199,90",
+          "price": 199.9
+        },
+        {
+          "priceText": "79,90",
+          "price": 79.9
+        },
+        {
+          "priceText": "59,90",
+          "price": 59.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "24 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MOJE PENNY KARTA %% nabídka Jedinečná 199,90 nabídka Jedinečná 79,90 nabídka Jedinečná 59,90 cena",
+          "score": 6
+        }
+      ],
+      "hiddenTextPreview": "24 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MOJE PENNY KARTA %% nabídka Jedinečná 199,90 nabídka Jedinečná 79,90 nabídka Jedinečná 59,90 cena"
+    },
+    {
+      "pageNumber": 25,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6709,
+      "hiddenTextLength": 154,
+      "hiddenPricesCount": 5,
+      "hiddenPrices": [
+        {
+          "priceText": "69,90",
+          "price": 69.9
+        },
+        {
+          "priceText": "89,90",
+          "price": 89.9
+        },
+        {
+          "priceText": "119,90",
+          "price": 119.9
+        },
+        {
+          "priceText": "139,90",
+          "price": 139.9
+        },
+        {
+          "priceText": "39,90",
+          "price": 39.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "DOPORUČENO ZUBNÍMI LÉKAŘI * ZNAČKA ZUBNÍCH PAST 25 < Nejnižší cena za posledních 30 dní nabídka Jedinečná 69,90 89,90 119,90/ 25% Super Cena! 139,90 39,90",
+          "score": 10
+        }
+      ],
+      "hiddenTextPreview": "DOPORUČENO ZUBNÍMI LÉKAŘI * ZNAČKA ZUBNÍCH PAST 25 < Nejnižší cena za posledních 30 dní nabídka Jedinečná 69,90 89,90 119,90/ 25% Super Cena! 139,90 39,90"
+    },
+    {
+      "pageNumber": 26,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6397,
+      "hiddenTextLength": 158,
+      "hiddenPricesCount": 9,
+      "hiddenPrices": [
+        {
+          "priceText": "279,90",
+          "price": 279.9
+        },
+        {
+          "priceText": "9,90",
+          "price": 9.9
+        },
+        {
+          "priceText": "16,90",
+          "price": 16.9
+        },
+        {
+          "priceText": "27,90",
+          "price": 27.9
+        },
+        {
+          "priceText": "34,90",
+          "price": 34.9
+        },
+        {
+          "priceText": "189,90",
+          "price": 189.9
+        },
+        {
+          "priceText": "269,90",
+          "price": 269.9
+        },
+        {
+          "priceText": "109,90",
+          "price": 109.9
+        },
+        {
+          "priceText": "209,90",
+          "price": 209.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "26 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní nabídka Jedinečná 279,90 9,90 16,90/ 41% 27,90 34,90/ 20% 189,90 269,90/ 29% 109,90 209,90/ 47%",
+          "score": 18
+        }
+      ],
+      "hiddenTextPreview": "26 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní nabídka Jedinečná 279,90 9,90 16,90/ 41% 27,90 34,90/ 20% 189,90 269,90/ 29% 109,90 209,90/ 47%"
+    },
+    {
+      "pageNumber": 27,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 6749,
+      "hiddenTextLength": 0,
+      "hiddenPricesCount": 0,
+      "hiddenPrices": [],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [],
+      "hiddenTextPreview": ""
+    },
+    {
+      "pageNumber": 28,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 8095,
+      "hiddenTextLength": 0,
+      "hiddenPricesCount": 0,
+      "hiddenPrices": [],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [],
+      "hiddenTextPreview": ""
+    },
+    {
+      "pageNumber": 29,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 7405,
+      "hiddenTextLength": 0,
+      "hiddenPricesCount": 0,
+      "hiddenPrices": [],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [],
+      "hiddenTextPreview": ""
+    },
+    {
+      "pageNumber": 30,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 5781,
+      "hiddenTextLength": 160,
+      "hiddenPricesCount": 9,
+      "hiddenPrices": [
+        {
+          "priceText": "36,90",
+          "price": 36.9
+        },
+        {
+          "priceText": "46,90",
+          "price": 46.9
+        },
+        {
+          "priceText": "39,90",
+          "price": 39.9
+        },
+        {
+          "priceText": "54,90",
+          "price": 54.9
+        },
+        {
+          "priceText": "14,90",
+          "price": 14.9
+        },
+        {
+          "priceText": "44,90",
+          "price": 44.9
+        },
+        {
+          "priceText": "23,90",
+          "price": 23.9
+        },
+        {
+          "priceText": "31,90",
+          "price": 31.9
+        },
+        {
+          "priceText": "32,90",
+          "price": 32.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "30 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 36,90 46,90/ 21% 39,90 54,90/ 27% nabídka Jedinečná 14,90 44,90 54,90/ 18% 23,90 31,90/ 25% 32,90",
+          "score": 20
+        }
+      ],
+      "hiddenTextPreview": "30 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní 36,90 46,90/ 21% 39,90 54,90/ 27% nabídka Jedinečná 14,90 44,90 54,90/ 18% 23,90 31,90/ 25% 32,90"
+    },
+    {
+      "pageNumber": 31,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 5402,
+      "hiddenTextLength": 160,
+      "hiddenPricesCount": 12,
+      "hiddenPrices": [
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        },
+        {
+          "priceText": "49,90",
+          "price": 49.9
+        },
+        {
+          "priceText": "24,90",
+          "price": 24.9
+        },
+        {
+          "priceText": "31,90",
+          "price": 31.9
+        },
+        {
+          "priceText": "79,90",
+          "price": 79.9
+        },
+        {
+          "priceText": "129,90",
+          "price": 129.9
+        },
+        {
+          "priceText": "11,90",
+          "price": 11.9
+        },
+        {
+          "priceText": "18,90",
+          "price": 18.9
+        },
+        {
+          "priceText": "22,90",
+          "price": 22.9
+        },
+        {
+          "priceText": "32,90",
+          "price": 32.9
+        },
+        {
+          "priceText": "189,90",
+          "price": 189.9
+        },
+        {
+          "priceText": "299,90",
+          "price": 299.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "31 < Nejnižší cena za posledních 30 dní v prodeji od 17. 5. 29,90 49,90/ 40% 24,90 31,90/ 21% 79,90 129,90/ 38% 11,90 18,90/ 37% 22,90 32,90/ 30% 189,90 299,90/",
+          "score": 24
+        }
+      ],
+      "hiddenTextPreview": "31 < Nejnižší cena za posledních 30 dní v prodeji od 17. 5. 29,90 49,90/ 40% 24,90 31,90/ 21% 79,90 129,90/ 38% 11,90 18,90/ 37% 22,90 32,90/ 30% 189,90 299,90/"
+    },
+    {
+      "pageNumber": 32,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 8670,
+      "hiddenTextLength": 0,
+      "hiddenPricesCount": 0,
+      "hiddenPrices": [],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [],
+      "hiddenTextPreview": ""
+    },
+    {
+      "pageNumber": 33,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 4815,
+      "hiddenTextLength": 0,
+      "hiddenPricesCount": 0,
+      "hiddenPrices": [],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [],
+      "hiddenTextPreview": ""
+    },
+    {
+      "pageNumber": 34,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 4595,
+      "hiddenTextLength": 159,
+      "hiddenPricesCount": 2,
+      "hiddenPrices": [
+        {
+          "priceText": "79,90",
+          "price": 79.9
+        },
+        {
+          "priceText": "431,89",
+          "price": 431.89
+        }
+      ],
+      "candidatesCount": 1,
+      "candidates": [
+        {
+          "id": "penny-hidden-b52d60cfa840aaa4",
+          "chain": "Penny",
+          "storeId": "penny-letak",
+          "storeName": "Penny – leták",
+          "product": "Osvěžovač vzduchu Aloha Ambi Pur",
+          "brand": "",
+          "description": "drogerie",
+          "packageSize": "",
+          "price": 79.9,
+          "priceText": "79,90 Kč",
+          "unitPrice": null,
+          "unit": "",
+          "validTo": "19.05.2026",
+          "pageNumber": 34,
+          "imageUrl": "",
+          "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/34/files/assets/cover300.jpg",
+          "imageType": "penny-page",
+          "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/34/index.html",
+          "category": "drogerie",
+          "searchTerms": [
+            "drogerie"
+          ],
+          "compareKey": "drogerie",
+          "confidence": "low",
+          "suspect": true,
+          "suspectReasons": [
+            "candidate z hidden HTML – vyžaduje kontrolu"
+          ],
+          "rawContext": "nízké ceny hezky česky < Nejnižší cena za posledních 30 dní nabídka Jedinečná 79,90 nabídka Jedinečná 79,90 OSVĚŽOVAČ VZDUCHU ALOHA AMBI PUR* 185 ml 1 l 431,89"
+        }
+      ],
+      "bestFragments": [
+        {
+          "text": "nízké ceny hezky česky < Nejnižší cena za posledních 30 dní nabídka Jedinečná 79,90 nabídka Jedinečná 79,90 OSVĚŽOVAČ VZDUCHU ALOHA AMBI PUR* 185 ml 1 l 431,89",
+          "score": 6
+        }
+      ],
+      "hiddenTextPreview": "nízké ceny hezky česky < Nejnižší cena za posledních 30 dní nabídka Jedinečná 79,90 nabídka Jedinečná 79,90 OSVĚŽOVAČ VZDUCHU ALOHA AMBI PUR* 185 ml 1 l 431,89"
+    },
+    {
+      "pageNumber": 35,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 5191,
+      "hiddenTextLength": 0,
+      "hiddenPricesCount": 0,
+      "hiddenPrices": [],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [],
+      "hiddenTextPreview": ""
+    },
+    {
+      "pageNumber": 36,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 4200,
+      "hiddenTextLength": 0,
+      "hiddenPricesCount": 0,
+      "hiddenPrices": [],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [],
+      "hiddenTextPreview": ""
+    },
+    {
+      "pageNumber": 37,
+      "ok": true,
+      "status": 200,
+      "htmlLength": 4624,
+      "hiddenTextLength": 158,
+      "hiddenPricesCount": 2,
+      "hiddenPrices": [
+        {
+          "priceText": "29,90",
+          "price": 29.9
+        },
+        {
+          "priceText": "9,90",
+          "price": 9.9
+        }
+      ],
+      "candidatesCount": 0,
+      "candidates": [],
+      "bestFragments": [
+        {
+          "text": "nízké ceny hezky česky LÉTO 2026 / cena: 29,90 Kč / s PENNY kartou 9,90 Kč Zakoupením časopisu přispějete 3 Kč na organizaci Akutně.cz. Nejlepší džemy Všechny",
+          "score": 4
+        }
+      ],
+      "hiddenTextPreview": "nízké ceny hezky česky LÉTO 2026 / cena: 29,90 Kč / s PENNY kartou 9,90 Kč Zakoupením časopisu přispějete 3 Kč na organizaci Akutně.cz. Nejlepší džemy Všechny"
+    }
+  ]
+}

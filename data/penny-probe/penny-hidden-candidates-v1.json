@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "source": "Penny hidden/meta HTML candidates",
+    "updatedAt": "2026-05-15T14:17:41.592Z",
+    "count": 3,
+    "note": "Průzkumný kandidátní výstup. Položky jsou suspect=true a nejsou určené k ostrému importu bez další validace."
+  },
+  "offers": [
+    {
+      "id": "penny-hidden-c47b2a2f39c6ee4d",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "Mistrovská dušená šunka",
+      "brand": "",
+      "description": "uzeniny",
+      "packageSize": "",
+      "price": 12.9,
+      "priceText": "12,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 10,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/index.html",
+      "category": "uzeniny",
+      "searchTerms": [
+        "uzeniny"
+      ],
+      "compareKey": "uzeniny",
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z hidden HTML – vyžaduje kontrolu"
+      ],
+      "rawContext": "10 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MISTROVSKÁ DUŠENÁ ŠUNKA ŘEZNÍKŮV TALÍŘ 100 g 12,90 19,90/ 35% 21,90 31,90/ 31% 24,90 31,90/ 21%"
+    },
+    {
+      "id": "penny-hidden-c1b8679c92ae0ae0",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "Řezníkův talíř",
+      "brand": "",
+      "description": "uzeniny",
+      "packageSize": "",
+      "price": 21.9,
+      "priceText": "21,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 10,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/10/index.html",
+      "category": "uzeniny",
+      "searchTerms": [
+        "uzeniny"
+      ],
+      "compareKey": "uzeniny",
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z hidden HTML – vyžaduje kontrolu"
+      ],
+      "rawContext": "10 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní MISTROVSKÁ DUŠENÁ ŠUNKA ŘEZNÍKŮV TALÍŘ 100 g 12,90 19,90/ 35% 21,90 31,90/ 31% 24,90 31,90/ 21%"
+    },
+    {
+      "id": "penny-hidden-b52d60cfa840aaa4",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "Osvěžovač vzduchu Aloha Ambi Pur",
+      "brand": "",
+      "description": "drogerie",
+      "packageSize": "",
+      "price": 79.9,
+      "priceText": "79,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 34,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/34/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/34/index.html",
+      "category": "drogerie",
+      "searchTerms": [
+        "drogerie"
+      ],
+      "compareKey": "drogerie",
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z hidden HTML – vyžaduje kontrolu"
+      ],
+      "rawContext": "nízké ceny hezky česky < Nejnižší cena za posledních 30 dní nabídka Jedinečná 79,90 nabídka Jedinečná 79,90 OSVĚŽOVAČ VZDUCHU ALOHA AMBI PUR* 185 ml 1 l 431,89"
+    }
+  ]
+}

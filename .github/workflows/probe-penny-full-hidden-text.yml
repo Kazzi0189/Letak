@@ -1,0 +1,40 @@
+name: Probe Penny full hidden text
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Probe Penny full hidden text
+        run: node scripts/probe-penny-full-hidden-text.mjs
+
+      - name: Check JavaScript syntax
+        run: node --check scripts/probe-penny-full-hidden-text.mjs
+
+      - name: Commit Penny full hidden text probe
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add scripts/probe-penny-full-hidden-text.mjs data/penny-probe/penny-full-hidden-text-summary.json data/penny-probe/penny-page-*-hidden.txt
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Probe Penny full hidden text"
+            git push
+          fi

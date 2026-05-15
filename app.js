@@ -1,57 +1,26 @@
 const STORE_CATALOG = [
-  {
-    id: 'penny-default',
-    chain: 'Penny',
-    name: 'Penny – aktuální nabídky',
-    address: 'celostátní / podle webu Penny',
-    type: 'diskont',
-    status: 'napojeno přes import Penny'
-  },
-  {
-    id: 'kaufland-teplice-centrum',
-    chain: 'Kaufland',
-    name: 'Kaufland Teplice-Centrum',
-    address: 'Čs. Dobrovolců 3356, 415 01 Teplice',
-    type: 'hypermarket',
-    status: 'napojeno přes import Kaufland Teplice'
-  },
-  {
-    id: 'albert-supermarket',
-    chain: 'Albert',
-    name: 'Albert supermarket',
-    address: 'aktuální supermarket leták Albert',
-    type: 'supermarket',
-    status: 'napojeno přes clean PDF import Albert'
-  },
-  {
-    id: 'albert-hypermarket',
-    chain: 'Albert',
-    name: 'Albert hypermarket',
-    address: 'aktuální hypermarket leták Albert',
-    type: 'hypermarket',
-    status: 'napojeno přes clean PDF import Albert'
-  }
+  { id: 'penny-default', chain: 'Penny', name: 'Penny – aktuální nabídky', address: 'celostátní / podle webu Penny', type: 'diskont', status: 'napojeno přes import Penny' },
+  { id: 'kaufland-teplice-centrum', chain: 'Kaufland', name: 'Kaufland Teplice-Centrum', address: 'Čs. Dobrovolců 3356, 415 01 Teplice', type: 'hypermarket', status: 'napojeno přes import Kaufland Teplice' },
+  { id: 'albert-supermarket', chain: 'Albert', name: 'Albert supermarket', address: 'aktuální supermarket leták Albert', type: 'supermarket', status: 'napojeno přes import Albert PDF V7 clean' },
+  { id: 'albert-hypermarket', chain: 'Albert', name: 'Albert hypermarket', address: 'aktuální hypermarket leták Albert', type: 'hypermarket', status: 'napojeno přes import Albert PDF V7 clean' }
 ]; function getInitialSelectedStoreIds() {
   const savedRaw = localStorage.getItem('selectedStoreIds');
   const saved = JSON.parse(savedRaw || '["penny-default","kaufland-teplice-centrum","albert-supermarket","albert-hypermarket"]');
 
   const migrated = saved
-    .map((id) => {
-      if (id === 'kaufland-demo') return 'kaufland-teplice-centrum';
-      if (id === 'albert-hyper-demo') return 'albert-hypermarket';
-      if (id === 'albert-super-demo') return 'albert-supermarket';
-      return id;
-    })
+    .map((id) => (id === 'kaufland-demo' ? 'kaufland-teplice-centrum' : id))
+    .map((id) => (id === 'albert-hyper-demo' ? 'albert-hypermarket' : id))
+    .map((id) => (id === 'albert-super-demo' ? 'albert-supermarket' : id))
     .filter((id, index, array) => array.indexOf(id) === index);
 
-  if (!migrated.includes('kaufland-teplice-centrum')) {
-    migrated.push('kaufland-teplice-centrum');
+  for (const requiredId of ['kaufland-teplice-centrum', 'albert-supermarket', 'albert-hypermarket']) {
+    if (!migrated.includes(requiredId)) {
+      migrated.push(requiredId);
+    }
   }
 
   return migrated;
-}
-
-const state = {
+} const state = {
   postcode: localStorage.getItem('postcode') || '',
   selectedStoreIds: getInitialSelectedStoreIds(),
   query: '',

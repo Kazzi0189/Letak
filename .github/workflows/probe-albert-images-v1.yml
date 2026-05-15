@@ -1,0 +1,40 @@
+name: Probe Albert images v1
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Probe Albert page images v1
+        run: node scripts/probe-albert-images-v1.mjs
+
+      - name: Check JavaScript syntax
+        run: node --check scripts/probe-albert-images-v1.mjs
+
+      - name: Commit Albert image probe v1
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add scripts/probe-albert-images-v1.mjs data/albert-probe/albert-images-v1-summary.json data/albert-probe/albert-images-v1-debug.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Probe Albert images v1"
+            git push
+          fi

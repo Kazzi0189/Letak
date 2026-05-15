@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "Albert PDF text via Publitas",
-    "updatedAt": "2026-05-15T06:51:14.336Z",
+    "updatedAt": "2026-05-15T06:58:08.286Z",
     "count": 498,
-    "cleanCount": 284,
-    "suspectCount": 214,
-    "parser": "scripts/extract-albert-pdf-offers-v4.mjs",
-    "note": "Průzkumný parser z PDF textu. V4 dál zpřísňuje clean-only výstup, odstraňuje další marketingové prefixy a přesouvá zjevně slité bloky do suspect."
+    "cleanCount": 280,
+    "suspectCount": 218,
+    "parser": "scripts/extract-albert-pdf-offers-v5.mjs",
+    "note": "Průzkumný parser z PDF textu. V5 dál čistí clean-only výstup, přesouvá další marketingové a slité názvy do suspect a opravuje známé falešné názvy."
   },
   "offers": [
     {
@@ -1984,9 +1984,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/23",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "známý slitý název/blok"
+      ],
       "rawContext": "Milka Sušenky Chupa Chups • 12 g • 100 g = 57,50 Kč • vybrané druhy • 6,90 Kč"
     },
     {
@@ -2191,12 +2193,12 @@
       "rawContext": "Racio Knäckebrot • 230 g • 100 g = 17,35 Kč • vybrané druhy • 39,90 Kč"
     },
     {
-      "id": "albert-supermarket-86ea0264387bb168",
+      "id": "albert-supermarket-6f3526dfed4d7a02",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "TR O Emco Sušenky",
+      "product": "Emco Sušenky",
       "brand": "",
       "description": "",
       "packageSize": "60 g",
@@ -2416,9 +2418,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/25",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "známý slitý název/blok"
+      ],
       "rawContext": "Heinz Fazole Knorr Jíška • 250 g • 100 g = 13,96 Kč • tmavá, světlá • 29,90 Kč"
     },
     {
@@ -2674,9 +2678,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/25",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "reklamní slogan místo názvu"
+      ],
       "rawContext": "POŽITEK z přírodní VANILKY • 118–130 g • 100 g od 30,70 Kč • vybrané druhy • 39,90 Kč"
     },
     {
@@ -3201,9 +3207,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/27",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "známý slitý název/blok"
+      ],
       "rawContext": "Strážnické brambůrky Březňák • 165 g • 100 g = 36,31 Kč • vybrané druhy • 59,90 Kč"
     },
     {

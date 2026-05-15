@@ -1,0 +1,432 @@
+{
+  "checkedAt": "2026-05-15T11:54:23.857Z",
+  "base": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me",
+  "pagesChecked": [
+    18,
+    19,
+    20,
+    21,
+    30,
+    31,
+    32
+  ],
+  "summary": {
+    "pagesWithBeerTermsInVisibleText": [
+      {
+        "pageNumber": 32,
+        "hits": [
+          "pivo"
+        ]
+      }
+    ],
+    "pagesWithBeerTermsInFullHtml": [
+      {
+        "pageNumber": 20,
+        "hits": [
+          "Braník",
+          "Velkopopovický Kozel",
+          "Svijanský",
+          "Krušovice",
+          "Radegast",
+          "Staropramen",
+          "Mustang",
+          "Budweiser",
+          "Budvar",
+          "Cool",
+          "Gambrinus",
+          "Ostravar",
+          "Bohemia Sekt",
+          "Prosecco",
+          "ležák",
+          "výčepní"
+        ]
+      },
+      {
+        "pageNumber": 31,
+        "hits": [
+          "Budvar",
+          "ležák"
+        ]
+      },
+      {
+        "pageNumber": 32,
+        "hits": [
+          "pivo"
+        ]
+      }
+    ],
+    "recommendedPath": "extract-penny-data-from-hidden-html-json"
+  },
+  "pages": [
+    {
+      "pageNumber": 18,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/index.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/index.html",
+      "contentType": "text/html",
+      "htmlLength": 6942,
+      "visibleTextLength": 127,
+      "termHitsVisibleText": [],
+      "termHitsFullHtml": [],
+      "snippets": [],
+      "fullHtmlSnippets": [],
+      "imageCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?20858411",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg"
+      ],
+      "dataCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/IE=edge",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/text/html;%20charset=utf-8",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?20858411",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/13_05_2026_me",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/18%20n%C3%ADzk%C3%A9%20ceny%20hezky%20%C4%8Desky%20%3C%20Nejni%C5%BE%C5%A1%C3%AD%20cena%20za%20posledn%C3%ADch%2030%20dn%C3%AD%20SV%C4%9ATOV%C3%9D%20DEN%20KOKTEJL%C5%AE%2039,90%2059,90/%2033%%2049,90%2059,90/%2016%%20119,90%20149,90/%2020%%20139,90%20199,90/%2030%",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/EBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/summary_large_image",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/@flippingbook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/article",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/FlippingBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/image/jpeg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/Article%20Section",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/width=device-width,%20initial-scale=1",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/yes",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/polyfills.js",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/17/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/37/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/publication/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/build.js"
+      ],
+      "jsonLikeBlocks": [],
+      "visibleTextPreview": "13_05_2026_me – Page 18 '); 1 17 19 37 13_05_2026_me 18 nízké ceny hezky česky Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw"
+    },
+    {
+      "pageNumber": 19,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/index.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/index.html",
+      "contentType": "text/html",
+      "htmlLength": 5633,
+      "visibleTextLength": 135,
+      "termHitsVisibleText": [],
+      "termHitsFullHtml": [],
+      "snippets": [],
+      "fullHtmlSnippets": [],
+      "imageCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?c56826b7",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg"
+      ],
+      "dataCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/IE=edge",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/text/html;%20charset=utf-8",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?c56826b7",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/13_05_2026_me",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/LIMON%C3%81DA%20ZE%20SICILSK%C3%9DCH%20CITRUS%C5%AE%2019%20%3C%20Nejni%C5%BE%C5%A1%C3%AD%20cena%20za%20posledn%C3%ADch%2030%20dn%C3%AD%20139,90%20199,90/%2030%%20369,90%20499,90/%2026%%209,90%2017,90/%2044%%2026,90%2039,90/%2032%%20nab%C3%ADdka%20Jedine%C4%8Dn%C3%A1",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/EBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/summary_large_image",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/@flippingbook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/article",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/FlippingBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/image/jpeg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/Article%20Section",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/width=device-width,%20initial-scale=1",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/yes",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/polyfills.js",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/18/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/37/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/publication/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/build.js"
+      ],
+      "jsonLikeBlocks": [],
+      "visibleTextPreview": "13_05_2026_me – Page 19 '); 1 18 20 37 13_05_2026_me LIMONÁDA ZE SICILSKÝCH CITRUSŮ 19 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw"
+    },
+    {
+      "pageNumber": 20,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "contentType": "text/html",
+      "htmlLength": 6763,
+      "visibleTextLength": 104,
+      "termHitsVisibleText": [],
+      "termHitsFullHtml": [
+        "Braník",
+        "Velkopopovický Kozel",
+        "Svijanský",
+        "Krušovice",
+        "Radegast",
+        "Staropramen",
+        "Mustang",
+        "Budweiser",
+        "Budvar",
+        "Cool",
+        "Gambrinus",
+        "Ostravar",
+        "Bohemia Sekt",
+        "Prosecco",
+        "ležák",
+        "výčepní"
+      ],
+      "snippets": [],
+      "fullHtmlSnippets": [],
+      "imageCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?0811a6a4",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg"
+      ],
+      "dataCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/IE=edge",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/text/html;%20charset=utf-8",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?0811a6a4",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/13_05_2026_me",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/20%20%3C%20Nejni%C5%BE%C5%A1%C3%AD%20cena%20za%20posledn%C3%ADch%2030%20dn%C3%AD%20209,90%20279,90/%2025%%20219,90%20279,90/%2021%%2036,90%20**54,90/%2032%%2017,90%20**25,90/%2030%%209,90%2014,90/%2033%%2012,90%20**16,90/%2023%%207,90",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/EBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/summary_large_image",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/@flippingbook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/article",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/FlippingBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/image/jpeg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/Article%20Section",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/width=device-width,%20initial-scale=1",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/yes",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/polyfills.js",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/19/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/37/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/publication/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/build.js"
+      ],
+      "jsonLikeBlocks": [],
+      "visibleTextPreview": "13_05_2026_me – Page 20 '); 1 19 21 37 13_05_2026_me 20 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw"
+    },
+    {
+      "pageNumber": 21,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/index.html",
+      "contentType": "text/html",
+      "htmlLength": 7034,
+      "visibleTextLength": 104,
+      "termHitsVisibleText": [],
+      "termHitsFullHtml": [],
+      "snippets": [],
+      "fullHtmlSnippets": [],
+      "imageCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?9447e922",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg"
+      ],
+      "dataCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/IE=edge",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/text/html;%20charset=utf-8",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?9447e922",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/13_05_2026_me",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/21%20%3C%20Nejni%C5%BE%C5%A1%C3%AD%20cena%20za%20posledn%C3%ADch%2030%20dn%C3%AD%20nab%C3%ADdka%20Jedine%C4%8Dn%C3%A1%20119,90%2079,90%2099,90/%2020%%2027,90%2034,90/%2020%%2049,90%2069,90/%2028%%20nab%C3%ADdka%20Jedine%C4%8Dn%C3%A1%2029,90%208,90%2011,90/%2025%",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/EBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/summary_large_image",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/@flippingbook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/article",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/FlippingBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/image/jpeg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/Article%20Section",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/width=device-width,%20initial-scale=1",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/21/yes",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/polyfills.js",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/22/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/37/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/publication/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/build.js"
+      ],
+      "jsonLikeBlocks": [],
+      "visibleTextPreview": "13_05_2026_me – Page 21 '); 1 20 22 37 13_05_2026_me 21 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw"
+    },
+    {
+      "pageNumber": 30,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/index.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/index.html",
+      "contentType": "text/html",
+      "htmlLength": 5781,
+      "visibleTextLength": 127,
+      "termHitsVisibleText": [],
+      "termHitsFullHtml": [],
+      "snippets": [],
+      "fullHtmlSnippets": [],
+      "imageCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?52d291db",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg"
+      ],
+      "dataCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/IE=edge",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/text/html;%20charset=utf-8",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?52d291db",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/13_05_2026_me",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/30%20n%C3%ADzk%C3%A9%20ceny%20hezky%20%C4%8Desky%20%3C%20Nejni%C5%BE%C5%A1%C3%AD%20cena%20za%20posledn%C3%ADch%2030%20dn%C3%AD%2036,90%2046,90/%2021%%2039,90%2054,90/%2027%%20nab%C3%ADdka%20Jedine%C4%8Dn%C3%A1%2014,90%2044,90%2054,90/%2018%%2023,90%2031,90/%2025%%2032,90",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/EBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/summary_large_image",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/@flippingbook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/article",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/FlippingBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/image/jpeg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/Article%20Section",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/width=device-width,%20initial-scale=1",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/yes",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/polyfills.js",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/29/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/37/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/publication/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/build.js"
+      ],
+      "jsonLikeBlocks": [],
+      "visibleTextPreview": "13_05_2026_me – Page 30 '); 1 29 31 37 13_05_2026_me 30 nízké ceny hezky česky Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw"
+    },
+    {
+      "pageNumber": 31,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/index.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/index.html",
+      "contentType": "text/html",
+      "htmlLength": 5402,
+      "visibleTextLength": 104,
+      "termHitsVisibleText": [],
+      "termHitsFullHtml": [
+        "Budvar",
+        "ležák"
+      ],
+      "snippets": [],
+      "fullHtmlSnippets": [],
+      "imageCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?3b1338ec",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg"
+      ],
+      "dataCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/IE=edge",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/text/html;%20charset=utf-8",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?3b1338ec",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/13_05_2026_me",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/31%20%3C%20Nejni%C5%BE%C5%A1%C3%AD%20cena%20za%20posledn%C3%ADch%2030%20dn%C3%AD%20v%20prodeji%20od%2017.%205.%2029,90%2049,90/%2040%%2024,90%2031,90/%2021%%2079,90%20129,90/%2038%%2011,90%2018,90/%2037%%2022,90%2032,90/%2030%%20189,90%20299,90/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/EBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/summary_large_image",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/@flippingbook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/article",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/FlippingBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/image/jpeg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/Article%20Section",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/width=device-width,%20initial-scale=1",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/yes",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/polyfills.js",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/30/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/37/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/publication/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/build.js"
+      ],
+      "jsonLikeBlocks": [],
+      "visibleTextPreview": "13_05_2026_me – Page 31 '); 1 30 32 37 13_05_2026_me 31 Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw"
+    },
+    {
+      "pageNumber": 32,
+      "url": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/index.html",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/index.html",
+      "contentType": "text/html",
+      "htmlLength": 8670,
+      "visibleTextLength": 2330,
+      "termHitsVisibleText": [
+        "pivo"
+      ],
+      "termHitsFullHtml": [
+        "pivo"
+      ],
+      "snippets": [
+        {
+          "term": "pivo",
+          "snippet": "OLOMOUC  UL. WOLKEROVA; OSTRAVA  UL. HLADNOVSKÁ; OSTROV  UL. KRUŠNOHORSKÁ; PRAHA  UL. DĚLNICKÁ, JABLONECKÁ, LODŽSKÁ, MAKOVSKÉHO, MATÚŠKOVA, MUKAŘOVSKÉHO, NA PANKRÁCI, NUSELSKÝ PIVOVAR, UL. VRTBOVA, PODĚBRADSKÁ, ŠTEFÁNIKOVA, TERRONSKÁ, VINOHRADSKÁ, VRŠOVICKÁ; ŘEVNICE  UL. KOMENSKÉHO; SEMILY  UL. LUČNÍ; SOKOLOV  UL. ZÁVODU MÍRU; TOUŽIM  UL. PLZEŇSKÁ; SLANÝ  UL. OUVALOVA. Chyby v tisku vyhrazeny. Ceny uvedené v letáku jsou v Kč. C"
+        }
+      ],
+      "fullHtmlSnippets": [
+        {
+          "term": "pivo",
+          "snippet": "OLOMOUC  UL. WOLKEROVA; OSTRAVA  UL. HLADNOVSKÁ; OSTROV  UL. KRUŠNOHORSKÁ; PRAHA  UL. DĚLNICKÁ, JABLONECKÁ, LODŽSKÁ, MAKOVSKÉHO, MATÚŠKOVA, MUKAŘOVSKÉHO, NA PANKRÁCI, NUSELSKÝ PIVOVAR, UL. VRTBOVA, PODĚBRADSKÁ, ŠTEFÁNIKOVA, TERRONSKÁ, VINOHRADSKÁ, VRŠOVICKÁ; ŘEVNICE  UL. KOMENSKÉHO; SEMILY  UL. LUČNÍ; SOKOLOV  UL. ZÁVODU MÍRU; TOUŽIM  UL. PLZEŇSKÁ; SLANÝ  UL. OUVALOVA. Chyby v tisku vyhrazeny. Ceny uvedené v letáku jsou v Kč. C"
+        }
+      ],
+      "imageCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?a17d01c8",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg"
+      ],
+      "dataCandidates": [
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/IE=edge",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/text/html;%20charset=utf-8",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/html/skin/images/pennylogoquadratrgb.jpg?a17d01c8",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/13_05_2026_me",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/n%C3%ADzk%C3%A9%20ceny%20hezky%20%C4%8Desky%20PRO%20TYTO%20PRODEJNY%20JE%20NAB%C3%8DDKA%20Z%20KAPACITN%C3%8DCH%20A%20JIN%C3%9DCH%20LOGISTICK%C3%9DCH%20D%C5%AEVOD%C5%AE%20OMEZENA:%20BEROUN%20%EF%9A%BB%20T%C5%98%C3%8DDA%20M%C3%8DRU;%20HAVL%C3%8D%C4%8CK%C5%AEV%20BROD%20%EF%9A%BB%20UL.%20U%20CIHL%C3%81%C5%98E;",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/EBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/summary_large_image",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/@flippingbook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/files/assets/html/skin/images/fbThumb.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/article",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/FlippingBook",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/image/jpeg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/Article%20Section",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/width=device-width,%20initial-scale=1",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/assets/cover300.jpg",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/32/yes",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/polyfills.js",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/31/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/33/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/37/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/publication/",
+        "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/files/html/build.js"
+      ],
+      "jsonLikeBlocks": [],
+      "visibleTextPreview": "13_05_2026_me – Page 32 '); 1 31 33 37 13_05_2026_me nízké ceny hezky česky PRO TYTO PRODEJNY JE NABÍDKA Z KAPACITNÍCH A JINÝCH LOGISTICKÝCH DŮVODŮ OMEZENA: BEROUN  TŘÍDA MÍRU; HAVLÍČKŮV BROD  UL. U CIHLÁŘE; HLUČÍN  UL. CIHELNÍ; HUMPOLEC  UL. LUŽICKÁ; KLADNO  UL. MILADY HORÁKOVÉ; KOLÍN  UL. BENEŠOVA; KRALUPY NAD VLTAVOU  UL. CHMELOVA; LITVÍNOV  UL. JIRÁSKOVA, U BÍLÉHO SLOUPU; LOUNY  UL. PŘEMYSLOVCŮ; LYSÁ NAD LABEM  UL. SOKOLSKÁ; MOST  UL. MOSKEVSKÁ; MILEVSKO  UL. DAROVANÁ; OLOMOUC  UL. WOLKEROVA; OSTRAVA  UL. HLADNOVSKÁ; OSTROV  UL. KRUŠNOHORSKÁ; PRAHA  UL. DĚLNICKÁ, JABLONECKÁ, LODŽSKÁ, MAKOVSKÉHO, MATÚŠKOVA, MUKAŘOVSKÉHO, NA PANKRÁCI, NUSELSKÝ PIVOVAR, UL. VRTBOVA, PODĚBRADSKÁ, ŠTEFÁNIKOVA, TERRONSKÁ, VINOHRADSKÁ, VRŠOVICKÁ; ŘEVNICE  UL. KOMENSKÉHO; SEMILY  UL. LUČNÍ; SOKOLOV  UL. ZÁVODU MÍRU; TOUŽIM  UL. PLZEŇSKÁ; SLANÝ  UL. OUVALOVA. Chyby v tisku vyhrazeny. Ceny uvedené v letáku jsou v Kč. Ceny jsou bez dekorace. Škrtaná cena je běžná prodejní cena. Mohou být použity ilustrační fotografie. Vyhrazujeme si právo změn v balení a variantě nabízeného zboží. Pokud v důsledku nečekaně vysoké poptávky dojde k nedostatku určitého zboží, omlouváme se Vám a děkujeme za pochopení. Odběr zboží z letáku je možný jen v obvyklém množství, maximálně 2 kartony na osobu na den, není-li uvedeno jinak. *Takto označené produkty nenáleží do stálého sortimentu, mohou být tedy dodány na příslušné prodejny v menším množství, a z toho důvodu jedinečná nabídka na toto zboží platí pouze první den uvedeného období akce. Tento dokument není nabídkou (návrhem na uzavření smlouvy) ani výzvou k podávání nabídek. Jde o dokument určený pouze k marketingovým a propagačním účelům. Vzhledem k faktu, že společnost Penny Market s. r. o. pravidelně provádí kontrolu na přítomnost reziduí používaných chemických látek při pěstování ovoce a zeleniny, shledává občanské sdružení Zdravá potravina, z. s., (Fér potravina) tyto produkty jako nezávadné. ***Cena platí s body za nákupy v prodejnách Penny Market. Body za své nákupy můžete získat a uplatnit od 18. 3. 2026 do 2. 6. 2026. Akce platí do vyprodání a vydání zásob v jednotlivých prodejnách Penny Market. Fotografie jsou pouze ilustrativní. Podrobná pravidla na www.penny.cz. **Výrobcem doporučená cena. Přijímáme: Made with FlippingBook RkJQdWJsaXNoZXIy NTcyMjUw"
+    }
+  ]
+}

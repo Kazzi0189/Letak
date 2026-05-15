@@ -1,0 +1,880 @@
+{
+  "checkedAt": "2026-05-15T17:40:09.702Z",
+  "summary": {
+    "pageNumber": 20,
+    "pageFetchOk": true,
+    "status": 200,
+    "paragraphCount": 1,
+    "blocksFound": 20,
+    "totalCandidateOffers": 19,
+    "beerCandidateOffers": 15,
+    "alcoholCandidateOffers": 4,
+    "productsFound": [
+      {
+        "product": "SKOTSKÁ WHISKY MC ILLROY 40 % alk.",
+        "priceText": "219,90 Kč",
+        "packageSize": "0,7 l",
+        "unitPrice": 299.86,
+        "category": "alkohol"
+      },
+      {
+        "product": "BRANÍK světlé výčepní",
+        "priceText": "9,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 19.8,
+        "category": "pivo"
+      },
+      {
+        "product": "VELKOPOPOVICKÝ KOZEL 10 světlé výčepní",
+        "priceText": "11,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 25.8,
+        "category": "pivo"
+      },
+      {
+        "product": "STAROČECH ORIGINAL světlé výčepní",
+        "priceText": "11,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 15.8,
+        "category": "pivo"
+      },
+      {
+        "product": "STAROPRAMEN 10 světlé výčepní plech",
+        "priceText": "14,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 29.8,
+        "category": "pivo"
+      },
+      {
+        "product": "RADEGAST RATAR hořký ležák plech",
+        "priceText": "20,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 41.8,
+        "category": "pivo"
+      },
+      {
+        "product": "BUDWEISER BUDVAR světlý ležák",
+        "priceText": "19,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 39.8,
+        "category": "pivo"
+      },
+      {
+        "product": "GAMBRINUS PATRON světlý ležák plech",
+        "priceText": "18,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 37.8,
+        "category": "pivo"
+      },
+      {
+        "product": "ZUBR GRAND, HOLBA ŠERÁK světlý ležák plech",
+        "priceText": "16,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 31.8,
+        "category": "pivo"
+      },
+      {
+        "product": "KRUŠOVICE 12 světlý ležák plech",
+        "priceText": "16,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 33.8,
+        "category": "pivo"
+      },
+      {
+        "product": "STAROČECH nealko",
+        "priceText": "6,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 13.8,
+        "category": "pivo"
+      },
+      {
+        "product": "STAROPRAMEN 12 světlý ležák plech",
+        "priceText": "17,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 33.8,
+        "category": "pivo"
+      },
+      {
+        "product": "BRANDY KOBLEVO RESERVE VSOP 40 % alk.",
+        "priceText": "229,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 439.8,
+        "category": "alkohol"
+      },
+      {
+        "product": "COOL různé druhy",
+        "priceText": "36,90 Kč",
+        "packageSize": "1,5 l",
+        "unitPrice": 24.6,
+        "category": "pivo"
+      },
+      {
+        "product": "VELKOPOPOVICKÝ KOZEL nealko plech",
+        "priceText": "17,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 35.8,
+        "category": "pivo"
+      },
+      {
+        "product": "KRUŠOVICE 10 světlé výčepní",
+        "priceText": "9,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 21.8,
+        "category": "pivo"
+      },
+      {
+        "product": "BOHEMIA SEKT různé druhy",
+        "priceText": "109,90 Kč",
+        "packageSize": "0,75 l",
+        "unitPrice": 173.2,
+        "category": "alkohol"
+      },
+      {
+        "product": "SVIJANSKÝ MÁZ světlý ležák",
+        "priceText": "10,90 Kč",
+        "packageSize": "0,5 l",
+        "unitPrice": 23.8,
+        "category": "pivo"
+      },
+      {
+        "product": "PROSECCO bílé perlivé",
+        "priceText": "59,90 Kč",
+        "packageSize": "0,75 l",
+        "unitPrice": 93.2,
+        "category": "alkohol"
+      }
+    ],
+    "missingBlocksWithoutActionPrice": [
+      {
+        "start": "OSTRAVAR MUSTANG",
+        "block": "OSTRAVAR MUSTANG* světlý ležák plech | 0,5 l 1 l 35,80 Kč v limitované nabídce také Černá Barbora 0,5 l za 18,90 Kč"
+      }
+    ],
+    "recommendedPath": "inspect-page20-v4-before-merge"
+  },
+  "offers": [
+    {
+      "id": "penny-page20-v4-6c596e92916bea12",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "SKOTSKÁ WHISKY MC ILLROY 40 % alk.",
+      "brand": "",
+      "description": "alkohol",
+      "packageSize": "0,7 l",
+      "price": 219.9,
+      "priceText": "219,90 Kč",
+      "unitPrice": 299.86,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "alkohol",
+      "searchTerms": [
+        "alkohol"
+      ],
+      "compareKey": "alkohol",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "SKOTSKÁ WHISKY MC ILLROY 40 % alk. 0,7 l 1 l 299,86 Kč < 219,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-e52b34971a8020fb",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "BRANÍK světlé výčepní",
+      "brand": "",
+      "description": "pivo · světlé pivo · výčepní pivo",
+      "packageSize": "0,5 l",
+      "price": 9.9,
+      "priceText": "9,90 Kč",
+      "unitPrice": 19.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "výčepní pivo"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "BRANÍK světlé výčepní 0,5 l 1 l 19,80 Kč záloha na lahev 3 Kč < 9,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-acff4fadaad5ec77",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "VELKOPOPOVICKÝ KOZEL 10 světlé výčepní",
+      "brand": "",
+      "description": "pivo · světlé pivo · výčepní pivo",
+      "packageSize": "0,5 l",
+      "price": 11.9,
+      "priceText": "11,90 Kč",
+      "unitPrice": 25.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "výčepní pivo"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "VELKOPOPOVICKÝ KOZEL 10* světlé výčepní 0,5 l 1 l 25,80 Kč záloha na lahev 3 Kč < 11,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-1ced05db20ed9b6e",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "STAROČECH ORIGINAL světlé výčepní",
+      "brand": "",
+      "description": "pivo · světlé pivo · výčepní pivo",
+      "packageSize": "0,5 l",
+      "price": 11.9,
+      "priceText": "11,90 Kč",
+      "unitPrice": 15.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "výčepní pivo"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "STAROČECH ORIGINAL světlé výčepní 0,5 l | 1 l 15,80 Kč záloha na lahev 3 Kč < 11,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-9f4d89eba45361a9",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "STAROPRAMEN 10 světlé výčepní plech",
+      "brand": "",
+      "description": "pivo · světlé pivo · výčepní pivo",
+      "packageSize": "0,5 l",
+      "price": 14.9,
+      "priceText": "14,90 Kč",
+      "unitPrice": 29.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "výčepní pivo"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "STAROPRAMEN 10 světlé výčepní plech, 0,5 l 1 l 29,80 Kč < 14,90 Kč STAROČECH polotmavý ležák, plech 0,5 l 1 l 27,80 Kč < 14,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-f11250a7121b43d3",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "RADEGAST RATAR hořký ležák plech",
+      "brand": "",
+      "description": "pivo · hořký ležák",
+      "packageSize": "0,5 l",
+      "price": 20.9,
+      "priceText": "20,90 Kč",
+      "unitPrice": 41.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "hořký ležák"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "RADEGAST RATAR* hořký ležák plech | 0,5 l 1 l 41,80 Kč < 20,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-a228fd263a02107c",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "BUDWEISER BUDVAR světlý ležák",
+      "brand": "",
+      "description": "pivo · světlé pivo · ležák",
+      "packageSize": "0,5 l",
+      "price": 19.9,
+      "priceText": "19,90 Kč",
+      "unitPrice": 39.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "BUDWEISER BUDVAR světlý ležák 0,5 l 1 l 39,80 Kč < 19,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-dd0b37cd0e173f0e",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "GAMBRINUS PATRON světlý ležák plech",
+      "brand": "",
+      "description": "pivo · světlé pivo · ležák",
+      "packageSize": "0,5 l",
+      "price": 18.9,
+      "priceText": "18,90 Kč",
+      "unitPrice": 37.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "GAMBRINUS PATRON světlý ležák plech 0,5 l 1 l 37,80 Kč < 18,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-4eaacf1ec197d4f1",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "ZUBR GRAND, HOLBA ŠERÁK světlý ležák plech",
+      "brand": "",
+      "description": "pivo · světlé pivo · ležák",
+      "packageSize": "0,5 l",
+      "price": 16.9,
+      "priceText": "16,90 Kč",
+      "unitPrice": 31.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "ZUBR GRAND, HOLBA ŠERÁK světlý ležák plech | 0,5 l 1 l 31,80 Kč < 16,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-8f29e026d3219980",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "KRUŠOVICE 12 světlý ležák plech",
+      "brand": "",
+      "description": "pivo · světlé pivo · ležák",
+      "packageSize": "0,5 l",
+      "price": 16.9,
+      "priceText": "16,90 Kč",
+      "unitPrice": 33.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "KRUŠOVICE 12 světlý ležák plech | 0,5 l 1 l 33,80 Kč < 16,90 Kč MUSTANG HOŘKÝ světlý ležák plech 0,5 l 1 l 35,80 Kč < 17,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-0c9078c7df470b90",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "STAROČECH nealko",
+      "brand": "",
+      "description": "pivo · nealkoholické pivo",
+      "packageSize": "0,5 l",
+      "price": 6.9,
+      "priceText": "6,90 Kč",
+      "unitPrice": 13.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "nealkoholické pivo"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "STAROČECH nealko | 0,5 l 1 l 13,80 Kč záloha na lahev 3 Kč < 6,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-2fecff97e6309761",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "STAROPRAMEN 12 světlý ležák plech",
+      "brand": "",
+      "description": "pivo · světlé pivo · ležák",
+      "packageSize": "0,5 l",
+      "price": 17.9,
+      "priceText": "17,90 Kč",
+      "unitPrice": 33.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "STAROPRAMEN 12 světlý ležák plech | 0,5 l 1 l 33,80 Kč < 17,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-f2d42148209e086b",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "BRANDY KOBLEVO RESERVE VSOP 40 % alk.",
+      "brand": "",
+      "description": "alkohol",
+      "packageSize": "0,5 l",
+      "price": 229.9,
+      "priceText": "229,90 Kč",
+      "unitPrice": 439.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "alkohol",
+      "searchTerms": [
+        "alkohol"
+      ],
+      "compareKey": "alkohol",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "BRANDY KOBLEVO RESERVE VSOP 40 % alk. 0,5 l 1 l 439,80 Kč < 229,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-f3e6cb47ca327ae2",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "COOL různé druhy",
+      "brand": "",
+      "description": "pivo · radler · míchaný nápoj",
+      "packageSize": "1,5 l",
+      "price": 36.9,
+      "priceText": "36,90 Kč",
+      "unitPrice": 24.6,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "radler",
+        "míchaný nápoj"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "COOL* různé druhy 1,5 l 1 l 24,60 Kč < 36,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-fa9ad9a22955e0ca",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "VELKOPOPOVICKÝ KOZEL nealko plech",
+      "brand": "",
+      "description": "pivo · nealkoholické pivo",
+      "packageSize": "0,5 l",
+      "price": 17.9,
+      "priceText": "17,90 Kč",
+      "unitPrice": 35.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "nealkoholické pivo"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "VELKOPOPOVICKÝ KOZEL nealko plech | 0,5 l 1 l 35,80 Kč < 17,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-07c7c35ec98f334c",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "KRUŠOVICE 10 světlé výčepní",
+      "brand": "",
+      "description": "pivo · světlé pivo · výčepní pivo",
+      "packageSize": "0,5 l",
+      "price": 9.9,
+      "priceText": "9,90 Kč",
+      "unitPrice": 21.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "výčepní pivo"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "KRUŠOVICE 10 světlé výčepní 0,5 l 1 l 21,80 Kč záloha na lahev 3 Kč < 9,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-d5d64478e4a74561",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "BOHEMIA SEKT různé druhy",
+      "brand": "",
+      "description": "alkohol · sekt · šumivé víno",
+      "packageSize": "0,75 l",
+      "price": 109.9,
+      "priceText": "109,90 Kč",
+      "unitPrice": 173.2,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "alkohol",
+      "searchTerms": [
+        "alkohol",
+        "sekt",
+        "šumivé víno"
+      ],
+      "compareKey": "alkohol",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "BOHEMIA SEKT různé druhy 0,75 l 1 l 173,20 Kč < 109,90 Kč v nabídce také další druhy za 129,90 Kč"
+    },
+    {
+      "id": "penny-page20-v4-0f676f779ef9aa2c",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "SVIJANSKÝ MÁZ světlý ležák",
+      "brand": "",
+      "description": "pivo · světlé pivo · ležák",
+      "packageSize": "0,5 l",
+      "price": 10.9,
+      "priceText": "10,90 Kč",
+      "unitPrice": 23.8,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "pivo",
+      "searchTerms": [
+        "pivo",
+        "světlé pivo",
+        "ležák"
+      ],
+      "compareKey": "pivo",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "SVIJANSKÝ MÁZ světlý ležák 0,5 l | 1 l 23,80 Kč < 10,90 Kč záloha na lahev 3 Kč"
+    },
+    {
+      "id": "penny-page20-v4-3985c227ddb407d5",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "PROSECCO bílé perlivé",
+      "brand": "",
+      "description": "alkohol · prosecco · šumivé víno",
+      "packageSize": "0,75 l",
+      "price": 59.9,
+      "priceText": "59,90 Kč",
+      "unitPrice": 93.2,
+      "unit": "l",
+      "validTo": "19.05.2026",
+      "pageNumber": 20,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/20/index.html",
+      "category": "alkohol",
+      "searchTerms": [
+        "alkohol",
+        "prosecco",
+        "šumivé víno"
+      ],
+      "compareKey": "alkohol",
+      "confidence": "high-page20-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 20 v4 – ověřit proti letáku"
+      ],
+      "rawContext": "PROSECCO bílé perlivé 0,75 l 1 l 93,20 Kč < 59,90 Kč 0,7 l Nabídka platná od středy 13. 5. do úterý 19. 5. 2026 původem z Itálie"
+    }
+  ],
+  "blocks": [
+    {
+      "start": "SKOTSKÁ WHISKY MC ILLROY",
+      "category": "alkohol",
+      "block": "SKOTSKÁ WHISKY MC ILLROY 40 % alk. 0,7 l 1 l 299,86 Kč < 219,90 Kč"
+    },
+    {
+      "start": "OSTRAVAR MUSTANG",
+      "category": "pivo",
+      "block": "OSTRAVAR MUSTANG* světlý ležák plech | 0,5 l 1 l 35,80 Kč v limitované nabídce také Černá Barbora 0,5 l za 18,90 Kč"
+    },
+    {
+      "start": "BRANÍK",
+      "category": "pivo",
+      "block": "BRANÍK světlé výčepní 0,5 l 1 l 19,80 Kč záloha na lahev 3 Kč < 9,90 Kč"
+    },
+    {
+      "start": "VELKOPOPOVICKÝ KOZEL 10",
+      "category": "pivo",
+      "block": "VELKOPOPOVICKÝ KOZEL 10* světlé výčepní 0,5 l 1 l 25,80 Kč záloha na lahev 3 Kč < 11,90 Kč"
+    },
+    {
+      "start": "STAROČECH ORIGINAL",
+      "category": "pivo",
+      "block": "STAROČECH ORIGINAL světlé výčepní 0,5 l | 1 l 15,80 Kč záloha na lahev 3 Kč < 11,90 Kč"
+    },
+    {
+      "start": "STAROPRAMEN 10",
+      "category": "pivo",
+      "block": "STAROPRAMEN 10 světlé výčepní plech, 0,5 l 1 l 29,80 Kč < 14,90 Kč STAROČECH polotmavý ležák, plech 0,5 l 1 l 27,80 Kč < 14,90 Kč"
+    },
+    {
+      "start": "RADEGAST RATAR",
+      "category": "pivo",
+      "block": "RADEGAST RATAR* hořký ležák plech | 0,5 l 1 l 41,80 Kč < 20,90 Kč"
+    },
+    {
+      "start": "BUDWEISER BUDVAR",
+      "category": "pivo",
+      "block": "BUDWEISER BUDVAR světlý ležák 0,5 l 1 l 39,80 Kč < 19,90 Kč"
+    },
+    {
+      "start": "GAMBRINUS PATRON",
+      "category": "pivo",
+      "block": "GAMBRINUS PATRON světlý ležák plech 0,5 l 1 l 37,80 Kč < 18,90 Kč"
+    },
+    {
+      "start": "ZUBR GRAND, HOLBA ŠERÁK",
+      "category": "pivo",
+      "block": "ZUBR GRAND, HOLBA ŠERÁK světlý ležák plech | 0,5 l 1 l 31,80 Kč < 16,90 Kč"
+    },
+    {
+      "start": "KRUŠOVICE 12",
+      "category": "pivo",
+      "block": "KRUŠOVICE 12 světlý ležák plech | 0,5 l 1 l 33,80 Kč < 16,90 Kč MUSTANG HOŘKÝ světlý ležák plech 0,5 l 1 l 35,80 Kč < 17,90 Kč"
+    },
+    {
+      "start": "STAROČECH nealko",
+      "category": "pivo",
+      "block": "STAROČECH nealko | 0,5 l 1 l 13,80 Kč záloha na lahev 3 Kč < 6,90 Kč"
+    },
+    {
+      "start": "STAROPRAMEN 12",
+      "category": "pivo",
+      "block": "STAROPRAMEN 12 světlý ležák plech | 0,5 l 1 l 33,80 Kč < 17,90 Kč"
+    },
+    {
+      "start": "BRANDY KOBLEVO RESERVE VSOP",
+      "category": "alkohol",
+      "block": "BRANDY KOBLEVO RESERVE VSOP 40 % alk. 0,5 l 1 l 439,80 Kč < 229,90 Kč"
+    },
+    {
+      "start": "COOL",
+      "category": "pivo",
+      "block": "COOL* různé druhy 1,5 l 1 l 24,60 Kč < 36,90 Kč"
+    },
+    {
+      "start": "VELKOPOPOVICKÝ KOZEL nealko",
+      "category": "pivo",
+      "block": "VELKOPOPOVICKÝ KOZEL nealko plech | 0,5 l 1 l 35,80 Kč < 17,90 Kč"
+    },
+    {
+      "start": "KRUŠOVICE 10",
+      "category": "pivo",
+      "block": "KRUŠOVICE 10 světlé výčepní 0,5 l 1 l 21,80 Kč záloha na lahev 3 Kč < 9,90 Kč"
+    },
+    {
+      "start": "BOHEMIA SEKT",
+      "category": "alkohol",
+      "block": "BOHEMIA SEKT různé druhy 0,75 l 1 l 173,20 Kč < 109,90 Kč v nabídce také další druhy za 129,90 Kč"
+    },
+    {
+      "start": "SVIJANSKÝ MÁZ",
+      "category": "pivo",
+      "block": "SVIJANSKÝ MÁZ světlý ležák 0,5 l | 1 l 23,80 Kč < 10,90 Kč záloha na lahev 3 Kč"
+    },
+    {
+      "start": "PROSECCO",
+      "category": "alkohol",
+      "block": "PROSECCO bílé perlivé 0,75 l 1 l 93,20 Kč < 59,90 Kč 0,7 l Nabídka platná od středy 13. 5. do úterý 19. 5. 2026 původem z Itálie"
+    }
+  ],
+  "pageTextPreview": "20 < Nejnižší cena za posledních 30 dní 209,90 279,90/ 25% 219,90 279,90/ 21% 36,90 **54,90/ 32% 17,90 **25,90/ 30% 9,90 14,90/ 33% 12,90 **16,90/ 23% 7,90 11,90/ 33% 14,90 21,90/ 31% 13,90 17,90/ 22% 20,90 **29,90/ 30% 19,90 24,90/ 20% 18,90 25,90/ 27% 15,90 22,90/ 30% 16,90 24,90/ 32% 17,90 25,90/ 30% 16,90 25,90/ 34% 6,90 9,90/ 30% 17,90 22,90/ 21% 10,90 16,90/ 35% 129,90 179,90/ 27% 11,90 19,90/ 40% 69,90 109,90/ 36% SKOTSKÁ WHISKY MC ILLROY 40 % alk. 0,7 l 1 l 299,86 Kč < 219,90 Kč OSTRAVAR MUSTANG* světlý ležák plech | 0,5 l 1 l 35,80 Kč v limitované nabídce také Černá Barbora 0,5 l za 18,90 Kč BRANÍK světlé výčepní 0,5 l 1 l 19,80 Kč záloha na lahev 3 Kč < 9,90 Kč VELKOPOPOVICKÝ KOZEL 10* světlé výčepní 0,5 l 1 l 25,80 Kč záloha na lahev 3 Kč < 11,90 Kč STAROČECH ORIGINAL světlé výčepní 0,5 l | 1 l 15,80 Kč záloha na lahev 3 Kč < 11,90 Kč STAROPRAMEN 10 světlé výčepní plech, 0,5 l 1 l 29,80 Kč < 14,90 Kč STAROČECH polotmavý ležák, plech 0,5 l 1 l 27,80 Kč < 14,90 Kč RADEGAST RATAR* hořký ležák plech | 0,5 l 1 l 41,80 Kč < 20,90 Kč BUDWEISER BUDVAR světlý ležák 0,5 l 1 l 39,80 Kč < 19,90 Kč GAMBRINUS PATRON světlý ležák plech 0,5 l 1 l 37,80 Kč < 18,90 Kč ZUBR GRAND, HOLBA ŠERÁK světlý ležák plech | 0,5 l 1 l 31,80 Kč < 16,90 Kč KRUŠOVICE 12 světlý ležák plech | 0,5 l 1 l 33,80 Kč < 16,90 Kč MUSTANG HOŘKÝ světlý ležák plech 0,5 l 1 l 35,80 Kč < 17,90 Kč STAROČECH nealko | 0,5 l 1 l 13,80 Kč záloha na lahev 3 Kč < 6,90 Kč STAROPRAMEN 12 světlý ležák plech | 0,5 l 1 l 33,80 Kč < 17,90 Kč BRANDY KOBLEVO RESERVE VSOP 40 % alk. 0,5 l 1 l 439,80 Kč < 229,90 Kč COOL* různé druhy 1,5 l 1 l 24,60 Kč < 36,90 Kč VELKOPOPOVICKÝ KOZEL nealko plech | 0,5 l 1 l 35,80 Kč < 17,90 Kč KRUŠOVICE 10 světlé výčepní 0,5 l 1 l 21,80 Kč záloha na lahev 3 Kč < 9,90 Kč BOHEMIA SEKT různé druhy 0,75 l 1 l 173,20 Kč < 109,90 Kč v nabídce také další druhy za 129,90 Kč SVIJANSKÝ MÁZ světlý ležák 0,5 l | 1 l 23,80 Kč < 10,90 Kč záloha na lahev 3 Kč PROSECCO bílé perlivé 0,75 l 1 l 93,20 Kč < 59,90 Kč 0,7 l Nabídka platná od středy 13. 5. do úterý 19. 5. 2026 původem z Itálie"
+}

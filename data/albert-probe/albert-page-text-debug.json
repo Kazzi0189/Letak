@@ -1,0 +1,2694 @@
+{
+  "summary": {
+    "checkedAt": "2026-05-15T04:44:45.802Z",
+    "summary": {
+      "totalOfferCandidates": 0,
+      "recommendedPath": "inspect-debug-before-parser",
+      "leaflets": [
+        {
+          "id": "20sm_akcni_letak",
+          "type": "supermarket",
+          "title": "Albert supermarket akční leták",
+          "pagesChecked": 42,
+          "pagesWithText": 34,
+          "pagesWithImages": 42,
+          "offerCandidates": 0,
+          "priceExamples": [
+            "2016,90",
+            "2016,77",
+            "2089,90",
+            "2026,90",
+            "269,-",
+            "69,95 Kč",
+            "2034,90",
+            "2026,07",
+            "2021,72",
+            "0194,-",
+            "2032,90",
+            "0179,-",
+            "0139,90",
+            "2039,90",
+            "2049,90",
+            "2037,90",
+            "2030,90",
+            "159,-",
+            "2099,90",
+            "2017,45",
+            "2014,95",
+            "2045,90",
+            "89,50 Kč",
+            "179,-",
+            "8,75 Kč",
+            "49,90",
+            "35,80 Kč",
+            "17,90 Kč",
+            "25,90",
+            "37,80 Kč",
+            "18,90 Kč",
+            "19,07 Kč",
+            "53,90 Kč",
+            "69,90",
+            "2028,63",
+            "2024,88",
+            "2029,90",
+            "26,89 Kč",
+            "25,89 Kč",
+            "1284,29",
+            "1849,-",
+            "0999,-",
+            "0419,-",
+            "0899,-"
+          ],
+          "unitPriceExamples": [
+            "100 g od 69,95 Kč",
+            "100 g = 89,50 Kč",
+            "1 ks = 8,75 Kč",
+            "1 l = 35,80 Kč",
+            "1 l = 37,80 Kč",
+            "100 g = 19,07 Kč",
+            "100 g = 26,89 Kč",
+            "100 g = 25,89 Kč"
+          ],
+          "recommendedPath": "improve-hidden-text-parser"
+        },
+        {
+          "id": "20hm_akcni_letak",
+          "type": "hypermarket",
+          "title": "Albert hypermarket akční leták",
+          "pagesChecked": 60,
+          "pagesWithText": 54,
+          "pagesWithImages": 60,
+          "offerCandidates": 0,
+          "priceExamples": [
+            "0229,-",
+            "2089,90",
+            "2026,90",
+            "35,80 Kč",
+            "17,90 Kč",
+            "25,90",
+            "30,70",
+            "2034,90",
+            "2023,90",
+            "2011,47",
+            "209,93",
+            "2022,90",
+            "2099,90",
+            "0257,75",
+            "0179,-",
+            "2069,90",
+            "2029,90",
+            "2039,97",
+            "2044,90",
+            "2037,90",
+            "2014,15",
+            "2012,90",
+            "2016,98",
+            "2015,98",
+            "0109,90",
+            "2015,90",
+            "2027,90",
+            "3. 20",
+            "5. 20",
+            "49,90",
+            "2024,88",
+            "2019,90",
+            "0175,89",
+            "2019,98",
+            "2067,90",
+            "0119,90",
+            "51,74 Kč",
+            "11,90 Kč",
+            "19,90",
+            "57,90",
+            "59,80 Kč",
+            "29,90 Kč",
+            "32,90",
+            "34,90",
+            "25,80 Kč",
+            "12,90 Kč",
+            "37,80 Kč",
+            "21,90",
+            "16,90",
+            "0259,80",
+            "0339,-",
+            "0299,-",
+            "0249,-",
+            "0399,-",
+            "2013,90",
+            "2014,90",
+            "2018,90",
+            "206,27",
+            "2011,90",
+            "3,33 Kč"
+          ],
+          "unitPriceExamples": [
+            "1 l = 35,80 Kč",
+            "100 g= 51,74 Kč",
+            "1 l = 59,80 Kč",
+            "1 l = 25,80 Kč",
+            "1 l = 37,80 Kč",
+            "1 ks = 3,33 Kč",
+            "100 g = 46,54 Kč",
+            "1 kg = 78,69 Kč",
+            "100 g = 112,86 Kč",
+            "100 g = 131,67 Kč",
+            "100 g = 43,96 Kč",
+            "100 ml = 119,80 Kč"
+          ],
+          "recommendedPath": "improve-hidden-text-parser"
+        }
+      ]
+    },
+    "sampleOffers": []
+  },
+  "results": [
+    {
+      "leaflet": {
+        "id": "20sm_akcni_letak",
+        "type": "supermarket",
+        "title": "Albert supermarket akční leták",
+        "baseUrl": "https://letaky.albert.cz/20sm_akcni_letak/",
+        "maxPages": 42
+      },
+      "summary": {
+        "pagesChecked": 42,
+        "pagesWithText": 34,
+        "pagesWithImages": 42,
+        "offerCandidates": 0,
+        "priceExamples": [
+          "2016,90",
+          "2016,77",
+          "2089,90",
+          "2026,90",
+          "269,-",
+          "69,95 Kč",
+          "2034,90",
+          "2026,07",
+          "2021,72",
+          "0194,-",
+          "2032,90",
+          "0179,-",
+          "0139,90",
+          "2039,90",
+          "2049,90",
+          "2037,90",
+          "2030,90",
+          "159,-",
+          "2099,90",
+          "2017,45",
+          "2014,95",
+          "2045,90",
+          "89,50 Kč",
+          "179,-",
+          "8,75 Kč",
+          "49,90",
+          "35,80 Kč",
+          "17,90 Kč",
+          "25,90",
+          "37,80 Kč",
+          "18,90 Kč",
+          "19,07 Kč",
+          "53,90 Kč",
+          "69,90",
+          "2028,63",
+          "2024,88",
+          "2029,90",
+          "26,89 Kč",
+          "25,89 Kč",
+          "1284,29",
+          "1849,-",
+          "0999,-",
+          "0419,-",
+          "0899,-"
+        ],
+        "unitPriceExamples": [
+          "100 g od 69,95 Kč",
+          "100 g = 89,50 Kč",
+          "1 ks = 8,75 Kč",
+          "1 l = 35,80 Kč",
+          "1 l = 37,80 Kč",
+          "100 g = 19,07 Kč",
+          "100 g = 26,89 Kč",
+          "100 g = 25,89 Kč"
+        ],
+        "recommendedPath": "improve-hidden-text-parser"
+      },
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/1",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193870,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Od % 2013. % 205. % 20do % 2019. % 205. % 202026 % 20www.albert.cz % 2016,90 % 20-29 % 20 % % 2011 % 2090 % 20Donut % 20s % 20n % C3 % A1pln % C3 % AD % 20 % E2 % 80 % A2 % 2069 % E2 % 80 % 9371 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20od % 2016,77 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20r % C5 % AFzn % C3 % A9 % 20druhy % 20-50 % 20 % % 2089,90 % 2044 % 20Nature"
+          ],
+          "textLength": 368,
+          "priceExamples": [
+            "2016,90",
+            "2016,77",
+            "2089,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 2,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/2",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193880,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 2026,90 % 20-33 % 20 % % 2017 % 20BEZ % 20APLIKACE % 2090 % 202190 % 20Nature"
+          ],
+          "textLength": 102,
+          "priceExamples": [
+            "2026,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 3,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/3",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193880,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 2026,90 % 20-33 % 20 % % 2017 % 20BEZ % 20APLIKACE % 2090 % 202190 % 20Nature"
+          ],
+          "textLength": 102,
+          "priceExamples": [
+            "2026,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 4,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/4",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193860,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NEPORAZITELNÉ BĚŽNÁ CENA 269,- 129 BEZ APLIKACE 90 13990 Tchibo Gold Selection • instantní káva • 180–200 g • 100 g od 69,95 Kč bez Aplikace"
+          ],
+          "textLength": 140,
+          "priceExamples": [
+            "269,-",
+            "69,95 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g od 69,95 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 5,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/5",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193860,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NEPORAZITELNÉ BĚŽNÁ CENA 269,- 129 BEZ APLIKACE 90 13990 Tchibo Gold Selection • instantní káva • 180–200 g • 100 g od 69,95 Kč bez Aplikace"
+          ],
+          "textLength": 140,
+          "priceExamples": [
+            "269,-",
+            "69,95 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g od 69,95 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 6,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/6",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193858,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 20Madeta % 20Jiho % C4 % 8Desk % C3 % BD % 20eidam % 2030 % % 20 % E2 % 80 % 93 % 20pl % C3 % A1tky % 2034,90 % 20-42 % 20 % % 20Lip % C3 % A1nek % 2019 % 20 % E2 % 80 % A2 % 20100 % 20g % 20BEZ % 20APLIKACE % 2090 % 20 % E2 % 80 % A2 % 20130 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2013 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20-29 % 20 % % 20Fantasia % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 435,
+          "priceExamples": [
+            "2034,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 7,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/7",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193858,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 20Madeta % 20Jiho % C4 % 8Desk % C3 % BD % 20eidam % 2030 % % 20 % E2 % 80 % 93 % 20pl % C3 % A1tky % 2034,90 % 20-42 % 20 % % 20Lip % C3 % A1nek % 2019 % 20 % E2 % 80 % A2 % 20100 % 20g % 20BEZ % 20APLIKACE % 2090 % 20 % E2 % 80 % A2 % 20130 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2013 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20-29 % 20 % % 20Fantasia % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 435,
+          "priceExamples": [
+            "2034,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 8,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/8",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193868,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 20Zmrzlina % 20H % C3 % A4agen-Dazs % 20 % E2 % 80 % A2 % 20460 % 20ml % 20 % E2 % 80 % A2 % 20100 % 20ml % 20= % 2026,07 % 20K % C4 % 8D % 20bez % 20Aplikace % 20",
+            "% 2021,72 % 20K % C4 % 8D % 20Aplikace % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20194,- % 20-48 % 20 % % 2099 % 20BEZ % 20APLIKACE % 20-33 % 20 % % 2032,90 % 2021 % 2090"
+          ],
+          "textLength": 370,
+          "priceExamples": [
+            "2026,07",
+            "2021,72",
+            "0194,-",
+            "2032,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 9,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/9",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193868,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 20Zmrzlina % 20H % C3 % A4agen-Dazs % 20 % E2 % 80 % A2 % 20460 % 20ml % 20 % E2 % 80 % A2 % 20100 % 20ml % 20= % 2026,07 % 20K % C4 % 8D % 20bez % 20Aplikace % 20",
+            "% 2021,72 % 20K % C4 % 8D % 20Aplikace % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20194,- % 20-48 % 20 % % 2099 % 20BEZ % 20APLIKACE % 20-33 % 20 % % 2032,90 % 2021 % 2090"
+          ],
+          "textLength": 370,
+          "priceExamples": [
+            "2026,07",
+            "2021,72",
+            "0194,-",
+            "2032,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 10,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/10",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193865,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "TO % 20NEJLEP % C5 % A0 % C3 % 8D % 20NA % 20GRI % 20L % 20179,- % 20 3 % 20Albert % 20Marinovan % C3 % BD % 20vep % C5 % 99ov % C3 % BD % 20Back % 20Bacon % 20-21 % 20 % % 2090 % 20Albert % 20Ku % C5 % 99ec % C3 % AD % 20stehna % 20139,90 % 20marinovan % C3 % A1 % 20Duo % 20KREDITY % 20NAV % C3 % 8DC % 20-21 % 20 % % 2090 % 20109 % 20 % E2 % 80 % A2 % 20masn % C3 % BD"
+          ],
+          "textLength": 371,
+          "priceExamples": [
+            "0179,-",
+            "0139,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 11,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/11",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193865,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "TO % 20NEJLEP % C5 % A0 % C3 % 8D % 20NA % 20GRI % 20L % 20179,- % 20 3 % 20Albert % 20Marinovan % C3 % BD % 20vep % C5 % 99ov % C3 % BD % 20Back % 20Bacon % 20-21 % 20 % % 2090 % 20Albert % 20Ku % C5 % 99ec % C3 % AD % 20stehna % 20139,90 % 20marinovan % C3 % A1 % 20Duo % 20KREDITY % 20NAV % C3 % 8DC % 20-21 % 20 % % 2090 % 20109 % 20 % E2 % 80 % A2 % 20masn % C3 % BD"
+          ],
+          "textLength": 371,
+          "priceExamples": [
+            "0179,-",
+            "0139,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 12,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/12",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193875,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "-37 % 20 % % 2039,90 % 20Meloun % 20vodn % C3 % AD % 2024 % 2049,90 % 20- % 2044 % 20 % % 20 % E2 % 80 % A2 % 201 % 20kg % 20 % E2 % 80 % A2 % 20v % 20nab % C3 % ADdce % 20tak % C3 % A9 % 20kr % C3 % A1jen % C3 % A1 % 20verze, % 201 % 20kg % 20za % 2037,90 % 20K % C4 % 8D % 20",
+            "% 2030,90 % 20K % C4 % 8D % 20Aplikace % 2027 % 20BEZ % 20APLIKACE % 2090 % 20Avok % C3 % A1do % 20 % E2 % 80 % A2 % 201 % 20ks % 2090 % 203490"
+          ],
+          "textLength": 421,
+          "priceExamples": [
+            "2039,90",
+            "2049,90",
+            "2037,90",
+            "2030,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 13,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/13",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193875,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "-37 % 20 % % 2039,90 % 20Meloun % 20vodn % C3 % AD % 2024 % 2049,90 % 20- % 2044 % 20 % % 20 % E2 % 80 % A2 % 201 % 20kg % 20 % E2 % 80 % A2 % 20v % 20nab % C3 % ADdce % 20tak % C3 % A9 % 20kr % C3 % A1jen % C3 % A1 % 20verze, % 201 % 20kg % 20za % 2037,90 % 20K % C4 % 8D % 20",
+            "% 2030,90 % 20K % C4 % 8D % 20Aplikace % 2027 % 20BEZ % 20APLIKACE % 2090 % 20Avok % C3 % A1do % 20 % E2 % 80 % A2 % 201 % 20ks % 2090 % 203490"
+          ],
+          "textLength": 421,
+          "priceExamples": [
+            "2039,90",
+            "2049,90",
+            "2037,90",
+            "2030,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 14,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/14",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193876,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 15,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/15",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193876,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 16,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/16",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193869,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 17,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/17",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193869,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 18,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/18",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193869,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "159,- % 20-30 % 20 % % 2090 % 20Ku % C5 % 99e % 20 % E2 % 80 % A2 % 20chlazen % C3 % A9 % 20109 % 20Ku % C5 % 99ec % C3 % AD % 20zadn % C3 % AD % 20 % C4 % 8Dtvrtky % 20 % E2 % 80 % A2 % 20chlazen % C3 % A9 % 20 % E2 % 80 % A2 % 201 % 20kg % 2099,90 % 20Ku % C5 % 99ec % C3 % AD % 20stehna % 20 % E2 % 80 % A2 % 20chlazen % C3 % A1 % 20 % E2 % 80 % A2 % 201 % 20kg % 20-24 % 20 % % 2090 % 20119 % 20 % E2 % 80 % A2 % 201 % 20kg % 20-20 % 20 % % 207990 % 20Ku % C5 % 99ec % C3 % AD % 20prsn % C3 % AD"
+          ],
+          "textLength": 499,
+          "priceExamples": [
+            "159,-",
+            "2099,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 19,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/19",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193869,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "159,- % 20-30 % 20 % % 2090 % 20Ku % C5 % 99e % 20 % E2 % 80 % A2 % 20chlazen % C3 % A9 % 20109 % 20Ku % C5 % 99ec % C3 % AD % 20zadn % C3 % AD % 20 % C4 % 8Dtvrtky % 20 % E2 % 80 % A2 % 20chlazen % C3 % A9 % 20 % E2 % 80 % A2 % 201 % 20kg % 2099,90 % 20Ku % C5 % 99ec % C3 % AD % 20stehna % 20 % E2 % 80 % A2 % 20chlazen % C3 % A1 % 20 % E2 % 80 % A2 % 201 % 20kg % 20-24 % 20 % % 2090 % 20119 % 20 % E2 % 80 % A2 % 201 % 20kg % 20-20 % 20 % % 207990 % 20Ku % C5 % 99ec % C3 % AD % 20prsn % C3 % AD"
+          ],
+          "textLength": 499,
+          "priceExamples": [
+            "159,-",
+            "2099,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 20,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/20",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193877,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "Jiho % C4 % 8Desk % C3 % A1 % 20niva % 2045 % % 2032,90 % 20 % E2 % 80 % A2 % 20100 % 20g % 20Gouda % 2048 % % 20 % E2 % 80 % 93 % 20pl % C3 % A1tky % 20-21 % 20 % % 2025 % 20 % E2 % 80 % A2 % 20200 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2017,45 % 20K % C4 % 8D % 20bez % 20Aplikace % 20",
+            "% 2014,95 % 20K % C4 % 8D % 20Aplikace % 2090 % 2045,90 % 20Leerdammer % 20 % E2 % 80 % 93 % 20pl % C3 % A1tky % 20 % E2 % 80 % A2 % 20100 % 20g % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 461,
+          "priceExamples": [
+            "2032,90",
+            "2017,45",
+            "2014,95",
+            "2045,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 21,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/21",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193877,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "Jiho % C4 % 8Desk % C3 % A1 % 20niva % 2045 % % 2032,90 % 20 % E2 % 80 % A2 % 20100 % 20g % 20Gouda % 2048 % % 20 % E2 % 80 % 93 % 20pl % C3 % A1tky % 20-21 % 20 % % 2025 % 20 % E2 % 80 % A2 % 20200 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2017,45 % 20K % C4 % 8D % 20bez % 20Aplikace % 20",
+            "% 2014,95 % 20K % C4 % 8D % 20Aplikace % 2090 % 2045,90 % 20Leerdammer % 20 % E2 % 80 % 93 % 20pl % C3 % A1tky % 20 % E2 % 80 % A2 % 20100 % 20g % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 461,
+          "priceExamples": [
+            "2032,90",
+            "2017,45",
+            "2014,95",
+            "2045,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 22,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/22",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193887,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 23,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/23",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193887,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 24,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/24",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193865,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Granko Nescafé Gold • instantní káva • 200 g • 100 g = 89,50 Kč • vybrané druhy • 179 Kč 179,- • 16 ks • 1 ks = 8,75 Kč bez Aplikace"
+          ],
+          "textLength": 132,
+          "priceExamples": [
+            "89,50 Kč",
+            "179,-",
+            "8,75 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g = 89,50 Kč",
+            "1 ks = 8,75 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 25,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/25",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193865,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Granko Nescafé Gold • instantní káva • 200 g • 100 g = 89,50 Kč • vybrané druhy • 179 Kč 179,- • 16 ks • 1 ks = 8,75 Kč bez Aplikace"
+          ],
+          "textLength": 132,
+          "priceExamples": [
+            "89,50 Kč",
+            "179,-",
+            "8,75 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g = 89,50 Kč",
+            "1 ks = 8,75 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 26,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/26",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193869,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Fanta 49,90 Trvanlivé Nápoje 90 potraviny 29 BĚŽNÁ CENA Semtex • energetický nápoj • 0,5 l • 1 l = 35,80 Kč • vybrané druhy • 17,90 Kč"
+          ],
+          "textLength": 134,
+          "priceExamples": [
+            "49,90",
+            "35,80 Kč",
+            "17,90 Kč"
+          ],
+          "unitPriceExamples": [
+            "1 l = 35,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 27,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/27",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193869,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Fanta 49,90 Trvanlivé Nápoje 90 potraviny 29 BĚŽNÁ CENA Semtex • energetický nápoj • 0,5 l • 1 l = 35,80 Kč • vybrané druhy • 17,90 Kč"
+          ],
+          "textLength": 134,
+          "priceExamples": [
+            "49,90",
+            "35,80 Kč",
+            "17,90 Kč"
+          ],
+          "unitPriceExamples": [
+            "1 l = 35,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 28,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/28",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193877,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "FANDÍME HOKEJI Birell 25,90 • nealkoholické pivo • 0,5 l • 1 l = 37,80 Kč • vybrané druhy • 18,90 Kč 1890 99 Cool • nealkoholické pivo • 0,5 l • 1 l = 37,80 Kč"
+          ],
+          "textLength": 159,
+          "priceExamples": [
+            "25,90",
+            "37,80 Kč",
+            "18,90 Kč"
+          ],
+          "unitPriceExamples": [
+            "1 l = 37,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 29,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/29",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193877,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "FANDÍME HOKEJI Birell 25,90 • nealkoholické pivo • 0,5 l • 1 l = 37,80 Kč • vybrané druhy • 18,90 Kč 1890 99 Cool • nealkoholické pivo • 0,5 l • 1 l = 37,80 Kč"
+          ],
+          "textLength": 159,
+          "priceExamples": [
+            "25,90",
+            "37,80 Kč",
+            "18,90 Kč"
+          ],
+          "unitPriceExamples": [
+            "1 l = 37,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 30,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/30",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193877,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 31,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/31",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193877,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 32,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/32",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193879,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Felix Soup Kapsičky pro kočky • 6× 48 g • 100 g = 19,07 Kč • vybrané druhy • 53,90 Kč 54 69,90 90 Zvířata Drogerie 4× 85 g Friskies Granule pro kočky • 1,7 kg •"
+          ],
+          "textLength": 160,
+          "priceExamples": [
+            "19,07 Kč",
+            "53,90 Kč",
+            "69,90"
+          ],
+          "unitPriceExamples": [
+            "100 g = 19,07 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 33,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/33",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193879,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Felix Soup Kapsičky pro kočky • 6× 48 g • 100 g = 19,07 Kč • vybrané druhy • 53,90 Kč 54 69,90 90 Zvířata Drogerie 4× 85 g Friskies Granule pro kočky • 1,7 kg •"
+          ],
+          "textLength": 160,
+          "priceExamples": [
+            "19,07 Kč",
+            "53,90 Kč",
+            "69,90"
+          ],
+          "unitPriceExamples": [
+            "100 g = 19,07 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 34,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/34",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193875,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "V % C3 % 8DCE % 20AKC % C3 % 8D % 20Gervais % 20 % E2 % 80 % A2 % 2080 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2028,63 % 20K % C4 % 8D % 20bez % 20Aplikace % 20",
+            "% 2024,88 % 20K % C4 % 8D % 20Aplikace % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 2029,90 % 20-33 % 20 % % 2019 % 20BEZ % 20APLIKACE % 2090 % 20EXTRA % 20LET % C3 % 81K % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20Kr % C3 % A1sno % 20 % C5 % A0unka"
+          ],
+          "textLength": 422,
+          "priceExamples": [
+            "2028,63",
+            "2024,88",
+            "2029,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 35,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/35",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193875,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "V % C3 % 8DCE % 20AKC % C3 % 8D % 20Gervais % 20 % E2 % 80 % A2 % 2080 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2028,63 % 20K % C4 % 8D % 20bez % 20Aplikace % 20",
+            "% 2024,88 % 20K % C4 % 8D % 20Aplikace % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 2029,90 % 20-33 % 20 % % 2019 % 20BEZ % 20APLIKACE % 2090 % 20EXTRA % 20LET % C3 % 81K % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20Kr % C3 % A1sno % 20 % C5 % A0unka"
+          ],
+          "textLength": 422,
+          "priceExamples": [
+            "2028,63",
+            "2024,88",
+            "2029,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 36,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/36",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193879,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "V % C3 % 8DCE % 20AKC % C3 % 8D % 2029,90 % 20EXTRA % 20LET % C3 % 81K % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20Treska % 20tmav % C3 % A1 % 20 % E2 % 80 % 93 % 20filet % 20 % E2 % 80 % A2 % 20chlazen % C3 % A1 % 20 % E2 % 80 % A2 % 20balen % C3 % A1 % 20 % E2 % 80 % A2 % 20cena % 20za % 20100 % 20g % 20-10 % 20 % % 202690 % 2011990 % 20Krevety % 20cel % C3 % A9 % 20 % E2 % 80 % A2 % 20chlazen % C3 % A9 % 20 % E2 % 80 % A2 % 20balen % C3 % A9 % 20 % E2 % 80 % A2 % 20300 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g"
+          ],
+          "textLength": 512,
+          "priceExamples": [
+            "2029,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 37,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/37",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193879,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "V % C3 % 8DCE % 20AKC % C3 % 8D % 2029,90 % 20EXTRA % 20LET % C3 % 81K % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20Treska % 20tmav % C3 % A1 % 20 % E2 % 80 % 93 % 20filet % 20 % E2 % 80 % A2 % 20chlazen % C3 % A1 % 20 % E2 % 80 % A2 % 20balen % C3 % A1 % 20 % E2 % 80 % A2 % 20cena % 20za % 20100 % 20g % 20-10 % 20 % % 202690 % 2011990 % 20Krevety % 20cel % C3 % A9 % 20 % E2 % 80 % A2 % 20chlazen % C3 % A9 % 20 % E2 % 80 % A2 % 20balen % C3 % A9 % 20 % E2 % 80 % A2 % 20300 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g"
+          ],
+          "textLength": 512,
+          "priceExamples": [
+            "2029,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 38,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/38",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193877,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "EXTRA LETÁK VÍCE AKCÍ VYBER SI A MUŽEŠ JÍ(S)T! SUPER CENA • chlazená • balená • 260 g • 100 g = 26,89 Kč 1 • chlazená • balená • 270 g • 100 g = 25,89 Kč 6990"
+          ],
+          "textLength": 158,
+          "priceExamples": [
+            "26,89 Kč",
+            "25,89 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g = 26,89 Kč",
+            "100 g = 25,89 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 39,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/39",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193877,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "EXTRA LETÁK VÍCE AKCÍ VYBER SI A MUŽEŠ JÍ(S)T! SUPER CENA • chlazená • balená • 260 g • 100 g = 26,89 Kč 1 • chlazená • balená • 270 g • 100 g = 25,89 Kč 6990"
+          ],
+          "textLength": 158,
+          "priceExamples": [
+            "26,89 Kč",
+            "25,89 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g = 26,89 Kč",
+            "100 g = 25,89 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 40,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/40",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193871,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "V % C3 % 8DCE % 20AKC % C3 % 8D % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20EXTRA % 20LET % C3 % 81K % 20EXTRA % 20LET % C3 % 81K % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20Don % 20Papa % 20Baroko % 20 % E2 % 80 % A2 % 2040 % % 20 % E2 % 80 % A2 % 200,7 % 20l % 20 % E2 % 80 % A2 % 201 % 20l % 20= % 201284,29 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20899 % 20K % C4 % 8D % 201849,- % 20999,- % 20419,- % 20899,- % 20Republica"
+          ],
+          "textLength": 453,
+          "priceExamples": [
+            "1284,29",
+            "1849,-",
+            "0999,-",
+            "0419,-",
+            "0899,-"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 41,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/41",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193871,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "V % C3 % 8DCE % 20AKC % C3 % 8D % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20EXTRA % 20LET % C3 % 81K % 20EXTRA % 20LET % C3 % 81K % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20Don % 20Papa % 20Baroko % 20 % E2 % 80 % A2 % 2040 % % 20 % E2 % 80 % A2 % 200,7 % 20l % 20 % E2 % 80 % A2 % 201 % 20l % 20= % 201284,29 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20899 % 20K % C4 % 8D % 201849,- % 20999,- % 20419,- % 20899,- % 20Republica"
+          ],
+          "textLength": 453,
+          "priceExamples": [
+            "1284,29",
+            "1849,-",
+            "0999,-",
+            "0419,-",
+            "0899,-"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 42,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/42",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193868,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 20Zmrzlina % 20H % C3 % A4agen-Dazs % 20 % E2 % 80 % A2 % 20460 % 20ml % 20 % E2 % 80 % A2 % 20100 % 20ml % 20= % 2026,07 % 20K % C4 % 8D % 20bez % 20Aplikace % 20",
+            "% 2021,72 % 20K % C4 % 8D % 20Aplikace % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20194,- % 20-48 % 20 % % 2099 % 20BEZ % 20APLIKACE % 20-33 % 20 % % 2032,90 % 2021 % 2090"
+          ],
+          "textLength": 370,
+          "priceExamples": [
+            "2026,07",
+            "2021,72",
+            "0194,-",
+            "2032,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        }
+      ],
+      "offerCandidates": []
+    },
+    {
+      "leaflet": {
+        "id": "20hm_akcni_letak",
+        "type": "hypermarket",
+        "title": "Albert hypermarket akční leták",
+        "baseUrl": "https://letaky.albert.cz/20hm_akcni_letak/",
+        "maxPages": 60
+      },
+      "summary": {
+        "pagesChecked": 60,
+        "pagesWithText": 54,
+        "pagesWithImages": 60,
+        "offerCandidates": 0,
+        "priceExamples": [
+          "0229,-",
+          "2089,90",
+          "2026,90",
+          "35,80 Kč",
+          "17,90 Kč",
+          "25,90",
+          "30,70",
+          "2034,90",
+          "2023,90",
+          "2011,47",
+          "209,93",
+          "2022,90",
+          "2099,90",
+          "0257,75",
+          "0179,-",
+          "2069,90",
+          "2029,90",
+          "2039,97",
+          "2044,90",
+          "2037,90",
+          "2014,15",
+          "2012,90",
+          "2016,98",
+          "2015,98",
+          "0109,90",
+          "2015,90",
+          "2027,90",
+          "3. 20",
+          "5. 20",
+          "49,90",
+          "2024,88",
+          "2019,90",
+          "0175,89",
+          "2019,98",
+          "2067,90",
+          "0119,90",
+          "51,74 Kč",
+          "11,90 Kč",
+          "19,90",
+          "57,90",
+          "59,80 Kč",
+          "29,90 Kč",
+          "32,90",
+          "34,90",
+          "25,80 Kč",
+          "12,90 Kč",
+          "37,80 Kč",
+          "21,90",
+          "16,90",
+          "0259,80",
+          "0339,-",
+          "0299,-",
+          "0249,-",
+          "0399,-",
+          "2013,90",
+          "2014,90",
+          "2018,90",
+          "206,27",
+          "2011,90",
+          "3,33 Kč"
+        ],
+        "unitPriceExamples": [
+          "1 l = 35,80 Kč",
+          "100 g= 51,74 Kč",
+          "1 l = 59,80 Kč",
+          "1 l = 25,80 Kč",
+          "1 l = 37,80 Kč",
+          "1 ks = 3,33 Kč",
+          "100 g = 46,54 Kč",
+          "1 kg = 78,69 Kč",
+          "100 g = 112,86 Kč",
+          "100 g = 131,67 Kč",
+          "100 g = 43,96 Kč",
+          "100 ml = 119,80 Kč"
+        ],
+        "recommendedPath": "improve-hidden-text-parser"
+      },
+      "pages": [
+        {
+          "page": 1,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/1",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193877,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Od % 2013. % 205. % 20do % 2019. % 205. % 202026 % 20www.albert.cz % 20-38 % 20 % % 20229,- % 2013990 % 20BEZ % 20APLIKACE % 2089,90 % 20- % 2050 % 20 % % 20BEZ % 20APLIKACE % 20 % E2 % 80 % A2 % 201,5 % % 20 % E2 % 80 % A2 % 201 % 20l % 20-33 % 20 % % 2017 % 20BEZ % 20APLIKACE % 20 % E2 % 80 % A2 % 2030 % 20ks % 20 % E2 % 80 % A2 % 201 % 20ks % 20= % 205 % 20K % C4 % 8D % 20bez"
+          ],
+          "textLength": 381,
+          "priceExamples": [
+            "0229,-",
+            "2089,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 2,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/2",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193895,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 2026,90 % 20-33 % 20 % % 2017 % 20BEZ % 20APLIKACE % 2090 % 202190 % 20Nature"
+          ],
+          "textLength": 102,
+          "priceExamples": [
+            "2026,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 3,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/3",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193895,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 2026,90 % 20-33 % 20 % % 2017 % 20BEZ % 20APLIKACE % 2090 % 202190 % 20Nature"
+          ],
+          "textLength": 102,
+          "priceExamples": [
+            "2026,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 4,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/4",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193887,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Gambrinus Patron 12 • světlý ležák • 0,5 l • 1 l = 35,80 Kč • 17,90 Kč 17 25,90 90 Bohemia Chips • 130 g • 100 g = 30,70"
+          ],
+          "textLength": 120,
+          "priceExamples": [
+            "35,80 Kč",
+            "17,90 Kč",
+            "25,90",
+            "30,70"
+          ],
+          "unitPriceExamples": [
+            "1 l = 35,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 5,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/5",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193887,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Gambrinus Patron 12 • světlý ležák • 0,5 l • 1 l = 35,80 Kč • 17,90 Kč 17 25,90 90 Bohemia Chips • 130 g • 100 g = 30,70"
+          ],
+          "textLength": 120,
+          "priceExamples": [
+            "35,80 Kč",
+            "17,90 Kč",
+            "25,90",
+            "30,70"
+          ],
+          "unitPriceExamples": [
+            "1 l = 35,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 6,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/6",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193887,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 20Madeta % 20Jiho % C4 % 8Desk % C3 % BD % 20eidam % 2030 % % 20 % E2 % 80 % 93 % 20pl % C3 % A1tky % 20-42 % 20 % % 2034,90 % 2019 % 20 % E2 % 80 % A2 % 20100 % 20g % 20BEZ % 20APLIKACE % 2090 % 20Lip % C3 % A1nek % 2023,90 % 20 % E2 % 80 % A2 % 20130 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2013 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20-29 % 20 % % 20B % C4 % 9A % C5 % BDN % C3 % 81 % 20CENA"
+          ],
+          "textLength": 458,
+          "priceExamples": [
+            "2034,90",
+            "2023,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 7,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/7",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193887,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 20Madeta % 20Jiho % C4 % 8Desk % C3 % BD % 20eidam % 2030 % % 20 % E2 % 80 % 93 % 20pl % C3 % A1tky % 20-42 % 20 % % 2034,90 % 2019 % 20 % E2 % 80 % A2 % 20100 % 20g % 20BEZ % 20APLIKACE % 2090 % 20Lip % C3 % A1nek % 2023,90 % 20 % E2 % 80 % A2 % 20130 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2013 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20-29 % 20 % % 20B % C4 % 9A % C5 % BDN % C3 % 81 % 20CENA"
+          ],
+          "textLength": 458,
+          "priceExamples": [
+            "2034,90",
+            "2023,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 8,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/8",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193883,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 20M % C3 % BCller % 20MIX % 20 % E2 % 80 % A2 % 20130 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2011,47 % 20K % C4 % 8D % 20bez % 20Aplikace % 20",
+            "% 209,93 % 20K % C4 % 8D % 20Aplikace % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 2022,90 % 20- % 2043 % 20 % % 2012 % 20BEZ % 20APLIKACE % 20Kr % C3 % A1l % 20S % C3 % BDr % C5 % AF % 20Hermel % C3 % ADn % 20 % E2 % 80 % A2 % 20120 % 20g % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 444,
+          "priceExamples": [
+            "2011,47",
+            "209,93",
+            "2022,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 9,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/9",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193883,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "NEPORAZITELN % C3 % 89 % 20M % C3 % BCller % 20MIX % 20 % E2 % 80 % A2 % 20130 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2011,47 % 20K % C4 % 8D % 20bez % 20Aplikace % 20",
+            "% 209,93 % 20K % C4 % 8D % 20Aplikace % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 2022,90 % 20- % 2043 % 20 % % 2012 % 20BEZ % 20APLIKACE % 20Kr % C3 % A1l % 20S % C3 % BDr % C5 % AF % 20Hermel % C3 % ADn % 20 % E2 % 80 % A2 % 20120 % 20g % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 444,
+          "priceExamples": [
+            "2011,47",
+            "209,93",
+            "2022,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 10,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/10",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193882,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Albert % 20Marinovan % C3 % BD % 20vep % C5 % 99ov % C3 % BD % 20Back % 20bacon % 2099,90 % 207990 % 20 % E2 % 80 % A2 % 20masn % C3 % BD % 20polotovar % 20 % E2 % 80 % A2 % 20310 % 20g % 20 % E2 % 80 % A2 % 201 % 20kg % 20= % 20257,75 % 20K % C4 % 8D % 20179,- % 20 3 % 20-20 % 20 % % 20-21 % 20 % % 2090 % 2069,90 % 205490 % 20139 % 20Albert % 20Masov % C3 % A1 % 20klob % C3 % A1sa"
+          ],
+          "textLength": 384,
+          "priceExamples": [
+            "2099,90",
+            "0257,75",
+            "0179,-",
+            "2069,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 11,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/11",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193882,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Albert % 20Marinovan % C3 % BD % 20vep % C5 % 99ov % C3 % BD % 20Back % 20bacon % 2099,90 % 207990 % 20 % E2 % 80 % A2 % 20masn % C3 % BD % 20polotovar % 20 % E2 % 80 % A2 % 20310 % 20g % 20 % E2 % 80 % A2 % 201 % 20kg % 20= % 20257,75 % 20K % C4 % 8D % 20179,- % 20 3 % 20-20 % 20 % % 20-21 % 20 % % 2090 % 2069,90 % 205490 % 20139 % 20Albert % 20Masov % C3 % A1 % 20klob % C3 % A1sa"
+          ],
+          "textLength": 384,
+          "priceExamples": [
+            "2099,90",
+            "0257,75",
+            "0179,-",
+            "2069,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 12,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/12",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193890,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Treska % 20tmav % C3 % A1 % 20 % E2 % 80 % 93 % 20filet % 2029,90 % 20 % E2 % 80 % A2 % 20chlazen % C3 % A1 % 20 % E2 % 80 % A2 % 20balen % C3 % A1 % 20 % E2 % 80 % A2 % 20cena % 20za % 20100 % 20g % 20-10 % 20 % % 202690 % 2011990 % 20Krevety % 20cel % C3 % A9 % 20 % E2 % 80 % A2 % 20chlazen % C3 % A9 % 20 % E2 % 80 % A2 % 20balen % C3 % A9 % 20 % E2 % 80 % A2 % 20300 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2039,97 % 20K % C4 % 8D % 20Til % C3 % A1pie % 20 % E2 % 80 % 93 % 20filet % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 514,
+          "priceExamples": [
+            "2029,90",
+            "2039,97"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 13,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/13",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193890,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Treska % 20tmav % C3 % A1 % 20 % E2 % 80 % 93 % 20filet % 2029,90 % 20 % E2 % 80 % A2 % 20chlazen % C3 % A1 % 20 % E2 % 80 % A2 % 20balen % C3 % A1 % 20 % E2 % 80 % A2 % 20cena % 20za % 20100 % 20g % 20-10 % 20 % % 202690 % 2011990 % 20Krevety % 20cel % C3 % A9 % 20 % E2 % 80 % A2 % 20chlazen % C3 % A9 % 20 % E2 % 80 % A2 % 20balen % C3 % A9 % 20 % E2 % 80 % A2 % 20300 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2039,97 % 20K % C4 % 8D % 20Til % C3 % A1pie % 20 % E2 % 80 % 93 % 20filet % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 514,
+          "priceExamples": [
+            "2029,90",
+            "2039,97"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 14,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/14",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193886,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Albert % 20Meloun % 20vodn % C3 % AD % 20s % 20n % C3 % ADzk % C3 % BDm % 20obsahem % 20semen % 2044,90 % 2026 % 20 % E2 % 80 % A2 % 201 % 20kg % 20 % E2 % 80 % A2 % 20v % 20nab % C3 % ADdce % 20tak % C3 % A9 % 20kr % C3 % A1jen % C3 % A1 % 20verze, % 201 % 20kg % 20za % 2037,90 % 20K % C4 % 8D % 20bez % 20Aplikace % 20"
+          ],
+          "textLength": 321,
+          "priceExamples": [
+            "2044,90",
+            "2037,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 15,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/15",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193886,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Albert % 20Meloun % 20vodn % C3 % AD % 20s % 20n % C3 % ADzk % C3 % BDm % 20obsahem % 20semen % 2044,90 % 2026 % 20 % E2 % 80 % A2 % 201 % 20kg % 20 % E2 % 80 % A2 % 20v % 20nab % C3 % ADdce % 20tak % C3 % A9 % 20kr % C3 % A1jen % C3 % A1 % 20verze, % 201 % 20kg % 20za % 2037,90 % 20K % C4 % 8D % 20bez % 20Aplikace % 20"
+          ],
+          "textLength": 321,
+          "priceExamples": [
+            "2044,90",
+            "2037,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 16,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/16",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193892,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Mistrovsk % C3 % BD % 20 % C5 % A1kvarkov % C3 % BD % 20boch % C3 % A1nek % 20 % E2 % 80 % A2 % 2070 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2014,15 % 20K % C4 % 8D % 2012,90 % 20990 % 20 % E2 % 80 % A2 % 20Z % 20 % C4 % 8CESK % C3 % 89HO % 20S % C3 % 81DLA % 20 % E2 % 80 % A2 % 20POD % C3 % 8DL % 20 % C4 % 8CESK % C3 % 9DCH % 20 % C5 % A0KVARK % C5 % AE % 20A % C5 % BD % 2022 % % 20 % E2 % 80 % A2 % 20VL % C3 % 81 % C4 % 8CN % C3 % 9D % 20A % 20POCTIV % C3 % 9D % 20NA % C5 % A0E % 20RECEPTURA % 20V % C3 % ADcezrnn % C3 % A1"
+          ],
+          "textLength": 538,
+          "priceExamples": [
+            "2014,15",
+            "2012,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 17,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/17",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193892,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Mistrovsk % C3 % BD % 20 % C5 % A1kvarkov % C3 % BD % 20boch % C3 % A1nek % 20 % E2 % 80 % A2 % 2070 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2014,15 % 20K % C4 % 8D % 2012,90 % 20990 % 20 % E2 % 80 % A2 % 20Z % 20 % C4 % 8CESK % C3 % 89HO % 20S % C3 % 81DLA % 20 % E2 % 80 % A2 % 20POD % C3 % 8DL % 20 % C4 % 8CESK % C3 % 9DCH % 20 % C5 % A0KVARK % C5 % AE % 20A % C5 % BD % 2022 % % 20 % E2 % 80 % A2 % 20VL % C3 % 81 % C4 % 8CN % C3 % 9D % 20A % 20POCTIV % C3 % 9D % 20NA % C5 % A0E % 20RECEPTURA % 20V % C3 % ADcezrnn % C3 % A1"
+          ],
+          "textLength": 538,
+          "priceExamples": [
+            "2014,15",
+            "2012,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 18,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/18",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193892,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "Eidam % 2045 % % 20 % E2 % 80 % 93 % 20pl % C3 % A1tky % 2034,90 % 20 % E2 % 80 % A2 % 20500 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2016,98 % 20K % C4 % 8D % 20bez % 20Aplikace % 20",
+            "% 2015,98 % 20K % C4 % 8D % 20Aplikace % 20109,90 % 20C % C3 % ADsa % C5 % 99sk % C3 % A1 % 20niva % 2045 % % 20 % E2 % 80 % 93 % 20v % C3 % BDse % C4 % 8D % 20-25 % 20 % % 202590 % 20 % E2 % 80 % A2 % 20100 % 20g % 20-27 % 20 % % 2079 % 20BEZ % 20APLIKACE"
+          ],
+          "textLength": 447,
+          "priceExamples": [
+            "2034,90",
+            "2016,98",
+            "2015,98",
+            "0109,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 19,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/19",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193892,
+          "textCandidatesCount": 2,
+          "textCandidates": [
+            "Eidam % 2045 % % 20 % E2 % 80 % 93 % 20pl % C3 % A1tky % 2034,90 % 20 % E2 % 80 % A2 % 20500 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2016,98 % 20K % C4 % 8D % 20bez % 20Aplikace % 20",
+            "% 2015,98 % 20K % C4 % 8D % 20Aplikace % 20109,90 % 20C % C3 % ADsa % C5 % 99sk % C3 % A1 % 20niva % 2045 % % 20 % E2 % 80 % 93 % 20v % C3 % BDse % C4 % 8D % 20-25 % 20 % % 202590 % 20 % E2 % 80 % A2 % 20100 % 20g % 20-27 % 20 % % 2079 % 20BEZ % 20APLIKACE"
+          ],
+          "textLength": 447,
+          "priceExamples": [
+            "2034,90",
+            "2016,98",
+            "2015,98",
+            "0109,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 20,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/20",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193896,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Pa % C5 % 99 % C3 % AD % C5 % BEsk % C3 % BD % 20sal % C3 % A1t % 20 % E2 % 80 % A2 % 20cena % 20za % 20100 % 20g % 20 % E2 % 80 % A2 % 20obsluhovan % C3 % BD % 20 % C3 % BAsek % 2015,90 % 20-18 % 20 % % 2012 % 2027,90 % 20-21 % 20 % % 20Tu % C5 % 88 % C3 % A1kov % C3 % A1 % 20pomaz % C3 % A1nka % 2021 % 2090 % 2090 % 20s % 20olivami % 20 % E2 % 80 % A2 % 20cena % 20za % 20100 % 20g % 20 % E2 % 80 % A2 % 20obsluhovan % C3 % BD % 20 % C3 % BAsek % 20NOVINKA % 2039"
+          ],
+          "textLength": 467,
+          "priceExamples": [
+            "2015,90",
+            "2027,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 21,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/21",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193896,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Pa % C5 % 99 % C3 % AD % C5 % BEsk % C3 % BD % 20sal % C3 % A1t % 20 % E2 % 80 % A2 % 20cena % 20za % 20100 % 20g % 20 % E2 % 80 % A2 % 20obsluhovan % C3 % BD % 20 % C3 % BAsek % 2015,90 % 20-18 % 20 % % 2012 % 2027,90 % 20-21 % 20 % % 20Tu % C5 % 88 % C3 % A1kov % C3 % A1 % 20pomaz % C3 % A1nka % 2021 % 2090 % 2090 % 20s % 20olivami % 20 % E2 % 80 % A2 % 20cena % 20za % 20100 % 20g % 20 % E2 % 80 % A2 % 20obsluhovan % C3 % BD % 20 % C3 % BAsek % 20NOVINKA % 2039"
+          ],
+          "textLength": 467,
+          "priceExamples": [
+            "2015,90",
+            "2027,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 22,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/22",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193890,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NABÍDKA EXTRA LETÁK NABÍDKA o zájezd za 100 000 Kč a další ceny 1 Kup Oreo 2 Naskenuj QR kód 3 Zapoj se do soutěže Soutěž trvá od 30. 3. 2026 do 31. 5. 2026."
+          ],
+          "textLength": 157,
+          "priceExamples": [
+            "3. 20",
+            "5. 20"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 23,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/23",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193890,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "NABÍDKA EXTRA LETÁK NABÍDKA o zájezd za 100 000 Kč a další ceny 1 Kup Oreo 2 Naskenuj QR kód 3 Zapoj se do soutěže Soutěž trvá od 30. 3. 2026 do 31. 5. 2026."
+          ],
+          "textLength": 157,
+          "priceExamples": [
+            "3. 20",
+            "5. 20"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 24,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/24",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193878,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 25,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/25",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193878,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 26,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/26",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193894,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "49,90 % 20Zmrzlina % 20Twister % 20 % E2 % 80 % A2 % 2070 % E2 % 80 % 9380 % 20ml % 20 % E2 % 80 % A2 % 20100 % 20ml % 20od % 2024,88 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20 % E2 % 80 % A2 % 2019,90 % 20K % C4 % 8D % 20-40 % 20 % % 202990 % 2029,90 % 201990 % 20PEZ % 20D % C3 % A1vkova % C4 % 8D % 20s % 20bonbony % 20 % E2 % 80 % A2 % 2017 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 20175,89 % 20K % C4 % 8D % 20Mamba"
+          ],
+          "textLength": 456,
+          "priceExamples": [
+            "49,90",
+            "2024,88",
+            "2019,90",
+            "2029,90",
+            "0175,89"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 27,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/27",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193894,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "49,90 % 20Zmrzlina % 20Twister % 20 % E2 % 80 % A2 % 2070 % E2 % 80 % 9380 % 20ml % 20 % E2 % 80 % A2 % 20100 % 20ml % 20od % 2024,88 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20 % E2 % 80 % A2 % 2019,90 % 20K % C4 % 8D % 20-40 % 20 % % 202990 % 2029,90 % 201990 % 20PEZ % 20D % C3 % A1vkova % C4 % 8D % 20s % 20bonbony % 20 % E2 % 80 % A2 % 2017 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 20175,89 % 20K % C4 % 8D % 20Mamba"
+          ],
+          "textLength": 456,
+          "priceExamples": [
+            "49,90",
+            "2024,88",
+            "2019,90",
+            "2029,90",
+            "0175,89"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 28,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/28",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193894,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Nestl % C3 % A9 % 20D % C4 % 9Btsk % C3 % A9 % 20cere % C3 % A1lie % 20 % E2 % 80 % A2 % 20375 % E2 % 80 % 93400 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20od % 2019,98 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20 % E2 % 80 % A2 % 2067,90 % 20K % C4 % 8D % 20 % C3 % A9vilnavrT % 205890 % 2090 % 20ynviartop % 2079 % 2069,90 % 20119,90 % 20-15 % 20 % % 20Emma % 20Cornflakes % 20 % E2 % 80 % A2 % 201 % 20kg % 201 % 20kg"
+          ],
+          "textLength": 448,
+          "priceExamples": [
+            "2019,98",
+            "2067,90",
+            "2069,90",
+            "0119,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 29,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/29",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193894,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Nestl % C3 % A9 % 20D % C4 % 9Btsk % C3 % A9 % 20cere % C3 % A1lie % 20 % E2 % 80 % A2 % 20375 % E2 % 80 % 93400 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20od % 2019,98 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20 % E2 % 80 % A2 % 2067,90 % 20K % C4 % 8D % 20 % C3 % A9vilnavrT % 205890 % 2090 % 20ynviartop % 2079 % 2069,90 % 20119,90 % 20-15 % 20 % % 20Emma % 20Cornflakes % 20 % E2 % 80 % A2 % 201 % 20kg % 201 % 20kg"
+          ],
+          "textLength": 448,
+          "priceExamples": [
+            "2019,98",
+            "2067,90",
+            "2069,90",
+            "0119,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 30,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/30",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193892,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Vitana Paprika mletá • 23 g • 100 g= 51,74 Kč • vybrané druhy • 11,90 Kč 11 19,90 Knorr Bohatý bujón 90 57,90 2990 Maggi Dobrý Hostinec • 142–153 g • 100 g od"
+          ],
+          "textLength": 158,
+          "priceExamples": [
+            "51,74 Kč",
+            "11,90 Kč",
+            "19,90",
+            "57,90"
+          ],
+          "unitPriceExamples": [
+            "100 g= 51,74 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 31,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/31",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193892,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Vitana Paprika mletá • 23 g • 100 g= 51,74 Kč • vybrané druhy • 11,90 Kč 11 19,90 Knorr Bohatý bujón 90 57,90 2990 Maggi Dobrý Hostinec • 142–153 g • 100 g od"
+          ],
+          "textLength": 158,
+          "priceExamples": [
+            "51,74 Kč",
+            "11,90 Kč",
+            "19,90",
+            "57,90"
+          ],
+          "unitPriceExamples": [
+            "100 g= 51,74 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 32,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/32",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193888,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Popstar Dračí ovoce • 0,5 l • 1 l = 59,80 Kč • 29,90 Kč 32,90 1290 29 Tiger 34,90 • energetický nápoj • 0,5 l • 1 l = 25,80 Kč • vybrané druhy • 12,90 Kč 90"
+          ],
+          "textLength": 156,
+          "priceExamples": [
+            "59,80 Kč",
+            "29,90 Kč",
+            "32,90",
+            "34,90",
+            "25,80 Kč",
+            "12,90 Kč"
+          ],
+          "unitPriceExamples": [
+            "1 l = 59,80 Kč",
+            "1 l = 25,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 33,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/33",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193888,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Popstar Dračí ovoce • 0,5 l • 1 l = 59,80 Kč • 29,90 Kč 32,90 1290 29 Tiger 34,90 • energetický nápoj • 0,5 l • 1 l = 25,80 Kč • vybrané druhy • 12,90 Kč 90"
+          ],
+          "textLength": 156,
+          "priceExamples": [
+            "59,80 Kč",
+            "29,90 Kč",
+            "32,90",
+            "34,90",
+            "25,80 Kč",
+            "12,90 Kč"
+          ],
+          "unitPriceExamples": [
+            "1 l = 59,80 Kč",
+            "1 l = 25,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 34,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/34",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193892,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "FANDÍME HOKEJI 25,90 1790 Staropramen Extra chmel 17 • světlý ležák • 0,5 l • 1 l = 37,80 Kč 21,90 Ostravar 12 • světlý ležák • 0,5 l • 1 l = 35,80 Kč • 16,90"
+          ],
+          "textLength": 158,
+          "priceExamples": [
+            "25,90",
+            "37,80 Kč",
+            "21,90",
+            "35,80 Kč",
+            "16,90"
+          ],
+          "unitPriceExamples": [
+            "1 l = 37,80 Kč",
+            "1 l = 35,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 35,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/35",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193892,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "FANDÍME HOKEJI 25,90 1790 Staropramen Extra chmel 17 • světlý ležák • 0,5 l • 1 l = 37,80 Kč 21,90 Ostravar 12 • světlý ležák • 0,5 l • 1 l = 35,80 Kč • 16,90"
+          ],
+          "textLength": 158,
+          "priceExamples": [
+            "25,90",
+            "37,80 Kč",
+            "21,90",
+            "35,80 Kč",
+            "16,90"
+          ],
+          "unitPriceExamples": [
+            "1 l = 37,80 Kč",
+            "1 l = 35,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 36,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/36",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193888,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Bo % C5 % BEkov % 20Vodka % 20 % E2 % 80 % A2 % 2037,5 % % 20 % E2 % 80 % A2 % 200,5 % 20l % 20 % E2 % 80 % A2 % 201 % 20l % 20= % 20259,80 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20119,90 % 20K % C4 % 8D % 20179,- % 20339,- % 2012990 % 20219,Republica % 20Exclusive % 20 % E2 % 80 % A2 % 2035 % % 20 % E2 % 80 % A2 % 200,5 % 20l % 20 % E2 % 80 % A2 % 201 % 20l % 20= % 20438 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20219 % 20K % C4 % 8D % 20299,- % 20249,- % 20399,-"
+          ],
+          "textLength": 463,
+          "priceExamples": [
+            "0259,80",
+            "0119,90",
+            "0179,-",
+            "0339,-",
+            "0299,-",
+            "0249,-",
+            "0399,-"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 37,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/37",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193888,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Bo % C5 % BEkov % 20Vodka % 20 % E2 % 80 % A2 % 2037,5 % % 20 % E2 % 80 % A2 % 200,5 % 20l % 20 % E2 % 80 % A2 % 201 % 20l % 20= % 20259,80 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20119,90 % 20K % C4 % 8D % 20179,- % 20339,- % 2012990 % 20219,Republica % 20Exclusive % 20 % E2 % 80 % A2 % 2035 % % 20 % E2 % 80 % A2 % 200,5 % 20l % 20 % E2 % 80 % A2 % 201 % 20l % 20= % 20438 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20219 % 20K % C4 % 8D % 20299,- % 20249,- % 20399,-"
+          ],
+          "textLength": 463,
+          "priceExamples": [
+            "0259,80",
+            "0119,90",
+            "0179,-",
+            "0339,-",
+            "0299,-",
+            "0249,-",
+            "0399,-"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 38,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/38",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193884,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "AKCE % 20NEJEN % 20PRO % 20NEJMEN % C5 % A0 % C3 % 8D % 2013,90 % 2027,90 % 20790 % 20 % E2 % 80 % A2 % 20100 % 20g % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20 % E2 % 80 % A2 % 2014,90 % 20K % C4 % 8D % 20-13 % 20 % % 2018,90 % 201990 % 20 % E2 % 80 % A2 % 20190 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 206,27 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20 % E2 % 80 % A2 % 2011,90 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20100 % 20g % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 496,
+          "priceExamples": [
+            "2013,90",
+            "2027,90",
+            "2014,90",
+            "2018,90",
+            "206,27",
+            "2011,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 39,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/39",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193884,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "AKCE % 20NEJEN % 20PRO % 20NEJMEN % C5 % A0 % C3 % 8D % 2013,90 % 2027,90 % 20790 % 20 % E2 % 80 % A2 % 20100 % 20g % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20 % E2 % 80 % A2 % 2014,90 % 20K % C4 % 8D % 20-13 % 20 % % 2018,90 % 201990 % 20 % E2 % 80 % A2 % 20190 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 206,27 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20 % E2 % 80 % A2 % 2011,90 % 20K % C4 % 8D % 20 % E2 % 80 % A2 % 20100 % 20g % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 496,
+          "priceExamples": [
+            "2013,90",
+            "2027,90",
+            "2014,90",
+            "2018,90",
+            "206,27",
+            "2011,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 40,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/40",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193896,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Ria Dámské vložky* • 18 ks • 1 ks = 3,33 Kč • 62,90 Kč 76,90 36,90 5990 2990 Harmony Toaletní papír 89,90 • 3vrstvý • 4 role • 1 role = 12,23 Kč • 47,90 Kč 4890"
+          ],
+          "textLength": 160,
+          "priceExamples": [
+            "3,33 Kč",
+            "62,90 Kč",
+            "76,90",
+            "36,90",
+            "89,90",
+            "12,23 Kč",
+            "47,90 Kč"
+          ],
+          "unitPriceExamples": [
+            "1 ks = 3,33 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 41,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/41",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193896,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Ria Dámské vložky* • 18 ks • 1 ks = 3,33 Kč • 62,90 Kč 76,90 36,90 5990 2990 Harmony Toaletní papír 89,90 • 3vrstvý • 4 role • 1 role = 12,23 Kč • 47,90 Kč 4890"
+          ],
+          "textLength": 160,
+          "priceExamples": [
+            "3,33 Kč",
+            "62,90 Kč",
+            "76,90",
+            "36,90",
+            "89,90",
+            "12,23 Kč",
+            "47,90 Kč"
+          ],
+          "unitPriceExamples": [
+            "1 ks = 3,33 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 42,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/42",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193884,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "39,90 469,- 3490 299,- Akinu Pochoutky pro psy Whiskas Granule pro kočky • 75 g • 100 g = 46,54 Kč • vybrané druhy • 34,90 Kč • 3,8 kg • 1 kg = 78,69 Kč •"
+          ],
+          "textLength": 154,
+          "priceExamples": [
+            "39,90",
+            "469,-",
+            "299,-",
+            "46,54 Kč",
+            "34,90 Kč",
+            "78,69 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g = 46,54 Kč",
+            "1 kg = 78,69 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 43,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/43",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193884,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "39,90 469,- 3490 299,- Akinu Pochoutky pro psy Whiskas Granule pro kočky • 75 g • 100 g = 46,54 Kč • vybrané druhy • 34,90 Kč • 3,8 kg • 1 kg = 78,69 Kč •"
+          ],
+          "textLength": 154,
+          "priceExamples": [
+            "39,90",
+            "469,-",
+            "299,-",
+            "46,54 Kč",
+            "34,90 Kč",
+            "78,69 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g = 46,54 Kč",
+            "1 kg = 78,69 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 44,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/44",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193890,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "V % C3 % 8DCE % 20AKC % C3 % 8D % 20Sedl % C4 % 8Dansk % C3 % BD % 20Hermel % C3 % ADn % 20 % E2 % 80 % A2 % 20100 % 20g % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20-39 % 20 % % 2047,90 % 2028 % 20BEZ % 20APLIKACE % 20EXTRA % 20LET % C3 % 81K % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20AK % C4 % 8CN % C3 % 8D % 20NAB % C3 % 8DDKA % 20Kr % C3 % A1sno % 20 % C5 % A0unka % 20Am % C3 % A1lka % 20 % E2 % 80 % A2 % 20nejvy % C5 % A1 % C5 % A1 % C3 % AD % 20jakost % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 488,
+          "priceExamples": [
+            "2047,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 45,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/45",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193890,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "V % C3 % 8DCE % 20AKC % C3 % 8D % 20Sedl % C4 % 8Dansk % C3 % BD % 20Hermel % C3 % ADn % 20 % E2 % 80 % A2 % 20100 % 20g % 20 % E2 % 80 % A2 % 20vybran % C3 % A9 % 20druhy % 20-39 % 20 % % 2047,90 % 2028 % 20BEZ % 20APLIKACE % 20EXTRA % 20LET % C3 % 81K % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20AK % C4 % 8CN % C3 % 8D % 20NAB % C3 % 8DDKA % 20Kr % C3 % A1sno % 20 % C5 % A0unka % 20Am % C3 % A1lka % 20 % E2 % 80 % A2 % 20nejvy % C5 % A1 % C5 % A1 % C3 % AD % 20jakost % 20 % E2 % 80 % A2"
+          ],
+          "textLength": 488,
+          "priceExamples": [
+            "2047,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 46,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/46",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193896,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 47,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/47",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193896,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 48,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/48",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193894,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "VÍCE AKCÍ 79,- EXTRA LETÁK Spianata Romana se smetanovým sýrem • 70 g • 100 g = 112,86 Kč Lanýžový salám s parmezánem • 60 g • 100 g = 131,67 Kč 79,- VÍCE AKCÍ"
+          ],
+          "textLength": 159,
+          "priceExamples": [
+            "79,-",
+            "112,86 Kč",
+            "131,67 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g = 112,86 Kč",
+            "100 g = 131,67 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 49,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/49",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193894,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "VÍCE AKCÍ 79,- EXTRA LETÁK Spianata Romana se smetanovým sýrem • 70 g • 100 g = 112,86 Kč Lanýžový salám s parmezánem • 60 g • 100 g = 131,67 Kč 79,- VÍCE AKCÍ"
+          ],
+          "textLength": 159,
+          "priceExamples": [
+            "79,-",
+            "112,86 Kč",
+            "131,67 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g = 112,86 Kč",
+            "100 g = 131,67 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 50,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/50",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193890,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 51,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/51",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193890,
+          "textCandidatesCount": 0,
+          "textCandidates": [],
+          "textLength": 0,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 52,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/52",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193888,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "VÍCE AKCÍ EXTRA LETÁK VÍCE AKCÍ 149,90 10990 PERLA PALERMO • mletá káva • 250 g • 100 g = 43,96 Kč • 109,90 Kč VYBRANÁ ZRNKA, DRAHOKAMY CHUTÍ ZE VŠECH KOUTŮ"
+          ],
+          "textLength": 156,
+          "priceExamples": [
+            "149,90",
+            "43,96 Kč",
+            "109,90 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g = 43,96 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 53,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/53",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193888,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "VÍCE AKCÍ EXTRA LETÁK VÍCE AKCÍ 149,90 10990 PERLA PALERMO • mletá káva • 250 g • 100 g = 43,96 Kč • 109,90 Kč VYBRANÁ ZRNKA, DRAHOKAMY CHUTÍ ZE VŠECH KOUTŮ"
+          ],
+          "textLength": 156,
+          "priceExamples": [
+            "149,90",
+            "43,96 Kč",
+            "109,90 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 g = 43,96 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 54,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/54",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193892,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "V % C3 % 8DCE % 20AKC % C3 % 8D % 20Avok % C3 % A1do % 20Pep % C5 % 99 % 20barevn % C3 % BD % 20cel % C3 % BD % 20 % E2 % 80 % A2 % 2020 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2049,50 % 20K % C4 % 8D % 2024,90 % 209 % 20EXTRA % 20LET % C3 % 81K % 20-60 % 20 % % 2029,90 % 2090 % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20-33 % 20 % % 2054,90 % 201990 % 203390 % 20Vitana % 20Tekut % C3 % A1 % 20z % C3 % A1livka % 20Kot % C3 % A1nyi"
+          ],
+          "textLength": 437,
+          "priceExamples": [
+            "2049,50",
+            "2024,90",
+            "2029,90",
+            "2054,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 55,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/55",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193892,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "V % C3 % 8DCE % 20AKC % C3 % 8D % 20Avok % C3 % A1do % 20Pep % C5 % 99 % 20barevn % C3 % BD % 20cel % C3 % BD % 20 % E2 % 80 % A2 % 2020 % 20g % 20 % E2 % 80 % A2 % 20100 % 20g % 20= % 2049,50 % 20K % C4 % 8D % 2024,90 % 209 % 20EXTRA % 20LET % C3 % 81K % 20-60 % 20 % % 2029,90 % 2090 % 20V % C3 % 8DCE % 20AKC % C3 % 8D % 20-33 % 20 % % 2054,90 % 201990 % 203390 % 20Vitana % 20Tekut % C3 % A1 % 20z % C3 % A1livka % 20Kot % C3 % A1nyi"
+          ],
+          "textLength": 437,
+          "priceExamples": [
+            "2049,50",
+            "2024,90",
+            "2029,90",
+            "2054,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 56,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/56",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193888,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "VÍCE AKCÍ EXTRA LETÁK VÍCE AKCÍ NEVIDITELNÁ OCHRANA Nivea Dámský tuhý antiperspirant PRO POKOŽKU A OBLEČENÍ NOVÉ VŮNĚ • 50 ml • 100 ml = 119,80 Kč • vybrané"
+          ],
+          "textLength": 156,
+          "priceExamples": [
+            "119,80 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 ml = 119,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 57,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/57",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193888,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "VÍCE AKCÍ EXTRA LETÁK VÍCE AKCÍ NEVIDITELNÁ OCHRANA Nivea Dámský tuhý antiperspirant PRO POKOŽKU A OBLEČENÍ NOVÉ VŮNĚ • 50 ml • 100 ml = 119,80 Kč • vybrané"
+          ],
+          "textLength": 156,
+          "priceExamples": [
+            "119,80 Kč"
+          ],
+          "unitPriceExamples": [
+            "100 ml = 119,80 Kč"
+          ],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 58,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/58",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193876,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "VÍCE AKCÍ EXTRA LETÁK VÍCE AKCÍ SBÍREJTE BODY NA VÝBAVU DO PŘÍRODY - 40 90 - 42 59 34990 S 8 BODY S 8 BODY Cena bez bodů: 100 Kč Cena bez bodů: 600 Kč"
+          ],
+          "textLength": 150,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 59,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/59",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193876,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "VÍCE AKCÍ EXTRA LETÁK VÍCE AKCÍ SBÍREJTE BODY NA VÝBAVU DO PŘÍRODY - 40 90 - 42 59 34990 S 8 BODY S 8 BODY Cena bez bodů: 100 Kč Cena bez bodů: 600 Kč"
+          ],
+          "textLength": 150,
+          "priceExamples": [],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        },
+        {
+          "page": 60,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/60",
+          "ok": true,
+          "status": 200,
+          "htmlLength": 193877,
+          "textCandidatesCount": 1,
+          "textCandidates": [
+            "Od % 2013. % 205. % 20do % 2019. % 205. % 202026 % 20www.albert.cz % 20-38 % 20 % % 20229,- % 2013990 % 20BEZ % 20APLIKACE % 2089,90 % 20- % 2050 % 20 % % 20BEZ % 20APLIKACE % 20 % E2 % 80 % A2 % 201,5 % % 20 % E2 % 80 % A2 % 201 % 20l % 20-33 % 20 % % 2017 % 20BEZ % 20APLIKACE % 20 % E2 % 80 % A2 % 2030 % 20ks % 20 % E2 % 80 % A2 % 201 % 20ks % 20= % 205 % 20K % C4 % 8D % 20bez"
+          ],
+          "textLength": 381,
+          "priceExamples": [
+            "0229,-",
+            "2089,90"
+          ],
+          "unitPriceExamples": [],
+          "pageImageUrls": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offerCandidatesCount": 0,
+          "offerCandidatesPreview": []
+        }
+      ],
+      "offerCandidates": []
+    }
+  ]
+}

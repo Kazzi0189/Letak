@@ -1,14 +1,16 @@
 {
   "meta": {
     "source": "Albert PDF text via Publitas",
-    "updatedAt": "2026-05-15T06:11:18.307Z",
-    "count": 516,
-    "parser": "scripts/extract-albert-pdf-offers-v1.mjs",
-    "note": "Průzkumný parser z PDF textu. Před ostrým napojením zkontrolovat clean/suspect ukázky."
+    "updatedAt": "2026-05-15T06:17:09.713Z",
+    "count": 513,
+    "cleanCount": 382,
+    "suspectCount": 131,
+    "parser": "scripts/extract-albert-pdf-offers-v2.mjs",
+    "note": "Průzkumný parser z PDF textu. V2 zpřísňuje suspect pravidla a normalizuje ceny dopočtené z jednotkové ceny."
   },
   "offers": [
     {
-      "id": "albert-supermarket-ed03a5fd5c0d650b",
+      "id": "albert-supermarket-b5431a04d1ff329b",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -17,8 +19,8 @@
       "brand": "",
       "description": "",
       "packageSize": "69–71 g",
-      "price": 11.91,
-      "priceText": "11,91 Kč",
+      "price": 11.9,
+      "priceText": "11,90 Kč",
       "unitPrice": 16.77,
       "unit": "Kč/100 g",
       "unitText": "100 g od 16,77 Kč",
@@ -120,7 +122,7 @@
       "rawContext": "Velkopopovický Kozel 11/ Gambrinus Patron 12 • světlý ležák • 0,5 l • 1 l = 35,80 Kč • 17,90 Kč"
     },
     {
-      "id": "albert-supermarket-a6cf094241ff9440",
+      "id": "albert-supermarket-6ab398f3ab45bcd7",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -129,8 +131,8 @@
       "brand": "",
       "description": "",
       "packageSize": "130 g",
-      "price": 39.91,
-      "priceText": "39,91 Kč",
+      "price": 39.9,
+      "priceText": "39,90 Kč",
       "unitPrice": 30.7,
       "unit": "Kč/100 g",
       "unitText": "100 g = 30,70 Kč",
@@ -428,12 +430,12 @@
       "rawContext": "Svijanský Máz • světlý ležák • 0,5 l • 1 l = 27,80 Kč • 15,90 Kč"
     },
     {
-      "id": "albert-supermarket-0839914d3b03f353",
+      "id": "albert-supermarket-21b64f2ba92ad57e",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "Nivea Antiperspirant sprej Božkov Originál",
+      "product": "sprej Božkov Originál",
       "brand": "",
       "description": "",
       "packageSize": "0,5 l",
@@ -450,9 +452,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/7",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "Nivea Antiperspirant sprej Božkov Originál • 37,5% • 0,5 l • 1 l = 279,80 Kč • 139,90 Kč • 3vrstvý • 8 rolí • 1 role = 6,24 Kč • 48,90 Kč"
     },
     {
@@ -512,7 +516,7 @@
       "rawContext": "Whiskas Kapsičky pro kočky • 12× 85 g • 100 g = 9,80 Kč • vybrané druhy • 99,90 Kč"
     },
     {
-      "id": "albert-supermarket-fe1edcbac59fa1c0",
+      "id": "albert-supermarket-a4a2dd10e6258c6b",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -521,8 +525,8 @@
       "brand": "",
       "description": "",
       "packageSize": "460 ml",
-      "price": 119.92,
-      "priceText": "119,92 Kč",
+      "price": 119.9,
+      "priceText": "119,90 Kč",
       "unitPrice": 26.07,
       "unit": "Kč/100 ml",
       "unitText": "100 ml = 26,07 Kč",
@@ -590,9 +594,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/10",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem",
+        "možné sloučení více produktů"
+      ],
       "rawContext": "vepřová pečeně Excellent Burger s lanýžem • masný polotovar • 200 g • 1 kg = 449,50 Kč • masný polotovar • 350 g • 1 kg =399,71 Kč"
     },
     {
@@ -624,7 +631,7 @@
       "rawContext": "Albert Klasik klobása • 220 g • 100 g = 20,41 Kč"
     },
     {
-      "id": "albert-supermarket-c4964c1b759f9b0e",
+      "id": "albert-supermarket-e6f0f62cce4e0671",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -633,8 +640,8 @@
       "brand": "",
       "description": "",
       "packageSize": "480 g",
-      "price": 74.93,
-      "priceText": "74,93 Kč",
+      "price": 74.9,
+      "priceText": "74,90 Kč",
       "unitPrice": 15.61,
       "unit": "Kč/100 g",
       "unitText": "100 g = 15,61 Kč",
@@ -646,13 +653,15 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/10",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "MASA • 480 g • 100 g = 15,61 Kč"
     },
     {
-      "id": "albert-supermarket-48a0423f5bc14ac8",
+      "id": "albert-supermarket-551804c86db9ed28",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -661,8 +670,8 @@
       "brand": "",
       "description": "",
       "packageSize": "240 g",
-      "price": 49.92,
-      "priceText": "49,92 Kč",
+      "price": 49.9,
+      "priceText": "49,90 Kč",
       "unitPrice": 20.8,
       "unit": "Kč/100 g",
       "unitText": "100 g = 20,80 Kč",
@@ -730,23 +739,25 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/10",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "MASA Masošpejle • masný polotovar • 365 g • 1 kg = 164,11 Kč"
     },
     {
-      "id": "albert-supermarket-7152123fa9aed94c",
+      "id": "albert-supermarket-ab07050f01004096",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "Cornetto Müller Riso Protein 29,90",
+      "product": "Cornetto Müller Riso Protein",
       "brand": "",
       "description": "",
       "packageSize": "180 g",
-      "price": 24.91,
-      "priceText": "24,91 Kč",
+      "price": 24.9,
+      "priceText": "24,90 Kč",
       "unitPrice": 13.84,
       "unit": "Kč/100 g",
       "unitText": "100 g = 13,84 Kč",
@@ -786,9 +797,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/11",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "impuls Margot • 125 ml • 100 ml = 20,72 Kč • vybrané druhy • 25,90 Kč"
     },
     {
@@ -814,9 +827,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/11",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "BOD NAVÍC • 80 g • 100 g = 18,63 Kč • vybrané druhy • 14,90 Kč"
     },
     {
@@ -848,17 +863,17 @@
       "rawContext": "Kravík Ochucené mléko • 90 g • 100 g = 33,23 Kč • vybrané druhy • 29,90 Kč"
     },
     {
-      "id": "albert-supermarket-ae6e0d3f23f1a9cc",
+      "id": "albert-supermarket-347dc48b6d4844f4",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "Président Camembert 47,90",
+      "product": "Président Camembert",
       "brand": "",
       "description": "",
       "packageSize": "90 g",
-      "price": 29.91,
-      "priceText": "29,91 Kč",
+      "price": 29.9,
+      "priceText": "29,90 Kč",
       "unitPrice": 33.23,
       "unit": "Kč/100 g",
       "unitText": "100 g = 33,23 Kč",
@@ -898,9 +913,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/11",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhu Figaro Čokopiškoty • 147 g • 100 g = 16,94 Kč • vybrané druhy • 24,90 Kč"
     },
     {
@@ -926,9 +943,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/11",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu",
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "při koupi 2 kusů stejného druhu • 250 ml • 100 ml = 6,76 Kč • vybrané druhy • 16,90 Kč"
     },
     {
@@ -960,12 +980,12 @@
       "rawContext": "Tchibo Exclusive • mletá káva • 250 g • 100 g = 45,96 Kč • vybrané druhy • 99,90 Kč"
     },
     {
-      "id": "albert-supermarket-8c5c594ab24ef9e4",
+      "id": "albert-supermarket-6909e6a5acf33c9d",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "NAVÍC 1 BOD Dolce Gusto Kapsle",
+      "product": "Dolce Gusto Kapsle",
       "brand": "",
       "description": "199 Kč",
       "packageSize": "30 ks",
@@ -1156,7 +1176,7 @@
       "rawContext": "Rajčata na větvičce Nelinka svazek • 250 g • 100 g = 23,96 Kč"
     },
     {
-      "id": "albert-supermarket-3526ca06fcd73b47",
+      "id": "albert-supermarket-ab4f008423010d5a",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -1165,8 +1185,8 @@
       "brand": "",
       "description": "",
       "packageSize": "300 g",
-      "price": 44.91,
-      "priceText": "44,91 Kč",
+      "price": 44.9,
+      "priceText": "44,90 Kč",
       "unitPrice": 14.97,
       "unit": "Kč/100 g",
       "unitText": "100 g = 14,97 Kč",
@@ -1178,23 +1198,26 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/17",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu",
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "uzenářství Vysočina MASA • 300 g • 100 g = 14,97 Kč"
     },
     {
-      "id": "albert-supermarket-f86fc91a7155c41d",
+      "id": "albert-supermarket-576e07878422a08c",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "glutamanu sodného E621 a barviva E120. Kuřecí minipárečky",
+      "product": "sodného E621 a barviva E120. Kuřecí minipárečky",
       "brand": "",
       "description": "",
       "packageSize": "220 g",
-      "price": 34.91,
-      "priceText": "34,91 Kč",
+      "price": 34.9,
+      "priceText": "34,90 Kč",
       "unitPrice": 15.87,
       "unit": "Kč/100 g",
       "unitText": "100 g = 15,87 Kč",
@@ -1206,9 +1229,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/17",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "*Tato nabídka platí pouze pro prodejny s obsluhovaným úsekem. •**Bez lepku, sóji, glutamanu sodného E621 a barviva E120. Kuřecí minipárečky • 220 g • 100 g = 15,87 Kč"
     },
     {
@@ -1240,7 +1265,7 @@
       "rawContext": "Mistrovský škvarkový bochánek** • 70 g • 100 g = 14,15 Kč"
     },
     {
-      "id": "albert-supermarket-a6e03f1ec264fa45",
+      "id": "albert-supermarket-4b2baa7381a1413c",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -1249,8 +1274,8 @@
       "brand": "",
       "description": "",
       "packageSize": "67 g",
-      "price": 7.91,
-      "priceText": "7,91 Kč",
+      "price": 7.9,
+      "priceText": "7,90 Kč",
       "unitPrice": 11.8,
       "unit": "Kč/100 g",
       "unitText": "100 g = 11,80 Kč",
@@ -1296,7 +1321,7 @@
       "rawContext": "Kostka s pudinkem • 90 g • 100 g = 17,67 Kč"
     },
     {
-      "id": "albert-supermarket-5942b03d0b3e4196",
+      "id": "albert-supermarket-220ecb894f5e2c69",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -1305,8 +1330,8 @@
       "brand": "",
       "description": "balený • 50 % náplně; tvarohový, makový",
       "packageSize": "400 g",
-      "price": 39.92,
-      "priceText": "39,92 Kč",
+      "price": 39.9,
+      "priceText": "39,90 Kč",
       "unitPrice": 9.98,
       "unit": "Kč/100 g",
       "unitText": "100 g = 9,98 Kč",
@@ -1352,7 +1377,7 @@
       "rawContext": "Milka Croissant • 50 g • 100 g = 35,80 Kč • vanilka, čokoláda"
     },
     {
-      "id": "albert-supermarket-9acf3917196c8b46",
+      "id": "albert-supermarket-82610e714d574179",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -1361,8 +1386,8 @@
       "brand": "",
       "description": "",
       "packageSize": "800 g",
-      "price": 239.04,
-      "priceText": "239,04 Kč",
+      "price": 239,
+      "priceText": "239 Kč",
       "unitPrice": 29.88,
       "unit": "Kč/100 g",
       "unitText": "100 g = 29,88 Kč",
@@ -1402,9 +1427,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/20",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Smetanito Neodolatelné Sýr a křup • 140 g • 100 g = 38,50 Kč • vybrané druhy • 53,90 Kč • 140 g • 100 g = 32,08 Kč • 44,90 Kč"
     },
     {
@@ -1436,7 +1463,7 @@
       "rawContext": "Apetito Smetanové • 140–150 g • 100 g od 23,27 Kč • vybrané druhy • 29,90 Kč"
     },
     {
-      "id": "albert-supermarket-2d76c0fb1386f2e8",
+      "id": "albert-supermarket-8145b28fd970d0d2",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -1445,8 +1472,8 @@
       "brand": "",
       "description": "",
       "packageSize": "180 g",
-      "price": 39.91,
-      "priceText": "39,91 Kč",
+      "price": 39.9,
+      "priceText": "39,90 Kč",
       "unitPrice": 22.17,
       "unit": "Kč/100 g",
       "unitText": "100 g = 22,17 Kč",
@@ -1514,9 +1541,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/21",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Smetanový jogurt z Valašska Grand Dessert • 150 g • 100 g = 7,94 Kč • vybrané druhy • 190 g • 100 g = 13,11 Kč • vybrané druhy"
     },
     {
@@ -1548,7 +1577,7 @@
       "rawContext": "Milko Tvaroh polotučný • 250 g • 100 g = 7,56 Kč"
     },
     {
-      "id": "albert-supermarket-56548575820abd66",
+      "id": "albert-supermarket-6b8bf7dfcacc3c9a",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -1557,8 +1586,8 @@
       "brand": "",
       "description": "",
       "packageSize": "400 g",
-      "price": 21.92,
-      "priceText": "21,92 Kč",
+      "price": 21.9,
+      "priceText": "21,90 Kč",
       "unitPrice": 5.48,
       "unit": "Kč/100 g",
       "unitText": "100 g = 5,48 Kč",
@@ -1576,7 +1605,7 @@
       "rawContext": "Mléčný řez Müllermilch Mléčný nápoj • 400 g • 100 g = 5,48 Kč"
     },
     {
-      "id": "albert-supermarket-7933f6eb52f6db03",
+      "id": "albert-supermarket-c3de98f2fd51bb30",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -1585,8 +1614,8 @@
       "brand": "",
       "description": "",
       "packageSize": "270–280 g",
-      "price": 21.92,
-      "priceText": "21,92 Kč",
+      "price": 21.9,
+      "priceText": "21,90 Kč",
       "unitPrice": 7.83,
       "unit": "Kč/100 g",
       "unitText": "100 g od 7,83 Kč",
@@ -1660,7 +1689,7 @@
       "rawContext": "Albert Vejce v aspiku • chlazené • balené • 200 g • 100 g = 12,45 Kč"
     },
     {
-      "id": "albert-supermarket-2ae148ed3dafb986",
+      "id": "albert-supermarket-404d66e73c14dc7c",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -1669,8 +1698,8 @@
       "brand": "",
       "description": "chlazený • balený",
       "packageSize": "350 g",
-      "price": 119.91,
-      "priceText": "119,91 Kč",
+      "price": 119.9,
+      "priceText": "119,90 Kč",
       "unitPrice": 34.26,
       "unit": "Kč/100 g",
       "unitText": "100 g = 34,26 Kč",
@@ -1716,7 +1745,7 @@
       "rawContext": "Flora • 400 g • 100 g = 14,98 Kč • vybrané druhy • 54,90 Kč"
     },
     {
-      "id": "albert-supermarket-80a10c6c5bd71206",
+      "id": "albert-supermarket-9feb3064c97b8a34",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -1725,8 +1754,8 @@
       "brand": "",
       "description": "chlazené • balené",
       "packageSize": "400 g",
-      "price": 59.92,
-      "priceText": "59,92 Kč",
+      "price": 59.9,
+      "priceText": "59,90 Kč",
       "unitPrice": 14.98,
       "unit": "Kč/100 g",
       "unitText": "100 g = 14,98 Kč",
@@ -1800,7 +1829,7 @@
       "rawContext": "Don Peppe Plněné knedlíky • 600 g • 100 g = 11,65 Kč • vybrané druhy • 69,90 Kč"
     },
     {
-      "id": "albert-supermarket-984a53510facfc5f",
+      "id": "albert-supermarket-6ba76b83bb5bbe41",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -1809,8 +1838,8 @@
       "brand": "",
       "description": "159 Kč",
       "packageSize": "427–465 ml",
-      "price": 149.92,
-      "priceText": "149,92 Kč",
+      "price": 149.9,
+      "priceText": "149,90 Kč",
       "unitPrice": 32.24,
       "unit": "Kč/100 ml",
       "unitText": "100 ml od 32,24 Kč",
@@ -2242,9 +2271,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/24",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu",
+        "moc dlouhý/slitý název"
+      ],
       "rawContext": "Černý čaj Y O D R O K U 1 89 5 PERLA ORIGINS • zrnková káva • 500 g • 100 g = 45,80 Kč • vybrané druhy"
     },
     {
@@ -2555,7 +2587,8 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "chybí jednotková cena"
+        "chybí jednotková cena",
+        "název nezačíná velkým písmenem"
       ],
       "rawContext": "krupice Babiččina volba Mouka • 1 kg • 15,90 Kč • 1 kg • vybrané druhy • 19,90 Kč"
     },
@@ -2646,12 +2679,12 @@
       "rawContext": "POŽITEK z přírodní VANILKY • 118–130 g • 100 g od 30,70 Kč • vybrané druhy • 39,90 Kč"
     },
     {
-      "id": "albert-supermarket-65bc237a0fca840e",
+      "id": "albert-supermarket-d5712e54d1580ae0",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "Nápoje 90 potraviny 29 Semtex",
+      "product": "Semtex",
       "brand": "",
       "description": "energetický nápoj",
       "packageSize": "0,5 l",
@@ -2730,12 +2763,12 @@
       "rawContext": "Kofola 2l • 2 l • 1 l = 13,45 Kč • vybrané druhy • 19,90 Kč"
     },
     {
-      "id": "albert-supermarket-73b64f5e61700e4c",
+      "id": "albert-supermarket-8138ca01ef76d88e",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "nápoj • 0,75 l",
+      "product": "nápoj • l",
       "brand": "",
       "description": "",
       "packageSize": "1 l",
@@ -2752,9 +2785,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/26",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "nápoj • 0,75 l • 1 l = 66,54 Kč • vybrané druhy"
     },
     {
@@ -2838,38 +2873,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/26",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "voda • 1,5 l • 1 l = 9,27 Kč • vybrané druhy • 11,90 Kč"
-    },
-    {
-      "id": "albert-supermarket-49312098458b0a69",
-      "chain": "Albert",
-      "storeId": "albert-supermarket",
-      "storeName": "Albert supermarket",
-      "leafletType": "supermarket",
-      "product": "voda",
-      "brand": "",
-      "description": "",
-      "packageSize": "1,5 l",
-      "price": 14.9,
-      "priceText": "14,90 Kč",
-      "unitPrice": 9.94,
-      "unit": "Kč/1 l",
-      "unitText": "1 l = 9,94 Kč",
-      "validFrom": "od st 13.05.2026",
-      "validTo": "do út 19.05.2026",
-      "priceType": "akční cena",
-      "pageNumber": 26,
-      "imageUrl": "",
-      "pageImageUrl": "",
-      "imageType": "",
-      "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/26",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
-      "rawContext": "voda • 1,5 l • 1 l = 9,94 Kč • vybrané druhy • 14,90 Kč"
     },
     {
       "id": "albert-supermarket-2a09f36c35edcaf1",
@@ -2900,12 +2909,12 @@
       "rawContext": "RC Cola/ Top Topic • 1,5 l • 1 l = 15,94 Kč • vybrané druhy • 23,90 Kč"
     },
     {
-      "id": "albert-supermarket-179e3a05eaf8cc83",
+      "id": "albert-supermarket-27fcc2e5db3c2fa7",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "všech supermarketech a hypermarketech Albert. Více na www.mattoni-souteze.cz.",
+      "product": "supermarketech a hypermarketech Albert. Více na www.mattoni-souteze.cz.",
       "brand": "",
       "description": "ochucená minerální voda",
       "packageSize": "0,7 l",
@@ -2925,17 +2934,19 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "dlouhý název"
+        "dlouhý název",
+        "šum v názvu",
+        "název nezačíná velkým písmenem"
       ],
       "rawContext": "Soutěž probíhá 6. 5.–2. 6. 2026 ve všech supermarketech a hypermarketech Albert. Více na www.mattoni-souteze.cz. • ochucená minerální voda • 0,7 l • 1 l = 28,43 Kč • vybrané druhy • 19,90 Kč"
     },
     {
-      "id": "albert-supermarket-5915b26668dc01af",
+      "id": "albert-supermarket-f1171adc5157a48b",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "FANDÍME HOKEJI Proud",
+      "product": "Proud",
       "brand": "",
       "description": "",
       "packageSize": "0,33 l",
@@ -3042,7 +3053,7 @@
       "rawContext": "Heineken • světlý ležák • 0,4 l • 1 l = 39,75 Kč • záloha na láhev 3 Kč"
     },
     {
-      "id": "albert-supermarket-2e7f7259c5d21703",
+      "id": "albert-supermarket-8acecc5e136ea9b3",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -3051,8 +3062,8 @@
       "brand": "",
       "description": "",
       "packageSize": "90 g",
-      "price": 11.91,
-      "priceText": "11,91 Kč",
+      "price": 11.9,
+      "priceText": "11,90 Kč",
       "unitPrice": 13.23,
       "unit": "Kč/100 g",
       "unitText": "100 g = 13,23 Kč",
@@ -3206,18 +3217,20 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/27",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "KTERÉ ZÍSKÁTE POUZE S APLIKACÍ • 2 l • 1 l = 21,45 Kč • 0,5 l = 10,73 Kč • 42,90 Kč"
     },
     {
-      "id": "albert-supermarket-ef107bb70592b1aa",
+      "id": "albert-supermarket-6e8ad0948448f1e0",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "FANDÍME HOKEJI Birell",
+      "product": "Birell",
       "brand": "",
       "description": "nealkoholické pivo",
       "packageSize": "0,5 l",
@@ -3492,40 +3505,12 @@
       "rawContext": "Krušovice Bohém • světlý ležák • 0,5 l • 1 l = 37,80 Kč • 16,90 Kč"
     },
     {
-      "id": "albert-supermarket-6e8ad0948448f1e0",
+      "id": "albert-supermarket-792078be11c11555",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "Birell",
-      "brand": "",
-      "description": "",
-      "packageSize": "0,5 l",
-      "price": 18.9,
-      "priceText": "18,90 Kč",
-      "unitPrice": 37.8,
-      "unit": "Kč/1 l",
-      "unitText": "1 l = 37,80 Kč",
-      "validFrom": "od st 13.05.2026",
-      "validTo": "do út 19.05.2026",
-      "priceType": "akční cena",
-      "pageNumber": 28,
-      "imageUrl": "",
-      "pageImageUrl": "",
-      "imageType": "",
-      "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/28",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
-      "rawContext": "Birell • nealkoholické pivo • 0,5 l • 1 l = 37,80 Kč • vybrané druhy"
-    },
-    {
-      "id": "albert-supermarket-2a9d97763932d9f7",
-      "chain": "Albert",
-      "storeId": "albert-supermarket",
-      "storeName": "Albert supermarket",
-      "leafletType": "supermarket",
-      "product": "PŘI KOUPI 2 ks A VÍCE 10990 Bohemia Sekt",
+      "product": "Bohemia Sekt",
       "brand": "",
       "description": "",
       "packageSize": "0,75 l",
@@ -3598,9 +3583,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/29",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Prosecco DOC Solicello Prosecco Frizzante DOC • Itálie • 0,75 l • 1 l = 265,34 Kč • 199 Kč • Itálie • 0,75 l • 1 l = 119,87 Kč • 89,90 Kč • Itálie • 0,75 l • 1 l= 93,20 Kč • 59,90 Kč"
     },
     {
@@ -3772,12 +3759,12 @@
       "rawContext": "Tini Danube Valley Viña Tarapacá • přívlastkové víno • 0,75 l • 1 l = 186,54 Kč"
     },
     {
-      "id": "albert-supermarket-a561edb45c0a234f",
+      "id": "albert-supermarket-e0683bdd9a59e877",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "víno • 0,75 l",
+      "product": "víno • l",
       "brand": "",
       "description": "",
       "packageSize": "1 l",
@@ -3794,9 +3781,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/29",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "víno • 0,75 l • 1 l = 238,67 Kč"
     },
     {
@@ -3884,12 +3873,12 @@
       "rawContext": "Nápoje Becherovka • 38% • 0,7 l • 1 l = 355,72 Kč • 249 Kč"
     },
     {
-      "id": "albert-supermarket-3145848538733598",
+      "id": "albert-supermarket-c219222a42ce948d",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "a v souladu s příslušným prováděcím právním předpisem.",
+      "product": "v souladu s příslušným prováděcím právním předpisem.",
       "brand": "",
       "description": "40%; 329 Kč",
       "packageSize": "0,7 l",
@@ -3906,18 +3895,20 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/30",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "o potravinách a tabákových výrobcích, a v souladu s příslušným prováděcím právním předpisem. • 40% • 0,7 l • 1 l = 427,15 Kč • 329 Kč"
     },
     {
-      "id": "albert-supermarket-fb8a3de9e984ff4e",
+      "id": "albert-supermarket-357100893defd083",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "nabídka neplatí v hypermarketech Albert a v supermarketech",
+      "product": "neplatí v hypermarketech Albert a v supermarketech",
       "brand": "",
       "description": "40%, Honey 35%; 269 Kč",
       "packageSize": "0,7 l",
@@ -3934,9 +3925,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/30",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "listu výrobku prostřednictvím volně přístupných internetových stránek https://eprel.ec.europa.eu/screen/home. Chyby v tisku vyhrazeny. Tato reklama není nabídkou ani výzvou k podání nabídky. Nabídka platí do vyprodání zásob. V supermarketech Albert lze platit stravenkami. Cenová nabídka neplatí v hypermarketech Albert a v supermarketech • 40%, Honey 35% • 0,7 l • 1 l = 384,29 Kč • 269 Kč"
     },
     {
@@ -3968,7 +3961,7 @@
       "rawContext": "NABÍDKA PRO NEJMENŠÍ Hami Masozeleninový příkrm • 250 g • 100 g = 12,76 Kč • vybrané druhy • 30,90 Kč"
     },
     {
-      "id": "albert-supermarket-fcb55499ebd1ca22",
+      "id": "albert-supermarket-7733c0bf968345bd",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -3977,8 +3970,8 @@
       "brand": "",
       "description": "239 Kč",
       "packageSize": "800 ml",
-      "price": 239.04,
-      "priceText": "239,04 Kč",
+      "price": 239,
+      "priceText": "239 Kč",
       "unitPrice": 29.88,
       "unit": "Kč/100 ml",
       "unitText": "100 ml = 29,88 Kč",
@@ -3990,9 +3983,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/31",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhy • 800 ml • 100 ml = 29,88 Kč • vybrané druhy • 239 Kč"
     },
     {
@@ -4046,9 +4041,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/31",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "KREDIT NAVÍC • 35 g • 100 g = 156,86 Kč • vybrané druhy • 54,90 Kč"
     },
     {
@@ -4220,9 +4217,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/32",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "moc dlouhý/slitý název",
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Perfect Fit Granule pro psy Purina ONE Kapsičky pro kočky • 825 g • 100 g = 13,33 Kč • vybrané druhy • 109,90 Kč • silikátové • 5 l • 1 l = 25,98 Kč • 129,90 Kč"
     },
     {
@@ -4276,9 +4276,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/32",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Savo Original Sanytol Univerzální čistič • 1,2 l • 1 l = 54,09 Kč • 59,90 Kč • 500 ml • 1 l = 139,80 Kč • 59,90 Kč"
     },
     {
@@ -4304,9 +4306,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/32",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "moc dlouhý/slitý název"
+      ],
       "rawContext": "Vůně do auta Little Joe Sport – CZ hokejista • 500 ml • 1 l = 139,80 Kč • vybrané druhy • 69,90 Kč • 1 ks"
     },
     {
@@ -4394,7 +4398,7 @@
       "rawContext": "Zmrzlina Magnum • 85–110 ml • 100 ml od 29,91 Kč • vybrané druhy • 32,90 Kč"
     },
     {
-      "id": "albert-supermarket-0fe5315ac8c7de13",
+      "id": "albert-supermarket-65e2becb807a8332",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -4403,8 +4407,8 @@
       "brand": "",
       "description": "",
       "packageSize": "150 g",
-      "price": 19.91,
-      "priceText": "19,91 Kč",
+      "price": 19.9,
+      "priceText": "19,90 Kč",
       "unitPrice": 13.27,
       "unit": "Kč/100 g",
       "unitText": "100 g = 13,27 Kč",
@@ -4450,12 +4454,12 @@
       "rawContext": "RIO mare Insalatissime • 160 g • 100 g = 40,57 Kč • vybrané druhy • 64,90 Kč"
     },
     {
-      "id": "albert-supermarket-a335b25e0283b453",
+      "id": "albert-supermarket-e069f01602462c64",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
       "leafletType": "supermarket",
-      "product": "cena za posledních 30 dní u nás. Gervais",
+      "product": "za posledních 30 dní u nás. Gervais",
       "brand": "",
       "description": "",
       "packageSize": "80 g",
@@ -4472,9 +4476,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/33",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "ke dni tisku letáku 27. 4. 2026. Nelze garantovat, že cena produktů označených v letáku NEPORAZITELNÉ zůstane nejnižší po celou dobu platnosti letáku. Více informací na straně 14. •▼ Nejnižší cena za posledních 30 dní u nás. Gervais • 80 g • 100 g = 28,63 Kč bez Aplikace /"
     },
     {
@@ -4612,9 +4618,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/33",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "lískové ořechy, pistácie a kokos. Persil Prací gel • 66 dávek • 1 dávka = 5,29 Kč"
     },
     {
@@ -4810,9 +4818,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/35",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhy Artesie Voda • 1,5 l • 1 l = 4,60 Kč • vybrané druhy"
     },
     {
@@ -4928,7 +4938,7 @@
       "rawContext": "– sýrové kostky Sýr s lanýžem – kostky • 120 g • 100 g = 65,84 Kč • 120 g • 100 g = 74,17 Kč"
     },
     {
-      "id": "albert-supermarket-d9567eb7b21d7a8f",
+      "id": "albert-supermarket-953d4b144afcff2d",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -4937,8 +4947,8 @@
       "brand": "",
       "description": "",
       "packageSize": "260 g",
-      "price": 89.02,
-      "priceText": "89,02 Kč",
+      "price": 89,
+      "priceText": "89 Kč",
       "unitPrice": 34.24,
       "unit": "Kč/100 g",
       "unitText": "100 g = 34,24 Kč",
@@ -4978,13 +4988,16 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/37",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu",
+        "moc dlouhý/slitý název"
+      ],
       "rawContext": "*PŘI KOUPI 3 KS TAPAS ZAPLATÍTE 2 KS. NEJLEVNĚJŠÍ VÝROBEK NEPLATÍTE. • 175 g • 100 g = 39,43 Kč"
     },
     {
-      "id": "albert-supermarket-493152a2dc29f311",
+      "id": "albert-supermarket-56a76ab91bc71430",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -4993,8 +5006,8 @@
       "brand": "",
       "description": "",
       "packageSize": "260 g",
-      "price": 69.91,
-      "priceText": "69,91 Kč",
+      "price": 69.9,
+      "priceText": "69,90 Kč",
       "unitPrice": 26.89,
       "unit": "Kč/100 g",
       "unitText": "100 g = 26,89 Kč",
@@ -5040,7 +5053,7 @@
       "rawContext": "Bageta Trhané vepřové & čerstvý špenát • chlazená • balená • 200 g • 100 g = 34,95 Kč"
     },
     {
-      "id": "albert-supermarket-28bc4901a3ad435b",
+      "id": "albert-supermarket-d50ccf8b4b8ffe61",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -5049,8 +5062,8 @@
       "brand": "",
       "description": "chlazená • balená",
       "packageSize": "400 g",
-      "price": 56.92,
-      "priceText": "56,92 Kč",
+      "price": 56.9,
+      "priceText": "56,90 Kč",
       "unitPrice": 14.23,
       "unit": "Kč/100 g",
       "unitText": "100 g = 14,23 Kč",
@@ -5068,7 +5081,7 @@
       "rawContext": "& tatarská omáčka Více chuti SUPER CENA • chlazená • balená • 400 g • 100 g = 14,23 Kč"
     },
     {
-      "id": "albert-supermarket-3db732a24d70b639",
+      "id": "albert-supermarket-5e9cb18ad192e2b9",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -5077,8 +5090,8 @@
       "brand": "",
       "description": "chlazený • balený",
       "packageSize": "210 g",
-      "price": 69.91,
-      "priceText": "69,91 Kč",
+      "price": 69.9,
+      "priceText": "69,90 Kč",
       "unitPrice": 33.29,
       "unit": "Kč/100 g",
       "unitText": "100 g = 33,29 Kč",
@@ -5096,7 +5109,7 @@
       "rawContext": "Caesar salát s krutony a sýrem Gran Castelli • chlazený • balený • 210 g • 100 g = 33,29 Kč"
     },
     {
-      "id": "albert-supermarket-c6b8453c5b57a75c",
+      "id": "albert-supermarket-998f50be7a3c5c52",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -5105,8 +5118,8 @@
       "brand": "",
       "description": "chlazená • balená",
       "packageSize": "400 g",
-      "price": 56.92,
-      "priceText": "56,92 Kč",
+      "price": 56.9,
+      "priceText": "56,90 Kč",
       "unitPrice": 14.23,
       "unit": "Kč/100 g",
       "unitText": "100 g = 14,23 Kč",
@@ -5118,13 +5131,15 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/38",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "KREDIT NAVÍC Farmářská polévka • chlazená • balená • 400 g• 100 g = 14,23 Kč"
     },
     {
-      "id": "albert-supermarket-f4672cfc1abf2eec",
+      "id": "albert-supermarket-5cd238c7642980e1",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -5133,8 +5148,8 @@
       "brand": "",
       "description": "",
       "packageSize": "450 g",
-      "price": 69.93,
-      "priceText": "69,93 Kč",
+      "price": 69.9,
+      "priceText": "69,90 Kč",
       "unitPrice": 15.54,
       "unit": "Kč/100 g",
       "unitText": "100 g = 15,54 Kč",
@@ -5264,7 +5279,7 @@
       "rawContext": "Maggi Bujón • 60 g • 100 g= 46,50 Kč • vybrané druhy • 27,90 Kč"
     },
     {
-      "id": "albert-supermarket-24098e55dd61e6af",
+      "id": "albert-supermarket-868aa31e280aa231",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -5273,8 +5288,8 @@
       "brand": "",
       "description": "",
       "packageSize": "250 g",
-      "price": 24.96,
-      "priceText": "24,96 Kč",
+      "price": 25,
+      "priceText": "25 Kč",
       "unitPrice": 13.96,
       "unit": "Kč/100 g",
       "unitText": "100 g = 13,96 Kč",
@@ -5286,9 +5301,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/39",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "essa Čočka velkozrnná • 250 g • 100 g = 13,96 Kč • 34,90 Kč • 400 g • 100 g = 24,96 Kč"
     },
     {
@@ -5432,7 +5449,7 @@
       "rawContext": "El General • 40% • 0,7 l • 1 l = 1141,43 Kč • 799 Kč • 34% • 0,7 l • 1 l = 570 Kč • 399 Kč"
     },
     {
-      "id": "albert-supermarket-97e94ffd2eecc79d",
+      "id": "albert-supermarket-a0df554f6b320d40",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -5441,8 +5458,8 @@
       "brand": "",
       "description": "349 Kč; 159 Kč",
       "packageSize": "0,7 l",
-      "price": 349.01,
-      "priceText": "349,01 Kč",
+      "price": 349,
+      "priceText": "349 Kč",
       "unitPrice": 498.58,
       "unit": "Kč/1 l",
       "unitText": "1 l = 498,58 Kč",
@@ -5454,13 +5471,15 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/40",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Nalaďte se na letní párty • 37,5% • 0,7 l • 1 l = 498,58 Kč • 349 Kč • 37,5% • 0,5 l • 1 l = 318 Kč • 159 Kč"
     },
     {
-      "id": "albert-supermarket-bfef10b95c815354",
+      "id": "albert-supermarket-3e9cfff644382a5b",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -5469,8 +5488,8 @@
       "brand": "",
       "description": "",
       "packageSize": "0,7 l",
-      "price": 349.01,
-      "priceText": "349,01 Kč",
+      "price": 349,
+      "priceText": "349 Kč",
       "unitPrice": 498.58,
       "unit": "Kč/1 l",
       "unitText": "1 l = 498,58 Kč",
@@ -5572,7 +5591,7 @@
       "rawContext": "Božkov Modrá/ Peprmint • 19% • 0,5 l • 1 l = 259,80 Kč • 129,90 Kč"
     },
     {
-      "id": "albert-supermarket-8edec3fc5b85d1ce",
+      "id": "albert-supermarket-84e9ead0bb7c9a3e",
       "chain": "Albert",
       "storeId": "albert-supermarket",
       "storeName": "Albert supermarket",
@@ -5581,8 +5600,8 @@
       "brand": "",
       "description": "",
       "packageSize": "400 ml",
-      "price": 59.92,
-      "priceText": "59,92 Kč",
+      "price": 59.9,
+      "priceText": "59,90 Kč",
       "unitPrice": 14.98,
       "unit": "Kč/100 ml",
       "unitText": "100 ml = 14,98 Kč",
@@ -5768,7 +5787,7 @@
       "rawContext": "Free From Trvanlivé mléko Albert Meruňky balené • 500 g • 100 g = 10,98 Kč bez Aplikace /"
     },
     {
-      "id": "albert-hypermarket-779867370ee7a45a",
+      "id": "albert-hypermarket-1e9f830f6abf6af3",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -5777,8 +5796,8 @@
       "brand": "",
       "description": "",
       "packageSize": "69–71 g",
-      "price": 11.91,
-      "priceText": "11,91 Kč",
+      "price": 11.9,
+      "priceText": "11,90 Kč",
       "unitPrice": 16.77,
       "unit": "Kč/100 g",
       "unitText": "100 g od 16,77 Kč",
@@ -5880,7 +5899,7 @@
       "rawContext": "Velkopopovický Kozel 11/ Gambrinus Patron 12 • světlý ležák • 0,5 l • 1 l = 35,80 Kč • 17,90 Kč"
     },
     {
-      "id": "albert-hypermarket-b115c8c863245952",
+      "id": "albert-hypermarket-3a258fdfa74328c7",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -5889,8 +5908,8 @@
       "brand": "",
       "description": "",
       "packageSize": "130 g",
-      "price": 39.91,
-      "priceText": "39,91 Kč",
+      "price": 39.9,
+      "priceText": "39,90 Kč",
       "unitPrice": 30.7,
       "unit": "Kč/100 g",
       "unitText": "100 g = 30,70 Kč",
@@ -6070,9 +6089,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/6",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "minerální voda • 1,5 l • 1 l = 9,94 Kč • vybrané druhy • 14,90 Kč • 37,5% • 0,5 l • 1 l = 279,80 Kč • 139,90 Kč"
     },
     {
@@ -6182,9 +6203,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/7",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "na vlasy* Ariel Prací gel • 150 ml • 100 ml = 33,27 Kč • vybrané druhy • 44,90 Kč"
     },
     {
@@ -6210,9 +6233,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/7",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "na jedno nabití • nízká výška 8,3 cm, úklid i pod nábytkem • ovládání přes mobilní aplikaci nebo ovladač • 3499 Kč • 250–440 ml • 100 ml od 22,71 Kč • vybrané druhy • 119,90 Kč"
     },
     {
@@ -6244,7 +6269,7 @@
       "rawContext": "HI T MĚSÍCE 9. 6. 2026. • 90 dávek • 1 dávka = 4,44 Kč"
     },
     {
-      "id": "albert-hypermarket-f71c82c6c9d169a4",
+      "id": "albert-hypermarket-59532d9ae74a4966",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -6253,8 +6278,8 @@
       "brand": "",
       "description": "chlazené • balené",
       "packageSize": "275 g",
-      "price": 24.92,
-      "priceText": "24,92 Kč",
+      "price": 24.9,
+      "priceText": "24,90 Kč",
       "unitPrice": 9.06,
       "unit": "Kč/100 g",
       "unitText": "100 g = 9,06 Kč",
@@ -6272,7 +6297,7 @@
       "rawContext": "Albert Listové těsto rozválené • chlazené • balené • 275 g • 100 g = 9,06 Kč"
     },
     {
-      "id": "albert-hypermarket-8b731cbdb03788cb",
+      "id": "albert-hypermarket-7d7e311437ffd67c",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -6281,8 +6306,8 @@
       "brand": "",
       "description": "",
       "packageSize": "460 ml",
-      "price": 119.92,
-      "priceText": "119,92 Kč",
+      "price": 119.9,
+      "priceText": "119,90 Kč",
       "unitPrice": 26.07,
       "unit": "Kč/100 ml",
       "unitText": "100 ml = 26,07 Kč",
@@ -6358,7 +6383,7 @@
       "rawContext": "Albert Marinovaný vepřový Back bacon • masný polotovar • 310 g • 1 kg = 257,75 Kč"
     },
     {
-      "id": "albert-hypermarket-419a2355277ec8aa",
+      "id": "albert-hypermarket-8dd6182e323cd744",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -6367,8 +6392,8 @@
       "brand": "",
       "description": "masný polotovar",
       "packageSize": "300 g",
-      "price": 119.91,
-      "priceText": "119,91 Kč",
+      "price": 119.9,
+      "priceText": "119,90 Kč",
       "unitPrice": 399.71,
       "unit": "Kč/1 kg",
       "unitText": "1 kg = 399,71 Kč",
@@ -6380,9 +6405,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/10",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Nature's Promise Bio Marinovaná vepřová pečeně bez kosti • masný polotovar • 300 g • 1 kg = 183 Kč • masný polotovar • 350 g • 1 kg = 399,71 Kč"
     },
     {
@@ -6436,9 +6463,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/10",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "s lanýžem TO NEJLEPŠÍ NA GRI • masný polotovar • 200 g • 1 kg = 449,50 Kč"
     },
     {
@@ -6492,13 +6521,15 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/11",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "klobásky Albert Gril mix klobásky • 240 g • 100 g = 20,80 Kč • 200 g • 100 g = 29,95 Kč"
     },
     {
-      "id": "albert-hypermarket-4b746b353387e601",
+      "id": "albert-hypermarket-c273c23fa93904b8",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -6507,8 +6538,8 @@
       "brand": "",
       "description": "",
       "packageSize": "170 g",
-      "price": 36.91,
-      "priceText": "36,91 Kč",
+      "price": 36.9,
+      "priceText": "36,90 Kč",
       "unitPrice": 21.71,
       "unit": "Kč/100 g",
       "unitText": "100 g = 21,71 Kč",
@@ -6554,7 +6585,7 @@
       "rawContext": "Rustic Pavé italský • 200 g • 100 g = 9,95 Kč"
     },
     {
-      "id": "albert-hypermarket-1471f237fba7704b",
+      "id": "albert-hypermarket-45a121b10545bf1a",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -6563,8 +6594,8 @@
       "brand": "",
       "description": "",
       "packageSize": "230 g",
-      "price": 44.92,
-      "priceText": "44,92 Kč",
+      "price": 44.9,
+      "priceText": "44,90 Kč",
       "unitPrice": 19.53,
       "unit": "Kč/100 g",
       "unitText": "100 g = 19,53 Kč",
@@ -6582,7 +6613,7 @@
       "rawContext": "Albert Grilovací cigáro mix • 230 g • 100 g = 19,53 Kč"
     },
     {
-      "id": "albert-hypermarket-fd9fd1b45e5da0f2",
+      "id": "albert-hypermarket-dcdddd88c9aaa340",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -6591,8 +6622,8 @@
       "brand": "",
       "description": "",
       "packageSize": "290 g",
-      "price": 74.91,
-      "priceText": "74,91 Kč",
+      "price": 74.9,
+      "priceText": "74,90 Kč",
       "unitPrice": 25.83,
       "unit": "Kč/100 g",
       "unitText": "100 g = 25,83 Kč",
@@ -6744,9 +6775,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/13",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "polotovar • 480 g • 1 kg = 156,05 Kč"
     },
     {
@@ -6806,7 +6839,7 @@
       "rawContext": "Albert Hrozny bílé bezsemenné • 500 g • 100 g = 9,98 Kč"
     },
     {
-      "id": "albert-hypermarket-809a69538d27d40b",
+      "id": "albert-hypermarket-e29232e07865708a",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -6815,8 +6848,8 @@
       "brand": "",
       "description": "",
       "packageSize": "400 g",
-      "price": 54.92,
-      "priceText": "54,92 Kč",
+      "price": 54.9,
+      "priceText": "54,90 Kč",
       "unitPrice": 13.73,
       "unit": "Kč/100 g",
       "unitText": "100 g = 13,73 Kč",
@@ -6918,7 +6951,7 @@
       "rawContext": "Albert Paprika sladká • 500 g • 100 g = 9,98 Kč"
     },
     {
-      "id": "albert-hypermarket-9facb8819380c92e",
+      "id": "albert-hypermarket-4acb621beb46c177",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -6927,8 +6960,8 @@
       "brand": "",
       "description": "",
       "packageSize": "250 g",
-      "price": 17.98,
-      "priceText": "17,98 Kč",
+      "price": 18,
+      "priceText": "18 Kč",
       "unitPrice": 19.96,
       "unit": "Kč/100 g",
       "unitText": "100 g = 19,96 Kč",
@@ -6946,7 +6979,7 @@
       "rawContext": "Albert Rajčata cherry oválná Hranáček • 250 g • 100 g = 19,96 Kč • 500 g • 100 g = 17,98 Kč"
     },
     {
-      "id": "albert-hypermarket-5b6665f81422902d",
+      "id": "albert-hypermarket-3bf9d6df3c5a2bb5",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -6955,8 +6988,8 @@
       "brand": "",
       "description": "",
       "packageSize": "400 g",
-      "price": 41.92,
-      "priceText": "41,92 Kč",
+      "price": 41.9,
+      "priceText": "41,90 Kč",
       "unitPrice": 10.48,
       "unit": "Kč/100 g",
       "unitText": "100 g = 10,48 Kč",
@@ -7058,7 +7091,7 @@
       "rawContext": "Albert Raženka* • 80 g • 100 g = 7,38 Kč"
     },
     {
-      "id": "albert-hypermarket-403bc4d3750d0063",
+      "id": "albert-hypermarket-830f08807cae895a",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -7067,8 +7100,8 @@
       "brand": "",
       "description": "",
       "packageSize": "410 g",
-      "price": 29.93,
-      "priceText": "29,93 Kč",
+      "price": 29.9,
+      "priceText": "29,90 Kč",
       "unitPrice": 7.3,
       "unit": "Kč/100 g",
       "unitText": "100 g = 7,30 Kč",
@@ -7108,13 +7141,15 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/16",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "příchutí • 75 g • 100 g = 15,87 Kč"
     },
     {
-      "id": "albert-hypermarket-22f7ca07a5a66048",
+      "id": "albert-hypermarket-2204eb0fc9b8eb40",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -7123,8 +7158,8 @@
       "brand": "",
       "description": "",
       "packageSize": "150 g",
-      "price": 19.91,
-      "priceText": "19,91 Kč",
+      "price": 19.9,
+      "priceText": "19,90 Kč",
       "unitPrice": 13.27,
       "unit": "Kč/100 g",
       "unitText": "100 g = 13,27 Kč",
@@ -7170,7 +7205,7 @@
       "rawContext": "Máslová tvarohová kostka • 90 g • 100 g = 17,67 Kč"
     },
     {
-      "id": "albert-hypermarket-51d01319abb83eed",
+      "id": "albert-hypermarket-9a041198b4b4fced",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -7179,8 +7214,8 @@
       "brand": "",
       "description": "",
       "packageSize": "220 g",
-      "price": 29.92,
-      "priceText": "29,92 Kč",
+      "price": 29.9,
+      "priceText": "29,90 Kč",
       "unitPrice": 13.6,
       "unit": "Kč/100 g",
       "unitText": "100 g = 13,60 Kč",
@@ -7198,7 +7233,7 @@
       "rawContext": "Albert Duetky • s náplní • balené • 220 g • 100 g = 13,60 Kč • vybrané druhy"
     },
     {
-      "id": "albert-hypermarket-1a6cf953e029ea23",
+      "id": "albert-hypermarket-63826b6aba520832",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -7207,8 +7242,8 @@
       "brand": "",
       "description": "",
       "packageSize": "120 g",
-      "price": 34.91,
-      "priceText": "34,91 Kč",
+      "price": 34.9,
+      "priceText": "34,90 Kč",
       "unitPrice": 29.09,
       "unit": "Kč/100 g",
       "unitText": "100 g = 29,09 Kč",
@@ -7220,13 +7255,15 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/18",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhy Veselá kráva • 120 g • 100 g = 29,09 Kč"
     },
     {
-      "id": "albert-hypermarket-30c338520f009da2",
+      "id": "albert-hypermarket-9534da1868e86a4c",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -7235,8 +7272,8 @@
       "brand": "",
       "description": "",
       "packageSize": "180 g",
-      "price": 29.92,
-      "priceText": "29,92 Kč",
+      "price": 29.9,
+      "priceText": "29,90 Kč",
       "unitPrice": 16.62,
       "unit": "Kč/100 g",
       "unitText": "100 g = 16,62 Kč",
@@ -7310,7 +7347,7 @@
       "rawContext": "Pribináček • 70 g • 100 g = 22,72 Kč • vybrané druhy"
     },
     {
-      "id": "albert-hypermarket-afe19cd09e28d0ac",
+      "id": "albert-hypermarket-c4dc11579ab01ab6",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -7319,8 +7356,8 @@
       "brand": "",
       "description": "vybrané",
       "packageSize": "130 g",
-      "price": 15.91,
-      "priceText": "15,91 Kč",
+      "price": 15.9,
+      "priceText": "15,90 Kč",
       "unitPrice": 12.24,
       "unit": "Kč/100 g",
       "unitText": "100 g = 12,24 Kč",
@@ -7360,9 +7397,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/19",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhy • 150 g • 100 g = 5,27 Kč • vybrané druhy"
     },
     {
@@ -7394,7 +7433,7 @@
       "rawContext": "Monte Snack • 29 g • 100 g = 37,59 Kč • vybrané druhy"
     },
     {
-      "id": "albert-hypermarket-3bfbc30874c8e30d",
+      "id": "albert-hypermarket-7464f087de232f3c",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -7403,8 +7442,8 @@
       "brand": "",
       "description": "",
       "packageSize": "270–280 g",
-      "price": 21.92,
-      "priceText": "21,92 Kč",
+      "price": 21.9,
+      "priceText": "21,90 Kč",
       "unitPrice": 7.83,
       "unit": "Kč/100 g",
       "unitText": "100 g od 7,83 Kč",
@@ -7472,9 +7511,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/20",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "úsek Crème Bonjour • 250 g • 100 g = 19,96 Kč • 44,90 Kč"
     },
     {
@@ -7562,7 +7603,7 @@
       "rawContext": "Zmrzlina Magnum multipack • 3× 90 ml • 270 ml • 100 ml = 35,15 Kč • vybrané druhy • 94,90 Kč"
     },
     {
-      "id": "albert-hypermarket-5f6b8b540802181c",
+      "id": "albert-hypermarket-7936ced5dd45ca55",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -7571,8 +7612,8 @@
       "brand": "",
       "description": "chlazený • balený",
       "packageSize": "350 g",
-      "price": 119.91,
-      "priceText": "119,91 Kč",
+      "price": 119.9,
+      "priceText": "119,90 Kč",
       "unitPrice": 34.26,
       "unit": "Kč/100 g",
       "unitText": "100 g = 34,26 Kč",
@@ -7640,13 +7681,15 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/20",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhy Nowaco Obalovaná gouda • 200 g • 100 g = 29,95 Kč • 49,90 Kč"
     },
     {
-      "id": "albert-hypermarket-3e490c0d7a56bc4d",
+      "id": "albert-hypermarket-c67f08b8264e75a3",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -7655,8 +7698,8 @@
       "brand": "",
       "description": "",
       "packageSize": "350 g",
-      "price": 22.93,
-      "priceText": "22,93 Kč",
+      "price": 22.9,
+      "priceText": "22,90 Kč",
       "unitPrice": 6.55,
       "unit": "Kč/100 g",
       "unitText": "100 g = 6,55 Kč",
@@ -7780,9 +7823,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/21",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "MASA Bohemia MINI • 250 ml • 100 ml = 11,96 Kč • vybrané druhy • 29,90 Kč"
     },
     {
@@ -7808,9 +7853,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/21",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Zlatý Bažant Monini Olivový olej • světlý ležák • 0,5 l • 1 l = 23,80 Kč • záloha na láhev 3 Kč • 12,90 Kč • 500 ml • 100 ml = 39,80 Kč • vybrané druhy • 209 Kč"
     },
     {
@@ -7978,13 +8025,15 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/23",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhy Artesie Voda • 1,5 l • 1 l = 4,60 Kč • vybrané druhy"
     },
     {
-      "id": "albert-hypermarket-16620aa0c4bfe8e7",
+      "id": "albert-hypermarket-3e885d210fde0ea2",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -7993,8 +8042,8 @@
       "brand": "",
       "description": "",
       "packageSize": "400 g",
-      "price": 21.92,
-      "priceText": "21,92 Kč",
+      "price": 21.9,
+      "priceText": "21,90 Kč",
       "unitPrice": 5.48,
       "unit": "Kč/100 g",
       "unitText": "100 g = 5,48 Kč",
@@ -8012,7 +8061,7 @@
       "rawContext": "Lipánek Mléko ochucené • 400 g • 100 g = 5,48 Kč"
     },
     {
-      "id": "albert-hypermarket-e973160080b635ac",
+      "id": "albert-hypermarket-e001179807d2415b",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -8021,8 +8070,8 @@
       "brand": "",
       "description": "",
       "packageSize": "450 g",
-      "price": 39.92,
-      "priceText": "39,92 Kč",
+      "price": 39.9,
+      "priceText": "39,90 Kč",
       "unitPrice": 8.87,
       "unit": "Kč/100 g",
       "unitText": "100 g = 8,87 Kč",
@@ -8034,38 +8083,13 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/24",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu",
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "stejného druhu Nowaco Hranolky • 450 g • 100 g = 8,87 Kč"
-    },
-    {
-      "id": "albert-hypermarket-263a11ea13b92030",
-      "chain": "Albert",
-      "storeId": "albert-hypermarket",
-      "storeName": "Albert hypermarket",
-      "leafletType": "hypermarket",
-      "product": "BOD NAVÍC 74990",
-      "brand": "",
-      "description": "",
-      "packageSize": "105 ml",
-      "price": 24.91,
-      "priceText": "24,91 Kč",
-      "unitPrice": 23.72,
-      "unit": "Kč/100 ml",
-      "unitText": "100 ml = 23,72 Kč",
-      "validFrom": "od st 13.05.2026",
-      "validTo": "do út 19.05.2026",
-      "priceType": "akční cena",
-      "pageNumber": 24,
-      "imageUrl": "",
-      "pageImageUrl": "",
-      "imageType": "",
-      "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/24",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
-      "rawContext": "BOD NAVÍC 74990 • 105 ml • 100 ml = 23,72 Kč • vybrané druhy"
     },
     {
       "id": "albert-hypermarket-fc093465a3f87989",
@@ -8146,9 +8170,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/25",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "NAVÍC 1 BOD • zrnková káva • 750 g • 1 kg = 372 Kč • 239 Kč • 100 g • vybrané druhy • 79,90 Kč • 225 ml • 100 ml = 17,74 Kč • vybrané druhy • 39,90 Kč"
     },
     {
@@ -8174,9 +8200,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/25",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "NAVÍC 1 BOD • instantní káva • 150 g • 100 g = 73,27 Kč • 109,90 Kč"
     },
     {
@@ -8376,7 +8404,7 @@
       "rawContext": "Emco Ovocný hadík • 20 g • 100 g = 99,50 Kč • vybrané druhy"
     },
     {
-      "id": "albert-hypermarket-fe97c7bd1f780d7e",
+      "id": "albert-hypermarket-c9dec1ef1822aaa0",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -8385,8 +8413,8 @@
       "brand": "",
       "description": "",
       "packageSize": "100 g",
-      "price": 31.92,
-      "priceText": "31,92 Kč",
+      "price": 31.9,
+      "priceText": "31,90 Kč",
       "unitPrice": 31.92,
       "unit": "Kč/100 g",
       "unitText": "100 g = 31,92 Kč",
@@ -8398,9 +8426,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/26",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "NAVÍC Šnek Bob s hračkou • 100 g = 31,92 Kč"
     },
     {
@@ -8426,9 +8456,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/26",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "NAVÍC Bear Ovocné kousky • 5× 20 g • 100 g = 74,90 Kč • vybrané druhy • 74,90 Kč"
     },
     {
@@ -8594,9 +8626,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/27",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "šumivý nápoj • 0,75 l • 1 l = 66,54 Kč • vybrané druhy"
     },
     {
@@ -8686,7 +8720,7 @@
       "rawContext": "Fitmix Cereálie Geisha Čokoláda • 100 g • vybrané druhy • 44,90 Kč"
     },
     {
-      "id": "albert-hypermarket-94b4fc938bdfecbb",
+      "id": "albert-hypermarket-393cc2a3461d99fa",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -8695,8 +8729,8 @@
       "brand": "",
       "description": "",
       "packageSize": "220 g",
-      "price": 34.91,
-      "priceText": "34,91 Kč",
+      "price": 34.9,
+      "priceText": "34,90 Kč",
       "unitPrice": 15.87,
       "unit": "Kč/100 g",
       "unitText": "100 g = 15,87 Kč",
@@ -8764,9 +8798,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/28",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "s kávovary Nespresso Segafredo Kapsle • 10 ks • 1 ks = 7,99 Kč • vybrané druhy"
     },
     {
@@ -8940,7 +8976,7 @@
       "rawContext": "Gustona Slunečnicový olej • 1l • 29,90 Kč"
     },
     {
-      "id": "albert-hypermarket-d6b36893dac1fd9b",
+      "id": "albert-hypermarket-89ed390359e94e10",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -8949,8 +8985,8 @@
       "brand": "",
       "description": "",
       "packageSize": "185 g",
-      "price": 34.91,
-      "priceText": "34,91 Kč",
+      "price": 34.9,
+      "priceText": "34,90 Kč",
       "unitPrice": 18.87,
       "unit": "Kč/100 g",
       "unitText": "100 g = 18,87 Kč",
@@ -9024,7 +9060,7 @@
       "rawContext": "Almito Červené pikantní papriky plněné sýrem • 260 g • 100 g = 8,81 Kč • 22,90 Kč • 280 g • 100 g = 32,30 Kč"
     },
     {
-      "id": "albert-hypermarket-5765f681c2eeede2",
+      "id": "albert-hypermarket-ee8ab8ea92e14d65",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -9033,8 +9069,8 @@
       "brand": "",
       "description": "",
       "packageSize": "140 g",
-      "price": 14.91,
-      "priceText": "14,91 Kč",
+      "price": 14.9,
+      "priceText": "14,90 Kč",
       "unitPrice": 10.65,
       "unit": "Kč/100 g",
       "unitText": "100 g = 10,65 Kč",
@@ -9102,9 +9138,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/29",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "sterilované efko Dětské okurky • 6–9 cm • 670 g • 100 g = 10,53 Kč • 37,90 Kč • 330 g • 100 g = 18,37 Kč • 34,90 Kč"
     },
     {
@@ -9186,9 +9224,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/30",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhy • 26,90 Kč • 4 ks v balení • 112 g • 100 g = 26,70 Kč • vybrané druhy • 29,90 Kč"
     },
     {
@@ -9214,9 +9254,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/30",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "těstoviny Babiččiny nudle • 330 g • 100 g = 10,58 Kč • vybrané druhy • 34,90 Kč • 500 g • 100 g = 3,98 Kč • 19,90 Kč"
     },
     {
@@ -9278,7 +9320,7 @@
       "rawContext": "Extra panenský olivový olej • 750 ml • 1 l = 318,67 Kč • 239 Kč"
     },
     {
-      "id": "albert-hypermarket-2ad3d7d0e39b1cc6",
+      "id": "albert-hypermarket-61bba466ee0c659c",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -9287,8 +9329,8 @@
       "brand": "",
       "description": "ochucená minerální voda",
       "packageSize": "1,5 l",
-      "price": 13.91,
-      "priceText": "13,91 Kč",
+      "price": 13.9,
+      "priceText": "13,90 Kč",
       "unitPrice": 9.27,
       "unit": "Kč/1 l",
       "unitText": "1 l = 9,27 Kč",
@@ -9334,7 +9376,7 @@
       "rawContext": "Hello Sirup • 0,7 l • 1 l = 52,72 Kč • vybrané druhy • 39,90 Kč"
     },
     {
-      "id": "albert-hypermarket-b87d02e50507f427",
+      "id": "albert-hypermarket-35c3f83f038a6dc9",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -9343,8 +9385,8 @@
       "brand": "",
       "description": "vybrané",
       "packageSize": "4× 1,5 l",
-      "price": 99.96,
-      "priceText": "99,96 Kč",
+      "price": 100,
+      "priceText": "100 Kč",
       "unitPrice": 16.66,
       "unit": "Kč/1 l",
       "unitText": "1 l = 16,66 Kč",
@@ -9356,9 +9398,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/31",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "ynviartop 9990 Coca-Cola 4pack • 4× 1,5 l • 1 l = 16,66 Kč • vybrané"
     },
     {
@@ -9384,9 +9428,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/31",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "pramenitá voda • 0,75 l • 1 l = 23,87 Kč • vybrané druhy • 17,90 Kč"
     },
     {
@@ -9440,9 +9486,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/31",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "minerální voda • 1,5 l • 1 l = 13,27 Kč • vybrané druhy • 19,90 Kč"
     },
     {
@@ -9468,9 +9516,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/31",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "minerální voda • 1,5 l • 1 l = 8,60 Kč • vybrané druhy • 12,90 Kč"
     },
     {
@@ -9496,10 +9546,44 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/31",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem",
+        "možné sloučení více produktů"
+      ],
       "rawContext": "minerální voda • 1,5 l • 1 l = 9,27 Kč • vybrané druhy • 11,90 Kč • 2,25 l • 1 l = 14,63 Kč • vybrané druhy • 26,90 Kč"
+    },
+    {
+      "id": "albert-hypermarket-43ddb25d68561454",
+      "chain": "Albert",
+      "storeId": "albert-hypermarket",
+      "storeName": "Albert hypermarket",
+      "leafletType": "hypermarket",
+      "product": "l Big Shock! Smart NOVINKY",
+      "brand": "",
+      "description": "energetický nápoj",
+      "packageSize": "0,5 l",
+      "price": 26.9,
+      "priceText": "26,90 Kč",
+      "unitPrice": 53.8,
+      "unit": "Kč/1 l",
+      "unitText": "1 l = 53,80 Kč",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do út 19.05.2026",
+      "priceType": "akční cena",
+      "pageNumber": 31,
+      "imageUrl": "",
+      "pageImageUrl": "",
+      "imageType": "",
+      "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/31",
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu",
+        "název nezačíná velkým písmenem"
+      ],
+      "rawContext": "2,25 l Big Shock! Smart NOVINKY • energetický nápoj • 0,5 l • 1 l = 53,80 Kč • vybrané druhy • 26,90 Kč"
     },
     {
       "id": "albert-hypermarket-4bb5fd1bb3982e8e",
@@ -9608,9 +9692,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/32",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "PŘI KOUPI 10 ks Rio Nata de Coco • ovocný nápoj • 400 ml • 1 l = 74,75 Kč • vybrané druhy • 29,90 Kč"
     },
     {
@@ -9664,9 +9750,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/32",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "minerální voda s vitaminy a minerály • 0,75 l • 1 l = 22,54 Kč • vybrané"
     },
     {
@@ -9692,9 +9780,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/32",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhy • 16,90 Kč • 2 l • 1 l = 9,95 Kč • vybrané druhy • 19,90 Kč"
     },
     {
@@ -9720,9 +9810,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/32",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "minerální voda • 0,7 l • 1 l = 28,43 Kč • vybrané druhy • 19,90 Kč"
     },
     {
@@ -9748,9 +9840,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/32",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "voda • 0,7 l • 1 l = 25,58 Kč • vybrané druhy • 17,90 Kč"
     },
     {
@@ -9894,12 +9988,12 @@
       "rawContext": "Solicello Prosecco Frizzante DOC • Itálie • 0,75 l • 1 l = 93,20 Kč • 59,90 Kč"
     },
     {
-      "id": "albert-hypermarket-46d1081c85e3ad74",
+      "id": "albert-hypermarket-37cfddf3fe5ed609",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
       "leafletType": "hypermarket",
-      "product": "FANDÍME HOKEJI Staropramen Extra chmel",
+      "product": "Staropramen Extra chmel",
       "brand": "",
       "description": "světlý ležák",
       "packageSize": "0,5 l",
@@ -10000,9 +10094,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/34",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Holba Šerák Starobrno Štatl Březňák • světlé výčepní pivo • 2 l • 1 l = 21,45 Kč • 0,5 l = 10,73 Kč • 42,90 Kč • světlý ležák • 0,5 l • 1 l = 25,80 Kč • záloha na láhev 3 Kč • 12,90 Kč"
     },
     {
@@ -10118,12 +10214,12 @@
       "rawContext": "Radegast Temně hořká 12 • polotmavý ležák • 0,5 l • 1 l = 39,80 Kč • záloha na láhev 3 Kč • 19,90 Kč"
     },
     {
-      "id": "albert-hypermarket-6f8a6c6c7574bd9f",
+      "id": "albert-hypermarket-04ba01ff344796ca",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
       "leafletType": "hypermarket",
-      "product": "FANDÍME HOKEJI Cool Birell",
+      "product": "Cool Birell",
       "brand": "",
       "description": "nealkoholické pivo; nealkoholické",
       "packageSize": "0,5 l",
@@ -10168,9 +10264,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/35",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "pivo • 0,5 l • 1 l = 37,80 Kč • vybrané druhy"
     },
     {
@@ -10596,7 +10694,7 @@
       "rawContext": "Captain Morgan • 35% • 0,7 l • 1 l = 427,15 Kč • 319 Kč"
     },
     {
-      "id": "albert-hypermarket-49c80e358f44e842",
+      "id": "albert-hypermarket-1c5583ee29a29170",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -10605,8 +10703,8 @@
       "brand": "",
       "description": "279 Kč",
       "packageSize": "0,7 l",
-      "price": 279.01,
-      "priceText": "279,01 Kč",
+      "price": 279,
+      "priceText": "279 Kč",
       "unitPrice": 398.58,
       "unit": "Kč/1 l",
       "unitText": "1 l = 398,58 Kč",
@@ -10646,9 +10744,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/37",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Dětský sprej na opalování OF 50+* • 200 ml • 100 ml = 139,50 Kč • 304 Kč • 90 g • 100 g = 31 Kč • vybrané druhy • 26,90 Kč"
     },
     {
@@ -10674,9 +10774,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/37",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem",
+        "moc dlouhý/slitý název"
+      ],
       "rawContext": "a informace o přípravku. adidas Sprchový gel Fa Sprchový gel • 750 ml • 100 ml = 13,32 Kč • vybrané druhy • 109,90 Kč"
     },
     {
@@ -10702,13 +10805,16 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/37",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "moc dlouhý/slitý název",
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Taft Lak na vlasy* Creme Supreme Barva na vlasy* • 250 ml • 100 ml = 47,96 Kč • vybrané druhy • 109,90 Kč • 100 ml • vybrané druhy • 169 Kč • 75 ml • 100 ml = 119,87 Kč • 150 ml • 100 ml = 66,60 Kč"
     },
     {
-      "id": "albert-hypermarket-0db7b90053eacf6e",
+      "id": "albert-hypermarket-e482965771efb683",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -10717,8 +10823,8 @@
       "brand": "",
       "description": "",
       "packageSize": "75 ml",
-      "price": 106.91,
-      "priceText": "106,91 Kč",
+      "price": 106.9,
+      "priceText": "106,90 Kč",
       "unitPrice": 142.54,
       "unit": "Kč/100 ml",
       "unitText": "100 ml = 142,54 Kč",
@@ -10817,7 +10923,8 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "chybí jednotková cena"
+        "chybí jednotková cena",
+        "šum v názvu"
       ],
       "rawContext": "AKCE NEJEN PRO NEJMENŠÍ • 100 g • vybrané druhy • 14,90 Kč"
     },
@@ -10880,7 +10987,7 @@
       "rawContext": "Sunar Křupky • 50 g • 100 g = 59,80 Kč • vybrané druhy • 29,90 Kč • 250 g • 100 g = 12,76 Kč • vybrané druhy • 32,90 Kč"
     },
     {
-      "id": "albert-hypermarket-c00750bb0b8f511f",
+      "id": "albert-hypermarket-cbe09c6471537165",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -10889,8 +10996,8 @@
       "brand": "",
       "description": "vybrané",
       "packageSize": "210 g",
-      "price": 69.91,
-      "priceText": "69,91 Kč",
+      "price": 69.9,
+      "priceText": "69,90 Kč",
       "unitPrice": 33.29,
       "unit": "Kč/100 g",
       "unitText": "100 g = 33,29 Kč",
@@ -10930,9 +11037,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/38",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhy • 69,90 Kč • 180 g • 100 g = 29,39 Kč • 52,90 Kč"
     },
     {
@@ -10958,9 +11067,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/38",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "NAVÍC KREDIT NAVÍC • vybrané druhy • 54,90 Kč • 190 g • 100 g = 13,11 Kč • vybrané druhy • 24,90 Kč"
     },
     {
@@ -10986,9 +11097,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/38",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu",
+        "moc dlouhý/slitý název"
+      ],
       "rawContext": "NAVÍC Gerber Bio Křupky Nature's Promise Bio Masozeleninový příkrm • 35 g • 100 g = 156,86 Kč"
     },
     {
@@ -11017,12 +11131,13 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "chybí jednotková cena"
+        "chybí jednotková cena",
+        "název nezačíná velkým písmenem"
       ],
       "rawContext": "svačinka Hamánek Ovocné pyré • 100 g • vybrané druhy • 7,90 Kč"
     },
     {
-      "id": "albert-hypermarket-771095cbbff3a1f5",
+      "id": "albert-hypermarket-05f31f836e88a96a",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -11031,8 +11146,8 @@
       "brand": "",
       "description": "vybrané",
       "packageSize": "340 g",
-      "price": 99.93,
-      "priceText": "99,93 Kč",
+      "price": 99.9,
+      "priceText": "99,90 Kč",
       "unitPrice": 29.39,
       "unit": "Kč/100 g",
       "unitText": "100 g = 29,39 Kč",
@@ -11106,7 +11221,7 @@
       "rawContext": "Kojenecká výživa BEBA Comfort Kojenecká výživa • 800 g • 1 kg = 498,75 Kč • vybrané druhy • 399 Kč"
     },
     {
-      "id": "albert-hypermarket-89ece7c547be8dc6",
+      "id": "albert-hypermarket-b2a8743ea69e516d",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -11115,8 +11230,8 @@
       "brand": "",
       "description": "",
       "packageSize": "600 g",
-      "price": 17.98,
-      "priceText": "17,98 Kč",
+      "price": 18,
+      "priceText": "18 Kč",
       "unitPrice": 331.67,
       "unit": "Kč/1 kg",
       "unitText": "1 kg = 331,67 Kč",
@@ -11128,9 +11243,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/39",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "moc dlouhý/slitý název",
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Kojenecká výživa NUK Mycí prostředek na láhve a savičky* • 600 g • 1 kg = 331,67 Kč • vybrané druhy • 500 ml • 100 ml = 17,98 Kč • Maxi 44 ks, Junior 40 ks, XL"
     },
     {
@@ -11156,9 +11274,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/39",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "+1 379,KREDIT NAVÍC • 800 g • 1 kg = 561,25 Kč • vybrané druhy • 449 Kč"
     },
     {
@@ -11268,9 +11388,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/39",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Sprchový gel Lovela Prací gel Persil Prací gel • 400 ml • 100 ml = 39,75 Kč • 159 Kč • 50 dávek • 1 dávka = 8,38 Kč • vybrané druhy • 419 Kč • 40 dávek • 1 dávka = 6,23 Kč • vybrané druhy • 249 Kč"
     },
     {
@@ -11444,12 +11566,12 @@
       "rawContext": "Dr. Devil WC blok • 75 ml • 100 ml = 93,20 Kč • vybrané druhy"
     },
     {
-      "id": "albert-hypermarket-da5bde634b41bf77",
+      "id": "albert-hypermarket-b8996af79f97f3b2",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
       "leafletType": "hypermarket",
-      "product": "si vždy přečtěte označení a informace o přípravku.",
+      "product": "vždy přečtěte označení a informace o přípravku.",
       "brand": "",
       "description": "399 Kč",
       "packageSize": "80 dávek",
@@ -11466,13 +11588,15 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/40",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "Používejte biocidy bezpečným způsobem. Před použitím si vždy přečtěte označení a informace o přípravku. • 80 dávek • 1 dávka = 4,99 Kč • 399 Kč"
     },
     {
-      "id": "albert-hypermarket-f06c512460814910",
+      "id": "albert-hypermarket-5d3a813a888e6022",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -11481,8 +11605,8 @@
       "brand": "",
       "description": "",
       "packageSize": "195 g",
-      "price": 119.91,
-      "priceText": "119,91 Kč",
+      "price": 119.9,
+      "priceText": "119,90 Kč",
       "unitPrice": 61.49,
       "unit": "Kč/100 g",
       "unitText": "100 g = 61,49 Kč",
@@ -11522,9 +11646,14 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/40",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu",
+        "název nezačíná velkým písmenem",
+        "moc dlouhý/slitý název",
+        "možné sloučení více produktů"
+      ],
       "rawContext": "do myčky UŠETŘETE NEJVÍC DÍKY SLEVÁM, KTERÉ ZÍSKÁTE POUZE S APLIKACÍ • 1350 ml • 1 l = 70,30 Kč • vybrané druhy • 94,90 Kč • 45 ks • 1 ks = 6,65 Kč"
     },
     {
@@ -11614,7 +11743,7 @@
       "rawContext": "Perfect Fit Granule pro kočky • 750 g • 100 g = 14,66 Kč • vybrané druhy • 119,90 Kč"
     },
     {
-      "id": "albert-hypermarket-7f1ff318783e3c73",
+      "id": "albert-hypermarket-25cdbecf2a88a5ff",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -11623,8 +11752,8 @@
       "brand": "",
       "description": "vybrané",
       "packageSize": "1,4 kg",
-      "price": 79.91,
-      "priceText": "79,91 Kč",
+      "price": 79.9,
+      "priceText": "79,90 Kč",
       "unitPrice": 57.08,
       "unit": "Kč/1 kg",
       "unitText": "1 kg = 57,08 Kč",
@@ -11692,9 +11821,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/42",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "By Cats Granule pro kočky • 1240 g • 100 g = 2,82 Kč • vybrané druhy • 12× 85 g • 100 g = 9,80 Kč • vybrané druhy • 89,90 Kč"
     },
     {
@@ -11810,7 +11941,7 @@
       "rawContext": "Raid Sprej proti létajícímu hmyzu* • 400 ml • 100 ml = 32,47 Kč"
     },
     {
-      "id": "albert-hypermarket-303da452842cd8ed",
+      "id": "albert-hypermarket-6dac60c96defdcff",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -11819,8 +11950,8 @@
       "brand": "",
       "description": "",
       "packageSize": "300 g",
-      "price": 179.01,
-      "priceText": "179,01 Kč",
+      "price": 179,
+      "priceText": "179 Kč",
       "unitPrice": 59.67,
       "unit": "Kč/100 g",
       "unitText": "100 g = 59,67 Kč",
@@ -11832,9 +11963,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/43",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "molům s vůní levandule* Natura Presto Na slimáky* • 300 g • 100 g = 59,67 Kč"
     },
     {
@@ -11863,7 +11996,8 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "chybí jednotková cena"
+        "chybí jednotková cena",
+        "název nezačíná velkým písmenem"
       ],
       "rawContext": "i další velikosti Konvice Julie • 1,45 l"
     },
@@ -11918,9 +12052,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/44",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "MASA JOJO Bonbony • 80 g • 100 g = 19,88 Kč • vybrané druhy • 15,90 Kč"
     },
     {
@@ -12030,9 +12166,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/45",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "rýnský 90 Ryzlink Bio • přívlastkové víno • 0,75 l • 1 l = 199,87 Kč"
     },
     {
@@ -12058,9 +12196,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/45",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu",
+        "moc dlouhý/slitý název"
+      ],
       "rawContext": "PŘI KOUPI 2 ks a více Mionetto Prosecco DOC Frizzante • Itálie • 0,75 l • 1 l = 146,54 Kč • cena za 1 ks 139,90 Kč • 119,90 Kč"
     },
     {
@@ -12201,12 +12342,13 @@
       "confidence": "low",
       "suspect": true,
       "suspectReasons": [
-        "chybí jednotková cena"
+        "chybí jednotková cena",
+        "šum v názvu"
       ],
       "rawContext": "NOVINKY • Itálie • 0,75 l • 1 l = 292 Kč • vybrané druhy • 219 Kč"
     },
     {
-      "id": "albert-hypermarket-9990d805a579a6e5",
+      "id": "albert-hypermarket-b872b54f9adad4fc",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -12215,8 +12357,8 @@
       "brand": "",
       "description": "Španělsko • Bag in Box; 200 Kč",
       "packageSize": "3 l",
-      "price": 199.02,
-      "priceText": "199,02 Kč",
+      "price": 199,
+      "priceText": "199 Kč",
       "unitPrice": 66.34,
       "unit": "Kč/1 l",
       "unitText": "1 l = 66,34 Kč",
@@ -12290,7 +12432,7 @@
       "rawContext": "Sommelier Collection • Bag in Box • 2,25 l • 1 l = 97,34 Kč • vybrané druhy • 249 Kč"
     },
     {
-      "id": "albert-hypermarket-19da764fa501e63a",
+      "id": "albert-hypermarket-57f8c80a63488999",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -12299,8 +12441,8 @@
       "brand": "",
       "description": "169 Kč",
       "packageSize": "3 l",
-      "price": 169.02,
-      "priceText": "169,02 Kč",
+      "price": 169,
+      "priceText": "169 Kč",
       "unitPrice": 56.34,
       "unit": "Kč/1 l",
       "unitText": "1 l = 56,34 Kč",
@@ -12396,9 +12538,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/45",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "KREDITŮ NAVÍC • přívlastkové víno • 0,75 l • 1 l = 199,87 Kč"
     },
     {
@@ -12424,9 +12568,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/46",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "moc dlouhý/slitý název"
+      ],
       "rawContext": "Tereza Hromádková Category manager Wine Znovín Morava Bohemia MINI • 250 ml • 100 ml = 13,16 Kč"
     },
     {
@@ -12480,9 +12626,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/46",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Vinařství Spielberg Bio Veltlínské zelené +5 • přívlastková vína • Ludwig Gold • 0,75 l • 1 l = 199,87 Kč • vybrané druhy • 0,75 l • 1 l = 133,20 Kč • vybrané druhy"
     },
     {
@@ -12564,9 +12712,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/46",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Red Blend Rodinné vinařství Břeclav Pálava • Chile • 0,75 l • 1 l = 265,34 Kč • přívlastkové víno • Stará Břeclav • 0,75 l • 1 l = 186,54 Kč"
     },
     {
@@ -12678,9 +12828,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/46",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "BE NEALKOHOLICKÁ VÍNA A SEKTY • Herbarium Moravicum • přívlastková vína • 0,75 l • 1 l = 159,87 Kč • vybrané druhy • 119,90 Kč"
     },
     {
@@ -12706,13 +12858,15 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/47",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "možné sloučení více produktů"
+      ],
       "rawContext": "Sendvič Tuňák & vejce Farmářská polévka • chlazený • balený • 185 g • 100 g = 35,09 Kč • chlazená • balená • 400 g • 100 g = 14,23 Kč"
     },
     {
-      "id": "albert-hypermarket-8c8f7c34747ce69b",
+      "id": "albert-hypermarket-8275e1d0c4455f0e",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -12721,8 +12875,8 @@
       "brand": "",
       "description": "chlazená • balená",
       "packageSize": "400 g",
-      "price": 56.92,
-      "priceText": "56,92 Kč",
+      "price": 56.9,
+      "priceText": "56,90 Kč",
       "unitPrice": 14.23,
       "unit": "Kč/100 g",
       "unitText": "100 g = 14,23 Kč",
@@ -12740,7 +12894,7 @@
       "rawContext": "SUPER CENA Houbová polévka s kroupami • chlazená • balená • 400 g • 100 g = 14,23 Kč • vybrané druhy"
     },
     {
-      "id": "albert-hypermarket-1841db336f8da9cf",
+      "id": "albert-hypermarket-2230dff6e4600066",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -12749,8 +12903,8 @@
       "brand": "",
       "description": "chlazený • balený",
       "packageSize": "210 g",
-      "price": 69.91,
-      "priceText": "69,91 Kč",
+      "price": 69.9,
+      "priceText": "69,90 Kč",
       "unitPrice": 33.29,
       "unit": "Kč/100 g",
       "unitText": "100 g = 33,29 Kč",
@@ -12796,12 +12950,12 @@
       "rawContext": "Salát Hummus s kuřetem a rajčatovým pestem • chlazený • balený • 180 g • 100 g = 33,28 Kč"
     },
     {
-      "id": "albert-hypermarket-ebc6229995b0b7a4",
+      "id": "albert-hypermarket-51fee2dd2cb25d94",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
       "leafletType": "hypermarket",
-      "product": "Bistro. Více informací najdete na albert.cz/Freshbistro. více energie",
+      "product": "Více informací najdete na albert.cz/Freshbistro. více energie",
       "brand": "",
       "description": "chlazený • balený",
       "packageSize": "160 g",
@@ -12936,7 +13090,7 @@
       "rawContext": "Hummus natural • 175 g • 100 g = 39,43 Kč"
     },
     {
-      "id": "albert-hypermarket-1146837373782963",
+      "id": "albert-hypermarket-dca39d6b1ce47ccd",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -12945,8 +13099,8 @@
       "brand": "",
       "description": "",
       "packageSize": "120 g",
-      "price": 79.01,
-      "priceText": "79,01 Kč",
+      "price": 79,
+      "priceText": "79 Kč",
       "unitPrice": 65.84,
       "unit": "Kč/100 g",
       "unitText": "100 g = 65,84 Kč",
@@ -12964,7 +13118,7 @@
       "rawContext": "S hořčičným semínkem – sýrové kostky • 120 g • 100 g = 65,84 Kč"
     },
     {
-      "id": "albert-hypermarket-292c9ef7835b7d0a",
+      "id": "albert-hypermarket-fc4dce4a9a6a1634",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -12973,8 +13127,8 @@
       "brand": "",
       "description": "",
       "packageSize": "70 g",
-      "price": 89.01,
-      "priceText": "89,01 Kč",
+      "price": 89,
+      "priceText": "89 Kč",
       "unitPrice": 127.15,
       "unit": "Kč/100 g",
       "unitText": "100 g = 127,15 Kč",
@@ -13070,9 +13224,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/49",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "limonáda • 250 ml • 100 ml = 8,76 Kč • vybrané"
     },
     {
@@ -13098,9 +13254,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/49",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhy Kubík Water • nesycený nápoj • 0,5 l • 1 l = 21,80 Kč • vybrané druhy • 14,90 Kč"
     },
     {
@@ -13126,9 +13284,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/49",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "s ovocnou šťávou • 250 ml • 100 ml = 5,16 Kč • vybrané druhy • 12,90 Kč"
     },
     {
@@ -13158,34 +13318,6 @@
       "suspect": false,
       "suspectReasons": [],
       "rawContext": "Jupík Aqua • nesycený nápoj • 0,5 l • 1 l = 29,80 Kč • vybrané druhy"
-    },
-    {
-      "id": "albert-hypermarket-de8e958cb38ecd5d",
-      "chain": "Albert",
-      "storeId": "albert-hypermarket",
-      "storeName": "Albert hypermarket",
-      "leafletType": "hypermarket",
-      "product": "nápoj",
-      "brand": "",
-      "description": "",
-      "packageSize": "0,75 l",
-      "price": 0.75,
-      "priceText": "0,75 Kč",
-      "unitPrice": 79.87,
-      "unit": "Kč/1 l",
-      "unitText": "1 l = 79,87 Kč",
-      "validFrom": "od st 13.05.2026",
-      "validTo": "do út 19.05.2026",
-      "priceType": "akční cena",
-      "pageNumber": 49,
-      "imageUrl": "",
-      "pageImageUrl": "",
-      "imageType": "",
-      "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/49",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
-      "rawContext": "nápoj • 0,75 l • 1 l = 79,87 Kč • vybrané druhy"
     },
     {
       "id": "albert-hypermarket-ad22186b56267a57",
@@ -13244,7 +13376,7 @@
       "rawContext": "Sunar Masozeleninový příkrm • 230 g • 100 g = 26,05 Kč • vybrané druhy • 59,90 Kč"
     },
     {
-      "id": "albert-hypermarket-5605e5afe911dfe2",
+      "id": "albert-hypermarket-78752edbe24a13f3",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -13253,8 +13385,8 @@
       "brand": "",
       "description": "",
       "packageSize": "190 g",
-      "price": 44.92,
-      "priceText": "44,92 Kč",
+      "price": 44.9,
+      "priceText": "44,90 Kč",
       "unitPrice": 23.64,
       "unit": "Kč/100 g",
       "unitText": "100 g = 23,64 Kč",
@@ -13294,9 +13426,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/51",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "Masozeleninové pyré KREDIT NAVÍC • 120 g • 100 g = 33,25 Kč • vybrané druhy • 39,90 Kč • 235 g • 100 g = 16,98 Kč • vybrané druhy • 42,90 Kč"
     },
     {
@@ -13350,9 +13484,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/51",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "KREDIT NAVÍC HiPP Bio Ovocná oplatka • 23 g • 100 g = 103,92 Kč • vybrané druhy"
     },
     {
@@ -13378,9 +13514,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/51",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "druhy • 79,90 Kč • 12 g • 100 g = 207,50 Kč"
     },
     {
@@ -13462,9 +13600,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/51",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "šum v názvu"
+      ],
       "rawContext": "PŘI KOUPI 2 bal. Pampers Vlhčené ubrousky • 3× 80 ks • 1 ks = 0,83 Kč • vybrané druhy"
     },
     {
@@ -13496,7 +13636,7 @@
       "rawContext": "Leros Čaj • 20× 2 g • 100 g = 99,75 Kč • vybrané druhy"
     },
     {
-      "id": "albert-hypermarket-38ce66e28057d0a0",
+      "id": "albert-hypermarket-1d91460f7a43cde4",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -13505,8 +13645,8 @@
       "brand": "",
       "description": "vybrané",
       "packageSize": "2× 200 ml",
-      "price": 59.92,
-      "priceText": "59,92 Kč",
+      "price": 59.9,
+      "priceText": "59,90 Kč",
       "unitPrice": 14.98,
       "unit": "Kč/100 ml",
       "unitText": "100 ml = 14,98 Kč",
@@ -13552,7 +13692,7 @@
       "rawContext": "Johnson's Šampon • 200 ml • 100 ml = 34,95 Kč"
     },
     {
-      "id": "albert-hypermarket-0191461e8e77156e",
+      "id": "albert-hypermarket-7a880bbb1f1dae7b",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -13561,8 +13701,8 @@
       "brand": "",
       "description": "",
       "packageSize": "12 ks",
-      "price": 109.92,
-      "priceText": "109,92 Kč",
+      "price": 109.9,
+      "priceText": "109,90 Kč",
       "unitPrice": 9.16,
       "unit": "Kč/1 ks",
       "unitText": "1 ks = 9,16 Kč",
@@ -13574,9 +13714,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/52",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "moc dlouhý/slitý název"
+      ],
       "rawContext": "VYBRANÁ ZRNKA, DRAHOKAMY CHUTÍ ZE VŠECH KOUTŮ SVĚTA PERLA KAPSLE • 12 ks • 1 ks = 9,16 Kč • vybrané druhy"
     },
     {
@@ -13602,9 +13744,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/52",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "kompatibilní s kávovary Nespresso PERLA SELECTION ČAJ • 30–40 g • 100 g od 99,75 Kč • vybrané druhy"
     },
     {
@@ -13804,7 +13948,7 @@
       "rawContext": "Exotic Food Curry pasta • 50 g • 100 g = 53,80 Kč • červená, zelená"
     },
     {
-      "id": "albert-hypermarket-d42125a2f2c2b067",
+      "id": "albert-hypermarket-41808079f362aa39",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -13813,8 +13957,8 @@
       "brand": "",
       "description": "",
       "packageSize": "400 ml",
-      "price": 39.92,
-      "priceText": "39,92 Kč",
+      "price": 39.9,
+      "priceText": "39,90 Kč",
       "unitPrice": 9.98,
       "unit": "Kč/100 ml",
       "unitText": "100 ml = 9,98 Kč",
@@ -13860,7 +14004,7 @@
       "rawContext": "Pearl River Bridge Krájený růžový zázvor • 200 g • 100 g = 12,45 Kč"
     },
     {
-      "id": "albert-hypermarket-517c7f2d39b812a2",
+      "id": "albert-hypermarket-59943cbb9173a086",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -13869,8 +14013,8 @@
       "brand": "",
       "description": "",
       "packageSize": "450 g",
-      "price": 69.93,
-      "priceText": "69,93 Kč",
+      "price": 69.9,
+      "priceText": "69,90 Kč",
       "unitPrice": 15.54,
       "unit": "Kč/100 g",
       "unitText": "100 g = 15,54 Kč",
@@ -13944,7 +14088,7 @@
       "rawContext": "Medaile s trikolorou • mléčná čokoláda • 23 g • 100 g = 108,27 Kč"
     },
     {
-      "id": "albert-hypermarket-ae6c47325a57e409",
+      "id": "albert-hypermarket-2c912dbd4107ca14",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -13953,8 +14097,8 @@
       "brand": "",
       "description": "",
       "packageSize": "160 ml",
-      "price": 38.91,
-      "priceText": "38,91 Kč",
+      "price": 38.9,
+      "priceText": "38,90 Kč",
       "unitPrice": 24.32,
       "unit": "Kč/100 ml",
       "unitText": "100 ml = 24,32 Kč",
@@ -14050,9 +14194,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/54",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "ochucovadlo Menu Gold Pohanka • 450 g • 100 g = 5,98 Kč • 24,90 Kč • 200 g • 100 g = 10,95 Kč • 21,90 Kč"
     },
     {
@@ -14190,9 +14336,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/55",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "párty Smirnoff Vodka • 37,5% • 0,7 l • 1 l = 427,15 Kč • 279 Kč"
     },
     {
@@ -14224,7 +14372,7 @@
       "rawContext": "Míchané drinky • 4,5% • 250 ml • 100 ml = 15,96 Kč • vybrané druhy • 39,90 Kč"
     },
     {
-      "id": "albert-hypermarket-7217f5b30cd81ebd",
+      "id": "albert-hypermarket-5c3dafdc81e873ef",
       "chain": "Albert",
       "storeId": "albert-hypermarket",
       "storeName": "Albert hypermarket",
@@ -14233,8 +14381,8 @@
       "brand": "",
       "description": "",
       "packageSize": "0,7 l",
-      "price": 349.01,
-      "priceText": "349,01 Kč",
+      "price": 349,
+      "priceText": "349 Kč",
       "unitPrice": 498.58,
       "unit": "Kč/1 l",
       "unitText": "1 l = 498,58 Kč",
@@ -14274,9 +14422,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/56",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem",
+        "možné sloučení více produktů"
+      ],
       "rawContext": "antiperspirant PRO POKOŽKU A OBLEČENÍ NOVÉ VŮNĚ • 50 ml • 100 ml = 119,80 Kč • vybrané druhy • 59,90 Kč • 50 ml • 100 ml = 119,80 Kč • vybrané druhy • 59,90 Kč"
     },
     {
@@ -14358,9 +14509,12 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/57",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem",
+        "moc dlouhý/slitý název"
+      ],
       "rawContext": "na vlasy Řada Glaze pro profesionální výsledky. NOVINK A • 400 ml • 100 ml = 47,25 Kč • vybrané druhy • 189 Kč"
     },
     {
@@ -14386,9 +14540,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/57",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "na vlasy Syoss Lak na vlasy • 300 ml • 100 ml = 46,64 Kč • vybrané druhy • 139,90 Kč"
     },
     {
@@ -14414,9 +14570,11 @@
       "pageImageUrl": "",
       "imageType": "",
       "sourceUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/57",
-      "confidence": "medium",
-      "suspect": false,
-      "suspectReasons": [],
+      "confidence": "low",
+      "suspect": true,
+      "suspectReasons": [
+        "název nezačíná velkým písmenem"
+      ],
       "rawContext": "na vlasy ŠAMPON 10990 • 400 ml • 100 ml = 39,75 Kč • vybrané druhy • 149,90 Kč"
     },
     {

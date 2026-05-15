@@ -1,0 +1,56 @@
+name: Import Penny v2 conservative
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check JavaScript syntax
+        run: node --check scripts/import-penny-v2-conservative.mjs
+
+      - name: Import Penny v2 conservative
+        run: node scripts/import-penny-v2-conservative.mjs
+
+      - name: Combine offers if script exists
+        run: |
+          if [ -f scripts/combine-offers.mjs ]; then
+            node scripts/combine-offers.mjs
+          else
+            echo "scripts/combine-offers.mjs not found, skipping combine step"
+          fi
+
+      - name: Validate offers if script exists
+        run: |
+          if [ -f scripts/validate-offers.mjs ]; then
+            node scripts/validate-offers.mjs
+          else
+            echo "scripts/validate-offers.mjs not found, skipping validation"
+          fi
+
+      - name: Commit Penny v2 conservative import
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add scripts/import-penny-v2-conservative.mjs data/penny-leaflet-offers.json data/penny-leaflet-offers-before-v2-conservative.json data/penny-probe/penny-import-v2-conservative-summary.json data/offers.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Import Penny v2 conservative"
+            git push
+          fi

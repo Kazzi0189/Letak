@@ -163,7 +163,7 @@ function visibleOffers() {
     .filter((offer) => shouldShowOfferByQuality(offer))
     .filter((offer) => {
       if (!query) return true;
-      return normalize(`${offer.product} ${offer.brand} ${offer.chain} ${offer.storeName} ${offer.packageSize}`).includes(query);
+      return normalize(`${offer.product} ${offer.brand} ${offer.description || ''} ${offer.category || ''} ${offer.searchTerms || ''} ${offer.chain} ${offer.storeName} ${offer.packageSize}`).includes(query);
     })
     .sort((a, b) => {
       if (state.sortBy === 'price') return Number(a.price || 0) - Number(b.price || 0);
@@ -174,7 +174,7 @@ function visibleOffers() {
 function cheapestMap() {
   const map = new Map();
   for (const offer of state.offers.filter((offer) => state.selectedStoreIds.includes(offer.storeId) && shouldShowOfferByQuality(offer))) {
-    const key = normalize(offer.product);
+    const key = normalize(offer.compareKey || offer.product);
     const current = map.get(key);
     const offerValue = Number(offer.unitPrice || offer.price || Infinity);
     const currentValue = Number(current?.unitPrice || current?.price || Infinity);
@@ -219,7 +219,7 @@ function addCheapestVisible() {
   const cheapest = cheapestMap();
   const unique = new Map();
   for (const offer of visibleOffers()) {
-    const best = cheapest.get(normalize(offer.product));
+    const best = cheapest.get(normalize(offer.compareKey || offer.product));
     if (best && String(best.id) === String(offer.id)) unique.set(offer.id, offer);
   }
   for (const offer of unique.values()) {
@@ -256,7 +256,7 @@ function renderOffers() {
   }
 
   return offers.map((offer) => {
-    const isCheapest = String(cheapest.get(normalize(offer.product))?.id) === String(offer.id);
+    const isCheapest = String(cheapest.get(normalize(offer.compareKey || offer.product))?.id) === String(offer.id);
     const unit = offer.unitPrice ? `${Number(offer.unitPrice).toFixed(2).replace('.', ',')} ${offer.unit || ''}` : '';
     return `
       <article class="offer ${isCheapest ? 'cheapest' : ''} offer-with-image">

@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "combined",
-    "updatedAt": "2026-05-15T09:36:08.186Z",
-    "count": 1164,
+    "updatedAt": "2026-05-15T09:58:08.254Z",
+    "count": 1161,
     "parser": "scripts/combine-offers.mjs",
     "inputs": [
       {
@@ -20,7 +20,7 @@
       {
         "name": "Albert V7 clean",
         "path": "data/albert-pdf-offers-clean.json",
-        "count": 253,
+        "count": 250,
         "missing": false
       }
     ]
@@ -41,13 +41,13 @@
     {
       "name": "Albert V7 clean",
       "path": "data/albert-pdf-offers-clean.json",
-      "count": 253,
+      "count": 250,
       "missing": false
     }
   ],
   "qualityCounts": {
     "high": 879,
-    "medium": 276,
+    "medium": 273,
     "low": 9,
     "suspect": 0
   },
@@ -79,6 +79,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 38,
+      "rawContext": "+1 Hami Mléčná kaše • 210 g • 100 g = 33,29 Kč • vybrané",
+      "category": "",
+      "searchTerms": "+1 Hami Mléčná kaše vybrané 210 g Albert hypermarket",
+      "compareKey": "1 hami mlecna kase 210 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -108,6 +112,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 19,
+      "rawContext": "Activia Jogurtový nápoj • 270–280 g • 100 g od 7,83 Kč • vybrané druhy",
+      "category": "",
+      "searchTerms": "Activia Jogurtový nápoj 270–280 g Albert hypermarket",
+      "compareKey": "activia jogurtovy napoj 270 280 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -137,6 +145,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 28,
+      "rawContext": "Ahmad Černý čaj • 200 g • 100 g = 64,95 Kč • vybrané druhy",
+      "category": "",
+      "searchTerms": "Ahmad Černý čaj 200 g Albert hypermarket",
+      "compareKey": "ahmad cerny caj 200 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -166,6 +178,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 44,
+      "rawContext": "AKČNÍ KATALOG Zmrzlina Magnum pinta • 440 ml • 100 ml = 24,98 Kč • vybrané druhy • 109,90 Kč",
+      "category": "",
+      "searchTerms": "AKČNÍ KATALOG Zmrzlina Magnum pinta 440 ml Albert hypermarket",
+      "compareKey": "katalog zmrzlina magnum pinta 440 ml",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -195,6 +211,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 42,
+      "rawContext": "Akinu Krmivo pro hlodavce • 2 kg • 1 kg = 32,45 Kč",
+      "category": "",
+      "searchTerms": "Akinu Krmivo pro hlodavce 2 kg Albert hypermarket",
+      "compareKey": "akinu krmivo pro hlodavce 2 kg",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -224,6 +244,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 14,
+      "rawContext": "Albert Borůvky • 250 g • 100 g = 27,96 Kč",
+      "category": "",
+      "searchTerms": "Albert Borůvky 250 g hypermarket",
+      "compareKey": "albert boruvky 250 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -253,6 +277,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 23,
+      "rawContext": "Albert Camembert MAXI • 4× 120 g • 100 g = 24,98 Kč",
+      "category": "",
+      "searchTerms": "Albert Camembert MAXI 4× 120 g hypermarket",
+      "compareKey": "albert camembert maxi 4 120 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -282,6 +310,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 39,
+      "rawContext": "Albert Cute Baby Vlhčené ubrousky • 4× 72 ks • 1 ks = 0,28 Kč",
+      "category": "",
+      "searchTerms": "Albert Cute Baby Vlhčené ubrousky 4× 72 ks hypermarket",
+      "compareKey": "albert cute baby vlhcene ubrousky 4 72 ks",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -311,6 +343,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 11,
+      "rawContext": "Albert Grilovací cigáro mix • 230 g • 100 g = 19,53 Kč",
+      "category": "",
+      "searchTerms": "Albert Grilovací cigáro mix 230 g hypermarket",
+      "compareKey": "albert grilovaci cigaro mix 230 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -340,6 +376,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 14,
+      "rawContext": "Albert Hrozny bílé bezsemenné • 500 g • 100 g = 9,98 Kč",
+      "category": "",
+      "searchTerms": "Albert Hrozny bílé bezsemenné 500 g hypermarket",
+      "compareKey": "albert hrozny bile bezsemenne 500 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -369,6 +409,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 11,
+      "rawContext": "Albert Klobásky s goudou • 170 g • 100 g = 21,71 Kč",
+      "category": "",
+      "searchTerms": "Albert Klobásky s goudou 170 g hypermarket",
+      "compareKey": "albert klobasky s goudou 170 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -398,6 +442,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 8,
+      "rawContext": "Albert Listové těsto rozválené • chlazené • balené • 275 g • 100 g = 9,06 Kč",
+      "category": "",
+      "searchTerms": "Albert Listové těsto rozválené chlazené • balené 275 g hypermarket",
+      "compareKey": "albert listove testo rozvalene 275 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -427,6 +475,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 10,
+      "rawContext": "Albert Marinovaná vepřová krkovice • masný polotovar • 525 g • 1 kg = 190,29 Kč",
+      "category": "",
+      "searchTerms": "Albert Marinovaná vepřová krkovice masný polotovar 525 g hypermarket",
+      "compareKey": "albert marinovana veprova krkovice 525 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -456,6 +508,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 10,
+      "rawContext": "Albert Marinovaný vepřový Back bacon • masný polotovar • 310 g • 1 kg = 257,75 Kč",
+      "category": "",
+      "searchTerms": "Albert Marinovaný vepřový Back bacon 310 g hypermarket",
+      "compareKey": "albert marinovany veprovy back bacon 310 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -485,6 +541,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 15,
+      "rawContext": "Albert Paprika sladká • 500 g • 100 g = 9,98 Kč",
+      "category": "",
+      "searchTerms": "Albert Paprika sladká 500 g hypermarket",
+      "compareKey": "albert paprika sladka 500 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -514,6 +574,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 16,
+      "rawContext": "Albert Raženka* • 80 g • 100 g = 7,38 Kč",
+      "category": "",
+      "searchTerms": "Albert Raženka* 80 g hypermarket",
+      "compareKey": "albert razenka 80 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -543,6 +607,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 20,
+      "rawContext": "Albert Směs lahůdková • 350 g • 100 g = 6,55 Kč",
+      "category": "",
+      "searchTerms": "Albert Směs lahůdková 350 g hypermarket",
+      "compareKey": "albert smes lahudkova 350 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -572,6 +640,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 55,
+      "rawContext": "Baileys Irish Cream • 17% • 0,7 l • 1 l = 498,58 Kč",
+      "category": "",
+      "searchTerms": "Baileys Irish Cream 0,7 l Albert hypermarket",
+      "compareKey": "baileys irish cream 0 7 l",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -601,6 +673,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 30,
+      "rawContext": "Barilla Těstoviny • 500 g • 100 g = 5,98 Kč • vybrané druhy • 29,90 Kč",
+      "category": "",
+      "searchTerms": "Barilla Těstoviny 500 g Albert hypermarket",
+      "compareKey": "barilla testoviny 500 g",
       "sourceFile": "Albert V7 clean"
     },
     {
@@ -630,6 +706,10 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 35,
+      "rawContext": "Bersi Snack • 120 g • 100 g = 24,92 Kč • vybrané druhy • 29,90 Kč",
+      "category": "",
+      "searchTerms": "Bersi Snack 120 g Albert hypermarket",
+      "compareKey": "bersi snack 120 g",
       "sourceFile": "Albert V7 clean"
     }
   ]

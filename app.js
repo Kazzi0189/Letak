@@ -16,29 +16,32 @@ const STORE_CATALOG = [
     status: 'napojeno přes import Kaufland Teplice'
   },
   {
-    id: 'albert-hyper-demo',
+    id: 'albert-supermarket',
     chain: 'Albert',
-    name: 'Albert hypermarket – demo',
-    address: 'bude rozlišeno podle lokality',
-    type: 'hypermarket',
-    status: 'čeká na import hypermarket letáku'
+    name: 'Albert supermarket',
+    address: 'aktuální supermarket leták Albert',
+    type: 'supermarket',
+    status: 'napojeno přes clean PDF import Albert'
   },
   {
-    id: 'albert-super-demo',
+    id: 'albert-hypermarket',
     chain: 'Albert',
-    name: 'Albert supermarket – demo',
-    address: 'bude rozlišeno podle lokality',
-    type: 'supermarket',
-    status: 'čeká na import supermarket letáku'
+    name: 'Albert hypermarket',
+    address: 'aktuální hypermarket leták Albert',
+    type: 'hypermarket',
+    status: 'napojeno přes clean PDF import Albert'
   }
-];
-
-function getInitialSelectedStoreIds() {
+]; function getInitialSelectedStoreIds() {
   const savedRaw = localStorage.getItem('selectedStoreIds');
-  const saved = JSON.parse(savedRaw || '["penny-default","kaufland-teplice-centrum"]');
+  const saved = JSON.parse(savedRaw || '["penny-default","kaufland-teplice-centrum","albert-supermarket","albert-hypermarket"]');
 
   const migrated = saved
-    .map((id) => (id === 'kaufland-demo' ? 'kaufland-teplice-centrum' : id))
+    .map((id) => {
+      if (id === 'kaufland-demo') return 'kaufland-teplice-centrum';
+      if (id === 'albert-hyper-demo') return 'albert-hypermarket';
+      if (id === 'albert-super-demo') return 'albert-supermarket';
+      return id;
+    })
     .filter((id, index, array) => array.indexOf(id) === index);
 
   if (!migrated.includes('kaufland-teplice-centrum')) {
@@ -351,7 +354,7 @@ function render() {
       <header class="hero">
         <div class="badge">🛒 PWA prototyp</div>
         <h1>Letáky podle tvých prodejen</h1>
-        <p>Vyber prodejny, hledej akční produkty a skládej si košíky podle obchodů. Reálné importy jsou připravené pro Penny a Kaufland Teplice.</p>
+        <p>Vyber prodejny, hledej akční produkty a skládej si košíky podle obchodů. Reálné importy jsou připravené pro Penny, Kaufland Teplice a Albert.</p>
         <div class="status">${state.dataStatus} · aktualizováno: ${updatedAt}</div>
       </header>
 
@@ -359,7 +362,7 @@ function render() {
         <div class="location-row">
           <div>
             <h2>1. Moje lokalita a prodejny</h2>
-            <p>Kaufland Teplice je napojený podle konkrétní pobočky. Albert zatím čeká na další import.</p>
+            <p>Kaufland Teplice je napojený podle konkrétní pobočky. Albert je napojený z clean PDF importu supermarket/hypermarket.</p>
           </div>
           <div>
             <label class="small" for="postcode">PSČ nebo město</label>

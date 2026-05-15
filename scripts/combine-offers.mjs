@@ -28,6 +28,107 @@ function toNumber(value) {
   return Number.isFinite(number) ? number : null;
 }
 
+
+function normalizeText(value) {
+  return String(value || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function cleanProductNameFinal(product) {
+  return String(product || '')
+    .replace(/^\s*KUCHYNĚ\s+/iu, '')
+    .replace(/^\s*AKČNÍ NABÍDKA\s+/iu, '')
+    .replace(/^\s*NASTYLUJTE\s+/iu, '')
+    .replace(/^\s*TR\s+O\s+/iu, '')
+    .replace(/^\s*L\s+(?=Hovězí\b)/u, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function shouldRejectFinalOffer(offer) {
+  const product = String(offer.product || '');
+  const description = String(offer.description || '');
+  const context = `${product} ${description} ${offer.rawContext || ''}`;
+
+  const badPatterns = [
+    /\bNASTYLUJTE\b/iu,
+    /\bVEZMĚTE SI\b/iu,
+    /\bZ REGÁLU\b/iu,
+    /\bA MUŽEŠ JÍ\(S\)T\b/iu,
+    /\bPLATNÉM DO\b/iu,
+    /\bHI T MĚSÍCE\b/iu,
+    /\bSUPER CENA\b/iu,
+    /\bAKČNÍ NABÍDKA\b/iu,
+    /\bKREDIT NAVÍC\b/iu,
+    /\bCENA BEZ BODŮ\b/iu,
+    /\bVíce informací najdete\b/iu,
+    /\balbert\.cz\/Freshbistro\b/iu,
+  ];
+
+  if (badPatterns.some((pattern) => pattern.test(context))) return true;
+  if (/^\s*(NASTYLUJTE|VEZMĚTE SI|VÍCE INFORMACÍ|HI T MĚSÍCE|PLATNÉM DO)\b/iu.test(product)) return true;
+  if (product.length < 3) return true;
+
+  return false;
+}
+
+const BEER_BRANDS = [
+  'Krušovice', 'Gambrinus', 'Kozel', 'Velkopopovický Kozel', 'Staropramen', 'Braník',
+  'Budweiser', 'Budvar', 'Radegast', 'Birell', 'Svijany', 'Svijanský', 'Heineken',
+  'Pilsner', 'Plzeňský', 'Bernard', 'Litovel', 'Zlatopramen', 'Mustang', 'Hořký'
+];
+
+function isBeerOffer(offer) {
+  const text = `${offer.product || ''} ${offer.description || ''} ${offer.rawContext || ''}`;
+  if (/\b(pivo|ležák|výčepní|nealko\s*pivo|světlý\s*ležák|světlé\s*výčepní)\b/iu.test(text)) return true;
+  return BEER_BRANDS.some((brand) => new RegExp(`\\b${brand.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'iu').test(text));
+}
+
+function beerDescriptionFor(offer) {
+  const text = `${offer.product || ''} ${offer.description || ''} ${offer.rawContext || ''}`;
+  if (/\bnealko|nealkoholick/iu.test(text)) return 'nealkoholické pivo';
+  if (/\b(11|12|ležák|lezak)\b/iu.test(text)) return 'světlý ležák';
+  if (/\b(10|výčepní|vycepni)\b/iu.test(text)) return 'světlé výčepní pivo';
+  return 'pivo';
+}
+
+function enrichOffer(offer) {
+  const product = cleanProductNameFinal(offer.product);
+  const enriched = { ...offer, product };
+
+  const searchParts = [product, offer.brand, offer.description, offer.packageSize, offer.chain, offer.storeName];
+
+  if (isBeerOffer(enriched)) {
+    const beerDescription = beerDescriptionFor(enriched);
+    if (!/\b(pivo|ležák|výčepní)\b/iu.test(String(enriched.description || ''))) {
+      enriched.description = [beerDescription, enriched.description].filter(Boolean).join('; ');
+    }
+    enriched.category = enriched.category || 'pivo';
+    searchParts.push('pivo', 'beer', 'ležák', 'výčepní', beerDescription);
+  }
+
+  enriched.searchTerms = Array.from(new Set(searchParts.filter(Boolean).join(' ').split(/\s+/))).join(' ');
+  enriched.compareKey = deriveCompareKey(enriched);
+
+  return enriched;
+}
+
+function deriveCompareKey(offer) {
+  let key = normalizeText(`${offer.product || ''} ${offer.packageSize || ''}`);
+
+  key = key
+    .replace(/\b(pivo|svetle|svetly|vycepni|lezak|nealkoholicke|nealko|akcni|cena|vybrane|druhy)\b/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  return key || normalizeText(offer.product || '');
+}
+
 function normalizeOffer(offer, sourceName) {
   const confidence = String(offer.confidence || "high").toLowerCase();
   const suspect = offer.suspect === true || String(offer.suspect || "").toLowerCase() === "true";
@@ -59,6 +160,10 @@ function normalizeOffer(offer, sourceName) {
     suspect,
     suspectReasons: Array.isArray(offer.suspectReasons) ? offer.suspectReasons : [],
     pageNumber: offer.pageNumber ?? null,
+    rawContext: offer.rawContext || '',
+    category: offer.category || '',
+    searchTerms: offer.searchTerms || '',
+    compareKey: offer.compareKey || '',
     sourceFile: sourceName,
   };
 }
@@ -83,10 +188,13 @@ async function readOffers(input) {
 
   const offers = sourceOffers
     .map((offer) => normalizeOffer(offer, input.name))
+    .map(enrichOffer)
     .filter((offer) => offer.product && offer.price !== null)
     // Do běžného společného výstupu nepouštíme suspect položky.
     // Albert je zatím připojen jen přes clean-only soubor, ale tohle chrání i budoucí zdroje.
-    .filter((offer) => !offer.suspect);
+    .filter((offer) => !offer.suspect)
+    // Poslední ochranný filtr pro zjevné reklamní zbytky z PDF parseru.
+    .filter((offer) => !shouldRejectFinalOffer(offer));
 
   return {
     input,
@@ -124,7 +232,7 @@ async function main() {
   for (const offer of allOffers) {
     const key = [
       offer.storeId,
-      offer.product,
+      offer.compareKey || offer.product,
       offer.packageSize,
       offer.price,
       offer.unitPrice,

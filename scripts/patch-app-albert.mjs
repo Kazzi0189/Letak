@@ -48,6 +48,11 @@ async function main() {
 
   source = source
     .replace(
+      "return normalize(`${offer.product} ${offer.brand} ${offer.chain} ${offer.storeName} ${offer.packageSize}`).includes(query);",
+      "return normalize(`${offer.product} ${offer.brand} ${offer.description || ''} ${offer.category || ''} ${offer.searchTerms || ''} ${offer.chain} ${offer.storeName} ${offer.packageSize}`).includes(query);"
+    )
+    .replace(/normalize\(offer\.product\)/g, "normalize(offer.compareKey || offer.product)")
+    .replace(
       "Reálné importy jsou připravené pro Penny a Kaufland Teplice.",
       "Reálné importy jsou připravené pro Penny, Kaufland Teplice a Albert."
     )

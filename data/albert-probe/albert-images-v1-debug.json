@@ -1,0 +1,3175 @@
+{
+  "summary": {
+    "checkedAt": "2026-05-15T11:28:14.024Z",
+    "cleanOffersPath": "data/albert-pdf-offers-clean.json",
+    "summary": {
+      "cleanOffersLoaded": 253,
+      "offersCoveredByPageImage": 253,
+      "coveragePercent": 100,
+      "recommendedPath": "attach-page-image-urls-to-albert-offers",
+      "leaflets": [
+        {
+          "id": "20sm_akcni_letak",
+          "leafletType": "supermarket",
+          "storeName": "Albert supermarket",
+          "pagesChecked": 43,
+          "pagesWithImage": 43,
+          "pagesWithWorkingImage": 43,
+          "offersCoveredByPageImage": 103,
+          "offersTotalInCleanData": 103,
+          "recommendedPath": "attach-page-image-urls-to-albert-offers"
+        },
+        {
+          "id": "20hm_akcni_letak",
+          "leafletType": "hypermarket",
+          "storeName": "Albert hypermarket",
+          "pagesChecked": 60,
+          "pagesWithImage": 60,
+          "pagesWithWorkingImage": 60,
+          "offersCoveredByPageImage": 150,
+          "offersTotalInCleanData": 150,
+          "recommendedPath": "attach-page-image-urls-to-albert-offers"
+        }
+      ]
+    },
+    "pageImageMap": {
+      "supermarket": {
+        "1": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "2": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "3": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "4": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "5": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "6": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "7": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "8": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "9": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "10": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "11": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "12": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "13": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "14": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "15": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "16": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "17": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "18": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "19": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "20": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "21": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "22": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "23": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "24": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "25": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "26": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "27": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "28": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "29": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "30": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "31": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "32": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "33": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "34": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "35": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "36": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "37": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "38": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "39": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "40": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "41": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "42": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+        "43": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      "hypermarket": {
+        "1": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "2": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "3": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "4": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "5": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "6": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "7": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "8": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "9": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "10": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "11": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "12": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "13": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "14": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "15": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "16": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "17": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "18": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "19": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "20": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "21": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "22": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "23": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "24": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "25": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "26": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "27": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "28": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "29": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "30": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "31": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "32": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "33": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "34": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "35": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "36": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "37": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "38": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "39": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "40": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "41": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "42": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "43": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "44": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "45": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "46": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "47": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "48": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "49": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "50": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "51": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "52": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "53": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "54": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "55": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "56": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "57": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "58": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "59": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+        "60": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+      }
+    },
+    "sampleOffersWithPageImage": [
+      {
+        "id": "albert-supermarket-b5431a04d1ff329b",
+        "product": "Donut s náplní",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 1,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-37b651b1f14a19f0",
+        "product": "Albert Meruňky balené",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 1,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-e5f5f5fd5149482b",
+        "product": "Tchibo Gold Selection",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 1,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-b6a119d472f7838c",
+        "product": "Velkopopovický Kozel 11/ Gambrinus Patron 12",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 4,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-6ab398f3ab45bcd7",
+        "product": "Bohemia Chips",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 5,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-5f1112bf3074a068",
+        "product": "JOJO",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 5,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-61d4e3626adef608",
+        "product": "Nicolaus Vodka",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 5,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-963ba20a814c4e08",
+        "product": "Sedlčanský Hermelín duopack",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 6,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-c9ec06e6c35f3569",
+        "product": "Kubík Water",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 7,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-2f7c29b017a2aa19",
+        "product": "Toffifee",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 7,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-1520cad2de5ccf66",
+        "product": "Lacalut Zubní pasta",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 7,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-2a5906d663e35044",
+        "product": "Linteo Baby Vlhčené ubrousky",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 7,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-8c030dfa934b4949",
+        "product": "Svijanský Máz",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 7,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-49d13025b98979b7",
+        "product": "Coccolino Aviváž",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 7,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-c346bac40570e83d",
+        "product": "Whiskas Kapsičky pro kočky",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 7,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-a4a2dd10e6258c6b",
+        "product": "Zmrzlina Häagen-Dazs",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 8,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-f986b8d7837771bf",
+        "product": "Albert Klasik klobása",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 10,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-551804c86db9ed28",
+        "product": "Albert Špekáčky PIRI-PIRI",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 10,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-958e23affdd758aa",
+        "product": "Kominický točený salám",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 10,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-b6e18efda7173559",
+        "product": "Kravík Ochucené mléko",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 11,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-347dc48b6d4844f4",
+        "product": "Président Camembert",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 11,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-56a0d2a00486d11c",
+        "product": "Emma Mandle blanšírované",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 12,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-0a1a845505cb586c",
+        "product": "Emma Směs Fitness",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 12,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-6dbec53e260b9f9f",
+        "product": "Emma Rozinky Jumbo Thomson",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 12,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-3e6e6707a4d75d18",
+        "product": "Albert Rajčata cherry oválná Hranáček",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 13,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-268e2d3552ff6fc1",
+        "product": "Rajčata na větvičce Nelinka svazek",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 13,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-014d5e3d49fc34be",
+        "product": "Mistrovský škvarkový bochánek**",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 19,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-4b2baa7381a1413c",
+        "product": "Česneková bagetka grahamová",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 19,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-c0f05e9209435cab",
+        "product": "Kostka s pudinkem",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 19,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-08fb1468bbf3c1bc",
+        "product": "Milka Croissant",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 19,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-82610e714d574179",
+        "product": "Marlenka Dort",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 19,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-dc3a5acd576a7787",
+        "product": "Apetito Smetanové",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 20,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-8145b28fd970d0d2",
+        "product": "Gervais de la Crème",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 20,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-878b3285c6eddc5c",
+        "product": "Hollandia Selský jogurt",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 21,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-228b33e62a40f02f",
+        "product": "Milko Tvaroh polotučný",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 21,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-c3de98f2fd51bb30",
+        "product": "Activia Jogurtový nápoj",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 21,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-1b9e7e5b270686c3",
+        "product": "Cappuccino",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 21,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-f3a238a8c690bec9",
+        "product": "Albert Vejce v aspiku",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 22,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-605db055a79cd99b",
+        "product": "Flora",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 22,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-ddc0896f50794426",
+        "product": "Nowaco Filé – porce",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 22,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-1c01a8e3a226e72d",
+        "product": "Don Peppe Plněné knedlíky",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 22,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-1d7385df01db5232",
+        "product": "Zmrzlina Carte d'Or",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 22,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-fe7efa03a563b196",
+        "product": "Dream & Co Nanuky multipack",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 22,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-8659ab1eabede601",
+        "product": "Calippo impuls Káva",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 23,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-92f1f7b0f58f5aa1",
+        "product": "Nugeta Ledovka",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 23,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-44c64d937ea87d82",
+        "product": "Hubba Bubba",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 23,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-500f0ee96968af7e",
+        "product": "Snickers",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 23,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-626ef34aaec40a73",
+        "product": "Káva Tassimo Kapsle",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 24,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-fef74a6c0dbd2c3c",
+        "product": "Emma Ovesná kaše",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 24,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-e10139255c11d15a",
+        "product": "Racio Knäckebrot",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 24,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-51ba8da1e9c4db3a",
+        "product": "Bonavita Müsli",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 24,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-75c00a7734d2fdad",
+        "product": "Nestlé Dětské cereálie",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 24,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-b39ede477da9e534",
+        "product": "Dr. Oetker Vanilínový cukr",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 25,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-877188094daa012a",
+        "product": "Giana Sardinky",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 25,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-2e8cfcd84d05f1a0",
+        "product": "Znojmia Okurky",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 25,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-344d08fbc29be6d1",
+        "product": "Franz Josef Olivy",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 25,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-949d27f64afa2d30",
+        "product": "Lagris Rýže parboiled",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 25,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-b3c8dfa7bf0357bf",
+        "product": "Zátkovy vaječné těstoviny",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 25,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-3117e4d61187621e",
+        "product": "Dr. Oetker Vanilkový cukr",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 25,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-3aece5143d6ce553",
+        "product": "YO Sirup",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 26,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-559bdcffaf9b2d57",
+        "product": "Dobrý sirup",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 26,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-2a09f36c35edcaf1",
+        "product": "RC Cola/ Top Topic",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 26,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-e25ba409df586575",
+        "product": "Heineken",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 27,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-99980e34cc66a6b2",
+        "product": "KK Arašídy",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 27,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-865ae86471a583fd",
+        "product": "Pringles Cizrnové chipsy",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 27,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-d8379bbed671a32c",
+        "product": "Staropramen Nealko",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 28,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-252b32ea5f0149eb",
+        "product": "Staropramen 10",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 28,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-67eb8510f90f8914",
+        "product": "Budweiser Budvar Original",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 28,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-3890ab898ab57d8e",
+        "product": "Medium Mustang Hořký 12",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 28,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-8dc067a96f2505b4",
+        "product": "Heineken",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 28,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-53d250df76bbbc86",
+        "product": "Krušovice 12",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 28,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-a45d18ba66c9a235",
+        "product": "Krušovice Bohém",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 28,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-9cc4acec2a8b6902",
+        "product": "Jack Daniel's",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 30,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-55fe10e1251edfc0",
+        "product": "Always Dámské vložky",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 31,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-15c56d782064cc91",
+        "product": "Colgate Zubní pasta",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 31,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-50697d73079dfacf",
+        "product": "Zmrzlina Magnum pinta",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 33,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-5199ae798ea3497d",
+        "product": "Zmrzlina Magnum multipack",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 33,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-28efa29a5868c31c",
+        "product": "Zmrzlina Magnum",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 33,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-65e2becb807a8332",
+        "product": "Zott Monte Mléčný dezert",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 33,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      },
+      {
+        "id": "albert-supermarket-fa7533485d071c25",
+        "product": "RIO mare Insalatissime",
+        "storeName": "Albert supermarket",
+        "leafletType": "supermarket",
+        "pageNumber": 33,
+        "currentImageUrl": "",
+        "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+      }
+    ]
+  },
+  "results": [
+    {
+      "leaflet": {
+        "id": "20sm_akcni_letak",
+        "leafletType": "supermarket",
+        "storeId": "albert-supermarket",
+        "storeName": "Albert supermarket",
+        "baseUrl": "https://letaky.albert.cz/20sm_akcni_letak/",
+        "maxPages": 43
+      },
+      "summary": {
+        "pagesChecked": 43,
+        "pagesWithImage": 43,
+        "pagesWithWorkingImage": 43,
+        "offersCoveredByPageImage": 103,
+        "offersTotalInCleanData": 103,
+        "recommendedPath": "attach-page-image-urls-to-albert-offers"
+      },
+      "pages": [
+        {
+          "pageNumber": 1,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/1",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/1",
+          "htmlLength": 193870,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 2,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/2",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/2",
+          "htmlLength": 193880,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 3,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/3",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/3",
+          "htmlLength": 193880,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 4,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/4",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/4",
+          "htmlLength": 193860,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 5,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/5",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/5",
+          "htmlLength": 193860,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 6,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/6",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/6",
+          "htmlLength": 193858,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 7,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/7",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/7",
+          "htmlLength": 193858,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 7
+        },
+        {
+          "pageNumber": 8,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/8",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/8",
+          "htmlLength": 193868,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 9,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/9",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/9",
+          "htmlLength": 193868,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 10,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/10",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/10",
+          "htmlLength": 193865,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 11,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/11",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/11",
+          "htmlLength": 193865,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 12,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/12",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/12",
+          "htmlLength": 193875,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 13,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/13",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/13",
+          "htmlLength": 193875,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 14,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/14",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/14",
+          "htmlLength": 193876,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 15,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/15",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/15",
+          "htmlLength": 193876,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 16,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/16",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/16",
+          "htmlLength": 193869,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 17,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/17",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/17",
+          "htmlLength": 193869,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 18,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/18",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/18",
+          "htmlLength": 193869,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 19,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/19",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/19",
+          "htmlLength": 193869,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 5
+        },
+        {
+          "pageNumber": 20,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/20",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/20",
+          "htmlLength": 193877,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 21,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/21",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/21",
+          "htmlLength": 193877,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 4
+        },
+        {
+          "pageNumber": 22,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/22",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/22",
+          "htmlLength": 193887,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 6
+        },
+        {
+          "pageNumber": 23,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/23",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/23",
+          "htmlLength": 193887,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 4
+        },
+        {
+          "pageNumber": 24,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/24",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/24",
+          "htmlLength": 193865,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 5
+        },
+        {
+          "pageNumber": 25,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/25",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/25",
+          "htmlLength": 193865,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 7
+        },
+        {
+          "pageNumber": 26,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/26",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/26",
+          "htmlLength": 193869,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 27,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/27",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/27",
+          "htmlLength": 193869,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 28,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/28",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/28",
+          "htmlLength": 193877,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 7
+        },
+        {
+          "pageNumber": 29,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/29",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/29",
+          "htmlLength": 193877,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 30,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/30",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/30",
+          "htmlLength": 193877,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 31,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/31",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/31",
+          "htmlLength": 193877,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 32,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/32",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/32",
+          "htmlLength": 193879,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 33,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/33",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/33",
+          "htmlLength": 193879,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 6
+        },
+        {
+          "pageNumber": 34,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/34",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/34",
+          "htmlLength": 193875,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 35,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/35",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/35",
+          "htmlLength": 193875,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 36,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/36",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/36",
+          "htmlLength": 193879,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 37,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/37",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/37",
+          "htmlLength": 193879,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 38,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/38",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/38",
+          "htmlLength": 193877,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 39,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/39",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/39",
+          "htmlLength": 193877,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 7
+        },
+        {
+          "pageNumber": 40,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/40",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/40",
+          "htmlLength": 193871,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 41,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/41",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/41",
+          "htmlLength": 193871,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 5
+        },
+        {
+          "pageNumber": 42,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/42",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/42",
+          "htmlLength": 193868,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 43,
+          "url": "https://letaky.albert.cz/20sm_akcni_letak/page/43",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20sm_akcni_letak/page/43",
+          "htmlLength": 193870,
+          "pageImageUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054369/pages/124601cd-f68f-4141-8e83-661506a3cdd5-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        }
+      ]
+    },
+    {
+      "leaflet": {
+        "id": "20hm_akcni_letak",
+        "leafletType": "hypermarket",
+        "storeId": "albert-hypermarket",
+        "storeName": "Albert hypermarket",
+        "baseUrl": "https://letaky.albert.cz/20hm_akcni_letak/",
+        "maxPages": 60
+      },
+      "summary": {
+        "pagesChecked": 60,
+        "pagesWithImage": 60,
+        "pagesWithWorkingImage": 60,
+        "offersCoveredByPageImage": 150,
+        "offersTotalInCleanData": 150,
+        "recommendedPath": "attach-page-image-urls-to-albert-offers"
+      },
+      "pages": [
+        {
+          "pageNumber": 1,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/1",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/1",
+          "htmlLength": 193877,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 2,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/2",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/2",
+          "htmlLength": 193895,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 3,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/3",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/3",
+          "htmlLength": 193895,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 4,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/4",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/4",
+          "htmlLength": 193887,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 5,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/5",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/5",
+          "htmlLength": 193887,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 6,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/6",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/6",
+          "htmlLength": 193887,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 7,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/7",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/7",
+          "htmlLength": 193887,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 8,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/8",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/8",
+          "htmlLength": 193883,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 9,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/9",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/9",
+          "htmlLength": 193883,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 10,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/10",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/10",
+          "htmlLength": 193882,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 11,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/11",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/11",
+          "htmlLength": 193882,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 6
+        },
+        {
+          "pageNumber": 12,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/12",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/12",
+          "htmlLength": 193890,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 13,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/13",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/13",
+          "htmlLength": 193890,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 14,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/14",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/14",
+          "htmlLength": 193886,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 5
+        },
+        {
+          "pageNumber": 15,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/15",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/15",
+          "htmlLength": 193886,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 16,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/16",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/16",
+          "htmlLength": 193892,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 6
+        },
+        {
+          "pageNumber": 17,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/17",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/17",
+          "htmlLength": 193892,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 18,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/18",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/18",
+          "htmlLength": 193892,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 19,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/19",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/19",
+          "htmlLength": 193892,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 6
+        },
+        {
+          "pageNumber": 20,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/20",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/20",
+          "htmlLength": 193896,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 21,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/21",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/21",
+          "htmlLength": 193896,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 5
+        },
+        {
+          "pageNumber": 22,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/22",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/22",
+          "htmlLength": 193890,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 23,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/23",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/23",
+          "htmlLength": 193890,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 24,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/24",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/24",
+          "htmlLength": 193878,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 25,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/25",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/25",
+          "htmlLength": 193878,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 26,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/26",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/26",
+          "htmlLength": 193894,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 6
+        },
+        {
+          "pageNumber": 27,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/27",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/27",
+          "htmlLength": 193894,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 6
+        },
+        {
+          "pageNumber": 28,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/28",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/28",
+          "htmlLength": 193894,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 4
+        },
+        {
+          "pageNumber": 29,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/29",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/29",
+          "htmlLength": 193894,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 6
+        },
+        {
+          "pageNumber": 30,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/30",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/30",
+          "htmlLength": 193892,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 31,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/31",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/31",
+          "htmlLength": 193892,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 32,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/32",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/32",
+          "htmlLength": 193888,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 33,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/33",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/33",
+          "htmlLength": 193888,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 34,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/34",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/34",
+          "htmlLength": 193892,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 35,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/35",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/35",
+          "htmlLength": 193892,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 7
+        },
+        {
+          "pageNumber": 36,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/36",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/36",
+          "htmlLength": 193888,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 37,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/37",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/37",
+          "htmlLength": 193888,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 38,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/38",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/38",
+          "htmlLength": 193884,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 39,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/39",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/39",
+          "htmlLength": 193884,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 40,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/40",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/40",
+          "htmlLength": 193896,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 41,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/41",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/41",
+          "htmlLength": 193896,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 42,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/42",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/42",
+          "htmlLength": 193884,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 3
+        },
+        {
+          "pageNumber": 43,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/43",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/43",
+          "htmlLength": 193884,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 44,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/44",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/44",
+          "htmlLength": 193890,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 45,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/45",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/45",
+          "htmlLength": 193890,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 46,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/46",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/46",
+          "htmlLength": 193896,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 1
+        },
+        {
+          "pageNumber": 47,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/47",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/47",
+          "htmlLength": 193896,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 48,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/48",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/48",
+          "htmlLength": 193894,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 7
+        },
+        {
+          "pageNumber": 49,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/49",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/49",
+          "htmlLength": 193894,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 50,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/50",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/50",
+          "htmlLength": 193890,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 51,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/51",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/51",
+          "htmlLength": 193890,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 7
+        },
+        {
+          "pageNumber": 52,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/52",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/52",
+          "htmlLength": 193888,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 53,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/53",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/53",
+          "htmlLength": 193888,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 8
+        },
+        {
+          "pageNumber": 54,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/54",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/54",
+          "htmlLength": 193892,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 4
+        },
+        {
+          "pageNumber": 55,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/55",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/55",
+          "htmlLength": 193892,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 4
+        },
+        {
+          "pageNumber": 56,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/56",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/56",
+          "htmlLength": 193888,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 57,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/57",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/57",
+          "htmlLength": 193888,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 2
+        },
+        {
+          "pageNumber": 58,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/58",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/58",
+          "htmlLength": 193876,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 59,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/59",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/59",
+          "htmlLength": 193876,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        },
+        {
+          "pageNumber": 60,
+          "url": "https://letaky.albert.cz/20hm_akcni_letak/page/60",
+          "ok": true,
+          "status": 200,
+          "finalUrl": "https://letaky.albert.cz/20hm_akcni_letak/page/60",
+          "htmlLength": 193877,
+          "pageImageUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+          "testedImage": {
+            "url": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "ok": true,
+            "status": 206,
+            "finalUrl": "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg",
+            "contentType": "image/jpeg",
+            "contentLength": "2049",
+            "isImage": true
+          },
+          "pageImageCandidates": [
+            "https://view.publitas.com/90263/3054366/pages/bf010aea-2de8-43ba-b86d-af0914e2ea9c-at1600.jpg"
+          ],
+          "offersOnPage": 0
+        }
+      ]
+    }
+  ]
+}

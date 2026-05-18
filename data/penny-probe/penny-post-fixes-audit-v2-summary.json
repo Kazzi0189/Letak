@@ -1,0 +1,2007 @@
+{
+  "checkedAt": "2026-05-18T10:57:22.877Z",
+  "type": "JEN KONTROLNÍ REPORT – DO APLIKACE NENAHRÁVAT",
+  "summary": {
+    "offersPath": "data/offers.json",
+    "totalOffers": 1212,
+    "pennyOffers": 403,
+    "pennySourceOffers": 381,
+    "pennyPagesInCurrentOffers": 32,
+    "pennyPagesInSource": 31,
+    "recommendedPath": "continue-with-next-risk-pages-or-final-manual-sampling"
+  },
+  "pageCountsCurrentOffers": [
+    {
+      "page": 2,
+      "count": 4
+    },
+    {
+      "page": 3,
+      "count": 14
+    },
+    {
+      "page": 4,
+      "count": 18
+    },
+    {
+      "page": 5,
+      "count": 16
+    },
+    {
+      "page": 6,
+      "count": 20
+    },
+    {
+      "page": 7,
+      "count": 11
+    },
+    {
+      "page": 8,
+      "count": 12
+    },
+    {
+      "page": 9,
+      "count": 17
+    },
+    {
+      "page": 10,
+      "count": 11
+    },
+    {
+      "page": 11,
+      "count": 22
+    },
+    {
+      "page": 12,
+      "count": 10
+    },
+    {
+      "page": 13,
+      "count": 11
+    },
+    {
+      "page": 14,
+      "count": 16
+    },
+    {
+      "page": 15,
+      "count": 16
+    },
+    {
+      "page": 16,
+      "count": 15
+    },
+    {
+      "page": 17,
+      "count": 16
+    },
+    {
+      "page": 18,
+      "count": 2
+    },
+    {
+      "page": 19,
+      "count": 5
+    },
+    {
+      "page": 20,
+      "count": 20
+    },
+    {
+      "page": 21,
+      "count": 20
+    },
+    {
+      "page": 22,
+      "count": 18
+    },
+    {
+      "page": 23,
+      "count": 20
+    },
+    {
+      "page": 24,
+      "count": 12
+    },
+    {
+      "page": 25,
+      "count": 17
+    },
+    {
+      "page": 26,
+      "count": 6
+    },
+    {
+      "page": 28,
+      "count": 22
+    },
+    {
+      "page": 30,
+      "count": 7
+    },
+    {
+      "page": 31,
+      "count": 10
+    },
+    {
+      "page": 32,
+      "count": 7
+    },
+    {
+      "page": 33,
+      "count": 3
+    },
+    {
+      "page": 34,
+      "count": 2
+    },
+    {
+      "page": 35,
+      "count": 3
+    }
+  ],
+  "pageCountsPennySource": [
+    {
+      "page": 2,
+      "count": 4
+    },
+    {
+      "page": 3,
+      "count": 14
+    },
+    {
+      "page": 4,
+      "count": 18
+    },
+    {
+      "page": 5,
+      "count": 16
+    },
+    {
+      "page": 6,
+      "count": 20
+    },
+    {
+      "page": 7,
+      "count": 11
+    },
+    {
+      "page": 8,
+      "count": 12
+    },
+    {
+      "page": 9,
+      "count": 17
+    },
+    {
+      "page": 10,
+      "count": 11
+    },
+    {
+      "page": 11,
+      "count": 22
+    },
+    {
+      "page": 12,
+      "count": 10
+    },
+    {
+      "page": 13,
+      "count": 11
+    },
+    {
+      "page": 14,
+      "count": 16
+    },
+    {
+      "page": 15,
+      "count": 16
+    },
+    {
+      "page": 16,
+      "count": 15
+    },
+    {
+      "page": 17,
+      "count": 16
+    },
+    {
+      "page": 18,
+      "count": 2
+    },
+    {
+      "page": 19,
+      "count": 5
+    },
+    {
+      "page": 20,
+      "count": 20
+    },
+    {
+      "page": 21,
+      "count": 20
+    },
+    {
+      "page": 22,
+      "count": 18
+    },
+    {
+      "page": 23,
+      "count": 20
+    },
+    {
+      "page": 24,
+      "count": 12
+    },
+    {
+      "page": 25,
+      "count": 17
+    },
+    {
+      "page": 26,
+      "count": 6
+    },
+    {
+      "page": 30,
+      "count": 7
+    },
+    {
+      "page": 31,
+      "count": 10
+    },
+    {
+      "page": 32,
+      "count": 7
+    },
+    {
+      "page": 33,
+      "count": 3
+    },
+    {
+      "page": 34,
+      "count": 2
+    },
+    {
+      "page": 35,
+      "count": 3
+    }
+  ],
+  "importantPages": [
+    {
+      "page": 20,
+      "count": 20,
+      "sample": [
+        {
+          "product": "BOHEMIA SEKT různé druhy",
+          "priceText": "109,90 Kč",
+          "price": 109.9,
+          "packageSize": "0,75 l",
+          "category": "alkohol",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "BRANDY KOBLEVO RESERVE VSOP 40 % alk.",
+          "priceText": "229,90 Kč",
+          "price": 229.9,
+          "packageSize": "0,5 l",
+          "category": "alkohol",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "BRANÍK světlé výčepní",
+          "priceText": "9,90 Kč",
+          "price": 9.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "BUDWEISER BUDVAR světlý ležák",
+          "priceText": "19,90 Kč",
+          "price": 19.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "COOL různé druhy",
+          "priceText": "36,90 Kč",
+          "price": 36.9,
+          "packageSize": "1,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "GAMBRINUS PATRON světlý ležák plech",
+          "priceText": "18,90 Kč",
+          "price": 18.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KRUŠOVICE 10 světlé výčepní",
+          "priceText": "9,90 Kč",
+          "price": 9.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "OSTRAVAR MUSTANG světlý ležák plech",
+          "priceText": "18,90 Kč",
+          "price": 18.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "PROSECCO bílé perlivé",
+          "priceText": "59,90 Kč",
+          "price": 59.9,
+          "packageSize": "0,75 l",
+          "category": "alkohol",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "RADEGAST RATAR hořký ležák plech",
+          "priceText": "20,90 Kč",
+          "price": 20.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "SKOTSKÁ WHISKY MC ILLROY 40 % alk.",
+          "priceText": "219,90 Kč",
+          "price": 219.9,
+          "packageSize": "0,7 l",
+          "category": "alkohol",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "STAROČECH nealko",
+          "priceText": "6,90 Kč",
+          "price": 6.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "STAROČECH ORIGINAL světlé výčepní",
+          "priceText": "11,90 Kč",
+          "price": 11.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "STAROPRAMEN 12 světlý ležák plech",
+          "priceText": "17,90 Kč",
+          "price": 17.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "SVIJANSKÝ MÁZ",
+          "priceText": "",
+          "price": 11.9,
+          "packageSize": "0,5 l",
+          "category": "",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "SVIJANSKÝ MÁZ světlý ležák",
+          "priceText": "10,90 Kč",
+          "price": 10.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "VELKOPOPOVICKÝ KOZEL 10 světlé výčepní",
+          "priceText": "11,90 Kč",
+          "price": 11.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "VELKOPOPOVICKÝ KOZEL nealko plech",
+          "priceText": "17,90 Kč",
+          "price": 17.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "záloha na lahev 3 Kč PROSECCO bílé perlivé",
+          "priceText": "",
+          "price": 69.9,
+          "packageSize": "0,75 l",
+          "category": "",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "ZUBR GRAND, HOLBA ŠERÁK světlý ležák plech",
+          "priceText": "16,90 Kč",
+          "price": 16.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "page": 23,
+      "count": 20,
+      "sample": [
+        {
+          "product": "á 129,90 COFFEE WHITENER CASABLANCA",
+          "priceText": "",
+          "price": 19.9,
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "CAPPUCCINO CASABLANCA různé druhy",
+          "priceText": "12,90 Kč",
+          "price": 12.9,
+          "packageSize": "100 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "COFFEE WHITENER CASABLANCA",
+          "priceText": "17,90 Kč",
+          "price": 17.9,
+          "packageSize": "200 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy",
+          "priceText": "119,90 Kč",
+          "price": 119.9,
+          "packageSize": "",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "EDUSCHO ESPRESSO INTENSO zrnková",
+          "priceText": "299,90 Kč",
+          "price": 299.9,
+          "packageSize": "1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "JACOBS INTENSE",
+          "priceText": "",
+          "price": 189.9,
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "JACOBS ORIGINS* Brazílie, Kenya mletá",
+          "priceText": "",
+          "price": 129.9,
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA CLASSIC instantní",
+          "priceText": "",
+          "price": 99.9,
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA CREMA zrnková",
+          "priceText": "289,90 Kč",
+          "price": 289.9,
+          "packageSize": "1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+          "priceText": "",
+          "price": 139.9,
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA INTENSO mletá",
+          "priceText": "",
+          "price": 59.9,
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA OCHUCENÁ instantní,",
+          "priceText": "",
+          "price": 59.9,
+          "packageSize": "80 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky",
+          "priceText": "59,90 Kč",
+          "price": 59.9,
+          "packageSize": "80 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA JACOBS VELVET CREMA mletá",
+          "priceText": "",
+          "price": 99.9,
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA JACOBS VELVET REFILL XXL instantní",
+          "priceText": "199,90 Kč",
+          "price": 199.9,
+          "packageSize": "300 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA JACOBS VELVET REFILL XXL* instantní",
+          "priceText": "",
+          "price": 199.9,
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA MARILA STANDARD mletá",
+          "priceText": "199,90 Kč",
+          "price": 199.9,
+          "packageSize": "1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "LAVAZZA CAFFÉ CREMA zrnková",
+          "priceText": "399,90 Kč",
+          "price": 399.9,
+          "packageSize": "1,1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "LAVAZZA CAFFÉ CREMA* zrnková",
+          "priceText": "",
+          "price": 329.9,
+          "packageSize": "1,1 kg",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "NESCAFÉ 3V1, 2V1 různé druhy",
+          "priceText": "49,90 Kč",
+          "price": 49.9,
+          "packageSize": "",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "page": 28,
+      "count": 22,
+      "sample": [
+        {
+          "product": "KAPALNÉ HNOJIVO železo či vápník 1 balení",
+          "priceText": "49,90 Kč",
+          "price": 49.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "SUBSTRÁT na pelargonie či plodovou zeleninu 1 balení",
+          "priceText": "119,90 Kč",
+          "price": 119.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "HOŠTICKÝ KOMPOST 1 balení",
+          "priceText": "59,90 Kč",
+          "price": 59.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "TRUHLÍK plastový, 27 cm, různé barvy",
+          "priceText": "59,90 Kč",
+          "price": 59.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "OPLOCENÍ ZÁHONKU plastové - PP, po sestavení 45 x 45 x 18,5 cm, černá barva 1 balení",
+          "priceText": "149,90 Kč",
+          "price": 149.9,
+          "packageSize": "18,5 cm",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "OBAL NA KVĚTNÍK plastový, ø 15 x 12 cm, různé barvy",
+          "priceText": "59,90 Kč",
+          "price": 59.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "HNOJIVO KRISTALON na podporu květů a plodů / rajčata a papriky / muškáty 1 balení",
+          "priceText": "99,90 Kč",
+          "price": 99.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "VÁZACÍ PÁSKA plastová, délka 34,5 cm 1 balení",
+          "priceText": "29,90 Kč",
+          "price": 29.9,
+          "packageSize": "34,5 cm",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "VÁZACÍ DRÁTEK 2x 20 m, kovový potažený PVC, včetně řezače 1 balení",
+          "priceText": "34,90 Kč",
+          "price": 34.9,
+          "packageSize": "20 m",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "ZAHRADNICKÉ NŮŽKY pákové, max. ø řezu 2–30 cm / plotové, max. pr. řezu 0,8–1 cm",
+          "priceText": "179,90 Kč",
+          "price": 179.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "STRUNA DO SEKAČKY hvězda/kulatá, ø 2,4 mm 1 balení",
+          "priceText": "49,90 Kč",
+          "price": 49.9,
+          "packageSize": "2,4 mm",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "OPĚRA kovová, stříbrná",
+          "priceText": "24,90 Kč",
+          "price": 24.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "ZAVLAŽOVACÍ KONCOVKA různé typy 1 balení",
+          "priceText": "99,90 Kč",
+          "price": 99.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "POSTŘIKOVAČ kruhový, s podstavcem, 8polohový, různá provedení",
+          "priceText": "129,90 Kč",
+          "price": 129.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "TABLETOVÉ HNOJIVO na plodovou zeleninu 1 balení",
+          "priceText": "149,90 Kč",
+          "price": 149.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "PENETRAČNÍ NÁTĚR odstíny palisander, mahagon, ořech či oregonská pinie 1 balení",
+          "priceText": "449,90 Kč",
+          "price": 449.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "SADA ŠTĚTCŮ lakovací/ lazurovací 1 balení",
+          "priceText": "69,90 Kč",
+          "price": 69.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "FUNGICID STOP proti plísním či chorobám na rajčatech/ okurkách",
+          "priceText": "99,90 Kč",
+          "price": 99.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "INSEKTICID SUBSTRAL NATUREN hubí mšice, moly, svilušky a červce",
+          "priceText": "229,90 Kč",
+          "price": 229.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "BIOSEPTIK v nabídce i urychlovač kompostu",
+          "priceText": "79,90 Kč",
+          "price": 79.9,
+          "packageSize": "100 g",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "MOLUSKOCID SLIMASTOP granulovaný, přípravek na přírodní bázi",
+          "priceText": "249,90 Kč",
+          "price": 249.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "PŘÍPRAVEK BROS na mouchy/komáry či lezoucí/létající hmyz",
+          "priceText": "99,90 Kč",
+          "price": 99.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        }
+      ]
+    },
+    {
+      "page": 35,
+      "count": 3,
+      "sample": [
+        {
+          "product": "á 199,90 TABLETY DO MYČKY FINISH ALL IN",
+          "priceText": "",
+          "price": 159.9,
+          "packageSize": "1 48 ks",
+          "category": "",
+          "pageNumber": 35,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "PRÁŠEK 4V1 CALGON",
+          "priceText": "",
+          "price": 89.9,
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 35,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "GEL NA PRANÍ WOOLITE* colors",
+          "priceText": "",
+          "price": 199.9,
+          "packageSize": "3,6 l",
+          "category": "drogerie",
+          "pageNumber": 35,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "medium",
+          "source": "manual-woolite-from-penny-leaflet"
+        }
+      ]
+    }
+  ],
+  "queryChecks": [
+    {
+      "label": "beer-branik",
+      "query": "Braník",
+      "count": 1,
+      "sample": [
+        {
+          "product": "BRANÍK světlé výčepní",
+          "priceText": "9,90 Kč",
+          "price": 9.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "label": "beer-generic",
+      "query": "pivo",
+      "count": 15,
+      "sample": [
+        {
+          "product": "BRANÍK světlé výčepní",
+          "priceText": "9,90 Kč",
+          "price": 9.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "BUDVAR 33",
+          "priceText": "",
+          "price": 17.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "BUDWEISER BUDVAR světlý ležák",
+          "priceText": "19,90 Kč",
+          "price": 19.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "COOL různé druhy",
+          "priceText": "36,90 Kč",
+          "price": 36.9,
+          "packageSize": "1,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "GAMBRINUS PATRON světlý ležák plech",
+          "priceText": "18,90 Kč",
+          "price": 18.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KRUŠOVICE 10 světlé výčepní",
+          "priceText": "9,90 Kč",
+          "price": 9.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "OSTRAVAR MUSTANG světlý ležák plech",
+          "priceText": "18,90 Kč",
+          "price": 18.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "RADEGAST RATAR hořký ležák plech",
+          "priceText": "20,90 Kč",
+          "price": 20.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "STAROČECH nealko",
+          "priceText": "6,90 Kč",
+          "price": 6.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "STAROČECH ORIGINAL světlé výčepní",
+          "priceText": "11,90 Kč",
+          "price": 11.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "STAROPRAMEN 12 světlý ležák plech",
+          "priceText": "17,90 Kč",
+          "price": 17.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "SVIJANSKÝ MÁZ světlý ležák",
+          "priceText": "10,90 Kč",
+          "price": 10.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "VELKOPOPOVICKÝ KOZEL 10 světlé výčepní",
+          "priceText": "11,90 Kč",
+          "price": 11.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "VELKOPOPOVICKÝ KOZEL nealko plech",
+          "priceText": "17,90 Kč",
+          "price": 17.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "ZUBR GRAND, HOLBA ŠERÁK světlý ležák plech",
+          "priceText": "16,90 Kč",
+          "price": 16.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "label": "beer-krusovice",
+      "query": "Krušovice",
+      "count": 1,
+      "sample": [
+        {
+          "product": "KRUŠOVICE 10 světlé výčepní",
+          "priceText": "9,90 Kč",
+          "price": 9.9,
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "label": "coffee-generic",
+      "query": "káva",
+      "count": 20,
+      "sample": [
+        {
+          "product": "CAPPUCCINO CASABLANCA různé druhy",
+          "priceText": "12,90 Kč",
+          "price": 12.9,
+          "packageSize": "100 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "COFFEE WHITENER CASABLANCA",
+          "priceText": "17,90 Kč",
+          "price": 17.9,
+          "packageSize": "200 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy",
+          "priceText": "119,90 Kč",
+          "price": 119.9,
+          "packageSize": "",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "EDUSCHO ESPRESSO INTENSO zrnková",
+          "priceText": "299,90 Kč",
+          "price": 299.9,
+          "packageSize": "1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA CLASSIC instantní",
+          "priceText": "",
+          "price": 99.9,
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA CREMA zrnková",
+          "priceText": "289,90 Kč",
+          "price": 289.9,
+          "packageSize": "1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+          "priceText": "",
+          "price": 139.9,
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA INTENSO mletá",
+          "priceText": "",
+          "price": 59.9,
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA OCHUCENÁ instantní,",
+          "priceText": "",
+          "price": 59.9,
+          "packageSize": "80 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky",
+          "priceText": "59,90 Kč",
+          "price": 59.9,
+          "packageSize": "80 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA JACOBS VELVET CREMA mletá",
+          "priceText": "",
+          "price": 99.9,
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA JACOBS VELVET REFILL XXL instantní",
+          "priceText": "199,90 Kč",
+          "price": 199.9,
+          "packageSize": "300 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA JACOBS VELVET REFILL XXL* instantní",
+          "priceText": "",
+          "price": 199.9,
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA JIHLAVANKA instantní,",
+          "priceText": "",
+          "price": 119.9,
+          "packageSize": "180/200 g",
+          "category": "",
+          "pageNumber": 12,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA JIHLAVANKA STANDARD mletá",
+          "priceText": "",
+          "price": 59.9,
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA MARILA STANDARD mletá",
+          "priceText": "199,90 Kč",
+          "price": 199.9,
+          "packageSize": "1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA NESCAFÉ GOLD instantní",
+          "priceText": "",
+          "price": 179.9,
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA SEGAFREDO ESPRESSO CASA zrnková",
+          "priceText": "",
+          "price": 189.9,
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "LAVAZZA CAFFÉ CREMA zrnková",
+          "priceText": "399,90 Kč",
+          "price": 399.9,
+          "packageSize": "1,1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "NESCAFÉ 3V1, 2V1 různé druhy",
+          "priceText": "49,90 Kč",
+          "price": 49.9,
+          "packageSize": "",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "label": "coffee-casablanca",
+      "query": "Casablanca",
+      "count": 9,
+      "sample": [
+        {
+          "product": "á 129,90 COFFEE WHITENER CASABLANCA",
+          "priceText": "",
+          "price": 19.9,
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "CAPPUCCINO CASABLANCA různé druhy",
+          "priceText": "12,90 Kč",
+          "price": 12.9,
+          "packageSize": "100 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "COFFEE WHITENER CASABLANCA",
+          "priceText": "17,90 Kč",
+          "price": 17.9,
+          "packageSize": "200 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA CLASSIC instantní",
+          "priceText": "",
+          "price": 99.9,
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA CREMA zrnková",
+          "priceText": "289,90 Kč",
+          "price": 289.9,
+          "packageSize": "1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+          "priceText": "",
+          "price": 139.9,
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA INTENSO mletá",
+          "priceText": "",
+          "price": 59.9,
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA OCHUCENÁ instantní,",
+          "priceText": "",
+          "price": 59.9,
+          "packageSize": "80 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        },
+        {
+          "product": "KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky",
+          "priceText": "59,90 Kč",
+          "price": 59.9,
+          "packageSize": "80 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "label": "coffee-dolce-gusto",
+      "query": "Dolce Gusto",
+      "count": 1,
+      "sample": [
+        {
+          "product": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy",
+          "priceText": "119,90 Kč",
+          "price": 119.9,
+          "packageSize": "",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "label": "woolite",
+      "query": "Woolite",
+      "count": 1,
+      "sample": [
+        {
+          "product": "GEL NA PRANÍ WOOLITE* colors",
+          "priceText": "",
+          "price": 199.9,
+          "packageSize": "3,6 l",
+          "category": "drogerie",
+          "pageNumber": 35,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "medium",
+          "source": "manual-woolite-from-penny-leaflet"
+        }
+      ]
+    },
+    {
+      "label": "garden-generic",
+      "query": "zahrada",
+      "count": 22,
+      "sample": [
+        {
+          "product": "KAPALNÉ HNOJIVO železo či vápník 1 balení",
+          "priceText": "49,90 Kč",
+          "price": 49.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "SUBSTRÁT na pelargonie či plodovou zeleninu 1 balení",
+          "priceText": "119,90 Kč",
+          "price": 119.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "HOŠTICKÝ KOMPOST 1 balení",
+          "priceText": "59,90 Kč",
+          "price": 59.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "TRUHLÍK plastový, 27 cm, různé barvy",
+          "priceText": "59,90 Kč",
+          "price": 59.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "OPLOCENÍ ZÁHONKU plastové - PP, po sestavení 45 x 45 x 18,5 cm, černá barva 1 balení",
+          "priceText": "149,90 Kč",
+          "price": 149.9,
+          "packageSize": "18,5 cm",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "OBAL NA KVĚTNÍK plastový, ø 15 x 12 cm, různé barvy",
+          "priceText": "59,90 Kč",
+          "price": 59.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "HNOJIVO KRISTALON na podporu květů a plodů / rajčata a papriky / muškáty 1 balení",
+          "priceText": "99,90 Kč",
+          "price": 99.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "VÁZACÍ PÁSKA plastová, délka 34,5 cm 1 balení",
+          "priceText": "29,90 Kč",
+          "price": 29.9,
+          "packageSize": "34,5 cm",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "VÁZACÍ DRÁTEK 2x 20 m, kovový potažený PVC, včetně řezače 1 balení",
+          "priceText": "34,90 Kč",
+          "price": 34.9,
+          "packageSize": "20 m",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "ZAHRADNICKÉ NŮŽKY pákové, max. ø řezu 2–30 cm / plotové, max. pr. řezu 0,8–1 cm",
+          "priceText": "179,90 Kč",
+          "price": 179.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "STRUNA DO SEKAČKY hvězda/kulatá, ø 2,4 mm 1 balení",
+          "priceText": "49,90 Kč",
+          "price": 49.9,
+          "packageSize": "2,4 mm",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "OPĚRA kovová, stříbrná",
+          "priceText": "24,90 Kč",
+          "price": 24.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "ZAVLAŽOVACÍ KONCOVKA různé typy 1 balení",
+          "priceText": "99,90 Kč",
+          "price": 99.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "POSTŘIKOVAČ kruhový, s podstavcem, 8polohový, různá provedení",
+          "priceText": "129,90 Kč",
+          "price": 129.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "TABLETOVÉ HNOJIVO na plodovou zeleninu 1 balení",
+          "priceText": "149,90 Kč",
+          "price": 149.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "PENETRAČNÍ NÁTĚR odstíny palisander, mahagon, ořech či oregonská pinie 1 balení",
+          "priceText": "449,90 Kč",
+          "price": 449.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "SADA ŠTĚTCŮ lakovací/ lazurovací 1 balení",
+          "priceText": "69,90 Kč",
+          "price": 69.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "FUNGICID STOP proti plísním či chorobám na rajčatech/ okurkách",
+          "priceText": "99,90 Kč",
+          "price": 99.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "INSEKTICID SUBSTRAL NATUREN hubí mšice, moly, svilušky a červce",
+          "priceText": "229,90 Kč",
+          "price": 229.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        },
+        {
+          "product": "BIOSEPTIK v nabídce i urychlovač kompostu",
+          "priceText": "79,90 Kč",
+          "price": 79.9,
+          "packageSize": "100 g",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        }
+      ]
+    },
+    {
+      "label": "garden-kristalon",
+      "query": "Kristalon",
+      "count": 1,
+      "sample": [
+        {
+          "product": "HNOJIVO KRISTALON na podporu květů a plodů / rajčata a papriky / muškáty 1 balení",
+          "priceText": "99,90 Kč",
+          "price": 99.9,
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        }
+      ]
+    },
+    {
+      "label": "garden-postrikovac",
+      "query": "postřikovač",
+      "count": 1,
+      "sample": [
+        {
+          "product": "POSTŘIKOVAČ kruhový, s podstavcem, 8polohový, různá provedení",
+          "priceText": "129,90 Kč",
+          "price": 129.9,
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        }
+      ]
+    },
+    {
+      "label": "garden-bioseptik",
+      "query": "Bioseptik",
+      "count": 1,
+      "sample": [
+        {
+          "product": "BIOSEPTIK v nabídce i urychlovač kompostu",
+          "priceText": "79,90 Kč",
+          "price": 79.9,
+          "packageSize": "100 g",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "penny-page28-garden-conservative",
+          "source": "penny-page28-garden-probe-v2"
+        }
+      ]
+    }
+  ],
+  "detectedProblems": []
+}

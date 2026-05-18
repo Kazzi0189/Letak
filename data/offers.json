@@ -51,6 +51,11 @@
       "fixedCount": 64,
       "outputCount": 1207,
       "removedNote": "Odstraněny jasné šumové položky začínající cenovým fragmentem, záloha na lahev a jedna přesná duplicita bez priceText/category."
+    },
+    "manualFixProseccoPenny": {
+      "updatedAt": "2026-05-18T12:14:04+00:00",
+      "reason": "PDF strana 20 uvádí aktuální cenu 69,90 Kč; hodnota < 59,90 Kč je nejnižší cena za posledních 30 dní.",
+      "fixedCount": 1
     }
   },
   "offers": [
@@ -34350,11 +34355,11 @@
       "brand": "",
       "description": "alkohol · sekt · šumivé víno · prosecco",
       "packageSize": "0,75 l",
-      "price": 59.9,
-      "priceText": "59,90 Kč",
+      "price": 69.9,
+      "priceText": "69,90 Kč",
       "unitPrice": 93.2,
-      "unit": "l",
-      "unitText": "",
+      "unit": "Kč/1 l",
+      "unitText": "1 l = 93,20 Kč",
       "validFrom": "",
       "validTo": "19.05.2026",
       "priceType": "akce",
@@ -34368,7 +34373,7 @@
       "suspect": false,
       "suspectReasons": [],
       "pageNumber": 20,
-      "rawContext": "PROSECCO bílé perlivé 0,75 l 1 l 93,20 Kč < 59,90 Kč 0,7 l Nabídka platná od středy 13. 5. do úterý 19. 5. 2026 původem z Itálie",
+      "rawContext": "PROSECCO bílé perlivé 0,75 l 1 l 93,20 Kč < 59,90 Kč. Pozn.: 59,90 Kč je nejnižší cena za posledních 30 dní, aktuální cena je 69,90 Kč.",
       "category": "alkohol",
       "searchTerms": "PROSECCO bílé perlivé alkohol · sekt šumivé víno prosecco 0,75 l Penny – leták",
       "compareKey": "prosecco bile perlive 0 75 l",

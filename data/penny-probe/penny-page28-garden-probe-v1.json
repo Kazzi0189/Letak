@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "source": "Penny page 28 targeted garden parser v1",
+    "updatedAt": "2026-05-18T10:30:44.439Z",
+    "count": 5,
+    "note": "Kontrolní výstup pro zahradní stranu 28. Není určený k přímému importu do aplikace."
+  },
+  "offers": [
+    {
+      "id": "penny-page28-v1-132eef65364e4174",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "HNOJIVO KRISTALON na podporu květů a plodů / rajčata a papriky / muškáty 1 balení | < 99,90 Kč",
+      "brand": "",
+      "description": "zahrada · hnojivo · Kristalon",
+      "packageSize": "",
+      "price": 99.9,
+      "priceText": "99,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "hnojivo",
+        "Kristalon"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v1",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "HNOJIVO KRISTALON* na podporu květů a plodů / rajčata a papriky / muškáty 1 balení | < 99,90 Kč",
+      "candidateClassification": {
+        "bucket": "review",
+        "reasons": [
+          "dlouhý název – zkontrolovat ručně"
+        ]
+      }
+    },
+    {
+      "id": "penny-page28-v1-50ca2e2aa5cd7e18",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "STRUNA DO SEKAČKY hvězda/kulatá, ø 2,4 mm 1 balení | < 34,90 Kč",
+      "brand": "",
+      "description": "zahrada · struna do sekačky · sekačka",
+      "packageSize": "2,4 mm",
+      "price": 34.9,
+      "priceText": "34,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "struna do sekačky",
+        "sekačka"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v1",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "STRUNA DO SEKAČKY* hvězda/kulatá, ø 2,4 mm 1 balení | < 34,90 Kč",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v1-8d493afc62506021",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "OPĚRA kovová, stříbrná",
+      "brand": "",
+      "description": "zahrada · opěra",
+      "packageSize": "1 ks",
+      "price": 49.9,
+      "priceText": "49,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "opěra"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v1",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "OPĚRA* kovová, stříbrná 1 ks < 49,90 Kč",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v1-b1d5cc7b80e0325a",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "PENETRAČNÍ NÁTĚR odstíny palisander, mahagon, ořech či oregonská pinie 1 balení < 449,90 Kč",
+      "brand": "",
+      "description": "zahrada · penetrační nátěr · nátěr",
+      "packageSize": "",
+      "price": 449.9,
+      "priceText": "449,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "penetrační nátěr",
+        "nátěr"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v1",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "PENETRAČNÍ NÁTĚR* odstíny palisander, mahagon, ořech či oregonská pinie 1 balení < 449,90 Kč",
+      "candidateClassification": {
+        "bucket": "review",
+        "reasons": [
+          "dlouhý název – zkontrolovat ručně"
+        ]
+      }
+    },
+    {
+      "id": "penny-page28-v1-28f12e7af265b1a8",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "BIOSEPTIK v nabídce i urychlovač kompostu",
+      "brand": "",
+      "description": "zahrada · bioseptik · urychlovač kompostu",
+      "packageSize": "100 g",
+      "price": 79.9,
+      "priceText": "79,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "bioseptik",
+        "urychlovač kompostu"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v1",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "BIOSEPTIK* v nabídce i urychlovač kompostu 100 g za 79,90 Kč 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    }
+  ]
+}

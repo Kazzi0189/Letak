@@ -1,0 +1,409 @@
+{
+  "checkedAt": "2026-05-18T10:30:44.439Z",
+  "type": "JEN KONTROLNÍ REPORT – DO APLIKACE NENAHRÁVAT",
+  "summary": {
+    "pageNumber": 28,
+    "pageFetchOk": true,
+    "status": 200,
+    "paragraphCount": 1,
+    "blocksFound": 19,
+    "startsFound": 19,
+    "totalCandidateOffers": 5,
+    "safeCandidates": 3,
+    "reviewCandidates": 2,
+    "missingStarts": [],
+    "missingBlocksWithoutActionPrice": [
+      {
+        "start": "OPLOCENÍ ZÁHONKU",
+        "block": "OPLOCENÍ ZÁHONKU* plastové - PP, po sestavení 45 x 45 x 18,5 cm, černá barva 1 balení"
+      },
+      {
+        "start": "OBAL NA KVĚTNÍK",
+        "block": "OBAL NA KVĚTNÍK* plastový, ø 15 x 12 cm, různé barvy 1 ks"
+      },
+      {
+        "start": "VÁZACÍ PÁSKA",
+        "block": "VÁZACÍ PÁSKA* plastová, délka 34,5 cm 1 balení"
+      },
+      {
+        "start": "VÁZACÍ DRÁTEK",
+        "block": "VÁZACÍ DRÁTEK* 2x 20 m, kovový potažený PVC, včetně řezače 1 balení"
+      },
+      {
+        "start": "ZAHRADNICKÉ NŮŽKY",
+        "block": "ZAHRADNICKÉ NŮŽKY* pákové, max. ø řezu 2–30 cm / plotové, max. pr. řezu 0,8–1 cm 1 ks"
+      },
+      {
+        "start": "ZAVLAŽOVACÍ KONCOVKA",
+        "block": "ZAVLAŽOVACÍ KONCOVKA* různé typy 1 balení"
+      },
+      {
+        "start": "POSTŘIKOVAČ",
+        "block": "POSTŘIKOVAČ* kruhový, s podstavcem, 8polohový, různá provedení 1 ks"
+      },
+      {
+        "start": "TABLETOVÉ HNOJIVO",
+        "block": "TABLETOVÉ HNOJIVO* na plodovou zeleninu 1 balení"
+      },
+      {
+        "start": "SADA ŠTĚTCŮ",
+        "block": "SADA ŠTĚTCŮ* lakovací/ lazurovací 1 balení"
+      },
+      {
+        "start": "FUNGICID STOP",
+        "block": "FUNGICID STOP* proti plísním či chorobám na rajčatech/ okurkách 1 ks"
+      },
+      {
+        "start": "INSEKTICID SUBSTRAL NATUREN",
+        "block": "INSEKTICID SUBSTRAL NATUREN* hubí mšice, moly, svilušky a červce 1 ks"
+      },
+      {
+        "start": "MOLUSKOCID SLIMASTOP",
+        "block": "MOLUSKOCID SLIMASTOP* granulovaný, přípravek na přírodní bázi 1 ks"
+      },
+      {
+        "start": "PŘÍPRAVEK BROS",
+        "block": "PŘÍPRAVEK BROS* na mouchy/komáry či lezoucí/létající hmyz 1 ks"
+      },
+      {
+        "start": "PAST NA",
+        "block": "PAST NA SLIMÁKY* plastová, 12 x 12 x 10 cm 1 balení 0,5 l 40 l 20 l 4 dílné 500 g 60 cm 52 cm 8 ks 15 m 100 ks 180 cm 3 l 8 ks 0,5 l 750 ml 100 g 685 g 400 ml 2 ks Používejte biocidy bezpečným způsobem. Před použitím si vždy přečtěte označení a informace o přípravku. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Nabídka platná od středy 13. 5. do úterý 19. 5. 2026"
+      }
+    ],
+    "recommendedPath": "inspect-page28-candidates-before-any-import"
+  },
+  "productsFound": [
+    {
+      "product": "HNOJIVO KRISTALON na podporu květů a plodů / rajčata a papriky / muškáty 1 balení | < 99,90 Kč",
+      "priceText": "99,90 Kč",
+      "packageSize": "",
+      "category": "zahrada",
+      "bucket": "review",
+      "reasons": [
+        "dlouhý název – zkontrolovat ručně"
+      ]
+    },
+    {
+      "product": "STRUNA DO SEKAČKY hvězda/kulatá, ø 2,4 mm 1 balení | < 34,90 Kč",
+      "priceText": "34,90 Kč",
+      "packageSize": "2,4 mm",
+      "category": "zahrada",
+      "bucket": "safe-candidate",
+      "reasons": []
+    },
+    {
+      "product": "OPĚRA kovová, stříbrná",
+      "priceText": "49,90 Kč",
+      "packageSize": "1 ks",
+      "category": "zahrada",
+      "bucket": "safe-candidate",
+      "reasons": []
+    },
+    {
+      "product": "PENETRAČNÍ NÁTĚR odstíny palisander, mahagon, ořech či oregonská pinie 1 balení < 449,90 Kč",
+      "priceText": "449,90 Kč",
+      "packageSize": "",
+      "category": "zahrada",
+      "bucket": "review",
+      "reasons": [
+        "dlouhý název – zkontrolovat ručně"
+      ]
+    },
+    {
+      "product": "BIOSEPTIK v nabídce i urychlovač kompostu",
+      "priceText": "79,90 Kč",
+      "packageSize": "100 g",
+      "category": "zahrada",
+      "bucket": "safe-candidate",
+      "reasons": []
+    }
+  ],
+  "offers": [
+    {
+      "id": "penny-page28-v1-132eef65364e4174",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "HNOJIVO KRISTALON na podporu květů a plodů / rajčata a papriky / muškáty 1 balení | < 99,90 Kč",
+      "brand": "",
+      "description": "zahrada · hnojivo · Kristalon",
+      "packageSize": "",
+      "price": 99.9,
+      "priceText": "99,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "hnojivo",
+        "Kristalon"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v1",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "HNOJIVO KRISTALON* na podporu květů a plodů / rajčata a papriky / muškáty 1 balení | < 99,90 Kč",
+      "candidateClassification": {
+        "bucket": "review",
+        "reasons": [
+          "dlouhý název – zkontrolovat ručně"
+        ]
+      }
+    },
+    {
+      "id": "penny-page28-v1-50ca2e2aa5cd7e18",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "STRUNA DO SEKAČKY hvězda/kulatá, ø 2,4 mm 1 balení | < 34,90 Kč",
+      "brand": "",
+      "description": "zahrada · struna do sekačky · sekačka",
+      "packageSize": "2,4 mm",
+      "price": 34.9,
+      "priceText": "34,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "struna do sekačky",
+        "sekačka"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v1",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "STRUNA DO SEKAČKY* hvězda/kulatá, ø 2,4 mm 1 balení | < 34,90 Kč",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v1-8d493afc62506021",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "OPĚRA kovová, stříbrná",
+      "brand": "",
+      "description": "zahrada · opěra",
+      "packageSize": "1 ks",
+      "price": 49.9,
+      "priceText": "49,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "opěra"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v1",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "OPĚRA* kovová, stříbrná 1 ks < 49,90 Kč",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v1-b1d5cc7b80e0325a",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "PENETRAČNÍ NÁTĚR odstíny palisander, mahagon, ořech či oregonská pinie 1 balení < 449,90 Kč",
+      "brand": "",
+      "description": "zahrada · penetrační nátěr · nátěr",
+      "packageSize": "",
+      "price": 449.9,
+      "priceText": "449,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "penetrační nátěr",
+        "nátěr"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v1",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "PENETRAČNÍ NÁTĚR* odstíny palisander, mahagon, ořech či oregonská pinie 1 balení < 449,90 Kč",
+      "candidateClassification": {
+        "bucket": "review",
+        "reasons": [
+          "dlouhý název – zkontrolovat ručně"
+        ]
+      }
+    },
+    {
+      "id": "penny-page28-v1-28f12e7af265b1a8",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "BIOSEPTIK v nabídce i urychlovač kompostu",
+      "brand": "",
+      "description": "zahrada · bioseptik · urychlovač kompostu",
+      "packageSize": "100 g",
+      "price": 79.9,
+      "priceText": "79,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "bioseptik",
+        "urychlovač kompostu"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v1",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "BIOSEPTIK* v nabídce i urychlovač kompostu 100 g za 79,90 Kč 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "start": "OPLOCENÍ ZÁHONKU",
+      "category": "zahrada",
+      "block": "OPLOCENÍ ZÁHONKU* plastové - PP, po sestavení 45 x 45 x 18,5 cm, černá barva 1 balení"
+    },
+    {
+      "start": "OBAL NA KVĚTNÍK",
+      "category": "zahrada",
+      "block": "OBAL NA KVĚTNÍK* plastový, ø 15 x 12 cm, různé barvy 1 ks"
+    },
+    {
+      "start": "HNOJIVO KRISTALON",
+      "category": "zahrada",
+      "block": "HNOJIVO KRISTALON* na podporu květů a plodů / rajčata a papriky / muškáty 1 balení | < 99,90 Kč"
+    },
+    {
+      "start": "VÁZACÍ PÁSKA",
+      "category": "zahrada",
+      "block": "VÁZACÍ PÁSKA* plastová, délka 34,5 cm 1 balení"
+    },
+    {
+      "start": "VÁZACÍ DRÁTEK",
+      "category": "zahrada",
+      "block": "VÁZACÍ DRÁTEK* 2x 20 m, kovový potažený PVC, včetně řezače 1 balení"
+    },
+    {
+      "start": "ZAHRADNICKÉ NŮŽKY",
+      "category": "zahrada",
+      "block": "ZAHRADNICKÉ NŮŽKY* pákové, max. ø řezu 2–30 cm / plotové, max. pr. řezu 0,8–1 cm 1 ks"
+    },
+    {
+      "start": "STRUNA DO SEKAČKY",
+      "category": "zahrada",
+      "block": "STRUNA DO SEKAČKY* hvězda/kulatá, ø 2,4 mm 1 balení | < 34,90 Kč"
+    },
+    {
+      "start": "OPĚRA",
+      "category": "zahrada",
+      "block": "OPĚRA* kovová, stříbrná 1 ks < 49,90 Kč"
+    },
+    {
+      "start": "ZAVLAŽOVACÍ KONCOVKA",
+      "category": "zahrada",
+      "block": "ZAVLAŽOVACÍ KONCOVKA* různé typy 1 balení"
+    },
+    {
+      "start": "POSTŘIKOVAČ",
+      "category": "zahrada",
+      "block": "POSTŘIKOVAČ* kruhový, s podstavcem, 8polohový, různá provedení 1 ks"
+    },
+    {
+      "start": "TABLETOVÉ HNOJIVO",
+      "category": "zahrada",
+      "block": "TABLETOVÉ HNOJIVO* na plodovou zeleninu 1 balení"
+    },
+    {
+      "start": "PENETRAČNÍ NÁTĚR",
+      "category": "zahrada",
+      "block": "PENETRAČNÍ NÁTĚR* odstíny palisander, mahagon, ořech či oregonská pinie 1 balení < 449,90 Kč"
+    },
+    {
+      "start": "SADA ŠTĚTCŮ",
+      "category": "zahrada",
+      "block": "SADA ŠTĚTCŮ* lakovací/ lazurovací 1 balení"
+    },
+    {
+      "start": "FUNGICID STOP",
+      "category": "zahrada",
+      "block": "FUNGICID STOP* proti plísním či chorobám na rajčatech/ okurkách 1 ks"
+    },
+    {
+      "start": "INSEKTICID SUBSTRAL NATUREN",
+      "category": "zahrada",
+      "block": "INSEKTICID SUBSTRAL NATUREN* hubí mšice, moly, svilušky a červce 1 ks"
+    },
+    {
+      "start": "BIOSEPTIK",
+      "category": "zahrada",
+      "block": "BIOSEPTIK* v nabídce i urychlovač kompostu 100 g za 79,90 Kč 1 balení"
+    },
+    {
+      "start": "MOLUSKOCID SLIMASTOP",
+      "category": "zahrada",
+      "block": "MOLUSKOCID SLIMASTOP* granulovaný, přípravek na přírodní bázi 1 ks"
+    },
+    {
+      "start": "PŘÍPRAVEK BROS",
+      "category": "zahrada",
+      "block": "PŘÍPRAVEK BROS* na mouchy/komáry či lezoucí/létající hmyz 1 ks"
+    },
+    {
+      "start": "PAST NA",
+      "category": "zahrada",
+      "block": "PAST NA SLIMÁKY* plastová, 12 x 12 x 10 cm 1 balení 0,5 l 40 l 20 l 4 dílné 500 g 60 cm 52 cm 8 ks 15 m 100 ks 180 cm 3 l 8 ks 0,5 l 750 ml 100 g 685 g 400 ml 2 ks Používejte biocidy bezpečným způsobem. Před použitím si vždy přečtěte označení a informace o přípravku. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Nabídka platná od středy 13. 5. do úterý 19. 5. 2026"
+    }
+  ],
+  "pageTextPreview": "28 nízké ceny hezky česky < Nejnižší cena za posledních 30 dní Nabídka z této strany je pro vybrané prodejny omezena. Seznam prodejen najdete na zadní straně letáku. nabídka Jedinečná 49,90 nabídka Jedinečná 119,90 nabídka Jedinečná 59,90 nabídka Jedinečná 59,90 nabídka Jedinečná 149,90 nabídka Jedinečná 59,90 nabídka Jedinečná 99,90 nabídka Jedinečná 29,90 nabídka Jedinečná 34,90 nabídka Jedinečná 179,90 nabídka Jedinečná 49,90 nabídka Jedinečná 24,90 nabídka Jedinečná 99,90 nabídka Jedinečná 129,90 nabídka Jedinečná 149,90 nabídka Jedinečná 449,90 nabídka Jedinečná 69,90 nabídka Jedinečná 99,90 nabídka Jedinečná 229,90 nabídka Jedinečná 79,90 nabídka Jedinečná 249,90 nabídka Jedinečná 99,90 nabídka Jedinečná 49,90 KAPALNÉ HNOJIVO* železo či vápník 1 balení SUBSTRÁT* na pelargonie či plodovou zeleninu 1 balení HOŠTICKÝ KOMPOST* 1 balení TRUHLÍK* plastový, 27 cm, různé barvy 1 ks OPLOCENÍ ZÁHONKU* plastové - PP, po sestavení 45 x 45 x 18,5 cm, černá barva 1 balení OBAL NA KVĚTNÍK* plastový, ø 15 x 12 cm, různé barvy 1 ks HNOJIVO KRISTALON* na podporu květů a plodů / rajčata a papriky / muškáty 1 balení | < 99,90 Kč VÁZACÍ PÁSKA* plastová, délka 34,5 cm 1 balení VÁZACÍ DRÁTEK* 2x 20 m, kovový potažený PVC, včetně řezače 1 balení ZAHRADNICKÉ NŮŽKY* pákové, max. ø řezu 2–30 cm / plotové, max. pr. řezu 0,8–1 cm 1 ks STRUNA DO SEKAČKY* hvězda/kulatá, ø 2,4 mm 1 balení | < 34,90 Kč OPĚRA* kovová, stříbrná 1 ks < 49,90 Kč ZAVLAŽOVACÍ KONCOVKA* různé typy 1 balení POSTŘIKOVAČ* kruhový, s podstavcem, 8polohový, různá provedení 1 ks TABLETOVÉ HNOJIVO* na plodovou zeleninu 1 balení PENETRAČNÍ NÁTĚR* odstíny palisander, mahagon, ořech či oregonská pinie 1 balení < 449,90 Kč SADA ŠTĚTCŮ* lakovací/ lazurovací 1 balení FUNGICID STOP* proti plísním či chorobám na rajčatech/ okurkách 1 ks INSEKTICID SUBSTRAL NATUREN* hubí mšice, moly, svilušky a červce 1 ks BIOSEPTIK* v nabídce i urychlovač kompostu 100 g za 79,90 Kč 1 balení MOLUSKOCID SLIMASTOP* granulovaný, přípravek na přírodní bázi 1 ks PŘÍPRAVEK BROS* na mouchy/komáry či lezoucí/létající hmyz 1 ks PAST NA SLIMÁKY* plastová, 12 x 12 x 10 cm 1 balení 0,5 l 40 l 20 l 4 dílné 500 g 60 cm 52 cm 8 ks 15 m 100 ks 180 cm 3 l 8 ks 0,5 l 750 ml 100 g 685 g 400 ml 2 ks Používejte biocidy bezpečným způsobem. Před použitím si vždy přečtěte označení a informace o přípravku. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Nabídka platná od středy 13. 5. do úterý 19. 5. 2026"
+}

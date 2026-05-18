@@ -1,0 +1,335 @@
+{
+  "sourceZip": "data.zip",
+  "finding": "Uploaded data/offers.json had only 28 offers. Rebuilt data/offers.json from penny-leaflet-offers.json + offers-kaufland-teplice.json + albert-pdf-offers-clean.json using scripts/combine-offers.mjs logic.",
+  "counts": {
+    "combinedTotal": 1189,
+    "byChain": {
+      "Albert": 250,
+      "Kaufland": 559,
+      "Penny": 380
+    }
+  },
+  "searchTests": [
+    {
+      "query": "pivo",
+      "allChains": 46,
+      "pennyOnly": 15,
+      "pennySample": [
+        "BRANÍK světlé výčepní",
+        "BUDVAR 33",
+        "BUDWEISER BUDVAR světlý ležák",
+        "COOL různé druhy",
+        "GAMBRINUS PATRON světlý ležák plech",
+        "KRUŠOVICE 10 světlé výčepní",
+        "OSTRAVAR MUSTANG světlý ležák plech",
+        "RADEGAST RATAR hořký ležák plech",
+        "STAROČECH nealko",
+        "STAROČECH ORIGINAL světlé výčepní"
+      ],
+      "allSample": [
+        "Budweiser Budvar Original/ Budvar 33",
+        "Gambrinus Original 10",
+        "Krušovice 10",
+        "Krušovice 12",
+        "Ostravar 12",
+        "Pringles Bohemia Chips Z pece",
+        "Staropramen 12",
+        "Staropramen Extra chmel",
+        "Velkopopovický Kozel 11/ Gambrinus Patron 12",
+        "Velkopopovický Kozel Nealko"
+      ]
+    },
+    {
+      "query": "branik",
+      "allChains": 1,
+      "pennyOnly": 1,
+      "pennySample": [
+        "BRANÍK světlé výčepní"
+      ],
+      "allSample": [
+        "BRANÍK světlé výčepní"
+      ]
+    },
+    {
+      "query": "Braník",
+      "allChains": 1,
+      "pennyOnly": 1,
+      "pennySample": [
+        "BRANÍK světlé výčepní"
+      ],
+      "allSample": [
+        "BRANÍK světlé výčepní"
+      ]
+    },
+    {
+      "query": "krušovice",
+      "allChains": 6,
+      "pennyOnly": 1,
+      "pennySample": [
+        "KRUŠOVICE 10 světlé výčepní"
+      ],
+      "allSample": [
+        "Krušovice 10",
+        "Krušovice 12",
+        "Krušovice 12",
+        "Krušovice Bohém",
+        "Krušovice Bohém Pivo světlý ležák",
+        "KRUŠOVICE 10 světlé výčepní"
+      ]
+    },
+    {
+      "query": "gambrinus",
+      "allChains": 4,
+      "pennyOnly": 1,
+      "pennySample": [
+        "GAMBRINUS PATRON světlý ležák plech"
+      ],
+      "allSample": [
+        "Gambrinus Original 10",
+        "Velkopopovický Kozel 11/ Gambrinus Patron 12",
+        "Velkopopovický Kozel 11/ Gambrinus Patron 12",
+        "GAMBRINUS PATRON světlý ležák plech"
+      ]
+    },
+    {
+      "query": "radegast",
+      "allChains": 2,
+      "pennyOnly": 1,
+      "pennySample": [
+        "RADEGAST RATAR hořký ležák plech"
+      ],
+      "allSample": [
+        "Radegast Ryze hořká 12 Pivo světlý ležák",
+        "RADEGAST RATAR hořký ležák plech"
+      ]
+    },
+    {
+      "query": "staropramen",
+      "allChains": 6,
+      "pennyOnly": 1,
+      "pennySample": [
+        "STAROPRAMEN 12 světlý ležák plech"
+      ],
+      "allSample": [
+        "Staropramen 12",
+        "Staropramen Extra chmel",
+        "Staropramen 10",
+        "Staropramen Nealko",
+        "Staropramen Ležák Pivo světlý ležák",
+        "STAROPRAMEN 12 světlý ležák plech"
+      ]
+    },
+    {
+      "query": "kozel",
+      "allChains": 6,
+      "pennyOnly": 2,
+      "pennySample": [
+        "VELKOPOPOVICKÝ KOZEL 10 světlé výčepní",
+        "VELKOPOPOVICKÝ KOZEL nealko plech"
+      ],
+      "allSample": [
+        "Velkopopovický Kozel 11/ Gambrinus Patron 12",
+        "Velkopopovický Kozel Nealko",
+        "Velkopopovický Kozel 11/ Gambrinus Patron 12",
+        "Velkopopovický Kozel Pivo světlé výčepní",
+        "VELKOPOPOVICKÝ KOZEL 10 světlé výčepní",
+        "VELKOPOPOVICKÝ KOZEL nealko plech"
+      ]
+    },
+    {
+      "query": "budvar",
+      "allChains": 5,
+      "pennyOnly": 2,
+      "pennySample": [
+        "BUDVAR 33",
+        "BUDWEISER BUDVAR světlý ležák"
+      ],
+      "allSample": [
+        "Budweiser Budvar Original/ Budvar 33",
+        "Budweiser Budvar Original",
+        "Budvar Pivo světlé výčepní",
+        "BUDVAR 33",
+        "BUDWEISER BUDVAR světlý ležák"
+      ]
+    },
+    {
+      "query": "káva",
+      "allChains": 31,
+      "pennyOnly": 20,
+      "pennySample": [
+        "CAPPUCCINO CASABLANCA různé druhy",
+        "COFFEE WHITENER CASABLANCA",
+        "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy",
+        "EDUSCHO ESPRESSO INTENSO zrnková",
+        "KÁVA CASABLANCA CLASSIC instantní",
+        "KÁVA CASABLANCA CREMA zrnková",
+        "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+        "KÁVA CASABLANCA INTENSO mletá",
+        "KÁVA CASABLANCA OCHUCENÁ instantní,",
+        "KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky"
+      ],
+      "allSample": [
+        "Nescafé Crema",
+        "PERLA ESPRESSO* V CELKO",
+        "PERLA INTENZA",
+        "Calippo impuls Káva",
+        "Káva Tassimo Kapsle",
+        "Tchibo Gold Selection",
+        "Eilles Zrnková káva Espresso",
+        "Marila Mletá káva",
+        "Nescafé Gold Káva Instantní",
+        "Nescafé Instantní káva"
+      ]
+    },
+    {
+      "query": "casablanca",
+      "allChains": 9,
+      "pennyOnly": 9,
+      "pennySample": [
+        "á 129,90 COFFEE WHITENER CASABLANCA",
+        "CAPPUCCINO CASABLANCA různé druhy",
+        "COFFEE WHITENER CASABLANCA",
+        "KÁVA CASABLANCA CLASSIC instantní",
+        "KÁVA CASABLANCA CREMA zrnková",
+        "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+        "KÁVA CASABLANCA INTENSO mletá",
+        "KÁVA CASABLANCA OCHUCENÁ instantní,",
+        "KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky"
+      ],
+      "allSample": [
+        "á 129,90 COFFEE WHITENER CASABLANCA",
+        "CAPPUCCINO CASABLANCA různé druhy",
+        "COFFEE WHITENER CASABLANCA",
+        "KÁVA CASABLANCA CLASSIC instantní",
+        "KÁVA CASABLANCA CREMA zrnková",
+        "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+        "KÁVA CASABLANCA INTENSO mletá",
+        "KÁVA CASABLANCA OCHUCENÁ instantní,",
+        "KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky"
+      ]
+    },
+    {
+      "query": "dolce gusto",
+      "allChains": 1,
+      "pennyOnly": 1,
+      "pennySample": [
+        "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy"
+      ],
+      "allSample": [
+        "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy"
+      ]
+    },
+    {
+      "query": "nescafe",
+      "allChains": 5,
+      "pennyOnly": 2,
+      "pennySample": [
+        "KÁVA NESCAFÉ GOLD instantní",
+        "NESCAFÉ 3V1, 2V1 různé druhy"
+      ],
+      "allSample": [
+        "Nescafé Crema",
+        "Nescafé Gold Káva Instantní",
+        "Nescafé Instantní káva",
+        "KÁVA NESCAFÉ GOLD instantní",
+        "NESCAFÉ 3V1, 2V1 různé druhy"
+      ]
+    },
+    {
+      "query": "jacobs",
+      "allChains": 5,
+      "pennyOnly": 5,
+      "pennySample": [
+        "JACOBS INTENSE",
+        "JACOBS ORIGINS* Brazílie, Kenya mletá",
+        "KÁVA JACOBS VELVET CREMA mletá",
+        "KÁVA JACOBS VELVET REFILL XXL instantní",
+        "KÁVA JACOBS VELVET REFILL XXL* instantní"
+      ],
+      "allSample": [
+        "JACOBS INTENSE",
+        "JACOBS ORIGINS* Brazílie, Kenya mletá",
+        "KÁVA JACOBS VELVET CREMA mletá",
+        "KÁVA JACOBS VELVET REFILL XXL instantní",
+        "KÁVA JACOBS VELVET REFILL XXL* instantní"
+      ]
+    },
+    {
+      "query": "lavazza",
+      "allChains": 2,
+      "pennyOnly": 2,
+      "pennySample": [
+        "LAVAZZA CAFFÉ CREMA zrnková",
+        "LAVAZZA CAFFÉ CREMA* zrnková"
+      ],
+      "allSample": [
+        "LAVAZZA CAFFÉ CREMA zrnková",
+        "LAVAZZA CAFFÉ CREMA* zrnková"
+      ]
+    },
+    {
+      "query": "marila",
+      "allChains": 3,
+      "pennyOnly": 1,
+      "pennySample": [
+        "KÁVA MARILA STANDARD mletá"
+      ],
+      "allSample": [
+        "Marila Dětské piškoty",
+        "Marila Mletá káva",
+        "KÁVA MARILA STANDARD mletá"
+      ]
+    }
+  ],
+  "possibleNoiseCount": 8,
+  "possibleNoiseSample": [
+    {
+      "chain": "Albert",
+      "product": "+1 Hami Mléčná kaše",
+      "priceText": "69,90 Kč",
+      "pageNumber": 38
+    },
+    {
+      "chain": "Penny",
+      "product": "29,90 **59,90/ 50% SUŠENKY MINIS*",
+      "priceText": 29.9,
+      "pageNumber": 13
+    },
+    {
+      "chain": "Penny",
+      "product": "64,90 79,90/ 18% 34,90 49,90/ 30% nabídka Jedinečná 119,90 SPRCHOVÝ GEL PALMOLIVE",
+      "priceText": 64.9,
+      "pageNumber": 25
+    },
+    {
+      "chain": "Penny",
+      "product": "79,90 JAR EXTRA + CITRUS",
+      "priceText": 79.9,
+      "pageNumber": 24
+    },
+    {
+      "chain": "Penny",
+      "product": "79,90 nabídka Jedinečná 79,90 OSVĚŽOVAČ VZDUCHU ALOHA AMBI PUR",
+      "priceText": 79.9,
+      "pageNumber": 34
+    },
+    {
+      "chain": "Penny",
+      "product": "á 129,90 COFFEE WHITENER CASABLANCA",
+      "priceText": 19.9,
+      "pageNumber": 23
+    },
+    {
+      "chain": "Penny",
+      "product": "á 199,90 TABLETY DO MYČKY FINISH ALL IN",
+      "priceText": 159.9,
+      "pageNumber": 35
+    },
+    {
+      "chain": "Penny",
+      "product": "á 79,90 DEOSPREJ FA",
+      "priceText": 49.9,
+      "pageNumber": 33
+    }
+  ]
+}

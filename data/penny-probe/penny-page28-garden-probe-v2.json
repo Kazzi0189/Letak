@@ -1,0 +1,855 @@
+{
+  "meta": {
+    "source": "Penny page 28 targeted garden parser v2 price order match",
+    "updatedAt": "2026-05-18T10:36:56.514Z",
+    "count": 23,
+    "note": "Kontrolní výstup pro zahradní stranu 28. Není určený k přímému importu do aplikace."
+  },
+  "offers": [
+    {
+      "id": "penny-page28-v2-22cd741dc6e9b83c",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "KAPALNÉ HNOJIVO železo či vápník 1 balení",
+      "brand": "",
+      "description": "zahrada · hnojivo · kapalné hnojivo",
+      "packageSize": "",
+      "price": 49.9,
+      "priceText": "49,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "hnojivo",
+        "kapalné hnojivo"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "KAPALNÉ HNOJIVO* železo či vápník 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-cd86a7139c7fbe0f",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "SUBSTRÁT na pelargonie či plodovou zeleninu 1 balení",
+      "brand": "",
+      "description": "zahrada · substrát",
+      "packageSize": "",
+      "price": 119.9,
+      "priceText": "119,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "substrát"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "SUBSTRÁT* na pelargonie či plodovou zeleninu 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-060db795c025f216",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "HOŠTICKÝ KOMPOST 1 balení",
+      "brand": "",
+      "description": "zahrada · kompost",
+      "packageSize": "",
+      "price": 59.9,
+      "priceText": "59,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "kompost"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "HOŠTICKÝ KOMPOST* 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-662f4db0c99f7542",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "TRUHLÍK plastový, 27 cm, různé barvy",
+      "brand": "",
+      "description": "zahrada · truhlík",
+      "packageSize": "1 ks",
+      "price": 59.9,
+      "priceText": "59,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "truhlík"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "TRUHLÍK* plastový, 27 cm, různé barvy 1 ks",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-43fd0318274ed6ba",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "OPLOCENÍ ZÁHONKU plastové - PP, po sestavení 45 x 45 x 18,5 cm, černá barva 1 balení",
+      "brand": "",
+      "description": "zahrada · oplocení · záhonek",
+      "packageSize": "18,5 cm",
+      "price": 149.9,
+      "priceText": "149,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "oplocení",
+        "záhonek"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "OPLOCENÍ ZÁHONKU* plastové - PP, po sestavení 45 x 45 x 18,5 cm, černá barva 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-02a120a274dd5192",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "OBAL NA KVĚTNÍK plastový, ø 15 x 12 cm, různé barvy",
+      "brand": "",
+      "description": "zahrada · obal na květník · květináč",
+      "packageSize": "1 ks",
+      "price": 59.9,
+      "priceText": "59,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "obal na květník",
+        "květináč"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "OBAL NA KVĚTNÍK* plastový, ø 15 x 12 cm, různé barvy 1 ks",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-a68241b3b71f5cde",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "HNOJIVO KRISTALON na podporu květů a plodů / rajčata a papriky / muškáty 1 balení",
+      "brand": "",
+      "description": "zahrada · hnojivo · Kristalon",
+      "packageSize": "",
+      "price": 99.9,
+      "priceText": "99,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "hnojivo",
+        "Kristalon"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "HNOJIVO KRISTALON* na podporu květů a plodů / rajčata a papriky / muškáty 1 balení | < 99,90 Kč",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-c214972826873e47",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "VÁZACÍ PÁSKA plastová, délka 34,5 cm 1 balení",
+      "brand": "",
+      "description": "zahrada · vázací páska",
+      "packageSize": "34,5 cm",
+      "price": 29.9,
+      "priceText": "29,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "vázací páska"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "VÁZACÍ PÁSKA* plastová, délka 34,5 cm 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-8f67d80a356823df",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "VÁZACÍ DRÁTEK 2x 20 m, kovový potažený PVC, včetně řezače 1 balení",
+      "brand": "",
+      "description": "zahrada · vázací drátek",
+      "packageSize": "20 m",
+      "price": 34.9,
+      "priceText": "34,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "vázací drátek"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "VÁZACÍ DRÁTEK* 2x 20 m, kovový potažený PVC, včetně řezače 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-fedd228adf06067a",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "ZAHRADNICKÉ NŮŽKY pákové, max. ø řezu 2–30 cm / plotové, max. pr. řezu 0,8–1 cm",
+      "brand": "",
+      "description": "zahrada · zahradnické nůžky · nůžky",
+      "packageSize": "1 ks",
+      "price": 179.9,
+      "priceText": "179,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "zahradnické nůžky",
+        "nůžky"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "ZAHRADNICKÉ NŮŽKY* pákové, max. ø řezu 2–30 cm / plotové, max. pr. řezu 0,8–1 cm 1 ks",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-313b02bdc18cb1c5",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "STRUNA DO SEKAČKY hvězda/kulatá, ø 2,4 mm 1 balení",
+      "brand": "",
+      "description": "zahrada · struna do sekačky · sekačka",
+      "packageSize": "2,4 mm",
+      "price": 49.9,
+      "priceText": "49,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "struna do sekačky",
+        "sekačka"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "STRUNA DO SEKAČKY* hvězda/kulatá, ø 2,4 mm 1 balení | < 34,90 Kč",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-5c027d39eb202620",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "OPĚRA kovová, stříbrná",
+      "brand": "",
+      "description": "zahrada · opěra",
+      "packageSize": "1 ks",
+      "price": 24.9,
+      "priceText": "24,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "opěra"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "OPĚRA* kovová, stříbrná 1 ks < 49,90 Kč",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-d1111b85ac512811",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "ZAVLAŽOVACÍ KONCOVKA různé typy 1 balení",
+      "brand": "",
+      "description": "zahrada · zavlažování · koncovka",
+      "packageSize": "",
+      "price": 99.9,
+      "priceText": "99,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "zavlažování",
+        "koncovka"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "ZAVLAŽOVACÍ KONCOVKA* různé typy 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-fa099c5b05ff354d",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "POSTŘIKOVAČ kruhový, s podstavcem, 8polohový, různá provedení",
+      "brand": "",
+      "description": "zahrada · postřikovač",
+      "packageSize": "1 ks",
+      "price": 129.9,
+      "priceText": "129,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "postřikovač"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "POSTŘIKOVAČ* kruhový, s podstavcem, 8polohový, různá provedení 1 ks",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-1051529f7206130c",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "TABLETOVÉ HNOJIVO na plodovou zeleninu 1 balení",
+      "brand": "",
+      "description": "zahrada · hnojivo",
+      "packageSize": "",
+      "price": 149.9,
+      "priceText": "149,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "hnojivo"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "TABLETOVÉ HNOJIVO* na plodovou zeleninu 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-eeb8153e934dab18",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "PENETRAČNÍ NÁTĚR odstíny palisander, mahagon, ořech či oregonská pinie 1 balení",
+      "brand": "",
+      "description": "zahrada · penetrační nátěr · nátěr",
+      "packageSize": "",
+      "price": 449.9,
+      "priceText": "449,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "penetrační nátěr",
+        "nátěr"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "PENETRAČNÍ NÁTĚR* odstíny palisander, mahagon, ořech či oregonská pinie 1 balení < 449,90 Kč",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-a7628604b3a1850c",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "SADA ŠTĚTCŮ lakovací/ lazurovací 1 balení",
+      "brand": "",
+      "description": "zahrada · štětce · sada štětců",
+      "packageSize": "",
+      "price": 69.9,
+      "priceText": "69,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "štětce",
+        "sada štětců"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "SADA ŠTĚTCŮ* lakovací/ lazurovací 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-6e833f542b0c5611",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "FUNGICID STOP proti plísním či chorobám na rajčatech/ okurkách",
+      "brand": "",
+      "description": "zahrada · fungicid · postřik",
+      "packageSize": "1 ks",
+      "price": 99.9,
+      "priceText": "99,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "fungicid",
+        "postřik"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "FUNGICID STOP* proti plísním či chorobám na rajčatech/ okurkách 1 ks",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-c9f68d6f7260e6db",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "INSEKTICID SUBSTRAL NATUREN hubí mšice, moly, svilušky a červce",
+      "brand": "",
+      "description": "zahrada · insekticid · Substral",
+      "packageSize": "1 ks",
+      "price": 229.9,
+      "priceText": "229,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "insekticid",
+        "Substral"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "INSEKTICID SUBSTRAL NATUREN* hubí mšice, moly, svilušky a červce 1 ks",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-109010fdf46031bf",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "BIOSEPTIK v nabídce i urychlovač kompostu",
+      "brand": "",
+      "description": "zahrada · bioseptik · urychlovač kompostu",
+      "packageSize": "100 g",
+      "price": 79.9,
+      "priceText": "79,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "bioseptik",
+        "urychlovač kompostu"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "BIOSEPTIK* v nabídce i urychlovač kompostu 100 g za 79,90 Kč 1 balení",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-857f4dcd7bea7c03",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "MOLUSKOCID SLIMASTOP granulovaný, přípravek na přírodní bázi",
+      "brand": "",
+      "description": "zahrada · moluskocid · slimastop",
+      "packageSize": "1 ks",
+      "price": 249.9,
+      "priceText": "249,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "moluskocid",
+        "slimastop"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "MOLUSKOCID SLIMASTOP* granulovaný, přípravek na přírodní bázi 1 ks",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-7958603de833c713",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "PŘÍPRAVEK BROS na mouchy/komáry či lezoucí/létající hmyz",
+      "brand": "",
+      "description": "zahrada · Bros · přípravek na hmyz",
+      "packageSize": "1 ks",
+      "price": 99.9,
+      "priceText": "99,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "Bros",
+        "přípravek na hmyz"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "PŘÍPRAVEK BROS* na mouchy/komáry či lezoucí/létající hmyz 1 ks",
+      "candidateClassification": {
+        "bucket": "safe-candidate",
+        "reasons": []
+      }
+    },
+    {
+      "id": "penny-page28-v2-e8bcbcfbd0dff75a",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "PAST NA SLIMÁKY plastová, 12 x 12 x 10 cm 1 balení",
+      "brand": "",
+      "description": "zahrada · past · slimáci",
+      "packageSize": "0,5 l",
+      "price": 49.9,
+      "priceText": "49,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 28,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/28/index.html",
+      "category": "zahrada",
+      "searchTerms": [
+        "zahrada",
+        "past",
+        "slimáci"
+      ],
+      "compareKey": "zahrada",
+      "confidence": "targeted-page28-garden-parser-v2-price-order-match",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate ze spárování pořadí cen a produktů stránky 28 – ověřit proti letáku"
+      ],
+      "rawContext": "PAST NA SLIMÁKY* plastová, 12 x 12 x 10 cm 1 balení 0,5 l 40 l 20 l 4 dílné 500 g 60 cm 52 cm 8 ks 15 m 100 ks 180 cm 3 l 8 ks 0,5 l 750 ml 100 g 685 g 400 ml 2 ks Používejte biocidy bezpečným způsobem. Před použitím si vždy přečtěte označení a informace o přípravku. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Používejte přípravky na ochranu rostlin bezpečně. Před použitím si vždy přečtěte označení a informace o přípravku. Respektujte varovné věty a symboly uvedené v označení. Nabídka platná od středy 13. 5. do úterý 19. 5. 2026",
+      "candidateClassification": {
+        "bucket": "review",
+        "reasons": [
+          "obsahuje bezpečnostní nebo patičkový text"
+        ]
+      }
+    }
+  ]
+}

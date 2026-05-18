@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://www.penny.cz/nabidky",
-    "updatedAt": "2026-05-17T07:45:10.389Z",
+    "updatedAt": "2026-05-18T08:53:37.964Z",
     "totalLines": 314,
     "parser": "scripts/import-penny.mjs"
   },

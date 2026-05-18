@@ -1,0 +1,1388 @@
+{
+  "checkedAt": "2026-05-18T11:11:47.769Z",
+  "type": "JEN KONTROLNÍ REPORT – DO APLIKACE NENAHRÁVAT",
+  "summary": {
+    "offersPath": "data/offers.json",
+    "totalOffers": 1212,
+    "pennyOffers": 403,
+    "noisyPennyOffers": 22,
+    "highRiskNoisyOffers": 4,
+    "removeOrReplaceCandidates": 4,
+    "fixFieldCandidates": 12,
+    "exactDuplicateGroups": 1,
+    "nearDuplicateGroups": 3,
+    "recommendedPath": "inspect-remove-candidates-then-build-cleanup-patch"
+  },
+  "removeOrReplaceCandidates": [
+    {
+      "id": "penny-leaflet-0f9387b7c98a42e6",
+      "product": "á 129,90 COFFEE WHITENER CASABLANCA",
+      "price": 19.9,
+      "priceText": "",
+      "packageSize": "200 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "á 129,90 COFFEE WHITENER CASABLANCA 200 g Penny – leták",
+      "compareKey": "a 129 90 coffee whitener casablanca 200 g",
+      "findings": [
+        {
+          "id": "starts-with-price-fragment",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla starts-with-price-fragment."
+        },
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    },
+    {
+      "id": "penny-leaflet-c2ff54e70c6e5b4b",
+      "product": "á 199,90 TABLETY DO MYČKY FINISH ALL IN",
+      "price": 159.9,
+      "priceText": "",
+      "packageSize": "1 48 ks",
+      "category": "",
+      "pageNumber": 35,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "á 199,90 TABLETY DO MYČKY FINISH ALL IN 1 48 ks Penny – leták",
+      "compareKey": "a 199 90 tablety do mycky finish all in 1 48 ks",
+      "findings": [
+        {
+          "id": "starts-with-price-fragment",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla starts-with-price-fragment."
+        },
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    },
+    {
+      "id": "penny-leaflet-9c3b03ab74fd2e1a",
+      "product": "á 79,90 DEOSPREJ FA",
+      "price": 49.9,
+      "priceText": "",
+      "packageSize": "150 ml",
+      "category": "",
+      "pageNumber": 33,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "á 79,90 DEOSPREJ FA 150 ml Penny – leták",
+      "compareKey": "a 79 90 deosprej fa 150 ml",
+      "findings": [
+        {
+          "id": "starts-with-price-fragment",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla starts-with-price-fragment."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    },
+    {
+      "id": "penny-leaflet-51a2d55851dbf1a7",
+      "product": "záloha na lahev 3 Kč PROSECCO bílé perlivé",
+      "price": 69.9,
+      "priceText": "",
+      "packageSize": "0,75 l",
+      "category": "",
+      "pageNumber": 20,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "záloha na lahev 3 Kč PROSECCO bílé perlivé 0,75 l Penny – leták",
+      "compareKey": "zaloha na lahev 3 kc prosecco bile perlive 0 75 l",
+      "findings": [
+        {
+          "id": "deposit-in-product-name",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla deposit-in-product-name."
+        },
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    }
+  ],
+  "fixFieldCandidates": [
+    {
+      "id": "penny-leaflet-01e476712aba75d2",
+      "product": "JACOBS INTENSE",
+      "price": 189.9,
+      "priceText": "",
+      "packageSize": "200 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "JACOBS INTENSE 200 g Penny – leták",
+      "compareKey": "jacobs intense 200 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-dbe60607c2cf6020",
+      "product": "JACOBS ORIGINS* Brazílie, Kenya mletá",
+      "price": 129.9,
+      "priceText": "",
+      "packageSize": "200 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "JACOBS ORIGINS* Brazílie, Kenya mletá 200 g Penny – leták",
+      "compareKey": "jacobs origins brazilie kenya mleta 200 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-ba0acdf54b402a3b",
+      "product": "KÁVA CASABLANCA CLASSIC instantní",
+      "price": 99.9,
+      "priceText": "",
+      "packageSize": "200 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA CASABLANCA CLASSIC instantní 200 g Penny – leták",
+      "compareKey": "kava casablanca classic instantni 200 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-d166c1d61aac8a3a",
+      "product": "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+      "price": 139.9,
+      "priceText": "",
+      "packageSize": "500 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA CASABLANCA ESPRESSO MILD zrnková 500 g Penny – leták",
+      "compareKey": "kava casablanca espresso mild zrnkova 500 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-aeb313f2157d27ba",
+      "product": "KÁVA CASABLANCA INTENSO mletá",
+      "price": 59.9,
+      "priceText": "",
+      "packageSize": "250 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA CASABLANCA INTENSO mletá 250 g Penny – leták",
+      "compareKey": "kava casablanca intenso mleta 250 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-c4e6bcecc2267e48",
+      "product": "KÁVA CASABLANCA OCHUCENÁ instantní,",
+      "price": 59.9,
+      "priceText": "",
+      "packageSize": "80 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA CASABLANCA OCHUCENÁ instantní, 80 g Penny – leták",
+      "compareKey": "kava casablanca ochucena instantni 80 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-b91d90d78d0787b7",
+      "product": "KÁVA JACOBS VELVET CREMA mletá",
+      "price": 99.9,
+      "priceText": "",
+      "packageSize": "250 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA JACOBS VELVET CREMA mletá 250 g Penny – leták",
+      "compareKey": "kava jacobs velvet crema mleta 250 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-5a957de3f80d58b0",
+      "product": "KÁVA JACOBS VELVET REFILL XXL* instantní",
+      "price": 199.9,
+      "priceText": "",
+      "packageSize": "300 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA JACOBS VELVET REFILL XXL* instantní 300 g Penny – leták",
+      "compareKey": "kava jacobs velvet refill xxl instantni 300 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-6cf0cb3ed32a952b",
+      "product": "LAVAZZA CAFFÉ CREMA* zrnková",
+      "price": 329.9,
+      "priceText": "",
+      "packageSize": "1,1 kg",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "LAVAZZA CAFFÉ CREMA* zrnková 1,1 kg Penny – leták",
+      "compareKey": "lavazza caffe crema zrnkova 1 1 kg",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-bc6ef5f7f8fd6b7f",
+      "product": "PRÁŠEK 4V1 CALGON",
+      "price": 89.9,
+      "priceText": "",
+      "packageSize": "500 g",
+      "category": "",
+      "pageNumber": 35,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "PRÁŠEK 4V1 CALGON 500 g Penny – leták",
+      "compareKey": "prasek 4v1 calgon 500 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-0ce8e22aa5929b95",
+      "product": "SVIJANSKÝ MÁZ",
+      "price": 11.9,
+      "priceText": "",
+      "packageSize": "0,5 l",
+      "category": "",
+      "pageNumber": 20,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "SVIJANSKÝ MÁZ 0,5 l Penny – leták",
+      "compareKey": "svijansky maz 0 5 l",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-777d60b9e34ddc8b",
+      "product": "GEL NA PRANÍ WOOLITE* colors",
+      "price": 199.9,
+      "priceText": "",
+      "packageSize": "3,6 l",
+      "category": "drogerie",
+      "pageNumber": 35,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "medium",
+      "source": "manual-woolite-from-penny-leaflet",
+      "description": "drogerie · prací gel · gel na praní",
+      "searchTerms": "drogerie prací gel gel na praní praní Woolite colors",
+      "compareKey": "woolite colors gel na prani",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    }
+  ],
+  "highRiskNoisyOffers": [
+    {
+      "id": "penny-leaflet-0f9387b7c98a42e6",
+      "product": "á 129,90 COFFEE WHITENER CASABLANCA",
+      "price": 19.9,
+      "priceText": "",
+      "packageSize": "200 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "á 129,90 COFFEE WHITENER CASABLANCA 200 g Penny – leták",
+      "compareKey": "a 129 90 coffee whitener casablanca 200 g",
+      "findings": [
+        {
+          "id": "starts-with-price-fragment",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla starts-with-price-fragment."
+        },
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    },
+    {
+      "id": "penny-leaflet-c2ff54e70c6e5b4b",
+      "product": "á 199,90 TABLETY DO MYČKY FINISH ALL IN",
+      "price": 159.9,
+      "priceText": "",
+      "packageSize": "1 48 ks",
+      "category": "",
+      "pageNumber": 35,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "á 199,90 TABLETY DO MYČKY FINISH ALL IN 1 48 ks Penny – leták",
+      "compareKey": "a 199 90 tablety do mycky finish all in 1 48 ks",
+      "findings": [
+        {
+          "id": "starts-with-price-fragment",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla starts-with-price-fragment."
+        },
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    },
+    {
+      "id": "penny-leaflet-9c3b03ab74fd2e1a",
+      "product": "á 79,90 DEOSPREJ FA",
+      "price": 49.9,
+      "priceText": "",
+      "packageSize": "150 ml",
+      "category": "",
+      "pageNumber": 33,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "á 79,90 DEOSPREJ FA 150 ml Penny – leták",
+      "compareKey": "a 79 90 deosprej fa 150 ml",
+      "findings": [
+        {
+          "id": "starts-with-price-fragment",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla starts-with-price-fragment."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    },
+    {
+      "id": "penny-leaflet-51a2d55851dbf1a7",
+      "product": "záloha na lahev 3 Kč PROSECCO bílé perlivé",
+      "price": 69.9,
+      "priceText": "",
+      "packageSize": "0,75 l",
+      "category": "",
+      "pageNumber": 20,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "záloha na lahev 3 Kč PROSECCO bílé perlivé 0,75 l Penny – leták",
+      "compareKey": "zaloha na lahev 3 kc prosecco bile perlive 0 75 l",
+      "findings": [
+        {
+          "id": "deposit-in-product-name",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla deposit-in-product-name."
+        },
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    }
+  ],
+  "noisyPennyOffers": [
+    {
+      "id": "penny-leaflet-d1babc89933f5929",
+      "product": "(běžně za 1,75 Kč) < 26,90 Kč PRACÍ PRÁŠEK, GEL REX 2,5 kg,",
+      "price": 34.9,
+      "priceText": "",
+      "packageSize": "2,475 l",
+      "category": "",
+      "pageNumber": 24,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "(běžně za 1,75 Kč) < 26,90 Kč PRACÍ PRÁŠEK, GEL REX 2,5 kg, 2,475 l Penny – leták",
+      "compareKey": "bezne za 1 75 kc 26 90 kc praci prasek gel rex 2 5 kg 2 475 l",
+      "findings": [
+        {
+          "id": "product-contains-price-marker",
+          "severity": "medium",
+          "message": "Podezřelý název produktu podle pravidla product-contains-price-marker."
+        }
+      ],
+      "recommendation": "manual-review"
+    },
+    {
+      "id": "penny-leaflet-215c68d69a36f47d",
+      "product": "(běžně za 14,25 Kč) < 26,90 Kč OVOCNÉ ŽELÉ ENJOY",
+      "price": 19.9,
+      "priceText": "",
+      "packageSize": "35 g",
+      "category": "",
+      "pageNumber": 16,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "(běžně za 14,25 Kč) < 26,90 Kč OVOCNÉ ŽELÉ ENJOY 35 g Penny – leták",
+      "compareKey": "bezne za 14 25 kc 26 90 kc ovocne zele enjoy 35 g",
+      "findings": [
+        {
+          "id": "product-contains-price-marker",
+          "severity": "medium",
+          "message": "Podezřelý název produktu podle pravidla product-contains-price-marker."
+        }
+      ],
+      "recommendation": "manual-review"
+    },
+    {
+      "id": "penny-leaflet-a7e195bd9c574041",
+      "product": "(běžně za 41,63 Kč) < 89,90 Kč UBROUSKY PROTI OBARVENÍ PRÁDLA PALLOR",
+      "price": 26.9,
+      "priceText": "",
+      "packageSize": "24 ks",
+      "category": "",
+      "pageNumber": 24,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "(běžně za 41,63 Kč) < 89,90 Kč UBROUSKY PROTI OBARVENÍ PRÁDLA PALLOR 24 ks Penny – leták",
+      "compareKey": "bezne za 41 63 kc 89 90 kc ubrousky proti obarveni pradla pallor 24 ks",
+      "findings": [
+        {
+          "id": "product-contains-price-marker",
+          "severity": "medium",
+          "message": "Podezřelý název produktu podle pravidla product-contains-price-marker."
+        }
+      ],
+      "recommendation": "manual-review"
+    },
+    {
+      "id": "penny-leaflet-589c00aad33a6773",
+      "product": "64,90 79,90/ 18% 34,90 49,90/ 30% nabídka Jedinečná 119,90 SPRCHOVÝ GEL PALMOLIVE",
+      "price": 64.9,
+      "priceText": "",
+      "packageSize": "500 ml",
+      "category": "",
+      "pageNumber": 25,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "64,90 79,90/ 18% 34,90 49,90/ 30% nabídka Jedinečná 119,90 SPRCHOVÝ GEL PALMOLIVE 500 ml Penny – leták",
+      "compareKey": "64 90 79 90 18 34 90 49 90 30 nabidka jedinecna 119 90 sprchovy gel palmolive 500 ml",
+      "findings": [
+        {
+          "id": "product-contains-price-marker",
+          "severity": "medium",
+          "message": "Podezřelý název produktu podle pravidla product-contains-price-marker."
+        }
+      ],
+      "recommendation": "manual-review"
+    },
+    {
+      "id": "penny-leaflet-a3f0f4b787680b60",
+      "product": "79,90 nabídka Jedinečná 79,90 OSVĚŽOVAČ VZDUCHU ALOHA AMBI PUR",
+      "price": 79.9,
+      "priceText": "",
+      "packageSize": "185 ml",
+      "category": "",
+      "pageNumber": 34,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "medium",
+      "source": "",
+      "description": "",
+      "searchTerms": "79,90 nabídka Jedinečná OSVĚŽOVAČ VZDUCHU ALOHA AMBI PUR 185 ml Penny – leták",
+      "compareKey": "79 90 nabidka jedinecna 79 90 osvezovac vzduchu aloha ambi pur 185 ml",
+      "findings": [
+        {
+          "id": "product-contains-price-marker",
+          "severity": "medium",
+          "message": "Podezřelý název produktu podle pravidla product-contains-price-marker."
+        }
+      ],
+      "recommendation": "manual-review"
+    },
+    {
+      "id": "penny-leaflet-0f9387b7c98a42e6",
+      "product": "á 129,90 COFFEE WHITENER CASABLANCA",
+      "price": 19.9,
+      "priceText": "",
+      "packageSize": "200 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "á 129,90 COFFEE WHITENER CASABLANCA 200 g Penny – leták",
+      "compareKey": "a 129 90 coffee whitener casablanca 200 g",
+      "findings": [
+        {
+          "id": "starts-with-price-fragment",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla starts-with-price-fragment."
+        },
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    },
+    {
+      "id": "penny-leaflet-c2ff54e70c6e5b4b",
+      "product": "á 199,90 TABLETY DO MYČKY FINISH ALL IN",
+      "price": 159.9,
+      "priceText": "",
+      "packageSize": "1 48 ks",
+      "category": "",
+      "pageNumber": 35,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "á 199,90 TABLETY DO MYČKY FINISH ALL IN 1 48 ks Penny – leták",
+      "compareKey": "a 199 90 tablety do mycky finish all in 1 48 ks",
+      "findings": [
+        {
+          "id": "starts-with-price-fragment",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla starts-with-price-fragment."
+        },
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    },
+    {
+      "id": "penny-leaflet-9c3b03ab74fd2e1a",
+      "product": "á 79,90 DEOSPREJ FA",
+      "price": 49.9,
+      "priceText": "",
+      "packageSize": "150 ml",
+      "category": "",
+      "pageNumber": 33,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "á 79,90 DEOSPREJ FA 150 ml Penny – leták",
+      "compareKey": "a 79 90 deosprej fa 150 ml",
+      "findings": [
+        {
+          "id": "starts-with-price-fragment",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla starts-with-price-fragment."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    },
+    {
+      "id": "penny-leaflet-01e476712aba75d2",
+      "product": "JACOBS INTENSE",
+      "price": 189.9,
+      "priceText": "",
+      "packageSize": "200 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "JACOBS INTENSE 200 g Penny – leták",
+      "compareKey": "jacobs intense 200 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-dbe60607c2cf6020",
+      "product": "JACOBS ORIGINS* Brazílie, Kenya mletá",
+      "price": 129.9,
+      "priceText": "",
+      "packageSize": "200 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "JACOBS ORIGINS* Brazílie, Kenya mletá 200 g Penny – leták",
+      "compareKey": "jacobs origins brazilie kenya mleta 200 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-ba0acdf54b402a3b",
+      "product": "KÁVA CASABLANCA CLASSIC instantní",
+      "price": 99.9,
+      "priceText": "",
+      "packageSize": "200 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA CASABLANCA CLASSIC instantní 200 g Penny – leták",
+      "compareKey": "kava casablanca classic instantni 200 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-d166c1d61aac8a3a",
+      "product": "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+      "price": 139.9,
+      "priceText": "",
+      "packageSize": "500 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA CASABLANCA ESPRESSO MILD zrnková 500 g Penny – leták",
+      "compareKey": "kava casablanca espresso mild zrnkova 500 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-aeb313f2157d27ba",
+      "product": "KÁVA CASABLANCA INTENSO mletá",
+      "price": 59.9,
+      "priceText": "",
+      "packageSize": "250 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA CASABLANCA INTENSO mletá 250 g Penny – leták",
+      "compareKey": "kava casablanca intenso mleta 250 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-c4e6bcecc2267e48",
+      "product": "KÁVA CASABLANCA OCHUCENÁ instantní,",
+      "price": 59.9,
+      "priceText": "",
+      "packageSize": "80 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA CASABLANCA OCHUCENÁ instantní, 80 g Penny – leták",
+      "compareKey": "kava casablanca ochucena instantni 80 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-b91d90d78d0787b7",
+      "product": "KÁVA JACOBS VELVET CREMA mletá",
+      "price": 99.9,
+      "priceText": "",
+      "packageSize": "250 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA JACOBS VELVET CREMA mletá 250 g Penny – leták",
+      "compareKey": "kava jacobs velvet crema mleta 250 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-5a957de3f80d58b0",
+      "product": "KÁVA JACOBS VELVET REFILL XXL* instantní",
+      "price": 199.9,
+      "priceText": "",
+      "packageSize": "300 g",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "KÁVA JACOBS VELVET REFILL XXL* instantní 300 g Penny – leták",
+      "compareKey": "kava jacobs velvet refill xxl instantni 300 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-6cf0cb3ed32a952b",
+      "product": "LAVAZZA CAFFÉ CREMA* zrnková",
+      "price": 329.9,
+      "priceText": "",
+      "packageSize": "1,1 kg",
+      "category": "",
+      "pageNumber": 23,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "LAVAZZA CAFFÉ CREMA* zrnková 1,1 kg Penny – leták",
+      "compareKey": "lavazza caffe crema zrnkova 1 1 kg",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-bc6ef5f7f8fd6b7f",
+      "product": "PRÁŠEK 4V1 CALGON",
+      "price": 89.9,
+      "priceText": "",
+      "packageSize": "500 g",
+      "category": "",
+      "pageNumber": 35,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "PRÁŠEK 4V1 CALGON 500 g Penny – leták",
+      "compareKey": "prasek 4v1 calgon 500 g",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-0ce8e22aa5929b95",
+      "product": "SVIJANSKÝ MÁZ",
+      "price": 11.9,
+      "priceText": "",
+      "packageSize": "0,5 l",
+      "category": "",
+      "pageNumber": 20,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "SVIJANSKÝ MÁZ 0,5 l Penny – leták",
+      "compareKey": "svijansky maz 0 5 l",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    },
+    {
+      "id": "penny-leaflet-780bdd0341efac70",
+      "product": "TATARSKÁ OMÁČKA, MAJONÉZA POLIČANKA 100 ml | < 6,90 Kč JOGURT FLORIAN",
+      "price": 9.9,
+      "priceText": "",
+      "packageSize": "150 g",
+      "category": "",
+      "pageNumber": 14,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "TATARSKÁ OMÁČKA, MAJONÉZA POLIČANKA 100 ml | < 6,90 Kč JOGURT FLORIAN 150 g Penny – leták",
+      "compareKey": "tatarska omacka majoneza policanka 100 ml 6 90 kc jogurt florian 150 g",
+      "findings": [
+        {
+          "id": "product-contains-price-marker",
+          "severity": "medium",
+          "message": "Podezřelý název produktu podle pravidla product-contains-price-marker."
+        }
+      ],
+      "recommendation": "manual-review"
+    },
+    {
+      "id": "penny-leaflet-51a2d55851dbf1a7",
+      "product": "záloha na lahev 3 Kč PROSECCO bílé perlivé",
+      "price": 69.9,
+      "priceText": "",
+      "packageSize": "0,75 l",
+      "category": "",
+      "pageNumber": 20,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "high",
+      "source": "",
+      "description": "",
+      "searchTerms": "záloha na lahev 3 Kč PROSECCO bílé perlivé 0,75 l Penny – leták",
+      "compareKey": "zaloha na lahev 3 kc prosecco bile perlive 0 75 l",
+      "findings": [
+        {
+          "id": "deposit-in-product-name",
+          "severity": "high",
+          "message": "Podezřelý název produktu podle pravidla deposit-in-product-name."
+        },
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        },
+        {
+          "id": "missing-category",
+          "severity": "low",
+          "message": "Chybí category u položky na opravované stránce."
+        }
+      ],
+      "recommendation": "candidate-remove-or-replace-with-clean-existing"
+    },
+    {
+      "id": "penny-leaflet-777d60b9e34ddc8b",
+      "product": "GEL NA PRANÍ WOOLITE* colors",
+      "price": 199.9,
+      "priceText": "",
+      "packageSize": "3,6 l",
+      "category": "drogerie",
+      "pageNumber": 35,
+      "storeName": "Penny – leták",
+      "chain": "Penny",
+      "confidence": "medium",
+      "source": "manual-woolite-from-penny-leaflet",
+      "description": "drogerie · prací gel · gel na praní",
+      "searchTerms": "drogerie prací gel gel na praní praní Woolite colors",
+      "compareKey": "woolite colors gel na prani",
+      "findings": [
+        {
+          "id": "empty-price-text-with-known-imported-page",
+          "severity": "low",
+          "message": "Chybí priceText u položky, která má cenu; lze doplnit z price."
+        }
+      ],
+      "recommendation": "candidate-fix-fields"
+    }
+  ],
+  "exactDuplicateGroups": [
+    {
+      "key": "23|kava jacobs velvet refill xxl instantni|199.9",
+      "count": 2,
+      "items": [
+        {
+          "id": "penny-page23-coffee-1c3364d2b8a72ca6",
+          "product": "KÁVA JACOBS VELVET REFILL XXL instantní",
+          "price": 199.9,
+          "priceText": "199,90 Kč",
+          "packageSize": "300 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": "",
+          "description": "káva · instantní káva",
+          "searchTerms": "KÁVA JACOBS VELVET REFILL XXL instantní káva · 300 g Penny – leták",
+          "compareKey": "kava jacobs velvet refill xxl instantni 300 g"
+        },
+        {
+          "id": "penny-leaflet-5a957de3f80d58b0",
+          "product": "KÁVA JACOBS VELVET REFILL XXL* instantní",
+          "price": 199.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": "",
+          "description": "",
+          "searchTerms": "KÁVA JACOBS VELVET REFILL XXL* instantní 300 g Penny – leták",
+          "compareKey": "kava jacobs velvet refill xxl instantni 300 g"
+        }
+      ]
+    }
+  ],
+  "nearDuplicateGroups": [
+    {
+      "key": "23|kava jacobs velvet refill xxl instantni",
+      "count": 2,
+      "items": [
+        {
+          "id": "penny-page23-coffee-1c3364d2b8a72ca6",
+          "product": "KÁVA JACOBS VELVET REFILL XXL instantní",
+          "price": 199.9,
+          "priceText": "199,90 Kč",
+          "packageSize": "300 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": "",
+          "description": "káva · instantní káva",
+          "searchTerms": "KÁVA JACOBS VELVET REFILL XXL instantní káva · 300 g Penny – leták",
+          "compareKey": "kava jacobs velvet refill xxl instantni 300 g"
+        },
+        {
+          "id": "penny-leaflet-5a957de3f80d58b0",
+          "product": "KÁVA JACOBS VELVET REFILL XXL* instantní",
+          "price": 199.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": "",
+          "description": "",
+          "searchTerms": "KÁVA JACOBS VELVET REFILL XXL* instantní 300 g Penny – leták",
+          "compareKey": "kava jacobs velvet refill xxl instantni 300 g"
+        }
+      ]
+    },
+    {
+      "key": "23|lavazza caffe crema zrnkova",
+      "count": 2,
+      "items": [
+        {
+          "id": "penny-page23-coffee-0e17b4a048b3e155",
+          "product": "LAVAZZA CAFFÉ CREMA zrnková",
+          "price": 399.9,
+          "priceText": "399,90 Kč",
+          "packageSize": "1,1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": "",
+          "description": "káva · zrnková káva",
+          "searchTerms": "LAVAZZA CAFFÉ CREMA zrnková káva · 1,1 kg Penny – leták",
+          "compareKey": "lavazza caffe crema zrnkova 1 1 kg"
+        },
+        {
+          "id": "penny-leaflet-6cf0cb3ed32a952b",
+          "product": "LAVAZZA CAFFÉ CREMA* zrnková",
+          "price": 329.9,
+          "priceText": "",
+          "packageSize": "1,1 kg",
+          "category": "",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": "",
+          "description": "",
+          "searchTerms": "LAVAZZA CAFFÉ CREMA* zrnková 1,1 kg Penny – leták",
+          "compareKey": "lavazza caffe crema zrnkova 1 1 kg"
+        }
+      ]
+    },
+    {
+      "key": "20|svijansky maz",
+      "count": 2,
+      "items": [
+        {
+          "id": "penny-leaflet-0ce8e22aa5929b95",
+          "product": "SVIJANSKÝ MÁZ",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "0,5 l",
+          "category": "",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": "",
+          "description": "",
+          "searchTerms": "SVIJANSKÝ MÁZ 0,5 l Penny – leták",
+          "compareKey": "svijansky maz 0 5 l"
+        },
+        {
+          "id": "penny-v2-conservative-e14c5d1330986d39",
+          "product": "SVIJANSKÝ MÁZ světlý ležák",
+          "price": 10.9,
+          "priceText": "10,90 Kč",
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny",
+          "confidence": "high",
+          "source": "",
+          "description": "pivo · světlé pivo · ležák · výčepní pivo",
+          "searchTerms": "SVIJANSKÝ MÁZ světlý ležák pivo · světlé výčepní 0,5 l Penny – leták beer",
+          "compareKey": "svijansky maz 0 5 l"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+name: Simulate Penny beer search
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check JavaScript syntax
+        run: node --check scripts/simulate-penny-beer-search.mjs
+
+      - name: Simulate Penny beer search
+        run: node scripts/simulate-penny-beer-search.mjs
+
+      - name: Commit Penny beer search simulation
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add scripts/simulate-penny-beer-search.mjs data/penny-probe/penny-beer-search-simulation-summary.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Simulate Penny beer search"
+            git push
+          fi

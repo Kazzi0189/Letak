@@ -1,0 +1,2319 @@
+{
+  "checkedAt": "2026-05-18T12:49:07.898Z",
+  "type": "JEN KONTROLNÍ REPORT – DO APLIKACE NENAHRÁVAT",
+  "summary": {
+    "pdfPages": 37,
+    "totalOffers": 1207,
+    "pennyOffers": 398,
+    "targetCount": 4,
+    "alreadyInOffers": 0,
+    "targetedCandidatesWithPrice": 4,
+    "targetedCandidatesNeedReview": 0,
+    "targetNotFoundByV2": 0,
+    "recommendedPath": "inspect-targeted-candidates-then-build-small-safe-patch"
+  },
+  "targetInspections": [
+    {
+      "label": "Trvanlivé mléko Boni",
+      "expectedPage": 4,
+      "queryVariants": [
+        "TRVANLIVÉ MLÉKO BONI",
+        "TRVANLIVÉ MLÉKO",
+        "MLÉKO BONI"
+      ],
+      "foundPages": [
+        4
+      ],
+      "foundInExpectedPage": true,
+      "currentMatches": 0,
+      "currentSamples": [],
+      "bestVariant": "TRVANLIVÉ MLÉKO BONI",
+      "contextFound": true,
+      "context": "OVÉ | TYČINKY | KARLOVA | KORUNA | 80 g | 100 g 24,88 Kč | SÝR | PARENICA | KARLOVA | KORUNA | uzená, | neuzená | 110 g | 100 g 26,27 Kč | TVAROH | MĚKKÝ | KARLOVA | KORUNA | 250 g | 100 g 7,56 Kč | SÝR | BRYNDZA | BONI | 125 g | 100 g 20,72 Kč | TRADIČNÍ | POMAZÁNKOVÉ | BONI | neochucené | 200 g | 100 g 9,95 Kč | v nabídce také další | druhy za 21,90 Kč | JADEL BONI | různé druhy | 100 g | GOUDA 48% | BONI | plátky | 150 g | 100 g 17,27 Kč | JOGURT ŘECKÝ | KARLOVA | KORUNA | různé druhy | 140 g | 100 g 8,50 Kč | v nabídce také bílý | 140 g za 11,90 Kč | BÍLÝ JOGURT | KARLOVA | KORUNA | 500 g | 100 g 2,98 Kč | JOGURT | ACTIVE | S BIFIDO | KULTUROU | KARLOVA | KORUNA | různé druhy | 130 g | 100 g | 6,08 Kč | ilustrační foto | TRVANLIVÉ | MLÉKO BONI | polotučné, | 1,5 % tuku | 1 l | < 8,90 Kč | JOGURT BÍLÝ | 3,9% BONI | 1 kg | MLÉČNÝ | ČOKOLÁDOVÝ DEZERT | S LÍSKOVÝMI OŘÍŠKY BONI | 150 g | 100 g 9,93 Kč | DEZERT | ZE ZAKYSANÉ | SMETANY BONI | různé druhy | 150 g | 100 g 7,93 Kč | 150 g | 500 g | ks | 12 | MAX. | osoba/nákup/ | den | 1 kg | Nabídka platná od středy 13. 5. do úterý 19. 5. 2026 |",
+      "candidate": {
+        "id": "penny-pdf-target-v2-d204f23a0f848ca7",
+        "chain": "Penny",
+        "storeId": "penny-letak",
+        "storeName": "Penny – leták",
+        "product": "TRVANLIVÉ MLÉKO BONI",
+        "price": 21.9,
+        "priceText": "21,90 Kč",
+        "packageSize": "80 g",
+        "category": "mléčné a chlazené",
+        "pageNumber": 4,
+        "searchTerms": [
+          "mléčné a chlazené",
+          "mléko",
+          "trvanlivé mléko",
+          "Boni"
+        ],
+        "confidence": "targeted-pdf-context-v2-price-candidate",
+        "suspect": true,
+        "suspectReasons": [
+          "kontrolní kandidát z cíleného PDF kontextu – před importem ověřit proti letáku"
+        ],
+        "priceCandidates": [
+          {
+            "price": 24.88,
+            "priceText": "24,88 Kč",
+            "index": 48,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "OVÉ | TYČINKY | KARLOVA | KORUNA | 80 g | 100 g 24,88 Kč | SÝR | PARENICA | KARLOVA | KORUNA | uzená, | neuzená | 110 g | 100 g 26,27 Kč |"
+          },
+          {
+            "price": 26.27,
+            "priceText": "26,27 Kč",
+            "index": 128,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "g | 100 g 24,88 Kč | SÝR | PARENICA | KARLOVA | KORUNA | uzená, | neuzená | 110 g | 100 g 26,27 Kč | TVAROH | MĚKKÝ | KARLOVA | KORUNA | 250 g | 100 g 7,56 Kč | SÝR | BRYNDZA | BON"
+          },
+          {
+            "price": 7.56,
+            "priceText": "7,56 Kč",
+            "index": 189,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "á, | neuzená | 110 g | 100 g 26,27 Kč | TVAROH | MĚKKÝ | KARLOVA | KORUNA | 250 g | 100 g 7,56 Kč | SÝR | BRYNDZA | BONI | 125 g | 100 g 20,72 Kč | TRADIČNÍ | POMAZÁNKOVÉ | BONI |"
+          },
+          {
+            "price": 20.72,
+            "priceText": "20,72 Kč",
+            "index": 236,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "| MĚKKÝ | KARLOVA | KORUNA | 250 g | 100 g 7,56 Kč | SÝR | BRYNDZA | BONI | 125 g | 100 g 20,72 Kč | TRADIČNÍ | POMAZÁNKOVÉ | BONI | neochucené | 200 g | 100 g 9,95 Kč | v nabídce"
+          },
+          {
+            "price": 9.95,
+            "priceText": "9,95 Kč",
+            "index": 306,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "ONI | 125 g | 100 g 20,72 Kč | TRADIČNÍ | POMAZÁNKOVÉ | BONI | neochucené | 200 g | 100 g 9,95 Kč | v nabídce také další | druhy za 21,90 Kč | JADEL BONI | různé druhy | 100 g | GO"
+          },
+          {
+            "price": 21.9,
+            "priceText": "21,90 Kč",
+            "index": 348,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "POMAZÁNKOVÉ | BONI | neochucené | 200 g | 100 g 9,95 Kč | v nabídce také další | druhy za 21,90 Kč | JADEL BONI | různé druhy | 100 g | GOUDA 48% | BONI | plátky | 150 g | 100 g 17"
+          },
+          {
+            "price": 17.27,
+            "priceText": "17,27 Kč",
+            "index": 436,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "a 21,90 Kč | JADEL BONI | různé druhy | 100 g | GOUDA 48% | BONI | plátky | 150 g | 100 g 17,27 Kč | JOGURT ŘECKÝ | KARLOVA | KORUNA | různé druhy | 140 g | 100 g 8,50 Kč | v nabíd"
+          },
+          {
+            "price": 8.5,
+            "priceText": "8,50 Kč",
+            "index": 509,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "| 150 g | 100 g 17,27 Kč | JOGURT ŘECKÝ | KARLOVA | KORUNA | různé druhy | 140 g | 100 g 8,50 Kč | v nabídce také bílý | 140 g za 11,90 Kč | BÍLÝ JOGURT | KARLOVA | KORUNA | 500 g"
+          },
+          {
+            "price": 11.9,
+            "priceText": "11,90 Kč",
+            "index": 550,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "| KARLOVA | KORUNA | různé druhy | 140 g | 100 g 8,50 Kč | v nabídce také bílý | 140 g za 11,90 Kč | BÍLÝ JOGURT | KARLOVA | KORUNA | 500 g | 100 g 2,98 Kč | JOGURT | ACTIVE | S BI"
+          },
+          {
+            "price": 2.98,
+            "priceText": "2,98 Kč",
+            "index": 608,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "v nabídce také bílý | 140 g za 11,90 Kč | BÍLÝ JOGURT | KARLOVA | KORUNA | 500 g | 100 g 2,98 Kč | JOGURT | ACTIVE | S BIFIDO | KULTUROU | KARLOVA | KORUNA | různé druhy | 130 g |"
+          },
+          {
+            "price": 6.08,
+            "priceText": "6,08 Kč",
+            "index": 707,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "JOGURT | ACTIVE | S BIFIDO | KULTUROU | KARLOVA | KORUNA | různé druhy | 130 g | 100 g | 6,08 Kč | ilustrační foto | TRVANLIVÉ | MLÉKO BONI | polotučné, | 1,5 % tuku | 1 l | < 8,9"
+          },
+          {
+            "price": 8.9,
+            "priceText": "8,90 Kč",
+            "index": 794,
+            "isLowest30": true,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "| 6,08 Kč | ilustrační foto | TRVANLIVÉ | MLÉKO BONI | polotučné, | 1,5 % tuku | 1 l | < 8,90 Kč | JOGURT BÍLÝ | 3,9% BONI | 1 kg | MLÉČNÝ | ČOKOLÁDOVÝ DEZERT | S LÍSKOVÝMI OŘÍŠKY"
+          },
+          {
+            "price": 9.93,
+            "priceText": "9,93 Kč",
+            "index": 906,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "| 3,9% BONI | 1 kg | MLÉČNÝ | ČOKOLÁDOVÝ DEZERT | S LÍSKOVÝMI OŘÍŠKY BONI | 150 g | 100 g 9,93 Kč | DEZERT | ZE ZAKYSANÉ | SMETANY BONI | různé druhy | 150 g | 100 g 7,93 Kč | 150"
+          },
+          {
+            "price": 7.93,
+            "priceText": "7,93 Kč",
+            "index": 982,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "150 g | 100 g 9,93 Kč | DEZERT | ZE ZAKYSANÉ | SMETANY BONI | různé druhy | 150 g | 100 g 7,93 Kč | 150 g | 500 g | ks | 12 | MAX. | osoba/nákup/ | den | 1 kg | Nabídka platná od s"
+          }
+        ],
+        "rawContext": "OVÉ | TYČINKY | KARLOVA | KORUNA | 80 g | 100 g 24,88 Kč | SÝR | PARENICA | KARLOVA | KORUNA | uzená, | neuzená | 110 g | 100 g 26,27 Kč | TVAROH | MĚKKÝ | KARLOVA | KORUNA | 250 g | 100 g 7,56 Kč | SÝR | BRYNDZA | BONI | 125 g | 100 g 20,72 Kč | TRADIČNÍ | POMAZÁNKOVÉ | BONI | neochucené | 200 g | 100 g 9,95 Kč | v nabídce také další | druhy za 21,90 Kč | JADEL BONI | různé druhy | 100 g | GOUDA 48% | BONI | plátky | 150 g | 100 g 17,27 Kč | JOGURT ŘECKÝ | KARLOVA | KORUNA | různé druhy | 140 g | 100 g 8,50 Kč | v nabídce také bílý | 140 g za 11,90 Kč | BÍLÝ JOGURT | KARLOVA | KORUNA | 500 g | 100 g 2,98 Kč | JOGURT | ACTIVE | S BIFIDO | KULTUROU | KARLOVA | KORUNA | různé druhy | 130 g | 100 g | 6,08 Kč | ilustrační foto | TRVANLIVÉ | MLÉKO BONI | polotučné, | 1,5 % tuku | 1 l | < 8,90 Kč | JOGURT BÍLÝ | 3,9% BONI | 1 kg | MLÉČNÝ | ČOKOLÁDOVÝ DEZERT | S LÍSKOVÝMI OŘÍŠKY BONI | 150 g | 100 g 9,93 Kč | DEZERT | ZE ZAKYSANÉ | SMETANY BONI | různé druhy | 150 g | 100 g 7,93 Kč | 150 g | 500 g | ks | 12 | MAX. | osoba/nákup/ | den | 1 kg | Nabídka platná od středy 13. 5. do úterý 19. 5. 2026 |"
+      },
+      "status": "targeted-candidate-with-price"
+    },
+    {
+      "label": "Mléko čerstvé Karlova Koruna",
+      "expectedPage": 5,
+      "queryVariants": [
+        "MLÉKO ČERSTVÉ 3,5% KARLOVA KORUNA",
+        "MLÉKO ČERSTVÉ",
+        "ČERSTVÉ 3,5% KARLOVA KORUNA"
+      ],
+      "foundPages": [
+        5
+      ],
+      "foundInExpectedPage": true,
+      "currentMatches": 0,
+      "currentSamples": [],
+      "bestVariant": "MLÉKO ČERSTVÉ 3,5% KARLOVA KORUNA",
+      "contextFound": true,
+      "context": "RUNA | 100 g | RYBÍ POMAZÁNKA | 135 g | 100 g 16,22 Kč | v nabídce také Tuňáková | pomazánka 125 g | za 26,90 Kč | RYBÍ SALÁT PIKANT | 135 g | 100 g 13,26 Kč | v nabídce také rybí salát | s jogurtem Gran Mare | za 18,90 Kč | VEJCE V ASPIKU | 200 g | 100 g 11,45 Kč | POMAZÁNKA | salámová | 135 g | 100 g 14,74 Kč | v nabídce | také další druhy za 19,90 Kč | ZAVINÁČE | GRAN MARE | 400/220 g | 100 g 20,41 Kč | KOŘENĚNÉ | MATJESY V OLEJI | GRAN MARE | 200/130 g | 100 g 23 Kč | SHOT BIO PENNY | TO GO | ginger/kurkuma | 150 ml | 100 ml 15,93 Kč | BRAMBOROVÝ | KNEDLÍK | 500 g | 100 g 6,58 Kč | KYSANÉ ZELÍ | chlazené bílé | 500/350 g | 100 g 3,40 Kč | SNACK | MILKERIA | různé druhy | 28/30 g | 100 g | 21,07/19,67 Kč | MLÉKO ČERSTVÉ | 3,5% KARLOVA | KORUNA PET | 1 l | KEFÍROVÉ | MLÉKO | KARLOVA | KORUNA | nízkotučné | 500 ml | 100 ml 19,80 Kč | MLÉKO | ACIDOFILNÍ | KARLOVA | KORUNA | 950 g | 100 g 2,94 Kč | DRINK | JOGURTOVÝ | KARLOVA | KORUNA | různé druhy | 400 g | 100 g 3,98 Kč | HUMMUS | různé druhy | 120 g | 100 g 9,08 Kč | POLÉVKA | různé | druhy | 650 g | 1 kg 69,08 Kč | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod |",
+      "candidate": {
+        "id": "penny-pdf-target-v2-2c845d25741b8984",
+        "chain": "Penny",
+        "storeId": "penny-letak",
+        "storeName": "Penny – leták",
+        "product": "MLÉKO ČERSTVÉ 3,5% KARLOVA KORUNA",
+        "price": 26.9,
+        "priceText": "26,90 Kč",
+        "packageSize": "100 g",
+        "category": "mléčné a chlazené",
+        "pageNumber": 5,
+        "searchTerms": [
+          "mléčné a chlazené",
+          "mléko",
+          "čerstvé mléko",
+          "Karlova Koruna"
+        ],
+        "confidence": "targeted-pdf-context-v2-price-candidate",
+        "suspect": true,
+        "suspectReasons": [
+          "kontrolní kandidát z cíleného PDF kontextu – před importem ověřit proti letáku"
+        ],
+        "priceCandidates": [
+          {
+            "price": 16.22,
+            "priceText": "16,22 Kč",
+            "index": 46,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "RUNA | 100 g | RYBÍ POMAZÁNKA | 135 g | 100 g 16,22 Kč | v nabídce také Tuňáková | pomazánka 125 g | za 26,90 Kč | RYBÍ SALÁT PIKANT | 1"
+          },
+          {
+            "price": 26.9,
+            "priceText": "26,90 Kč",
+            "index": 104,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "RYBÍ POMAZÁNKA | 135 g | 100 g 16,22 Kč | v nabídce také Tuňáková | pomazánka 125 g | za 26,90 Kč | RYBÍ SALÁT PIKANT | 135 g | 100 g 13,26 Kč | v nabídce také rybí salát | s jogu"
+          },
+          {
+            "price": 13.26,
+            "priceText": "13,26 Kč",
+            "index": 149,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "nabídce také Tuňáková | pomazánka 125 g | za 26,90 Kč | RYBÍ SALÁT PIKANT | 135 g | 100 g 13,26 Kč | v nabídce také rybí salát | s jogurtem Gran Mare | za 18,90 Kč | VEJCE V ASPIKU"
+          },
+          {
+            "price": 18.9,
+            "priceText": "18,90 Kč",
+            "index": 214,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "T PIKANT | 135 g | 100 g 13,26 Kč | v nabídce také rybí salát | s jogurtem Gran Mare | za 18,90 Kč | VEJCE V ASPIKU | 200 g | 100 g 11,45 Kč | POMAZÁNKA | salámová | 135 g | 100 g"
+          },
+          {
+            "price": 11.45,
+            "priceText": "11,45 Kč",
+            "index": 256,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "dce také rybí salát | s jogurtem Gran Mare | za 18,90 Kč | VEJCE V ASPIKU | 200 g | 100 g 11,45 Kč | POMAZÁNKA | salámová | 135 g | 100 g 14,74 Kč | v nabídce | také další druhy za"
+          },
+          {
+            "price": 14.74,
+            "priceText": "14,74 Kč",
+            "index": 304,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "18,90 Kč | VEJCE V ASPIKU | 200 g | 100 g 11,45 Kč | POMAZÁNKA | salámová | 135 g | 100 g 14,74 Kč | v nabídce | také další druhy za 19,90 Kč | ZAVINÁČE | GRAN MARE | 400/220 g | 1"
+          },
+          {
+            "price": 19.9,
+            "priceText": "19,90 Kč",
+            "index": 347,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "1,45 Kč | POMAZÁNKA | salámová | 135 g | 100 g 14,74 Kč | v nabídce | také další druhy za 19,90 Kč | ZAVINÁČE | GRAN MARE | 400/220 g | 100 g 20,41 Kč | KOŘENĚNÉ | MATJESY V OLEJI"
+          },
+          {
+            "price": 20.41,
+            "priceText": "20,41 Kč",
+            "index": 399,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "Kč | v nabídce | také další druhy za 19,90 Kč | ZAVINÁČE | GRAN MARE | 400/220 g | 100 g 20,41 Kč | KOŘENĚNÉ | MATJESY V OLEJI | GRAN MARE | 200/130 g | 100 g 23 Kč | SHOT BIO PEN"
+          },
+          {
+            "price": 15.93,
+            "priceText": "15,93 Kč",
+            "index": 535,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "ARE | 200/130 g | 100 g 23 Kč | SHOT BIO PENNY | TO GO | ginger/kurkuma | 150 ml | 100 ml 15,93 Kč | BRAMBOROVÝ | KNEDLÍK | 500 g | 100 g 6,58 Kč | KYSANÉ ZELÍ | chlazené bílé | 50"
+          },
+          {
+            "price": 6.58,
+            "priceText": "6,58 Kč",
+            "index": 583,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "TO GO | ginger/kurkuma | 150 ml | 100 ml 15,93 Kč | BRAMBOROVÝ | KNEDLÍK | 500 g | 100 g 6,58 Kč | KYSANÉ ZELÍ | chlazené bílé | 500/350 g | 100 g 3,40 Kč | SNACK | MILKERIA | růz"
+          },
+          {
+            "price": 3.4,
+            "priceText": "3,40 Kč",
+            "index": 641,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "OROVÝ | KNEDLÍK | 500 g | 100 g 6,58 Kč | KYSANÉ ZELÍ | chlazené bílé | 500/350 g | 100 g 3,40 Kč | SNACK | MILKERIA | různé druhy | 28/30 g | 100 g | 21,07/19,67 Kč | MLÉKO ČERSTV"
+          },
+          {
+            "price": 19.67,
+            "priceText": "19,67 Kč",
+            "index": 708,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "lé | 500/350 g | 100 g 3,40 Kč | SNACK | MILKERIA | různé druhy | 28/30 g | 100 g | 21,07/19,67 Kč | MLÉKO ČERSTVÉ | 3,5% KARLOVA | KORUNA PET | 1 l | KEFÍROVÉ | MLÉKO | KARLOVA |"
+          },
+          {
+            "price": 19.8,
+            "priceText": "19,80 Kč",
+            "index": 836,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "A | KORUNA PET | 1 l | KEFÍROVÉ | MLÉKO | KARLOVA | KORUNA | nízkotučné | 500 ml | 100 ml 19,80 Kč | MLÉKO | ACIDOFILNÍ | KARLOVA | KORUNA | 950 g | 100 g 2,94 Kč | DRINK | JOGURTO"
+          },
+          {
+            "price": 2.94,
+            "priceText": "2,94 Kč",
+            "index": 901,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "otučné | 500 ml | 100 ml 19,80 Kč | MLÉKO | ACIDOFILNÍ | KARLOVA | KORUNA | 950 g | 100 g 2,94 Kč | DRINK | JOGURTOVÝ | KARLOVA | KORUNA | různé druhy | 400 g | 100 g 3,98 Kč | HUM"
+          },
+          {
+            "price": 3.98,
+            "priceText": "3,98 Kč",
+            "index": 978,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "50 g | 100 g 2,94 Kč | DRINK | JOGURTOVÝ | KARLOVA | KORUNA | různé druhy | 400 g | 100 g 3,98 Kč | HUMMUS | různé druhy | 120 g | 100 g 9,08 Kč | POLÉVKA | různé | druhy | 650 g |"
+          },
+          {
+            "price": 9.08,
+            "priceText": "9,08 Kč",
+            "index": 1025,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "OVA | KORUNA | různé druhy | 400 g | 100 g 3,98 Kč | HUMMUS | různé druhy | 120 g | 100 g 9,08 Kč | POLÉVKA | různé | druhy | 650 g | 1 kg 69,08 Kč | 1 bod | navíc | 1 ks = | 1 bod"
+          },
+          {
+            "price": 69.08,
+            "priceText": "69,08 Kč",
+            "index": 1074,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "č | HUMMUS | různé druhy | 120 g | 100 g 9,08 Kč | POLÉVKA | různé | druhy | 650 g | 1 kg 69,08 Kč | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bo"
+          }
+        ],
+        "rawContext": "RUNA | 100 g | RYBÍ POMAZÁNKA | 135 g | 100 g 16,22 Kč | v nabídce také Tuňáková | pomazánka 125 g | za 26,90 Kč | RYBÍ SALÁT PIKANT | 135 g | 100 g 13,26 Kč | v nabídce také rybí salát | s jogurtem Gran Mare | za 18,90 Kč | VEJCE V ASPIKU | 200 g | 100 g 11,45 Kč | POMAZÁNKA | salámová | 135 g | 100 g 14,74 Kč | v nabídce | také další druhy za 19,90 Kč | ZAVINÁČE | GRAN MARE | 400/220 g | 100 g 20,41 Kč | KOŘENĚNÉ | MATJESY V OLEJI | GRAN MARE | 200/130 g | 100 g 23 Kč | SHOT BIO PENNY | TO GO | ginger/kurkuma | 150 ml | 100 ml 15,93 Kč | BRAMBOROVÝ | KNEDLÍK | 500 g | 100 g 6,58 Kč | KYSANÉ ZELÍ | chlazené bílé | 500/350 g | 100 g 3,40 Kč | SNACK | MILKERIA | různé druhy | 28/30 g | 100 g | 21,07/19,67 Kč | MLÉKO ČERSTVÉ | 3,5% KARLOVA | KORUNA PET | 1 l | KEFÍROVÉ | MLÉKO | KARLOVA | KORUNA | nízkotučné | 500 ml | 100 ml 19,80 Kč | MLÉKO | ACIDOFILNÍ | KARLOVA | KORUNA | 950 g | 100 g 2,94 Kč | DRINK | JOGURTOVÝ | KARLOVA | KORUNA | různé druhy | 400 g | 100 g 3,98 Kč | HUMMUS | různé druhy | 120 g | 100 g 9,08 Kč | POLÉVKA | různé | druhy | 650 g | 1 kg 69,08 Kč | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod |"
+      },
+      "status": "targeted-candidate-with-price"
+    },
+    {
+      "label": "Trvanlivé plnotučné mléko Madeta",
+      "expectedPage": 32,
+      "queryVariants": [
+        "TRVANLIVÉ PLNOTUČNÉ MLÉKO MADETA",
+        "TRVANLIVÉ PLNOTUČNÉ MLÉKO",
+        "MLÉKO MADETA"
+      ],
+      "foundPages": [
+        32
+      ],
+      "foundInExpectedPage": true,
+      "currentMatches": 0,
+      "currentSamples": [],
+      "bestVariant": "TRVANLIVÉ PLNOTUČNÉ MLÉKO MADETA",
+      "contextFound": true,
+      "context": "| 79,90 | 95,90/ | 16% | 00,00 | 00,00 | 00% | 13,90 | 27,90/ | 50% | 00,00 | 00,00 | 00% | 11,90 | 17,90/ | 33% | 00,00 | 00,00 | 00% | 49,90 | 79,90/ | 37% | 00,00 | 00,00 | 00% | 12,90 | 24,90/ | 48% | 00,00 | 00,00 | 00% | 34,90 | 59,90/ | 41% | 00,00 | 00,00 | 00% | 24,90 | 49,90/ | 50% | ilustrační foto | PIZZA | TROJHRÁNEK | ze zmrazeného | polotovaru | 90 g | 100 g 9,89 Kč | MINI | KARBANÁTKY | PENNY TO GO | 500 g | 100 g 15,98 Kč | OCHUCENÝ JOGURT | KARLOVA KORUNA | různé druhy | 150 g | 100 g 5,93 Kč | KOLÁČ TVAROH, MÁK, | JABLKO KARLOVA | KORUNA | rozmrazeno | 80 g | 100 g 12,38 Kč | UZENÁ | ROLOVANÁ | PLEC | ŘEZNÍKŮV | TALÍŘ | cena za 1 kg | JEMNÉ | PÁRKY | ŘEZNÍKŮV | TALÍŘ | 200 g | 100 g 16,45 Kč | VEPŘOVÉ | KOSTKY | NA GULÁŠ | DOBRÉ MASO | 600 g | 1 kg 133,17 Kč | TRVANLIVÉ | PLNOTUČNÉ | MLÉKO MADETA | 3,5% | 1 l | < 14,90 Kč | MINERÁLNÍ VODA | GEMERKA | 1,5 l | jemně perlivá, | tichá | 1 l 7,93 Kč | < 11,90 Kč | BROSKVE | balené | 500 g | 1 kg 99,80 Kč | PÓREK | cena za 1 ks | MALINY | 125 g | 1 kg 279,20 Kč | POMERANČE | volné | cena za 1 kg | ks | 12 | MAX. | osoba/nákup/ | den | 90% | masa | 00,00 | 00,00 | % | 79,90 | 109,90/ | 27% | TATARSKÝ BIFTEK | DOBRÉ MASO | 250 g | 1 kg 319,60 Kč | ilustrační foto | 99% | masa | % | PONDĚLÍ A ÚTERÝ | SUPER | PO | ÚT | Nabídka platí od pondělí 18. 5. do úterý 19. 5. 2026 | obsahuje | vápník a hořčík |",
+      "candidate": {
+        "id": "penny-pdf-target-v2-42f136efa1db9b64",
+        "chain": "Penny",
+        "storeId": "penny-letak",
+        "storeName": "Penny – leták",
+        "product": "TRVANLIVÉ PLNOTUČNÉ MLÉKO MADETA",
+        "price": 79.9,
+        "priceText": "79,90 Kč",
+        "packageSize": "90 g",
+        "category": "mléčné a chlazené",
+        "pageNumber": 32,
+        "searchTerms": [
+          "mléčné a chlazené",
+          "mléko",
+          "plnotučné mléko",
+          "Madeta"
+        ],
+        "confidence": "targeted-pdf-context-v2-price-candidate",
+        "suspect": true,
+        "suspectReasons": [
+          "kontrolní kandidát z cíleného PDF kontextu – před importem ověřit proti letáku"
+        ],
+        "priceCandidates": [
+          {
+            "price": 79.9,
+            "priceText": "79,90 Kč",
+            "index": 2,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "| 79,90 | 95,90/ | 16% | 00,00 | 00,00 | 00% | 13,90 | 27,90/ | 50% | 00,00 | 00,00 | 00% |"
+          },
+          {
+            "price": 13.9,
+            "priceText": "13,90 Kč",
+            "index": 47,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "| 79,90 | 95,90/ | 16% | 00,00 | 00,00 | 00% | 13,90 | 27,90/ | 50% | 00,00 | 00,00 | 00% | 11,90 | 17,90/ | 33% | 00,00 | 00,00 | 00% |"
+          },
+          {
+            "price": 11.9,
+            "priceText": "11,90 Kč",
+            "index": 92,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "79,90 | 95,90/ | 16% | 00,00 | 00,00 | 00% | 13,90 | 27,90/ | 50% | 00,00 | 00,00 | 00% | 11,90 | 17,90/ | 33% | 00,00 | 00,00 | 00% | 49,90 | 79,90/ | 37% | 00,00 | 00,00 | 00% |"
+          },
+          {
+            "price": 49.9,
+            "priceText": "49,90 Kč",
+            "index": 137,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "13,90 | 27,90/ | 50% | 00,00 | 00,00 | 00% | 11,90 | 17,90/ | 33% | 00,00 | 00,00 | 00% | 49,90 | 79,90/ | 37% | 00,00 | 00,00 | 00% | 12,90 | 24,90/ | 48% | 00,00 | 00,00 | 00% |"
+          },
+          {
+            "price": 12.9,
+            "priceText": "12,90 Kč",
+            "index": 182,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "11,90 | 17,90/ | 33% | 00,00 | 00,00 | 00% | 49,90 | 79,90/ | 37% | 00,00 | 00,00 | 00% | 12,90 | 24,90/ | 48% | 00,00 | 00,00 | 00% | 34,90 | 59,90/ | 41% | 00,00 | 00,00 | 00% |"
+          },
+          {
+            "price": 34.9,
+            "priceText": "34,90 Kč",
+            "index": 227,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "49,90 | 79,90/ | 37% | 00,00 | 00,00 | 00% | 12,90 | 24,90/ | 48% | 00,00 | 00,00 | 00% | 34,90 | 59,90/ | 41% | 00,00 | 00,00 | 00% | 24,90 | 49,90/ | 50% | ilustrační foto | PIZZ"
+          },
+          {
+            "price": 24.9,
+            "priceText": "24,90 Kč",
+            "index": 272,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "12,90 | 24,90/ | 48% | 00,00 | 00,00 | 00% | 34,90 | 59,90/ | 41% | 00,00 | 00,00 | 00% | 24,90 | 49,90/ | 50% | ilustrační foto | PIZZA | TROJHRÁNEK | ze zmrazeného | polotovaru |"
+          },
+          {
+            "price": 9.89,
+            "priceText": "9,89 Kč",
+            "index": 376,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "| 50% | ilustrační foto | PIZZA | TROJHRÁNEK | ze zmrazeného | polotovaru | 90 g | 100 g 9,89 Kč | MINI | KARBANÁTKY | PENNY TO GO | 500 g | 100 g 15,98 Kč | OCHUCENÝ JOGURT | KAR"
+          },
+          {
+            "price": 15.98,
+            "priceText": "15,98 Kč",
+            "index": 434,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "ého | polotovaru | 90 g | 100 g 9,89 Kč | MINI | KARBANÁTKY | PENNY TO GO | 500 g | 100 g 15,98 Kč | OCHUCENÝ JOGURT | KARLOVA KORUNA | různé druhy | 150 g | 100 g 5,93 Kč | KOLÁČ"
+          },
+          {
+            "price": 5.93,
+            "priceText": "5,93 Kč",
+            "index": 508,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "| 500 g | 100 g 15,98 Kč | OCHUCENÝ JOGURT | KARLOVA KORUNA | různé druhy | 150 g | 100 g 5,93 Kč | KOLÁČ TVAROH, MÁK, | JABLKO KARLOVA | KORUNA | rozmrazeno | 80 g | 100 g 12,38 K"
+          },
+          {
+            "price": 12.38,
+            "priceText": "12,38 Kč",
+            "index": 591,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "100 g 5,93 Kč | KOLÁČ TVAROH, MÁK, | JABLKO KARLOVA | KORUNA | rozmrazeno | 80 g | 100 g 12,38 Kč | UZENÁ | ROLOVANÁ | PLEC | ŘEZNÍKŮV | TALÍŘ | cena za 1 kg | JEMNÉ | PÁRKY | ŘEZ"
+          },
+          {
+            "price": 16.45,
+            "priceText": "16,45 Kč",
+            "index": 711,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "PLEC | ŘEZNÍKŮV | TALÍŘ | cena za 1 kg | JEMNÉ | PÁRKY | ŘEZNÍKŮV | TALÍŘ | 200 g | 100 g 16,45 Kč | VEPŘOVÉ | KOSTKY | NA GULÁŠ | DOBRÉ MASO | 600 g | 1 kg 133,17 Kč | TRVANLIVÉ |"
+          },
+          {
+            "price": 133.17,
+            "priceText": "133,17 Kč",
+            "index": 778,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "TALÍŘ | 200 g | 100 g 16,45 Kč | VEPŘOVÉ | KOSTKY | NA GULÁŠ | DOBRÉ MASO | 600 g | 1 kg 133,17 Kč | TRVANLIVÉ | PLNOTUČNÉ | MLÉKO MADETA | 3,5% | 1 l | < 14,90 Kč | MINERÁLNÍ VOD"
+          },
+          {
+            "price": 14.9,
+            "priceText": "14,90 Kč",
+            "index": 844,
+            "isLowest30": true,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "BRÉ MASO | 600 g | 1 kg 133,17 Kč | TRVANLIVÉ | PLNOTUČNÉ | MLÉKO MADETA | 3,5% | 1 l | < 14,90 Kč | MINERÁLNÍ VODA | GEMERKA | 1,5 l | jemně perlivá, | tichá | 1 l 7,93 Kč | < 11,"
+          },
+          {
+            "price": 7.93,
+            "priceText": "7,93 Kč",
+            "index": 919,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "3,5% | 1 l | < 14,90 Kč | MINERÁLNÍ VODA | GEMERKA | 1,5 l | jemně perlivá, | tichá | 1 l 7,93 Kč | < 11,90 Kč | BROSKVE | balené | 500 g | 1 kg 99,80 Kč | PÓREK | cena za 1 ks | M"
+          },
+          {
+            "price": 11.9,
+            "priceText": "11,90 Kč",
+            "index": 931,
+            "isLowest30": true,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "< 14,90 Kč | MINERÁLNÍ VODA | GEMERKA | 1,5 l | jemně perlivá, | tichá | 1 l 7,93 Kč | < 11,90 Kč | BROSKVE | balené | 500 g | 1 kg 99,80 Kč | PÓREK | cena za 1 ks | MALINY | 125"
+          },
+          {
+            "price": 99.8,
+            "priceText": "99,80 Kč",
+            "index": 974,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "5 l | jemně perlivá, | tichá | 1 l 7,93 Kč | < 11,90 Kč | BROSKVE | balené | 500 g | 1 kg 99,80 Kč | PÓREK | cena za 1 ks | MALINY | 125 g | 1 kg 279,20 Kč | POMERANČE | volné | ce"
+          },
+          {
+            "price": 279.2,
+            "priceText": "279,20 Kč",
+            "index": 1030,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "| BROSKVE | balené | 500 g | 1 kg 99,80 Kč | PÓREK | cena za 1 ks | MALINY | 125 g | 1 kg 279,20 Kč | POMERANČE | volné | cena za 1 kg | ks | 12 | MAX. | osoba/nákup/ | den | 90% |"
+          },
+          {
+            "price": 79.9,
+            "priceText": "79,90 Kč",
+            "index": 1148,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "é | cena za 1 kg | ks | 12 | MAX. | osoba/nákup/ | den | 90% | masa | 00,00 | 00,00 | % | 79,90 | 109,90/ | 27% | TATARSKÝ BIFTEK | DOBRÉ MASO | 250 g | 1 kg 319,60 Kč | ilustrační"
+          },
+          {
+            "price": 319.6,
+            "priceText": "319,60 Kč",
+            "index": 1216,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "| 00,00 | 00,00 | % | 79,90 | 109,90/ | 27% | TATARSKÝ BIFTEK | DOBRÉ MASO | 250 g | 1 kg 319,60 Kč | ilustrační foto | 99% | masa | % | PONDĚLÍ A ÚTERÝ | SUPER | PO | ÚT | Nabídka"
+          }
+        ],
+        "rawContext": "| 79,90 | 95,90/ | 16% | 00,00 | 00,00 | 00% | 13,90 | 27,90/ | 50% | 00,00 | 00,00 | 00% | 11,90 | 17,90/ | 33% | 00,00 | 00,00 | 00% | 49,90 | 79,90/ | 37% | 00,00 | 00,00 | 00% | 12,90 | 24,90/ | 48% | 00,00 | 00,00 | 00% | 34,90 | 59,90/ | 41% | 00,00 | 00,00 | 00% | 24,90 | 49,90/ | 50% | ilustrační foto | PIZZA | TROJHRÁNEK | ze zmrazeného | polotovaru | 90 g | 100 g 9,89 Kč | MINI | KARBANÁTKY | PENNY TO GO | 500 g | 100 g 15,98 Kč | OCHUCENÝ JOGURT | KARLOVA KORUNA | různé druhy | 150 g | 100 g 5,93 Kč | KOLÁČ TVAROH, MÁK, | JABLKO KARLOVA | KORUNA | rozmrazeno | 80 g | 100 g 12,38 Kč | UZENÁ | ROLOVANÁ | PLEC | ŘEZNÍKŮV | TALÍŘ | cena za 1 kg | JEMNÉ | PÁRKY | ŘEZNÍKŮV | TALÍŘ | 200 g | 100 g 16,45 Kč | VEPŘOVÉ | KOSTKY | NA GULÁŠ | DOBRÉ MASO | 600 g | 1 kg 133,17 Kč | TRVANLIVÉ | PLNOTUČNÉ | MLÉKO MADETA | 3,5% | 1 l | < 14,90 Kč | MINERÁLNÍ VODA | GEMERKA | 1,5 l | jemně perlivá, | tichá | 1 l 7,93 Kč | < 11,90 Kč | BROSKVE | balené | 500 g | 1 kg 99,80 Kč | PÓREK | cena za 1 ks | MALINY | 125 g | 1 kg 279,20 Kč | POMERANČE | volné | cena za 1 kg | ks | 12 | MAX. | osoba/nákup/ | den | 90% | masa | 00,00 | 00,00 | % | 79,90 | 109,90/ | 27% | TATARSKÝ BIFTEK | DOBRÉ MASO | 250 g | 1 kg 319,60 Kč | ilustrační foto | 99% | masa | % | PONDĚLÍ A ÚTERÝ | SUPER | PO | ÚT | Nabídka platí od pondělí 18. 5. do úterý 19. 5. 2026 | obsahuje | vápník a hořčík |"
+      },
+      "status": "targeted-candidate-with-price"
+    },
+    {
+      "label": "Woolite page24 context",
+      "expectedPage": 24,
+      "queryVariants": [
+        "GEL NA PRANÍ WOOLITE",
+        "WOOLITE"
+      ],
+      "foundPages": [
+        24,
+        35
+      ],
+      "foundInExpectedPage": true,
+      "currentMatches": 0,
+      "currentSamples": [],
+      "bestVariant": "GEL NA PRANÍ WOOLITE",
+      "contextFound": true,
+      "context": "24 | nízké ceny hezky česky | < Nejnižší cena za posledních 30 dní | MOJE PENNY KARTA | % | % | nabídka | Jedinečná | 199,90 | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90 | 41% | 00,00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty | PENNY | Karta | 89,90 | 124,90 | 28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00 | 00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 89,90 | 00,00 | 00,00 | 00% | 199,90 | 249,90/ | 20% | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,90 | nabídka | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* | různé druhy | 3,6 l | 1 l 55,53 Kč | < 199,90 Kč | WC POWER | AKTIV BREF* | různé druhy | 4x 50 g | 1 kg 399,50 Kč | SPREJ NA | VODNÍ KÁMEN | CIF* | 750 ml | 1 l 79,87 Kč | < 59,90 Kč | PROSTŘEDEK | NA MYTÍ | POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČISTIČ ODPADŮ | FREDY | 500 g | 1 kg 59,80 Kč | < 29,90 Kč | GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč | (běžně za 41,63 Kč) | < 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč | (běžně za 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80,77 Kč | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 ml | 1 l 119,80 Kč | < 59,90 Kč | AVIVÁŽ TESORI | D’",
+      "candidate": {
+        "id": "penny-pdf-target-v2-ffbff43038e64c9d",
+        "chain": "Penny",
+        "storeId": "penny-letak",
+        "storeName": "Penny – leták",
+        "product": "GEL NA PRANÍ WOOLITE",
+        "price": 199.9,
+        "priceText": "199,90 Kč",
+        "packageSize": "3,6 l",
+        "category": "drogerie",
+        "pageNumber": 24,
+        "searchTerms": [
+          "drogerie",
+          "praní",
+          "Woolite"
+        ],
+        "confidence": "targeted-pdf-context-v2-price-candidate",
+        "suspect": true,
+        "suspectReasons": [
+          "kontrolní kandidát z cíleného PDF kontextu – před importem ověřit proti letáku"
+        ],
+        "priceCandidates": [
+          {
+            "price": 199.9,
+            "priceText": "199,90 Kč",
+            "index": 118,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "| < Nejnižší cena za posledních 30 dní | MOJE PENNY KARTA | % | % | nabídka | Jedinečná | 199,90 | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty"
+          },
+          {
+            "price": 79.9,
+            "priceText": "79,90 Kč",
+            "index": 149,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "30 dní | MOJE PENNY KARTA | % | % | nabídka | Jedinečná | 199,90 | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90"
+          },
+          {
+            "price": 59.9,
+            "priceText": "59,90 Kč",
+            "index": 179,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "| % | nabídka | Jedinečná | 199,90 | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90 | 41% | 00,00 | 00,00 | 00% |"
+          },
+          {
+            "price": 34.9,
+            "priceText": "34,90 Kč",
+            "index": 226,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "Jedinečná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90 | 41% | 00,00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty |"
+          },
+          {
+            "price": 59.9,
+            "priceText": "59,90 Kč",
+            "index": 234,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "ná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90 | 41% | 00,00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty | PENNY |"
+          },
+          {
+            "price": 29.9,
+            "priceText": "29,90 Kč",
+            "index": 270,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "9,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90 | 41% | 00,00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty | PENNY | Karta | 89,90 | 124,90 | 28% | cena"
+          },
+          {
+            "price": 89.9,
+            "priceText": "89,90 Kč",
+            "index": 332,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "41% | 00,00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty | PENNY | Karta | 89,90 | 124,90 | 28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00"
+          },
+          {
+            "price": 124.9,
+            "priceText": "124,90 Kč",
+            "index": 340,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": ",00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty | PENNY | Karta | 89,90 | 124,90 | 28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00 | 00,00"
+          },
+          {
+            "price": 26.9,
+            "priceText": "26,90 Kč",
+            "index": 394,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "nny karty | PENNY | Karta | 89,90 | 124,90 | 28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00 | 00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 8"
+          },
+          {
+            "price": 41.9,
+            "priceText": "41,90 Kč",
+            "index": 402,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "y | PENNY | Karta | 89,90 | 124,90 | 28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00 | 00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 89,90 | 0"
+          },
+          {
+            "price": 59.9,
+            "priceText": "59,90 Kč",
+            "index": 438,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00 | 00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 89,90 | 00,00 | 00,00 | 00% | 199,90 | 249,90"
+          },
+          {
+            "price": 89.9,
+            "priceText": "89,90 Kč",
+            "index": 483,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "26,90 | 41,90 | 35% | 00,00 | 00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 89,90 | 00,00 | 00,00 | 00% | 199,90 | 249,90/ | 20% | nabídka | Jedinečná | 79,90 | nabíd"
+          },
+          {
+            "price": 199.9,
+            "priceText": "199,90 Kč",
+            "index": 513,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 89,90 | 00,00 | 00,00 | 00% | 199,90 | 249,90/ | 20% | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 99,90 | nabíd"
+          },
+          {
+            "price": 79.9,
+            "priceText": "79,90 Kč",
+            "index": 560,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "Jedinečná | 89,90 | 00,00 | 00,00 | 00% | 199,90 | 249,90/ | 20% | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,9"
+          },
+          {
+            "price": 99.9,
+            "priceText": "99,90 Kč",
+            "index": 590,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "0,00 | 00% | 199,90 | 249,90/ | 20% | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,90 | nabídka | Jedinečná | 399,"
+          },
+          {
+            "price": 299.9,
+            "priceText": "299,90 Kč",
+            "index": 620,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "| 20% | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,90 | nabídka | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* |"
+          },
+          {
+            "price": 199.9,
+            "priceText": "199,90 Kč",
+            "index": 645,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "ná | 79,90 | nabídka | Jedinečná | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,90 | nabídka | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* | různé druhy | 3,6 l | 1"
+          },
+          {
+            "price": 399.9,
+            "priceText": "399,90 Kč",
+            "index": 676,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "á | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,90 | nabídka | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* | různé druhy | 3,6 l | 1 l 55,53 Kč | < 199,90 Kč | WC P"
+          },
+          {
+            "price": 55.53,
+            "priceText": "55,53 Kč",
+            "index": 737,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "9,90 | nabídka | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* | různé druhy | 3,6 l | 1 l 55,53 Kč | < 199,90 Kč | WC POWER | AKTIV BREF* | různé druhy | 4x 50 g | 1 kg 399,50 Kč |"
+          },
+          {
+            "price": 199.9,
+            "priceText": "199,90 Kč",
+            "index": 750,
+            "isLowest30": true,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "a | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* | různé druhy | 3,6 l | 1 l 55,53 Kč | < 199,90 Kč | WC POWER | AKTIV BREF* | různé druhy | 4x 50 g | 1 kg 399,50 Kč | SPREJ NA | V"
+          },
+          {
+            "price": 399.5,
+            "priceText": "399,50 Kč",
+            "index": 816,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": ",6 l | 1 l 55,53 Kč | < 199,90 Kč | WC POWER | AKTIV BREF* | různé druhy | 4x 50 g | 1 kg 399,50 Kč | SPREJ NA | VODNÍ KÁMEN | CIF* | 750 ml | 1 l 79,87 Kč | < 59,90 Kč | PROSTŘEDE"
+          },
+          {
+            "price": 79.87,
+            "priceText": "79,87 Kč",
+            "index": 873,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "* | různé druhy | 4x 50 g | 1 kg 399,50 Kč | SPREJ NA | VODNÍ KÁMEN | CIF* | 750 ml | 1 l 79,87 Kč | < 59,90 Kč | PROSTŘEDEK | NA MYTÍ | POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČIST"
+          },
+          {
+            "price": 59.9,
+            "priceText": "59,90 Kč",
+            "index": 886,
+            "isLowest30": true,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "hy | 4x 50 g | 1 kg 399,50 Kč | SPREJ NA | VODNÍ KÁMEN | CIF* | 750 ml | 1 l 79,87 Kč | < 59,90 Kč | PROSTŘEDEK | NA MYTÍ | POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČISTIČ ODPADŮ | F"
+          },
+          {
+            "price": 34.9,
+            "priceText": "34,90 Kč",
+            "index": 948,
+            "isLowest30": true,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "| 750 ml | 1 l 79,87 Kč | < 59,90 Kč | PROSTŘEDEK | NA MYTÍ | POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČISTIČ ODPADŮ | FREDY | 500 g | 1 kg 59,80 Kč | < 29,90 Kč | GEL PRACÍ | S MARS"
+          },
+          {
+            "price": 59.8,
+            "priceText": "59,80 Kč",
+            "index": 996,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "K | NA MYTÍ | POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČISTIČ ODPADŮ | FREDY | 500 g | 1 kg 59,80 Kč | < 29,90 Kč | GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč |"
+          },
+          {
+            "price": 29.9,
+            "priceText": "29,90 Kč",
+            "index": 1009,
+            "isLowest30": true,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČISTIČ ODPADŮ | FREDY | 500 g | 1 kg 59,80 Kč | < 29,90 Kč | GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč | (běžně za 41,"
+          },
+          {
+            "price": 29.97,
+            "priceText": "29,97 Kč",
+            "index": 1075,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "0 g | 1 kg 59,80 Kč | < 29,90 Kč | GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč | (běžně za 41,63 Kč) | < 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR |"
+          },
+          {
+            "price": 41.63,
+            "priceText": "41,63 Kč",
+            "index": 1096,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "< 29,90 Kč | GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč | (běžně za 41,63 Kč) | < 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč"
+          },
+          {
+            "price": 89.9,
+            "priceText": "89,90 Kč",
+            "index": 1110,
+            "isLowest30": true,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč | (běžně za 41,63 Kč) | < 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč | (běžně za 1,"
+          },
+          {
+            "price": 1.12,
+            "priceText": "1,12 Kč",
+            "index": 1178,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "ěžně za 41,63 Kč) | < 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč | (běžně za 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1"
+          },
+          {
+            "price": 1.75,
+            "priceText": "1,75 Kč",
+            "index": 1198,
+            "isLowest30": false,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "< 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč | (běžně za 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80"
+          },
+          {
+            "price": 26.9,
+            "priceText": "26,90 Kč",
+            "index": 1211,
+            "isLowest30": true,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč | (běžně za 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80,77 Kč | < 19"
+          },
+          {
+            "price": 79.96,
+            "priceText": "79,96 Kč",
+            "index": 1271,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "2 Kč | (běžně za 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80,77 Kč | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 m"
+          },
+          {
+            "price": 80.77,
+            "priceText": "80,77 Kč",
+            "index": 1286,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "a 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80,77 Kč | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 ml | 1 l 119,80"
+          },
+          {
+            "price": 199.9,
+            "priceText": "199,90 Kč",
+            "index": 1299,
+            "isLowest30": true,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "< 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80,77 Kč | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 ml | 1 l 119,80 Kč | < 59,90"
+          },
+          {
+            "price": 119.8,
+            "priceText": "119,80 Kč",
+            "index": 1369,
+            "isLowest30": false,
+            "isUnitPrice": true,
+            "isDummy": false,
+            "nearby": "| 1 l 80,77 Kč | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 ml | 1 l 119,80 Kč | < 59,90 Kč | AVIVÁŽ TESORI | D’"
+          },
+          {
+            "price": 59.9,
+            "priceText": "59,90 Kč",
+            "index": 1383,
+            "isLowest30": true,
+            "isUnitPrice": false,
+            "isDummy": false,
+            "nearby": "č | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 ml | 1 l 119,80 Kč | < 59,90 Kč | AVIVÁŽ TESORI | D’"
+          }
+        ],
+        "rawContext": "24 | nízké ceny hezky česky | < Nejnižší cena za posledních 30 dní | MOJE PENNY KARTA | % | % | nabídka | Jedinečná | 199,90 | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90 | 41% | 00,00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty | PENNY | Karta | 89,90 | 124,90 | 28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00 | 00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 89,90 | 00,00 | 00,00 | 00% | 199,90 | 249,90/ | 20% | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,90 | nabídka | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* | různé druhy | 3,6 l | 1 l 55,53 Kč | < 199,90 Kč | WC POWER | AKTIV BREF* | různé druhy | 4x 50 g | 1 kg 399,50 Kč | SPREJ NA | VODNÍ KÁMEN | CIF* | 750 ml | 1 l 79,87 Kč | < 59,90 Kč | PROSTŘEDEK | NA MYTÍ | POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČISTIČ ODPADŮ | FREDY | 500 g | 1 kg 59,80 Kč | < 29,90 Kč | GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč | (běžně za 41,63 Kč) | < 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč | (běžně za 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80,77 Kč | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 ml | 1 l 119,80 Kč | < 59,90 Kč | AVIVÁŽ TESORI | D’"
+      },
+      "status": "targeted-candidate-with-price"
+    }
+  ],
+  "pageSamples": [
+    {
+      "pageNumber": 1,
+      "textLength": 2350,
+      "lineCount": 274,
+      "interestingLineCount": 73,
+      "firstInterestingLines": [
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "MÁSLO BONI",
+        "VEJCE",
+        "PODESTÝLKOVÁ M*",
+        "SÝR EIDAM",
+        "30% UZENÝ",
+        "PLÁTKY",
+        "KARLOVA",
+        "KORUNA",
+        "SMETANA",
+        "ZAKYSANÁ",
+        "KARLOVA",
+        "KORUNA",
+        "ANGLICKÁ",
+        "SLANINA",
+        "ŘEZNÍKŮV TALÍŘ",
+        "SALÁM",
+        "VYSOČINA",
+        "ŘEZNÍKŮV",
+        "TALÍŘ",
+        "TOALETNÍ PAPÍR",
+        "OOOPS!*",
+        "Classic",
+        "1 m 0,30 Kč",
+        "INSTANTNÍ",
+        "POLÉVKA",
+        "YUM YUM",
+        "VEPŘOVÁ",
+        "PLEC BEZ",
+        "KOSTI*",
+        "KÁVA MARILA",
+        "STANDARD",
+        "MODRY",
+        "PORTUGAL",
+        "VELTLINSKÉ",
+        "ZELENÉ*",
+        "PEPSI,"
+      ]
+    },
+    {
+      "pageNumber": 4,
+      "textLength": 2277,
+      "lineCount": 276,
+      "interestingLineCount": 75,
+      "firstInterestingLines": [
+        "Super",
+        "Cena!",
+        "Jedinečná",
+        "Super",
+        "Cena!",
+        "CAMEMBERT",
+        "45% BONI",
+        "druhy od 24,90 Kč",
+        "TAVENÝ SÝR BONI",
+        "SÝR",
+        "KORBÁČIK",
+        "KARLOVA",
+        "KORUNA",
+        "TYLŽSKÝ SÝR",
+        "BONI",
+        "STROUHANÝ",
+        "SÝR",
+        "EMMENTÁL",
+        "BONI",
+        "SÝR CHEDDAR",
+        "PLÁTKY BONI",
+        "SÝR ŽERVÉ",
+        "XXL",
+        "KARLOVA",
+        "KORUNA*",
+        "MOZZARELLA",
+        "BONI",
+        "TAVENÝ SÝR",
+        "BONI",
+        "SÝROVÉ",
+        "TYČINKY",
+        "KARLOVA",
+        "KORUNA",
+        "SÝR",
+        "PARENICA",
+        "KARLOVA",
+        "KORUNA",
+        "TVAROH",
+        "MĚKKÝ",
+        "KARLOVA"
+      ]
+    },
+    {
+      "pageNumber": 5,
+      "textLength": 2476,
+      "lineCount": 248,
+      "interestingLineCount": 56,
+      "firstInterestingLines": [
+        "Za nákup výrobků z této strany získáte body navíc!",
+        "200 Kč nákupu = 1 bod 10 bodů = sleva 62 %",
+        "Cena platí s body za nákupy v prodejnách Penny Market. Body za své nákupy můžete získat a uplatnit do 2. 6. 2026. Akce",
+        "platí do vyprodání a vydání zásob v jednotlivých prodejnách Penny Market. Fotografie je pouze ilustrativní. Podrobná",
+        "Polštářová ZOO",
+        "Super",
+        "Cena!",
+        "Super",
+        "Cena!",
+        "SALÁT VLAŠSKÝ,",
+        "CAMPING",
+        "za 36,90 Kč",
+        "ČERSTVÝ SÝR",
+        "KARLOVA",
+        "KORUNA",
+        "RYBÍ POMAZÁNKA",
+        "v nabídce také Tuňáková",
+        "za 26,90 Kč",
+        "RYBÍ SALÁT PIKANT",
+        "s jogurtem Gran Mare",
+        "za 18,90 Kč",
+        "VEJCE V ASPIKU",
+        "POMAZÁNKA",
+        "také další druhy za 19,90 Kč",
+        "ZAVINÁČE",
+        "GRAN MARE",
+        "KOŘENĚNÉ",
+        "MATJESY V OLEJI",
+        "GRAN MARE",
+        "200/130 g | 100 g 23 Kč",
+        "SHOT BIO PENNY",
+        "TO GO",
+        "BRAMBOROVÝ",
+        "KNEDLÍK",
+        "KYSANÉ ZELÍ",
+        "SNACK",
+        "MILKERIA",
+        "21,07/19,67 Kč",
+        "MLÉKO ČERSTVÉ",
+        "3,5% KARLOVA"
+      ]
+    },
+    {
+      "pageNumber": 18,
+      "textLength": 2630,
+      "lineCount": 263,
+      "interestingLineCount": 65,
+      "firstInterestingLines": [
+        "SVĚTOVÝ DEN",
+        "KOKTEJLŮ",
+        "Jedinečná",
+        "Jedinečná",
+        "Super",
+        "Cena!",
+        "LAMBRUSCO",
+        "EMILIA",
+        "GRACIOSO",
+        "LIMONCELLO",
+        "SPRITZ,",
+        "GRACIOSO",
+        "SPRITZ",
+        "LIMONCELLO",
+        "TONIC",
+        "ARAPOW",
+        "VODKA",
+        "JÄGERMEISTER,",
+        "JÄGERMEISTER",
+        "ORANGE",
+        "GRIOTTE, PEPRMINT",
+        "BOŽKOV",
+        "v limitované nabídce také Božkov Modrá 0,5 l",
+        "za 119,90 Kč",
+        "REPUBLICA",
+        "EXCLUSIVE,",
+        "HONEY",
+        "HANÁCKÁ",
+        "VODKA",
+        "ENERGETICKÝ",
+        "NÁPOJ RED BULL",
+        "FRIZZANTE CITY",
+        "SECCO/ROSATO",
+        "DESPERADOS",
+        "ORIGINAL, MOJITO*",
+        "záloha na lahev 3 Kč",
+        "ZLATOPRAMEN",
+        "SOULAD*",
+        "MORANI",
+        "Bianco, Rosso"
+      ]
+    },
+    {
+      "pageNumber": 24,
+      "textLength": 2194,
+      "lineCount": 205,
+      "interestingLineCount": 79,
+      "firstInterestingLines": [
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "PENNY",
+        "Karta",
+        "PENNY",
+        "Karta",
+        "PENNY",
+        "Karta",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Super",
+        "Cena!",
+        "Jedinečná",
+        "GEL NA PRANÍ",
+        "WOOLITE*",
+        "WC POWER",
+        "AKTIV BREF*",
+        "SPREJ NA",
+        "VODNÍ KÁMEN",
+        "CIF*",
+        "PROSTŘEDEK",
+        "NA MYTÍ",
+        "POVRCHŮ",
+        "SIDOLUX",
+        "ČISTIČ ODPADŮ",
+        "FREDY",
+        "GEL PRACÍ",
+        "S MARSEILLSKÝM",
+        "MÝDLEM PALLOR",
+        "(běžně za 41,63 Kč)",
+        "UBROUSKY",
+        "PROTI OBARVENÍ",
+        "PRÁDLA PALLOR",
+        "(běžně za 1,75 Kč)",
+        "PRACÍ PRÁŠEK,",
+        "GEL REX",
+        "DEZINFEKČNÍ"
+      ]
+    },
+    {
+      "pageNumber": 26,
+      "textLength": 1910,
+      "lineCount": 190,
+      "interestingLineCount": 52,
+      "firstInterestingLines": [
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "KAPSIČKY",
+        "PRO KOČKY",
+        "FANTASTIC FELIX*",
+        "KONZERVA PRO",
+        "KOČKY MICINKA",
+        "KONZERVA",
+        "PRO PSY",
+        "HARYK",
+        "GRANULE PRO",
+        "PSY BODIE",
+        "GRANULE PRO",
+        "KOČKY FRISKIES",
+        "STELIVO PRO",
+        "KOČKY S VŮNÍ",
+        "KITTY STAR",
+        "KONZERVY PRO",
+        "KOČKY GOURMET",
+        "GOLD",
+        "FILETY PRO",
+        "PSY BODIE",
+        "SELECT",
+        "Jedinečná",
+        "BROUSEK*",
+        "Jedinečná",
+        "PALIČKA NA",
+        "MASO*",
+        "Jedinečná",
+        "MISKA*",
+        "MISTIČKA*",
+        "PRKÉNKO*",
+        "ø 25 cm za 99,90 Kč",
+        "PEKÁČ*"
+      ]
+    },
+    {
+      "pageNumber": 27,
+      "textLength": 1946,
+      "lineCount": 181,
+      "interestingLineCount": 54,
+      "firstInterestingLines": [
+        "Nabídka z této strany je pro vybrané prodejny omezena. Seznam prodejen najdete na zadní straně letáku.",
+        "UBRUS*",
+        "omyvatelný - PVC,",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "SKLÁDACÍ",
+        "KOŠÍK *",
+        "GRILOVACÍ",
+        "UHLÍ,",
+        "BRIKETY*",
+        "PAPÍROVÉ",
+        "TÁCKY*",
+        "SADA PŘÍBORŮ*",
+        "GRILOVACÍ",
+        "PLECH*",
+        "MISKA NA MARINÁDU*",
+        "KARTÁČ NA",
+        "GRIL*",
+        "SERVÍROVACÍ",
+        "TÁC*",
+        "ZAPALOVAČ*",
+        "SADA DRÁTĚNEK*",
+        "GRILOVACÍ ŠPEJLE*",
+        "POKLOP NA",
+        "POTRAVINY*",
+        "LÁHEV NA PITÍ*",
+        "BOX NA",
+        "POTRAVINY*"
+      ]
+    },
+    {
+      "pageNumber": 29,
+      "textLength": 2508,
+      "lineCount": 189,
+      "interestingLineCount": 76,
+      "firstInterestingLines": [
+        "Nabídka z této strany je pro vybrané prodejny omezena. Seznam prodejen najdete na zadní straně letáku.",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "Jedinečná",
+        "SOLÁRNÍ",
+        "TRPASLÍK*",
+        "ZAHRADNÍ DEKORACE*",
+        "ZÁVĚSNÁ",
+        "DEKORACE*",
+        "PROJASŇOVAČ",
+        "VODY*",
+        "TEPLOMĚR*",
+        "DÁVKOVAČ",
+        "CHEMIE*",
+        "TABLETY",
+        "KOMBI MINI",
+        "3V1*",
+        "TABLETY KOMBI",
+        "MAXI*",
+        "TABLETY MULTI MAXI",
+        "4V1*",
+        "PŘÍPRAVEK",
+        "PH+*"
+      ]
+    },
+    {
+      "pageNumber": 32,
+      "textLength": 3730,
+      "lineCount": 197,
+      "interestingLineCount": 54,
+      "firstInterestingLines": [
+        "PRO TYTO PRODEJNY JE NABÍDKA Z KAPACITNÍCH A JINÝCH LOGISTICKÝCH DŮVODŮ OMEZENA: BEROUN  TŘÍDA MÍRU; HAVLÍČKŮV BROD  UL. U CIHLÁŘE; HLUČÍN  UL. CIHELNÍ; HUMPOLEC  UL. LUŽICKÁ; KLADNO  UL. MILADY HORÁKOVÉ; KOLÍN  UL. BENEŠOVA; KRALUPY NAD",
+        "VLTAVOU  UL. CHMELOVA; LITVÍNOV  UL. JIRÁSKOVA, U BÍLÉHO SLOUPU; LOUNY  UL. PŘEMYSLOVCŮ; LYSÁ NAD LABEM  UL. SOKOLSKÁ; MOST  UL. MOSKEVSKÁ; MILEVSKO  UL. DAROVANÁ; OLOMOUC  UL. WOLKEROVA; OSTRAVA  UL. HLADNOVSKÁ; OSTROV  UL. KRUŠNOHORSKÁ;",
+        "PRAHA  UL. DĚLNICKÁ, JABLONECKÁ, LODŽSKÁ, MAKOVSKÉHO, MATÚŠKOVA, MUKAŘOVSKÉHO, NA PANKRÁCI, NUSELSKÝ PIVOVAR, UL. VRTBOVA, PODĚBRADSKÁ, ŠTEFÁNIKOVA, TERRONSKÁ, VINOHRADSKÁ, VRŠOVICKÁ; ŘEVNICE  UL. KOMENSKÉHO; SEMILY  UL. LUČNÍ; SOKOLOV  UL.",
+        "ZÁVODU MÍRU; TOUŽIM  UL. PLZEŇSKÁ; SLANÝ  UL. OUVALOVA. Chyby v tisku vyhrazeny. Ceny uvedené v letáku jsou v Kč. Ceny jsou bez dekorace. Škrtaná cena je běžná prodejní cena. Mohou být použity ilustrační fotograﬁe. Vyhrazujeme si právo změn v balení a variantě nabízeného",
+        "zboží. Pokud v důsledku nečekaně vysoké poptávky dojde k nedostatku určitého zboží, omlouváme se Vám a děkujeme za pochopení. Odběr zboží z letáku je možný jen v obvyklém množství, maximálně 2 kartony na osobu na den, není-li uvedeno jinak. *Takto označené produkty nenáleží",
+        "do stálého sortimentu, mohou být tedy dodány na příslušné prodejny v menším množství, a z toho důvodu jedinečná nabídka na toto zboží platí pouze první den uvedeného období akce. Tento dokument není nabídkou (návrhem na uzavření smlouvy) ani výzvou k podávání nabídek. Jde",
+        "o dokument určený pouze k marketingovým a propagačním účelům. Vzhledem k faktu, že společnost Penny Market s. r. o. pravidelně provádí kontrolu na přítomnost reziduí používaných chemických látek při pěstování ovoce a zeleniny, shledává občanské sdružení Zdravá potravina, z. s.,",
+        "(Fér potravina) tyto produkty jako nezávadné. ***Cena platí s body za nákupy v prodejnách Penny Market. Body za své nákupy můžete získat a uplatnit od 18. 3. 2026 do 2. 6. 2026. Akce platí do vyprodání a vydání zásob v jednotlivých prodejnách Penny Market. Fotograﬁe jsou pouze ilustrativní.",
+        "Podrobná pravidla na www.penny.cz. **Výrobcem doporučená cena.",
+        "Přijímáme:",
+        "SUŠENKY",
+        "RODINNÉ",
+        "POLOMÁČENÉ",
+        "SEDITA",
+        "PIZZA",
+        "TROJHRÁNEK",
+        "MINI",
+        "KARBANÁTKY",
+        "PENNY TO GO",
+        "OCHUCENÝ JOGURT",
+        "KARLOVA KORUNA",
+        "KOLÁČ TVAROH, MÁK,",
+        "JABLKO KARLOVA",
+        "KORUNA",
+        "UZENÁ",
+        "ROLOVANÁ",
+        "PLEC",
+        "ŘEZNÍKŮV",
+        "TALÍŘ",
+        "JEMNÉ",
+        "PÁRKY",
+        "ŘEZNÍKŮV",
+        "TALÍŘ",
+        "VEPŘOVÉ",
+        "KOSTKY",
+        "NA GULÁŠ",
+        "DOBRÉ MASO",
+        "TRVANLIVÉ",
+        "PLNOTUČNÉ",
+        "MLÉKO MADETA"
+      ]
+    }
+  ],
+  "safePatchCandidatePreview": [
+    {
+      "id": "penny-pdf-target-v2-d204f23a0f848ca7",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "TRVANLIVÉ MLÉKO BONI",
+      "price": 21.9,
+      "priceText": "21,90 Kč",
+      "packageSize": "80 g",
+      "category": "mléčné a chlazené",
+      "pageNumber": 4,
+      "searchTerms": [
+        "mléčné a chlazené",
+        "mléko",
+        "trvanlivé mléko",
+        "Boni"
+      ],
+      "confidence": "targeted-pdf-context-v2-price-candidate",
+      "suspect": true,
+      "suspectReasons": [
+        "kontrolní kandidát z cíleného PDF kontextu – před importem ověřit proti letáku"
+      ],
+      "priceCandidates": [
+        {
+          "price": 24.88,
+          "priceText": "24,88 Kč",
+          "index": 48,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "OVÉ | TYČINKY | KARLOVA | KORUNA | 80 g | 100 g 24,88 Kč | SÝR | PARENICA | KARLOVA | KORUNA | uzená, | neuzená | 110 g | 100 g 26,27 Kč |"
+        },
+        {
+          "price": 26.27,
+          "priceText": "26,27 Kč",
+          "index": 128,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "g | 100 g 24,88 Kč | SÝR | PARENICA | KARLOVA | KORUNA | uzená, | neuzená | 110 g | 100 g 26,27 Kč | TVAROH | MĚKKÝ | KARLOVA | KORUNA | 250 g | 100 g 7,56 Kč | SÝR | BRYNDZA | BON"
+        },
+        {
+          "price": 7.56,
+          "priceText": "7,56 Kč",
+          "index": 189,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "á, | neuzená | 110 g | 100 g 26,27 Kč | TVAROH | MĚKKÝ | KARLOVA | KORUNA | 250 g | 100 g 7,56 Kč | SÝR | BRYNDZA | BONI | 125 g | 100 g 20,72 Kč | TRADIČNÍ | POMAZÁNKOVÉ | BONI |"
+        },
+        {
+          "price": 20.72,
+          "priceText": "20,72 Kč",
+          "index": 236,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "| MĚKKÝ | KARLOVA | KORUNA | 250 g | 100 g 7,56 Kč | SÝR | BRYNDZA | BONI | 125 g | 100 g 20,72 Kč | TRADIČNÍ | POMAZÁNKOVÉ | BONI | neochucené | 200 g | 100 g 9,95 Kč | v nabídce"
+        },
+        {
+          "price": 9.95,
+          "priceText": "9,95 Kč",
+          "index": 306,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "ONI | 125 g | 100 g 20,72 Kč | TRADIČNÍ | POMAZÁNKOVÉ | BONI | neochucené | 200 g | 100 g 9,95 Kč | v nabídce také další | druhy za 21,90 Kč | JADEL BONI | různé druhy | 100 g | GO"
+        },
+        {
+          "price": 21.9,
+          "priceText": "21,90 Kč",
+          "index": 348,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "POMAZÁNKOVÉ | BONI | neochucené | 200 g | 100 g 9,95 Kč | v nabídce také další | druhy za 21,90 Kč | JADEL BONI | různé druhy | 100 g | GOUDA 48% | BONI | plátky | 150 g | 100 g 17"
+        },
+        {
+          "price": 17.27,
+          "priceText": "17,27 Kč",
+          "index": 436,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "a 21,90 Kč | JADEL BONI | různé druhy | 100 g | GOUDA 48% | BONI | plátky | 150 g | 100 g 17,27 Kč | JOGURT ŘECKÝ | KARLOVA | KORUNA | různé druhy | 140 g | 100 g 8,50 Kč | v nabíd"
+        },
+        {
+          "price": 8.5,
+          "priceText": "8,50 Kč",
+          "index": 509,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "| 150 g | 100 g 17,27 Kč | JOGURT ŘECKÝ | KARLOVA | KORUNA | různé druhy | 140 g | 100 g 8,50 Kč | v nabídce také bílý | 140 g za 11,90 Kč | BÍLÝ JOGURT | KARLOVA | KORUNA | 500 g"
+        },
+        {
+          "price": 11.9,
+          "priceText": "11,90 Kč",
+          "index": 550,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "| KARLOVA | KORUNA | různé druhy | 140 g | 100 g 8,50 Kč | v nabídce také bílý | 140 g za 11,90 Kč | BÍLÝ JOGURT | KARLOVA | KORUNA | 500 g | 100 g 2,98 Kč | JOGURT | ACTIVE | S BI"
+        },
+        {
+          "price": 2.98,
+          "priceText": "2,98 Kč",
+          "index": 608,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "v nabídce také bílý | 140 g za 11,90 Kč | BÍLÝ JOGURT | KARLOVA | KORUNA | 500 g | 100 g 2,98 Kč | JOGURT | ACTIVE | S BIFIDO | KULTUROU | KARLOVA | KORUNA | různé druhy | 130 g |"
+        },
+        {
+          "price": 6.08,
+          "priceText": "6,08 Kč",
+          "index": 707,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "JOGURT | ACTIVE | S BIFIDO | KULTUROU | KARLOVA | KORUNA | různé druhy | 130 g | 100 g | 6,08 Kč | ilustrační foto | TRVANLIVÉ | MLÉKO BONI | polotučné, | 1,5 % tuku | 1 l | < 8,9"
+        },
+        {
+          "price": 8.9,
+          "priceText": "8,90 Kč",
+          "index": 794,
+          "isLowest30": true,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "| 6,08 Kč | ilustrační foto | TRVANLIVÉ | MLÉKO BONI | polotučné, | 1,5 % tuku | 1 l | < 8,90 Kč | JOGURT BÍLÝ | 3,9% BONI | 1 kg | MLÉČNÝ | ČOKOLÁDOVÝ DEZERT | S LÍSKOVÝMI OŘÍŠKY"
+        },
+        {
+          "price": 9.93,
+          "priceText": "9,93 Kč",
+          "index": 906,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "| 3,9% BONI | 1 kg | MLÉČNÝ | ČOKOLÁDOVÝ DEZERT | S LÍSKOVÝMI OŘÍŠKY BONI | 150 g | 100 g 9,93 Kč | DEZERT | ZE ZAKYSANÉ | SMETANY BONI | různé druhy | 150 g | 100 g 7,93 Kč | 150"
+        },
+        {
+          "price": 7.93,
+          "priceText": "7,93 Kč",
+          "index": 982,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "150 g | 100 g 9,93 Kč | DEZERT | ZE ZAKYSANÉ | SMETANY BONI | různé druhy | 150 g | 100 g 7,93 Kč | 150 g | 500 g | ks | 12 | MAX. | osoba/nákup/ | den | 1 kg | Nabídka platná od s"
+        }
+      ],
+      "rawContext": "OVÉ | TYČINKY | KARLOVA | KORUNA | 80 g | 100 g 24,88 Kč | SÝR | PARENICA | KARLOVA | KORUNA | uzená, | neuzená | 110 g | 100 g 26,27 Kč | TVAROH | MĚKKÝ | KARLOVA | KORUNA | 250 g | 100 g 7,56 Kč | SÝR | BRYNDZA | BONI | 125 g | 100 g 20,72 Kč | TRADIČNÍ | POMAZÁNKOVÉ | BONI | neochucené | 200 g | 100 g 9,95 Kč | v nabídce také další | druhy za 21,90 Kč | JADEL BONI | různé druhy | 100 g | GOUDA 48% | BONI | plátky | 150 g | 100 g 17,27 Kč | JOGURT ŘECKÝ | KARLOVA | KORUNA | různé druhy | 140 g | 100 g 8,50 Kč | v nabídce také bílý | 140 g za 11,90 Kč | BÍLÝ JOGURT | KARLOVA | KORUNA | 500 g | 100 g 2,98 Kč | JOGURT | ACTIVE | S BIFIDO | KULTUROU | KARLOVA | KORUNA | různé druhy | 130 g | 100 g | 6,08 Kč | ilustrační foto | TRVANLIVÉ | MLÉKO BONI | polotučné, | 1,5 % tuku | 1 l | < 8,90 Kč | JOGURT BÍLÝ | 3,9% BONI | 1 kg | MLÉČNÝ | ČOKOLÁDOVÝ DEZERT | S LÍSKOVÝMI OŘÍŠKY BONI | 150 g | 100 g 9,93 Kč | DEZERT | ZE ZAKYSANÉ | SMETANY BONI | různé druhy | 150 g | 100 g 7,93 Kč | 150 g | 500 g | ks | 12 | MAX. | osoba/nákup/ | den | 1 kg | Nabídka platná od středy 13. 5. do úterý 19. 5. 2026 |"
+    },
+    {
+      "id": "penny-pdf-target-v2-2c845d25741b8984",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "MLÉKO ČERSTVÉ 3,5% KARLOVA KORUNA",
+      "price": 26.9,
+      "priceText": "26,90 Kč",
+      "packageSize": "100 g",
+      "category": "mléčné a chlazené",
+      "pageNumber": 5,
+      "searchTerms": [
+        "mléčné a chlazené",
+        "mléko",
+        "čerstvé mléko",
+        "Karlova Koruna"
+      ],
+      "confidence": "targeted-pdf-context-v2-price-candidate",
+      "suspect": true,
+      "suspectReasons": [
+        "kontrolní kandidát z cíleného PDF kontextu – před importem ověřit proti letáku"
+      ],
+      "priceCandidates": [
+        {
+          "price": 16.22,
+          "priceText": "16,22 Kč",
+          "index": 46,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "RUNA | 100 g | RYBÍ POMAZÁNKA | 135 g | 100 g 16,22 Kč | v nabídce také Tuňáková | pomazánka 125 g | za 26,90 Kč | RYBÍ SALÁT PIKANT | 1"
+        },
+        {
+          "price": 26.9,
+          "priceText": "26,90 Kč",
+          "index": 104,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "RYBÍ POMAZÁNKA | 135 g | 100 g 16,22 Kč | v nabídce také Tuňáková | pomazánka 125 g | za 26,90 Kč | RYBÍ SALÁT PIKANT | 135 g | 100 g 13,26 Kč | v nabídce také rybí salát | s jogu"
+        },
+        {
+          "price": 13.26,
+          "priceText": "13,26 Kč",
+          "index": 149,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "nabídce také Tuňáková | pomazánka 125 g | za 26,90 Kč | RYBÍ SALÁT PIKANT | 135 g | 100 g 13,26 Kč | v nabídce také rybí salát | s jogurtem Gran Mare | za 18,90 Kč | VEJCE V ASPIKU"
+        },
+        {
+          "price": 18.9,
+          "priceText": "18,90 Kč",
+          "index": 214,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "T PIKANT | 135 g | 100 g 13,26 Kč | v nabídce také rybí salát | s jogurtem Gran Mare | za 18,90 Kč | VEJCE V ASPIKU | 200 g | 100 g 11,45 Kč | POMAZÁNKA | salámová | 135 g | 100 g"
+        },
+        {
+          "price": 11.45,
+          "priceText": "11,45 Kč",
+          "index": 256,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "dce také rybí salát | s jogurtem Gran Mare | za 18,90 Kč | VEJCE V ASPIKU | 200 g | 100 g 11,45 Kč | POMAZÁNKA | salámová | 135 g | 100 g 14,74 Kč | v nabídce | také další druhy za"
+        },
+        {
+          "price": 14.74,
+          "priceText": "14,74 Kč",
+          "index": 304,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "18,90 Kč | VEJCE V ASPIKU | 200 g | 100 g 11,45 Kč | POMAZÁNKA | salámová | 135 g | 100 g 14,74 Kč | v nabídce | také další druhy za 19,90 Kč | ZAVINÁČE | GRAN MARE | 400/220 g | 1"
+        },
+        {
+          "price": 19.9,
+          "priceText": "19,90 Kč",
+          "index": 347,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "1,45 Kč | POMAZÁNKA | salámová | 135 g | 100 g 14,74 Kč | v nabídce | také další druhy za 19,90 Kč | ZAVINÁČE | GRAN MARE | 400/220 g | 100 g 20,41 Kč | KOŘENĚNÉ | MATJESY V OLEJI"
+        },
+        {
+          "price": 20.41,
+          "priceText": "20,41 Kč",
+          "index": 399,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "Kč | v nabídce | také další druhy za 19,90 Kč | ZAVINÁČE | GRAN MARE | 400/220 g | 100 g 20,41 Kč | KOŘENĚNÉ | MATJESY V OLEJI | GRAN MARE | 200/130 g | 100 g 23 Kč | SHOT BIO PEN"
+        },
+        {
+          "price": 15.93,
+          "priceText": "15,93 Kč",
+          "index": 535,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "ARE | 200/130 g | 100 g 23 Kč | SHOT BIO PENNY | TO GO | ginger/kurkuma | 150 ml | 100 ml 15,93 Kč | BRAMBOROVÝ | KNEDLÍK | 500 g | 100 g 6,58 Kč | KYSANÉ ZELÍ | chlazené bílé | 50"
+        },
+        {
+          "price": 6.58,
+          "priceText": "6,58 Kč",
+          "index": 583,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "TO GO | ginger/kurkuma | 150 ml | 100 ml 15,93 Kč | BRAMBOROVÝ | KNEDLÍK | 500 g | 100 g 6,58 Kč | KYSANÉ ZELÍ | chlazené bílé | 500/350 g | 100 g 3,40 Kč | SNACK | MILKERIA | růz"
+        },
+        {
+          "price": 3.4,
+          "priceText": "3,40 Kč",
+          "index": 641,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "OROVÝ | KNEDLÍK | 500 g | 100 g 6,58 Kč | KYSANÉ ZELÍ | chlazené bílé | 500/350 g | 100 g 3,40 Kč | SNACK | MILKERIA | různé druhy | 28/30 g | 100 g | 21,07/19,67 Kč | MLÉKO ČERSTV"
+        },
+        {
+          "price": 19.67,
+          "priceText": "19,67 Kč",
+          "index": 708,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "lé | 500/350 g | 100 g 3,40 Kč | SNACK | MILKERIA | různé druhy | 28/30 g | 100 g | 21,07/19,67 Kč | MLÉKO ČERSTVÉ | 3,5% KARLOVA | KORUNA PET | 1 l | KEFÍROVÉ | MLÉKO | KARLOVA |"
+        },
+        {
+          "price": 19.8,
+          "priceText": "19,80 Kč",
+          "index": 836,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "A | KORUNA PET | 1 l | KEFÍROVÉ | MLÉKO | KARLOVA | KORUNA | nízkotučné | 500 ml | 100 ml 19,80 Kč | MLÉKO | ACIDOFILNÍ | KARLOVA | KORUNA | 950 g | 100 g 2,94 Kč | DRINK | JOGURTO"
+        },
+        {
+          "price": 2.94,
+          "priceText": "2,94 Kč",
+          "index": 901,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "otučné | 500 ml | 100 ml 19,80 Kč | MLÉKO | ACIDOFILNÍ | KARLOVA | KORUNA | 950 g | 100 g 2,94 Kč | DRINK | JOGURTOVÝ | KARLOVA | KORUNA | různé druhy | 400 g | 100 g 3,98 Kč | HUM"
+        },
+        {
+          "price": 3.98,
+          "priceText": "3,98 Kč",
+          "index": 978,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "50 g | 100 g 2,94 Kč | DRINK | JOGURTOVÝ | KARLOVA | KORUNA | různé druhy | 400 g | 100 g 3,98 Kč | HUMMUS | různé druhy | 120 g | 100 g 9,08 Kč | POLÉVKA | různé | druhy | 650 g |"
+        },
+        {
+          "price": 9.08,
+          "priceText": "9,08 Kč",
+          "index": 1025,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "OVA | KORUNA | různé druhy | 400 g | 100 g 3,98 Kč | HUMMUS | různé druhy | 120 g | 100 g 9,08 Kč | POLÉVKA | různé | druhy | 650 g | 1 kg 69,08 Kč | 1 bod | navíc | 1 ks = | 1 bod"
+        },
+        {
+          "price": 69.08,
+          "priceText": "69,08 Kč",
+          "index": 1074,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "č | HUMMUS | různé druhy | 120 g | 100 g 9,08 Kč | POLÉVKA | různé | druhy | 650 g | 1 kg 69,08 Kč | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bo"
+        }
+      ],
+      "rawContext": "RUNA | 100 g | RYBÍ POMAZÁNKA | 135 g | 100 g 16,22 Kč | v nabídce také Tuňáková | pomazánka 125 g | za 26,90 Kč | RYBÍ SALÁT PIKANT | 135 g | 100 g 13,26 Kč | v nabídce také rybí salát | s jogurtem Gran Mare | za 18,90 Kč | VEJCE V ASPIKU | 200 g | 100 g 11,45 Kč | POMAZÁNKA | salámová | 135 g | 100 g 14,74 Kč | v nabídce | také další druhy za 19,90 Kč | ZAVINÁČE | GRAN MARE | 400/220 g | 100 g 20,41 Kč | KOŘENĚNÉ | MATJESY V OLEJI | GRAN MARE | 200/130 g | 100 g 23 Kč | SHOT BIO PENNY | TO GO | ginger/kurkuma | 150 ml | 100 ml 15,93 Kč | BRAMBOROVÝ | KNEDLÍK | 500 g | 100 g 6,58 Kč | KYSANÉ ZELÍ | chlazené bílé | 500/350 g | 100 g 3,40 Kč | SNACK | MILKERIA | různé druhy | 28/30 g | 100 g | 21,07/19,67 Kč | MLÉKO ČERSTVÉ | 3,5% KARLOVA | KORUNA PET | 1 l | KEFÍROVÉ | MLÉKO | KARLOVA | KORUNA | nízkotučné | 500 ml | 100 ml 19,80 Kč | MLÉKO | ACIDOFILNÍ | KARLOVA | KORUNA | 950 g | 100 g 2,94 Kč | DRINK | JOGURTOVÝ | KARLOVA | KORUNA | různé druhy | 400 g | 100 g 3,98 Kč | HUMMUS | různé druhy | 120 g | 100 g 9,08 Kč | POLÉVKA | různé | druhy | 650 g | 1 kg 69,08 Kč | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod | navíc | 1 ks = | 1 bod |"
+    },
+    {
+      "id": "penny-pdf-target-v2-42f136efa1db9b64",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "TRVANLIVÉ PLNOTUČNÉ MLÉKO MADETA",
+      "price": 79.9,
+      "priceText": "79,90 Kč",
+      "packageSize": "90 g",
+      "category": "mléčné a chlazené",
+      "pageNumber": 32,
+      "searchTerms": [
+        "mléčné a chlazené",
+        "mléko",
+        "plnotučné mléko",
+        "Madeta"
+      ],
+      "confidence": "targeted-pdf-context-v2-price-candidate",
+      "suspect": true,
+      "suspectReasons": [
+        "kontrolní kandidát z cíleného PDF kontextu – před importem ověřit proti letáku"
+      ],
+      "priceCandidates": [
+        {
+          "price": 79.9,
+          "priceText": "79,90 Kč",
+          "index": 2,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "| 79,90 | 95,90/ | 16% | 00,00 | 00,00 | 00% | 13,90 | 27,90/ | 50% | 00,00 | 00,00 | 00% |"
+        },
+        {
+          "price": 13.9,
+          "priceText": "13,90 Kč",
+          "index": 47,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "| 79,90 | 95,90/ | 16% | 00,00 | 00,00 | 00% | 13,90 | 27,90/ | 50% | 00,00 | 00,00 | 00% | 11,90 | 17,90/ | 33% | 00,00 | 00,00 | 00% |"
+        },
+        {
+          "price": 11.9,
+          "priceText": "11,90 Kč",
+          "index": 92,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "79,90 | 95,90/ | 16% | 00,00 | 00,00 | 00% | 13,90 | 27,90/ | 50% | 00,00 | 00,00 | 00% | 11,90 | 17,90/ | 33% | 00,00 | 00,00 | 00% | 49,90 | 79,90/ | 37% | 00,00 | 00,00 | 00% |"
+        },
+        {
+          "price": 49.9,
+          "priceText": "49,90 Kč",
+          "index": 137,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "13,90 | 27,90/ | 50% | 00,00 | 00,00 | 00% | 11,90 | 17,90/ | 33% | 00,00 | 00,00 | 00% | 49,90 | 79,90/ | 37% | 00,00 | 00,00 | 00% | 12,90 | 24,90/ | 48% | 00,00 | 00,00 | 00% |"
+        },
+        {
+          "price": 12.9,
+          "priceText": "12,90 Kč",
+          "index": 182,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "11,90 | 17,90/ | 33% | 00,00 | 00,00 | 00% | 49,90 | 79,90/ | 37% | 00,00 | 00,00 | 00% | 12,90 | 24,90/ | 48% | 00,00 | 00,00 | 00% | 34,90 | 59,90/ | 41% | 00,00 | 00,00 | 00% |"
+        },
+        {
+          "price": 34.9,
+          "priceText": "34,90 Kč",
+          "index": 227,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "49,90 | 79,90/ | 37% | 00,00 | 00,00 | 00% | 12,90 | 24,90/ | 48% | 00,00 | 00,00 | 00% | 34,90 | 59,90/ | 41% | 00,00 | 00,00 | 00% | 24,90 | 49,90/ | 50% | ilustrační foto | PIZZ"
+        },
+        {
+          "price": 24.9,
+          "priceText": "24,90 Kč",
+          "index": 272,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "12,90 | 24,90/ | 48% | 00,00 | 00,00 | 00% | 34,90 | 59,90/ | 41% | 00,00 | 00,00 | 00% | 24,90 | 49,90/ | 50% | ilustrační foto | PIZZA | TROJHRÁNEK | ze zmrazeného | polotovaru |"
+        },
+        {
+          "price": 9.89,
+          "priceText": "9,89 Kč",
+          "index": 376,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "| 50% | ilustrační foto | PIZZA | TROJHRÁNEK | ze zmrazeného | polotovaru | 90 g | 100 g 9,89 Kč | MINI | KARBANÁTKY | PENNY TO GO | 500 g | 100 g 15,98 Kč | OCHUCENÝ JOGURT | KAR"
+        },
+        {
+          "price": 15.98,
+          "priceText": "15,98 Kč",
+          "index": 434,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "ého | polotovaru | 90 g | 100 g 9,89 Kč | MINI | KARBANÁTKY | PENNY TO GO | 500 g | 100 g 15,98 Kč | OCHUCENÝ JOGURT | KARLOVA KORUNA | různé druhy | 150 g | 100 g 5,93 Kč | KOLÁČ"
+        },
+        {
+          "price": 5.93,
+          "priceText": "5,93 Kč",
+          "index": 508,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "| 500 g | 100 g 15,98 Kč | OCHUCENÝ JOGURT | KARLOVA KORUNA | různé druhy | 150 g | 100 g 5,93 Kč | KOLÁČ TVAROH, MÁK, | JABLKO KARLOVA | KORUNA | rozmrazeno | 80 g | 100 g 12,38 K"
+        },
+        {
+          "price": 12.38,
+          "priceText": "12,38 Kč",
+          "index": 591,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "100 g 5,93 Kč | KOLÁČ TVAROH, MÁK, | JABLKO KARLOVA | KORUNA | rozmrazeno | 80 g | 100 g 12,38 Kč | UZENÁ | ROLOVANÁ | PLEC | ŘEZNÍKŮV | TALÍŘ | cena za 1 kg | JEMNÉ | PÁRKY | ŘEZ"
+        },
+        {
+          "price": 16.45,
+          "priceText": "16,45 Kč",
+          "index": 711,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "PLEC | ŘEZNÍKŮV | TALÍŘ | cena za 1 kg | JEMNÉ | PÁRKY | ŘEZNÍKŮV | TALÍŘ | 200 g | 100 g 16,45 Kč | VEPŘOVÉ | KOSTKY | NA GULÁŠ | DOBRÉ MASO | 600 g | 1 kg 133,17 Kč | TRVANLIVÉ |"
+        },
+        {
+          "price": 133.17,
+          "priceText": "133,17 Kč",
+          "index": 778,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "TALÍŘ | 200 g | 100 g 16,45 Kč | VEPŘOVÉ | KOSTKY | NA GULÁŠ | DOBRÉ MASO | 600 g | 1 kg 133,17 Kč | TRVANLIVÉ | PLNOTUČNÉ | MLÉKO MADETA | 3,5% | 1 l | < 14,90 Kč | MINERÁLNÍ VOD"
+        },
+        {
+          "price": 14.9,
+          "priceText": "14,90 Kč",
+          "index": 844,
+          "isLowest30": true,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "BRÉ MASO | 600 g | 1 kg 133,17 Kč | TRVANLIVÉ | PLNOTUČNÉ | MLÉKO MADETA | 3,5% | 1 l | < 14,90 Kč | MINERÁLNÍ VODA | GEMERKA | 1,5 l | jemně perlivá, | tichá | 1 l 7,93 Kč | < 11,"
+        },
+        {
+          "price": 7.93,
+          "priceText": "7,93 Kč",
+          "index": 919,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "3,5% | 1 l | < 14,90 Kč | MINERÁLNÍ VODA | GEMERKA | 1,5 l | jemně perlivá, | tichá | 1 l 7,93 Kč | < 11,90 Kč | BROSKVE | balené | 500 g | 1 kg 99,80 Kč | PÓREK | cena za 1 ks | M"
+        },
+        {
+          "price": 11.9,
+          "priceText": "11,90 Kč",
+          "index": 931,
+          "isLowest30": true,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "< 14,90 Kč | MINERÁLNÍ VODA | GEMERKA | 1,5 l | jemně perlivá, | tichá | 1 l 7,93 Kč | < 11,90 Kč | BROSKVE | balené | 500 g | 1 kg 99,80 Kč | PÓREK | cena za 1 ks | MALINY | 125"
+        },
+        {
+          "price": 99.8,
+          "priceText": "99,80 Kč",
+          "index": 974,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "5 l | jemně perlivá, | tichá | 1 l 7,93 Kč | < 11,90 Kč | BROSKVE | balené | 500 g | 1 kg 99,80 Kč | PÓREK | cena za 1 ks | MALINY | 125 g | 1 kg 279,20 Kč | POMERANČE | volné | ce"
+        },
+        {
+          "price": 279.2,
+          "priceText": "279,20 Kč",
+          "index": 1030,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "| BROSKVE | balené | 500 g | 1 kg 99,80 Kč | PÓREK | cena za 1 ks | MALINY | 125 g | 1 kg 279,20 Kč | POMERANČE | volné | cena za 1 kg | ks | 12 | MAX. | osoba/nákup/ | den | 90% |"
+        },
+        {
+          "price": 79.9,
+          "priceText": "79,90 Kč",
+          "index": 1148,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "é | cena za 1 kg | ks | 12 | MAX. | osoba/nákup/ | den | 90% | masa | 00,00 | 00,00 | % | 79,90 | 109,90/ | 27% | TATARSKÝ BIFTEK | DOBRÉ MASO | 250 g | 1 kg 319,60 Kč | ilustrační"
+        },
+        {
+          "price": 319.6,
+          "priceText": "319,60 Kč",
+          "index": 1216,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "| 00,00 | 00,00 | % | 79,90 | 109,90/ | 27% | TATARSKÝ BIFTEK | DOBRÉ MASO | 250 g | 1 kg 319,60 Kč | ilustrační foto | 99% | masa | % | PONDĚLÍ A ÚTERÝ | SUPER | PO | ÚT | Nabídka"
+        }
+      ],
+      "rawContext": "| 79,90 | 95,90/ | 16% | 00,00 | 00,00 | 00% | 13,90 | 27,90/ | 50% | 00,00 | 00,00 | 00% | 11,90 | 17,90/ | 33% | 00,00 | 00,00 | 00% | 49,90 | 79,90/ | 37% | 00,00 | 00,00 | 00% | 12,90 | 24,90/ | 48% | 00,00 | 00,00 | 00% | 34,90 | 59,90/ | 41% | 00,00 | 00,00 | 00% | 24,90 | 49,90/ | 50% | ilustrační foto | PIZZA | TROJHRÁNEK | ze zmrazeného | polotovaru | 90 g | 100 g 9,89 Kč | MINI | KARBANÁTKY | PENNY TO GO | 500 g | 100 g 15,98 Kč | OCHUCENÝ JOGURT | KARLOVA KORUNA | různé druhy | 150 g | 100 g 5,93 Kč | KOLÁČ TVAROH, MÁK, | JABLKO KARLOVA | KORUNA | rozmrazeno | 80 g | 100 g 12,38 Kč | UZENÁ | ROLOVANÁ | PLEC | ŘEZNÍKŮV | TALÍŘ | cena za 1 kg | JEMNÉ | PÁRKY | ŘEZNÍKŮV | TALÍŘ | 200 g | 100 g 16,45 Kč | VEPŘOVÉ | KOSTKY | NA GULÁŠ | DOBRÉ MASO | 600 g | 1 kg 133,17 Kč | TRVANLIVÉ | PLNOTUČNÉ | MLÉKO MADETA | 3,5% | 1 l | < 14,90 Kč | MINERÁLNÍ VODA | GEMERKA | 1,5 l | jemně perlivá, | tichá | 1 l 7,93 Kč | < 11,90 Kč | BROSKVE | balené | 500 g | 1 kg 99,80 Kč | PÓREK | cena za 1 ks | MALINY | 125 g | 1 kg 279,20 Kč | POMERANČE | volné | cena za 1 kg | ks | 12 | MAX. | osoba/nákup/ | den | 90% | masa | 00,00 | 00,00 | % | 79,90 | 109,90/ | 27% | TATARSKÝ BIFTEK | DOBRÉ MASO | 250 g | 1 kg 319,60 Kč | ilustrační foto | 99% | masa | % | PONDĚLÍ A ÚTERÝ | SUPER | PO | ÚT | Nabídka platí od pondělí 18. 5. do úterý 19. 5. 2026 | obsahuje | vápník a hořčík |"
+    },
+    {
+      "id": "penny-pdf-target-v2-ffbff43038e64c9d",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "GEL NA PRANÍ WOOLITE",
+      "price": 199.9,
+      "priceText": "199,90 Kč",
+      "packageSize": "3,6 l",
+      "category": "drogerie",
+      "pageNumber": 24,
+      "searchTerms": [
+        "drogerie",
+        "praní",
+        "Woolite"
+      ],
+      "confidence": "targeted-pdf-context-v2-price-candidate",
+      "suspect": true,
+      "suspectReasons": [
+        "kontrolní kandidát z cíleného PDF kontextu – před importem ověřit proti letáku"
+      ],
+      "priceCandidates": [
+        {
+          "price": 199.9,
+          "priceText": "199,90 Kč",
+          "index": 118,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "| < Nejnižší cena za posledních 30 dní | MOJE PENNY KARTA | % | % | nabídka | Jedinečná | 199,90 | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty"
+        },
+        {
+          "price": 79.9,
+          "priceText": "79,90 Kč",
+          "index": 149,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "30 dní | MOJE PENNY KARTA | % | % | nabídka | Jedinečná | 199,90 | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90"
+        },
+        {
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "index": 179,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "| % | nabídka | Jedinečná | 199,90 | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90 | 41% | 00,00 | 00,00 | 00% |"
+        },
+        {
+          "price": 34.9,
+          "priceText": "34,90 Kč",
+          "index": 226,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "Jedinečná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90 | 41% | 00,00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty |"
+        },
+        {
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "index": 234,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "ná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90 | 41% | 00,00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty | PENNY |"
+        },
+        {
+          "price": 29.9,
+          "priceText": "29,90 Kč",
+          "index": 270,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "9,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90 | 41% | 00,00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty | PENNY | Karta | 89,90 | 124,90 | 28% | cena"
+        },
+        {
+          "price": 89.9,
+          "priceText": "89,90 Kč",
+          "index": 332,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "41% | 00,00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty | PENNY | Karta | 89,90 | 124,90 | 28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00"
+        },
+        {
+          "price": 124.9,
+          "priceText": "124,90 Kč",
+          "index": 340,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": ",00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty | PENNY | Karta | 89,90 | 124,90 | 28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00 | 00,00"
+        },
+        {
+          "price": 26.9,
+          "priceText": "26,90 Kč",
+          "index": 394,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "nny karty | PENNY | Karta | 89,90 | 124,90 | 28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00 | 00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 8"
+        },
+        {
+          "price": 41.9,
+          "priceText": "41,90 Kč",
+          "index": 402,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "y | PENNY | Karta | 89,90 | 124,90 | 28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00 | 00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 89,90 | 0"
+        },
+        {
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "index": 438,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00 | 00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 89,90 | 00,00 | 00,00 | 00% | 199,90 | 249,90"
+        },
+        {
+          "price": 89.9,
+          "priceText": "89,90 Kč",
+          "index": 483,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "26,90 | 41,90 | 35% | 00,00 | 00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 89,90 | 00,00 | 00,00 | 00% | 199,90 | 249,90/ | 20% | nabídka | Jedinečná | 79,90 | nabíd"
+        },
+        {
+          "price": 199.9,
+          "priceText": "199,90 Kč",
+          "index": 513,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 89,90 | 00,00 | 00,00 | 00% | 199,90 | 249,90/ | 20% | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 99,90 | nabíd"
+        },
+        {
+          "price": 79.9,
+          "priceText": "79,90 Kč",
+          "index": 560,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "Jedinečná | 89,90 | 00,00 | 00,00 | 00% | 199,90 | 249,90/ | 20% | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,9"
+        },
+        {
+          "price": 99.9,
+          "priceText": "99,90 Kč",
+          "index": 590,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "0,00 | 00% | 199,90 | 249,90/ | 20% | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,90 | nabídka | Jedinečná | 399,"
+        },
+        {
+          "price": 299.9,
+          "priceText": "299,90 Kč",
+          "index": 620,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "| 20% | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,90 | nabídka | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* |"
+        },
+        {
+          "price": 199.9,
+          "priceText": "199,90 Kč",
+          "index": 645,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "ná | 79,90 | nabídka | Jedinečná | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,90 | nabídka | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* | různé druhy | 3,6 l | 1"
+        },
+        {
+          "price": 399.9,
+          "priceText": "399,90 Kč",
+          "index": 676,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "á | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,90 | nabídka | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* | různé druhy | 3,6 l | 1 l 55,53 Kč | < 199,90 Kč | WC P"
+        },
+        {
+          "price": 55.53,
+          "priceText": "55,53 Kč",
+          "index": 737,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "9,90 | nabídka | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* | různé druhy | 3,6 l | 1 l 55,53 Kč | < 199,90 Kč | WC POWER | AKTIV BREF* | různé druhy | 4x 50 g | 1 kg 399,50 Kč |"
+        },
+        {
+          "price": 199.9,
+          "priceText": "199,90 Kč",
+          "index": 750,
+          "isLowest30": true,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "a | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* | různé druhy | 3,6 l | 1 l 55,53 Kč | < 199,90 Kč | WC POWER | AKTIV BREF* | různé druhy | 4x 50 g | 1 kg 399,50 Kč | SPREJ NA | V"
+        },
+        {
+          "price": 399.5,
+          "priceText": "399,50 Kč",
+          "index": 816,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": ",6 l | 1 l 55,53 Kč | < 199,90 Kč | WC POWER | AKTIV BREF* | různé druhy | 4x 50 g | 1 kg 399,50 Kč | SPREJ NA | VODNÍ KÁMEN | CIF* | 750 ml | 1 l 79,87 Kč | < 59,90 Kč | PROSTŘEDE"
+        },
+        {
+          "price": 79.87,
+          "priceText": "79,87 Kč",
+          "index": 873,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "* | různé druhy | 4x 50 g | 1 kg 399,50 Kč | SPREJ NA | VODNÍ KÁMEN | CIF* | 750 ml | 1 l 79,87 Kč | < 59,90 Kč | PROSTŘEDEK | NA MYTÍ | POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČIST"
+        },
+        {
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "index": 886,
+          "isLowest30": true,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "hy | 4x 50 g | 1 kg 399,50 Kč | SPREJ NA | VODNÍ KÁMEN | CIF* | 750 ml | 1 l 79,87 Kč | < 59,90 Kč | PROSTŘEDEK | NA MYTÍ | POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČISTIČ ODPADŮ | F"
+        },
+        {
+          "price": 34.9,
+          "priceText": "34,90 Kč",
+          "index": 948,
+          "isLowest30": true,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "| 750 ml | 1 l 79,87 Kč | < 59,90 Kč | PROSTŘEDEK | NA MYTÍ | POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČISTIČ ODPADŮ | FREDY | 500 g | 1 kg 59,80 Kč | < 29,90 Kč | GEL PRACÍ | S MARS"
+        },
+        {
+          "price": 59.8,
+          "priceText": "59,80 Kč",
+          "index": 996,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "K | NA MYTÍ | POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČISTIČ ODPADŮ | FREDY | 500 g | 1 kg 59,80 Kč | < 29,90 Kč | GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč |"
+        },
+        {
+          "price": 29.9,
+          "priceText": "29,90 Kč",
+          "index": 1009,
+          "isLowest30": true,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČISTIČ ODPADŮ | FREDY | 500 g | 1 kg 59,80 Kč | < 29,90 Kč | GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč | (běžně za 41,"
+        },
+        {
+          "price": 29.97,
+          "priceText": "29,97 Kč",
+          "index": 1075,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "0 g | 1 kg 59,80 Kč | < 29,90 Kč | GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč | (běžně za 41,63 Kč) | < 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR |"
+        },
+        {
+          "price": 41.63,
+          "priceText": "41,63 Kč",
+          "index": 1096,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "< 29,90 Kč | GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč | (běžně za 41,63 Kč) | < 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč"
+        },
+        {
+          "price": 89.9,
+          "priceText": "89,90 Kč",
+          "index": 1110,
+          "isLowest30": true,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč | (běžně za 41,63 Kč) | < 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč | (běžně za 1,"
+        },
+        {
+          "price": 1.12,
+          "priceText": "1,12 Kč",
+          "index": 1178,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "ěžně za 41,63 Kč) | < 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč | (běžně za 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1"
+        },
+        {
+          "price": 1.75,
+          "priceText": "1,75 Kč",
+          "index": 1198,
+          "isLowest30": false,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "< 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč | (běžně za 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80"
+        },
+        {
+          "price": 26.9,
+          "priceText": "26,90 Kč",
+          "index": 1211,
+          "isLowest30": true,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč | (běžně za 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80,77 Kč | < 19"
+        },
+        {
+          "price": 79.96,
+          "priceText": "79,96 Kč",
+          "index": 1271,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "2 Kč | (běžně za 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80,77 Kč | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 m"
+        },
+        {
+          "price": 80.77,
+          "priceText": "80,77 Kč",
+          "index": 1286,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "a 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80,77 Kč | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 ml | 1 l 119,80"
+        },
+        {
+          "price": 199.9,
+          "priceText": "199,90 Kč",
+          "index": 1299,
+          "isLowest30": true,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "< 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80,77 Kč | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 ml | 1 l 119,80 Kč | < 59,90"
+        },
+        {
+          "price": 119.8,
+          "priceText": "119,80 Kč",
+          "index": 1369,
+          "isLowest30": false,
+          "isUnitPrice": true,
+          "isDummy": false,
+          "nearby": "| 1 l 80,77 Kč | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 ml | 1 l 119,80 Kč | < 59,90 Kč | AVIVÁŽ TESORI | D’"
+        },
+        {
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "index": 1383,
+          "isLowest30": true,
+          "isUnitPrice": false,
+          "isDummy": false,
+          "nearby": "č | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 ml | 1 l 119,80 Kč | < 59,90 Kč | AVIVÁŽ TESORI | D’"
+        }
+      ],
+      "rawContext": "24 | nízké ceny hezky česky | < Nejnižší cena za posledních 30 dní | MOJE PENNY KARTA | % | % | nabídka | Jedinečná | 199,90 | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 59,90 | cena bez penny karty | PENNY | Karta | 34,90 | 59,90 | 41% | 00,00 | 00,00 | 00% | 29,90 | 44,90/ | 33% | cena bez penny karty | PENNY | Karta | 89,90 | 124,90 | 28% | cena bez penny karty | PENNY | Karta | 26,90 | 41,90 | 35% | 00,00 | 00,00 | 00% | 59,90 | 79,90/ | 25% | nabídka | Jedinečná | 89,90 | 00,00 | 00,00 | 00% | 199,90 | 249,90/ | 20% | nabídka | Jedinečná | 79,90 | nabídka | Jedinečná | 99,90 | nabídka | Jedinečná | 299,90 | Super | Cena! | 199,90 | nabídka | Jedinečná | 399,90 | GEL NA PRANÍ | WOOLITE* | různé druhy | 3,6 l | 1 l 55,53 Kč | < 199,90 Kč | WC POWER | AKTIV BREF* | různé druhy | 4x 50 g | 1 kg 399,50 Kč | SPREJ NA | VODNÍ KÁMEN | CIF* | 750 ml | 1 l 79,87 Kč | < 59,90 Kč | PROSTŘEDEK | NA MYTÍ | POVRCHŮ | SIDOLUX | 1 l | < 34,90 Kč | ČISTIČ ODPADŮ | FREDY | 500 g | 1 kg 59,80 Kč | < 29,90 Kč | GEL PRACÍ | S MARSEILLSKÝM | MÝDLEM PALLOR | 3 l | 1 l 29,97 Kč | (běžně za 41,63 Kč) | < 89,90 Kč | UBROUSKY | PROTI OBARVENÍ | PRÁDLA PALLOR | 24 ks | 1 ks 1,12 Kč | (běžně za 1,75 Kč) | < 26,90 Kč | PRACÍ PRÁŠEK, | GEL REX | 2,5 kg, 2,475 l | 1 kg 79,96 Kč | 1 l 80,77 Kč | < 199,90 Kč | DEZINFEKČNÍ | SPREJ | SANYTOL | eukalyptus | 500 ml | 1 l 119,80 Kč | < 59,90 Kč | AVIVÁŽ TESORI | D’"
+    }
+  ]
+}

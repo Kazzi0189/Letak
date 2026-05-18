@@ -1,0 +1,623 @@
+{
+  "checkedAt": "2026-05-18T05:58:45.735Z",
+  "summary": {
+    "pageNumber": 23,
+    "pageFetchOk": true,
+    "status": 200,
+    "paragraphCount": 1,
+    "blocksFound": 14,
+    "totalCandidateOffers": 13,
+    "coffeeCandidateOffers": 13,
+    "productsFound": [
+      {
+        "product": "COFFEE WHITENER CASABLANCA",
+        "priceText": "17,90 Kč",
+        "packageSize": "200 g",
+        "unitPrice": 9.95,
+        "unit": "100 g",
+        "category": "káva"
+      },
+      {
+        "product": "KÁVA CASABLANCA CLASSIC instantní",
+        "priceText": "99,90 Kč",
+        "packageSize": "200 g",
+        "unitPrice": 49.95,
+        "unit": "100 g",
+        "category": "káva"
+      },
+      {
+        "product": "KÁVA MARILA STANDARD mletá",
+        "priceText": "199,90 Kč",
+        "packageSize": "1 kg",
+        "unitPrice": null,
+        "unit": "",
+        "category": "káva"
+      },
+      {
+        "product": "EDUSCHO ESPRESSO INTENSO zrnková",
+        "priceText": "299,90 Kč",
+        "packageSize": "1 kg",
+        "unitPrice": null,
+        "unit": "",
+        "category": "káva"
+      },
+      {
+        "product": "KÁVA CASABLANCA INTENSO mletá",
+        "priceText": "59,90 Kč",
+        "packageSize": "250 g",
+        "unitPrice": 23.96,
+        "unit": "100 g",
+        "category": "káva"
+      },
+      {
+        "product": "LAVAZZA CAFFÉ CREMA zrnková",
+        "priceText": "399,90 Kč",
+        "packageSize": "1,1 kg",
+        "unitPrice": 36.35,
+        "unit": "100 g",
+        "category": "káva"
+      },
+      {
+        "product": "KÁVA CASABLANCA CREMA zrnková",
+        "priceText": "289,90 Kč",
+        "packageSize": "1 kg",
+        "unitPrice": null,
+        "unit": "",
+        "category": "káva"
+      },
+      {
+        "product": "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+        "priceText": "139,90 Kč",
+        "packageSize": "500 g",
+        "unitPrice": 27.98,
+        "unit": "100 g",
+        "category": "káva"
+      },
+      {
+        "product": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy",
+        "priceText": "119,90 Kč",
+        "packageSize": "",
+        "unitPrice": null,
+        "unit": "",
+        "category": "káva"
+      },
+      {
+        "product": "NESCAFÉ 3V1, 2V1 různé druhy",
+        "priceText": "49,90 Kč",
+        "packageSize": "",
+        "unitPrice": null,
+        "unit": "",
+        "category": "káva"
+      },
+      {
+        "product": "CAPPUCCINO CASABLANCA různé druhy",
+        "priceText": "12,90 Kč",
+        "packageSize": "100 g",
+        "unitPrice": null,
+        "unit": "",
+        "category": "káva"
+      },
+      {
+        "product": "KÁVA JACOBS VELVET REFILL XXL instantní",
+        "priceText": "199,90 Kč",
+        "packageSize": "300 g",
+        "unitPrice": 66.63,
+        "unit": "100 g",
+        "category": "káva"
+      },
+      {
+        "product": "JACOBS INTENSE",
+        "priceText": "189,90 Kč",
+        "packageSize": "200 g",
+        "unitPrice": 94.95,
+        "unit": "100 g",
+        "category": "káva"
+      }
+    ],
+    "missingBlocksWithoutActionPrice": [
+      {
+        "start": "KÁVOVÉ KAPSLE TASSIMO",
+        "block": "KÁVOVÉ KAPSLE TASSIMO* různé druhy 1 balení"
+      }
+    ],
+    "recommendedPath": "inspect-page23-coffee-candidates-then-import-safe"
+  },
+  "offers": [
+    {
+      "id": "penny-page23-v1-b2a4fa14ffe6e0e8",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "COFFEE WHITENER CASABLANCA",
+      "brand": "",
+      "description": "káva · coffee whitener · instantní nápoj",
+      "packageSize": "200 g",
+      "price": 17.9,
+      "priceText": "17,90 Kč",
+      "unitPrice": 9.95,
+      "unit": "100 g",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "coffee whitener",
+        "instantní nápoj"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "COFFEE WHITENER CASABLANCA 200 g 100 g 9,95 Kč < 17,90 Kč KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky 80 g | 100 g 74,88 Kč < 59,90 Kč v nabídce také káva instant bez kofeinu Casablanca 100 g za 79,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-ad137093748673a0",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "KÁVA CASABLANCA CLASSIC instantní",
+      "brand": "",
+      "description": "káva · instantní káva",
+      "packageSize": "200 g",
+      "price": 99.9,
+      "priceText": "99,90 Kč",
+      "unitPrice": 49.95,
+      "unit": "100 g",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "instantní káva"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "KÁVA CASABLANCA CLASSIC instantní 200 g 100 g 49,95 Kč < 99,90 Kč v nabídce také káva instantní crema Casablanca 160 g za 89,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-0eb4892f9649e735",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "KÁVA MARILA STANDARD mletá",
+      "brand": "",
+      "description": "káva · mletá káva",
+      "packageSize": "1 kg",
+      "price": 199.9,
+      "priceText": "199,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "mletá káva"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "KÁVA MARILA STANDARD mletá 1 kg < 199,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-5e373c7d2016a9b0",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "EDUSCHO ESPRESSO INTENSO zrnková",
+      "brand": "",
+      "description": "káva · zrnková káva · espresso",
+      "packageSize": "1 kg",
+      "price": 299.9,
+      "priceText": "299,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "zrnková káva",
+        "espresso"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "EDUSCHO ESPRESSO INTENSO zrnková 1 kg < 299,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-33004c65bd63e4a7",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "KÁVA CASABLANCA INTENSO mletá",
+      "brand": "",
+      "description": "káva · mletá káva",
+      "packageSize": "250 g",
+      "price": 59.9,
+      "priceText": "59,90 Kč",
+      "unitPrice": 23.96,
+      "unit": "100 g",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "mletá káva"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "KÁVA CASABLANCA INTENSO mletá | 250 g 100 g 23,96 Kč < 59,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-0bd99825db1373c3",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "LAVAZZA CAFFÉ CREMA zrnková",
+      "brand": "",
+      "description": "káva · zrnková káva",
+      "packageSize": "1,1 kg",
+      "price": 399.9,
+      "priceText": "399,90 Kč",
+      "unitPrice": 36.35,
+      "unit": "100 g",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "zrnková káva"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "LAVAZZA CAFFÉ CREMA* zrnková 1,1 kg 100 g 36,35 Kč < 399,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-02df61bae521360f",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "KÁVA CASABLANCA CREMA zrnková",
+      "brand": "",
+      "description": "káva · zrnková káva",
+      "packageSize": "1 kg",
+      "price": 289.9,
+      "priceText": "289,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "zrnková káva"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "KÁVA CASABLANCA CREMA zrnková 1 kg < 289,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-314db7b4e0f3ad7d",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+      "brand": "",
+      "description": "káva · zrnková káva · espresso",
+      "packageSize": "500 g",
+      "price": 139.9,
+      "priceText": "139,90 Kč",
+      "unitPrice": 27.98,
+      "unit": "100 g",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "zrnková káva",
+        "espresso"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "KÁVA CASABLANCA ESPRESSO MILD zrnková 500 g 100 g 27,98 Kč < 139,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-3a7077f5110a2a66",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy",
+      "brand": "",
+      "description": "káva · kávové kapsle · Dolce Gusto",
+      "packageSize": "",
+      "price": 119.9,
+      "priceText": "119,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "kávové kapsle",
+        "Dolce Gusto"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy 1 balení < 119,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-2c850e966c9821fc",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "NESCAFÉ 3V1, 2V1 různé druhy",
+      "brand": "",
+      "description": "káva · instantní káva · 3v1 · 2v1",
+      "packageSize": "",
+      "price": 49.9,
+      "priceText": "49,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "instantní káva",
+        "3v1",
+        "2v1"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "NESCAFÉ 3V1, 2V1 různé druhy 1 balení < 49,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-579c177da0c32470",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "CAPPUCCINO CASABLANCA různé druhy",
+      "brand": "",
+      "description": "káva · cappuccino · instantní nápoj",
+      "packageSize": "100 g",
+      "price": 12.9,
+      "priceText": "12,90 Kč",
+      "unitPrice": null,
+      "unit": "",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "cappuccino",
+        "instantní nápoj"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "CAPPUCCINO CASABLANCA různé druhy 100 g < 12,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-06c82fbb0252e3c9",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "KÁVA JACOBS VELVET REFILL XXL instantní",
+      "brand": "",
+      "description": "káva · instantní káva",
+      "packageSize": "300 g",
+      "price": 199.9,
+      "priceText": "199,90 Kč",
+      "unitPrice": 66.63,
+      "unit": "100 g",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "instantní káva"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "KÁVA JACOBS VELVET REFILL XXL* instantní | 300 g 100 g 66,63 Kč < 199,90 Kč"
+    },
+    {
+      "id": "penny-page23-v1-7d2800d7badc5518",
+      "chain": "Penny",
+      "storeId": "penny-letak",
+      "storeName": "Penny – leták",
+      "product": "JACOBS INTENSE",
+      "brand": "",
+      "description": "káva · instantní káva",
+      "packageSize": "200 g",
+      "price": 189.9,
+      "priceText": "189,90 Kč",
+      "unitPrice": 94.95,
+      "unit": "100 g",
+      "validTo": "19.05.2026",
+      "pageNumber": 23,
+      "imageUrl": "",
+      "pageImageUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/files/assets/cover300.jpg",
+      "imageType": "penny-page",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/23/index.html",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "instantní káva"
+      ],
+      "compareKey": "káva",
+      "confidence": "targeted-page23-coffee-parser",
+      "suspect": true,
+      "suspectReasons": [
+        "candidate z cíleného parseru stránky 23 – ověřit proti letáku"
+      ],
+      "rawContext": "JACOBS INTENSE* 200 g 100 g 94,95 Kč < 189,90 Kč KÁVA JACOBS VELVET CREMA mletá 250 g 100 g 39,96 Kč < 99,90 Kč JACOBS ORIGINS* Brazílie, Kenya mletá 200 g 100 g 64,95 Kč 1 kg 1 kg 1 kg 1,1 kg ve stojanu ve stojanu ve stojanu Nabídka platná od středy 13. 5. do úterý 19. 5. 2026"
+    }
+  ],
+  "blocks": [
+    {
+      "start": "COFFEE WHITENER CASABLANCA",
+      "category": "káva",
+      "block": "COFFEE WHITENER CASABLANCA 200 g 100 g 9,95 Kč < 17,90 Kč KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky 80 g | 100 g 74,88 Kč < 59,90 Kč v nabídce také káva instant bez kofeinu Casablanca 100 g za 79,90 Kč"
+    },
+    {
+      "start": "KÁVA CASABLANCA CLASSIC",
+      "category": "káva",
+      "block": "KÁVA CASABLANCA CLASSIC instantní 200 g 100 g 49,95 Kč < 99,90 Kč v nabídce také káva instantní crema Casablanca 160 g za 89,90 Kč"
+    },
+    {
+      "start": "KÁVA MARILA STANDARD",
+      "category": "káva",
+      "block": "KÁVA MARILA STANDARD mletá 1 kg < 199,90 Kč"
+    },
+    {
+      "start": "EDUSCHO ESPRESSO INTENSO",
+      "category": "káva",
+      "block": "EDUSCHO ESPRESSO INTENSO zrnková 1 kg < 299,90 Kč"
+    },
+    {
+      "start": "KÁVA CASABLANCA INTENSO",
+      "category": "káva",
+      "block": "KÁVA CASABLANCA INTENSO mletá | 250 g 100 g 23,96 Kč < 59,90 Kč"
+    },
+    {
+      "start": "LAVAZZA CAFFÉ CREMA",
+      "category": "káva",
+      "block": "LAVAZZA CAFFÉ CREMA* zrnková 1,1 kg 100 g 36,35 Kč < 399,90 Kč"
+    },
+    {
+      "start": "KÁVA CASABLANCA CREMA",
+      "category": "káva",
+      "block": "KÁVA CASABLANCA CREMA zrnková 1 kg < 289,90 Kč"
+    },
+    {
+      "start": "KÁVA CASABLANCA ESPRESSO MILD",
+      "category": "káva",
+      "block": "KÁVA CASABLANCA ESPRESSO MILD zrnková 500 g 100 g 27,98 Kč < 139,90 Kč"
+    },
+    {
+      "start": "DOLCE GUSTO KÁVOVÉ KAPSLE",
+      "category": "káva",
+      "block": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy 1 balení < 119,90 Kč"
+    },
+    {
+      "start": "NESCAFÉ 3V1, 2V1",
+      "category": "káva",
+      "block": "NESCAFÉ 3V1, 2V1 různé druhy 1 balení < 49,90 Kč"
+    },
+    {
+      "start": "CAPPUCCINO CASABLANCA",
+      "category": "káva",
+      "block": "CAPPUCCINO CASABLANCA různé druhy 100 g < 12,90 Kč"
+    },
+    {
+      "start": "KÁVA JACOBS VELVET REFILL XXL",
+      "category": "káva",
+      "block": "KÁVA JACOBS VELVET REFILL XXL* instantní | 300 g 100 g 66,63 Kč < 199,90 Kč"
+    },
+    {
+      "start": "KÁVOVÉ KAPSLE TASSIMO",
+      "category": "káva",
+      "block": "KÁVOVÉ KAPSLE TASSIMO* různé druhy 1 balení"
+    },
+    {
+      "start": "JACOBS INTENSE",
+      "category": "káva",
+      "block": "JACOBS INTENSE* 200 g 100 g 94,95 Kč < 189,90 Kč KÁVA JACOBS VELVET CREMA mletá 250 g 100 g 39,96 Kč < 99,90 Kč JACOBS ORIGINS* Brazílie, Kenya mletá 200 g 100 g 64,95 Kč 1 kg 1 kg 1 kg 1,1 kg ve stojanu ve stojanu ve stojanu Nabídka platná od středy 13. 5. do úterý 19. 5. 2026"
+    }
+  ],
+  "pageTextPreview": "www.invia.cz číslo poukazu platnost do Dárkový poukaz pro Antonína Folprechta 10 000 Kč ( desettisíc CZK ) UZJ9CVZ3TN ID: 8780278 11.09.2025 pro Jana Nováka 20 000 Kč ( dvacettisíc CZK ) UZJKKCZ3TN ID: 8796878 www.invia.cz číslo poukazu platnost do Dárkový poukaz pro Antonína Folprechta 10 000 Kč ( desettisíc CZK ) UZJ9CVZ3TN ID: 8780278 11.09.2025 pro Jana Nováka 20 000 Kč ( dvacettisíc CZK ) UZJKKCZ3TN ID: 8796878 www.invia.cz číslo poukazu platnost do Dárkový poukaz pro Antonína Folprechta 10 000 Kč ( desettisíc CZK ) UZJ9CVZ3TN ID: 8780278 11.09.2025 pro Jana Nováka 20 000 Kč ( dvacettisíc CZK ) UZJKKCZ3TN ID: 8796878 23 < Nejnižší cena za posledních 30 dní 19,90 24,90/ 20% Super Cena! 59,90 99,90 129,90/ 23% 199,90 329,90/ 39% 329,90 599,90/ 45% 59,90 84,90/ 29% nabídka Jedinečná 399,90 289,90 349,90/ 17% 139,90 189,90/ 26% 119,90 149,90/ 20% Super Cena! 49,90 12,90 16,90/ 23% nabídka Jedinečná 199,90 nabídka Jedinečná 129,90 nabídka Jedinečná 189,90 99,90 134,90/ 25% nabídka Jedinečná 129,90 COFFEE WHITENER CASABLANCA 200 g 100 g 9,95 Kč < 17,90 Kč KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky 80 g | 100 g 74,88 Kč < 59,90 Kč v nabídce také káva instant bez kofeinu Casablanca 100 g za 79,90 Kč KÁVA CASABLANCA CLASSIC instantní 200 g 100 g 49,95 Kč < 99,90 Kč v nabídce také káva instantní crema Casablanca 160 g za 89,90 Kč KÁVA MARILA STANDARD mletá 1 kg < 199,90 Kč EDUSCHO ESPRESSO INTENSO zrnková 1 kg < 299,90 Kč KÁVA CASABLANCA INTENSO mletá | 250 g 100 g 23,96 Kč < 59,90 Kč LAVAZZA CAFFÉ CREMA* zrnková 1,1 kg 100 g 36,35 Kč < 399,90 Kč KÁVA CASABLANCA CREMA zrnková 1 kg < 289,90 Kč KÁVA CASABLANCA ESPRESSO MILD zrnková 500 g 100 g 27,98 Kč < 139,90 Kč DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy 1 balení < 119,90 Kč NESCAFÉ 3V1, 2V1 různé druhy 1 balení < 49,90 Kč CAPPUCCINO CASABLANCA různé druhy 100 g < 12,90 Kč KÁVA JACOBS VELVET REFILL XXL* instantní | 300 g 100 g 66,63 Kč < 199,90 Kč KÁVOVÉ KAPSLE TASSIMO* různé druhy 1 balení JACOBS INTENSE* 200 g 100 g 94,95 Kč < 189,90 Kč KÁVA JACOBS VELVET CREMA mletá 250 g 100 g 39,96 Kč < 99,90 Kč JACOBS ORIGINS* Brazílie, Kenya mletá 200 g 100 g 64,95 Kč 1 kg 1 kg 1 kg 1,1 kg ve stojanu ve stojanu ve stojanu Nabídka platná od středy 13. 5. do úterý 19. 5. 2026"
+}

@@ -1,0 +1,183 @@
+{
+  "checkedAt": "2026-05-18T07:14:30.508Z",
+  "source": "data/penny-probe/penny-page23-coffee-probe-v3.json",
+  "summary": {
+    "inputPennyOffers": 371,
+    "candidateOffersLoaded": 15,
+    "normalizedCandidates": 15,
+    "addedOffers": 10,
+    "skippedOffers": 5,
+    "outputPennyOffers": 381,
+    "recommendedNextStep": "run-combine-offers-and-test-search-kava-casablanca-dolce-gusto-nescafe"
+  },
+  "added": [
+    {
+      "product": "COFFEE WHITENER CASABLANCA",
+      "priceText": "17,90 Kč",
+      "packageSize": "200 g",
+      "unitPrice": 9.95,
+      "unit": "100 g",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "coffee whitener",
+        "instantní nápoj"
+      ],
+      "pageNumber": 23
+    },
+    {
+      "product": "KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky",
+      "priceText": "59,90 Kč",
+      "packageSize": "80 g",
+      "unitPrice": 74.88,
+      "unit": "100 g",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "instantní káva",
+        "ochucená káva"
+      ],
+      "pageNumber": 23
+    },
+    {
+      "product": "KÁVA MARILA STANDARD mletá",
+      "priceText": "199,90 Kč",
+      "packageSize": "1 kg",
+      "unitPrice": null,
+      "unit": "",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "mletá káva"
+      ],
+      "pageNumber": 23
+    },
+    {
+      "product": "EDUSCHO ESPRESSO INTENSO zrnková",
+      "priceText": "299,90 Kč",
+      "packageSize": "1 kg",
+      "unitPrice": null,
+      "unit": "",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "zrnková káva",
+        "espresso"
+      ],
+      "pageNumber": 23
+    },
+    {
+      "product": "LAVAZZA CAFFÉ CREMA zrnková",
+      "priceText": "399,90 Kč",
+      "packageSize": "1,1 kg",
+      "unitPrice": 36.35,
+      "unit": "100 g",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "zrnková káva"
+      ],
+      "pageNumber": 23
+    },
+    {
+      "product": "KÁVA CASABLANCA CREMA zrnková",
+      "priceText": "289,90 Kč",
+      "packageSize": "1 kg",
+      "unitPrice": null,
+      "unit": "",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "zrnková káva"
+      ],
+      "pageNumber": 23
+    },
+    {
+      "product": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy",
+      "priceText": "119,90 Kč",
+      "packageSize": "",
+      "unitPrice": null,
+      "unit": "",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "kávové kapsle",
+        "Dolce Gusto"
+      ],
+      "pageNumber": 23
+    },
+    {
+      "product": "NESCAFÉ 3V1, 2V1 různé druhy",
+      "priceText": "49,90 Kč",
+      "packageSize": "",
+      "unitPrice": null,
+      "unit": "",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "instantní káva",
+        "3v1",
+        "2v1"
+      ],
+      "pageNumber": 23
+    },
+    {
+      "product": "CAPPUCCINO CASABLANCA různé druhy",
+      "priceText": "12,90 Kč",
+      "packageSize": "100 g",
+      "unitPrice": null,
+      "unit": "",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "cappuccino",
+        "instantní nápoj"
+      ],
+      "pageNumber": 23
+    },
+    {
+      "product": "KÁVA JACOBS VELVET REFILL XXL instantní",
+      "priceText": "199,90 Kč",
+      "packageSize": "300 g",
+      "unitPrice": 66.63,
+      "unit": "100 g",
+      "category": "káva",
+      "searchTerms": [
+        "káva",
+        "instantní káva"
+      ],
+      "pageNumber": 23
+    }
+  ],
+  "skipped": [
+    {
+      "product": "KÁVA CASABLANCA CLASSIC instantní",
+      "priceText": "99,90 Kč",
+      "reason": "already-present"
+    },
+    {
+      "product": "KÁVA CASABLANCA INTENSO mletá",
+      "priceText": "59,90 Kč",
+      "reason": "already-present"
+    },
+    {
+      "product": "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+      "priceText": "139,90 Kč",
+      "reason": "already-present"
+    },
+    {
+      "product": "JACOBS INTENSE",
+      "priceText": "189,90 Kč",
+      "reason": "already-present"
+    },
+    {
+      "product": "KÁVA JACOBS VELVET CREMA mletá",
+      "priceText": "99,90 Kč",
+      "reason": "already-present"
+    }
+  ],
+  "excluded": [
+    "KÁVOVÉ KAPSLE TASSIMO",
+    "JACOBS ORIGINS"
+  ]
+}

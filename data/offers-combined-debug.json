@@ -1,14 +1,14 @@
 {
   "meta": {
     "source": "combined",
-    "updatedAt": "2026-05-15T09:58:08.254Z",
-    "count": 1161,
+    "updatedAt": "2026-05-18T09:43:27.796Z",
+    "count": 1189,
     "parser": "scripts/combine-offers.mjs",
     "inputs": [
       {
         "name": "Penny leták",
         "path": "data/penny-leaflet-offers.json",
-        "count": 352,
+        "count": 380,
         "missing": false
       },
       {
@@ -29,7 +29,7 @@
     {
       "name": "Penny leták",
       "path": "data/penny-leaflet-offers.json",
-      "count": 352,
+      "count": 380,
       "missing": false
     },
     {
@@ -46,7 +46,7 @@
     }
   ],
   "qualityCounts": {
-    "high": 879,
+    "high": 907,
     "medium": 273,
     "low": 9,
     "suspect": 0

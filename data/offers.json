@@ -23,7 +23,12 @@
         "count": 250,
         "missing": false
       }
-    ]
+    ],
+    "manualPatchWoolitePenny": {
+      "updatedAt": "2026-05-18T10:06:23Z",
+      "reason": "Doplnění položky, která byla v data/penny-leaflet-offers.json, ale chyběla ve sloučeném data/offers.json.",
+      "addedProduct": "GEL NA PRANÍ WOOLITE colors"
+    }
   },
   "offers": [
     {
@@ -39262,6 +39267,38 @@
       "searchTerms": "ŽELÉ BONNY ROSHEN* 200 g Penny – leták",
       "compareKey": "zele bonny roshen 200 g",
       "sourceFile": "Penny leták"
+    },
+    {
+      "id": "penny-leaflet-777d60b9e34ddc8b",
+      "storeId": "penny-default",
+      "chain": "Penny",
+      "storeName": "Penny – leták",
+      "product": "GEL NA PRANÍ WOOLITE* colors",
+      "brand": "",
+      "packageSize": "3,6 l",
+      "price": 199.9,
+      "unitPrice": 55.53,
+      "unit": "Kč/1 l",
+      "validFrom": "od st 13.05.2026",
+      "validTo": "do 19.05.2026",
+      "priceType": "leták",
+      "sourceUrl": "https://files.rewe.co.at/PennyIntLeaflet/CZ/13_05_2026_me/35/index.html",
+      "pageNumber": 35,
+      "imageUrl": "",
+      "pageImageUrl": "",
+      "imageType": "page-thumbnail",
+      "imageAlt": "GEL NA PRANÍ WOOLITE* colors – stránka letáku 35",
+      "confidence": "medium",
+      "suspect": false,
+      "suspectReasons": [
+        "liquid-price-far-from-leaflet-price",
+        "computed-price-far-from-nearest-lead-price"
+      ],
+      "category": "drogerie",
+      "description": "drogerie · prací gel · gel na praní",
+      "searchTerms": "drogerie prací gel gel na praní praní Woolite colors",
+      "compareKey": "woolite colors gel na prani",
+      "source": "manual-woolite-from-penny-leaflet"
     }
   ]
 }

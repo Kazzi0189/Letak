@@ -1,0 +1,5085 @@
+{
+  "checkedAt": "2026-05-18T12:24:12.840Z",
+  "type": "JEN KONTROLNÍ REPORT – DO APLIKACE NENAHRÁVAT",
+  "summary": {
+    "pdfPages": 37,
+    "totalOffers": 1207,
+    "pennyOffers": 398,
+    "pagesWithCurrentPennyOffers": 32,
+    "targetChecksOk": 8,
+    "targetChecksProblems": 3,
+    "suspiciousPages": 13,
+    "recommendedPath": "build-penny-pdf-importer-from-page-text-and-confirm-with-samples"
+  },
+  "targetChecks": [
+    {
+      "label": "Prosecco current price",
+      "query": "PROSECCO bílé perlivé",
+      "expectedPage": 20,
+      "expectedCurrentPrice": 69.9,
+      "note": "V PDF je aktuální cena 69,90 Kč; < 59,90 Kč je nejnižší cena za posledních 30 dní.",
+      "foundInPdfPages": [
+        20
+      ],
+      "currentMatches": 1,
+      "currentMatchSamples": [
+        {
+          "id": "penny-v2-conservative-f7a8894d974baaf2",
+          "product": "PROSECCO bílé perlivé",
+          "price": 69.9,
+          "priceText": "69,90 Kč",
+          "packageSize": "0,75 l",
+          "category": "alkohol",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "status": "ok",
+      "priceProblems": []
+    },
+    {
+      "label": "Trvanlivé mléko Boni",
+      "query": "TRVANLIVÉ MLÉKO BONI",
+      "expectedPage": 4,
+      "foundInPdfPages": [
+        4
+      ],
+      "currentMatches": 0,
+      "currentMatchSamples": [],
+      "status": "missing-in-current-offers",
+      "priceProblems": []
+    },
+    {
+      "label": "Mléko čerstvé Karlova Koruna",
+      "query": "MLÉKO ČERSTVÉ 3,5% KARLOVA KORUNA",
+      "expectedPage": 5,
+      "foundInPdfPages": [
+        5
+      ],
+      "currentMatches": 0,
+      "currentMatchSamples": [],
+      "status": "missing-in-current-offers",
+      "priceProblems": []
+    },
+    {
+      "label": "Kefírové mléko",
+      "query": "KEFÍROVÉ MLÉKO KARLOVA KORUNA",
+      "expectedPage": 5,
+      "foundInPdfPages": [
+        5
+      ],
+      "currentMatches": 1,
+      "currentMatchSamples": [
+        {
+          "id": "penny-leaflet-23ed48713a4ada01",
+          "product": "KEFÍROVÉ MLÉKO KARLOVA KORUNA",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "500 ml",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "status": "ok",
+      "priceProblems": []
+    },
+    {
+      "label": "Acidofilní mléko",
+      "query": "MLÉKO ACIDOFILNÍ KARLOVA KORUNA",
+      "expectedPage": 5,
+      "foundInPdfPages": [
+        5
+      ],
+      "currentMatches": 1,
+      "currentMatchSamples": [
+        {
+          "id": "penny-leaflet-1d984db3859cfa39",
+          "product": "MLÉKO ACIDOFILNÍ KARLOVA KORUNA",
+          "price": 27.9,
+          "priceText": "",
+          "packageSize": "950 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "status": "ok",
+      "priceProblems": []
+    },
+    {
+      "label": "Trvanlivé plnotučné mléko Madeta",
+      "query": "TRVANLIVÉ PLNOTUČNÉ MLÉKO MADETA",
+      "expectedPage": 32,
+      "foundInPdfPages": [
+        32
+      ],
+      "currentMatches": 0,
+      "currentMatchSamples": [],
+      "status": "missing-in-current-offers",
+      "priceProblems": []
+    },
+    {
+      "label": "Braník",
+      "query": "BRANÍK",
+      "expectedPage": 20,
+      "foundInPdfPages": [
+        20
+      ],
+      "currentMatches": 1,
+      "currentMatchSamples": [
+        {
+          "id": "penny-v2-conservative-dc4fa8506699f908",
+          "product": "BRANÍK světlé výčepní",
+          "price": 9.9,
+          "priceText": "9,90 Kč",
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "status": "ok",
+      "priceProblems": []
+    },
+    {
+      "label": "Káva Casablanca ochucená",
+      "query": "KÁVA CASABLANCA OCHUCENÁ",
+      "expectedPage": 23,
+      "foundInPdfPages": [
+        23
+      ],
+      "currentMatches": 2,
+      "currentMatchSamples": [
+        {
+          "id": "penny-leaflet-c4e6bcecc2267e48",
+          "product": "KÁVA CASABLANCA OCHUCENÁ instantní,",
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "packageSize": "80 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page23-coffee-149d4d967b293d25",
+          "product": "KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky",
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "packageSize": "80 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "status": "ok",
+      "priceProblems": []
+    },
+    {
+      "label": "Woolite",
+      "query": "GEL NA PRANÍ WOOLITE",
+      "expectedPage": 24,
+      "foundInPdfPages": [
+        24,
+        35
+      ],
+      "currentMatches": 1,
+      "currentMatchSamples": [
+        {
+          "id": "penny-leaflet-777d60b9e34ddc8b",
+          "product": "GEL NA PRANÍ WOOLITE colors",
+          "price": 199.9,
+          "priceText": "199,90 Kč",
+          "packageSize": "3,6 l",
+          "category": "drogerie",
+          "pageNumber": 35,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "status": "ok",
+      "priceProblems": []
+    },
+    {
+      "label": "Woolite additional offer",
+      "query": "GEL NA PRANÍ WOOLITE colors",
+      "expectedPage": 35,
+      "foundInPdfPages": [
+        35
+      ],
+      "currentMatches": 1,
+      "currentMatchSamples": [
+        {
+          "id": "penny-leaflet-777d60b9e34ddc8b",
+          "product": "GEL NA PRANÍ WOOLITE colors",
+          "price": 199.9,
+          "priceText": "199,90 Kč",
+          "packageSize": "3,6 l",
+          "category": "drogerie",
+          "pageNumber": 35,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "status": "ok",
+      "priceProblems": []
+    },
+    {
+      "label": "Zahrada Kristalon",
+      "query": "HNOJIVO KRISTALON",
+      "expectedPage": 28,
+      "foundInPdfPages": [
+        28
+      ],
+      "currentMatches": 1,
+      "currentMatchSamples": [
+        {
+          "id": "penny-page28-v2-a68241b3b71f5cde",
+          "product": "HNOJIVO KRISTALON na podporu květů a plodů / rajčata a papriky / muškáty 1 balení",
+          "price": 99.9,
+          "priceText": "99,90 Kč",
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "status": "ok",
+      "priceProblems": []
+    }
+  ],
+  "suspiciousPages": [
+    {
+      "pageNumber": 1,
+      "pdfTextLength": 2350,
+      "roughPdfProductLineCount": 59,
+      "roughPriceMarkerCount": 22,
+      "pricePairs": 18,
+      "jedinecnaPrices": 4,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 0,
+      "currentPennyOfferSamples": [],
+      "gapScore": 22
+    },
+    {
+      "pageNumber": 18,
+      "pdfTextLength": 2630,
+      "roughPdfProductLineCount": 50,
+      "roughPriceMarkerCount": 17,
+      "pricePairs": 15,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 1,
+      "currentPennyOffers": 2,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-8508603884f756e2",
+          "product": "APEROL",
+          "price": 249.9,
+          "priceText": "",
+          "packageSize": "0,7 l",
+          "category": "",
+          "pageNumber": 18,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e4693655f089017c",
+          "product": "BOŽKOV REPUBLIKA míchané alkoholické nápoje | plech",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "0,25 l",
+          "category": "",
+          "pageNumber": 18,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "gapScore": 15
+    },
+    {
+      "pageNumber": 27,
+      "pdfTextLength": 1946,
+      "roughPdfProductLineCount": 32,
+      "roughPriceMarkerCount": 14,
+      "pricePairs": 2,
+      "jedinecnaPrices": 12,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 0,
+      "currentPennyOfferSamples": [],
+      "gapScore": 14
+    },
+    {
+      "pageNumber": 26,
+      "pdfTextLength": 1910,
+      "roughPdfProductLineCount": 37,
+      "roughPriceMarkerCount": 17,
+      "pricePairs": 7,
+      "jedinecnaPrices": 10,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 6,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-2ca422cdbbe034d9",
+          "product": "FILETY PRO PSY BODIE SELECT",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "100 g",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-2b655c602d2b7582",
+          "product": "GRANULE PRO KOČKY FRISKIES",
+          "price": 109.9,
+          "priceText": "",
+          "packageSize": "1,7 kg",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3e33e7af181184f4",
+          "product": "GRANULE PRO PSY BODIE s hovězím, drůbežím a zeleninou",
+          "price": 189.9,
+          "priceText": "",
+          "packageSize": "10 kg",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e77add8143519353",
+          "product": "KONZERVA PRO PSY HARYK",
+          "price": 27.9,
+          "priceText": "",
+          "packageSize": "1,24 kg",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c59acfbab83dff36",
+          "product": "KONZERVY PRO KOČKY GOURMET GOLD",
+          "price": 99.9,
+          "priceText": "",
+          "packageSize": "8x 85 g",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-b29216069657d785",
+          "product": "STELIVO PRO KOČKY S VŮNÍ KITTY STAR",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "5 l",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "gapScore": 11
+    },
+    {
+      "pageNumber": 29,
+      "pdfTextLength": 2508,
+      "roughPdfProductLineCount": 32,
+      "roughPriceMarkerCount": 11,
+      "pricePairs": 0,
+      "jedinecnaPrices": 11,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 0,
+      "currentPennyOfferSamples": [],
+      "gapScore": 11
+    },
+    {
+      "pageNumber": 2,
+      "pdfTextLength": 1318,
+      "roughPdfProductLineCount": 24,
+      "roughPriceMarkerCount": 14,
+      "pricePairs": 12,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 1,
+      "currentPennyOffers": 4,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-303325e84d0de174",
+          "product": "MĚLNĚNÉ VEPŘOVÉ MASO DOBRÉ MASO",
+          "price": 59.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 2,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-4cf1f5f997a9904b",
+          "product": "MERUŇKY",
+          "price": 54.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 2,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-7814ebf9978daea9",
+          "product": "SALÁT MIX ORIENTÁLNÍ MIX, MEZCLUN, INSALATINA OD FARMÁŘŮ",
+          "price": 24.9,
+          "priceText": "",
+          "packageSize": "125 g",
+          "category": "",
+          "pageNumber": 2,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-0eaf6bf4ba489981",
+          "product": "ŽAMPIONY KARLOVA KORUNA",
+          "price": 34.9,
+          "priceText": "",
+          "packageSize": "400 g",
+          "category": "",
+          "pageNumber": 2,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "gapScore": 10
+    },
+    {
+      "pageNumber": 30,
+      "pdfTextLength": 1508,
+      "roughPdfProductLineCount": 40,
+      "roughPriceMarkerCount": 16,
+      "pricePairs": 13,
+      "jedinecnaPrices": 2,
+      "superCenaPrices": 1,
+      "currentPennyOffers": 7,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-88f7e36ed4b299a3",
+          "product": "BRATWURST BÍLÁ GRILOVACÍ KLOBÁSA NA GRIL",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "330 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-465d28fc3992411e",
+          "product": "ČESNEK ČESKÝ KARLOVA KORUNA balený",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-96ee9913c7ed3578",
+          "product": "GRILOVACÍ TYČINKY NA GRIL",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "340 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-a03df2daf9430443",
+          "product": "JAHODY",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-1fffb39c36c26ded",
+          "product": "KLOBÁSA GRILOVACÍ S GOUDOU NA GRIL",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5520204cdf5ec816",
+          "product": "SEKANÁ ŘEZNÍKŮV TALÍŘ klasik, farmářská",
+          "price": 32.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ad09bbb40f8e5d1d",
+          "product": "SÝR BRIE MILKERIA",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "gapScore": 9
+    },
+    {
+      "pageNumber": 10,
+      "pdfTextLength": 1974,
+      "roughPdfProductLineCount": 56,
+      "roughPriceMarkerCount": 19,
+      "pricePairs": 18,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 11,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-2e3e1fa35d2fb872",
+          "product": "DRŮBEŽÍ ŠPEKÁČKY",
+          "price": 64.9,
+          "priceText": "",
+          "packageSize": "900 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-722365cd31da104c",
+          "product": "FARMÁŘSKÁ SLANINA ŘEZNÍKŮV TALÍŘ",
+          "price": 52.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-65bf4d3d3be6af36",
+          "product": "FRANCOUZSKÁ PAŠTIKA ŘEZNÍKŮV TALÍŘ",
+          "price": 15.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-799845e9ffea7938",
+          "product": "LOVECKÝ SALÁM ŘEZNÍKŮV TALÍŘ",
+          "price": 89.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-61ea3c680b01af54",
+          "product": "PÁRKY drůbeží",
+          "price": 21.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-0b7c36f3080eabc4",
+          "product": "PÁRKY HOT DOG LOUPACÍ",
+          "price": 44.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-13ee799d95fe6311",
+          "product": "SALÁM POLICKÝ UHERÁK",
+          "price": 24.9,
+          "priceText": "",
+          "packageSize": "75 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-2d97cec86b064f50",
+          "product": "SALÁM VYSOČINA ŘEZNÍKŮV TALÍŘ",
+          "price": 96.9,
+          "priceText": "",
+          "packageSize": "700 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d1425b12aade4a6e",
+          "product": "UHERSKÁ KLOBÁSA ŘEZNÍKŮV TALÍŘ",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-cd6558f217a28dcf",
+          "product": "VÍDEŇSKÉ PÁRKY ŘEZNÍKŮV TALÍŘ",
+          "price": 59.9,
+          "priceText": "",
+          "packageSize": "2x 200 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-811fdd9365c72e65",
+          "product": "ZVĚŘINOVÁ KLOBÁSA ŘEZNÍKŮV TALÍŘ",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "gapScore": 8
+    },
+    {
+      "pageNumber": 32,
+      "pdfTextLength": 3730,
+      "roughPdfProductLineCount": 43,
+      "roughPriceMarkerCount": 14,
+      "pricePairs": 14,
+      "jedinecnaPrices": 0,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 7,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-7fe56da7c329204a",
+          "product": "BROSKVE",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-1dc93b9be56ed237",
+          "product": "JEMNÉ PÁRKY ŘEZNÍKŮV TALÍŘ",
+          "price": 32.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f65b3ed84d073c21",
+          "product": "KOLÁČ TVAROH, MÁK, JABLKO KARLOVA KORUNA rozmrazeno",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "80 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3fa31db7e7b0717d",
+          "product": "MALINY",
+          "price": 34.9,
+          "priceText": "",
+          "packageSize": "125 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-8b98b9a81d099192",
+          "product": "MINERÁLNÍ VODA GEMERKA",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "1,5 l",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d5d7d1217b995f36",
+          "product": "OCHUCENÝ JOGURT KARLOVA KORUNA",
+          "price": 8.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-8371c99046474c10",
+          "product": "VEPŘOVÉ KOSTKY NA GULÁŠ DOBRÉ MASO",
+          "price": 79.9,
+          "priceText": "",
+          "packageSize": "600 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "gapScore": 7
+    },
+    {
+      "pageNumber": 19,
+      "pdfTextLength": 1331,
+      "roughPdfProductLineCount": 27,
+      "roughPriceMarkerCount": 11,
+      "pricePairs": 10,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 5,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-fb4b369219c8e7a8",
+          "product": "FERNET STOCK",
+          "price": 169.9,
+          "priceText": "",
+          "packageSize": "0,5 l",
+          "category": "",
+          "pageNumber": 19,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-22492e1151b738fd",
+          "product": "KINLEY AROMATIC PINK BERRY",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "1,5 l",
+          "category": "",
+          "pageNumber": 19,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ed2e35e5c7ee8493",
+          "product": "ORIGINAL RIVER TONIC",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "2 l",
+          "category": "",
+          "pageNumber": 19,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ed45414c6240d904",
+          "product": "ROYAL CROWN COLA CLASSIC",
+          "price": 26.9,
+          "priceText": "",
+          "packageSize": "1,33 l",
+          "category": "",
+          "pageNumber": 19,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-cfdd938e5e4388e6",
+          "product": "TARGA FLORIO POMERANČ",
+          "price": 26.9,
+          "priceText": "",
+          "packageSize": "1,33 l",
+          "category": "",
+          "pageNumber": 19,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "gapScore": 6
+    },
+    {
+      "pageNumber": 4,
+      "pdfTextLength": 2277,
+      "roughPdfProductLineCount": 61,
+      "roughPriceMarkerCount": 23,
+      "pricePairs": 20,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 2,
+      "currentPennyOffers": 18,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-79e5e1ca788ee0c4",
+          "product": "BÍLÝ JOGURT KARLOVA KORUNA",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-b77f85b9c650c5d0",
+          "product": "CAMEMBERT 45% BONI",
+          "price": 23.9,
+          "priceText": "",
+          "packageSize": "120 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f9d128857d860bc7",
+          "product": "DEZERT ZE ZAKYSANÉ SMETANY BONI",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ddfa275f99ec5d80",
+          "product": "GOUDA 48% BONI plátky",
+          "price": 25.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-7a0f7fb53f240832",
+          "product": "JOGURT ACTIVE S BIFIDO KULTUROU KARLOVA KORUNA",
+          "price": 7.9,
+          "priceText": "",
+          "packageSize": "130 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-aa7ef44b54e62f4c",
+          "product": "JOGURT ŘECKÝ KARLOVA KORUNA",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "140 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3969c9ee239afb78",
+          "product": "MLÉČNÝ ČOKOLÁDOVÝ DEZERT S LÍSKOVÝMI OŘÍŠKY BONI",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3f2e8c08867e4011",
+          "product": "MOZZARELLA BONI",
+          "price": 16.9,
+          "priceText": "",
+          "packageSize": "220/125 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3dbc1548093adbb9",
+          "product": "STROUHANÝ SÝR EMMENTÁL BONI",
+          "price": 37.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-292ee06e190e553b",
+          "product": "SÝR BRYNDZA BONI",
+          "price": 25.9,
+          "priceText": "",
+          "packageSize": "125 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-10af4ec95cf8677d",
+          "product": "SÝR KORBÁČIK KARLOVA KORUNA",
+          "price": 18.9,
+          "priceText": "",
+          "packageSize": "55 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-4a899552523e2afe",
+          "product": "SÝR PARENICA KARLOVA KORUNA",
+          "price": 28.9,
+          "priceText": "",
+          "packageSize": "110 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "gapScore": 5
+    },
+    {
+      "pageNumber": 6,
+      "pdfTextLength": 2382,
+      "roughPdfProductLineCount": 62,
+      "roughPriceMarkerCount": 25,
+      "pricePairs": 15,
+      "jedinecnaPrices": 9,
+      "superCenaPrices": 1,
+      "currentPennyOffers": 20,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-75db757fd3953c8e",
+          "product": "ANTIPASTI zelené, červené a cherry papričky plněné smetanovým sýrem",
+          "price": 69.9,
+          "priceText": "",
+          "packageSize": "210 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-0cbd5e27bc0748e0",
+          "product": "JOGURT OPOČENSKÝ",
+          "price": 16.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e4f8b7b4a59dae44",
+          "product": "KRAJÁNEK TRIO POMAZÁNEK",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "3x 60 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-dcbe8bed43b4dbc1",
+          "product": "KUŘECÍ KEBAB, KUŘECÍ STRIPSY",
+          "price": 64.9,
+          "priceText": "",
+          "packageSize": "350 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c175b345e6bba672",
+          "product": "MOZZARELLA TŘEŠINKY V NÁLEVU ITALAT",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "120 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-6164a9ebd229d117",
+          "product": "NAKLÁDANÝ CAMEMBERT MIX & SHARE",
+          "price": 89.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c1b72b55dc9fc231",
+          "product": "NÁPOJ ACTIVIA",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "270/280 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-9a74ba97c39641fa",
+          "product": "OLOMOUCKÝ TVAROH ODTUČNĚNÝ 0,3% OLMA",
+          "price": 12.9,
+          "priceText": "",
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-bfc702a82cdb5150",
+          "product": "POMAZÁNKA XXL sýrová pikantní s česnekem",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f3f0b1acdd5bff49",
+          "product": "SENDVIČ šunka, slanina, tuňák",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d95084936ccd936d",
+          "product": "SMAŽENÝ SÝR S BRAMBOREM A TATARSKÁ OMÁČKA",
+          "price": 72.9,
+          "priceText": "",
+          "packageSize": "390 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-870bdfe992fe4d7a",
+          "product": "SÝR GOUDA STROUHANÁ MILKERIA",
+          "price": 34.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "gapScore": 5
+    },
+    {
+      "pageNumber": 7,
+      "pdfTextLength": 1570,
+      "roughPdfProductLineCount": 41,
+      "roughPriceMarkerCount": 16,
+      "pricePairs": 10,
+      "jedinecnaPrices": 4,
+      "superCenaPrices": 2,
+      "currentPennyOffers": 11,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-3b76be4d0439ce89",
+          "product": "BAVORSKÉ KLOBÁSKY NA GRIL",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5624d85bc842be97",
+          "product": "KAŠE & PROTEIN S ČOKOLÁDOU EMCO",
+          "price": 13.9,
+          "priceText": "",
+          "packageSize": "55 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ca7088e6b807bf58",
+          "product": "KLOBÁSA GRILOVACÍ NA GRIL s jalapeňo",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-81f6d2ced451ea6c",
+          "product": "MYSLI PROTEIN ČOKOLÁDA EMCO",
+          "price": 69.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ccc660e0ee485b1b",
+          "product": "PIKANTNÍ GRILOVACÍ KLOBÁSA NA GRIL",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-850210917bda94e3",
+          "product": "PROTEIN KAPSIČKA",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "125 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-98decb1d2475afae",
+          "product": "PROTEIN NUTREND příchuť vanilka, čokoláda",
+          "price": 18.9,
+          "priceText": "",
+          "packageSize": "32 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-172a28142425fdb3",
+          "product": "PROTEIN PUDDING WELLGOOD",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-bac7031fd8e1ce0e",
+          "product": "PROTEIN TYČINKA XXL MAXSPORT",
+          "price": 26.9,
+          "priceText": "",
+          "packageSize": "60 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-6cf74c9d6bec19ba",
+          "product": "PROTEINOVÝ CHLÉB KARLOVA KORUNA",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-329cdeb61b82c80c",
+          "product": "PROTEINOVÝ NÁPOJ WELLGOOD",
+          "price": 21.9,
+          "priceText": "",
+          "packageSize": "350 ml",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ],
+      "gapScore": 5
+    }
+  ],
+  "pageReports": [
+    {
+      "pageNumber": 1,
+      "pdfTextLength": 2350,
+      "roughPdfProductLineCount": 59,
+      "roughPriceMarkerCount": 22,
+      "pricePairs": 18,
+      "jedinecnaPrices": 4,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 0,
+      "currentPennyOfferSamples": []
+    },
+    {
+      "pageNumber": 2,
+      "pdfTextLength": 1318,
+      "roughPdfProductLineCount": 24,
+      "roughPriceMarkerCount": 14,
+      "pricePairs": 12,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 1,
+      "currentPennyOffers": 4,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-303325e84d0de174",
+          "product": "MĚLNĚNÉ VEPŘOVÉ MASO DOBRÉ MASO",
+          "price": 59.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 2,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-4cf1f5f997a9904b",
+          "product": "MERUŇKY",
+          "price": 54.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 2,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-7814ebf9978daea9",
+          "product": "SALÁT MIX ORIENTÁLNÍ MIX, MEZCLUN, INSALATINA OD FARMÁŘŮ",
+          "price": 24.9,
+          "priceText": "",
+          "packageSize": "125 g",
+          "category": "",
+          "pageNumber": 2,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-0eaf6bf4ba489981",
+          "product": "ŽAMPIONY KARLOVA KORUNA",
+          "price": 34.9,
+          "priceText": "",
+          "packageSize": "400 g",
+          "category": "",
+          "pageNumber": 2,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 3,
+      "pdfTextLength": 1852,
+      "roughPdfProductLineCount": 47,
+      "roughPriceMarkerCount": 13,
+      "pricePairs": 8,
+      "jedinecnaPrices": 2,
+      "superCenaPrices": 3,
+      "currentPennyOffers": 14,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-9dcd976baccddd63",
+          "product": "CROISSANT",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "65 g",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-00948c2fd8cf945d",
+          "product": "DONUT s jahodovou, lískooříškovou náplní, rozmrazeno",
+          "price": 12.9,
+          "priceText": "",
+          "packageSize": "69/75 g",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-888ef068d7a9ffb7",
+          "product": "DORT TIRAMISU SAN FABIO",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "400 g",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-887a494900617822",
+          "product": "CHLÉB DŘEVORUBECKÝ VÍCEZRNNÝ",
+          "price": 24.9,
+          "priceText": "",
+          "packageSize": "405 g",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c5d08aaf7d6e2ac0",
+          "product": "CHLÉB TOUSTOVÝ CELOZRNNÝ CRIP CROP",
+          "price": 23.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-a2953af4d403a366",
+          "product": "KAISERKA NATURAL",
+          "price": 2.5,
+          "priceText": "",
+          "packageSize": "55 g",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-cb247b4334a9d4f0",
+          "product": "KOBLIHA S OVOCNOU NÁPLNÍ",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "6x 65 g",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3c70e1fce8c9fd46",
+          "product": "KORNBAGETA STŘEDNÍ vícezrnné pečivo,",
+          "price": 7.9,
+          "priceText": "",
+          "packageSize": "115 g",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ce9c5f50d605c6e1",
+          "product": "KYTICE RŮŽE",
+          "price": 149.9,
+          "priceText": "",
+          "packageSize": "1 svazek",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-7dced55cd97a048d",
+          "product": "LINECKÉ ROHLÍČKY POLOMÁČENÉ s višňovou náplní v jogurtové polevě",
+          "price": 22.9,
+          "priceText": "",
+          "packageSize": "210 g",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e63132924c62d244",
+          "product": "PLETENEC S MÁSLEM A MEDEM",
+          "price": 44.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-76ab323738fd9429",
+          "product": "SLOVANSKÝ KRAJÁNEK",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "400 g",
+          "category": "",
+          "pageNumber": 3,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 4,
+      "pdfTextLength": 2277,
+      "roughPdfProductLineCount": 61,
+      "roughPriceMarkerCount": 23,
+      "pricePairs": 20,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 2,
+      "currentPennyOffers": 18,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-79e5e1ca788ee0c4",
+          "product": "BÍLÝ JOGURT KARLOVA KORUNA",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-b77f85b9c650c5d0",
+          "product": "CAMEMBERT 45% BONI",
+          "price": 23.9,
+          "priceText": "",
+          "packageSize": "120 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f9d128857d860bc7",
+          "product": "DEZERT ZE ZAKYSANÉ SMETANY BONI",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ddfa275f99ec5d80",
+          "product": "GOUDA 48% BONI plátky",
+          "price": 25.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-7a0f7fb53f240832",
+          "product": "JOGURT ACTIVE S BIFIDO KULTUROU KARLOVA KORUNA",
+          "price": 7.9,
+          "priceText": "",
+          "packageSize": "130 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-aa7ef44b54e62f4c",
+          "product": "JOGURT ŘECKÝ KARLOVA KORUNA",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "140 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3969c9ee239afb78",
+          "product": "MLÉČNÝ ČOKOLÁDOVÝ DEZERT S LÍSKOVÝMI OŘÍŠKY BONI",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3f2e8c08867e4011",
+          "product": "MOZZARELLA BONI",
+          "price": 16.9,
+          "priceText": "",
+          "packageSize": "220/125 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3dbc1548093adbb9",
+          "product": "STROUHANÝ SÝR EMMENTÁL BONI",
+          "price": 37.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-292ee06e190e553b",
+          "product": "SÝR BRYNDZA BONI",
+          "price": 25.9,
+          "priceText": "",
+          "packageSize": "125 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-10af4ec95cf8677d",
+          "product": "SÝR KORBÁČIK KARLOVA KORUNA",
+          "price": 18.9,
+          "priceText": "",
+          "packageSize": "55 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-4a899552523e2afe",
+          "product": "SÝR PARENICA KARLOVA KORUNA",
+          "price": 28.9,
+          "priceText": "",
+          "packageSize": "110 g",
+          "category": "",
+          "pageNumber": 4,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 5,
+      "pdfTextLength": 2476,
+      "roughPdfProductLineCount": 38,
+      "roughPriceMarkerCount": 18,
+      "pricePairs": 16,
+      "jedinecnaPrices": 0,
+      "superCenaPrices": 2,
+      "currentPennyOffers": 16,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-b6bb8c18b7b60f85",
+          "product": "BRAMBOROVÝ KNEDLÍK",
+          "price": 32.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-03a1e59e6a98f6de",
+          "product": "DRINK JOGURTOVÝ KARLOVA KORUNA",
+          "price": 15.9,
+          "priceText": "",
+          "packageSize": "400 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-648e728dc2506cd5",
+          "product": "HUMMUS",
+          "price": 10.9,
+          "priceText": "",
+          "packageSize": "120 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-23ed48713a4ada01",
+          "product": "KEFÍROVÉ MLÉKO KARLOVA KORUNA",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "500 ml",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-03c62c110d2720d0",
+          "product": "KOŘENĚNÉ MATJESY V OLEJI GRAN MARE",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "200/130 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-a8b82506c677e472",
+          "product": "KYSANÉ ZELÍ",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "500/350 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-1d984db3859cfa39",
+          "product": "MLÉKO ACIDOFILNÍ KARLOVA KORUNA",
+          "price": 27.9,
+          "priceText": "",
+          "packageSize": "950 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-6e562463e1ce91d5",
+          "product": "POLÉVKA",
+          "price": 44.9,
+          "priceText": "",
+          "packageSize": "650 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f51661130e48dd46",
+          "product": "POMAZÁNKA salámová",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "135 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-a93aa24986709290",
+          "product": "RYBÍ POMAZÁNKA",
+          "price": 21.9,
+          "priceText": "",
+          "packageSize": "135 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-bfab9f23c377b709",
+          "product": "RYBÍ SALÁT PIKANT",
+          "price": 17.9,
+          "priceText": "",
+          "packageSize": "135 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-4034bf88d88ddff6",
+          "product": "SALÁT VLAŠSKÝ, CAMPING",
+          "price": 15.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 5,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 6,
+      "pdfTextLength": 2382,
+      "roughPdfProductLineCount": 62,
+      "roughPriceMarkerCount": 25,
+      "pricePairs": 15,
+      "jedinecnaPrices": 9,
+      "superCenaPrices": 1,
+      "currentPennyOffers": 20,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-75db757fd3953c8e",
+          "product": "ANTIPASTI zelené, červené a cherry papričky plněné smetanovým sýrem",
+          "price": 69.9,
+          "priceText": "",
+          "packageSize": "210 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-0cbd5e27bc0748e0",
+          "product": "JOGURT OPOČENSKÝ",
+          "price": 16.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e4f8b7b4a59dae44",
+          "product": "KRAJÁNEK TRIO POMAZÁNEK",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "3x 60 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-dcbe8bed43b4dbc1",
+          "product": "KUŘECÍ KEBAB, KUŘECÍ STRIPSY",
+          "price": 64.9,
+          "priceText": "",
+          "packageSize": "350 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c175b345e6bba672",
+          "product": "MOZZARELLA TŘEŠINKY V NÁLEVU ITALAT",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "120 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-6164a9ebd229d117",
+          "product": "NAKLÁDANÝ CAMEMBERT MIX & SHARE",
+          "price": 89.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c1b72b55dc9fc231",
+          "product": "NÁPOJ ACTIVIA",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "270/280 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-9a74ba97c39641fa",
+          "product": "OLOMOUCKÝ TVAROH ODTUČNĚNÝ 0,3% OLMA",
+          "price": 12.9,
+          "priceText": "",
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-bfc702a82cdb5150",
+          "product": "POMAZÁNKA XXL sýrová pikantní s česnekem",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f3f0b1acdd5bff49",
+          "product": "SENDVIČ šunka, slanina, tuňák",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d95084936ccd936d",
+          "product": "SMAŽENÝ SÝR S BRAMBOREM A TATARSKÁ OMÁČKA",
+          "price": 72.9,
+          "priceText": "",
+          "packageSize": "390 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-870bdfe992fe4d7a",
+          "product": "SÝR GOUDA STROUHANÁ MILKERIA",
+          "price": 34.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 6,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 7,
+      "pdfTextLength": 1570,
+      "roughPdfProductLineCount": 41,
+      "roughPriceMarkerCount": 16,
+      "pricePairs": 10,
+      "jedinecnaPrices": 4,
+      "superCenaPrices": 2,
+      "currentPennyOffers": 11,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-3b76be4d0439ce89",
+          "product": "BAVORSKÉ KLOBÁSKY NA GRIL",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5624d85bc842be97",
+          "product": "KAŠE & PROTEIN S ČOKOLÁDOU EMCO",
+          "price": 13.9,
+          "priceText": "",
+          "packageSize": "55 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ca7088e6b807bf58",
+          "product": "KLOBÁSA GRILOVACÍ NA GRIL s jalapeňo",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-81f6d2ced451ea6c",
+          "product": "MYSLI PROTEIN ČOKOLÁDA EMCO",
+          "price": 69.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ccc660e0ee485b1b",
+          "product": "PIKANTNÍ GRILOVACÍ KLOBÁSA NA GRIL",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-850210917bda94e3",
+          "product": "PROTEIN KAPSIČKA",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "125 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-98decb1d2475afae",
+          "product": "PROTEIN NUTREND příchuť vanilka, čokoláda",
+          "price": 18.9,
+          "priceText": "",
+          "packageSize": "32 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-172a28142425fdb3",
+          "product": "PROTEIN PUDDING WELLGOOD",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-bac7031fd8e1ce0e",
+          "product": "PROTEIN TYČINKA XXL MAXSPORT",
+          "price": 26.9,
+          "priceText": "",
+          "packageSize": "60 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-6cf74c9d6bec19ba",
+          "product": "PROTEINOVÝ CHLÉB KARLOVA KORUNA",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-329cdeb61b82c80c",
+          "product": "PROTEINOVÝ NÁPOJ WELLGOOD",
+          "price": 21.9,
+          "priceText": "",
+          "packageSize": "350 ml",
+          "category": "",
+          "pageNumber": 7,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 8,
+      "pdfTextLength": 1462,
+      "roughPdfProductLineCount": 28,
+      "roughPriceMarkerCount": 10,
+      "pricePairs": 7,
+      "jedinecnaPrices": 3,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 12,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-f36cf72d04059250",
+          "product": "KAPSIČKA S JABLEČNO - VANILKOVOU PŘÍCHUTÍ",
+          "price": 8.9,
+          "priceText": "",
+          "packageSize": "75 g",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-dde914b44cc02dcb",
+          "product": "KORNOUT RIOS",
+          "price": 7.9,
+          "priceText": "",
+          "packageSize": "120 ml",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d1f90a8e06f2d2b0",
+          "product": "KORNOUTY RIOS",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "6x 120 ml",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e3ad5819bb3f839a",
+          "product": "SMETANOVÁ ZMRZLINA V OPLATCE RIOS",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "200 ml",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-9e41e8cc088c63ec",
+          "product": "ŠKVARKOVÝ PAGÁČ",
+          "price": 7.9,
+          "priceText": "",
+          "packageSize": "65 g",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-06182c4aebfcf6ac",
+          "product": "ZMRZLINA BIG COOKIES AND CREAM RIOS",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "120 ml",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3098a5dba61ae3f5",
+          "product": "ZMRZLINA KAKTUS citron/jahoda",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "45 ml",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c07afd5c900fbdbd",
+          "product": "ZMRZLINA MILKA",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "90 ml",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-59366a38ddc8ed80",
+          "product": "ZMRZLINA MINI GIGANT RIOS fruits",
+          "price": 69.9,
+          "priceText": "",
+          "packageSize": "12x 50 ml",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-1fb5aeb6c6b6dd3b",
+          "product": "ZMRZLINA MÍŠA tvarohová",
+          "price": 12.9,
+          "priceText": "",
+          "packageSize": "55 ml",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-59040832d18f471f",
+          "product": "ZMRZLINA RIOS bourbon vanilla, trikolora",
+          "price": 79.9,
+          "priceText": "",
+          "packageSize": "2,5 l",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-516e1d4591794f35",
+          "product": "ZMRZLINA SANDWICH OREO",
+          "price": 24.9,
+          "priceText": "",
+          "packageSize": "110 ml",
+          "category": "",
+          "pageNumber": 8,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 9,
+      "pdfTextLength": 2101,
+      "roughPdfProductLineCount": 39,
+      "roughPriceMarkerCount": 17,
+      "pricePairs": 15,
+      "jedinecnaPrices": 2,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 17,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-ea8ee27bd22a985b",
+          "product": "GRISSINI SAN FABIO",
+          "price": 24.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-122d93c4dfd497f4",
+          "product": "HRANOLKY STEAKHOUSE PENNY",
+          "price": 21.9,
+          "priceText": "",
+          "packageSize": "750 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-128ed94caa85d5a6",
+          "product": "KOKOSOVÉ CHIPSY ALLNATURE",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "40 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-9fe236e396bedc7d",
+          "product": "KREVETY LOUPANÉ PŘEDVAŘENÉ MYLORD",
+          "price": 99.9,
+          "priceText": "",
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-80b25ad5e77e63cf",
+          "product": "KROKETY BRAMBOROVÉ",
+          "price": 17.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c0281af6cd0421fb",
+          "product": "KUŘECÍ JÁTRA mražená",
+          "price": 24.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-247590b199086cf8",
+          "product": "LISTOVÉ TĚSTO NOWACO",
+          "price": 16.9,
+          "priceText": "",
+          "packageSize": "400 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-18cf697afc8d34d7",
+          "product": "MINI VĚTRNÍKY ŠLEHANÉ CAFÉ TIME",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f7ab01d44a0ce544",
+          "product": "PIZZA mražená,",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "275–305 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-0a973248072e845f",
+          "product": "RYBÍ PRSTY PREMIUM NOWACO nemleté,",
+          "price": 69.9,
+          "priceText": "",
+          "packageSize": "450 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5d17c840af1f3f56",
+          "product": "SNACK KROUŽKY",
+          "price": 59.9,
+          "priceText": "",
+          "packageSize": "185 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d28906173a20a570",
+          "product": "SURIMI TYČINKY GRAN MARE",
+          "price": 24.9,
+          "priceText": "",
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 9,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 10,
+      "pdfTextLength": 1974,
+      "roughPdfProductLineCount": 56,
+      "roughPriceMarkerCount": 19,
+      "pricePairs": 18,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 11,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-2e3e1fa35d2fb872",
+          "product": "DRŮBEŽÍ ŠPEKÁČKY",
+          "price": 64.9,
+          "priceText": "",
+          "packageSize": "900 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-722365cd31da104c",
+          "product": "FARMÁŘSKÁ SLANINA ŘEZNÍKŮV TALÍŘ",
+          "price": 52.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-65bf4d3d3be6af36",
+          "product": "FRANCOUZSKÁ PAŠTIKA ŘEZNÍKŮV TALÍŘ",
+          "price": 15.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-799845e9ffea7938",
+          "product": "LOVECKÝ SALÁM ŘEZNÍKŮV TALÍŘ",
+          "price": 89.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-61ea3c680b01af54",
+          "product": "PÁRKY drůbeží",
+          "price": 21.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-0b7c36f3080eabc4",
+          "product": "PÁRKY HOT DOG LOUPACÍ",
+          "price": 44.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-13ee799d95fe6311",
+          "product": "SALÁM POLICKÝ UHERÁK",
+          "price": 24.9,
+          "priceText": "",
+          "packageSize": "75 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-2d97cec86b064f50",
+          "product": "SALÁM VYSOČINA ŘEZNÍKŮV TALÍŘ",
+          "price": 96.9,
+          "priceText": "",
+          "packageSize": "700 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d1425b12aade4a6e",
+          "product": "UHERSKÁ KLOBÁSA ŘEZNÍKŮV TALÍŘ",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-cd6558f217a28dcf",
+          "product": "VÍDEŇSKÉ PÁRKY ŘEZNÍKŮV TALÍŘ",
+          "price": 59.9,
+          "priceText": "",
+          "packageSize": "2x 200 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-811fdd9365c72e65",
+          "product": "ZVĚŘINOVÁ KLOBÁSA ŘEZNÍKŮV TALÍŘ",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 10,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 11,
+      "pdfTextLength": 2828,
+      "roughPdfProductLineCount": 62,
+      "roughPriceMarkerCount": 22,
+      "pricePairs": 19,
+      "jedinecnaPrices": 3,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 22,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-e04b67effa6dd093",
+          "product": "CUKR VANILINOVÝ VITANA 6 ks v balení",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "6x 20 g",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d32b6140081e191e",
+          "product": "ČERVENÁ ŘEPA BIO PENNY",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "670/430 g",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-2008acde52174e0f",
+          "product": "FILETY Z MAKRELY LOSOS BBQ, Mexico",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "170/85 g",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-82b079d6b291d511",
+          "product": "HALUŠKY BRAMBOROVÉ GUSTITO",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "400 g",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-8b6362d904787812",
+          "product": "HOŘČICE KARLOVA KORUNA kremžská, plnotučná",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "400 g",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-59f2735dac3fe31f",
+          "product": "JÁTRA TRESČÍ",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "115 g",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-9bb35623489f2af1",
+          "product": "KOMPOT MANDARINKY PENNY",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "312/175 g",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-dbe21f9e8eed0f7b",
+          "product": "MED ČESKÝ LUČNÍ PASTOVANÝ",
+          "price": 79.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-56cdf58162afde7c",
+          "product": "OKURKY KARLOVA KORUNA",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "670/350 g",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d66cb07455d24261",
+          "product": "OLIVOVÝ OLEJ EXTRA PANENSKÝ",
+          "price": 129.9,
+          "priceText": "",
+          "packageSize": "0,75 l",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-165df5325d666b83",
+          "product": "POHANKA GUSTITO",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-7ba28436d9672b65",
+          "product": "POMAZÁNKA LINO LADA",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "350 g",
+          "category": "",
+          "pageNumber": 11,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 12,
+      "pdfTextLength": 1389,
+      "roughPdfProductLineCount": 30,
+      "roughPriceMarkerCount": 13,
+      "pricePairs": 13,
+      "jedinecnaPrices": 0,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 10,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-77d4b01bc1f59da1",
+          "product": "ACTIVIA",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "120 g",
+          "category": "",
+          "pageNumber": 12,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c1af6f5b34a38eef",
+          "product": "BRAMBOROVÉ NOKY SAN FABIO",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 12,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3f6508b8bc804bb3",
+          "product": "EXTRA DŽEM SCHWARTAU",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "340 g",
+          "category": "",
+          "pageNumber": 12,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c0798bd5168f8b50",
+          "product": "KÁVA JIHLAVANKA instantní,",
+          "price": 119.9,
+          "priceText": "",
+          "packageSize": "180/200 g",
+          "category": "",
+          "pageNumber": 12,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-778bfdcb61a77324",
+          "product": "KOŘENÍ TEKUTÉ MAGGI",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 12,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-de6e939cfba6076e",
+          "product": "PŘEPUŠTĚNÉ MÁSLO GHÍ",
+          "price": 99.9,
+          "priceText": "",
+          "packageSize": "450 ml",
+          "category": "",
+          "pageNumber": 12,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f27f63fa440f4128",
+          "product": "RAMA Classic",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "400 g",
+          "category": "",
+          "pageNumber": 12,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-eda8821559f7861b",
+          "product": "RÝŽE LAGRIS ve varných sáčcích loupaná, parboiled",
+          "price": 34.9,
+          "priceText": "",
+          "packageSize": "800 g",
+          "category": "",
+          "pageNumber": 12,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f165bc3a83485350",
+          "product": "SELSKÝ JOGURT HOLLANDIA",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 12,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-98c8bca7b9f6b715",
+          "product": "ŠVESTKOVÁ POVIDLA HAMÉ",
+          "price": 36.9,
+          "priceText": "",
+          "packageSize": "440 g",
+          "category": "",
+          "pageNumber": 12,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 13,
+      "pdfTextLength": 1393,
+      "roughPdfProductLineCount": 19,
+      "roughPriceMarkerCount": 9,
+      "pricePairs": 9,
+      "jedinecnaPrices": 0,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 11,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-80695f7315a75ea1",
+          "product": "29,90 59,90/ 50% SUŠENKY MINIS",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "240 g",
+          "category": "",
+          "pageNumber": 13,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-8b2826c6efa29169",
+          "product": "ĎÁBELSKÉ TOUSTY HAMÉ",
+          "price": 21.9,
+          "priceText": "",
+          "packageSize": "120 g",
+          "category": "",
+          "pageNumber": 13,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-4b6572d92350c029",
+          "product": "DĚTSKÉ VLHČENÉ UBROUSKY ALOE VERA LINTEO",
+          "price": 21.6,
+          "priceText": "",
+          "packageSize": "80 ks",
+          "category": "",
+          "pageNumber": 13,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-064417a013a66010",
+          "product": "HELLO EXTRA HUSTÝ SIRUP",
+          "price": 32.9,
+          "priceText": "",
+          "packageSize": "0,7 l",
+          "category": "",
+          "pageNumber": 13,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-22b06bb4151204ff",
+          "product": "OBALOVANÝ SÝR NOWACO mražený",
+          "price": 39.95,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 13,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-20df774a47b45240",
+          "product": "PAŠTIKA HAMÉ Májka, Matěj, Svačinka",
+          "price": 16.9,
+          "priceText": "",
+          "packageSize": "120 g",
+          "category": "",
+          "pageNumber": 13,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d75c110ed5948065",
+          "product": "PRÁŠEK 4V1 CALGON",
+          "price": 89.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 13,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-10ad89d61598a7aa",
+          "product": "RODINNÉ VĚNEČKY SEDITA kakaové, vanilkové",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "120 g",
+          "category": "",
+          "pageNumber": 13,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-845995528bfb24ed",
+          "product": "SUŠENKY MILKA",
+          "price": 8.9,
+          "priceText": "",
+          "packageSize": "35-40 g",
+          "category": "",
+          "pageNumber": 13,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-29545b516fbbeaf1",
+          "product": "TYČINKA KIT KAT CHUNKY",
+          "price": 12.9,
+          "priceText": "",
+          "packageSize": "40 g",
+          "category": "",
+          "pageNumber": 13,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-7ffe788471a06ef5",
+          "product": "TYČINKY ORION Kofila",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "35 g",
+          "category": "",
+          "pageNumber": 13,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 14,
+      "pdfTextLength": 2150,
+      "roughPdfProductLineCount": 42,
+      "roughPriceMarkerCount": 19,
+      "pricePairs": 19,
+      "jedinecnaPrices": 0,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 16,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-710b9c3510504e7f",
+          "product": "BOBÍK vanilka, čokoláda",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "70 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d1c62892a66400da",
+          "product": "CARO instantní cereální nápoj",
+          "price": 89.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e232b2cfa096461f",
+          "product": "DEZERT MATY OLMÍCI smetanový",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "110 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-cb5590ac9e0fcfc7",
+          "product": "KÁVA JIHLAVANKA STANDARD mletá",
+          "price": 59.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-82584f0e42484307",
+          "product": "KÁVA NESCAFÉ GOLD instantní",
+          "price": 179.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-01b51ce7b450489b",
+          "product": "KEČUP GURMÁN OTMA jemný, ostrý",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "520 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5ba7c50dcb4461f2",
+          "product": "KEŠU PRAŽENÉ S MEDEM A SOLÍ NATURALIA",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-efdbc0c4c36dbb59",
+          "product": "KREKRY TUC",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "60 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ed6275224cb4c34f",
+          "product": "KUKUŘICE GOLD BONDUELLE",
+          "price": 28.9,
+          "priceText": "",
+          "packageSize": "340/285 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-26604c85433ec65b",
+          "product": "MORAVSKÁ KLOBÁSA ŘEZNÍKŮV TALÍŘ",
+          "price": 37.9,
+          "priceText": "",
+          "packageSize": "320 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-b199870c618af606",
+          "product": "MYSLI EMCO",
+          "price": 69.9,
+          "priceText": "",
+          "packageSize": "750 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-780bdd0341efac70",
+          "product": "TATARSKÁ OMÁČKA, MAJONÉZA POLIČANKA 100 ml | < 6,90 Kč JOGURT FLORIAN",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 14,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 15,
+      "pdfTextLength": 2196,
+      "roughPdfProductLineCount": 40,
+      "roughPriceMarkerCount": 15,
+      "pricePairs": 15,
+      "jedinecnaPrices": 0,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 16,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-949ebf65e48f8df4",
+          "product": "ASCONI GOLD",
+          "price": 59.9,
+          "priceText": "",
+          "packageSize": "0,75 l",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c0458d5214ba5522",
+          "product": "ASIJSKÁ ZELENINOVÁ SMĚS MRAZIVÁ ČERSTVOST mražená",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "450 g",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-b4858227ecf5f8a2",
+          "product": "AVANTI Classico, Rosé, Ice",
+          "price": 44.9,
+          "priceText": "",
+          "packageSize": "0,75 l",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-05d82d94c42aada5",
+          "product": "BOHEMIA CHIPSY ČOČKOVÉ",
+          "price": 24.9,
+          "priceText": "",
+          "packageSize": "65 g",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5b97582cf7afacee",
+          "product": "BONBONIÉRA MARIANNA",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "133 g",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f72e283472753e1f",
+          "product": "BRUSCHETTE MARETTI",
+          "price": 16.9,
+          "priceText": "",
+          "packageSize": "70 g",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e89f1eccb330ad35",
+          "product": "ČOKOPIŠKOTY FIGARO",
+          "price": 22.9,
+          "priceText": "",
+          "packageSize": "147 g",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f939f5a74b9db454",
+          "product": "JAHODY MRAZIVÁ ČERSTVOST",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "750 g",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ea762fd7e3bd8f9a",
+          "product": "MENTOS Mint, Fruit",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "38 g",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-a35a1d17b359e480",
+          "product": "OPLATKA STUDENTSKÁ PEČEŤ ORION mléčná",
+          "price": 7.8,
+          "priceText": "",
+          "packageSize": "30 g",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-4bbb7ad919339904",
+          "product": "RYBÍ FILÉ NOWACO porce,",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-4dc579bf07614435",
+          "product": "SMAŽENÉ KUŘECÍ NUGETKY",
+          "price": 34.9,
+          "priceText": "",
+          "packageSize": "260 g",
+          "category": "",
+          "pageNumber": 15,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 16,
+      "pdfTextLength": 2013,
+      "roughPdfProductLineCount": 38,
+      "roughPriceMarkerCount": 11,
+      "pricePairs": 9,
+      "jedinecnaPrices": 2,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 15,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-215c68d69a36f47d",
+          "product": "(běžně za 14,25 Kč) < 26,90 Kč OVOCNÉ ŽELÉ ENJOY",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "35 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-30bf7c69e2286013",
+          "product": "BONBONY ENJOY",
+          "price": 10.9,
+          "priceText": "",
+          "packageSize": "80 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ce91b5f8c33bc4c3",
+          "product": "ČOČKY, ARAŠÍDY V MLÉČNÉ ČOKOLÁDĚ CHOCO‘LA",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c39aa29fcca0f78a",
+          "product": "EMCO SUPER SUŠENKY",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "60 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e95d7b9a4ac9b7f5",
+          "product": "HORALKY arašídové",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "50 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-9bd715bd789125f0",
+          "product": "PIŠKOTY OPAVIA",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "220 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-74e6edacf94d852d",
+          "product": "ROZINKY V MLÉČNÉ ČOKOLÁDĚ",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "80 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3037117881462942",
+          "product": "SKITTLES crazy sours, fruits",
+          "price": 34.9,
+          "priceText": "",
+          "packageSize": "152 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-142778be5768816a",
+          "product": "SUŠENKY BEBE RODINNÉ OPAVIA jemné",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "130 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-0e453f7f010ff7c0",
+          "product": "SUŠENKY HIT",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "220 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-fc99f360522010d8",
+          "product": "SUŠENKY OPAVIA",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "220/180 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e4f6106d3c0f9be1",
+          "product": "TRADIČNÍ OPLATKY KOLONÁDA OPAVIA",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "140/92 g",
+          "category": "",
+          "pageNumber": 16,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 17,
+      "pdfTextLength": 1766,
+      "roughPdfProductLineCount": 27,
+      "roughPriceMarkerCount": 14,
+      "pricePairs": 10,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 3,
+      "currentPennyOffers": 16,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-dbfb81b3b05c85be",
+          "product": "BRUMÍK OPAVIA",
+          "price": 7.9,
+          "priceText": "",
+          "packageSize": "30 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5e371ac81e823191",
+          "product": "CEREÁLIE CORNFLAKES CRIP CROP",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-06aa3cd4f7579ea8",
+          "product": "ČOKOLÁDA MILKA",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "87,5–95 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-6062732587a8e4c8",
+          "product": "DĚTSKÉ CEREÁLIE CRIP CROP",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "250/100 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-9de18c2e6e684fa3",
+          "product": "KINDER BUENO",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "43 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-cdfead619d883ac7",
+          "product": "KUKUŘIČNÉ TRUBIČKY ALASKA",
+          "price": 2.9,
+          "priceText": "",
+          "packageSize": "18 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-97a21d40db75b836",
+          "product": "LÁZEŇSKÉ TROJHRÁNKY KOLONÁDA OPAVIA",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "50 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5c72b3075a8897be",
+          "product": "MÜSLI TYČINKA CRIP CROP",
+          "price": 4.9,
+          "priceText": "",
+          "packageSize": "30 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e91b603025cdfb0b",
+          "product": "MÜSLI TYČINKA TWIGGY",
+          "price": 4.9,
+          "priceText": "",
+          "packageSize": "30/20 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-1af0632c45b9829c",
+          "product": "OPLATKA ATTACK SEDITA",
+          "price": 5.9,
+          "priceText": "",
+          "packageSize": "30 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-a8c207633276f53f",
+          "product": "POLŠTÁŘKY S NÁPLNÍ CRISPY",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-4fc5afd433eb4883",
+          "product": "SRDÍČKA MÜSLI CRIP CROP",
+          "price": 8.9,
+          "priceText": "",
+          "packageSize": "50 g",
+          "category": "",
+          "pageNumber": 17,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 18,
+      "pdfTextLength": 2630,
+      "roughPdfProductLineCount": 50,
+      "roughPriceMarkerCount": 17,
+      "pricePairs": 15,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 1,
+      "currentPennyOffers": 2,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-8508603884f756e2",
+          "product": "APEROL",
+          "price": 249.9,
+          "priceText": "",
+          "packageSize": "0,7 l",
+          "category": "",
+          "pageNumber": 18,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e4693655f089017c",
+          "product": "BOŽKOV REPUBLIKA míchané alkoholické nápoje | plech",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "0,25 l",
+          "category": "",
+          "pageNumber": 18,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 19,
+      "pdfTextLength": 1331,
+      "roughPdfProductLineCount": 27,
+      "roughPriceMarkerCount": 11,
+      "pricePairs": 10,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 5,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-fb4b369219c8e7a8",
+          "product": "FERNET STOCK",
+          "price": 169.9,
+          "priceText": "",
+          "packageSize": "0,5 l",
+          "category": "",
+          "pageNumber": 19,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-22492e1151b738fd",
+          "product": "KINLEY AROMATIC PINK BERRY",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "1,5 l",
+          "category": "",
+          "pageNumber": 19,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ed2e35e5c7ee8493",
+          "product": "ORIGINAL RIVER TONIC",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "2 l",
+          "category": "",
+          "pageNumber": 19,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ed45414c6240d904",
+          "product": "ROYAL CROWN COLA CLASSIC",
+          "price": 26.9,
+          "priceText": "",
+          "packageSize": "1,33 l",
+          "category": "",
+          "pageNumber": 19,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-cfdd938e5e4388e6",
+          "product": "TARGA FLORIO POMERANČ",
+          "price": 26.9,
+          "priceText": "",
+          "packageSize": "1,33 l",
+          "category": "",
+          "pageNumber": 19,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 20,
+      "pdfTextLength": 2509,
+      "roughPdfProductLineCount": 35,
+      "roughPriceMarkerCount": 18,
+      "pricePairs": 18,
+      "jedinecnaPrices": 0,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 19,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-v2-conservative-781d1f8b28c0e80d",
+          "product": "BOHEMIA SEKT různé druhy",
+          "price": 109.9,
+          "priceText": "109,90 Kč",
+          "packageSize": "0,75 l",
+          "category": "alkohol",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-v2-conservative-f8b4788ae0fe0581",
+          "product": "BRANDY KOBLEVO RESERVE VSOP 40 % alk.",
+          "price": 229.9,
+          "priceText": "229,90 Kč",
+          "packageSize": "0,5 l",
+          "category": "alkohol",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-v2-conservative-dc4fa8506699f908",
+          "product": "BRANÍK světlé výčepní",
+          "price": 9.9,
+          "priceText": "9,90 Kč",
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-v2-conservative-b033a7c3c26fbff7",
+          "product": "BUDWEISER BUDVAR světlý ležák",
+          "price": 19.9,
+          "priceText": "19,90 Kč",
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-v2-conservative-863cf35a46a2e29a",
+          "product": "COOL různé druhy",
+          "price": 36.9,
+          "priceText": "36,90 Kč",
+          "packageSize": "1,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-v2-conservative-d1b659f80636bd56",
+          "product": "GAMBRINUS PATRON světlý ležák plech",
+          "price": 18.9,
+          "priceText": "18,90 Kč",
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-v2-conservative-677b3b6aeb843012",
+          "product": "KRUŠOVICE 10 světlé výčepní",
+          "price": 9.9,
+          "priceText": "9,90 Kč",
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-v2-conservative-1b46f79cec8d20af",
+          "product": "OSTRAVAR MUSTANG světlý ležák plech",
+          "price": 18.9,
+          "priceText": "18,90 Kč",
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-v2-conservative-f7a8894d974baaf2",
+          "product": "PROSECCO bílé perlivé",
+          "price": 69.9,
+          "priceText": "69,90 Kč",
+          "packageSize": "0,75 l",
+          "category": "alkohol",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-v2-conservative-7244ce8a145287f3",
+          "product": "RADEGAST RATAR hořký ležák plech",
+          "price": 20.9,
+          "priceText": "20,90 Kč",
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-v2-conservative-8c4e27d41cce9df2",
+          "product": "SKOTSKÁ WHISKY MC ILLROY 40 % alk.",
+          "price": 219.9,
+          "priceText": "219,90 Kč",
+          "packageSize": "0,7 l",
+          "category": "alkohol",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-v2-conservative-936557098208d02f",
+          "product": "STAROČECH nealko",
+          "price": 6.9,
+          "priceText": "6,90 Kč",
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 20,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 21,
+      "pdfTextLength": 2696,
+      "roughPdfProductLineCount": 66,
+      "roughPriceMarkerCount": 22,
+      "pricePairs": 18,
+      "jedinecnaPrices": 3,
+      "superCenaPrices": 1,
+      "currentPennyOffers": 20,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-a5cf82f882282fcd",
+          "product": "ARAŠÍDY NATURALIA pražené solené",
+          "price": 17.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-a1ff40228dce1466",
+          "product": "CRANBERRIES NATURALIA",
+          "price": 34.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-9197956b8dc4d055",
+          "product": "DON SIMON NATURE",
+          "price": 44.9,
+          "priceText": "",
+          "packageSize": "0,75 l",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-da9e58c8f8a3903f",
+          "product": "DÝŇOVÁ SEMÍNKA NATURALIA",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-4aa4a845f25cb0c5",
+          "product": "KEŠU A ARAŠÍDY NATURALIA",
+          "price": 44.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-932adb293e291d88",
+          "product": "KEŠU XXL NATURALIA",
+          "price": 119.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-628b3b5a5344b325",
+          "product": "LAY’S MAX DEEP-CUT",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "120 g",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ee49eb2adc064c85",
+          "product": "MANDLE KARAMELIZOVANÉ SOLENÉ NATURALIA",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-1093a057e1fba087",
+          "product": "MANGO SUŠENÉ PLÁTKY GOLDEN TROPIC",
+          "price": 69.9,
+          "priceText": "",
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-09d3f1356b3cc741",
+          "product": "NAŠE BRAMBŮRKY SOLTY",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ffa91a8a95dfc695",
+          "product": "PEKANOVÉ OŘECHY NATURALIA",
+          "price": 89.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-25778343e6c75378",
+          "product": "PISTÁCIE PRAŽENÉ NATURALIA pepř a sůl,",
+          "price": 79.9,
+          "priceText": "",
+          "packageSize": "250 g",
+          "category": "",
+          "pageNumber": 21,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 22,
+      "pdfTextLength": 2541,
+      "roughPdfProductLineCount": 45,
+      "roughPriceMarkerCount": 21,
+      "pricePairs": 18,
+      "jedinecnaPrices": 3,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 18,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-87fde50337b3786a",
+          "product": "BIO ČAJ LEROS heřmánek, meduňka",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "20 g",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-9c1ed92903fc1bef",
+          "product": "CAPRI-SUN vybrané druhy",
+          "price": 69.9,
+          "priceText": "",
+          "packageSize": "10x 200 ml",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f3dad76f4c1f09bf",
+          "product": "COCA-COLA, COCA-COLA ZERO, FANTA POMERANČ PET",
+          "price": 32.9,
+          "priceText": "",
+          "packageSize": "2 l",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-2acaf8c4b199ed19",
+          "product": "ČAJ MINUTKA černý",
+          "price": 26.9,
+          "priceText": "",
+          "packageSize": "100x 1,4 g",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-7459e60a148f7535",
+          "product": "ENERGETICKÝ NÁPOJ SEMTEX",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "0,5 l",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-509ea745e6b7e671",
+          "product": "GRANKO ORION instantní nápoj",
+          "price": 59.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-53c51ff16126c37f",
+          "product": "HORKÁ ČOKOLÁDA MILKY MOKATE",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "10x 18 g",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-1f988ee0d4782851",
+          "product": "INSTANTNÍ ČAJ PENNY citron, lesní ovoce, broskev",
+          "price": 26.9,
+          "priceText": "",
+          "packageSize": "350 g",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-4a0d9eb354cf81bc",
+          "product": "JUPÍK AQUA dětský nesycený nápoj | jahoda",
+          "price": 14.9,
+          "priceText": "",
+          "packageSize": "0,5 l",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-1ad1dd03f5e1977d",
+          "product": "KOFOLA, VINEA",
+          "price": 39.6,
+          "priceText": "",
+          "packageSize": "4x 0,33 l",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-207c3bf232ebec48",
+          "product": "KOUZELNÝ ČAJ",
+          "price": 16.9,
+          "priceText": "",
+          "packageSize": "35/40 g",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e409e858d89f628a",
+          "product": "MINERÁLNÍ VODA MAGNESIA PLUS Focus, Antistress",
+          "price": 22.9,
+          "priceText": "",
+          "packageSize": "0,7 l",
+          "category": "",
+          "pageNumber": 22,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 23,
+      "pdfTextLength": 2685,
+      "roughPdfProductLineCount": 55,
+      "roughPriceMarkerCount": 16,
+      "pricePairs": 10,
+      "jedinecnaPrices": 4,
+      "superCenaPrices": 2,
+      "currentPennyOffers": 18,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-page23-coffee-a8ea0fe685ec5c02",
+          "product": "CAPPUCCINO CASABLANCA různé druhy",
+          "price": 12.9,
+          "priceText": "12,90 Kč",
+          "packageSize": "100 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page23-coffee-7782bf88e1d26c1d",
+          "product": "COFFEE WHITENER CASABLANCA",
+          "price": 17.9,
+          "priceText": "17,90 Kč",
+          "packageSize": "200 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page23-coffee-ba7a9e13b3e88fd2",
+          "product": "DOLCE GUSTO KÁVOVÉ KAPSLE různé druhy",
+          "price": 119.9,
+          "priceText": "119,90 Kč",
+          "packageSize": "",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page23-coffee-d1a27bbed481dc0b",
+          "product": "EDUSCHO ESPRESSO INTENSO zrnková",
+          "price": 299.9,
+          "priceText": "299,90 Kč",
+          "packageSize": "1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-01e476712aba75d2",
+          "product": "JACOBS INTENSE",
+          "price": 189.9,
+          "priceText": "189,90 Kč",
+          "packageSize": "200 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-dbe60607c2cf6020",
+          "product": "JACOBS ORIGINS Brazílie, Kenya mletá",
+          "price": 129.9,
+          "priceText": "129,90 Kč",
+          "packageSize": "200 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ba0acdf54b402a3b",
+          "product": "KÁVA CASABLANCA CLASSIC instantní",
+          "price": 99.9,
+          "priceText": "99,90 Kč",
+          "packageSize": "200 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page23-coffee-9e34cdd1ec1da6c4",
+          "product": "KÁVA CASABLANCA CREMA zrnková",
+          "price": 289.9,
+          "priceText": "289,90 Kč",
+          "packageSize": "1 kg",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d166c1d61aac8a3a",
+          "product": "KÁVA CASABLANCA ESPRESSO MILD zrnková",
+          "price": 139.9,
+          "priceText": "139,90 Kč",
+          "packageSize": "500 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-aeb313f2157d27ba",
+          "product": "KÁVA CASABLANCA INTENSO mletá",
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "packageSize": "250 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c4e6bcecc2267e48",
+          "product": "KÁVA CASABLANCA OCHUCENÁ instantní,",
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "packageSize": "80 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page23-coffee-149d4d967b293d25",
+          "product": "KÁVA CASABLANCA OCHUCENÁ instantní, s příchutí lískového oříšku, vanilky",
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "packageSize": "80 g",
+          "category": "káva",
+          "pageNumber": 23,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 24,
+      "pdfTextLength": 2194,
+      "roughPdfProductLineCount": 49,
+      "roughPriceMarkerCount": 12,
+      "pricePairs": 3,
+      "jedinecnaPrices": 8,
+      "superCenaPrices": 1,
+      "currentPennyOffers": 12,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-d1babc89933f5929",
+          "product": "(běžně za 1,75 Kč) < 26,90 Kč PRACÍ PRÁŠEK, GEL REX 2,5 kg,",
+          "price": 34.9,
+          "priceText": "",
+          "packageSize": "2,475 l",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-a7e195bd9c574041",
+          "product": "(běžně za 41,63 Kč) < 89,90 Kč UBROUSKY PROTI OBARVENÍ PRÁDLA PALLOR",
+          "price": 26.9,
+          "priceText": "",
+          "packageSize": "24 ks",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d41b4c54e0811f0f",
+          "product": "79,90 JAR EXTRA + CITRUS",
+          "price": 79.9,
+          "priceText": "",
+          "packageSize": "900 ml",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-b4b252c7b98c29fa",
+          "product": "AVIVÁŽ LENOR",
+          "price": 99.9,
+          "priceText": "",
+          "packageSize": "2x 798 ml",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-92d5ae09f581571d",
+          "product": "AVIVÁŽ TESORI D’ORIENTE",
+          "price": 89.9,
+          "priceText": "",
+          "packageSize": "1160 ml",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-10bc7abbcd5afba9",
+          "product": "ČISTIČ ODPADŮ FREDY",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f8dac610e767789d",
+          "product": "DEZINFEKČNÍ SPREJ SANYTOL eukalyptus",
+          "price": 59.9,
+          "priceText": "",
+          "packageSize": "500 ml",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e60dbd28835c1288",
+          "product": "GEL PRACÍ S MARSEILLSKÝM MÝDLEM PALLOR",
+          "price": 89.9,
+          "priceText": "",
+          "packageSize": "3 l",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-dd2445fbc30f7ba9",
+          "product": "KAPSLE DO MYČKY PLATINUM JAR",
+          "price": 299.9,
+          "priceText": "",
+          "packageSize": "60 ks",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5a48bb0554e8eae6",
+          "product": "OSVĚŽOVAČ VZDUCHU AMBI PUR",
+          "price": 79.9,
+          "priceText": "",
+          "packageSize": "8 ml",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f22f76af81dd2ad2",
+          "product": "PRACÍ PRÁŠEK, GEL ARIEL 5 kg,",
+          "price": 89.9,
+          "priceText": "",
+          "packageSize": "5 l",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5c2e781a6e81ef8e",
+          "product": "TABLETY DO MYČKY 3V1 LEMON SOMAT",
+          "price": 199.7,
+          "priceText": "",
+          "packageSize": "48 ks",
+          "category": "",
+          "pageNumber": 24,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 25,
+      "pdfTextLength": 2286,
+      "roughPdfProductLineCount": 53,
+      "roughPriceMarkerCount": 19,
+      "pricePairs": 11,
+      "jedinecnaPrices": 4,
+      "superCenaPrices": 4,
+      "currentPennyOffers": 17,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-589c00aad33a6773",
+          "product": "64,90 79,90/ 18% 34,90 49,90/ 30% nabídka Jedinečná 119,90 SPRCHOVÝ GEL PALMOLIVE",
+          "price": 64.9,
+          "priceText": "",
+          "packageSize": "500 ml",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-80d9241db5f6ecda",
+          "product": "FIXAČNÍ KRÉM NA ZUBNÍ PROTÉZU BLEND-A-DENT",
+          "price": 79.9,
+          "priceText": "",
+          "packageSize": "47 g",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-02bd4a982269dc68",
+          "product": "KAPESNÍKY WIPPY 2vrstvé",
+          "price": 16.5,
+          "priceText": "",
+          "packageSize": "150 ks",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-13c7cf35cd9fdaa6",
+          "product": "KAŠE MLÉČNÁ HAMI banán, jahoda",
+          "price": 69.9,
+          "priceText": "",
+          "packageSize": "210 g",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c75735b18838dd6e",
+          "product": "KUCHYŇSKÉ UTĚRKY WIPPY 2vrstvé 2 role",
+          "price": 19.9,
+          "priceText": "",
+          "packageSize": "22 m",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-458d518d568a17e5",
+          "product": "MANDLOVÝ KRÉM VÝŽIVNÝ ASTRID",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "50 ml",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-203fb5c7796d932f",
+          "product": "PAPÍROVÉ KAPESNÍČKY WIPPY 4vrstvé",
+          "price": 22.9,
+          "priceText": "",
+          "packageSize": "10x 10 ks",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-62cd42d2a6eeb241",
+          "product": "PLENY MIDI 3 BABY WELL",
+          "price": 139.9,
+          "priceText": "",
+          "packageSize": "46 ks",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-34d6d95a6e61fc46",
+          "product": "PYTLE NA ODPADKY S VŮNÍ CITRONU CLINA",
+          "price": 12.9,
+          "priceText": "",
+          "packageSize": "10 ks",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-018fd7b6f93d5b13",
+          "product": "SPRCHOVÝ GEL TESORI D’ORIENTE",
+          "price": 59.9,
+          "priceText": "",
+          "packageSize": "250 ml",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-0311dd4052d06f6c",
+          "product": "TAMPONY KOTEX",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "16 ks",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-25ae077451b7369f",
+          "product": "TOALETNÍ PAPÍR VLHČENÝ WIPPY",
+          "price": 14.7,
+          "priceText": "",
+          "packageSize": "70 ks",
+          "category": "",
+          "pageNumber": 25,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 26,
+      "pdfTextLength": 1910,
+      "roughPdfProductLineCount": 37,
+      "roughPriceMarkerCount": 17,
+      "pricePairs": 7,
+      "jedinecnaPrices": 10,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 6,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-2ca422cdbbe034d9",
+          "product": "FILETY PRO PSY BODIE SELECT",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "100 g",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-2b655c602d2b7582",
+          "product": "GRANULE PRO KOČKY FRISKIES",
+          "price": 109.9,
+          "priceText": "",
+          "packageSize": "1,7 kg",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3e33e7af181184f4",
+          "product": "GRANULE PRO PSY BODIE s hovězím, drůbežím a zeleninou",
+          "price": 189.9,
+          "priceText": "",
+          "packageSize": "10 kg",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-e77add8143519353",
+          "product": "KONZERVA PRO PSY HARYK",
+          "price": 27.9,
+          "priceText": "",
+          "packageSize": "1,24 kg",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-c59acfbab83dff36",
+          "product": "KONZERVY PRO KOČKY GOURMET GOLD",
+          "price": 99.9,
+          "priceText": "",
+          "packageSize": "8x 85 g",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-b29216069657d785",
+          "product": "STELIVO PRO KOČKY S VŮNÍ KITTY STAR",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "5 l",
+          "category": "",
+          "pageNumber": 26,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 27,
+      "pdfTextLength": 1946,
+      "roughPdfProductLineCount": 32,
+      "roughPriceMarkerCount": 14,
+      "pricePairs": 2,
+      "jedinecnaPrices": 12,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 0,
+      "currentPennyOfferSamples": []
+    },
+    {
+      "pageNumber": 28,
+      "pdfTextLength": 2994,
+      "roughPdfProductLineCount": 36,
+      "roughPriceMarkerCount": 15,
+      "pricePairs": 0,
+      "jedinecnaPrices": 15,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 22,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-page28-v2-22cd741dc6e9b83c",
+          "product": "KAPALNÉ HNOJIVO železo či vápník 1 balení",
+          "price": 49.9,
+          "priceText": "49,90 Kč",
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page28-v2-cd86a7139c7fbe0f",
+          "product": "SUBSTRÁT na pelargonie či plodovou zeleninu 1 balení",
+          "price": 119.9,
+          "priceText": "119,90 Kč",
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page28-v2-060db795c025f216",
+          "product": "HOŠTICKÝ KOMPOST 1 balení",
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page28-v2-662f4db0c99f7542",
+          "product": "TRUHLÍK plastový, 27 cm, různé barvy",
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page28-v2-43fd0318274ed6ba",
+          "product": "OPLOCENÍ ZÁHONKU plastové - PP, po sestavení 45 x 45 x 18,5 cm, černá barva 1 balení",
+          "price": 149.9,
+          "priceText": "149,90 Kč",
+          "packageSize": "18,5 cm",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page28-v2-02a120a274dd5192",
+          "product": "OBAL NA KVĚTNÍK plastový, ø 15 x 12 cm, různé barvy",
+          "price": 59.9,
+          "priceText": "59,90 Kč",
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page28-v2-a68241b3b71f5cde",
+          "product": "HNOJIVO KRISTALON na podporu květů a plodů / rajčata a papriky / muškáty 1 balení",
+          "price": 99.9,
+          "priceText": "99,90 Kč",
+          "packageSize": "",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page28-v2-c214972826873e47",
+          "product": "VÁZACÍ PÁSKA plastová, délka 34,5 cm 1 balení",
+          "price": 29.9,
+          "priceText": "29,90 Kč",
+          "packageSize": "34,5 cm",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page28-v2-8f67d80a356823df",
+          "product": "VÁZACÍ DRÁTEK 2x 20 m, kovový potažený PVC, včetně řezače 1 balení",
+          "price": 34.9,
+          "priceText": "34,90 Kč",
+          "packageSize": "20 m",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page28-v2-fedd228adf06067a",
+          "product": "ZAHRADNICKÉ NŮŽKY pákové, max. ø řezu 2–30 cm / plotové, max. pr. řezu 0,8–1 cm",
+          "price": 179.9,
+          "priceText": "179,90 Kč",
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page28-v2-313b02bdc18cb1c5",
+          "product": "STRUNA DO SEKAČKY hvězda/kulatá, ø 2,4 mm 1 balení",
+          "price": 49.9,
+          "priceText": "49,90 Kč",
+          "packageSize": "2,4 mm",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-page28-v2-5c027d39eb202620",
+          "product": "OPĚRA kovová, stříbrná",
+          "price": 24.9,
+          "priceText": "24,90 Kč",
+          "packageSize": "1 ks",
+          "category": "zahrada",
+          "pageNumber": 28,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 29,
+      "pdfTextLength": 2508,
+      "roughPdfProductLineCount": 32,
+      "roughPriceMarkerCount": 11,
+      "pricePairs": 0,
+      "jedinecnaPrices": 11,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 0,
+      "currentPennyOfferSamples": []
+    },
+    {
+      "pageNumber": 30,
+      "pdfTextLength": 1508,
+      "roughPdfProductLineCount": 40,
+      "roughPriceMarkerCount": 16,
+      "pricePairs": 13,
+      "jedinecnaPrices": 2,
+      "superCenaPrices": 1,
+      "currentPennyOffers": 7,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-88f7e36ed4b299a3",
+          "product": "BRATWURST BÍLÁ GRILOVACÍ KLOBÁSA NA GRIL",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "330 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-465d28fc3992411e",
+          "product": "ČESNEK ČESKÝ KARLOVA KORUNA balený",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-96ee9913c7ed3578",
+          "product": "GRILOVACÍ TYČINKY NA GRIL",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "340 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-a03df2daf9430443",
+          "product": "JAHODY",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-1fffb39c36c26ded",
+          "product": "KLOBÁSA GRILOVACÍ S GOUDOU NA GRIL",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "300 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5520204cdf5ec816",
+          "product": "SEKANÁ ŘEZNÍKŮV TALÍŘ klasik, farmářská",
+          "price": 32.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-ad09bbb40f8e5d1d",
+          "product": "SÝR BRIE MILKERIA",
+          "price": 39.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 30,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 31,
+      "pdfTextLength": 1221,
+      "roughPdfProductLineCount": 25,
+      "roughPriceMarkerCount": 10,
+      "pricePairs": 10,
+      "jedinecnaPrices": 0,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 10,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-56b46d5757581395",
+          "product": "BONBONIÉRA MERCI LOVELIES",
+          "price": 79.9,
+          "priceText": "",
+          "packageSize": "185 g",
+          "category": "",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-16e60577a6b04fbc",
+          "product": "BUDVAR 33",
+          "price": 17.9,
+          "priceText": "",
+          "packageSize": "0,5 l",
+          "category": "pivo",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-826cb1f4beb2baee",
+          "product": "ČOKOLÁDA NA VAŘENÍ FIGARO",
+          "price": 27.9,
+          "priceText": "",
+          "packageSize": "90 g",
+          "category": "",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-eca788a0604dbb6e",
+          "product": "CHIPSY BOHEMIA solené",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "130 g",
+          "category": "",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-1850aed32135b4fe",
+          "product": "KÁVA SEGAFREDO ESPRESSO CASA zrnková",
+          "price": 189.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d8995855f46c46cb",
+          "product": "MINERÁLNÍ VODA ONDRÁŠOVKA",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "1,5 l",
+          "category": "",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-6696592a36aa6e4c",
+          "product": "PAŠTIKA PRO KOČKY MICINKA",
+          "price": 5.9,
+          "priceText": "",
+          "packageSize": "100 g",
+          "category": "",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5069ae9bc9fc8ff2",
+          "product": "TOALETNÍ PAPÍR HEŘMÁNEK WIPPY 3vrstvý | 4 role",
+          "price": 22.9,
+          "priceText": "",
+          "packageSize": "78,84 m",
+          "category": "",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-6fa1b2c11a64a6e9",
+          "product": "ZÁTKOVY VAJEČNÉ TĚSTOVINY",
+          "price": 29.9,
+          "priceText": "",
+          "packageSize": "400 g",
+          "category": "",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-6b5b6431e16188ca",
+          "product": "ZELÍ KARLOVA KORUNA",
+          "price": 24.9,
+          "priceText": "",
+          "packageSize": "670/340 g",
+          "category": "",
+          "pageNumber": 31,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 32,
+      "pdfTextLength": 3730,
+      "roughPdfProductLineCount": 43,
+      "roughPriceMarkerCount": 14,
+      "pricePairs": 14,
+      "jedinecnaPrices": 0,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 7,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-7fe56da7c329204a",
+          "product": "BROSKVE",
+          "price": 49.9,
+          "priceText": "",
+          "packageSize": "500 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-1dc93b9be56ed237",
+          "product": "JEMNÉ PÁRKY ŘEZNÍKŮV TALÍŘ",
+          "price": 32.9,
+          "priceText": "",
+          "packageSize": "200 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-f65b3ed84d073c21",
+          "product": "KOLÁČ TVAROH, MÁK, JABLKO KARLOVA KORUNA rozmrazeno",
+          "price": 9.9,
+          "priceText": "",
+          "packageSize": "80 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-3fa31db7e7b0717d",
+          "product": "MALINY",
+          "price": 34.9,
+          "priceText": "",
+          "packageSize": "125 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-8b98b9a81d099192",
+          "product": "MINERÁLNÍ VODA GEMERKA",
+          "price": 11.9,
+          "priceText": "",
+          "packageSize": "1,5 l",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d5d7d1217b995f36",
+          "product": "OCHUCENÝ JOGURT KARLOVA KORUNA",
+          "price": 8.9,
+          "priceText": "",
+          "packageSize": "150 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-8371c99046474c10",
+          "product": "VEPŘOVÉ KOSTKY NA GULÁŠ DOBRÉ MASO",
+          "price": 79.9,
+          "priceText": "",
+          "packageSize": "600 g",
+          "category": "",
+          "pageNumber": 32,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 33,
+      "pdfTextLength": 456,
+      "roughPdfProductLineCount": 10,
+      "roughPriceMarkerCount": 3,
+      "pricePairs": 1,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 1,
+      "currentPennyOffers": 2,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-4ec7cdc00af1df23",
+          "product": "SPRCHOVÝ GEL FA",
+          "price": 79.88,
+          "priceText": "",
+          "packageSize": "750 ml",
+          "category": "",
+          "pageNumber": 33,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-5e093ece6f2a0031",
+          "product": "ŠAMPON SCHAUMA",
+          "price": 59.9,
+          "priceText": "",
+          "packageSize": "400 ml",
+          "category": "",
+          "pageNumber": 33,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 34,
+      "pdfTextLength": 283,
+      "roughPdfProductLineCount": 6,
+      "roughPriceMarkerCount": 1,
+      "pricePairs": 0,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 2,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-a3f0f4b787680b60",
+          "product": "79,90 nabídka Jedinečná 79,90 OSVĚŽOVAČ VZDUCHU ALOHA AMBI PUR",
+          "price": 79.9,
+          "priceText": "",
+          "packageSize": "185 ml",
+          "category": "",
+          "pageNumber": 34,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-d2fc010f91d8138f",
+          "product": "VŮNĚ DO KOUPELNY ALOHA AMBI PUR",
+          "price": 79.9,
+          "priceText": "",
+          "packageSize": "8 ml",
+          "category": "",
+          "pageNumber": 34,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 35,
+      "pdfTextLength": 737,
+      "roughPdfProductLineCount": 27,
+      "roughPriceMarkerCount": 3,
+      "pricePairs": 2,
+      "jedinecnaPrices": 1,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 2,
+      "currentPennyOfferSamples": [
+        {
+          "id": "penny-leaflet-bc6ef5f7f8fd6b7f",
+          "product": "PRÁŠEK 4V1 CALGON",
+          "price": 89.9,
+          "priceText": "89,90 Kč",
+          "packageSize": "500 g",
+          "category": "drogerie",
+          "pageNumber": 35,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        },
+        {
+          "id": "penny-leaflet-777d60b9e34ddc8b",
+          "product": "GEL NA PRANÍ WOOLITE colors",
+          "price": 199.9,
+          "priceText": "199,90 Kč",
+          "packageSize": "3,6 l",
+          "category": "drogerie",
+          "pageNumber": 35,
+          "storeName": "Penny – leták",
+          "chain": "Penny"
+        }
+      ]
+    },
+    {
+      "pageNumber": 36,
+      "pdfTextLength": 111,
+      "roughPdfProductLineCount": 1,
+      "roughPriceMarkerCount": 0,
+      "pricePairs": 0,
+      "jedinecnaPrices": 0,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 0,
+      "currentPennyOfferSamples": []
+    },
+    {
+      "pageNumber": 37,
+      "pdfTextLength": 656,
+      "roughPdfProductLineCount": 9,
+      "roughPriceMarkerCount": 0,
+      "pricePairs": 0,
+      "jedinecnaPrices": 0,
+      "superCenaPrices": 0,
+      "currentPennyOffers": 0,
+      "currentPennyOfferSamples": []
+    }
+  ],
+  "notes": [
+    "Tento audit je záměrně kontrolní. Neimportuje data do aplikace.",
+    "Ceny za znakem < jsou v Penny PDF nejnižší cena za posledních 30 dní, ne aktuální akční cena.",
+    "Další krok je vytvořit nový Penny import, který bude používat pořadí/pozice cen a produktů napříč všemi stránkami PDF."
+  ]
+}

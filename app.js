@@ -1,19 +1,31 @@
 const STORE_CATALOG = [
   { id: 'penny-default', chain: 'Penny', name: 'Penny – aktuální nabídky', address: 'celostátní / podle webu Penny', type: 'diskont', status: 'napojeno přes import Penny' },
   { id: 'kaufland-teplice-centrum', chain: 'Kaufland', name: 'Kaufland Teplice-Centrum', address: 'Čs. Dobrovolců 3356, 415 01 Teplice', type: 'hypermarket', status: 'napojeno přes import Kaufland Teplice' },
-  { id: 'albert-supermarket', chain: 'Albert', name: 'Albert supermarket', address: 'aktuální supermarket leták Albert', type: 'supermarket', status: 'napojeno přes import Albert PDF V7 clean' },
-  { id: 'albert-hypermarket', chain: 'Albert', name: 'Albert hypermarket', address: 'aktuální hypermarket leták Albert', type: 'hypermarket', status: 'napojeno přes import Albert PDF V7 clean' }
-]; function getInitialSelectedStoreIds() {
+  { id: 'albert-supermarket', chain: 'Albert', name: 'Albert supermarket', address: 'aktuální supermarket leták Albert', type: 'supermarket', status: 'napojeno z clean PDF importu' },
+  { id: 'albert-hypermarket', chain: 'Albert', name: 'Albert hypermarket', address: 'aktuální hypermarket leták Albert', type: 'hypermarket', status: 'napojeno z clean PDF importu' }
+];
+
+const STORE_ID_ALIASES = {
+  'penny-letak': 'penny-default',
+  'penny-leaflet': 'penny-default',
+  'kaufland-demo': 'kaufland-teplice-centrum',
+  'albert-hyper-demo': 'albert-hypermarket',
+  'albert-super-demo': 'albert-supermarket'
+};
+
+function canonicalStoreId(storeId) {
+  return STORE_ID_ALIASES[storeId] || storeId;
+}
+
+function getInitialSelectedStoreIds() {
   const savedRaw = localStorage.getItem('selectedStoreIds');
   const saved = JSON.parse(savedRaw || '["penny-default","kaufland-teplice-centrum","albert-supermarket","albert-hypermarket"]');
 
   const migrated = saved
-    .map((id) => (id === 'kaufland-demo' ? 'kaufland-teplice-centrum' : id))
-    .map((id) => (id === 'albert-hyper-demo' ? 'albert-hypermarket' : id))
-    .map((id) => (id === 'albert-super-demo' ? 'albert-supermarket' : id))
+    .map((id) => canonicalStoreId(id))
     .filter((id, index, array) => array.indexOf(id) === index);
 
-  for (const requiredId of ['kaufland-teplice-centrum', 'albert-supermarket', 'albert-hypermarket']) {
+  for (const requiredId of ['penny-default', 'kaufland-teplice-centrum', 'albert-supermarket', 'albert-hypermarket']) {
     if (!migrated.includes(requiredId)) {
       migrated.push(requiredId);
     }
@@ -37,7 +49,51 @@ function normalize(value) {
   return String(value || '')
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '');
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function offerTextParts(offer) {
+  return [
+    offer.product,
+    offer.name,
+    offer.title,
+    offer.brand,
+    offer.description,
+    offer.category,
+    offer.searchTerms,
+    offer.compareKey,
+    offer.packageSize,
+    offer.storeName,
+    offer.storeId,
+    offer.chain
+  ]
+    .flat()
+    .filter(Boolean);
+}
+
+function offerSearchText(offer) {
+  return normalize(offerTextParts(offer).join(' '));
+}
+
+function normalizeOffer(offer) {
+  const storeId = canonicalStoreId(offer.storeId || offer.store || '');
+
+  return {
+    ...offer,
+    storeId,
+    searchIndex: offerSearchText({ ...offer, storeId })
+  };
+}
+
+function selectedStoreIdSet() {
+  return new Set(state.selectedStoreIds.map((id) => canonicalStoreId(id)));
+}
+
+function isSelectedStoreOffer(offer) {
+  return selectedStoreIdSet().has(canonicalStoreId(offer.storeId));
 }
 
 function formatPrice(value) {
@@ -48,7 +104,9 @@ function formatPrice(value) {
 
 function saveState() {
   localStorage.setItem('postcode', state.postcode);
-  localStorage.setItem('selectedStoreIds', JSON.stringify(state.selectedStoreIds));
+  localStorage.setItem('selectedStoreIds', JSON.stringify(
+    state.selectedStoreIds.map((id) => canonicalStoreId(id)).filter((id, index, array) => array.indexOf(id) === index)
+  ));
   localStorage.setItem('cart', JSON.stringify(state.cart));
   localStorage.setItem('qualityMode', state.qualityMode);
 }
@@ -144,7 +202,7 @@ function renderOfferQualityText(offer) {
 }
 
 function qualitySummary() {
-  const selected = state.offers.filter((offer) => state.selectedStoreIds.includes(offer.storeId));
+  const selected = state.offers.filter((offer) => isSelectedStoreOffer(offer));
   const counts = selected.reduce(
     (acc, offer) => {
       acc[offerQuality(offer)] += 1;
@@ -159,11 +217,11 @@ function qualitySummary() {
 function visibleOffers() {
   const query = normalize(state.query.trim());
   return state.offers
-    .filter((offer) => state.selectedStoreIds.includes(offer.storeId))
+    .filter((offer) => isSelectedStoreOffer(offer))
     .filter((offer) => shouldShowOfferByQuality(offer))
     .filter((offer) => {
       if (!query) return true;
-      return normalize(`${offer.product} ${offer.brand} ${offer.description || ''} ${offer.category || ''} ${offer.searchTerms || ''} ${offer.chain} ${offer.storeName} ${offer.packageSize}`).includes(query);
+      return (offer.searchIndex || offerSearchText(offer)).includes(query);
     })
     .sort((a, b) => {
       if (state.sortBy === 'price') return Number(a.price || 0) - Number(b.price || 0);
@@ -173,7 +231,7 @@ function visibleOffers() {
 
 function cheapestMap() {
   const map = new Map();
-  for (const offer of state.offers.filter((offer) => state.selectedStoreIds.includes(offer.storeId) && shouldShowOfferByQuality(offer))) {
+  for (const offer of state.offers.filter((offer) => isSelectedStoreOffer(offer) && shouldShowOfferByQuality(offer))) {
     const key = normalize(offer.compareKey || offer.product);
     const current = map.get(key);
     const offerValue = Number(offer.unitPrice || offer.price || Infinity);
@@ -188,7 +246,7 @@ function cartTotal() {
 }
 
 function selectedStores() {
-  return STORE_CATALOG.filter((store) => state.selectedStoreIds.includes(store.id));
+  return STORE_CATALOG.filter((store) => selectedStoreIdSet().has(store.id));
 }
 
 function addToCart(offerId) {
@@ -206,8 +264,9 @@ function removeFromCart(cartId) {
 }
 
 function toggleStore(storeId) {
-  if (state.selectedStoreIds.includes(storeId)) {
-    state.selectedStoreIds = state.selectedStoreIds.filter((id) => id !== storeId);
+  storeId = canonicalStoreId(storeId);
+  if (state.selectedStoreIds.map((id) => canonicalStoreId(id)).includes(storeId)) {
+    state.selectedStoreIds = state.selectedStoreIds.filter((id) => canonicalStoreId(id) !== storeId);
   } else {
     state.selectedStoreIds.push(storeId);
   }
@@ -231,7 +290,7 @@ function addCheapestVisible() {
 
 function renderStores() {
   return STORE_CATALOG.map((store) => {
-    const active = state.selectedStoreIds.includes(store.id);
+    const active = selectedStoreIdSet().has(store.id);
     return `
       <button class="store-tile ${active ? 'active' : ''}" data-action="toggle-store" data-store-id="${store.id}">
         <div class="sub">${store.chain} · ${store.type}</div>
@@ -290,7 +349,7 @@ function renderCart() {
   if (!stores.length) return '<div class="empty">Nejdřív vyber prodejnu.</div>';
 
   return stores.map((store) => {
-    const items = state.cart.filter((item) => item.storeId === store.id);
+    const items = state.cart.filter((item) => canonicalStoreId(item.storeId) === store.id);
     const total = items.reduce((sum, item) => sum + Number(item.price || 0), 0);
     return `
       <section class="cart-store">
@@ -442,10 +501,10 @@ app.addEventListener('click', (event) => {
 
 async function loadOffers() {
   try {
-    const response = await fetch('./data/offers.json', { cache: 'no-store' });
+    const response = await fetch(`./data/offers.json?v=${Date.now()}`, { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
-    state.offers = Array.isArray(payload.offers) ? payload.offers : [];
+    state.offers = (Array.isArray(payload.offers) ? payload.offers : []).map(normalizeOffer);
     state.offersMeta = payload.meta || {};
     state.dataStatus = `Načteno ${state.offers.length} nabídek`;
   } catch (error) {

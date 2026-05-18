@@ -1,0 +1,69 @@
+{
+  "createdAt": "2026-05-18T12:14:04.879334+00:00",
+  "files": [
+    {
+      "path": ".github/workflows/audit-penny-pdf-full-import-v1.yml",
+      "size": 1010
+    },
+    {
+      "path": ".nojekyll",
+      "size": 0
+    },
+    {
+      "path": "README.md",
+      "size": 1359
+    },
+    {
+      "path": "README_NAHRAT_DO_GITHUBU.txt",
+      "size": 993
+    },
+    {
+      "path": "app.js",
+      "size": 18384
+    },
+    {
+      "path": "data/offers.json",
+      "size": 1460274
+    },
+    {
+      "path": "data/penny-pdf-pages.json",
+      "size": 85634
+    },
+    {
+      "path": "icons/icon-192.svg",
+      "size": 399
+    },
+    {
+      "path": "icons/icon-512.svg",
+      "size": 399
+    },
+    {
+      "path": "index.html",
+      "size": 548
+    },
+    {
+      "path": "manifest.webmanifest",
+      "size": 448
+    },
+    {
+      "path": "package.json",
+      "size": 352
+    },
+    {
+      "path": "scripts/audit-penny-pdf-full-import-v1.mjs",
+      "size": 9450
+    },
+    {
+      "path": "scripts/validate-offers.mjs",
+      "size": 650
+    },
+    {
+      "path": "service-worker.js",
+      "size": 1120
+    },
+    {
+      "path": "styles.css",
+      "size": 6508
+    }
+  ]
+}

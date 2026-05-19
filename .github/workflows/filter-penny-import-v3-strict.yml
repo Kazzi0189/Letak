@@ -1,0 +1,40 @@
+name: Filter Penny import V3 strict
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  filter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check JavaScript syntax
+        run: node --check scripts/filter-penny-import-v3-strict.mjs
+
+      - name: Filter Penny import V3 strict
+        run: node scripts/filter-penny-import-v3-strict.mjs
+
+      - name: Commit Penny import V3 strict filter
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add scripts/filter-penny-import-v3-strict.mjs data/penny-probe/penny-import-v3-strict-filter-summary.json data/penny-probe/penny-import-v3-strict-filter-candidates.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Filter Penny import V3 strict"
+            git push
+          fi
